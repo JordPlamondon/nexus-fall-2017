@@ -1,4 +1,4 @@
-# RED Startacting Right if you know what's good for you
+# RED Starter
 
 A WordPress starter theme for RED Academy students, forked from Underscores.
 
@@ -20,4 +20,5 @@ Next you'll need to run `npm install` **inside your theme directory** next to in
 
 Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
 
+I'm adding some stuff but it'll probably get deleted soon -s
 hi guys.

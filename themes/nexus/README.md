@@ -1,4 +1,4 @@
-# RED Starter
+# RED Startacting Right if you know what's good for you
 
 A WordPress starter theme for RED Academy students, forked from Underscores.
 

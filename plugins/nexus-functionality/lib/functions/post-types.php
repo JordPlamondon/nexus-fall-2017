@@ -12,8 +12,8 @@ function nexus_program() {
 	$labels = array(
 		'name'                  => _x( 'Programs', 'Post Type General Name', 'text_domain' ),
 		'singular_name'         => _x( 'Program', 'Post Type Singular Name', 'text_domain' ),
-		'menu_name'             => __( 'Program Types', 'text_domain' ),
-		'name_admin_bar'        => __( 'Program Type', 'text_domain' ),
+		'menu_name'             => __( 'Programs', 'text_domain' ),
+		'name_admin_bar'        => __( 'Programs', 'text_domain' ),
 		'archives'              => __( 'Program Archives', 'text_domain' ),
 		'attributes'            => __( 'Program Attributes', 'text_domain' ),
 		'parent_item_colon'     => __( 'Parent Program:', 'text_domain' ),
@@ -69,8 +69,8 @@ function nexus_faq() {
 		$labels = array(
 			'name'                  => _x( 'FAQs', 'Post Type General Name', 'text_domain' ),
 			'singular_name'         => _x( 'FAQ', 'Post Type Singular Name', 'text_domain' ),
-			'menu_name'             => __( 'FAQ Types', 'text_domain' ),
-			'name_admin_bar'        => __( 'FAQ Type', 'text_domain' ),
+			'menu_name'             => __( 'FAQs', 'text_domain' ),
+			'name_admin_bar'        => __( 'FAQ', 'text_domain' ),
 			'archives'              => __( 'FAQ Archives', 'text_domain' ),
 			'attributes'            => __( 'FAQ Attributes', 'text_domain' ),
 			'parent_item_colon'     => __( 'Parent FAQ:', 'text_domain' ),

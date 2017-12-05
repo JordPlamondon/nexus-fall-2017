@@ -86,7 +86,12 @@ function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'fonts', get_stylesheet_uri() );
 
-	wp_enqueue_script('jQuery');
+	wp_enqueue_script('jquery');
+
+
+	wp_enqueue_script( 'header-menu', get_template_directory_uri() . '/build/js/header-menu.min.js', array(), '20130115', true );
+
+
 
 	wp_enqueue_script( 'font-awesome-cdn', 'https://use.fontawesome.com/9420eb347a.js', array(), 4.7, true);
 

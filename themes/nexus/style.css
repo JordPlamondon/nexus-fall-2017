@@ -668,7 +668,7 @@ button:hover {
 
 /* Front page */
 .main-navigation {
-  background-color: white;
+  background-color: #ffffff;
   height: 65px;
   width: 100vw;
   display: -webkit-box;
@@ -698,7 +698,7 @@ button:hover {
   left: 75px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: white; }
+  background-color: #ffffff; }
   .menu-toggle ul {
     list-style-type: none; }
   .menu-toggle li {

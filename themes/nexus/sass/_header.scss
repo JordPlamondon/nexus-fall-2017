@@ -1,5 +1,5 @@
 .main-navigation {
-  background-color: white;
+  background-color: $color__background-body;
   height: 65px;
   width: 100vw;
   display: flex;
@@ -25,7 +25,7 @@
   position: relative;
   left: 75px;
   box-shadow: none;
-  background-color: white;
+  background-color: $color__background-body;
       ul {
         list-style-type: none;
       }

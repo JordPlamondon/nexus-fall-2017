@@ -26,6 +26,16 @@
   left: 75px;
   box-shadow: none;
   background-color: white;
-  border: none;
-  border-radius: 0px;
-}
+      ul {
+        list-style-type: none;
+      }
+      li {
+        text-align: center;
+        padding: 15px;
+        display: block;
+        float: none;
+      }
+      a {
+        text-decoration: none;
+      }
+  }

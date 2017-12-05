@@ -2,11 +2,11 @@
   background-color: white;
   height: 65px;
   width: 100vw;
-  min-width: 375px;
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  position: absolute;
 }
+
 .header-logo {
   height: 32px;
   width: 97px; 
@@ -22,28 +22,10 @@
   background-image: url("../../images/menu_icon@3x.png");
   background-size: 100% 100%;
   justify-self: flex-end;
-  position: fixed;
-  left: 325px;
-}
-.menu-content {
-  height: 400px;
-  width: 200px;
+  position: relative;
+  left: 75px;
+  box-shadow: none;
   background-color: white;
-  display: block;
-  position: fixed;
-  left: 175px;
-  top: 130px;
-  padding-top: 35px;
-      ul {
-        list-style-type: none;
-      }
-      li {
-        text-align: center;
-        padding: 15px;
-        display: block;
-        float: none;
-      }
-      a {
-        text-decoration: none;
-      }
-  }
+  border: none;
+  border-radius: 0px;
+}

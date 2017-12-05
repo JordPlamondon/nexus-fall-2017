@@ -48,7 +48,7 @@
 					<div class="business-hours">
 						<p class="office--hours">
 							<i class="fa fa-hourglass-end" aria-hidden="true"></i>
-							Office Hours: Monday-Friday, 9am- 5pm PST
+							Office Hours: Monday-Friday, 9am - 5pm PST
 						</p>
 					</div>
 					</div>

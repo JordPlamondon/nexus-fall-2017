@@ -715,3 +715,9 @@ button:hover {
     float: none; }
   .menu-content a {
     text-decoration: none; }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+  text-decoration: none; }

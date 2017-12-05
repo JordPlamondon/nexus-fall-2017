@@ -43,7 +43,7 @@ function nexus_program() {
 		'description'           => __( 'Programs for students to explore', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
-		'taxonomies'            => array( 'category', 'post_tag' ),
+		'taxonomies'            => array( 'category', 'post_tag', 'program_type', 'provinces' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -55,7 +55,7 @@ function nexus_program() {
 		'has_archive'           => true,
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
-		'capability_type'       => 'page',
+		'capability_type'       => 'post',
 		'show_in_rest'          => true,
 	);
 	register_post_type( 'nexus_program', $args );
@@ -100,7 +100,7 @@ function nexus_faq() {
 			'description'           => __( 'FAQ page for nexus website.', 'text_domain' ),
 			'labels'                => $labels,
 			'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
-			'taxonomies'            => array( 'category', 'post_tag' ),
+			'taxonomies'            => array( 'category', 'post_tag', 'faq' ),
 			'hierarchical'          => false,
 			'public'                => true,
 			'show_ui'               => true,
@@ -112,7 +112,7 @@ function nexus_faq() {
 			'has_archive'           => true,
 			'exclude_from_search'   => false,
 			'publicly_queryable'    => true,
-			'capability_type'       => 'page',
+			'capability_type'       => 'post',
 		);
 		register_post_type( 'nexus_faq', $args );
 	

@@ -41,7 +41,7 @@ function nexus_tax_program_types() {
 		'show_tagcloud'              => true,
 		'show_in_rest'               => true,
 	);
-	register_taxonomy( 'program_type', array( 'post', ' nexus_program' ), $args );
+	register_taxonomy( 'program_type', array(  'nexus_program' ), $args );
 
 }
 add_action( 'init', 'nexus_tax_program_types', 0 );
@@ -80,7 +80,7 @@ function nexus_tax_provinces() {
 		'show_tagcloud'              => true,
 		'show_in_rest'               => true,
 	);
-	register_taxonomy( 'program_type', array( 'post', ' nexus_program' ), $args );
+	register_taxonomy( 'provinces', array( 'nexus_program' ), $args );
 
 }
 add_action( 'init', 'nexus_tax_provinces', 0 );
@@ -120,7 +120,7 @@ function nexus_tax_faq() {
 		'show_tagcloud'              => true,
 		'show_in_rest'               => true,
 	);
-	register_taxonomy( 'program_type', array( 'post', ' nexus_faq' ), $args );
+	register_taxonomy( 'faq', array( ' nexus_faq' ), $args );
 
 }
 add_action( 'init', 'nexus_tax_faq', 0 );

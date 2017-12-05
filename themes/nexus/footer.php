@@ -9,14 +9,14 @@
 
 			</div><!-- #content -->
 <footer id="colophon" class="site-footer" role="contentinfo">
-	<div class="site-info">
+	<div class="footer__site-info">
 		<a href="<?php echo esc_url( 'https://nexusintercambia.com/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'Red Team' ); ?></a>
 
-		<section class="bottom-flex-area">
+		<section class="footer__bottom-flex-area">
 	
-			<div id="foot-contain" class="footer-blocks container">
+			<div id="foot-contain" class="footer__connected">
 				<h3>Stay Connected</h3>
-					<div class="footer-block-item">
+					<div class="footer__social-media">
 						<p>
 								<span>
 									<i class="fa fa-facebook-square"></i>
@@ -31,7 +31,7 @@
 									<i class="fa fa-instagram"></i>
 								</span>
 						</p>
-						<div class="contact">
+						<div class="footer__contact">
 							<h3>Contact Us</h3>
 							<p>
 								<i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -41,18 +41,14 @@
 										<i class="fa fa-phone"></i>
 										<a href="tel:6042886787">604 288 6787</a>
 									</p>
-
 						</div>
 					</div>
-					<div class="footer-block-item">
-					<div class="business-hours">
-						<p class="office--hours">
-							<i class="fa fa-hourglass-end" aria-hidden="true"></i>
+					<div class="footer__office">
+						<p class="footer__office--hours">
+							<i class="fa fa-hourglass-end"</i>
 							Office Hours: Monday-Friday, 9am - 5pm PST
 						</p>
 					</div>
-					</div>
-
 			</div>	
 		</section>
 	</div><!-- .site-info -->

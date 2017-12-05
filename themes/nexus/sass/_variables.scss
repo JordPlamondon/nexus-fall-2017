@@ -6,20 +6,24 @@ $base__space-unit: 1rem;
 
 
 
-$color__background-body: #fff;
-$color__text-main: #404040;
+// Decoration colors
 
-$color__background-screen: #f1f1f1;
-$color__text-screen: #21759b;
+$color__icon-element: #E91C35;
+$color__accent-underline: #FF8A2A;
+$color__info-main:#FFC54C;
 
-$color__background-hr: #ccc;
-$color__background-pre: #eee;
-$color__background-ins: #fff9c0;
-$color__border-abbr: #666;
+// Text colors
 
-$color__link: royalblue;
-$color__link-visited: purple;
-$color__link-hover: midnightblue;
+$color__text-main: #123048;
+$color__text-accent: #E00029;
+$color__text-quoteform: #898989;
+
+// Background colors for text areas
+
+$color__textbox-background: #F3F5F8;
+$color__footer-background: #15405A;
+$color__quoteform-background: #FFD479;
+
 
 // Typography
 
@@ -32,3 +36,16 @@ $font__pre: "Courier 10 Pitch", Courier, monospace;
 
 $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
+
+
+
+
+// Fallbacks
+
+$color--background-body: #ffffff;
+$color__background-hr: #ffffff;
+$color__background-screen: #ffffff;
+$color__text-screen: #123048;
+$color__link: #123048;
+$color__link-visited: #123048;
+$color__link-hover: lighten($color__link, 50%);

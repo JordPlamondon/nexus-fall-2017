@@ -85,6 +85,10 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
 function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 
+	wp_enqueue_script('jQuery');
+
+	wp_enqueue_script( 'font-awesome-cdn', 'https://use.fontawesome.com/9420eb347a.js', array(), 4.7, true);
+
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -102,3 +106,9 @@ require get_template_directory() . '/inc/template-tags.php';
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
+
+/**
+ * Removes error for Windows: 
+ * Notice: ob_end_flush(): failed to send buffer of zlib output compression (1) functions.php on line 3728.
+ */
+remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );

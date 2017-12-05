@@ -1,0 +1,30 @@
+.main-navigation {
+  background-color: white;
+  height: 65px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+.header-logo {
+  height: 32px;
+  width: 97px; 
+  margin: 17px 0 16px 15px;
+  background-image: url("../../images/nexus_logo_mobile@3x.png");
+  background-size: 100% 100%;
+  justify-self: flex-start;
+}
+.menu-toggle {
+  height: 17px;
+  width: 24px;
+  margin: 24px 25px 24px 0;
+  background-image: url("../../images/menu_icon@3x.png");
+  background-size: 100% 100%;
+  justify-self: flex-end;
+  position: relative;
+  left: 75px;
+  box-shadow: none;
+  background-color: white;
+  border: none;
+  border-radius: 0px;
+}

@@ -470,7 +470,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .menu-toggle {
-    display: none; }
+    display: block; }
   .main-navigation ul {
     display: block; } }
 
@@ -665,4 +665,45 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+button {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: white;
+  border: none;
+  border-radius: 0px; }
+
 /* Front page */
+.main-navigation {
+  background-color: white;
+  height: 65px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute; }
+
+.header-logo {
+  height: 32px;
+  width: 97px;
+  margin: 17px 0 16px 15px;
+  background-image: url("../../images/nexus_logo_mobile@3x.png");
+  background-size: 100% 100%;
+  justify-self: flex-start; }
+
+.menu-toggle {
+  height: 17px;
+  width: 24px;
+  margin: 24px 25px 24px 0;
+  background-image: url("../../images/menu_icon@3x.png");
+  background-size: 100% 100%;
+  justify-self: flex-end;
+  position: relative;
+  left: 75px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: white;
+  border: none;
+  border-radius: 0px; }

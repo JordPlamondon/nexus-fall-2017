@@ -35,6 +35,54 @@ function nexus_register_metaboxes() {
 		'desc' => 'The name of the program',
 		'id'   => $prefix . 'program_title',
 		'type' => 'text',
-	) );
+  ) );
+   $quote_meta->add_field( array(
+		'name' => 'Price',
+		'desc' => 'The price of the program',
+		'id'   => $prefix . 'program_price',
+		'type' => 'text',
+  ) );
+   $quote_meta->add_field( array(
+		'name' => 'Duration',
+		'desc' => 'The duration of the program',
+		'id'   => $prefix . 'program_duration',
+		'type' => 'text',
+  ) );
+  $quote_meta->add_field( array(
+		'name' => 'City',
+		'desc' => 'The City the program is located in',
+		'id'   => $prefix . 'program_city',
+		'type' => 'text',
+  ) );
+   $quote_meta->add_field( array(
+		'name' => 'About',
+		'desc' => 'The description of the program',
+		'id'   => $prefix . 'program_about',
+		'type' => 'wysiwyg',
+  ) );
+    $quote_meta->add_field( array(
+		'name' => 'About School',
+		'desc' => 'The description of the school',
+		'id'   => $prefix . 'program_school_about',
+		'type' => 'wysiwyg',
+  ) );
+     $quote_meta->add_field( array(
+		'name' => 'About City',
+		'desc' => 'The description of the City',
+		'id'   => $prefix . 'program_city_about',
+		'type' => 'wysiwyg',
+  ) );
+       $quote_meta->add_field( array(
+		'name' => 'City Photo',
+		'desc' => 'A photo of the City',
+		'id'   => $prefix . 'program_city_photo',
+		'type' => 'file',
+  ) );
+     $quote_meta->add_field( array(
+		'name' => 'Student Reviews',
+		'desc' => 'Student Reviews',
+		'id'   => $prefix . 'program_reviews',
+		'type' => 'wysiwyg',
+  ) );
 }
 add_action( 'cmb2_admin_init', 'nexus_register_metaboxes' );

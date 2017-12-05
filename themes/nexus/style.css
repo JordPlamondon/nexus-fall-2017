@@ -233,11 +233,7 @@ button,
 input,
 select,
 textarea {
-<<<<<<< HEAD
-  color: #404040;
-=======
   color: #123048;
->>>>>>> e28b9ef709bc862068c18352b6e66b8b03a593de
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -261,6 +257,7 @@ address {
   margin: 0 0 1rem; }
 
 pre {
+  background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
   font-size: 15px;
   font-size: 0.9375rem;
@@ -273,15 +270,6 @@ pre {
 code, kbd, tt, var {
   font-size: 15px;
   font-size: 0.9375rem; }
-
-abbr, acronym {
-  cursor: help; }
-
-mark, ins {
-  text-decoration: none; }
-
-big {
-  font-size: 125%; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -683,14 +671,13 @@ button:hover {
   background-color: white;
   height: 65px;
   width: 100vw;
-  min-width: 375px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: fixed; }
+  position: absolute; }
 
 .header-logo {
   height: 32px;
@@ -707,24 +694,17 @@ button:hover {
   background-image: url("../../images/menu_icon@3x.png");
   background-size: 100% 100%;
   justify-self: flex-end;
-  position: fixed;
-  left: 325px; }
-
-.menu-content {
-  height: 400px;
-  width: 200px;
-  background-color: white;
-  display: block;
-  position: fixed;
-  left: 175px;
-  top: 130px;
-  padding-top: 35px; }
-  .menu-content ul {
+  position: relative;
+  left: 75px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: white; }
+  .menu-toggle ul {
     list-style-type: none; }
-  .menu-content li {
+  .menu-toggle li {
     text-align: center;
     padding: 15px;
     display: block;
     float: none; }
-  .menu-content a {
+  .menu-toggle a {
     text-decoration: none; }

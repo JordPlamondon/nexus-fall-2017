@@ -235,7 +235,7 @@ select,
 textarea {
   color: #123048;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 10px;
   font-size: 1rem;
   line-height: 1.5; }
 
@@ -259,7 +259,7 @@ address {
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15px;
+  font-size: 9.375px;
   font-size: 0.9375rem;
   line-height: 1.6;
   margin-bottom: 1.6rem;
@@ -268,7 +268,7 @@ pre {
   padding: 1.6rem; }
 
 code, kbd, tt, var {
-  font-size: 15px;
+  font-size: 9.375px;
   font-size: 0.9375rem; }
 
 /*--------------------------------------------------------------
@@ -277,7 +277,7 @@ code, kbd, tt, var {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 16px;
+  font-size: 10px;
   font-size: 1rem; }
 
 *,
@@ -347,7 +347,7 @@ input[type="submit"] {
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
+  font-size: 7.5px;
   font-size: 0.75rem;
   line-height: 1;
   padding: .6rem 1rem .4rem;
@@ -498,7 +498,7 @@ a {
     clip: auto !important;
     color: #123048;
     display: block;
-    font-size: 14px;
+    font-size: 8.75px;
     font-size: 0.875rem;
     font-weight: bold;
     height: auto;
@@ -588,6 +588,13 @@ a {
 
 .bypostauthor {
   display: block; }
+
+.home {
+  min-width: 375px; }
+  .home .site-main .banner {
+    width: 100%;
+    height: 7.36%;
+    background: url("../../images/photo-hero-mobile.png"); }
 
 /*--------------------------------------------------------------
 # Media

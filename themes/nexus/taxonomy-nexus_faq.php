@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
+ * 
  * Template Name: FAQ
  * @package RED_Starter_Theme
  */

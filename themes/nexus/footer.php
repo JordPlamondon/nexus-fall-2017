@@ -12,6 +12,7 @@
 	<div class="footer__site-info">
 		<a href="<?php echo esc_url( 'https://nexusintercambia.com/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'Red Team' ); ?></a>
 
+		<?php get_sidebar(); ?>
 <?php wp_footer(); ?>
 
 	</body>

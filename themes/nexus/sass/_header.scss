@@ -1,5 +1,9 @@
 .main-navigation {
+<<<<<<< HEAD
   background-color: peachpuff;
+=======
+  background-color: $color__background-body;
+>>>>>>> 877ff393ad4102d3bc637309d93c5ee122c74237
   height: 65px;
   min-width: 325px;
   display: flex;
@@ -11,19 +15,32 @@
   margin: 17px 0 16px 15px;
   background-image: url("../../images/nexus_logo_mobile@3x.png");
   background-size: 100% 100%;
+<<<<<<< HEAD
 }
+=======
+  justify-self: flex-start;
+} 
+>>>>>>> 877ff393ad4102d3bc637309d93c5ee122c74237
 .menu-toggle {
   height: 17px;
   width: 24px;
   margin: 24px 25px 24px 0;
   background-image: url("../../images/menu_icon@3x.png");
   background-size: 100% 100%;
+<<<<<<< HEAD
 }
   .menu-content {
     height: 400px;
     width: 60vw;
     background-color: lawngreen;
     margin-left: 40vw;
+=======
+  justify-self: flex-end;
+  position: relative;
+  left: 75px;
+  box-shadow: none;
+  background-color: $color__background-body;
+>>>>>>> 877ff393ad4102d3bc637309d93c5ee122c74237
       ul {
         list-style-type: none;
         margin: 0;

@@ -668,7 +668,11 @@ button:hover {
 
 /* Front page */
 .main-navigation {
+<<<<<<< HEAD
   background-color: peachpuff;
+=======
+  background-color: #ffffff;
+>>>>>>> 877ff393ad4102d3bc637309d93c5ee122c74237
   height: 65px;
   min-width: 325px;
   display: -webkit-box;
@@ -690,6 +694,7 @@ button:hover {
   width: 24px;
   margin: 24px 25px 24px 0;
   background-image: url("../../images/menu_icon@3x.png");
+<<<<<<< HEAD
   background-size: 100% 100%; }
 
 .menu-content {
@@ -702,6 +707,18 @@ button:hover {
     margin: 0;
     padding: 0; }
   .menu-content li {
+=======
+  background-size: 100% 100%;
+  justify-self: flex-end;
+  position: relative;
+  left: 75px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #ffffff; }
+  .menu-toggle ul {
+    list-style-type: none; }
+  .menu-toggle li {
+>>>>>>> 877ff393ad4102d3bc637309d93c5ee122c74237
     text-align: center;
     padding-top: 15px;
     display: block;

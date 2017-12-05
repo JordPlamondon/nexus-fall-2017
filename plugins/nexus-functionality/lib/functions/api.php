@@ -68,7 +68,7 @@ add_action( 'rest_api_init', function() {
   );
     
   register_rest_field( 
-    'post',
+    'nexus_program',
     '_nexus_program_title',
     array(
       'get_callback'    => 'nexus_get_program_meta_fields',

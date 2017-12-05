@@ -233,8 +233,8 @@ button,
 input,
 select,
 textarea {
-  color: #404040;
-  font-family: sans-serif;
+  color: #123048;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -245,19 +245,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Copy */
 p {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1rem; }
 
 dfn, cite, em, i {
   font-style: italic; }
 
 blockquote {
-  margin: 0 1.5rem; }
+  margin: 0 1rem; }
 
 address {
-  margin: 0 0 1.5rem; }
+  margin: 0 0 1rem; }
 
 pre {
-  background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
   font-size: 15px;
   font-size: 0.9375rem;
@@ -268,16 +267,13 @@ pre {
   padding: 1.6rem; }
 
 code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem; }
 
 abbr, acronym {
-  border-bottom: 1px dotted #666;
   cursor: help; }
 
 mark, ins {
-  background: #fff9c0;
   text-decoration: none; }
 
 big {
@@ -300,7 +296,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: #fff;
+  background: #ffffff;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -309,13 +305,13 @@ blockquote, q {
     content: ""; }
 
 hr {
-  background-color: #ccc;
+  background-color: #ffffff;
   border: 0;
   height: 1px;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1rem; }
 
 ul, ol {
-  margin: 0 0 1.5rem 3rem; }
+  margin: 0 0 1rem 2rem; }
 
 ul {
   list-style: disc; }
@@ -326,13 +322,13 @@ ol {
 li > ul,
 li > ol {
   margin-bottom: 0;
-  margin-left: 1.5rem; }
+  margin-left: 1rem; }
 
 dt {
   font-weight: bold; }
 
 dd {
-  margin: 0 1.5rem 1.5rem; }
+  margin: 0 1rem 1rem; }
 
 img {
   height: auto;
@@ -341,7 +337,7 @@ img {
   /* Adhere to container width. */ }
 
 table {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
   width: 100%; }
 
 /*--------------------------------------------------------------
@@ -416,11 +412,11 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: #123048; }
   a:visited {
-    color: purple; }
+    color: #123048; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: #7bb2de; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -442,7 +438,7 @@ a {
               box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
       float: left;
       position: absolute;
-      top: 1.5rem;
+      top: 1rem;
       left: -999rem;
       z-index: 99999; }
       .main-navigation ul ul ul {
@@ -477,7 +473,7 @@ a {
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
   overflow: hidden; }
 
 .comment-navigation .nav-previous,
@@ -504,12 +500,12 @@ a {
   width: 1px;
   overflow: hidden; }
   .screen-reader-text:focus {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     border-radius: 3px;
     -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
             box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
     clip: auto !important;
-    color: #21759b;
+    color: #123048;
     display: block;
     font-size: 14px;
     font-size: 0.875rem;
@@ -530,12 +526,12 @@ a {
 .alignleft {
   display: inline;
   float: left;
-  margin-right: 1.5rem; }
+  margin-right: 1rem; }
 
 .alignright {
   display: inline;
   float: right;
-  margin-left: 1.5rem; }
+  margin-left: 1rem; }
 
 .aligncenter {
   clear: both;
@@ -555,7 +551,7 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
@@ -572,7 +568,7 @@ a {
   display: block; }
 
 .hentry {
-  margin: 0 0 1.5rem; }
+  margin: 0 0 1rem; }
 
 .updated:not(.published) {
   display: none; }
@@ -584,11 +580,11 @@ a {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5rem 0 0; }
+  margin: 1rem 0 0; }
 
 .page-links {
   clear: both;
-  margin: 0 0 1.5rem; }
+  margin: 0 0 1rem; }
 
 /* Asides */
 .blog .format-aside .entry-title,
@@ -621,7 +617,7 @@ object {
 
 /* Captions */
 .wp-caption {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   max-width: 100%; }
   .wp-caption img[class*="wp-image-"] {
     display: block;
@@ -635,7 +631,7 @@ object {
 
 /* Galleries*/
 .gallery {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1rem; }
 
 .gallery-item {
   display: inline-block;

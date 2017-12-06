@@ -851,6 +851,9 @@ button:hover {
   border-radius: 0px; }
 
 /* Front page */
+body.page-template-archive-nexus_program main {
+  padding-top: 65px; }
+
 .page-template-about .hero-wrapper {
   padding-top: 65px; }
   .page-template-about .hero-wrapper h1 {

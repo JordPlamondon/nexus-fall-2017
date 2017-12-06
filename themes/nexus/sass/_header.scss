@@ -19,8 +19,8 @@
   background-image: url("../../images/menu_icon@3x.png");
   background-size: 100% 100%;
 }
-
   .menu-content {
+    padding-top: 80px;
     height: 400px;
     width: 60vw;
     background-color:$color__textbox-background;
@@ -37,6 +37,8 @@
         float: none;
       }
       a {
+        font-family: $font__main;
+        font-weight: bold;
         text-decoration: none;
       }
   }

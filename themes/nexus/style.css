@@ -222,6 +222,10 @@ td,
 th {
   padding: 0; }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
@@ -590,11 +594,43 @@ a {
   display: block; }
 
 .home {
-  min-width: 375px; }
+  min-width: 375px;
+  margin-top: -15px; }
   .home .site-main .banner {
-    width: 100%;
-    height: 7.36%;
-    background: url("../../images/photo-hero-mobile.png"); }
+    padding-top: 4.5rem;
+    width: 100vw;
+    height: 25rem;
+    background: url("../../images/photo-hero-mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain; }
+    .home .site-main .banner__info {
+      width: 20rem;
+      margin-left: 2rem;
+      line-height: 3rem; }
+    .home .site-main .banner__info__h1 {
+      margin: 0;
+      font-size: 11vw;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #123048; }
+    .home .site-main .banner__info__p {
+      margin: 0;
+      font-size: 6vw;
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      font-style: italic;
+      color: #E00029;
+      text-transform: none;
+      text-align: center; }
+    .home .site-main .banner__p {
+      margin-left: 2rem;
+      font-size: 4vw;
+      font-style: italic;
+      width: 52%;
+      color: #123048; }
+    .home .site-main .banner__p__span {
+      font-weight: bold; }
 
 /*--------------------------------------------------------------
 # Media
@@ -700,6 +736,7 @@ button:hover {
   background-size: 100% 100%; }
 
 .menu-content {
+  padding-top: 80px;
   height: 400px;
   width: 60vw;
   background-color: #F3F5F8;
@@ -714,10 +751,82 @@ button:hover {
     display: block;
     float: none; }
   .menu-content a {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold;
     text-decoration: none; }
 
+<<<<<<< HEAD
+.page-template-about .hero-image {
+  height: 130px;
+  width: 100vw;
+  background-image: url("../../images/blog@3x.png");
+  background-size: 100% 100%; }
+
+.page-template-about .about-img {
+  border-radius: 100px;
+  height: 210px;
+  width: 210px;
+  background-color: pink; }
+
+.page-template-about .about-left {
+  height: 284px;
+  background-color: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 400px; }
+  .page-template-about .about-left h2 {
+    width: 400px;
+    text-align: center; }
+  .page-template-about .about-left img {
+    width: 200px; }
+  .page-template-about .about-left p {
+    width: 200px; }
+
+.page-template-about .about-right {
+  height: 284px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 400px; }
+  .page-template-about .about-right h2 {
+    width: 400px;
+    text-align: center; }
+  .page-template-about .about-right img {
+    width: 200px; }
+  .page-template-about .about-right p {
+    width: 200px; }
+
+.page-template-about .about-consultants {
+  background: grey;
+  text-align: center;
+  height: 284px; }
+  .page-template-about .about-consultants img {
+    margin: 0 auto; }
+=======
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-footer {
+div.footer__contact p a,
+div.footer__site-info a,
+div.footer__desktop--nav li a {
   text-decoration: none; }
+
+footer#colophon.site-footer a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+>>>>>>> b457e01938caa5d614cbad764985833d60689c8b

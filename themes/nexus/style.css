@@ -891,33 +891,34 @@ div.footer__social-media-container {
       -ms-flex-pack: center;
           justify-content: center; }
 
-h2.widget-title,
-.footer__contact h2,
-.footer__contact p,
-.footer__office p {
+div.textwidget {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center; }
-          flex-direction: row; }
 
-.hidden {
+h2.widget-title,
+.footer__contact h2 {
+  text-align: center; }
+
+.footer__contact,
+.footer__office {
+  max-width: 197px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .footer__contact p,
+  .footer__office p {
+    text-align: left; }
+
+.footer__contact--box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-
-div.footer__desktop--nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-  div.footer__desktop--nav ul.footer_desktop--nav--ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0; }
+      -ms-flex-direction: row;
+          flex-direction: row; }

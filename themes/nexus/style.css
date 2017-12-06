@@ -602,21 +602,21 @@ a {
     height: 25rem;
     background: url("../../images/photo-hero-mobile.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%; }
+    background-size: contain; }
     .home .site-main .banner__info {
       width: 20rem;
       margin-left: 2rem;
       line-height: 3rem; }
     .home .site-main .banner__info__h1 {
       margin: 0;
-      font-size: 3.9rem;
+      font-size: 11vw;
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       font-weight: 900;
       text-transform: uppercase;
       color: #123048; }
     .home .site-main .banner__info__p {
       margin: 0;
-      font-size: 2.1rem;
+      font-size: 6vw;
       font-family: "Raleway", Arial, Helvetica, sans-serif;
       font-weight: 600;
       font-style: italic;
@@ -625,9 +625,9 @@ a {
       text-align: center; }
     .home .site-main .banner__p {
       margin-left: 2rem;
-      font-size: 1.5rem;
+      font-size: 4vw;
       font-style: italic;
-      width: 21rem;
+      width: 52%;
       color: #123048; }
     .home .site-main .banner__p__span {
       font-weight: bold; }

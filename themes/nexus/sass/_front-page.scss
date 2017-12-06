@@ -9,7 +9,7 @@
       height: 25rem;
       background: url('../../images/photo-hero-mobile.png');
       background-repeat: no-repeat;
-      background-size: 100% 100%;
+      background-size: contain;
 
       &__info {
         width: 20rem;
@@ -19,7 +19,7 @@
 
       &__info__h1 {
         margin: 0;
-        font-size: 3.9rem;
+        font-size: 11vw;
         font-family: $font__main;
         font-weight: 900;
         text-transform: uppercase;
@@ -28,7 +28,7 @@
 
       &__info__p {
         margin: 0;
-        font-size: 2.1rem;
+        font-size: 6vw;
         font-family: $font__accent;
         font-weight: 600;
         font-style: italic;
@@ -39,9 +39,9 @@
 
       &__p {
         margin-left: 2rem;
-        font-size: 1.5rem;  
+        font-size: 4vw;  
         font-style: italic;
-        width: 21rem;
+        width: 52%;
         color: $color__text-main;
       }
 

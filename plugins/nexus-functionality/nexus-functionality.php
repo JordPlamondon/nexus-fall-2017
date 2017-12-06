@@ -58,5 +58,5 @@ include_once( RF_DIR . '/lib/functions/api.php' );
  * Custom functions that act independently of the theme templates.
  */
 include_once( RF_DIR . '/lib/functions/program-fields.php' );
-
+include_once( RF_DIR . '/lib/functions/faq-fields.php' );
 

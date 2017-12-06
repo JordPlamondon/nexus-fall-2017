@@ -1,17 +1,16 @@
-.main-navigation {
+header .main-navigation {
   background-color: $color__background-body;
   height: 65px;
   min-width: 325px;
   display: flex;
   justify-content: space-between;
-}
-.header-logo {
-  height: 32px;
-  width: 97px; 
-  margin: 17px 0 16px 15px;
-  background-image: url("../../images/nexus_logo_mobile@3x.png");
-  background-size: 100% 100%;
-}
+  .header-logo {
+    height: 32px;
+    width: 97px; 
+    margin: 17px 0 16px 15px;
+    background-image: url("../../images/nexus_logo_mobile@3x.png");
+    background-size: 100% 100%;
+  }
 .menu-toggle {
   height: 17px;
   width: 24px;
@@ -42,3 +41,4 @@
         text-decoration: none;
       }
   }
+}

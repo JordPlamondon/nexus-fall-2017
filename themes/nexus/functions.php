@@ -100,6 +100,14 @@ function red_starter_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+	if(function_exists('rest_url')){
+		wp_enqueue_script( 'nexus_api', get_template_directory_uri(). '/build/js/api.min.js', array(), false, true);
+		wp_localize_script( 'nexus_api', 'api_vars', array(
+			'root_url' => esc_url_raw( rest_url() ),
+			'home_url' => esc_url_raw( home_url() ),
+			'nonce'    => wp_create_nonce( 'wp_rest' )
+		) );
+	}
 }
 add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
 

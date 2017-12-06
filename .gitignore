@@ -46,3 +46,5 @@ themes/nexus/node_modules/*
 # ================== #
 themes/nexus/gulpfile.js
 themes/nexus/build/*
+
+sass/style.scss

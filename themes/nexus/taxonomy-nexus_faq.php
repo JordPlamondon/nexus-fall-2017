@@ -70,11 +70,13 @@ get_header(); ?>
 					<?php endif; ?>
 
 				</ul>			
-				<div class="about-journey">
+				<div class="faq-journey">
       		<h2> Start Your Journey<h2><br>
-      		<div class="underline"></div>
+					<div class="underline"></div>
+					<div class="journey-text">
       		<p>Let us help you find your path to success</p>
-      		<button class="consult">Book Consult</button>
+					<button class="consult">Book Consult</button>
+				</div>
       	</div>	
 			</section>			
 		</main><!-- #main -->

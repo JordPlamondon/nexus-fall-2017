@@ -1222,7 +1222,7 @@ p.footer__office--hours {
 .page-template-taxonomy-nexus_faq .faq-page {
   height: 130px;
   width: 100vw;
-  background-image: url("../../images/faq@3x.png");
+  background-image: url("../../assets/images/faq@3x.png");
   background-size: 100% 100%; }
 
 .page-template-taxonomy-nexus_faq .site-main .underline {
@@ -1236,10 +1236,13 @@ p.footer__office--hours {
   right: 3px; }
 
 .page-template-taxonomy-nexus_faq .site-main .shadow-border {
-  border-bottom: 1px solid #c5c5c5;
+  border-bottom: 1px solid #d1d1d1;
   -webkit-box-shadow: 0px 10px #F3F5F8;
           box-shadow: 0px 10px #F3F5F8;
-  padding-top: 15px; }
+  padding-top: 10px;
+  width: 383px;
+  right: 20px;
+  position: relative; }
 
 .page-template-taxonomy-nexus_faq .site-main ul {
   position: relative;
@@ -1264,9 +1267,11 @@ p.footer__office--hours {
       top: 15px; }
     .page-template-taxonomy-nexus_faq .site-main ul li p {
       position: relative;
-      bottom: 5px;
+      bottom: 6px;
       font-size: 14px;
-      font-weight: 200; }
+      font-weight: 100;
+      line-height: 26pt;
+      color: #15405A; }
     .page-template-taxonomy-nexus_faq .site-main ul li img {
       height: 126px;
       width: 103px;
@@ -1274,22 +1279,24 @@ p.footer__office--hours {
     .page-template-taxonomy-nexus_faq .site-main ul li a {
       text-decoration: none; }
 
-.page-template-taxonomy-nexus_faq .about-journey {
+.page-template-taxonomy-nexus_faq .faq-journey {
   height: 260px;
-  background-color: #F3F5F8; }
-  .page-template-taxonomy-nexus_faq .about-journey h2 {
+  background-color: #F3F5F8;
+  position: relative;
+  bottom: 20px; }
+  .page-template-taxonomy-nexus_faq .faq-journey h2 {
     font-size: 24px;
     text-align: center;
     color: #123048;
     font-weight: 900;
     position: relative;
     top: 20px; }
-  .page-template-taxonomy-nexus_faq .about-journey p {
+  .page-template-taxonomy-nexus_faq .faq-journey p {
     font-size: 14px;
     color: red;
     font-style: italic;
     font-weight: 200; }
-  .page-template-taxonomy-nexus_faq .about-journey .underline {
+  .page-template-taxonomy-nexus_faq .faq-journey .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;

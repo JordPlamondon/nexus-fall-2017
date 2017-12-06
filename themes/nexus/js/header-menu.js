@@ -11,9 +11,9 @@
   });
   
   
-    $('search-form').on('blur', function(){
+    $('.menu-content').on('click', function(){
   
-      $(this).toggle();
+      $('.menu-content').toggle().focus();
   
   
     });

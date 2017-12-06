@@ -992,6 +992,9 @@ button:hover {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+div#secondary.widget-area {
+  background-color: #15405a; }
+
 div.footer__contact p a,
 div.footer__site-info a,
 div.footer__desktop--nav li a {
@@ -1081,9 +1084,11 @@ h2.widget-title,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto; }
   .footer__contact p,
   .footer__office p {
     text-align: left; }
@@ -1096,6 +1101,21 @@ h2.widget-title,
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
+
+div.footer__social-media-container p {
+  height: 75%;
+  width: 75%;
+  padding: 0 1rem 0 1rem; }
+
+footer#colophon.site-footer {
+  background-color: #122E3F; }
+
+footer#colophon.site-footer,
+div#secondary.widget-area,
+div.footer__contact p a,
+.hidden a {
+  color: #ffffff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 nav.main-navigation {
   background-color: #ffffff;

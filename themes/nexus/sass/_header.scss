@@ -4,12 +4,15 @@ nav.main-navigation {
   min-width: 325px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  z-index: 10;
   .header-logo {
     height: 32px;
     width: 97px; 
     margin: 17px 0 16px 15px;
     background-image: url("../../images/nexus_logo_mobile@3x.png");
     background-size: 100% 100%;
+    z-index: 10;
   }
   .menu-toggle {
     height: 17px;
@@ -17,15 +20,18 @@ nav.main-navigation {
     margin: 24px 25px 24px 0;
     background-image: url("../../images/menu_icon@3x.png");
     background-size: 100% 100%;
+    z-index: 10;
   }
 }
   div.menu-content {
-    padding-top: 80px;
+    padding-top: 30px;
     height: 400px;
     width: 60vw;
     background-color:$color__textbox-background;
     margin-left: 40vw;
-
+    position: fixed;
+    margin-top: 65px;
+    z-index: 10;
       ul {
         list-style-type: none;
         margin: 0;
@@ -41,6 +47,19 @@ nav.main-navigation {
         font-family: $font__main;
         font-weight: bold;
         text-decoration: none;
+      }
+      button.consult {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        position: relative;
+        left: 60px;
+        top: 40px;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: white;
       }
   }
 ul#primary-menu {

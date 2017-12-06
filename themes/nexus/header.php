@@ -36,6 +36,7 @@
 
 				<div class="menu-content">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+						<button class="consult">Book Consult</button>
 				</div>
 
 			</header><!-- #masthead -->

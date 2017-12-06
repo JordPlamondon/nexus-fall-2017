@@ -34,6 +34,9 @@ get_header(); ?>
 							<?php the_excerpt(); ?>
 						</div>
 					</li>
+					<div class="underline"></div>
+					<div class="shadow-border"></div>
+					
 
 
 					<?php
@@ -68,4 +71,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-	<?php get_footer(); ?>
+<!-- add get footer -->

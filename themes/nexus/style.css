@@ -851,48 +851,6 @@ button:hover {
   border-radius: 0px; }
 
 /* Front page */
-header .main-navigation {
-  background-color: #ffffff;
-  height: 65px;
-  min-width: 325px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  header .main-navigation .header-logo {
-    height: 32px;
-    width: 97px;
-    margin: 17px 0 16px 15px;
-    background-image: url("../../images/nexus_logo_mobile@3x.png");
-    background-size: 100% 100%; }
-  header .main-navigation .menu-toggle {
-    height: 17px;
-    width: 24px;
-    margin: 24px 25px 24px 0;
-    background-image: url("../../images/menu_icon@3x.png");
-    background-size: 100% 100%; }
-  header .main-navigation .menu-content {
-    padding-top: 80px;
-    height: 400px;
-    width: 60vw;
-    background-color: #F3F5F8;
-    margin-left: 40vw; }
-    header .main-navigation .menu-content ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0; }
-    header .main-navigation .menu-content li {
-      text-align: center;
-      padding-top: 15px;
-      display: block;
-      float: none; }
-    header .main-navigation .menu-content a {
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
-
 .page-template-about .hero-wrapper {
   padding-top: 65px; }
   .page-template-about .hero-wrapper h1 {
@@ -1089,6 +1047,9 @@ header .main-navigation {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+div#secondary.widget-area {
+  background-color: #15405a; }
+
 div.footer__contact p a,
 div.footer__site-info a,
 div.footer__desktop--nav li a {
@@ -1162,8 +1123,153 @@ div.footer__social-media-container {
       -ms-flex-pack: center;
           justify-content: center; }
 
-h2.widget-title,
-.footer__contact h2,
-.footer__contact p,
-.footer__office p {
+div.textwidget {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center; }
+
+h2.widget-title,
+.footer__contact h2 {
+  text-align: center; }
+
+<<<<<<< HEAD
+.page-template-taxonomy-nexus_faq .faq-page {
+  height: 130px;
+  width: 100vw;
+  background-image: url("../../images/faq@3x.png");
+  background-size: 100% 100%; }
+
+.page-template-taxonomy-nexus_faq .site-main .underline {
+  margin: 0 auto;
+  width: 49px;
+  text-align: center;
+  border-bottom: 3px solid #FF8A2A;
+  position: relative;
+  bottom: 115px;
+  right: 3px; }
+
+.page-template-taxonomy-nexus_faq .site-main .shadow-border {
+  border-bottom: 1px solid #b6b6b6;
+  -webkit-box-shadow: 0px 10px #eeeeee;
+          box-shadow: 0px 10px #eeeeee;
+  padding-top: 15px; }
+
+.page-template-taxonomy-nexus_faq .site-main ul {
+  position: relative;
+  right: 20px;
+  padding: 0;
+  padding-top: 120px; }
+  .page-template-taxonomy-nexus_faq .site-main ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    height: 187px;
+    width: 100%; }
+    .page-template-taxonomy-nexus_faq .site-main ul li .list-text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+    .page-template-taxonomy-nexus_faq .site-main ul li h2 {
+      position: relative;
+      top: 15px; }
+    .page-template-taxonomy-nexus_faq .site-main ul li p {
+      position: relative;
+      bottom: 15px; }
+    .page-template-taxonomy-nexus_faq .site-main ul li img {
+      height: 126px;
+      width: 103px;
+      margin: 40px 20px; }
+    .page-template-taxonomy-nexus_faq .site-main ul li a {
+      text-decoration: none; }
+=======
+.footer__contact,
+.footer__office {
+  max-width: 197px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto; }
+  .footer__contact p,
+  .footer__office p {
+    text-align: left; }
+
+.footer__contact--box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+div.footer__social-media-container p {
+  height: 75%;
+  width: 75%;
+  padding: 0 1rem 0 1rem; }
+
+footer#colophon.site-footer {
+  background-color: #122E3F; }
+
+footer#colophon.site-footer,
+div#secondary.widget-area,
+div.footer__contact p a,
+.hidden a {
+  color: #ffffff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
+
+nav.main-navigation {
+  background-color: #ffffff;
+  height: 65px;
+  min-width: 325px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  nav.main-navigation .header-logo {
+    height: 32px;
+    width: 97px;
+    margin: 17px 0 16px 15px;
+    background-image: url("../../images/nexus_logo_mobile@3x.png");
+    background-size: 100% 100%; }
+  nav.main-navigation .menu-toggle {
+    height: 17px;
+    width: 24px;
+    margin: 24px 25px 24px 0;
+    background-image: url("../../images/menu_icon@3x.png");
+    background-size: 100% 100%; }
+
+div.menu-content {
+  padding-top: 80px;
+  height: 400px;
+  width: 60vw;
+  background-color: #F3F5F8;
+  margin-left: 40vw; }
+  div.menu-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  div.menu-content li {
+    text-align: center;
+    padding-top: 15px;
+    display: block;
+    float: none; }
+  div.menu-content a {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none; }
+
+ul#primary-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+>>>>>>> 269b846c058dce6018e82e01db7996300c1b7562

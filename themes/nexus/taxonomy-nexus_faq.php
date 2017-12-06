@@ -68,4 +68,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<!-- add get footer  -->
+	<?php get_footer(); ?>

@@ -858,7 +858,7 @@ body.page-template-archive-nexus_program main {
   padding-top: 65px; }
   .page-template-about .hero-wrapper h1 {
     text-align: center;
-    color: #123048;
+    color: #15405A;
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 900;
@@ -867,7 +867,7 @@ body.page-template-archive-nexus_program main {
   .page-template-about .hero-wrapper .hero-image {
     height: 139px;
     width: 100vw;
-    background-image: url("../../images/blog@3x.png");
+    background-image: url("../../assets/images/blog@3x.png");
     background-size: 100% 100%; }
   .page-template-about .hero-wrapper .underline {
     margin: 0 auto;
@@ -880,10 +880,10 @@ body.page-template-archive-nexus_program main {
 .page-template-about .mission-wrapper h2 {
   font-size: 24px;
   text-align: center;
-  color: #123048;
+  color: #15405A;
   font-weight: 900;
   position: relative;
-  top: 50px; }
+  top: 20px; }
 
 .page-template-about .mission-wrapper .underline {
   margin: 0 auto;
@@ -891,17 +891,21 @@ body.page-template-archive-nexus_program main {
   text-align: center;
   border-bottom: 3px solid #FF8A2A;
   position: relative;
-  top: 34px; }
+  top: 14px; }
 
 .page-template-about .mission-wrapper p {
+  font-size: 14px;
+  line-height: 26px;
   width: 80%;
   margin: 0 auto;
   margin-bottom: 40px;
   text-align: center;
-  padding-top: 70px; }
+  padding-top: 40px;
+  font-weight: 200;
+  color: #15405A; }
 
 .page-template-about .about-help {
-  height: 100px;
+  height: 70px;
   background-color: #F3F5F8; }
   .page-template-about .about-help h2 {
     font-size: 24px;
@@ -922,7 +926,7 @@ body.page-template-archive-nexus_program main {
   height: 160px;
   max-width: 160px;
   border-radius: 100px;
-  margin: 0 14px 30px 14px; }
+  margin: 14px 14px 30px 14px; }
 
 .page-template-about .about-left {
   height: 264px;
@@ -948,7 +952,9 @@ body.page-template-archive-nexus_program main {
     font-size: 14px;
     width: 48%;
     text-align: right;
-    padding-right: 14px; }
+    padding-right: 14px;
+    line-height: 16pt;
+    color: #15405A; }
 
 .page-template-about .about-right {
   height: 264px;
@@ -971,7 +977,9 @@ body.page-template-archive-nexus_program main {
   .page-template-about .about-right img {
     width: 200px; }
   .page-template-about .about-right p {
+    color: #15405A;
     width: 200px;
+    line-height: 16pt;
     text-align: left;
     font-size: 14px;
     padding-left: 14px; }
@@ -981,11 +989,16 @@ body.page-template-archive-nexus_program main {
   background-color: white;
   display: block;
   text-align: center; }
+  .page-template-about .about-consultants p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #898989;
+    line-height: 16pt; }
   .page-template-about .about-consultants img {
     margin: 0 auto;
     height: 204px;
     width: 204px;
-    margin: 30px 0 14px 0;
+    margin: 30px 0 0 0;
     border-radius: 100px; }
   .page-template-about .about-consultants i {
     display: inline-block;
@@ -1004,7 +1017,7 @@ body.page-template-archive-nexus_program main {
     color: #123048;
     font-weight: normal;
     position: relative;
-    top: 20px; }
+    top: 14px; }
   .page-template-about .about-consultants .underline {
     margin: 0 auto;
     width: 49px;
@@ -1014,38 +1027,47 @@ body.page-template-archive-nexus_program main {
     bottom: 20px; }
 
 .page-template-about .about-journey {
-  height: 260px;
+  height: 195px;
   background-color: #F3F5F8; }
   .page-template-about .about-journey h2 {
     font-size: 24px;
     text-align: center;
-    color: #123048;
+    color: #15405A;
     font-weight: 900;
     position: relative;
-    top: 20px; }
+    top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1pt; }
   .page-template-about .about-journey p {
     font-size: 14px;
     color: red;
     font-style: italic;
-    font-weight: 200; }
+    font-weight: 200;
+    position: relative;
+    text-transform: none;
+    bottom: 42px; }
   .page-template-about .about-journey .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 20px; }
+    bottom: 48px; }
 
 .page-template-about button.consult {
-  width: 135px;
+  letter-spacing: 1pt;
+  width: 175px;
   height: 40px;
   padding: 0;
   border-radius: 25px 0px 25px 0px;
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none;
+  font-size: 18px;
   background: #E91C35;
-  color: white; }
+  color: white;
+  position: relative;
+  bottom: 40px; }
 
 /*--------------------------------------------------------------
 # Footer
@@ -1160,8 +1182,6 @@ h2.widget-title,
           flex-direction: row; }
 
 div.footer__social-media-container p {
-  height: 75%;
-  width: 75%;
   height: 50%;
   width: 50%;
   padding: 0 1rem 0 1rem; }
@@ -1176,8 +1196,6 @@ div.footer__contact p a,
   color: #ffffff;
   font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
-<<<<<<< HEAD
-=======
 aside#text-2.widget.widget_text {
   max-height: 491px; }
 
@@ -1206,7 +1224,6 @@ div.widget_info_contain p,
 p.footer__office--hours {
   max-width: 197px; }
 
-<<<<<<< HEAD
 div.footer__contact,
 div.footer__office {
   -webkit-box-pack: center;
@@ -1221,9 +1238,6 @@ section.footer_contact_info {
       -ms-flex-pack: center;
           justify-content: center; }
 
-=======
->>>>>>> 61bf87ec4de74f5dc39991b69e6dd94b8ec6e960
->>>>>>> d0d66fcc0f22b7f9c2ab05fb2c81e3086b183cb0
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
   text-align: center;
   color: #123048;
@@ -1346,8 +1360,8 @@ nav.main-navigation {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: fixed;
-  z-index: 10; }
+  z-index: 10;
+  top: 0px; }
   nav.main-navigation .header-logo {
     height: 32px;
     width: 97px;
@@ -1369,7 +1383,6 @@ div.menu-content {
   width: 60vw;
   background-color: #F3F5F8;
   margin-left: 40vw;
-  position: fixed;
   margin-top: 65px;
   z-index: 10; }
   div.menu-content ul {

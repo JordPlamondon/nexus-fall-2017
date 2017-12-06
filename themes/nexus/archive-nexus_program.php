@@ -12,10 +12,11 @@ get_header(); ?>
     <?php
     if( $terms = get_terms( array(
                   'taxonomy' => 'program_type',
-                  'hide_empty' => 0 ) ) ) :
+									'hide_empty' => 0 ) ) ) :
+			
 	    echo '<select name="programfilter"><option>Select category...</option>';
-	    foreach ( $terms as $term ) :
-		    echo '<option value="">' . $term->name . '</option>'; // ID of the category as the value of an option
+			foreach ( $terms as $term ) :
+		    echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
 	    endforeach;
 	    echo '</select>';
     endif;
@@ -24,14 +25,17 @@ get_header(); ?>
      <?php
     if( $terms = get_terms( array(
                   'taxonomy' => 'provinces', 
-                  'hide_empty' => 0) ) ) : // to make it simple I use default categories
+									'hide_empty' => 0) ) ) : // to make it simple I use default categories
+			echo var_dump($terms);
 	    echo '<select name="categoryfilter"><option>Select category...</option>';
 	    foreach ( $terms as $term ) :
-		    echo '<option value="">' . $term->name . '</option>'; // ID of the category as the value of an option
+		    echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
 	    endforeach;
 	    echo '</select>';
     endif;
-    ?>
+		?>
+		
+		<button class="program-filter-submit">Explore</button>
 
 
 		<?php if ( have_posts() ) : ?>

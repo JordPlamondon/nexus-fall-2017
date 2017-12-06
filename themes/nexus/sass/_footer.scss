@@ -2,8 +2,9 @@
 # Footer
 --------------------------------------------------------------*/
 
-
-
+div#secondary.widget-area {
+  background-color: rgba(21,64,90,1);
+}
 
 div.footer__contact p a,
 div.footer__site-info a,
@@ -87,7 +88,9 @@ h2.widget-title,
 .footer__office {
   max-width: 197px;
   display:  flex;
-  justify-content: center;
+  flex-direction: column;
+  // justify-content: center;
+  margin: auto;
   p {
     text-align: left;
   }
@@ -96,4 +99,22 @@ h2.widget-title,
 .footer__contact--box {
   display: flex;
   flex-direction: row;
+}
+
+div.footer__social-media-container p {
+  height: 75%;
+  width: 75%;
+  padding: 0 1rem 0 1rem;
+}
+
+footer#colophon.site-footer {
+  background-color: #122E3F;
+}
+
+footer#colophon.site-footer,
+div#secondary.widget-area,
+div.footer__contact p a,
+.hidden a {
+  color: $color__background-hr;
+  font-family: $font__main
 }

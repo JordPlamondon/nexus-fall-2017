@@ -86,7 +86,7 @@ h2.widget-title,
 
 .footer__contact,
 .footer__office {
-  max-width: 197px;
+ 
   display:  flex;
   flex-direction: column;
   // justify-content: center;
@@ -102,8 +102,8 @@ h2.widget-title,
 }
 
 div.footer__social-media-container p {
-  height: 75%;
-  width: 75%;
+  height: 50%;
+  width: 50%;
   padding: 0 1rem 0 1rem;
 }
 
@@ -117,4 +117,27 @@ div.footer__contact p a,
 .hidden a {
   color: $color__background-hr;
   font-family: $font__main
+}
+
+aside#text-2.widget.widget_text {
+  height: 491px;
+}
+h2.widget-title {
+  padding-top: 43px;
+}
+
+div.widget_info_contain {
+  display: flex;
+  flex-direction: row;
+}
+
+div.widget_fa {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+div.widget_info_contain p,
+p.footer__office--hours {
+  max-width: 197px;
 }

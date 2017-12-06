@@ -1046,6 +1046,7 @@ h2.widget-title,
 .footer__contact p,
 .footer__office p {
   text-align: center; }
+<<<<<<< HEAD
           flex-direction: row; }
 
 .hidden {
@@ -1072,3 +1073,5 @@ div.footer__desktop--nav {
     margin: 0;
     padding: 0; }
 >>>>>>> 46b7058071234343f964a190cbc2324d943999c2
+=======
+>>>>>>> 69c2e6988b18708c9a1cda63ff4b5dacc92d8a92

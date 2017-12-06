@@ -12,11 +12,10 @@ get_header(); ?>
     <?php
     if( $terms = get_terms( array(
                   'taxonomy' => 'program_type',
-                  'hide_empty' => false ), 
-                  'orderby=name' ) ) :
+                  'hide_empty' => 0 ) ) ) :
 	    echo '<select name="programfilter"><option>Select category...</option>';
 	    foreach ( $terms as $term ) :
-		    echo '<option value="' . $term->name . '">' . $term->name . '</option>'; // ID of the category as the value of an option
+		    echo '<option value="">' . $term->name . '</option>'; // ID of the category as the value of an option
 	    endforeach;
 	    echo '</select>';
     endif;
@@ -25,11 +24,10 @@ get_header(); ?>
      <?php
     if( $terms = get_terms( array(
                   'taxonomy' => 'provinces', 
-                  'hide_empty' => 'false'), 
-                  'orderby=name' ) ) : // to make it simple I use default categories
+                  'hide_empty' => 0) ) ) : // to make it simple I use default categories
 	    echo '<select name="categoryfilter"><option>Select category...</option>';
 	    foreach ( $terms as $term ) :
-		    echo '<option value="' . $term->term_id . '">' . $term->name . '</option>'; // ID of the category as the value of an option
+		    echo '<option value="">' . $term->name . '</option>'; // ID of the category as the value of an option
 	    endforeach;
 	    echo '</select>';
     endif;

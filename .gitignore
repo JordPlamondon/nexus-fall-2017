@@ -17,6 +17,7 @@ ehthumbs.db
 *.sql
 error_log
 access_log
+style.css
 
 # Ignore everything in "wp-content" except the "plugins" and "themes" directories. #
 # ================================================================================ #

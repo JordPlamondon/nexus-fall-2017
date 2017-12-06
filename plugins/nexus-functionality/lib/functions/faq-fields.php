@@ -38,6 +38,7 @@ function nexus_register_metaboxes_2() {
       // 'closed'     => true, // true to have the groups closed by default
     ),
   ) );
+
   
   // Id's for group's fields only need to be unique for the group. Prefix is not needed.
   $cmb->add_group_field( $group_field_id, array(

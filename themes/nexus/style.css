@@ -1075,6 +1075,28 @@ h2.widget-title,
 .footer__contact h2 {
   text-align: center; }
 
+.footer__contact,
+.footer__office {
+  max-width: 197px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .footer__contact p,
+  .footer__office p {
+    text-align: left; }
+
+.footer__contact--box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
 nav.main-navigation {
   background-color: #ffffff;
   height: 65px;
@@ -1122,24 +1144,3 @@ ul#primary-menu {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-.footer__contact,
-.footer__office {
-  max-width: 197px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .footer__contact p,
-  .footer__office p {
-    text-align: left; }
-
-.footer__contact--box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }

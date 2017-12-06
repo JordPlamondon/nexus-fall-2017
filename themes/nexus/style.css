@@ -827,4 +827,26 @@ footer#colophon.site-footer a {
   text-decoration: none; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+div.footer__site-info.hidden {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+@media screen and (max-width: 550px) {
+  .hidden {
+    display: none; } }
+
+@media screen and (min-width: 551px) {
+  .hidden {
+    display: show; } }
+
+.page-template-taxonomy-nexus-faq #page {
+  height: 130px;
+  width: 100vw;
+  background-image: url("../../images/faq@3x.png");
+  background-size: 100% 100%; }

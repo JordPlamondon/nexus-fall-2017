@@ -755,7 +755,6 @@ button:hover {
     font-weight: bold;
     text-decoration: none; }
 
-<<<<<<< HEAD
 .page-template-about .hero-image {
   height: 130px;
   width: 100vw;
@@ -815,7 +814,7 @@ button:hover {
   height: 284px; }
   .page-template-about .about-consultants img {
     margin: 0 auto; }
-=======
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -829,4 +828,3 @@ footer#colophon.site-footer a {
 
 ul {
   list-style: none; }
->>>>>>> b457e01938caa5d614cbad764985833d60689c8b

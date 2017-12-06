@@ -815,6 +815,7 @@ button:hover {
   .page-template-about .about-consultants img {
     margin: 0 auto; }
 
+<<<<<<< HEAD
 .page-template-taxonomy-nexus_faq .faq-page {
   height: 130px;
   width: 100vw;
@@ -848,3 +849,86 @@ button:hover {
       margin: 40px 20px; }
   .page-template-taxonomy-nexus_faq .site-main ul a {
     text-decoration: none; }
+=======
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+div.footer__contact p a,
+div.footer__site-info a,
+div.footer__desktop--nav li a {
+  text-decoration: none; }
+
+div.footer__site-info.hidden {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 551px; }
+
+div.footer_hidden_anchor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  padding-left: 3rem; }
+
+div.footer__desktop--nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  padding-right: 3rem; }
+  div.footer__desktop--nav ul.footer_desktop--nav--ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+
+.footer--nav--li {
+  padding-left: 1rem; }
+
+@media screen and (max-width: 550px) {
+  div.footer__site-info.hidden {
+    display: none; }
+  ::before {
+    display: show; } }
+
+@media screen and (min-width: 551px) {
+  div.footer__site-info.hidden {
+    display: show; }
+  ::before {
+    display: none; } }
+
+div.footer__social-media-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+h2.widget-title,
+.footer__contact h2,
+.footer__contact p,
+.footer__office p {
+  text-align: center; }
+>>>>>>> 69c2e6988b18708c9a1cda63ff4b5dacc92d8a92

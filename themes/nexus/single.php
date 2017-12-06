@@ -21,7 +21,32 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
+<?php
+$entries = get_post_meta( get_the_ID(), '_nexus_', true );
 
+foreach ( (array) $entries as $key => $entry ) {
+
+	$img = $title = $desc = $caption = '';
+
+	if ( isset( $entry['title'] ) ) {
+		$title = esc_html( $entry['title'] );
+	}
+
+	if ( isset( $entry['description'] ) ) {
+		$desc = wpautop( $entry['description'] );
+	}
+
+	if ( isset( $entry['image_id'] ) ) {
+		$img = wp_get_attachment_image( $entry['image_id'], 'share-pick', null, array(
+			'class' => 'thumb',
+		) );
+	}
+
+	$caption = isset( $entry['image_caption'] ) ? wpautop( $entry['image_caption'] ) : '';
+
+	// Do something with the data
+}
+?>
 		<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->

@@ -856,10 +856,10 @@ div.footer_hidden--container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: spa;
-          flex-direction: spa; }
+      -ms-flex-direction: row;
+          flex-direction: row; }
 
 .hidden {
   display: -webkit-box;
@@ -877,16 +877,10 @@ div.footer__desktop--nav {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
-  div.footer__desktop--nav ul {
+  div.footer__desktop--nav ul.footer_desktop--nav--ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0; }
-
-.page-template-taxonomy-nexus-faq #page {
-  height: 130px;
-  width: 100vw;
-  background-image: url("../../images/faq@3x.png");
-  background-size: 100% 100%; }

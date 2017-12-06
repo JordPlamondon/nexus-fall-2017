@@ -120,7 +120,7 @@ div.footer__contact p a,
 }
 
 aside#text-2.widget.widget_text {
-  height: 491px;
+  max-height: 491px;
 }
 h2.widget-title {
   padding-top: 43px;
@@ -140,4 +140,15 @@ div.widget_fa {
 div.widget_info_contain p,
 p.footer__office--hours {
   max-width: 197px;
+
+}
+
+div.footer__contact,
+div.footer__office {
+  justify-content: center;
+}
+
+section.footer_contact_info {
+  display: flex;
+  justify-content: center;
 }

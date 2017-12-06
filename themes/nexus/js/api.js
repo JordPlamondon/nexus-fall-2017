@@ -33,7 +33,8 @@
   $('.program-filter-submit').on('click', function (event){
     event.preventDefault();
     var program = $('select[name*="programfilter"').val(); 
-    var request = 'wp/v2/nexus_program/?filter[program_type]=' + program;
+    var province = $('select[name*="provincefilter"').val(); 
+    var request = 'wp/v2/nexus_program/?filter[program_type]=' + program + '&filter[provinces]=' + province;
 
     console.log(program);
 

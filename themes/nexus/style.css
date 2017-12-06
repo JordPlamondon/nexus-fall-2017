@@ -1160,13 +1160,8 @@ h2.widget-title,
           flex-direction: row; }
 
 div.footer__social-media-container p {
-<<<<<<< HEAD
-  height: 75%;
-  width: 75%;
-=======
   height: 50%;
   width: 50%;
->>>>>>> 61bf87ec4de74f5dc39991b69e6dd94b8ec6e960
   padding: 0 1rem 0 1rem; }
 
 footer#colophon.site-footer {
@@ -1179,8 +1174,6 @@ div.footer__contact p a,
   color: #ffffff;
   font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
-<<<<<<< HEAD
-=======
 aside#text-2.widget.widget_text {
   height: 491px; }
 
@@ -1209,7 +1202,6 @@ div.widget_info_contain p,
 p.footer__office--hours {
   max-width: 197px; }
 
->>>>>>> 61bf87ec4de74f5dc39991b69e6dd94b8ec6e960
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
   text-align: center;
   color: #123048;
@@ -1278,6 +1270,7 @@ p.footer__office--hours {
       bottom: 6px;
       font-size: 14px;
       font-weight: 100;
+      line-height: 26pt;
       color: #15405A; }
     .page-template-taxonomy-nexus_faq .site-main ul li img {
       height: 126px;

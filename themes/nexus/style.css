@@ -826,6 +826,32 @@ div.footer__desktop--nav li a {
 footer#colophon.site-footer a {
   text-decoration: none; }
 
+<<<<<<< HEAD
+ul {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+div.footer__site-info.hidden {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+@media screen and (max-width: 550px) {
+  .hidden {
+    display: none; } }
+
+@media screen and (min-width: 551px) {
+  .hidden {
+    display: show; } }
+
+.page-template-taxonomy-nexus-faq #page {
+  height: 130px;
+  width: 100vw;
+  background-image: url("../../images/faq@3x.png");
+  background-size: 100% 100%; }
+=======
 div.footer__site-info.hidden {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -884,3 +910,4 @@ div.footer__desktop--nav {
     list-style: none;
     margin: 0;
     padding: 0; }
+>>>>>>> 5eeb09940584c4335f8a4021eea6bf8e579627d9

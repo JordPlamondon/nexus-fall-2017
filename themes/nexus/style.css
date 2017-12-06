@@ -755,5 +755,13 @@ button:hover {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-footer {
+div.footer__contact p a,
+div.footer__site-info a,
+div.footer__desktop--nav li a {
   text-decoration: none; }
+
+footer#colophon.site-footer a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }

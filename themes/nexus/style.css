@@ -693,6 +693,7 @@ button:hover {
   background-size: 100% 100%; }
 
 .menu-content {
+  padding-top: 80px;
   height: 400px;
   width: 60vw;
   background-color: #F3F5F8;
@@ -707,4 +708,66 @@ button:hover {
     display: block;
     float: none; }
   .menu-content a {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold;
     text-decoration: none; }
+
+.page-template-about .hero-image {
+  height: 130px;
+  width: 100vw;
+  background-image: url("../../images/blog@3x.png");
+  background-size: 100% 100%; }
+
+.page-template-about .about-img {
+  border-radius: 100px;
+  height: 210px;
+  width: 210px;
+  background-color: pink; }
+
+.page-template-about .about-left {
+  height: 284px;
+  background-color: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 400px; }
+  .page-template-about .about-left h2 {
+    width: 400px;
+    text-align: center; }
+  .page-template-about .about-left img {
+    width: 200px; }
+  .page-template-about .about-left p {
+    width: 200px; }
+
+.page-template-about .about-right {
+  height: 284px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 400px; }
+  .page-template-about .about-right h2 {
+    width: 400px;
+    text-align: center; }
+  .page-template-about .about-right img {
+    width: 200px; }
+  .page-template-about .about-right p {
+    width: 200px; }
+
+.page-template-about .about-consultants {
+  background: grey;
+  text-align: center;
+  height: 284px; }
+  .page-template-about .about-consultants img {
+    margin: 0 auto; }

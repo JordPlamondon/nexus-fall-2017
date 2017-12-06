@@ -10,10 +10,24 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
     <?php
-    if( $terms = get_terms( 'category', 'orderby=name' ) ) : // to make it simple I use default categories
+    if( $terms = get_terms( array(
+                  'taxonomy' => 'program_type',
+                  'hide_empty' => 0 ) ) ) :
+	    echo '<select name="programfilter"><option>Select category...</option>';
+	    foreach ( $terms as $term ) :
+		    echo '<option value="">' . $term->name . '</option>'; // ID of the category as the value of an option
+	    endforeach;
+	    echo '</select>';
+    endif;
+    ?>
+
+     <?php
+    if( $terms = get_terms( array(
+                  'taxonomy' => 'provinces', 
+                  'hide_empty' => 0) ) ) : // to make it simple I use default categories
 	    echo '<select name="categoryfilter"><option>Select category...</option>';
 	    foreach ( $terms as $term ) :
-		    echo '<option value="' . $term->term_id . '">' . $term->name . '</option>'; // ID of the category as the value of an option
+		    echo '<option value="">' . $term->name . '</option>'; // ID of the category as the value of an option
 	    endforeach;
 	    echo '</select>';
     endif;

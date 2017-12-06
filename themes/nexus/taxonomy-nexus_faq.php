@@ -9,6 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			
 			<section class="faq-page">
 
 				<ul class "faq-categories">
@@ -26,10 +27,12 @@ get_header(); ?>
 
 					<li>
 						<?php the_post_thumbnail( 'full' ); ?>
-						<a href="<?php the_permalink(); ?>" rel="faq title"> 
-							<h2><?php the_title(); ?></h2>
-						</a>	
-						<?php the_excerpt(); ?>
+						<div class="list-text">
+							<a href="<?php the_permalink(); ?>" rel="faq title"> 
+								<h2><?php the_title(); ?></h2>
+							</a>	
+							<?php the_excerpt(); ?>
+						</div>
 					</li>
 
 
@@ -65,5 +68,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<!-- add get footer  -->

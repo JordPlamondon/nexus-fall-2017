@@ -1,4 +1,4 @@
-header .main-navigation {
+nav.main-navigation {
   background-color: $color__background-body;
   height: 65px;
   min-width: 325px;
@@ -11,19 +11,21 @@ header .main-navigation {
     background-image: url("../../images/nexus_logo_mobile@3x.png");
     background-size: 100% 100%;
   }
-.menu-toggle {
-  height: 17px;
-  width: 24px;
-  margin: 24px 25px 24px 0;
-  background-image: url("../../images/menu_icon@3x.png");
-  background-size: 100% 100%;
+  .menu-toggle {
+    height: 17px;
+    width: 24px;
+    margin: 24px 25px 24px 0;
+    background-image: url("../../images/menu_icon@3x.png");
+    background-size: 100% 100%;
+  }
 }
-  .menu-content {
+  div.menu-content {
     padding-top: 80px;
     height: 400px;
     width: 60vw;
     background-color:$color__textbox-background;
     margin-left: 40vw;
+
       ul {
         list-style-type: none;
         margin: 0;
@@ -41,4 +43,8 @@ header .main-navigation {
         text-decoration: none;
       }
   }
+ul#primary-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

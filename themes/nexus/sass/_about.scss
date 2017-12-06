@@ -1,0 +1,60 @@
+.page-template-about {
+.hero-image {
+  height: 130px;
+  width: 100vw;
+  background-image: url("../../images/blog@3x.png");
+  background-size: 100% 100%;
+}
+.about-img{
+    border-radius: 100px;
+    height: 210px;
+    width: 210px;
+    background-color: pink;
+}
+.about-left {
+  height: 284px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+  h2 {
+    width: 400px;
+    text-align: center;
+  }
+img {
+   width: 200px;
+}
+p {
+  width: 200px;
+}
+}
+.about-right {
+  height: 284px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+  h2 {
+    width: 400px;
+    text-align: center;
+  }
+img {
+   width: 200px;
+}
+p {
+  width: 200px;
+}
+}
+.about-consultants {
+  background: grey;
+  text-align: center;
+  height: 284px;
+  img {
+    margin: 0 auto;
+  }
+}
+
+}
+
+

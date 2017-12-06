@@ -2,14 +2,11 @@
 # Footer
 --------------------------------------------------------------*/
 
-
-
 div.footer__contact p a,
 div.footer__site-info a,
 div.footer__desktop--nav li a {
   text-decoration: none;
-}
-
+} 
 
 footer#colophon.site-footer a {
   text-decoration: none;
@@ -17,4 +14,22 @@ footer#colophon.site-footer a {
 
 ul {
   list-style: none;
+  display: inline-flex;
+} 
+
+div.footer__site-info.hidden {
+  display: inline-flex;
+}
+
+
+@media screen and (max-width: 550px){
+  .hidden {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 551px){
+  .hidden {
+    display: show;
+  }
 }

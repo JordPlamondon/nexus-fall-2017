@@ -12,7 +12,7 @@
 
 		<?php get_sidebar(); ?>
 
-	<div class="footer__site-info">
+	<div class="footer__site-info hidden">
 		<a href="<?php echo esc_url( 'https://nexusintercambia.com/' ); ?>"><?php printf( esc_html( '&copy; Copyright - Nexus Exchange %s' ), '2017' ); ?></a>
 
 	<div class="footer__desktop--nav">

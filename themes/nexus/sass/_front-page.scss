@@ -97,17 +97,7 @@
     }
 
     .why-canada {
-      height: 70vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-
-      h2, p {
-        width: 80%;
-        margin: 0 auto;
-      }
+      @include front-page-section-block;
 
       &__subheader {
         font-family: $font__accent;
@@ -118,17 +108,7 @@
     }
 
     .browse-programs {
-      height: 70vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-
-      h2, p {
-        width: 80%;
-        margin: 0 auto;
-      }
+      @include front-page-section-block;
 
       &__subheading {
         width: 80%;
@@ -137,7 +117,80 @@
         display: flex;
         background: $color__textbox-background;
       }
+    }
 
+    .student-review {
+      @include front-page-section-block;
+
+      &__box {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+        .student-review__info {
+          width: 100%;
+          padding: 39px 30px 22px 48px;
+          font-weight: bold;
+          font-size: 5vw;
+          background: $color__textbox-background;
+          position: relative;
+
+          &::before {
+            content: "\201C";
+            color: #FFBC4A;
+            font-size: 30vw;
+            font-weight: normal;
+            font-family: $font__accent;
+            position: absolute;
+            left: 1rem;
+            top: -1rem;    
+          }
+    
+          &::after {
+            content: '\201D';
+            color: #FFBC4A;
+            font-size: 30vw;
+            font-weight: normal;
+            font-family: $font__accent;
+            position: absolute;
+            bottom: -4rem;
+            right: 1rem;
+          }
+        }
+      } 
+    }
+
+    .start-journey {
+      @include front-page-section-block;
+      height: auto;
+      padding: 1rem 0;
+      background: $color__textbox-background;
+
+      &__header {
+        text-transform: uppercase;
+      }
+
+      &__subheader {
+        margin: 0;
+        font-family: $font__accent;
+        font-weight: 600;
+        font-style: italic;
+        color: $color__text-accent;
+        width: 80%;
+      }
+
+      button {
+        margin-top: 3rem;
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: white;
+      }
+      
     }
 
   }

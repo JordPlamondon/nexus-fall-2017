@@ -1,6 +1,6 @@
 <?php
 /**
- * The main template file.
+ * The home page template file.
  *
  * @package RED_Starter_Theme
  */
@@ -9,6 +9,20 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<div class="banner">
+				<div class="banner__info">
+					<p class="banner__info__p"> Dreaming Of </p>
+					<h1 class="banner__info__h1">Canada?</h1>
+				</div>	
+					<p class="banner__p">Let us help you find <span class="banner__p__span">the right </span>program and school for you.
+					</p>
+			</div>
+		
+
+
+
+
+
 
 		<?php if ( have_posts() ) : ?>
 

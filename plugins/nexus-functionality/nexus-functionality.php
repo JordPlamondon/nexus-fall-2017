@@ -48,3 +48,15 @@ include_once( RF_DIR . '/lib/functions/post-types.php' );
  * @since 1.0.0
  */
 include_once( RF_DIR . '/lib/functions/taxonomies.php' );
+
+/**
+ * Custom functions that act independently of the theme templates.
+ */
+include_once( RF_DIR . '/lib/functions/api.php' );
+
+/**
+ * Custom functions that act independently of the theme templates.
+ */
+include_once( RF_DIR . '/lib/functions/program-fields.php' );
+include_once( RF_DIR . '/lib/functions/faq-fields.php' );
+

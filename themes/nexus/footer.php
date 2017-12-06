@@ -9,11 +9,26 @@
 
 			</div><!-- #content -->
 <footer id="colophon" class="site-footer" role="contentinfo">
-	<div class="footer__site-info">
-		<a href="<?php echo esc_url( 'https://nexusintercambia.com/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'Red Team' ); ?></a>
 
 		<?php get_sidebar(); ?>
-<?php wp_footer(); ?>
+
+	<div class="footer__site-info">
+		<a href="<?php echo esc_url( 'https://nexusintercambia.com/' ); ?>"><?php printf( esc_html( '&copy; Copyright - Nexus Exchange %s' ), '2017' ); ?></a>
+
+	<div class="footer__desktop--nav">
+			<ul>
+			<li><a href="https://" target="_blank">Program</a></li>
+			<li><a href="https://" target="_blank">About Us</a></li>
+			<li><a href="https://" target="_blank">FAQ</a></li>
+			<li><a href="https://" target="_blank">Contact</a></li>
+			<li><a href="https://" target="_blank">Blog</a></li>
+	</div>
+</div>
+<a href="gohome">hello</a>
+
+	<?php wp_footer(); ?>
+
+
 
 	</body>
 </html>

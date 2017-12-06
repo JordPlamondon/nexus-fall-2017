@@ -1,8 +1,38 @@
-.page-template-taxonomy-nexus-faq {
-  #page {
+.page-template-taxonomy-nexus_faq {
+  .faq-page {
     height: 130px;
     width: 100vw;
     background-image: url("../../images/faq@3x.png");
     background-size: 100% 100%;
   }
+  .site-main {
+    ul {
+      position: relative;
+      right: 20px;
+      padding: 0;
+      padding-top: 130px;
+      li {
+        display: flex;
+        list-style-type: none;
+        height: 187px;
+        border-bottom: 1px solid black;
+        .list-text {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        p {
+          position: relative;
+          bottom: 15px;
+        }
+        img {
+          height: 126px;
+          width: 103px;
+          margin: 40px 20px;
+        }
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }  
 }

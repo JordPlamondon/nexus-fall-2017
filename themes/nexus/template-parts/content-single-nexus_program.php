@@ -16,18 +16,23 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
-			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
-		</div><!-- .entry-meta -->
+      <?php var_dump (get_post_custom()); ?>
+
+    </div><!-- .entry-meta -->
+
+    <div>
+        <?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?>
+        <?php
+        $custom = get_post_custom();
+        foreach($custom as $key => $value) {
+         echo $key.': '.$value[0].'<br />';
+        }
+        ?>
+    </div>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html( 'Pages:' ),
-				'after'  => '</div>',
-			) );
-		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

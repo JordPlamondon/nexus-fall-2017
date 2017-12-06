@@ -42,7 +42,7 @@ function nexus_program() {
 		'label'                 => __( 'Program', 'text_domain' ),
 		'description'           => __( 'Programs for students to explore', 'text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'custom-fields' ),
+		'supports'              => array( 'title' ),
 		'taxonomies'            => array( 'category', 'post_tag', 'program_type', 'provinces' ),
 		'hierarchical'          => false,
 		'public'                => true,

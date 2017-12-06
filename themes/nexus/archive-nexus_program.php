@@ -14,7 +14,7 @@ get_header(); ?>
                   'taxonomy' => 'program_type',
 									'hide_empty' => 0 ) ) ) :
 			
-	    echo '<select name="programfilter"><option>Select category...</option>';
+	    echo '<select name="programfilter"><option>program</option>';
 			foreach ( $terms as $term ) :
 		    echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
 	    endforeach;
@@ -27,7 +27,7 @@ get_header(); ?>
                   'taxonomy' => 'provinces', 
 									'hide_empty' => 0) ) ) : // to make it simple I use default categories
 			echo var_dump($terms);
-	    echo '<select name="provincefilter"><option>Select category...</option>';
+	    echo '<select name="provincefilter"><option>province</option>';
 	    foreach ( $terms as $term ) :
 		    echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
 	    endforeach;

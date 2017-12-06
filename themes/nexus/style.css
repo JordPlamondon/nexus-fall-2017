@@ -1172,6 +1172,23 @@ div.footer__contact p a,
   color: #ffffff;
   font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
+.page-template-taxonomy-nexus_faq .title-wrapper h1 {
+  text-align: center;
+  color: #123048;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+  top: 110px; }
+
+.page-template-taxonomy-nexus_faq .title-wrapper .underline1 {
+  margin: 0 auto;
+  width: 49px;
+  text-align: center;
+  border-bottom: 3px solid #FF8A2A;
+  position: relative;
+  top: 90px; }
+
 .page-template-taxonomy-nexus_faq .faq-page {
   height: 130px;
   width: 100vw;
@@ -1184,13 +1201,14 @@ div.footer__contact p a,
   text-align: center;
   border-bottom: 3px solid #FF8A2A;
   position: relative;
+  padding: 0;
   bottom: 115px;
   right: 3px; }
 
 .page-template-taxonomy-nexus_faq .site-main .shadow-border {
-  border-bottom: 1px solid #b6b6b6;
-  -webkit-box-shadow: 0px 10px #eeeeee;
-          box-shadow: 0px 10px #eeeeee;
+  border-bottom: 1px solid #c5c5c5;
+  -webkit-box-shadow: 0px 10px #F3F5F8;
+          box-shadow: 0px 10px #F3F5F8;
   padding-top: 15px; }
 
 .page-template-taxonomy-nexus_faq .site-main ul {
@@ -1216,13 +1234,49 @@ div.footer__contact p a,
       top: 15px; }
     .page-template-taxonomy-nexus_faq .site-main ul li p {
       position: relative;
-      bottom: 15px; }
+      bottom: 5px;
+      font-size: 14px;
+      font-weight: 200; }
     .page-template-taxonomy-nexus_faq .site-main ul li img {
       height: 126px;
       width: 103px;
       margin: 40px 20px; }
     .page-template-taxonomy-nexus_faq .site-main ul li a {
       text-decoration: none; }
+
+.page-template-taxonomy-nexus_faq .about-journey {
+  height: 260px;
+  background-color: #F3F5F8; }
+  .page-template-taxonomy-nexus_faq .about-journey h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #123048;
+    font-weight: 900;
+    position: relative;
+    top: 20px; }
+  .page-template-taxonomy-nexus_faq .about-journey p {
+    font-size: 14px;
+    color: red;
+    font-style: italic;
+    font-weight: 200; }
+  .page-template-taxonomy-nexus_faq .about-journey .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 50px; }
+
+.page-template-taxonomy-nexus_faq button.consult {
+  width: 135px;
+  height: 40px;
+  padding: 0;
+  border-radius: 25px 0px 25px 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  background: #E91C35;
+  color: white; }
 
 nav.main-navigation {
   background-color: #ffffff;

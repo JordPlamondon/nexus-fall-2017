@@ -1078,7 +1078,45 @@ h2.widget-title,
 .footer__contact h2 {
   text-align: center; }
 
-<<<<<<< HEAD
+.footer__contact,
+.footer__office {
+  max-width: 197px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto; }
+  .footer__contact p,
+  .footer__office p {
+    text-align: left; }
+
+.footer__contact--box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+div.footer__social-media-container p {
+  height: 75%;
+  width: 75%;
+  padding: 0 1rem 0 1rem; }
+
+footer#colophon.site-footer {
+  background-color: #122E3F; }
+
+footer#colophon.site-footer,
+div#secondary.widget-area,
+div.footer__contact p a,
+.hidden a {
+  color: #ffffff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
+
 .page-template-taxonomy-nexus_faq .faq-page {
   height: 130px;
   width: 100vw;
@@ -1130,45 +1168,6 @@ h2.widget-title,
       margin: 40px 20px; }
     .page-template-taxonomy-nexus_faq .site-main ul li a {
       text-decoration: none; }
-=======
-.footer__contact,
-.footer__office {
-  max-width: 197px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: auto; }
-  .footer__contact p,
-  .footer__office p {
-    text-align: left; }
-
-.footer__contact--box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
-
-div.footer__social-media-container p {
-  height: 75%;
-  width: 75%;
-  padding: 0 1rem 0 1rem; }
-
-footer#colophon.site-footer {
-  background-color: #122E3F; }
-
-footer#colophon.site-footer,
-div#secondary.widget-area,
-div.footer__contact p a,
-.hidden a {
-  color: #ffffff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 nav.main-navigation {
   background-color: #ffffff;
@@ -1217,4 +1216,3 @@ ul#primary-menu {
   list-style-type: none;
   margin: 0;
   padding: 0; }
->>>>>>> 269b846c058dce6018e82e01db7996300c1b7562

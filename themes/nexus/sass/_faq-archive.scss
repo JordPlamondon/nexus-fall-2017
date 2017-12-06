@@ -21,7 +21,7 @@
   .faq-page {
     height: 130px;
     width: 100vw;
-    background-image: url("../../images/faq@3x.png");
+    background-image: url("../../assets/images/faq@3x.png");
     background-size: 100% 100%;
   }
   .site-main {
@@ -36,9 +36,12 @@
       right: 3px;
     }
     .shadow-border {
-      border-bottom: 1px solid rgb(197, 197, 197);
+      border-bottom: 1px solid rgb(209, 209, 209);
       box-shadow: 0px 10px $color__textbox-background;;
-      padding-top: 15px;
+      padding-top: 10px;
+      width: 383px;
+      right: 20px;
+      position: relative;
     }
     ul {
       position: relative;
@@ -60,9 +63,10 @@
         }
         p {
           position: relative;
-          bottom: 5px;
+          bottom: 6px;
           font-size: 14px;
-          font-weight: 200;
+          font-weight: 100;
+          color: $color__footer-background;
         }
         img {
           height: 126px;
@@ -76,9 +80,11 @@
     }
   }  
   // Journey
- .about-journey {
+ .faq-journey {
     height: 260px;
     background-color:$color__textbox-background;
+    position: relative;
+    bottom: 20px;
     h2 {
       font-size: 24px;
       text-align: center;

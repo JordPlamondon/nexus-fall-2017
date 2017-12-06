@@ -1139,9 +1139,11 @@ h2.widget-title,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto; }
   .footer__contact p,
   .footer__office p {
     text-align: left; }
@@ -1154,6 +1156,21 @@ h2.widget-title,
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
+
+div.footer__social-media-container p {
+  height: 75%;
+  width: 75%;
+  padding: 0 1rem 0 1rem; }
+
+footer#colophon.site-footer {
+  background-color: #122E3F; }
+
+footer#colophon.site-footer,
+div#secondary.widget-area,
+div.footer__contact p a,
+.hidden a {
+  color: #ffffff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
   text-align: center;
@@ -1175,7 +1192,7 @@ h2.widget-title,
 .page-template-taxonomy-nexus_faq .faq-page {
   height: 130px;
   width: 100vw;
-  background-image: url("../../images/faq@3x.png");
+  background-image: url("../../assets/images/faq@3x.png");
   background-size: 100% 100%; }
 
 .page-template-taxonomy-nexus_faq .site-main .underline {
@@ -1189,10 +1206,13 @@ h2.widget-title,
   right: 3px; }
 
 .page-template-taxonomy-nexus_faq .site-main .shadow-border {
-  border-bottom: 1px solid #c5c5c5;
+  border-bottom: 1px solid #d1d1d1;
   -webkit-box-shadow: 0px 10px #F3F5F8;
           box-shadow: 0px 10px #F3F5F8;
-  padding-top: 15px; }
+  padding-top: 10px;
+  width: 383px;
+  right: 20px;
+  position: relative; }
 
 .page-template-taxonomy-nexus_faq .site-main ul {
   position: relative;
@@ -1217,50 +1237,35 @@ h2.widget-title,
       top: 15px; }
     .page-template-taxonomy-nexus_faq .site-main ul li p {
       position: relative;
-      bottom: 5px;
+      bottom: 6px;
       font-size: 14px;
-      font-weight: 200; }
+      font-weight: 100;
+      color: #15405A; }
     .page-template-taxonomy-nexus_faq .site-main ul li img {
       height: 126px;
       width: 103px;
       margin: 40px 20px; }
     .page-template-taxonomy-nexus_faq .site-main ul li a {
       text-decoration: none; }
-<<<<<<< HEAD
-=======
-=======
-.footer__contact,
-.footer__office {
-  max-width: 197px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: auto; }
-  .footer__contact p,
-  .footer__office p {
-    text-align: left; }
->>>>>>> 62cd76dc34ea39b7c5006db4d62499057f2e89ac
 
-.page-template-taxonomy-nexus_faq .about-journey {
+.page-template-taxonomy-nexus_faq .faq-journey {
   height: 260px;
-  background-color: #F3F5F8; }
-  .page-template-taxonomy-nexus_faq .about-journey h2 {
+  background-color: #F3F5F8;
+  position: relative;
+  bottom: 20px; }
+  .page-template-taxonomy-nexus_faq .faq-journey h2 {
     font-size: 24px;
     text-align: center;
     color: #123048;
     font-weight: 900;
     position: relative;
     top: 20px; }
-  .page-template-taxonomy-nexus_faq .about-journey p {
+  .page-template-taxonomy-nexus_faq .faq-journey p {
     font-size: 14px;
     color: red;
     font-style: italic;
     font-weight: 200; }
-  .page-template-taxonomy-nexus_faq .about-journey .underline {
+  .page-template-taxonomy-nexus_faq .faq-journey .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
@@ -1278,21 +1283,6 @@ h2.widget-title,
   text-shadow: none;
   background: #E91C35;
   color: white; }
-
-div.footer__social-media-container p {
-  height: 75%;
-  width: 75%;
-  padding: 0 1rem 0 1rem; }
-
-footer#colophon.site-footer {
-  background-color: #122E3F; }
-
-footer#colophon.site-footer,
-div#secondary.widget-area,
-div.footer__contact p a,
-.hidden a {
-  color: #ffffff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 nav.main-navigation {
   background-color: #ffffff;

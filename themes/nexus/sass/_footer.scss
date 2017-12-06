@@ -12,17 +12,13 @@ footer#colophon.site-footer a {
   text-decoration: none;
 }
 
-
-
 div.footer__site-info.hidden {
   display: flex;
   flex-direction: row;
-  
 }
 
 div.footer_hidden_anchor {
   display: flex;
-
 }
 
 @media screen and (max-width: 550px){
@@ -45,7 +41,7 @@ div.footer_hidden_anchor {
 
 div.footer_hidden--container {
   display: flex;
-  flex-direction: spa
+  flex-direction: row;
 }
 
 .hidden {
@@ -56,11 +52,11 @@ div.footer_hidden--container {
 div.footer__desktop--nav {
   display: flex;
   justify-content: flex-end;
-  ul {
+  ul.footer_desktop--nav--ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-}
+  }
 }
  

@@ -12,13 +12,19 @@
         for (var i = 0; i < data.length; i++){
           console.log(data);
           var post = data[i];
+          var image = '';
           var school = post['_nexus_program_school'];
           var title = post['_nexus_program_title'];
           var link = api_vars.home_url + '/' + post['slug'];
+
+          if (post['featured_media']){
+            image = post['_embedded']['wp:featuredmedia'][0]['source_url'];
+          }
           var article = '<article class="program">';
+          article += '<div class="program-image"><img src="' + image + '"></div>'
           article += '<div class="program-school">' + school + '</div>'; 
           article += '<div class="program-title">' + title + '</div>';
-          article += '<div class="program-link"><a href="' + link + '">' + link +'</a> </div>'
+          article += '<div class="program-link"><a href="' + link + '">' + link +'</a> </div></article>'
           console.log(link);
           // var slug = post.slug;
 
@@ -27,7 +33,8 @@
           //   page: slug
           // }, null, url);
           $('main').append(article);
-        }
+
+        } // for loop
       });
   }
 
@@ -49,13 +56,13 @@
       return;
     }
     else if (program === 'program'){
-      request = 'wp/v2/nexus_program/?filter[provinces]=' + province;
+      request = 'wp/v2/nexus_program/?_embed&filter[provinces]=' + province;
     }
     else if (province === 'province'){
-       request = 'wp/v2/nexus_program/?filter[program_type]=' + program;
+       request = 'wp/v2/nexus_program/?_embed&filter[program_type]=' + program;
     }
     else {
-      request = 'wp/v2/nexus_program/?filter[program_type]=' + program + '&filter[provinces]=' + province;
+      request = 'wp/v2/nexus_program/?_embed&filter[program_type]=' + program + '&filter[provinces]=' + province;
     }
     console.log(program);
 

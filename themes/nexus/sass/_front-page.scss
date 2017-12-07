@@ -6,6 +6,9 @@
     margin:0;
     text-align: center;
     font-weight: bold;
+    @media #{$desktop} {
+      text-align: left;
+    }
   }
 
   .underline {
@@ -23,11 +26,22 @@
       background: url('../../assets/images/photo-hero-mobile.png');
       background-repeat: no-repeat;
       background-size: contain;
+      @media #{$desktop} {
+        height: 40vw;
+        background-size: 100vw 40vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 
       &__info {
         width: 40%;
         margin-left: 2rem;
         line-height: 2rem;
+        @media #{$desktop} {
+          margin: 0;  
+        }
       }
 
       &__info__h1 {
@@ -37,6 +51,11 @@
         font-weight: 900;
         text-transform: uppercase;
         color: $color__text-main;
+        @media #{$desktop} {
+          font-size: 6vw;
+          font-weight: bold;
+          text-align: center;
+        }
       }
 
       &__info__p {
@@ -48,18 +67,38 @@
         color: $color__text-accent;
         text-transform: none;
         text-align: center;
+        @media #{$desktop} {
+          margin-bottom: 2vw;  
+          font-size: 4vw;
+        }
       }
 
       &__p {
+        width: 52%;
         margin-left: 2rem;
+        font-family: $font__accent;
         font-size: 4vw;  
         font-style: italic;
-        width: 52%;
+        font-weight: 600;
         color: $color__text-main;
+        @media #{$desktop} {
+          margin-top: 2vw;
+          font-size: 2vw;  
+          width: 33%;
+        }
       }
 
       &__p__span {
-        font-weight: bold;
+        font-weight: 800;
+      }
+    }
+
+
+    .nexus-wrapper {
+      width: 100%;
+      @media #{$desktop} {
+        width: 90%;
+        margin: 0 0 0 auto;
       }
     }
 
@@ -70,16 +109,39 @@
       align-items: center;
       background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)), url('../../assets/images/whynexus.png');
       background-position-y: center, bottom;
+      background-position-x: left, left;
       background-repeat: no-repeat;
       background-size: 100% 50%, 100% 50%;
+      @media #{$desktop} {
+        justify-content: space-around;
+        align-items: flex-start;
+        background-position-y: center, center;
+        background-repeat: no-repeat;
+        background-position-x: left, right;
+        background-size: 55% 50%,50% 50%;
+      }
 
       &__header {
         font-family: $font__main; 
+        @media #{$desktop} {
+          
+        }
+      }
+
+      .underline {
+        @media #{$desktop} {
+          position: relative;
+          bottom: 5rem; 
+        }
       }
 
       h2, p {
         width: 80%;
         margin: 0 auto;
+        @media #{$desktop} {
+          margin: 0;
+          width: 50%;
+        }
       }
 
       button {
@@ -95,6 +157,44 @@
       }
 
     }
+
+    .choose-wrapper {
+      display: none;
+      @media #{$desktop} {
+        display: flex;
+        justify-content: flex-end;
+        height: 50vh;
+        background: url('../../assets/images/whynexus.png');
+      }
+      .choose-program {
+        @media #{$desktop} {
+          flex-basis: 50%;
+          background: $color__info-main;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        &__info-wrapper {
+          
+        }
+
+        button {
+          width: 135px;
+          height: 40px;
+          padding: 0;
+          border-radius: 25px 0px 25px 0px;
+          box-shadow: none;
+          text-shadow: none;
+          background: $color__icon-element;
+          color: white;
+        }
+        }
+      }
+
+    }
+
+
+
 
     .why-canada {
       @include front-page-section-block;

@@ -1,0 +1,122 @@
+.page-template-contact-us {
+  h1.entry-title {
+    display: none;
+  }
+  .contact-form {
+   padding-top: 24px;
+    background-color: $color__textbox-background;
+    .wpcf7-form-control {
+      height: 44px;
+    }
+    .wpcf7-submit {
+      letter-spacing: 1pt;
+      width: 175px;
+      height: 40px;
+      padding: 0;
+      border-radius: 25px 0px 25px 0px;
+      box-shadow: none;
+      text-shadow: none;
+      font-size: 18px;
+      background: $color__icon-element;
+      color: white;
+      position: relative;
+      bottom: 40px;
+    }
+    h2.title {
+      margin-top: 0;
+     text-align: center;
+      color:$color__footer-background;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .contact-content {
+      margin: 0 auto;
+      max-width: 345px;  
+      color: $color__contact-input;
+  }
+  .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid $color__accent-underline;
+    position: relative;
+    bottom: 20px;
+  }
+}
+
+// Hero 
+
+  .hero-wrapper {
+    padding-top: 65px;
+    h1 {
+      text-align: center;
+      color:$color__footer-background;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: 900;
+      position: relative;
+      top: 46px;
+    }
+    .hero-image {
+    height: 139px;
+    width: 100vw;
+    background-image: url("../../assets/images/contact@2x.png");
+    background-size: 100% 100%;
+    }
+    .underline {
+      margin: 0 auto;
+      width: 49px;
+      text-align: center;
+      border-bottom: 3px solid $color__accent-underline;
+      position: relative;
+      bottom: 20px;
+  }
+  }
+.contact-journey {
+  height: 195px;
+    background-color:$color__textbox-background;
+    h2 {
+      font-size: 24px;
+      text-align: center;
+      color:$color__footer-background;
+      font-weight: 900;
+      position: relative;
+      top: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1pt;
+    }
+    p {
+      font-size: 14px;
+      color: red;
+      font-style: italic;
+      font-weight: 200;
+      position: relative;
+      text-transform: none;
+      bottom: 42px;
+      
+    }
+    .underline {
+      margin: 0 auto;
+      width: 49px;
+      text-align: center;
+      border-bottom: 3px solid $color__accent-underline;
+      position: relative;
+      bottom: 48px;
+    }
+ }
+  button.consult {
+    letter-spacing: 1pt;
+    width: 175px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: $color__icon-element;
+    color: white;
+    position: relative;
+    bottom: 40px;
+  }
+ }
+

@@ -14,7 +14,7 @@ get_header(); ?>
                   'taxonomy' => 'program_type',
 									'hide_empty' => 0 ) ) ) :
 			
-	    echo '<select name="programfilter"><option>Select category...</option>';
+	    echo '<select name="programfilter"><option>program</option>';
 			foreach ( $terms as $term ) :
 		    echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
 	    endforeach;
@@ -26,8 +26,7 @@ get_header(); ?>
     if( $terms = get_terms( array(
                   'taxonomy' => 'provinces', 
 									'hide_empty' => 0) ) ) : // to make it simple I use default categories
-			echo var_dump($terms);
-	    echo '<select name="provincefilter"><option>Select category...</option>';
+	    echo '<select name="provincefilter"><option>province</option>';
 	    foreach ( $terms as $term ) :
 		    echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
 	    endforeach;
@@ -36,34 +35,7 @@ get_header(); ?>
 		?>
 		
 		<button class="program-filter-submit">Explore</button>
-
-
-		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
-
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php
-					get_template_part( 'template-parts/content' );
-				?>
-
-			<?php endwhile; ?>
-
-			<?php the_posts_navigation(); ?>
-
-		<?php else : ?>
-
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
-		<?php endif; ?>
-
+			
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

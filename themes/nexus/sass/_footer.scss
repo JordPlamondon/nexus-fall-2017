@@ -2,11 +2,145 @@
 # Footer
 --------------------------------------------------------------*/
 
+
+/* Shared between media */
+/* Shared between media */
+/* Shared between media */
+
+footer#colophon.site-footer {
+  color: $color__text-white;
+}
+
 div.footer__contact p a,
 div.footer__site-info a,
 div.footer__desktop--nav li a {
   text-decoration: none;
 } 
+
+div.footer__social-media {
+  background-color: $color__footer-background;
+}
+
+
+
+div#secondary.widget-area,
+div.footer__contact p a,
+.hidden a {
+  color: $color__background-hr;
+  font-family: $font__main
+}
+    
+div.widget_info_contain a {
+  text-decoration: none;
+  color: $color__text-white;
+}
+
+
+
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+@media screen and (max-width: 824px){
+
+  div.footer__site-info.hidden {
+    display: none;
+  }
+  div.footer__why-nexus {
+    display: none;
+  }
+  .widget_fa {
+    display: show;
+  }
+
+  div.footer__social-media-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      h2 {
+      padding: 10px 0;
+      text-align: center;
+      color: $color__text-white;
+    }
+  }
+
+  div.socialmedia-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    img {
+      height: 75px;
+      width: 75px;
+      margin: 0 7px;
+    }
+  }
+
+  div.widget_fa {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+
+  section.footer_contact_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  div.footer__contact,
+  div.footer__office {
+    justify-content: center;
+  }
+
+  div.widget_info_contain a,
+  div.widget_info_contain p,
+  p.footer__office--hours {
+    max-width: 197px;
+  }
+
+  div.widget_info_contain {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    margin-bottom: 2rem;
+    a {
+      text-decoration: none;
+      color: $color__text-white;
+    }
+  }
+
+  div.footer__contact h2 {
+    padding: 20px 0 5px 0;
+    text-align: center;
+    color: $color__text-white;
+  }
+  
+  div.widget-fa i {
+    color: $color__text-white;
+  }
+
+  .footer__contact,
+  .footer__office {
+    display:  flex;
+    flex-direction: column;
+    margin: auto;
+    p {
+      text-align: left;
+      color: $color__text-white;
+    }
+  }
+
+  .underline.footer {
+    margin: auto;
+  }
+}
+
+
+/**************  Desktop MEDIA BREAK  ****************************/
+/**************  Desktop MEDIA BREAK  ****************************/
+/**************  Desktop MEDIA BREAK  ****************************/
+/**************  Desktop MEDIA BREAK  ****************************/
 
 @media screen and (min-width: 825px){
   div.footer__site-info.hidden {
@@ -30,7 +164,7 @@ div.footer__desktop--nav li a {
     align-items: center;
     min-width: 551px;
     height: 61px;
-    background-color: rgba(21,64,90,1);
+    background-color: $color__footer-navbkgrnd;
   }
   
   div.footer__desktop--nav {
@@ -68,12 +202,17 @@ div.footer__desktop--nav li a {
     text-align: left;
     margin-left: 5rem;
     margin-top: 4rem;
+    color: $color__text-white;
     h2 {
       text-align: left;
     }
     p {
       font-family: $font__accent;
     }
+  }
+
+  div.footer__contact h2 {
+    text-align: left;
   }
 
   .widget-info-contain {
@@ -88,8 +227,10 @@ div.footer__desktop--nav li a {
   .footer__why-nexus,
   .footer__social-media-container,
   .footer__contact {
+    color: $color__text-white;
     h2 {
       font-family: $font__main;
+      color: $color__text-white;
     }
   }
 
@@ -126,142 +267,33 @@ div.footer__desktop--nav li a {
     }
   }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-div class=underline
-
-*/
-@media screen and (max-width: 824px){
-
-  div.footer__site-info.hidden {
-    display: none;
-  }
-  div.footer__why-nexus {
-    display: none;
-  }
-  .widget_fa {
-    display: show;
-  }
-
-  div.footer__social-media-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    h2 {
-      padding: 10px 0;
-    }
-  }
-
-  div.socialmedia-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    img {
-      height: 75px;
-      width: 75px;
-      padding: 0 00px 0 0px;
-      margin: 0 7px;
-    }
-  }
-
-  div.widget_fa {
-    display: flex;
-    align-items: center;
-    padding-right: 20px;
-  }
-
-  section.footer_contact_info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  }
-
-  div.footer__contact,
-  div.footer__office {
-    justify-content: center;
-  }
-
-  div.widget_info_contain a,
-  div.widget_info_contain p,
-  p.footer__office--hours {
-    max-width: 197px;
-  }
-
-  div.widget_info_contain {
-    display: flex;
-    flex-direction: row;
-    width: 250px;
-    margin-bottom: 2rem;
-    a {
-      text-decoration: none;
-      color: #FFFFFF;
-    }
-  }
-
-  div.footer__contact h2 {
-    padding: 10px 0;
-  }
-  
-  .footer__contact,
-  .footer__office {
-    display:  flex;
-    flex-direction: column;
-    margin: auto;
-    p {
-      text-align: left;
-    }
+  .underline.footer {
+    padding-top: 10px;
   }
 }
 
 
 
-/* Shared between media */
 
-.footer__contact h2 {  /* Contact Us */
-  text-align: center;
-}
 
-footer#colophon.site-footer { /*Need to change*/ 
-  background-color: #122E3F;
-}
 
-footer#colophon.site-footer, /*Need to change*/ 
-div#secondary.widget-area,
-div.footer__contact p a,
-.hidden a {
-  color: $color__background-hr;
-  font-family: $font__main
-}
-  
-  
-div.widget_info_contain a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

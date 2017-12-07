@@ -1277,9 +1277,9 @@ h2.widget-title,
           flex-direction: row; }
 
 div.footer__social-media-container p {
-  height: 50%;
-  width: 50%;
-  padding: 0 1rem 0 1rem; }
+  max-height: 75px;
+  max-width: 75px;
+  padding: 0 20px 0 20px; }
 
 footer#colophon.site-footer {
   background-color: #122E3F; }
@@ -1304,7 +1304,8 @@ div.widget_info_contain {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  margin-bottom: 2rem; }
 
 div.widget_fa {
   display: -webkit-box;

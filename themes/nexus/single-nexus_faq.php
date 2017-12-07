@@ -12,7 +12,7 @@ get_header(); ?>
 
 		<div class="banner-faq-single"> 
     	<div class="banner-image-faq-single">
-      	<h1 class="faq-single-title"> Living In Canada<h1>
+      	<h1 class="faq-single-title"><?php echo get_the_title()?><h1>
       	<div class="underline"></div>
     	</div>
   	</div>
@@ -25,9 +25,7 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
-	<!-- <div class="contact-homestay">
-    <button class="homestay-button">
-  </div> -->
+<!-- Field Group Metaboxes -->
 <?php
 $entries = get_post_meta( get_the_ID(), 'wiki_test_repeat_group', true );
 
@@ -63,7 +61,7 @@ foreach ( (array) $entries as $key => $entry ) {
       		<div class="underline"></div>
     
       		<div class="homestay-button-wrapper">
-        		<button class="homestay-looking-button">
+        		<button class="homestay-looking-button">Immigration</button
         		<button class="homestay-looking-button">
         		<button class="homestay-looking-button">
         		<button class="homestay-looking-button">

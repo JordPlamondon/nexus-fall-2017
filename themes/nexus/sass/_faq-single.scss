@@ -1,3 +1,4 @@
+//Top Banner
 div.banner-faq-single {
   padding-top: 65px;
   margin-bottom: 24px;
@@ -25,6 +26,17 @@ div.banner-faq-single {
     bottom: 24px;
   }
 }
+.nexus_faq-template-default {
+  .site-main {
+    .thumb {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 325px;
+      height: 211.9px;
+    }
+  }
+}  
 //Keep Looking
 .faq-single-homestay {
   h2 {
@@ -43,7 +55,7 @@ div.banner-faq-single {
     bottom: 48px;
   }
   .homestay-button-wrapper {
-    width: 400px;
+    width: 375px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -51,11 +63,13 @@ div.banner-faq-single {
     position: relative;
     bottom: 20px;
   .homestay-looking-button {
-    border-radius: 10px;
+    border-radius: 8px;
     width: 165px;
     height: 47px;
     background-color: red;
     margin: 10px;
+    font-size: 18px;
+    color: white;
   }
 }
 // Journey
@@ -103,5 +117,5 @@ div.banner-faq-single {
     position: relative;
     bottom: 40px;
   }
-}
+  }
 }

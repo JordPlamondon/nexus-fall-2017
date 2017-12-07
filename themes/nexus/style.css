@@ -1326,7 +1326,8 @@ div.footer__site-info.hidden {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-width: 551px; }
+  min-width: 551px;
+  height: 61px; }
 
 div.footer_hidden_anchor {
   display: -webkit-box;
@@ -1362,11 +1363,15 @@ div.footer__desktop--nav {
 @media screen and (max-width: 550px) {
   div.footer__site-info.hidden {
     display: none; }
+  div.footer__why-nexus {
+    display: none; }
   ::before {
     display: show; } }
 
 @media screen and (min-width: 551px) {
   div.footer__site-info.hidden {
+    display: show; }
+  div.footer__why-nexus {
     display: show; }
   ::before {
     display: none; } }
@@ -1382,6 +1387,10 @@ div.footer__social-media-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  div.footer__social-media-container p {
+    max-height: 75px;
+    max-width: 75px;
+    padding: 0 20px 0 20px; }
 
 div.textwidget {
   -webkit-box-align: center;
@@ -1416,11 +1425,6 @@ h2.widget-title,
       -ms-flex-direction: row;
           flex-direction: row; }
 
-div.footer__social-media-container p {
-  height: 50%;
-  width: 50%;
-  padding: 0 1rem 0 1rem; }
-
 footer#colophon.site-footer {
   background-color: #122E3F; }
 
@@ -1444,7 +1448,8 @@ div.widget_info_contain {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  margin-bottom: 2rem; }
 
 div.widget_fa {
   display: -webkit-box;
@@ -1592,6 +1597,108 @@ section.footer_contact_info {
   position: relative;
   bottom: 40px; }
 
+div.banner-faq-single {
+  padding-top: 65px;
+  margin-bottom: 24px; }
+  div.banner-faq-single h1 {
+    text-align: center;
+    color: #15405A;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    top: 50px; }
+  div.banner-faq-single .banner-image-faq-single {
+    height: 139px;
+    width: 100vw;
+    background-image: url("../../assets/images/living@2x.png");
+    background-size: 100% 100%; }
+  div.banner-faq-single .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 24px; }
+
+.faq-single-homestay h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #15405A;
+  position: relative;
+  top: 10px; }
+
+.faq-single-homestay .underline {
+  margin: 0 auto;
+  width: 49px;
+  text-align: center;
+  border-bottom: 3px solid #FF8A2A;
+  position: relative;
+  bottom: 48px; }
+
+.faq-single-homestay .homestay-button-wrapper {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  bottom: 20px; }
+  .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
+    border-radius: 10px;
+    width: 165px;
+    height: 47px;
+    background-color: red;
+    margin: 10px; }
+
+.faq-single-homestay .faq-single-journey {
+  height: 195px;
+  background-color: #F3F5F8; }
+  .faq-single-homestay .faq-single-journey h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #15405A;
+    font-weight: 900;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1pt; }
+  .faq-single-homestay .faq-single-journey p {
+    font-size: 14px;
+    color: red;
+    font-style: italic;
+    font-weight: 200;
+    position: relative;
+    text-transform: none;
+    bottom: 42px; }
+  .faq-single-homestay .faq-single-journey .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 48px; }
+  .faq-single-homestay .faq-single-journey button.consult {
+    letter-spacing: 1pt;
+    width: 165px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: #E91C35;
+    color: white;
+    position: relative;
+    bottom: 40px; }
+
 nav.main-navigation {
   background-color: #ffffff;
   height: 65px;
@@ -1625,7 +1732,6 @@ div.menu-content {
   width: 60vw;
   background-color: #F3F5F8;
   margin-left: 40vw;
-  margin-top: 65px;
   z-index: 10; }
   div.menu-content ul {
     list-style-type: none;
@@ -1659,34 +1765,34 @@ ul#primary-menu {
   margin: 0;
   padding: 0; }
 
-div.hero-wrapper-contact {
+.page-template-living-in-canada div.hero-wrapper-contact {
   padding-top: 65px;
   margin-bottom: 24px; }
-  div.hero-wrapper-contact h1 {
+  .page-template-living-in-canada div.hero-wrapper-contact h1 {
     text-align: center;
     color: #15405A;
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 900;
     position: relative;
-    top: 50px; }
-  div.hero-wrapper-contact .hero-image-contact {
+    top: 30px; }
+  .page-template-living-in-canada div.hero-wrapper-contact .hero-image-contact {
     height: 139px;
     width: 100vw;
     background-image: url("../../assets/images/living@2x.png");
     background-size: 100% 100%; }
-  div.hero-wrapper-contact .underline {
+  .page-template-living-in-canada div.hero-wrapper-contact .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 24px; }
+    bottom: 20px; }
 
-div.contact-journey {
+.page-template-living-in-canada div.contact-journey {
   height: 195px;
   background-color: #F3F5F8; }
-  div.contact-journey h2 {
+  .page-template-living-in-canada div.contact-journey h2 {
     font-size: 24px;
     text-align: center;
     color: #15405A;
@@ -1695,7 +1801,7 @@ div.contact-journey {
     top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
-  div.contact-journey p {
+  .page-template-living-in-canada div.contact-journey p {
     font-size: 14px;
     color: red;
     font-style: italic;
@@ -1703,14 +1809,14 @@ div.contact-journey {
     position: relative;
     text-transform: none;
     bottom: 42px; }
-  div.contact-journey .underline {
+  .page-template-living-in-canada div.contact-journey .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 48px; }
-  div.contact-journey button.consult {
+    bottom: 46px; }
+  .page-template-living-in-canada div.contact-journey button.consult {
     letter-spacing: 1pt;
     width: 175px;
     height: 40px;
@@ -1725,8 +1831,8 @@ div.contact-journey {
     position: relative;
     bottom: 40px; }
 
-.contact-homestay {
-  height: 55px;
+.page-template-living-in-canada .contact-homestay {
+  height: 47px;
   width: 80vw;
   background-color: #F3F5F8;
   margin: 0 auto;
@@ -1736,24 +1842,24 @@ div.contact-journey {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
-  .contact-homestay .homestay-button {
-    height: 55px;
+  .page-template-living-in-canada .contact-homestay .homestay-button {
+    height: 47px;
     width: 55px;
     background-color: red; }
 
-.contact-body {
+.page-template-living-in-canada .contact-body {
   padding-top: 24px;
   margin: 0 auto; }
-  .contact-body p {
+  .page-template-living-in-canada .contact-body p {
     width: 80vw;
     margin: 0 auto;
     margin-bottom: 24px; }
-  .contact-body img {
+  .page-template-living-in-canada .contact-body img {
     width: 80vw;
     height: 224px;
-    margin-left: 44px;
+    margin-left: 10%;
     margin-bottom: 24px; }
-  .contact-body h2 {
+  .page-template-living-in-canada .contact-body h2 {
     font-size: 24px;
     text-align: center;
     color: #15405A;
@@ -1762,22 +1868,22 @@ div.contact-journey {
     top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
-  .contact-body .underline {
+  .page-template-living-in-canada .contact-body .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 48px; }
-  .contact-body .contact-homestay {
+    bottom: 44px; }
+  .page-template-living-in-canada .contact-body .contact-homestay {
     margin-bottom: 12px; }
-  .contact-body .homestay-looking-button {
+  .page-template-living-in-canada .contact-body .homestay-looking-button {
     width: 165px;
     height: 62px;
     background-color: red; }
 
-.homestay-button-wrapper {
-  width: 400px;
+.page-template-living-in-canada .homestay-button-wrapper {
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1787,9 +1893,131 @@ div.contact-journey {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 auto; }
-  .homestay-button-wrapper .homestay-looking-button {
-    width: 167px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-living-in-canada .homestay-button-wrapper .homestay-looking-button {
+    width: 42%;
     height: 65px;
     background-color: red;
-    margin: 10px; }
+    margin: 10px;
+    border-radius: 8px; }
+
+.page-template-want-to-study .want-to-content {
+  background-image: url("../../assets/images/photo_study@2x.png");
+  background-size: 100% 100%;
+  height: 600px; }
+  .page-template-want-to-study .want-to-content .want-in {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+    color: #898989; }
+  .page-template-want-to-study .want-to-content .want-to {
+    letter-spacing: 1pt;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: #E91C35;
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    margin-left: 32%; }
+  .page-template-want-to-study .want-to-content h1 {
+    text-transform: uppercase;
+    color: #15405A;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 34px; }
+  .page-template-want-to-study .want-to-content .contact-want-to:nth-child(1) {
+    height: 42px;
+    width: 70vw;
+    background-color: #F3F5F8;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-bottom: 30px; }
+    .page-template-want-to-study .want-to-content .contact-want-to:nth-child(1) .want-to-button {
+      height: 42px;
+      width: 45px;
+      background-color: red; }
+    .page-template-want-to-study .want-to-content .contact-want-to:nth-child(1) .contact-want-to:nth-child(2) {
+      margin-bottom: 34px; }
+
+.page-template-contact-us .hero-wrapper {
+  padding-top: 65px; }
+  .page-template-contact-us .hero-wrapper h1 {
+    text-align: center;
+    color: #15405A;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    top: 46px; }
+  .page-template-contact-us .hero-wrapper .hero-image {
+    height: 139px;
+    width: 100vw;
+    background-image: url("../../assets/images/contact@2x.png");
+    background-size: 100% 100%; }
+  .page-template-contact-us .hero-wrapper .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 20px; }
+
+.page-template-contact-us .contact-journey {
+  height: 195px;
+  background-color: #F3F5F8; }
+  .page-template-contact-us .contact-journey h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #15405A;
+    font-weight: 900;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1pt; }
+  .page-template-contact-us .contact-journey p {
+    font-size: 14px;
+    color: red;
+    font-style: italic;
+    font-weight: 200;
+    position: relative;
+    text-transform: none;
+    bottom: 42px; }
+  .page-template-contact-us .contact-journey .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 48px; }
+
+.page-template-contact-us button.consult {
+  letter-spacing: 1pt;
+  width: 175px;
+  height: 40px;
+  padding: 0;
+  border-radius: 25px 0px 25px 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  font-size: 18px;
+  background: #E91C35;
+  color: white;
+  position: relative;
+  bottom: 40px; }

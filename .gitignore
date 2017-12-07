@@ -17,7 +17,7 @@ ehthumbs.db
 *.sql
 error_log
 access_log
-themes/nexus/style.css
+
 
 # Ignore everything in "wp-content" except the "plugins" and "themes" directories. #
 # ================================================================================ #
@@ -46,4 +46,4 @@ themes/nexus/node_modules/*
 # ================== #
 themes/nexus/gulpfile.js
 themes/nexus/build/*
-
+themes/nexus/style.css

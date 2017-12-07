@@ -35,6 +35,13 @@ function nexus_register_metaboxes() {
 		'desc' => 'The name of the program',
 		'id'   => $prefix . 'program_title',
 		'type' => 'text',
+	) );
+	  $program_details->add_field( array(
+		'name' => 'Program Type',
+		'desc' => 'The type of program',
+		'id'   => $prefix . 'program_type',
+		'type' => 'text',
+		'repeatable' => true,
   ) );
    $program_details->add_field( array(
 		'name' => 'Price',

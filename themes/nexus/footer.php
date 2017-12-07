@@ -13,12 +13,14 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
   <div class="footer__social-media">
     <div class="footer__why-nexus">
-      <h2>Why Nexus?</h2>
+			<h2>Why Nexus?</h2>
+			<div class="underline footer"></div>
       <p>Our passion is helping our clients learn how to prepare a powerful action plan and execute their life-changing journey of living in    Canada.</p>
     </div> <!-- footer__why-nexus -->
 
     <div class="footer__social-media-container">
 			<h2>Stay Connected</h2>
+			<div class="underline footer"></div>
 			<div class="socialmedia-container">
 				<img src="http://localhost:8080/nexus/wp-content/uploads/2017/12/face_logo1@3x.png" alt="facebook" />
 				<img src="http://localhost:8080/nexus/wp-content/uploads/2017/12/twitter_logo1@3x.png" alt="twitter" />
@@ -29,7 +31,8 @@
 
     <section class="footer_contact_info">
       <div class="footer__contact">
-        <h2>Contact Us</h2>
+				<h2>Contact Us</h2>
+				<div class="underline footer"></div>
         <div class="widget_info_contain">
           <div class="widget_fa"><i class="fa fa-map-marker hide-here" aria-hidden="true"></i></div>
           <p>119-970 Burrard St.<br>Vancouver, BC V6Z 2R4</p>

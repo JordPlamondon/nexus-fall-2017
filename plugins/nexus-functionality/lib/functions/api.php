@@ -76,6 +76,16 @@ add_action( 'rest_api_init', function() {
       'schema'          => null,
     )
   );
+
+  register_rest_field( 
+   'nexus_program',
+   '_nexus_program_type',
+   array(
+     'get_callback'    => 'nexus_get_program_meta_fields',
+     'update_callback' => 'nexus_update_program_meta_fields',
+     'schema'          => null,
+    )
+   );
 });
       
 /**
@@ -144,3 +154,4 @@ function nexus_update_program_meta_fields( $value, $object, $field_name ) {
   
   return update_post_meta( $object->ID, $field_name, strip_tags( $value ) );
 }
+

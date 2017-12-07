@@ -79,25 +79,29 @@
       }
     }
   }  
-  // Journey
- .faq-journey {
-    height: 260px;
+// Journey
+.faq-journey {
+  height: 195px;
     background-color:$color__textbox-background;
-    position: relative;
-    bottom: 20px;
     h2 {
       font-size: 24px;
       text-align: center;
-      color:#123048;
+      color:$color__footer-background;
       font-weight: 900;
       position: relative;
       top: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1pt;
     }
     p {
       font-size: 14px;
       color: red;
       font-style: italic;
       font-weight: 200;
+      position: relative;
+      text-transform: none;
+      bottom: 42px;
+      
     }
     .underline {
       margin: 0 auto;
@@ -105,17 +109,21 @@
       text-align: center;
       border-bottom: 3px solid $color__accent-underline;
       position: relative;
-      bottom: 50px;
+      bottom: 48px;
     }
  }
   button.consult {
-    width: 135px;
+    letter-spacing: 1pt;
+    width: 165px;
     height: 40px;
     padding: 0;
     border-radius: 25px 0px 25px 0px;
     box-shadow: none;
     text-shadow: none;
+    font-size: 18px;
     background: $color__icon-element;
     color: white;
+    position: relative;
+    bottom: 40px;
   }
-}
+ }

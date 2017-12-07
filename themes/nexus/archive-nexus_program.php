@@ -35,7 +35,8 @@ get_header(); ?>
 		?>
 		
 		<button class="program-filter-submit">Explore</button>
-			
+			<section class="search-results">
+			</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

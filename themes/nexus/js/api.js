@@ -21,10 +21,11 @@
             image = post['_embedded']['wp:featuredmedia'][0]['source_url'];
           }
           var article = '<article class="program">';
+          article += '<div class="program-link"><a href="' + link + '">'
           article += '<div class="program-image"><img src="' + image + '"></div>'
           article += '<div class="program-school">' + school + '</div>'; 
           article += '<div class="program-title">' + title + '</div>';
-          article += '<div class="program-link"><a href="' + link + '">' + link +'</a> </div></article>'
+          article += '</a></div></article>'
           console.log(link);
           // var slug = post.slug;
 
@@ -32,7 +33,7 @@
           // history.pushState({
           //   page: slug
           // }, null, url);
-          $('main').append(article);
+          $('.search-results').append(article);
 
         } // for loop
       });
@@ -49,20 +50,21 @@
 
   $('.program-filter-submit').on('click', function (event){
     event.preventDefault();
+    $('.search-results').empty();
     var program = $('select[name*="programfilter"').val(); 
     var province = $('select[name*="provincefilter"').val(); 
-    var request = '';
+    var request = 'wp/v2/nexus_program/?_embed&filter';
     if (program === 'program' && province === 'province'){
       return;
     }
     else if (program === 'program'){
-      request = 'wp/v2/nexus_program/?_embed&filter[provinces]=' + province;
+      request += '[provinces]=' + province;
     }
     else if (province === 'province'){
-       request = 'wp/v2/nexus_program/?_embed&filter[program_type]=' + program;
+       request += '[program_type]=' + program;
     }
     else {
-      request = 'wp/v2/nexus_program/?_embed&filter[program_type]=' + program + '&filter[provinces]=' + province;
+      request += '[program_type]=' + program + '&filter[provinces]=' + province;
     }
     console.log(program);
 

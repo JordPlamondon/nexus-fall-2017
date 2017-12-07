@@ -1317,7 +1317,7 @@ div.footer__desktop--nav li a {
     display: show; }
   div.footer__why-nexus {
     display: show; }
-  ::before {
+  .widget_fa {
     display: none; }
   div.widget-fa {
     height: 10px; }

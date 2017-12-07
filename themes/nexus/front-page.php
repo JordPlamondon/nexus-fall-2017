@@ -34,10 +34,20 @@ get_header(); ?>
 			<div class="why-canada">
 				<h2 class="why-canada__header">Why Canada</h2>
 				<div class="underline"></div>
-				<h3 class="why-canada__subheader">Quality of Life</h3>
-				<p class="why-canada__info">
-				So as most people will know by now, i am doing a backpacking adventure over the next month. Really, i'm not entirely sure what drove me to this. While iImay have my…
-				</p>
+					<div class="owl-carousel owl-theme">
+						<div class="quality-of-life">
+							<h3 class="why-canada__subheader">Quality of Life</h3>
+							<p class="why-canada__info">
+							So as most people will know by now, i am doing a backpacking adventure over the next month. Really, i'm not entirely sure what drove me to this. While iImay have my…
+							</p>
+						</div>
+						<div class="fresh-air">
+							<h3 class="fresh-air__subheader">Fresh Air</h3>
+							<p class="fresh-air__info">
+							The air is super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
+							</p>
+						</div>
+					</div>
 			</div>
 
 
@@ -56,6 +66,28 @@ get_header(); ?>
 				</p>
 			</div>
 
+
+
+			<div class="student-review">
+				<h2 class="student-review__header">Student's Review</h2>
+				<div class="underline"></div>
+				<div class="student-review__box">
+					<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
+					alt="Picture of a Student">
+					<p class="student-review__info">
+					Thank you so much for your help! I couldn’t have done this trip without you.
+					</p>
+				</div>
+			</div>
+			
+			<div class="start-journey">
+				<h2 class="start-journey__header">Start your journey</h2>
+				<div class="underline"></div>
+				<h3 class="start-journey__subheader">Let us help you find your path to success</h3>
+
+				<button class="start-journey__button">Book Consult</button>
+
+			</div>
 
 
 

@@ -10,12 +10,16 @@
       })
       .done(function (data) {
         for (var i = 0; i < data.length; i++){
+          console.log(data);
           var post = data[i];
-          var school = post["_nexus_program_school"];
-          var title = post["_nexus_program_title"];
+          var school = post['_nexus_program_school'];
+          var title = post['_nexus_program_title'];
+          var link = api_vars.home_url + '/' + post['slug'];
           var article = '<article class="program">';
           article += '<div class="program-school">' + school + '</div>'; 
           article += '<div class="program-title">' + title + '</div>';
+          article += '<div class="program-link"><a href="' + link + '">' + link +'</a> </div>'
+          console.log(link);
           // var slug = post.slug;
 
           // Append slug to url

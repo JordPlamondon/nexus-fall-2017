@@ -2,162 +2,266 @@
 # Footer
 --------------------------------------------------------------*/
 
-div#secondary.widget-area {
-  background-color: rgba(21,64,90,1);
-}
-
 div.footer__contact p a,
 div.footer__site-info a,
 div.footer__desktop--nav li a {
   text-decoration: none;
 } 
 
-div.footer__site-info.hidden {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  min-width: 551px;
-  height: 61px;
-}
+@media screen and (min-width: 825px){
+  div.footer__site-info.hidden {
+    display: show;
+  }
+  div.footer__why-nexus {
+    display: show;
+  }
+  ::before {
+    display: none;
+  }
+  
+  div.widget-fa {
+    height: 10px;
+  }
 
-div.footer_hidden_anchor {
-  display: flex;
-  flex: 1 0 auto;
-  padding-left: 3rem;
-}
-
-// div.footer_hidden--container {
-//   display: flex;
-//   flex-direction: row;
-// }
-
-// .hidden {
-//   display: flex;
-//   flex-direction: column;
-// }
-
-div.footer__desktop--nav {
-  display: flex;
-  justify-content: flex-end;
-  flex: 1 0 auto;
-  padding-right: 3rem;
-  ul.footer_desktop--nav--ul {
+  div.footer__site-info.hidden {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 551px;
+    height: 61px;
+    background-color: rgba(21,64,90,1);
   }
-}
- 
-.footer--nav--li {
-  padding-left: 1rem;
-}
+  
+  div.footer__desktop--nav {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 0 auto;
+    padding-right: 3rem;
+    ul.footer_desktop--nav--ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+   
+  .footer--nav--li {
+    padding-left: 1rem;
+  }
 
-@media screen and (max-width: 550px){
-  div.footer__site-info.hidden {
-    display: none;
+  div.footer_hidden_anchor {
+    display: flex;
+    flex: 1 0 auto;
+    padding-left: 3rem;
   }
-  div.footer__why-nexus {
-    display: none;
-  }
-  ::before {
-    display: show;
-  }
-}
 
-@media screen and (min-width: 551px){
-  div.footer__site-info.hidden {
-    display: show;
+  div.footer__social-media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-height: 400px;
   }
-  div.footer__why-nexus {
-    display: show;
-  }
-  ::before {
-    display: none;
-  }
-}
 
-div.footer__social-media-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  p {
-    max-height: 75px;
-    max-width: 75px;
-    padding: 0 20px 0 20px;
-  }
-}
-
-div.textwidget {
-  align-items: center;
-  text-align: center;
-}
-h2.widget-title,
-.footer__contact h2 {
-  text-align: center;
-}
-
-.footer__contact,
-.footer__office {
- 
-  display:  flex;
-  flex-direction: column;
-  margin: auto;
-  p {
+  .footer__why-nexus {
     text-align: left;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    h2 {
+      text-align: left;
+    }
+    p {
+      font-family: $font__accent;
+    }
+  }
+
+  .widget-info-contain {
+    p {
+      font-family: $font__accent;
+    }
+    a {
+      font-family: $font__accent;
+    }
+  }
+
+  .footer__why-nexus,
+  .footer__social-media-container,
+  .footer__contact {
+    h2 {
+      font-family: $font__main;
+    }
+  }
+
+  div.footer__social-media-container {
+    margin-top: 4rem;
+  }
+
+  section.footer_contact_info   {
+    margin-right: 5rem;
+    margin-top: 4rem;
+  }
+
+  .footer__why-nexus,
+  .footer__social-media-container,
+  section.footer_contact_info   {
+    width: 200px;
+  }
+
+  .footer__why-nexus p {
+    margin-top: 33px;
+  }
+
+  div.socialmedia-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 3.5rem;
+    img {
+      height: 45px;
+      width: 45px;
+      padding: 0 00px 0 0px;
+      margin: 0 7px;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+div class=underline
+
+*/
+@media screen and (max-width: 824px){
+
+  div.footer__site-info.hidden {
+    display: none;
+  }
+  div.footer__why-nexus {
+    display: none;
+  }
+  ::before {
+    display: show;
+  }
+
+  div.footer__social-media-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      padding: 10px 0;
+    }
+  }
+
+  div.socialmedia-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    img {
+      height: 75px;
+      width: 75px;
+      padding: 0 00px 0 0px;
+      margin: 0 7px;
+    }
+  }
+
+  div.widget_fa {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+
+  section.footer_contact_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  div.footer__contact,
+  div.footer__office {
+    justify-content: center;
+  }
+
+  div.widget_info_contain a,
+  div.widget_info_contain p,
+  p.footer__office--hours {
+    max-width: 197px;
+  }
+
+  div.widget_info_contain {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    margin-bottom: 2rem;
+    a {
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+  }
+
+  div.footer__contact h2 {
+    padding: 10px 0;
+  }
+  
+  .footer__contact,
+  .footer__office {
+    display:  flex;
+    flex-direction: column;
+    margin: auto;
+    p {
+      text-align: left;
+    }
   }
 }
 
-.footer__contact--box {
-  display: flex;
-  flex-direction: row;
+
+
+/* Shared between media */
+
+.footer__contact h2 {  /* Contact Us */
+  text-align: center;
 }
 
-
-
-footer#colophon.site-footer {
+footer#colophon.site-footer { /*Need to change*/ 
   background-color: #122E3F;
 }
 
-footer#colophon.site-footer,
+footer#colophon.site-footer, /*Need to change*/ 
 div#secondary.widget-area,
 div.footer__contact p a,
 .hidden a {
   color: $color__background-hr;
   font-family: $font__main
 }
-
-aside#text-2.widget.widget_text {
-  max-height: 491px;
-}
-h2.widget-title {
-  padding-top: 43px;
-}
-
-div.widget_info_contain {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 2rem;
-}
-
-div.widget_fa {
-  display: flex;
-  align-items: center;
-  padding-right: 20px;
-}
-
-div.widget_info_contain p,
-p.footer__office--hours {
-  max-width: 197px;
-
-}
-
-div.footer__contact,
-div.footer__office {
-  justify-content: center;
-}
-
-section.footer_contact_info {
-  display: flex;
-  justify-content: center;
+  
+  
+div.widget_info_contain a {
+  text-decoration: none;
+  color: #FFFFFF;
 }

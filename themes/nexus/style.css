@@ -1277,9 +1277,9 @@ h2.widget-title,
           flex-direction: row; }
 
 div.footer__social-media-container p {
-  height: 50%;
-  width: 50%;
-  padding: 0 1rem 0 1rem; }
+  max-height: 75px;
+  max-width: 75px;
+  padding: 0 20px 0 20px; }
 
 footer#colophon.site-footer {
   background-color: #122E3F; }
@@ -1304,7 +1304,8 @@ div.widget_info_contain {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  margin-bottom: 2rem; }
 
 div.widget_fa {
   display: -webkit-box;
@@ -1451,6 +1452,108 @@ section.footer_contact_info {
   color: white;
   position: relative;
   bottom: 40px; }
+
+div.banner-faq-single {
+  padding-top: 65px;
+  margin-bottom: 24px; }
+  div.banner-faq-single h1 {
+    text-align: center;
+    color: #15405A;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    top: 50px; }
+  div.banner-faq-single .banner-image-faq-single {
+    height: 139px;
+    width: 100vw;
+    background-image: url("../../assets/images/living@2x.png");
+    background-size: 100% 100%; }
+  div.banner-faq-single .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 24px; }
+
+.faq-single-homestay h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #15405A;
+  position: relative;
+  top: 10px; }
+
+.faq-single-homestay .underline {
+  margin: 0 auto;
+  width: 49px;
+  text-align: center;
+  border-bottom: 3px solid #FF8A2A;
+  position: relative;
+  bottom: 48px; }
+
+.faq-single-homestay .homestay-button-wrapper {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  bottom: 20px; }
+  .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
+    border-radius: 10px;
+    width: 165px;
+    height: 47px;
+    background-color: red;
+    margin: 10px; }
+
+.faq-single-homestay .faq-single-journey {
+  height: 195px;
+  background-color: #F3F5F8; }
+  .faq-single-homestay .faq-single-journey h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #15405A;
+    font-weight: 900;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1pt; }
+  .faq-single-homestay .faq-single-journey p {
+    font-size: 14px;
+    color: red;
+    font-style: italic;
+    font-weight: 200;
+    position: relative;
+    text-transform: none;
+    bottom: 42px; }
+  .faq-single-homestay .faq-single-journey .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 48px; }
+  .faq-single-homestay .faq-single-journey button.consult {
+    letter-spacing: 1pt;
+    width: 165px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: #E91C35;
+    color: white;
+    position: relative;
+    bottom: 40px; }
 
 nav.main-navigation {
   background-color: #ffffff;

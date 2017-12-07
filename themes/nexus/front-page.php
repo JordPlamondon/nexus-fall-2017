@@ -18,7 +18,7 @@ get_header(); ?>
 					</p>
 			</div>
 		
-
+		 <section class="nexus-wrapper">
 			<div class="why-nexus">
 				<h2 class="why-nexus__header">Why Use Nexus?</h2>
 				<div class="underline"></div>
@@ -27,11 +27,26 @@ get_header(); ?>
 				</p>
 
 				<button class="why-nexus__button">About Us</button>
-
 			</div>
+		</section>
 
 
-			<div class="why-canada">
+		<section class="choose-wrapper">
+			<div class="choose-program">
+				<div class="choose-program__info-wrapper">
+					<h2 class="choose-program__header">Choose your Program</h2>
+					<div class="underline"></div>
+					<p class="choose-program__info">
+					Nexus has partnered up with over 100 different programs.
+					</p>
+
+					<button class="choose-program__button">Programs</button>
+				</div>	
+			</div>
+		</section>
+
+
+			<section class="why-canada">
 				<h2 class="why-canada__header">Why Canada</h2>
 				<div class="underline"></div>
 					<div class="owl-carousel owl-theme">
@@ -48,10 +63,10 @@ get_header(); ?>
 							</p>
 						</div>
 					</div>
-			</div>
+				</section>
 
 
-			<div class="browse-programs">
+			<section class="browse-programs">
 				<h2 class="browse-programs__header">Browse Programs in: </h2>
 				<div class="underline"></div>
 				<div class="browse-programs__subheading">BC <button class="bracket">></button></div>
@@ -64,11 +79,11 @@ get_header(); ?>
 				<p class="browse-programs__info1">
 				blablabla blabl abla bl ab lablabl ablabla blabla bla b l ablablabl ablabla blablabla.
 				</p>
-			</div>
+			</section>
 
 
 
-			<div class="student-review">
+			<section class="student-review">
 				<h2 class="student-review__header">Student's Review</h2>
 				<div class="underline"></div>
 				<div class="student-review__box">
@@ -78,16 +93,15 @@ get_header(); ?>
 					Thank you so much for your help! I couldn’t have done this trip without you.
 					</p>
 				</div>
-			</div>
+			</section>
 			
-			<div class="start-journey">
+			<section class="start-journey">
 				<h2 class="start-journey__header">Start your journey</h2>
 				<div class="underline"></div>
 				<h3 class="start-journey__subheader">Let us help you find your path to success</h3>
 
 				<button class="start-journey__button">Book Consult</button>
-
-			</div>
+			</section>
 
 
 
@@ -115,7 +129,6 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

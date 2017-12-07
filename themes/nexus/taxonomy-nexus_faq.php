@@ -9,7 +9,10 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			
+		<div class="title-wrapper">	
+			<h1 class="faq-title"> FAQ </h1>
+			<div class="underline1"></div>
+		</div>
 			<section class="faq-page">
 
 				<ul class "faq-categories">
@@ -36,38 +39,20 @@ get_header(); ?>
 					</li>
 					<div class="underline"></div>
 					<div class="shadow-border"></div>
-					
-
-
-					<?php
-					$entries = get_post_meta( get_the_ID(), 'wiki_test_repeat_group', true );
-
-					foreach ( (array) $entries as $key => $entry ) {
-
-						$img = $title = $desc = $caption = '';
-
-						if ( isset( $entry['title'] ) ) {
-							$title = esc_html( $entry['title'] );
-						}
-
-						if ( isset( $entry['description'] ) ) {
-							$desc = wpautop( $entry['description'] );
-						}
-
-						if ( isset( $entry['image_id'] ) ) {
-							$img = wp_get_attachment_image( $entry['image_id'], 'share-pick', null, array(
-								'class' => 'thumb',
-							) );
-						}
-
-						$caption = isset( $entry['image_caption'] ) ? wpautop( $entry['image_caption'] ) : '';
-					} ?>
 
 					<?php endwhile; // End of the loop. ?>
 					<?php endif; ?>
 
-				</ul>				
-			</section>				
+				</ul>			
+				<div class="faq-journey">
+      		<h2> Start Your Journey<h2><br>
+					<div class="underline"></div>
+					<div class="journey-text">
+      		<p>Let us help you find your path to success</p>
+					<button class="consult">Book Consult</button>
+				</div>
+      	</div>	
+			</section>			
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

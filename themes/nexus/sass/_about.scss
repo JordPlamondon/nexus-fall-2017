@@ -5,7 +5,7 @@
     padding-top: 65px;
     h1 {
       text-align: center;
-      color:#123048;
+      color:$color__footer-background;
       font-size: 30px;
       text-transform: uppercase;
       font-weight: 900;
@@ -15,7 +15,7 @@
     .hero-image {
     height: 139px;
     width: 100vw;
-    background-image: url("../../images/blog@3x.png");
+    background-image: url("../../assets/images/blog@3x.png");
     background-size: 100% 100%;
     }
     .underline {
@@ -33,10 +33,10 @@
     h2 {
       font-size: 24px;
       text-align: center;
-      color:#123048;
+      color:$color__footer-background;
       font-weight: 900;
       position: relative;
-      top: 50px;
+      top: 20px;
     }
     .underline {
       margin: 0 auto;
@@ -44,21 +44,25 @@
       text-align: center;
       border-bottom: 3px solid $color__accent-underline;
       position: relative;
-      top: 34px;
+      top: 14px;
    }
    p {
+     font-size: 14px;
+     line-height:26px;
      width: 80%;
      margin: 0 auto;
      margin-bottom: 40px;
      text-align: center;
-     padding-top: 70px;
+     padding-top: 40px;
+     font-weight: 200;
+     color:$color__footer-background;
    }
   }
 
 
 // About help
   .about-help {
-    height: 100px;
+    height: 70px;
     background-color:$color__textbox-background;
     h2 {
       font-size: 24px;
@@ -83,7 +87,7 @@
     height: 160px;
     max-width: 160px;
     border-radius: 100px;
-    margin: 0 14px 30px 14px;
+    margin: 14px 14px 30px 14px;
   }
     .about-left {
         height: 264px;
@@ -93,7 +97,6 @@
         flex-wrap: wrap;
         min-width: 400px;
         padding-top: 40px;
-
         .about-titles {
           font-size: 21px;
           font-weight: bold;
@@ -107,6 +110,8 @@
         width: 48%;
         text-align: right;
         padding-right: 14px;
+        line-height: 16pt;
+        color:$color__footer-background;
       }
   }
     .about-right {
@@ -126,7 +131,9 @@
         width: 200px;
       }
       p {
+        color:$color__footer-background;
         width: 200px;
+        line-height: 16pt;
         text-align: left;
         font-size: 14px;
         padding-left: 14px;
@@ -139,11 +146,17 @@
     background-color:white;
     display: block;
     text-align: center;
+    p {
+      font-size: 14px;
+      font-weight: 100;
+      color: $color__text-quoteform;
+      line-height: 16pt;
+    }
       img {
         margin: 0 auto;
         height: 204px;
         width: 204px;
-        margin: 30px 0 14px 0;
+        margin: 30px 0 0 0;
         border-radius: 100px;
       }
   i {
@@ -165,7 +178,7 @@
       color:#123048;
       font-weight: normal;
       position: relative;
-      top: 20px;
+      top: 14px;
     }
   .underline {
     margin: 0 auto;
@@ -178,21 +191,27 @@
   }
 // Journey
  .about-journey {
-  height: 260px;
+  height: 195px;
     background-color:$color__textbox-background;
     h2 {
       font-size: 24px;
       text-align: center;
-      color:#123048;
+      color:$color__footer-background;
       font-weight: 900;
       position: relative;
       top: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1pt;
     }
     p {
       font-size: 14px;
       color: red;
       font-style: italic;
       font-weight: 200;
+      position: relative;
+      text-transform: none;
+      bottom: 42px;
+      
     }
     .underline {
       margin: 0 auto;
@@ -200,18 +219,22 @@
       text-align: center;
       border-bottom: 3px solid $color__accent-underline;
       position: relative;
-      bottom: 20px;
+      bottom: 48px;
     }
  }
   button.consult {
-    width: 135px;
+    letter-spacing: 1pt;
+    width: 175px;
     height: 40px;
     padding: 0;
     border-radius: 25px 0px 25px 0px;
     box-shadow: none;
     text-shadow: none;
+    font-size: 18px;
     background: $color__icon-element;
     color: white;
+    position: relative;
+    bottom: 40px;
   }
  }
 

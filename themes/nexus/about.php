@@ -21,7 +21,7 @@ get_header(); ?>
       <div class="mission-wrapper">
           <h2> Our Mission </h2>
             <div class="underline"></div>
-             <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchange </p>
+             <p> All success stories have a common structure that helps dreams vecome reality. We believe that orientation, experience, and teamwork are the most powerful tools availale to achieve success. Our passion is to help every person learn to prepare a powerful action-plan and execute their life-changing journey of living in Canada effectively. </p>
       </div>
 
 
@@ -29,48 +29,48 @@ get_header(); ?>
       <h2> How We Help</h2><br>
       <div class="underline"></div>
       </div>
-
+     
 
 <div class="about-left">
-    <img class="about-img"  src="http://fillmurray.com/200/300">
-    <p><span class="about-titles">Planning</span> <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></div>
+    <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/01@2x.png" />
+    <p><span class="about-titles">Planning and Organizing</span> <br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p></div>
 
 <div class="about-right">
-    <p><span class="about-titles">How We Help</span><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-    <img class="about-img" src="http://fillmurray.com/200/300"></div>
+    <p><span class="about-titles">Applying for School</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.</p>
+    <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/02@2x.png" /></div>
 
 <div class="about-left">
-    <img class="about-img" src="http://fillmurray.com/200/300">
-    <p><span class="about-titles">Placeholder</span><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+<img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/03@2x.png" />
+    <p><span class="about-titles">Preparing for Arrival</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.</div>
 
 <div class="about-right">
-  <p class="about-how-help-text"><span class="about-titles">First Days om Canada</span><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><img class="about-img" src="http://fillmurray.com/200/300"></div>
+  <p class="about-how-help-text"><span class="about-titles">First Days om Canada</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p><img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/04@2x.png" /></div>
 
 <div class="about-left">
-  <img class="about-img" src="http://fillmurray.com/200/300">
-  <p><span class="about-titles">First Days om Canada</span><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></div>
+<img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/05@2x.png" />
+  <p><span class="about-titles">Living in Canada</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p></div>
 
 
 
   <div class="about-consultants">
       <h2>  Our Education Consultants</h2><br>
       <div class="underline"></div>
-      <img src="http://fillmurray.com/200/300">
-      <h3> Name Place holder </h3>
-      <p> Placeholder </p>
+      <img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/TeamMember01@2x.png" />
+      <h3>Rafael Schafer Marques </h3>
+      <p> Director of International Studies </p>
       <i class="fa fa-facebook-official" aria-hidden="true"></i><i class="fa fa-envelope" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i>
 </div>
 
 <div class="about-consultants">
-      <img src="http://fillmurray.com/200/300">
-      <h3> Name Place holder </h3>
-      <p> Placeholder </p>
+<img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/TeamMember02@3x.png" />
+      <h3> Carolina Robeiro </h3>
+      <p> Advisor</p>
       <i class="fa fa-facebook-official" aria-hidden="true"></i><i class="fa fa-envelope" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i>
 </div>
 
 
 <div class="about-journey">
-      <h2> Start Your Journy<h2><br>
+      <h2> Start Your Journey<h2><br>
       <div class="underline"></div>
       <p>Let us help you find your path to success</p>
       <button class="consult">Book Consult</button>
@@ -79,3 +79,4 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 
+<?php get_footer();?>

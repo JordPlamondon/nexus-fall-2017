@@ -45,13 +45,14 @@ get_header(); ?>
 	    echo '</select>';
     endif;
 		?>
-        <button class="want-to-button">
+      
       </div>
     </span>
 
       <button class="want-to program-filter-submit">Explore</button>
   
       </div>
+      <i class="fa fa-angle-down" aria-hidden="true"></i>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

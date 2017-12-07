@@ -1315,40 +1315,47 @@ section.footer_contact_info {
       text-decoration: none; }
 
 .page-template-taxonomy-nexus_faq .faq-journey {
-  height: 260px;
-  background-color: #F3F5F8;
-  position: relative;
-  bottom: 20px; }
+  height: 195px;
+  background-color: #F3F5F8; }
   .page-template-taxonomy-nexus_faq .faq-journey h2 {
     font-size: 24px;
     text-align: center;
-    color: #123048;
+    color: #15405A;
     font-weight: 900;
     position: relative;
-    top: 20px; }
+    top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1pt; }
   .page-template-taxonomy-nexus_faq .faq-journey p {
     font-size: 14px;
     color: red;
     font-style: italic;
-    font-weight: 200; }
+    font-weight: 200;
+    position: relative;
+    text-transform: none;
+    bottom: 42px; }
   .page-template-taxonomy-nexus_faq .faq-journey .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 50px; }
+    bottom: 48px; }
 
 .page-template-taxonomy-nexus_faq button.consult {
-  width: 135px;
+  letter-spacing: 1pt;
+  width: 165px;
   height: 40px;
   padding: 0;
   border-radius: 25px 0px 25px 0px;
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none;
+  font-size: 18px;
   background: #E91C35;
-  color: white; }
+  color: white;
+  position: relative;
+  bottom: 40px; }
 
 nav.main-navigation {
   background-color: #ffffff;

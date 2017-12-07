@@ -1663,7 +1663,8 @@ div.banner-faq-single {
     height: 47px;
     background-color: red;
     margin: 10px;
-    font-size: 18px; }
+    font-size: 18px;
+    color: white; }
 
 .faq-single-homestay .faq-single-journey {
   height: 195px;

@@ -1625,148 +1625,6 @@ ul#primary-menu {
   margin: 0;
   padding: 0; }
 
-.page-template-living-in-canada div.hero-wrapper-contact {
-  padding-top: 65px;
-  margin-bottom: 24px; }
-  .page-template-living-in-canada div.hero-wrapper-contact h1 {
-    text-align: center;
-    color: #15405A;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 30px; }
-  .page-template-living-in-canada div.hero-wrapper-contact .hero-image-contact {
-    height: 139px;
-    width: 100vw;
-    background-image: url("../../assets/images/living@2x.png");
-    background-size: 100% 100%; }
-  .page-template-living-in-canada div.hero-wrapper-contact .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 20px; }
-
-.page-template-living-in-canada div.contact-journey {
-  height: 195px;
-  background-color: #F3F5F8; }
-  .page-template-living-in-canada div.contact-journey h2 {
-    font-size: 24px;
-    text-align: center;
-    color: #15405A;
-    font-weight: 900;
-    position: relative;
-    top: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1pt; }
-  .page-template-living-in-canada div.contact-journey p {
-    font-size: 14px;
-    color: red;
-    font-style: italic;
-    font-weight: 200;
-    position: relative;
-    text-transform: none;
-    bottom: 42px; }
-  .page-template-living-in-canada div.contact-journey .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 46px; }
-  .page-template-living-in-canada div.contact-journey button.consult {
-    letter-spacing: 1pt;
-    width: 175px;
-    height: 40px;
-    padding: 0;
-    border-radius: 25px 0px 25px 0px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    text-shadow: none;
-    font-size: 18px;
-    background: #E91C35;
-    color: white;
-    position: relative;
-    bottom: 40px; }
-
-.page-template-living-in-canada .contact-homestay {
-  height: 47px;
-  width: 80vw;
-  background-color: #F3F5F8;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-  .page-template-living-in-canada .contact-homestay .homestay-button {
-    height: 47px;
-    width: 55px;
-    background-color: red; }
-
-.page-template-living-in-canada .contact-body {
-  padding-top: 24px;
-  margin: 0 auto; }
-  .page-template-living-in-canada .contact-body p {
-    width: 80vw;
-    margin: 0 auto;
-    margin-bottom: 24px; }
-  .page-template-living-in-canada .contact-body img {
-    width: 80vw;
-    height: 224px;
-    margin-left: 10%;
-    margin-bottom: 24px; }
-  .page-template-living-in-canada .contact-body h2 {
-    font-size: 24px;
-    text-align: center;
-    color: #15405A;
-    font-weight: 900;
-    position: relative;
-    top: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1pt; }
-  .page-template-living-in-canada .contact-body .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 44px; }
-  .page-template-living-in-canada .contact-body .contact-homestay {
-    margin-bottom: 12px; }
-  .page-template-living-in-canada .contact-body .homestay-looking-button {
-    width: 165px;
-    height: 62px;
-    background-color: red; }
-
-.page-template-living-in-canada .homestay-button-wrapper {
-  width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .page-template-living-in-canada .homestay-button-wrapper .homestay-looking-button {
-    width: 42%;
-    height: 65px;
-    background-color: red;
-    margin: 10px;
-    border-radius: 8px; }
-
 .page-template-want-to-study .want-to-content {
   background-image: url("../../assets/images/photo_study@2x.png");
   background-size: 100% 100%;
@@ -1815,6 +1673,46 @@ ul#primary-menu {
       background-color: red; }
     .page-template-want-to-study .want-to-content .contact-want-to:nth-child(1) .contact-want-to:nth-child(2) {
       margin-bottom: 34px; }
+
+.page-template-contact-us h1.entry-title {
+  display: none; }
+
+.page-template-contact-us .contact-form {
+  padding-top: 24px;
+  background-color: #F3F5F8; }
+  .page-template-contact-us .contact-form .wpcf7-form-control {
+    height: 44px; }
+  .page-template-contact-us .contact-form .wpcf7-submit {
+    letter-spacing: 1pt;
+    width: 175px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: #E91C35;
+    color: white;
+    position: relative;
+    bottom: 40px; }
+  .page-template-contact-us .contact-form h2.title {
+    margin-top: 0;
+    text-align: center;
+    color: #15405A;
+    font-size: 24px;
+    font-weight: bold; }
+  .page-template-contact-us .contact-form .contact-content {
+    margin: 0 auto;
+    max-width: 345px;
+    color: #CFCFCF; }
+  .page-template-contact-us .contact-form .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 20px; }
 
 .page-template-contact-us .hero-wrapper {
   padding-top: 65px; }

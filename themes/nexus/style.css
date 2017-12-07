@@ -1307,176 +1307,264 @@ body.page-template-archive-nexus_program main {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-div#secondary.widget-area {
-  background-color: #15405a; }
+/* Shared between media */
+/* Shared between media */
+/* Shared between media */
+footer#colophon.site-footer {
+  color: #FFFFFF; }
 
 div.footer__contact p a,
 div.footer__site-info a,
 div.footer__desktop--nav li a {
   text-decoration: none; }
 
-div.footer__site-info.hidden {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  min-width: 551px;
-  height: 61px; }
+div.footer__social-media {
+  background-color: #15405A; }
 
-div.footer_hidden_anchor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-  padding-left: 3rem; }
-
-div.footer__desktop--nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-  padding-right: 3rem; }
-  div.footer__desktop--nav ul.footer_desktop--nav--ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-
-.footer--nav--li {
-  padding-left: 1rem; }
-
-@media screen and (max-width: 550px) {
-  div.footer__site-info.hidden {
-    display: none; }
-  div.footer__why-nexus {
-    display: none; }
-  ::before {
-    display: show; } }
-
-@media screen and (min-width: 551px) {
-  div.footer__site-info.hidden {
-    display: show; }
-  div.footer__why-nexus {
-    display: show; }
-  ::before {
-    display: none; } }
-
-div.footer__social-media-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  div.footer__social-media-container p {
-    max-height: 75px;
-    max-width: 75px;
-    padding: 0 20px 0 20px; }
-
-div.textwidget {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center; }
-
-h2.widget-title,
-.footer__contact h2 {
-  text-align: center; }
-
-.footer__contact,
-.footer__office {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: auto; }
-  .footer__contact p,
-  .footer__office p {
-    text-align: left; }
-
-.footer__contact--box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
-
-footer#colophon.site-footer {
-  background-color: #122E3F; }
-
-footer#colophon.site-footer,
 div#secondary.widget-area,
 div.footer__contact p a,
 .hidden a {
   color: #ffffff;
   font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
-aside#text-2.widget.widget_text {
-  max-height: 491px; }
+div.widget_info_contain a {
+  text-decoration: none;
+  color: #FFFFFF; }
 
-h2.widget-title {
-  padding-top: 43px; }
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+@media screen and (max-width: 824px) {
+  div.footer__site-info.hidden {
+    display: none; }
+  div.footer__why-nexus {
+    display: none; }
+  .widget_fa {
+    display: show; }
+  div.footer__social-media-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    div.footer__social-media-container h2 {
+      padding: 10px 0;
+      text-align: center;
+      color: #FFFFFF; }
+  div.socialmedia-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 30px; }
+    div.socialmedia-container img {
+      height: 75px;
+      width: 75px;
+      margin: 0 7px; }
+  div.widget_fa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 20px; }
+  section.footer_contact_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  div.footer__contact,
+  div.footer__office {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  div.widget_info_contain a,
+  div.widget_info_contain p,
+  p.footer__office--hours {
+    max-width: 197px; }
+  div.widget_info_contain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 250px;
+    margin-bottom: 2rem; }
+    div.widget_info_contain a {
+      text-decoration: none;
+      color: #FFFFFF; }
+  div.footer__contact h2 {
+    padding: 20px 0 5px 0;
+    text-align: center;
+    color: #FFFFFF; }
+  div.widget-fa i {
+    color: #FFFFFF; }
+  .footer__contact,
+  .footer__office {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto; }
+    .footer__contact p,
+    .footer__office p {
+      text-align: left;
+      color: #FFFFFF; }
+  .underline.footer {
+    margin: auto; } }
 
-div.widget_info_contain {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 2rem; }
-
-div.widget_fa {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-right: 20px; }
-
-div.widget_info_contain p,
-p.footer__office--hours {
-  max-width: 197px; }
-
-div.footer__contact,
-div.footer__office {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-section.footer_contact_info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+/**************  Desktop MEDIA BREAK  ****************************/
+/**************  Desktop MEDIA BREAK  ****************************/
+/**************  Desktop MEDIA BREAK  ****************************/
+/**************  Desktop MEDIA BREAK  ****************************/
+@media screen and (min-width: 825px) {
+  div.footer__site-info.hidden {
+    display: show; }
+  div.footer__why-nexus {
+    display: show; }
+  .widget_fa {
+    display: none; }
+  div.widget-fa {
+    height: 10px; }
+  div.footer__site-info.hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-width: 551px;
+    height: 61px;
+    background-color: #122E3F; }
+  div.footer__desktop--nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    padding-right: 3rem; }
+    div.footer__desktop--nav ul.footer_desktop--nav--ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+  .footer--nav--li {
+    padding-left: 1rem; }
+  div.footer_hidden_anchor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    padding-left: 3rem; }
+  div.footer__social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-height: 400px; }
+  .footer__why-nexus {
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    color: #FFFFFF; }
+    .footer__why-nexus h2 {
+      text-align: left; }
+    .footer__why-nexus p {
+      font-family: "Raleway", Arial, Helvetica, sans-serif; }
+  div.footer__contact h2 {
+    text-align: left; }
+  .widget-info-contain p {
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
+  .widget-info-contain a {
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
+  .footer__why-nexus,
+  .footer__social-media-container,
+  .footer__contact {
+    color: #FFFFFF; }
+    .footer__why-nexus h2,
+    .footer__social-media-container h2,
+    .footer__contact h2 {
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      color: #FFFFFF; }
+  div.footer__social-media-container {
+    margin-top: 4rem; }
+  section.footer_contact_info {
+    margin-right: 5rem;
+    margin-top: 4rem; }
+  .footer__why-nexus,
+  .footer__social-media-container,
+  section.footer_contact_info {
+    width: 200px; }
+  .footer__why-nexus p {
+    margin-top: 33px; }
+  div.socialmedia-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 3.5rem; }
+    div.socialmedia-container img {
+      height: 45px;
+      width: 45px;
+      padding: 0 00px 0 0px;
+      margin: 0 7px; }
+  .underline.footer {
+    padding-top: 10px; } }
 
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
   text-align: center;
@@ -1774,58 +1862,72 @@ ul#primary-menu {
   margin: 0;
   padding: 0; }
 
-.page-template-living-in-canada div.hero-wrapper-contact {
-  padding-top: 65px;
-  margin-bottom: 24px; }
-  .page-template-living-in-canada div.hero-wrapper-contact h1 {
-    text-align: center;
-    color: #15405A;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 30px; }
-  .page-template-living-in-canada div.hero-wrapper-contact .hero-image-contact {
-    height: 139px;
-    width: 100vw;
-    background-image: url("../../assets/images/living@2x.png");
-    background-size: 100% 100%; }
-  .page-template-living-in-canada div.hero-wrapper-contact .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 20px; }
+.page-template-want-to-study i.fa-angle-down {
+  display: inline !important;
+  font-size: 44px;
+  height: 50px;
+  width: 50px;
+  color: black; }
 
-.page-template-living-in-canada div.contact-journey {
-  height: 195px;
-  background-color: #F3F5F8; }
-  .page-template-living-in-canada div.contact-journey h2 {
-    font-size: 24px;
+.page-template-want-to-study .want-to-content {
+  background-image: url("../../assets/images/photo_study@2x.png");
+  background-size: 100% 100%;
+  height: 600px; }
+  .page-template-want-to-study .want-to-content .want-in {
     text-align: center;
-    color: #15405A;
-    font-weight: 900;
-    position: relative;
-    top: 20px;
     text-transform: uppercase;
-    letter-spacing: 1pt; }
-  .page-template-living-in-canada div.contact-journey p {
-    font-size: 14px;
-    color: red;
-    font-style: italic;
-    font-weight: 200;
-    position: relative;
-    text-transform: none;
-    bottom: 42px; }
-  .page-template-living-in-canada div.contact-journey .underline {
+    margin-bottom: 34px;
+    color: #898989; }
+
+.page-template-want-to-study h1 {
+  text-transform: uppercase;
+  color: #15405A;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 34px; }
+
+.page-template-want-to-study .contact-want-to:nth-child(1) {
+  height: 42px;
+  border-radius: 0px;
+  width: 65vw;
+  background-color: #F3F5F8;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+  .page-template-want-to-study .contact-want-to:nth-child(1) select {
+    height: 42px;
+    border-radius: 0px;
+    width: 70vw;
+    background-color: #F3F5F8;
     margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 46px; }
-  .page-template-living-in-canada div.contact-journey button.consult {
+    margin-bottom: 30px; }
+  .page-template-want-to-study .contact-want-to:nth-child(1) .contact-want-to:nth-child(2) {
+    margin-bottom: 34px; }
+
+.page-template-want-to-study .want-to {
+  letter-spacing: 1pt;
+  width: 120px;
+  height: 40px;
+  padding: 0;
+  border-radius: 25px 0px 25px 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  font-size: 18px;
+  background: #E91C35;
+  color: white;
+  position: absolute;
+  bottom: 60px;
+  margin-left: 32%; }
+
+.page-template-contact-us h1.entry-title {
+  display: none; }
+
+.page-template-contact-us .contact-form {
+  padding-top: 24px;
+  background-color: #F3F5F8; }
+  .page-template-contact-us .contact-form .wpcf7-form-control {
+    height: 44px; }
+  .page-template-contact-us .contact-form .wpcf7-submit {
     letter-spacing: 1pt;
     width: 175px;
     height: 40px;
@@ -1839,131 +1941,23 @@ ul#primary-menu {
     color: white;
     position: relative;
     bottom: 40px; }
-
-.page-template-living-in-canada .contact-homestay {
-  height: 47px;
-  width: 80vw;
-  background-color: #F3F5F8;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-  .page-template-living-in-canada .contact-homestay .homestay-button {
-    height: 47px;
-    width: 55px;
-    background-color: red; }
-
-.page-template-living-in-canada .contact-body {
-  padding-top: 24px;
-  margin: 0 auto; }
-  .page-template-living-in-canada .contact-body p {
-    width: 80vw;
-    margin: 0 auto;
-    margin-bottom: 24px; }
-  .page-template-living-in-canada .contact-body img {
-    width: 80vw;
-    height: 224px;
-    margin-left: 10%;
-    margin-bottom: 24px; }
-  .page-template-living-in-canada .contact-body h2 {
-    font-size: 24px;
+  .page-template-contact-us .contact-form h2.title {
+    margin-top: 0;
     text-align: center;
     color: #15405A;
-    font-weight: 900;
-    position: relative;
-    top: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1pt; }
-  .page-template-living-in-canada .contact-body .underline {
+    font-size: 24px;
+    font-weight: bold; }
+  .page-template-contact-us .contact-form .contact-content {
+    margin: 0 auto;
+    max-width: 345px;
+    color: #CFCFCF; }
+  .page-template-contact-us .contact-form .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 44px; }
-  .page-template-living-in-canada .contact-body .contact-homestay {
-    margin-bottom: 12px; }
-  .page-template-living-in-canada .contact-body .homestay-looking-button {
-    width: 165px;
-    height: 62px;
-    background-color: red; }
-
-.page-template-living-in-canada .homestay-button-wrapper {
-  width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .page-template-living-in-canada .homestay-button-wrapper .homestay-looking-button {
-    width: 42%;
-    height: 65px;
-    background-color: red;
-    margin: 10px;
-    border-radius: 8px; }
-
-.page-template-want-to-study .want-to-content {
-  background-image: url("../../assets/images/photo_study@2x.png");
-  background-size: 100% 100%;
-  height: 600px; }
-  .page-template-want-to-study .want-to-content .want-in {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 34px;
-    color: #898989; }
-  .page-template-want-to-study .want-to-content .want-to {
-    letter-spacing: 1pt;
-    width: 120px;
-    height: 40px;
-    padding: 0;
-    border-radius: 25px 0px 25px 0px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    text-shadow: none;
-    font-size: 18px;
-    background: #E91C35;
-    color: white;
-    position: absolute;
-    bottom: 60px;
-    margin-left: 32%; }
-  .page-template-want-to-study .want-to-content h1 {
-    text-transform: uppercase;
-    color: #15405A;
-    text-align: center;
-    padding-top: 40px;
-    margin-bottom: 34px; }
-  .page-template-want-to-study .want-to-content .contact-want-to:nth-child(1) {
-    height: 42px;
-    width: 70vw;
-    background-color: #F3F5F8;
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    margin-bottom: 30px; }
-    .page-template-want-to-study .want-to-content .contact-want-to:nth-child(1) .want-to-button {
-      height: 42px;
-      width: 45px;
-      background-color: red; }
-    .page-template-want-to-study .want-to-content .contact-want-to:nth-child(1) .contact-want-to:nth-child(2) {
-      margin-bottom: 34px; }
+    bottom: 20px; }
 
 .page-template-contact-us .hero-wrapper {
   padding-top: 65px; }

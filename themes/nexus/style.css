@@ -1186,7 +1186,8 @@ div.footer__site-info.hidden {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-width: 551px; }
+  min-width: 551px;
+  height: 61px; }
 
 div.footer_hidden_anchor {
   display: -webkit-box;
@@ -1222,11 +1223,15 @@ div.footer__desktop--nav {
 @media screen and (max-width: 550px) {
   div.footer__site-info.hidden {
     display: none; }
+  div.footer__why-nexus {
+    display: none; }
   ::before {
     display: show; } }
 
 @media screen and (min-width: 551px) {
   div.footer__site-info.hidden {
+    display: show; }
+  div.footer__why-nexus {
     display: show; }
   ::before {
     display: none; } }
@@ -1242,6 +1247,10 @@ div.footer__social-media-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  div.footer__social-media-container p {
+    max-height: 75px;
+    max-width: 75px;
+    padding: 0 20px 0 20px; }
 
 div.textwidget {
   -webkit-box-align: center;
@@ -1275,11 +1284,6 @@ h2.widget-title,
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
-
-div.footer__social-media-container p {
-  max-height: 75px;
-  max-width: 75px;
-  padding: 0 20px 0 20px; }
 
 footer#colophon.site-footer {
   background-color: #122E3F; }

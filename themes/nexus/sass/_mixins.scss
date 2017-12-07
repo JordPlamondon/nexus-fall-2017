@@ -25,3 +25,27 @@
 	}
 
 }
+
+@mixin small-yellow-underline {
+	margin: 0 auto;
+	width: 49px;
+	text-align: center;
+	border-bottom: 3px solid $color__accent-underline;
+	position: relative;
+}
+
+@mixin nav-menu-border {
+	border: 1px solid $color__border-hamnav;
+} 
+
+@mixin dots-active-selected {	
+	height: 13px;	
+	width: 13px;	
+	background-color: $color__background-dot-select;
+}
+
+@mixin dots-active-empty {	
+	height: 13px;	
+	width: 13px;	
+	border: 2px solid $color__dot-border-empty;	
+	background-color: $color__background-dot-empty;}

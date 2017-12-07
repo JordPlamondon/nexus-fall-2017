@@ -15,18 +15,26 @@
           var image = '';
           var school = post['_nexus_program_school'];
           var title = post['_nexus_program_title'];
+          var programContainer = 'program-container-' + i;
+          var programType = post['program_type'];
           var link = api_vars.home_url + '/' + post['slug'];
 
           if (post['featured_media']){
             image = post['_embedded']['wp:featuredmedia'][0]['source_url'];
           }
-          var article = '<article class="program">';
+          var article = '<article class="' + programContainer + '">';
           article += '<div class="program-link"><a href="' + link + '">'
           article += '<div class="program-image"><img src="' + image + '"></div>'
           article += '<div class="program-school">' + school + '</div>'; 
           article += '<div class="program-title">' + title + '</div>';
+          for (var program in programType){
+            article += '<div class ="program-type">' + programType[program] + '</div>'
+          }
           article += '</a></div></article>'
-          console.log(link);
+          
+         
+
+
           // var slug = post.slug;
 
           // Append slug to url
@@ -34,6 +42,9 @@
           //   page: slug
           // }, null, url);
           $('.search-results').append(article);
+              //Selects image class and adds background image
+          
+        
 
         } // for loop
       });

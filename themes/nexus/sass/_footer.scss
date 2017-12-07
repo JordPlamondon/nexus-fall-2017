@@ -15,7 +15,7 @@ div.footer__desktop--nav li a {
   div.footer__why-nexus {
     display: show;
   }
-  ::before {
+  .widget_fa {
     display: none;
   }
   
@@ -166,8 +166,8 @@ div class=underline
   div.footer__why-nexus {
     display: none;
   }
-  ::before {
-    display: block;
+  .widget_fa {
+    display: show;
   }
 
   div.footer__social-media-container {

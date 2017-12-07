@@ -34,7 +34,7 @@ get_header(); ?>
 			<div class="why-canada">
 				<h2 class="why-canada__header">Why Canada</h2>
 				<div class="underline"></div>
-					<div class="owl-carousel">
+					<div class="owl-carousel owl-theme">
 						<div class="quality-of-life">
 							<h3 class="why-canada__subheader">Quality of Life</h3>
 							<p class="why-canada__info">

@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all pages.
- * Template Name: Contact
+ * Template Name: Living in Canada
  * 
  * @package RED_Starter_Theme
  */
@@ -12,7 +12,7 @@ get_header(); ?>
 
   <div class="hero-wrapper-contact"> 
     <div class="hero-image-contact">
-      <h1 class="about-title"> About Us <h1>
+      <h1 class="about-title"> Living In Canada <h1>
       <div class="underline"></div>
     </div>
   </div>

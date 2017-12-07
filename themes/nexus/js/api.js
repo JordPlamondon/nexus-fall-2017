@@ -13,9 +13,9 @@
           var post = data[i];
           var school = post["_nexus_program_school"];
           var title = post["_nexus_program_title"];
-          var article = '<article class="program">'
-          article += '<div class="program-school">' + school + '</div>' 
-          aritcle += '<div class="program-title">' + title + '</div>'
+          var article = '<article class="program">';
+          article += '<div class="program-school">' + school + '</div>'; 
+          article += '<div class="program-title">' + title + '</div>';
           // var slug = post.slug;
 
           // Append slug to url

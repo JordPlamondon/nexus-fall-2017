@@ -24,8 +24,6 @@ get_header(); ?>
 						<a href="<?php echo home_url() ?>"><button class="home-button">Home</button></a>
 					</div>
 
-
-
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
 

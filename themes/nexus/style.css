@@ -2038,8 +2038,7 @@ nav.main-navigation {
   top: 0px; }
   @media all and (min-width: 750px) {
     nav.main-navigation {
-      height: 126px;
-      min-width: 325px; } }
+      height: 126px; } }
   nav.main-navigation .header-logo {
     height: 32px;
     width: 97px;
@@ -2682,11 +2681,8 @@ body.blog .title-wrapper .underline1 {
     font-weight: 600;
     background: pink;
     color: #FFFFFF; }
-<<<<<<< HEAD
-=======
-  .blog-page .blog-text button.read-more:nth-type(3) {
+  .blog-page .blog-text .blog-video button.read-more:nth-type(3) {
     display: none; }
->>>>>>> 5ad156ef7f10378c8d05d217ed53c1ce94ac334e
 
 /*--------------------------------------------------------------
 # 404 Not Found

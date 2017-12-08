@@ -1771,7 +1771,7 @@ div.widget_info_contain a {
   background-size: 100% 100%; }
 
 .page-template-taxonomy-nexus_faq .faq-wrapper {
-  height: 1660px; }
+  height: 1590px; }
   .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
     width: 49px;
     border-bottom: 3px solid #FF8A2A;
@@ -2038,8 +2038,7 @@ nav.main-navigation {
   top: 0px; }
   @media all and (min-width: 750px) {
     nav.main-navigation {
-      height: 126px;
-      min-width: 325px; } }
+      height: 126px; } }
   nav.main-navigation .header-logo {
     height: 32px;
     width: 97px;
@@ -2682,11 +2681,6 @@ body.blog .title-wrapper .underline1 {
     font-weight: 600;
     background: pink;
     color: #FFFFFF; }
-<<<<<<< HEAD
-=======
-  .blog-page .blog-text button.read-more:nth-type(3) {
-    display: none; }
->>>>>>> 5ad156ef7f10378c8d05d217ed53c1ce94ac334e
 
 /*--------------------------------------------------------------
 # 404 Not Found

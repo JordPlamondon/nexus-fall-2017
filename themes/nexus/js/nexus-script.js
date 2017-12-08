@@ -7,18 +7,13 @@
     
     $('.menu-content').slideToggle("swing").focus();
   
-    
   });
-  
-  
+
     $('.menu-content').on('click', function(){
   
       $('.menu-content').toggle().focus();
   
-  
     });
-
-
 
   $('.owl-carousel').owlCarousel({
       loop:true,
@@ -30,10 +25,10 @@
               items:1
           },
           600:{
-              items:3
+              items:1
           },
           1000:{
-              items:5
+              items:1
           }
       }
   })
@@ -42,5 +37,14 @@
     $('select').selectric();
   });
 
+  //single-nexus_faq dropdown menus
+  $(function () {
+    $('.homestay-button').click(function () {
+      $(this).next('.faq-dropdown').slideToggle("swing");
+
+      $(this).parent().next().slideToggle();
+      return false;
+      })
+    });
 
   })(jQuery);

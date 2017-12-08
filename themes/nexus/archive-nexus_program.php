@@ -8,38 +8,63 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-    <?php
-    if( $terms = get_terms( array(
-                  'taxonomy' => 'program_type',
-									'hide_empty' => 0 ) ) ) :
-			
-	    echo '<select name="programfilter"><option>program</option>';
-			foreach ( $terms as $term ) :
-		    echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
-	    endforeach;
-	    echo '</select>';
-    endif;
-    ?>
+				<main id="main" class="site-main" role="main">
 
-     <?php
-    if( $terms = get_terms( array(
-                  'taxonomy' => 'provinces', 
-									'hide_empty' => 0) ) ) : // to make it simple I use default categories
-	    echo '<select name="provincefilter"><option>province</option>';
-	    foreach ( $terms as $term ) :
-		    echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
-	    endforeach;
-	    echo '</select>';
-    endif;
-		?>
+	<div class="want-to-content">
+
+					
+
+							<h1> I Want To Study: </h1>
 		
-		<button class="program-filter-submit">Explore</button>
-			<section class="search-results">
-			</section>
+							<span>
+  					<div class="contact-want-to">
+
+						<?php
+						if( $terms = get_terms( array(
+												'taxonomy' => 'program_type',
+												'hide_empty' => 0 ) ) ) :
+						
+						echo '<select name="programfilter"><option>program</option>';
+						foreach ( $terms as $term ) :
+							echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
+						endforeach;
+						echo '</select>';
+					endif;
+					?>
+		
+						</div>
+						
+					</span>
+				
+					<h3 class="want-in"> In </h3>
+
+					<span>
+
+					<div class="contact-want-to">
+						<?php
+						if( $terms = get_terms( array(
+													'taxonomy' => 'provinces', 
+													'hide_empty' => 0) ) ) : // to make it simple I use default categories
+							echo '<select name="provincefilter"><option>province</option>';
+							foreach ( $terms as $term ) :
+								echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
+							endforeach;
+							echo '</select>';
+						endif;
+						?>
+				<button class="program-filter-submit want-to">Explore</button>
+				</div>
+
+		
+					</span>
+
+					
+	
+	
+				</div>
+			<div class="search-results"></div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
 

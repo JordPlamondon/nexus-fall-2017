@@ -91,6 +91,7 @@ function red_starter_scripts() {
 
 
 	wp_enqueue_script( 'owl.carousel', get_template_directory_uri() . '/lib/owl.carousel.js', array('jquery'), '20130115', true );
+	wp_enqueue_script( 'selectric', get_template_directory_uri() . '/lib/jquery.selectric.min.js', array('jquery'), '20130115', true );
 
 	wp_enqueue_script( 'nexus-script', get_template_directory_uri() . '/build/js/nexus-script.min.js', array(), '20130115', true );
 	

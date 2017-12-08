@@ -15,7 +15,7 @@ function nexus_register_metaboxes_2() {
   
   $cmb = new_cmb2_box( array(
 		'id'            => 'test_metabox',
-		'title'         => __( 'Test Metabox', 'cmb2' ),
+		'title'         => __( 'FAQ Post Metabox Fields', 'cmb2' ),
 		'object_types'  => array( 'nexus_faq' ), // Post type
 		'context'       => 'normal',
 		'priority'      => 'high',

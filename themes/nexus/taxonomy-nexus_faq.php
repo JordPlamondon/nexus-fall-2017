@@ -39,11 +39,11 @@ get_header(); ?>
 					</li>
 					<div class="underline"></div>
 					<div class="shadow-border"></div>
-
+					
 					<?php endwhile; // End of the loop. ?>
 					<?php endif; ?>
-
-				</ul>			
+				</ul>		
+					
 				<div class="faq-journey">
       		<h2> Start Your Journey<h2><br>
 					<div class="underline"></div>
@@ -56,4 +56,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<!-- get footer -->
+<!-- get_footer();  -->

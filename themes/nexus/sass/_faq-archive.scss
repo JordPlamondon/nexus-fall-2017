@@ -26,22 +26,25 @@
   }
   .site-main {
     .underline {
-      margin: 0 auto;
+      // margin: 0 auto;
       width: 49px;
-      text-align: center;
+      // text-align: center;
       border-bottom: 3px solid $color__accent-underline;
       position: relative;
       padding: 0;
       bottom: 115px;
-      right: 3px;
+      left: 143px;
     }
     .shadow-border {
       border-bottom: 1px solid rgb(209, 209, 209);
       box-shadow: 0px 10px $color__textbox-background;;
       padding-top: 10px;
-      width: 383px;
-      right: 20px;
+      width: 100vw;
+      right: 3.5vw;
       position: relative;
+    }
+    .shadow-border:last-child {
+      display: none;
     }
     ul {
       position: relative;
@@ -78,7 +81,7 @@
         }
       }
     }
-  }  
+  }   
 // Journey
 .faq-journey {
   height: 195px;
@@ -110,11 +113,12 @@
       border-bottom: 3px solid $color__accent-underline;
       position: relative;
       bottom: 48px;
+      left: 0;
     }
  }
   button.consult {
     letter-spacing: 1pt;
-    width: 165px;
+    width: 175px;
     height: 40px;
     padding: 0;
     border-radius: 25px 0px 25px 0px;
@@ -126,4 +130,4 @@
     position: relative;
     bottom: 40px;
   }
-}
+ }

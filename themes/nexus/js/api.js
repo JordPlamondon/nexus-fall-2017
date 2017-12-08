@@ -34,7 +34,7 @@
           }
           article += '</a></div></article>'
 
-          $('.search-results').html(article);
+          $('.search-results').append(article);
 
         } // for loop
       });
@@ -67,13 +67,13 @@
     ajaxGet(request);
   });
 
-
-
-
-$(document).ready(function() {
-  $('.homestay-button').click(function() {
-    console.log('butts');
-    $('#dropdown').toggleClass('visible');
+//single-nexus_faq dropdown menus
+$(function () {
+  $('.homestay-button').click(function () {
+      $(this).next('.faq-dropdown').slideToggle("swing");
+      
+      $(this).parent().next().slideToggle();
+      return false;
   });
 });
 

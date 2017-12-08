@@ -1731,23 +1731,24 @@ div class=underline
   background-size: 100% 100%; }
 
 .page-template-taxonomy-nexus_faq .site-main .underline {
-  margin: 0 auto;
   width: 49px;
-  text-align: center;
   border-bottom: 3px solid #FF8A2A;
   position: relative;
   padding: 0;
   bottom: 115px;
-  right: 3px; }
+  left: 143px; }
 
 .page-template-taxonomy-nexus_faq .site-main .shadow-border {
   border-bottom: 1px solid #d1d1d1;
   -webkit-box-shadow: 0px 10px #F3F5F8;
           box-shadow: 0px 10px #F3F5F8;
   padding-top: 10px;
-  width: 383px;
-  right: 20px;
+  width: 100vw;
+  right: 3.5vw;
   position: relative; }
+
+.page-template-taxonomy-nexus_faq .site-main .shadow-border:last-child {
+  display: none; }
 
 .page-template-taxonomy-nexus_faq .site-main ul {
   position: relative;
@@ -1809,11 +1810,12 @@ div class=underline
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 48px; }
+    bottom: 48px;
+    left: 0; }
 
 .page-template-taxonomy-nexus_faq button.consult {
   letter-spacing: 1pt;
-  width: 165px;
+  width: 175px;
   height: 40px;
   padding: 0;
   border-radius: 25px 0px 25px 0px;
@@ -1848,13 +1850,13 @@ div.banner-faq-single {
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 24px; }
+    bottom: 20px; }
 
 .nexus_faq-template-default .site-main .thumb {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 325px;
   height: 211.9px; }
 
@@ -1873,19 +1875,24 @@ div.banner-faq-single {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  margin-top: 10px; }
+  margin-top: 20px; }
   .nexus_faq-template-default .faq-homestay .faq-meta-title {
-    margin: 3.6vw;
+    margin: 15px;
     font-weight: 600; }
   .nexus_faq-template-default .faq-homestay .homestay-button {
     height: 55px;
-    width: 55px;
+    width: 53px;
     background-color: #E91C35; }
+    .nexus_faq-template-default .faq-homestay .homestay-button .fa {
+      color: white;
+      text-shadow: none;
+      position: relative;
+      bottom: 6px;
+      right: 5.5px; }
 
 .nexus_faq-template-default .faq-meta-text {
-  margin-left: 6.66vw;
-  margin-right: 6.66vw;
-  width: 92vw; }
+  margin-left: 7vw;
+  margin-right: 4vw; }
 
 .nexus_faq-template-default .faq-dropdown {
   display: none; }
@@ -1898,7 +1905,7 @@ div.banner-faq-single {
   text-align: center;
   color: #15405A;
   position: relative;
-  top: 10px; }
+  top: 25px; }
 
 .faq-single-homestay .underline {
   margin: 0 auto;
@@ -1931,6 +1938,9 @@ div.banner-faq-single {
     font-size: 18px;
     color: white;
     text-shadow: none; }
+    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p {
+      position: relative;
+      bottom: 14px; }
 
 .faq-single-homestay .faq-single-journey {
   height: 195px;

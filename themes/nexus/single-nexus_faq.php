@@ -16,15 +16,11 @@ get_header(); ?>
       	<div class="underline"></div>
     	</div>
 		</div>
-		
-		<!-- <div class="contact-homestay">
-      <button class="homestay-button">
-		</div> -->
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
+
 				if ( comments_open() || get_comments_number() ) :
 					comments_template();
 				endif;
@@ -39,9 +35,11 @@ foreach ( (array) $entries as $key => $entry ) {
 	$img = $title = $desc = ''; ?>
 
 	<div class="faq-homestay">
-
 		<button class="homestay-button">
-		<i class="fa fa-angle-down" aria-hidden="true"></i>
+		<div style="font-size: 50px;"	
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
+		</div>
+
 		<!-- title -->
 		<?php 
 			if ( isset( $entry['title'] ) ) {
@@ -55,14 +53,16 @@ foreach ( (array) $entries as $key => $entry ) {
 	</div>
 
 	<div id="dropdown" class="faq-dropdown">
+
 		<!-- description -->
-	<?php
-		if ( isset( $entry['description'] ) ) {
-			$desc = wpautop( $entry['description'] );
-		} ?>
-		<div class="faq-meta-text">
-			<?php echo $desc; ?>
-		</div>
+		<?php
+			if ( isset( $entry['description'] ) ) {
+				$desc = wpautop( $entry['description'] );
+			} ?>
+			<div class="faq-meta-text">
+				<?php echo $desc; ?>
+			</div>
+
 		<!-- image -->
 		<?php
 			if ( isset( $entry['image_id'] ) ) {
@@ -72,25 +72,22 @@ foreach ( (array) $entries as $key => $entry ) {
 		} ?>
 		<?php echo $img; ?>
 	</div>
-
 <?php
-	// Do something with the data
 }
 ?>
-<!-- Faq menu dropdown -->
-
 		<?php endwhile; // End of the loop. ?>
+		
 			<div class="faq-single-homestay"> 
 				<h2> Keep Looking<h2><br> 
       		<div class="underline"></div>
     
       		<div class="homestay-button-wrapper">
-        		<button class="homestay-looking-button">Immigration</button>
-        		<button class="homestay-looking-button">Before Arriving</button>
-        		<button class="homestay-looking-button">Financial</button>
-        		<button class="homestay-looking-button">School</button>
-        		<button class="homestay-looking-button">Working</button>
-        		<button class="homestay-looking-button">Return To Top
+        		<button class="homestay-looking-button"><p>Immigration</p></button>
+        		<button class="homestay-looking-button"><p>Before Arriving</p></button>
+        		<button class="homestay-looking-button"><p>Financial</p></button>
+        		<button class="homestay-looking-button"><p>School</p></button>
+        		<button class="homestay-looking-button"><p>Working</p></button>
+        		<button class="homestay-looking-button"><p>Return To Top</p></button>
       		</div>
 
 				<div class="faq-single-journey">
@@ -104,6 +101,4 @@ foreach ( (array) $entries as $key => $entry ) {
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer();
-?>
+<?php get_footer(); ?>

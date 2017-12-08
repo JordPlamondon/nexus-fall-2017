@@ -50,18 +50,46 @@ get_header(); ?>
 				<h2 class="why-canada__header">Why Canada</h2>
 				<div class="underline"></div>
 					<div class="owl-carousel owl-theme">
-						<div class="quality-of-life">
-							<h3 class="why-canada__subheader">Quality of Life</h3>
-							<p class="why-canada__info">
+						<div class="carouselplaceholder">
+							<h3 class="carouselplaceholder__subheader">Quality of Life</h3>
+							<p class="carouselplaceholder__info">
 							So as most people will know by now, i am doing a backpacking adventure over the next month. Really, i'm not entirely sure what drove me to this. While iImay have my…
 							</p>
 						</div>
-						<div class="fresh-air">
-							<h3 class="fresh-air__subheader">Fresh Air</h3>
-							<p class="fresh-air__info">
+						<div class="carouselplaceholder">
+							<h3 class="carouselplaceholder__subheader">Fresh Air</h3>
+							<p class="carouselplaceholder__info">
 							The air is super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
 							</p>
 						</div>
+						<div class="carouselplaceholder">
+							<h3 class="carouselplaceholder__subheader">Awesome People</h3>
+							<p class="carouselplaceholder__info">
+							The people are super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
+							</p>
+						</div>
+						<div class="carouselplaceholder">
+							<h3 class="carouselplaceholder__subheader">Good Weed</h3>
+							<p class="carouselplaceholder__info">
+							The weed is super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
+							</p>
+						</div>
+						<div class="carouselplaceholder">
+							<h3 class="carouselplaceholder__subheader">Hipster Central</h3>
+							<p class="carouselplaceholder__info">
+							The hipsters are super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
+							</p>
+						</div>
+						<div class="carouselplaceholder">
+							<h3 class="carouselplaceholder__subheader">RED Academy</h3>
+							<p class="carouselplaceholder__info">
+							The education is super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
+							</p>
+						</div>
+					</div>
+					<div class="curious">
+						<h2 class="curious__subheader">Curious About Canada?</h2>
+						<button class="curious__button">Visit FAQ Section</button>
 					</div>
 				</section>
 
@@ -81,7 +109,16 @@ get_header(); ?>
 				</p>
 			</section>
 
-
+			<section class="choose-province-wrapper">
+				<div class="choose-province">
+					<h2 class="choose-province__header">Choose a Province</h2>
+					<div class="underline"></div>
+					<p class="choose-province__info">
+						Fusce tempor felis lacus, a hendrerit urna facilisis at. 
+					</p>
+					<button class="choose-province__button">About Us</button>
+				</div>
+			</section>
 
 			<section class="student-review">
 				<h2 class="student-review__header">Student's Review</h2>

@@ -685,9 +685,6 @@ a {
     margin: 0;
     text-align: center;
     font-weight: bold; }
-    @media all and (min-width: 550px) {
-      .home h2 {
-        text-align: left; } }
   .home .underline {
     width: 49px;
     border-bottom: 3px solid #FF8A2A; }
@@ -799,6 +796,9 @@ a {
         background-size: 55% 50%,50% 50%; } }
     .home .site-main .why-nexus__header {
       font-family: "Roboto", Arial, Helvetica, sans-serif; }
+      @media all and (min-width: 550px) {
+        .home .site-main .why-nexus__header {
+          text-align: left; } }
     @media all and (min-width: 550px) {
       .home .site-main .why-nexus .underline {
         position: relative;
@@ -861,30 +861,6 @@ a {
           text-shadow: none;
           background: #E91C35;
           color: white; } }
-  .home .site-main .why-canada {
-    height: 70vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto; }
-    .home .site-main .why-canada h2, .home .site-main .why-canada p {
-      width: 80%;
-      margin: 0 auto; }
-    .home .site-main .why-canada__subheader {
-      font-family: "Raleway", Arial, Helvetica, sans-serif;
-      font-weight: 600;
-      font-style: italic;
-      color: #E00029; }
   .home .site-main .browse-programs {
     height: 70vh;
     display: -webkit-box;
@@ -904,6 +880,9 @@ a {
     .home .site-main .browse-programs h2, .home .site-main .browse-programs p {
       width: 80%;
       margin: 0 auto; }
+    @media all and (min-width: 550px) {
+      .home .site-main .browse-programs {
+        display: none; } }
     .home .site-main .browse-programs__subheading {
       width: 80%;
       text-transform: uppercase;
@@ -912,6 +891,49 @@ a {
       display: -ms-flexbox;
       display: flex;
       background: #F3F5F8; }
+  .home .site-main .choose-province-wrapper {
+    display: none; }
+    @media all and (min-width: 550px) {
+      .home .site-main .choose-province-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        height: 70vh; } }
+    .home .site-main .choose-province-wrapper .choose-province {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      width: 25%; }
+      .home .site-main .choose-province-wrapper .choose-province__header {
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: bold; }
+      .home .site-main .choose-province-wrapper .choose-province button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: white; }
   .home .site-main .student-review {
     height: 70vh;
     display: -webkit-box;
@@ -1007,6 +1029,83 @@ a {
       text-shadow: none;
       background: #E91C35;
       color: white; }
+
+.home .why-canada__header {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: bold; }
+  @media all and (min-width: 550px) {
+    .home .why-canada__header {
+      text-align: center; } }
+
+@media all and (min-width: 550px) {
+  .home .why-canada .underline {
+    text-align: center;
+    margin: 0 auto; } }
+
+.home .why-canada .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #E91C35;
+    border-radius: 0;
+    height: 4rem;
+    width: 4rem;
+    font-size: 5rem;
+    padding-bottom: 20px; }
+
+.home .why-canada .owl-dots {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .owl-dots {
+      display: block; } }
+
+.home .why-canada .carouselplaceholder {
+  background: url("../../assets/images/whynexus.png");
+  margin: 0 5rem;
+  width: 100vw; }
+
+.home .why-canada .carouselplaceholder__subheader {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #E00029;
+  text-align: center; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .carouselplaceholder__subheader {
+      color: #123048;
+      font-size: 2.5rem; } }
+
+.home .why-canada .curious {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .curious {
+      display: inline-block; } }
+  .home .why-canada .curious__subheader {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold; }
+  .home .why-canada .curious__button {
+    width: 135px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    background: #E91C35;
+    color: white; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1764,148 +1863,6 @@ ul#primary-menu {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-
-.page-template-living-in-canada div.hero-wrapper-contact {
-  padding-top: 65px;
-  margin-bottom: 24px; }
-  .page-template-living-in-canada div.hero-wrapper-contact h1 {
-    text-align: center;
-    color: #15405A;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 30px; }
-  .page-template-living-in-canada div.hero-wrapper-contact .hero-image-contact {
-    height: 139px;
-    width: 100vw;
-    background-image: url("../../assets/images/living@2x.png");
-    background-size: 100% 100%; }
-  .page-template-living-in-canada div.hero-wrapper-contact .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 20px; }
-
-.page-template-living-in-canada div.contact-journey {
-  height: 195px;
-  background-color: #F3F5F8; }
-  .page-template-living-in-canada div.contact-journey h2 {
-    font-size: 24px;
-    text-align: center;
-    color: #15405A;
-    font-weight: 900;
-    position: relative;
-    top: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1pt; }
-  .page-template-living-in-canada div.contact-journey p {
-    font-size: 14px;
-    color: red;
-    font-style: italic;
-    font-weight: 200;
-    position: relative;
-    text-transform: none;
-    bottom: 42px; }
-  .page-template-living-in-canada div.contact-journey .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 46px; }
-  .page-template-living-in-canada div.contact-journey button.consult {
-    letter-spacing: 1pt;
-    width: 175px;
-    height: 40px;
-    padding: 0;
-    border-radius: 25px 0px 25px 0px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    text-shadow: none;
-    font-size: 18px;
-    background: #E91C35;
-    color: white;
-    position: relative;
-    bottom: 40px; }
-
-.page-template-living-in-canada .contact-homestay {
-  height: 47px;
-  width: 80vw;
-  background-color: #F3F5F8;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-  .page-template-living-in-canada .contact-homestay .homestay-button {
-    height: 47px;
-    width: 55px;
-    background-color: red; }
-
-.page-template-living-in-canada .contact-body {
-  padding-top: 24px;
-  margin: 0 auto; }
-  .page-template-living-in-canada .contact-body p {
-    width: 80vw;
-    margin: 0 auto;
-    margin-bottom: 24px; }
-  .page-template-living-in-canada .contact-body img {
-    width: 80vw;
-    height: 224px;
-    margin-left: 10%;
-    margin-bottom: 24px; }
-  .page-template-living-in-canada .contact-body h2 {
-    font-size: 24px;
-    text-align: center;
-    color: #15405A;
-    font-weight: 900;
-    position: relative;
-    top: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1pt; }
-  .page-template-living-in-canada .contact-body .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 44px; }
-  .page-template-living-in-canada .contact-body .contact-homestay {
-    margin-bottom: 12px; }
-  .page-template-living-in-canada .contact-body .homestay-looking-button {
-    width: 165px;
-    height: 62px;
-    background-color: red; }
-
-.page-template-living-in-canada .homestay-button-wrapper {
-  width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .page-template-living-in-canada .homestay-button-wrapper .homestay-looking-button {
-    width: 42%;
-    height: 65px;
-    background-color: red;
-    margin: 10px;
-    border-radius: 8px; }
 
 .page-template-want-to-study .want-to-content {
   background-image: url("../../assets/images/photo_study@2x.png");

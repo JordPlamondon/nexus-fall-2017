@@ -71,6 +71,9 @@
     if (submitted) {
        $('.search-results').empty();
       var request = requestFilter();
+      if (request === undefined) {
+        return true;
+      }
       ajaxGet(request);
     }
   })

@@ -34,7 +34,7 @@
           }
           article += '</a></div></article>'
 
-          $('.search-results').append(article);
+          $('.search-results').html(article);
 
         } // for loop
       });

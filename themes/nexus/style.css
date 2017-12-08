@@ -1574,6 +1574,7 @@ div.widget_info_contain a {
   div.widget_info_contain a,
   div.widget_info_contain p,
   p.footer__office--hours {
+    margin-left: 24px;
     max-width: 197px; }
   div.widget_info_contain {
     display: -webkit-box;
@@ -2681,6 +2682,11 @@ body.blog .title-wrapper .underline1 {
     font-weight: 600;
     background: pink;
     color: #FFFFFF; }
+<<<<<<< HEAD
+=======
+  .blog-page .blog-text .blog-video button.read-more:nth-type(3) {
+    display: none; }
+>>>>>>> 077f7115c4eb4040c13880df6071d06c280c5d83
 
 /*--------------------------------------------------------------
 # 404 Not Found

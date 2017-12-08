@@ -2242,8 +2242,13 @@ nav.main-navigation:hover {
   text-transform: uppercase;
   color: #15405A;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
   margin-bottom: 34px; }
+
+@media all and (min-width: 550px) {
+  .page-template-archive-nexus_program .button-wrapper {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; } }
 
 .page-template-archive-nexus_program .contact-want-to:nth-child(1) {
   height: 42px;

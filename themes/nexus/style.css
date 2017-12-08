@@ -820,7 +820,7 @@ a {
               box-shadow: none;
       text-shadow: none;
       background: #E91C35;
-      color: white; }
+      color: #FFFFFF; }
   .home .site-main .choose-wrapper {
     display: none; }
     @media all and (min-width: 550px) {
@@ -860,7 +860,7 @@ a {
                   box-shadow: none;
           text-shadow: none;
           background: #E91C35;
-          color: white; } }
+          color: #FFFFFF; } }
   .home .site-main .browse-programs {
     height: 70vh;
     display: -webkit-box;
@@ -933,7 +933,7 @@ a {
                 box-shadow: none;
         text-shadow: none;
         background: #E91C35;
-        color: white; }
+        color: #FFFFFF; }
   .home .site-main .student-review {
     height: 70vh;
     display: -webkit-box;
@@ -1028,7 +1028,7 @@ a {
               box-shadow: none;
       text-shadow: none;
       background: #E91C35;
-      color: white; }
+      color: #FFFFFF; }
 
 .home .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -1105,7 +1105,7 @@ a {
             box-shadow: none;
     text-shadow: none;
     background: #E91C35;
-    color: white; }
+    color: #FFFFFF; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1292,7 +1292,7 @@ body.page-template-archive-nexus_program main {
 
 .page-template-about .about-right {
   height: 264px;
-  background-color: white;
+  background-color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1320,7 +1320,7 @@ body.page-template-archive-nexus_program main {
 
 .page-template-about .about-consultants {
   height: 500px;
-  background-color: white;
+  background-color: #FFFFFF;
   display: block;
   text-align: center; }
   .page-template-about .about-consultants p {
@@ -1374,7 +1374,7 @@ body.page-template-archive-nexus_program main {
     letter-spacing: 1pt; }
   .page-template-about .about-journey p {
     font-size: 14px;
-    color: red;
+    color: #E00029;
     font-style: italic;
     font-weight: 200;
     position: relative;
@@ -1757,7 +1757,7 @@ div.widget_info_contain a {
     letter-spacing: 1pt; }
   .page-template-taxonomy-nexus_faq .faq-journey p {
     font-size: 14px;
-    color: red;
+    color: #E00029;
     font-style: italic;
     font-weight: 200;
     position: relative;
@@ -1783,7 +1783,7 @@ div.widget_info_contain a {
   text-shadow: none;
   font-size: 18px;
   background: #E91C35;
-  color: white;
+  color: #FFFFFF;
   position: relative;
   bottom: 40px; }
 
@@ -1843,7 +1843,7 @@ div.banner-faq-single {
     width: 53px;
     background-color: #E91C35; }
     .nexus_faq-template-default .faq-homestay .homestay-button .fa {
-      color: white;
+      color: #FFFFFF;
       text-shadow: none;
       position: relative;
       bottom: 6px;
@@ -1895,7 +1895,7 @@ div.banner-faq-single {
     background-color: #E91C35;
     margin: 10px;
     font-size: 18px;
-    color: white;
+    color: #FFFFFF;
     text-shadow: none; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p {
       position: relative;
@@ -1915,7 +1915,7 @@ div.banner-faq-single {
     letter-spacing: 1pt; }
   .faq-single-homestay .faq-single-journey p {
     font-size: 14px;
-    color: red;
+    color: #E00029;
     font-style: italic;
     font-weight: 200;
     position: relative;
@@ -1939,7 +1939,7 @@ div.banner-faq-single {
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: white;
+    color: #FFFFFF;
     position: relative;
     bottom: 40px; }
 
@@ -2087,7 +2087,7 @@ ul#primary-menu {
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: white;
+    color: #FFFFFF;
     position: relative;
     bottom: 40px; }
   .page-template-contact .contact-form h2.title {
@@ -2145,7 +2145,7 @@ ul#primary-menu {
     letter-spacing: 1pt; }
   .page-template-contact .contact-journey p {
     font-size: 14px;
-    color: red;
+    color: #E00029;
     font-style: italic;
     font-weight: 200;
     position: relative;
@@ -2170,7 +2170,7 @@ ul#primary-menu {
   text-shadow: none;
   font-size: 18px;
   background: #E91C35;
-  color: white;
+  color: #FFFFFF;
   position: relative;
   bottom: 40px; }
 

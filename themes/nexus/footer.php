@@ -15,17 +15,17 @@
     <div class="footer__why-nexus">
 			<h2>Why Nexus?</h2>
 			<div class="underline footer"></div>
-      <p>Our passion is helping our clients learn how to prepare a powerful action plan and execute their life-changing journey of living in    Canada.</p>
+      <p>Our passion is helping our clients learn how to prepare a powerful action plan and execute their life-changing journey of living in Canada.</p>
     </div> <!-- footer__why-nexus -->
 
     <div class="footer__social-media-container">
 			<h2>Stay Connected</h2>
 			<div class="underline footer"></div>
 			<div class="socialmedia-container">
-				<img src="http://localhost:8080/nexus/wp-content/uploads/2017/12/face_logo1@3x.png" alt="facebook" />
-				<img src="http://localhost:8080/nexus/wp-content/uploads/2017/12/twitter_logo1@3x.png" alt="twitter" />
-				<img src="http://localhost:8080/nexus/wp-content/uploads/2017/12/youtube_logo1@3x.png" alt="Youtube" />
-				<img src="http://localhost:8080/nexus/wp-content/uploads/2017/12/twitter_logo1@3x.png" alt="Instagram" />
+				<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/face_logo1@3x.png" alt="Facebook" />
+				<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/twitter_logo1@3x.png" alt="Twitter" />
+				<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/youtube_logo1@3x.png" alt="Youtube" />
+				<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/Instagram@3x.png" alt="Instagram" />
 			</div> <!-- socialmedia-container -->
     </div> <!-- footer__social-media-container -->
 

@@ -1,5 +1,5 @@
 (function ($) {
-
+  console.log('whatever');
   // Ajax functions
   function ajaxGet(request) {
     console.log(api_vars.root_url + request);
@@ -67,6 +67,21 @@
     ajaxGet(request);
   });
 
+<<<<<<< HEAD
+
+
+
+$(document).ready(function() {
+  $('.homestay-button').click(function() {
+
+    $('#dropdown').toggleClass('visible');
+  });
+});
+
+
+})(jQuery);
+
+=======
   $('select').on('change', function() {
     if (submitted) {
        $('.search-results').empty();
@@ -81,3 +96,4 @@
 })(jQuery);
 
 
+>>>>>>> f8743a83ca7fe09c5b3f2b5665424a3839a0b332

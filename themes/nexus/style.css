@@ -2202,6 +2202,8 @@ nav.main-navigation:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -2210,7 +2212,8 @@ nav.main-navigation:hover {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      jusitfy-content: flex-start; } }
 
 .page-template-archive-nexus_program .select-form-wrapper-searched {
   -webkit-box-orient: horizontal;
@@ -2244,6 +2247,9 @@ nav.main-navigation:hover {
   text-align: center;
   padding-top: 30px;
   margin-bottom: 34px; }
+  @media all and (min-width: 550px) {
+    .page-template-archive-nexus_program .program-title {
+      text-align: left; } }
 
 @media all and (min-width: 550px) {
   .page-template-archive-nexus_program .button-wrapper {
@@ -2269,6 +2275,7 @@ nav.main-navigation:hover {
 
 .page-template-archive-nexus_program .button-wrapper {
   width: 130px;
+  padding-top: 10%;
   margin: 0 auto; }
   .page-template-archive-nexus_program .button-wrapper .want-to {
     letter-spacing: 1pt;
@@ -2281,9 +2288,7 @@ nav.main-navigation:hover {
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 60px; }
+    color: #FFFFFF; }
 
 .page-template-contact h1.entry-title {
   display: none; }
@@ -2400,7 +2405,8 @@ nav.main-navigation:hover {
   width: 70%; }
   @media all and (min-width: 550px) {
     .selectric-wrapper {
-      width: 370px; } }
+      width: 40%;
+      max-width: 370px; } }
 
 .selectric-responsive {
   width: 100%; }

@@ -1,13 +1,58 @@
 .page-template-archive-nexus_program {
+
+.hero-wrapper {
+  padding-top: 65px;
+  h1 {
+    text-align: center;
+    color: $color__footer-background;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    top: 50px;
+  }
+  .hero-image {
+    height: 139px;
+    width: 100vw;
+    background-image: url("../../assets/images/blog@3x.png");
+    background-size: 100% 100%;
+  }
+  .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid $color__accent-underline;
+    position: relative;
+    bottom: 24px;
+  }
+}
+.hidden { 
+  display: none;
+}
 .search-results {
   background-color: #e0ffff;
   font-size: 18px;
-  
+  display: flex;
 }
+
+.select-searched {
+  max-width: 125px;
+}
+
+.select-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-form-wrapper-searched {
+  flex-direction: row;
+}
+
 article.program {
   color: $color__text-accent;
 }
-  .want-to-content {
+  .program-content {
     background-image: url("../../assets/images/photo_study@2x.png");
     background-size: 100% 100%;
     height: 600px;

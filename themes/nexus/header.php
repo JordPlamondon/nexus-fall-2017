@@ -28,14 +28,18 @@
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 
-					<div class="header-logo"></div>
-					
+					<a href="<?php echo home_url();?>"class="header-logo"></a>
+
+<div class="full-screen-links">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+					<button class="consult">Book Consult</button>
+</div>
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 
 				</nav><!-- #site-navigation -->
 
 				<div class="menu-content">
-						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?><br>
 						<button class="consult">Book Consult</button>
 				</div>
 

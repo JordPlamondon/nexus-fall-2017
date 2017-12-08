@@ -16,15 +16,11 @@ get_header(); ?>
       	<div class="underline"></div>
     	</div>
 		</div>
-		
-		<!-- <div class="contact-homestay">
-      <button class="homestay-button">
-		</div> -->
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
+
 				if ( comments_open() || get_comments_number() ) :
 					comments_template();
 				endif;
@@ -43,6 +39,7 @@ foreach ( (array) $entries as $key => $entry ) {
 		<div style="font-size: 50px;"	
 			<i class="fa fa-angle-down" aria-hidden="true"></i>
 		</div>
+
 		<!-- title -->
 		<?php 
 			if ( isset( $entry['title'] ) ) {
@@ -56,14 +53,16 @@ foreach ( (array) $entries as $key => $entry ) {
 	</div>
 
 	<div id="dropdown" class="faq-dropdown">
+
 		<!-- description -->
-	<?php
-		if ( isset( $entry['description'] ) ) {
-			$desc = wpautop( $entry['description'] );
-		} ?>
-		<div class="faq-meta-text">
-			<?php echo $desc; ?>
-		</div>
+		<?php
+			if ( isset( $entry['description'] ) ) {
+				$desc = wpautop( $entry['description'] );
+			} ?>
+			<div class="faq-meta-text">
+				<?php echo $desc; ?>
+			</div>
+
 		<!-- image -->
 		<?php
 			if ( isset( $entry['image_id'] ) ) {
@@ -73,11 +72,11 @@ foreach ( (array) $entries as $key => $entry ) {
 		} ?>
 		<?php echo $img; ?>
 	</div>
-
 <?php
 }
 ?>
 		<?php endwhile; // End of the loop. ?>
+		
 			<div class="faq-single-homestay"> 
 				<h2> Keep Looking<h2><br> 
       		<div class="underline"></div>

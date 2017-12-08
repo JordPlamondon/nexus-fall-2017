@@ -67,13 +67,13 @@
     ajaxGet(request);
   });
 
-<<<<<<< HEAD
-//sing-nexus_faq dropdown menus
-=======
->>>>>>> 10fef9f732a823d3b782d91cbb927b5e20061ed3
-$(document).ready(function() {
-  $('.homestay-button').click(function() {
-    $('#dropdown').toggleClass('visible');
+//single-nexus_faq dropdown menus
+$(function () {
+  $('.homestay-button').click(function () {
+      $(this).next('.faq-dropdown').slideToggle("swing");
+      
+      $(this).parent().next().slideToggle();
+      return false;
   });
 });
 

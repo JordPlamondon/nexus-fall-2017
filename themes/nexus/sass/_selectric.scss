@@ -12,7 +12,7 @@
 }
 
 .selectric {
-  background: #F3F5F8;
+  background: $color__textbox-background;
   position: relative;
   border-radius: 0px;
 }
@@ -25,12 +25,12 @@
   margin: 0 38px 0 13px;
   font-size: 12px;
   line-height: 38px;
-  color: #123048;
+  color: $color__text-main;
   height: 38px;
 }
 
 .selectric .button {
-  background: #E91C35;
+  background: $color__icon-element;
   border-radius: 0px;
   display: block;
   position: absolute;
@@ -40,7 +40,7 @@
   margin: auto;
   width: 40px;
   height: 40px;
-  color: #FFFFFF;
+  color: $color__text-white;
   text-align: center;
   font: 0/0 a;
   *font: 40px/40px Lucida Sans Unicode, Arial Unicode MS, Arial;

@@ -6,9 +6,9 @@
     margin:0;
     text-align: center;
     font-weight: bold;
-    @media #{$desktop} {
-      text-align: left;
-    }
+    // @media #{$desktop} {
+    //   text-align: left;
+    // }
   }
 
   .underline {
@@ -124,7 +124,7 @@
       &__header {
         font-family: $font__main; 
         @media #{$desktop} {
-          
+          text-align: left;    
         }
       }
 
@@ -194,21 +194,11 @@
     }
 
 
-
-
-    .why-canada {
-      @include front-page-section-block;
-
-      &__subheader {
-        font-family: $font__accent;
-        font-weight: 600;
-        font-style: italic;
-        color: $color__text-accent;
-      }
-    }
-
     .browse-programs {
       @include front-page-section-block;
+      @media #{$desktop} {
+        display: none;
+      }
 
       &__subheading {
         width: 80%;
@@ -218,6 +208,45 @@
         background: $color__textbox-background;
       }
     }
+
+    .choose-province-wrapper {
+      display: none;
+      @media #{$desktop} {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        height: 70vh;
+    }
+    
+    .choose-province {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 25%;
+
+        &__header {
+          font-family: $font__main;
+          font-weight: bold;
+        }
+        button {
+          width: 135px;
+          height: 40px;
+          padding: 0;
+          border-radius: 25px 0px 25px 0px;
+          box-shadow: none;
+          text-shadow: none;
+          background: $color__icon-element;
+          color: white;
+        }
+      
+
+      }
+    }
+
+
+
+
 
     .student-review {
       @include front-page-section-block;

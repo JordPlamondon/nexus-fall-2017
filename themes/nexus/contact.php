@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all pages.
- * Template Name: Contact Us
+ * Template Name: Contact
  * 
  * @package RED_Starter_Theme
  */

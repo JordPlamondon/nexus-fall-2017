@@ -1529,7 +1529,8 @@ div.widget_info_contain a {
     div.footer__social-media-container h2 {
       padding: 20px 0 10px 0;
       text-align: center;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      margin-bottom: 0; }
   div.socialmedia-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1590,7 +1591,8 @@ div.widget_info_contain a {
   div.footer__contact h2 {
     padding: 20px 0 5px 0;
     text-align: center;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin-bottom: 0; }
   div.widget-fa i {
     color: #FFFFFF; }
   .footer__contact,
@@ -1608,7 +1610,9 @@ div.widget_info_contain a {
       text-align: left;
       color: #FFFFFF; }
   .underline.footer {
-    margin: auto; } }
+    margin: auto;
+    width: 49px;
+    border-bottom: 3px solid #ff8a2a; } }
 
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
@@ -1706,7 +1710,8 @@ div.widget_info_contain a {
     .footer__contact h2 {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       color: #FFFFFF;
-      text-align: left; }
+      text-align: left;
+      margin-bottom: 0; }
   div.footer__social-media-container {
     margin-top: 4rem; }
   section.footer_contact_info {
@@ -1735,10 +1740,12 @@ div.widget_info_contain a {
     div.socialmedia-container img {
       height: 45px;
       width: 45px;
-      padding: 0 00px 0 0px;
+      padding: 0 0px 0 0px;
       margin: 0 7px; }
   .underline.footer {
-    padding-top: 10px; } }
+    padding-top: 10px;
+    width: 49px;
+    border-bottom: 3px solid #ff8a2a; } }
 
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
   text-align: center;

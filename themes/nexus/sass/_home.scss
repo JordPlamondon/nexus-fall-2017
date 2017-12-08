@@ -62,10 +62,10 @@ body.blog {
       text-shadow: none;
       font-size: 18px;
       font-weight: 600;
-      background: $color__icon-element;
+      background: pink;
       color: $color__text-white;
     }
-    button.read-more:nth-child(3) {
+    button.read-more:nth-type(3) {
       display: none;
     }
   }

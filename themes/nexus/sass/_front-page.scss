@@ -245,11 +245,9 @@
     }
 
 
-
-
-
     .student-review {
       @include front-page-section-block;
+      
 
       &__box {
         display: flex;

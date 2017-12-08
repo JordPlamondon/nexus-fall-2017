@@ -34,7 +34,7 @@
           }
           article += '</a></div></article>'
 
-          $('.search-results').html(article);
+          $('.search-results').append(article);
 
         } // for loop
       });
@@ -67,12 +67,8 @@
     ajaxGet(request);
   });
 
-
-
-
 $(document).ready(function() {
   $('.homestay-button').click(function() {
-    console.log('butts');
     $('#dropdown').toggleClass('visible');
   });
 });

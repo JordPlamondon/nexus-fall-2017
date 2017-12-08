@@ -19,7 +19,9 @@ get_header(); ?>
 				
 			<div class="program-content">
 				<div class="select-form-wrapper">
-					<h1 class="program-title"> I Want To Study: </h1>
+					<div class="program-title-wrapper">
+						<h1 class="program-title"> I Want To Study: </h1>
+					</div>
 							<?php
 								if( $terms = get_terms( array(
 													'taxonomy' => 'program_type',

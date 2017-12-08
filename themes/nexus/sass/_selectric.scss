@@ -6,7 +6,9 @@
   position: relative;
   cursor: pointer;
   width: 70%;
-  
+  @media #{$desktop} {
+    width: 370px;
+  }
 }
 
 .selectric-responsive {

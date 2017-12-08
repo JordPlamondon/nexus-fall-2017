@@ -50,43 +50,31 @@ get_header(); ?>
 				<h2 class="why-canada__header">Why Canada</h2>
 				<div class="underline"></div>
 					<div class="owl-carousel owl-theme">
-						<div class="carouselplaceholder">
-							<h3 class="carouselplaceholder__subheader">Quality of Life</h3>
-							<p class="carouselplaceholder__info">
-							So as most people will know by now, i am doing a backpacking adventure over the next month. Really, i'm not entirely sure what drove me to this. While iImay have my…
-							</p>
+						<div class="carouselplaceholder first">
+							<div class="carouselplaceholder__content-wrapper">
+								<h3 class="carouselplaceholder__subheader">Quality of Life</h3>
+								<p class="carouselplaceholder__info">
+								So as most people will know by now, i am doing a backpacking adventure over the next month. Really, i'm not entirely sure what drove me to this. While iImay have my…
+								</p>
+							</div>
 						</div>
-						<div class="carouselplaceholder">
-							<h3 class="carouselplaceholder__subheader">Fresh Air</h3>
-							<p class="carouselplaceholder__info">
-							The air is super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
-							</p>
+						<div class="carouselplaceholder second">
+							<div class="carouselplaceholder__content-wrapper">
+								<h3 class="carouselplaceholder__subheader">Fresh Air</h3>
+								<p class="carouselplaceholder__info">
+								The air is super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
+								</p>
+							</div>
 						</div>
-						<div class="carouselplaceholder">
-							<h3 class="carouselplaceholder__subheader">Awesome People</h3>
-							<p class="carouselplaceholder__info">
-							The people are super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
-							</p>
+						<div class="carouselplaceholder third">
+							<div class="carouselplaceholder__content-wrapper">
+								<h3 class="carouselplaceholder__subheader">Awesome People</h3>
+								<p class="carouselplaceholder__info">
+								The people are super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
+								</p>
+							</div>
 						</div>
-						<div class="carouselplaceholder">
-							<h3 class="carouselplaceholder__subheader">Good Weed</h3>
-							<p class="carouselplaceholder__info">
-							The weed is super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
-							</p>
-						</div>
-						<div class="carouselplaceholder">
-							<h3 class="carouselplaceholder__subheader">Hipster Central</h3>
-							<p class="carouselplaceholder__info">
-							The hipsters are super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
-							</p>
-						</div>
-						<div class="carouselplaceholder">
-							<h3 class="carouselplaceholder__subheader">RED Academy</h3>
-							<p class="carouselplaceholder__info">
-							The education is super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
-							</p>
-						</div>
-					</div>
+					</div> 
 					<div class="curious">
 						<h2 class="curious__subheader">Curious About Canada?</h2>
 						<button class="curious__button">Visit FAQ Section</button>

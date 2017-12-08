@@ -60,4 +60,4 @@ get_header(); ?>
 
 	</div><!-- #primary -->
 
-<!-- get_footer();  -->
+<?php get_footer(); ?>

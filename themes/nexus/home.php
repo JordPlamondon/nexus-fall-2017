@@ -26,12 +26,17 @@ get_header(); ?>
         ?>
     
         <li>
-          <?php the_post_thumbnail( 'full' ); ?>
+          <div class="blog-img">
+            <?php the_post_thumbnail( 'full' ); ?>
+          </div>
           <div class="blog-text">
             <a href="<?php the_permalink(); ?>" rel="blog title"> 
               <h2><?php the_title(); ?></h2>
             </a>	
             <?php the_excerpt(); ?>
+            <div style="text-align:center;">
+              <button class="read-more">Read More</button>
+            </div>
           </div>
         </li>
         <!-- <div class="underline"></div>

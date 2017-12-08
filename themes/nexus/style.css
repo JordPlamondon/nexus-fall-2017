@@ -1032,7 +1032,8 @@ a {
 
 @media all and (min-width: 550px) {
   .home .why-canada {
-    position: relative; } }
+    position: relative;
+    height: 90vh; } }
 
 .home .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -1048,38 +1049,57 @@ a {
 
 @media all and (min-width: 550px) {
   .home .why-canada .owl-carousel {
-    width: 65%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 25rem; } }
+    width: 100%;
+    height: 100%; } }
+
+.home .why-canada .first {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus.png");
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus.png");
+  background-size: 65% 75%,75% 100%;
+  background-position-x: left, right;
+  background-repeat: no-repeat, no-repeat; }
+
+.home .why-canada .second {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada.png");
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada.png");
+  background-size: 65% 75%,75% 100%;
+  background-position-x: left, right;
+  background-repeat: no-repeat, no-repeat; }
+
+.home .why-canada .third {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo_review.png");
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo_review.png");
+  background-size: 65% 75%,75% 100%;
+  background-position-x: left, right;
+  background-repeat: no-repeat, no-repeat; }
 
 .home .why-canada .carouselplaceholder {
-  background: rgba(255, 1, 255, 0.5);
-  margin: 0 5rem;
-  width: 100vw;
-  height: 20rem; }
-  @media all and (min-width: 550px) {
-    .home .why-canada .carouselplaceholder {
-      width: 100%;
-      margin-left: 1rem;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start; } }
+  width: 100%;
+  height: 100%; }
+  .home .why-canada .carouselplaceholder__content-wrapper {
+    margin: 0 5rem;
+    width: 65%;
+    height: 25rem; }
+    @media all and (min-width: 550px) {
+      .home .why-canada .carouselplaceholder__content-wrapper {
+        width: 100%;
+        height: 23rem;
+        margin-left: 1rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; } }
+    @media all and (min-width: 550px) {
+      .home .why-canada .carouselplaceholder__content-wrapper * {
+        padding: 0 2rem;
+        width: 50%;
+        text-align: left; } }
 
 .home .why-canada .carouselplaceholder__subheader {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -1089,9 +1109,15 @@ a {
   text-align: center; }
   @media all and (min-width: 550px) {
     .home .why-canada .carouselplaceholder__subheader {
+      margin-top: 5px;
       color: #123048;
       font-size: 2.5rem;
-      font-style: normal; } }
+      font-style: normal;
+      text-align: left; } }
+
+.home .why-canada .carouselplaceholder__info {
+  position: relative;
+  bottom: 2rem; }
 
 .home .why-canada .owl-nav {
   display: -webkit-box;
@@ -1103,6 +1129,7 @@ a {
   @media all and (min-width: 550px) {
     .home .why-canada .owl-nav {
       position: absolute;
+      z-index: 998;
       bottom: 3rem;
       right: 1rem; } }
   .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next {
@@ -1128,14 +1155,18 @@ a {
     .home .why-canada .owl-dots {
       display: inline;
       position: absolute;
-      bottom: 4rem;
-      left: 1rem; } }
+      bottom: 18rem;
+      left: 3rem; } }
 
 .home .why-canada .curious {
   display: none; }
   @media all and (min-width: 550px) {
     .home .why-canada .curious {
-      display: inline-block; } }
+      display: inline-block;
+      margin-left: 1rem;
+      position: absolute;
+      bottom: 11rem;
+      z-index: 9999; } }
   .home .why-canada .curious__subheader {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bold; }
@@ -2440,3 +2471,32 @@ nav.main-navigation:hover {
 
 .selectric-items .selectric-group li {
   padding-left: 25px; }
+
+.blog-page ul {
+  position: relative;
+  right: 20px;
+  padding: 0;
+  padding-top: 120px; }
+
+.blog-page li {
+  list-style-type: none; }
+  .blog-page li .blog-img {
+    margin-top: 20px; }
+
+.blog-page a {
+  text-align: center;
+  text-decoration: none; }
+
+.blog-page .blog-text button.read-more {
+  letter-spacing: 1pt;
+  width: 124.65px;
+  height: 40px;
+  padding: 0;
+  border-radius: 25px 0px 25px 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  font-size: 18px;
+  font-weight: 600;
+  background: #E91C35;
+  color: #FFFFFF; }

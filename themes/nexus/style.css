@@ -1529,7 +1529,8 @@ div.widget_info_contain a {
     div.footer__social-media-container h2 {
       padding: 20px 0 10px 0;
       text-align: center;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      margin-bottom: 0; }
   div.socialmedia-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1590,7 +1591,8 @@ div.widget_info_contain a {
   div.footer__contact h2 {
     padding: 20px 0 5px 0;
     text-align: center;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin-bottom: 0; }
   div.widget-fa i {
     color: #FFFFFF; }
   .footer__contact,
@@ -1608,7 +1610,9 @@ div.widget_info_contain a {
       text-align: left;
       color: #FFFFFF; }
   .underline.footer {
-    margin: auto; } }
+    margin: auto;
+    width: 49px;
+    border-bottom: 3px solid #ff8a2a; } }
 
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
@@ -1706,7 +1710,8 @@ div.widget_info_contain a {
     .footer__contact h2 {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       color: #FFFFFF;
-      text-align: left; }
+      text-align: left;
+      margin-bottom: 0; }
   div.footer__social-media-container {
     margin-top: 4rem; }
   section.footer_contact_info {
@@ -1735,10 +1740,12 @@ div.widget_info_contain a {
     div.socialmedia-container img {
       height: 45px;
       width: 45px;
-      padding: 0 00px 0 0px;
+      padding: 0 0px 0 0px;
       margin: 0 7px; }
   .underline.footer {
-    padding-top: 10px; } }
+    padding-top: 10px;
+    width: 49px;
+    border-bottom: 3px solid #ff8a2a; } }
 
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
   text-align: center;
@@ -2027,8 +2034,12 @@ nav.main-navigation {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: fixed;
-  z-index: 10;
+  z-index: 3;
   top: 0px; }
+  @media all and (min-width: 750px) {
+    nav.main-navigation {
+      height: 126px;
+      min-width: 325px; } }
   nav.main-navigation .header-logo {
     height: 32px;
     width: 97px;
@@ -2036,6 +2047,14 @@ nav.main-navigation {
     background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
     background-size: 100% 100%;
     z-index: 10; }
+    @media all and (min-width: 750px) {
+      nav.main-navigation .header-logo {
+        height: 62px;
+        width: 151px;
+        margin-left: 40px;
+        margin-top: 26px;
+        background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
+        background-size: 100% 100%; } }
   nav.main-navigation .menu-toggle {
     height: 17px;
     width: 24px;
@@ -2043,15 +2062,26 @@ nav.main-navigation {
     background-image: url("../../assets/images/menu_icon@3x.png");
     background-size: 100% 100%;
     z-index: 10; }
+    @media all and (min-width: 750px) {
+      nav.main-navigation .menu-toggle {
+        display: none; } }
 
 div.menu-content {
-  padding-top: 30px;
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s;
+  -webkit-box-shadow: 1px 1px 8px 1px lightgrey;
+          box-shadow: 1px 1px 8px 1px lightgrey;
+  padding-top: 50px;
   height: 400px;
   width: 60vw;
   background-color: #F3F5F8;
   margin-left: 40vw;
   position: fixed;
-  z-index: 10; }
+  top: 20px;
+  z-index: 2;
+  text-align: center; }
   div.menu-content ul {
     list-style-type: none;
     margin: 0;
@@ -2066,12 +2096,9 @@ div.menu-content {
     font-weight: bold;
     text-decoration: none; }
   div.menu-content button.consult {
-    width: 135px;
+    width: 10vw;
     height: 40px;
     padding: 0;
-    position: relative;
-    left: 60px;
-    top: 40px;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -2093,28 +2120,69 @@ nav.main-navigation:hover {
           box-shadow: 1px 1px 8px 1px lightgrey;
   opacity: 1; }
 
+.full-screen-links {
+  display: none; }
+  @media all and (min-width: 750px) {
+    .full-screen-links {
+      width: 80vw;
+      height: 80px;
+      margin-top: 36px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      overflow: hidden;
+      position: absolute;
+      left: 190px; }
+      .full-screen-links li {
+        margin: 32px 0 0 5vw;
+        position: relative;
+        display: inline-block;
+        float: none; }
+      .full-screen-links a {
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .full-screen-links .consult {
+        position: relative;
+        top: 22px;
+        left: 44px;
+        width: 135px;
+        height: 40px;
+        font-size: 16px;
+        padding: 0;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
+
 .page-template-archive-nexus_program .hero-wrapper {
-  padding-top: 65px; }
-  .page-template-archive-nexus_program .hero-wrapper h1 {
-    text-align: center;
-    color: #15405A;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 50px; }
-  .page-template-archive-nexus_program .hero-wrapper .hero-image {
-    height: 139px;
-    width: 100vw;
-    background-image: url("../../assets/images/blog@3x.png");
-    background-size: 100% 100%; }
-  .page-template-archive-nexus_program .hero-wrapper .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 24px; }
+  visibility: hidden; }
+  @media all and (min-width: 550px) {
+    .page-template-archive-nexus_program .hero-wrapper {
+      visibility: visible;
+      padding-top: 65px; }
+      .page-template-archive-nexus_program .hero-wrapper h1 {
+        text-align: center;
+        color: #15405A;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 900;
+        position: relative;
+        top: 50px; }
+      .page-template-archive-nexus_program .hero-wrapper .hero-image {
+        height: 139px;
+        width: 100vw;
+        background-image: url("../../assets/images/blog@3x.png");
+        background-size: 100% 100%; }
+      .page-template-archive-nexus_program .hero-wrapper .underline {
+        margin: 0 auto;
+        width: 49px;
+        text-align: center;
+        border-bottom: 3px solid #FF8A2A;
+        position: relative;
+        bottom: 24px; } }
 
 .page-template-archive-nexus_program .hidden {
   display: none; }
@@ -2133,13 +2201,26 @@ nav.main-navigation:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media all and (min-width: 550px) {
+    .page-template-archive-nexus_program .select-form-wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      jusitfy-content: flex-start;
+      max-width: 750px;
+      padding-left: 60px; } }
 
 .page-template-archive-nexus_program .select-form-wrapper-searched {
   -webkit-box-orient: horizontal;
@@ -2147,25 +2228,40 @@ nav.main-navigation:hover {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.page-template-archive-nexus_program article.program {
+.page-template-archive-nexus_program .program {
   color: #E00029; }
 
 .page-template-archive-nexus_program .program-content {
   background-image: url("../../assets/images/photo_study@2x.png");
-  background-size: 100% 100%;
-  height: 600px; }
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  min-height: 600px; }
   .page-template-archive-nexus_program .program-content .want-in {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 34px;
     color: #898989; }
 
-.page-template-archive-nexus_program h1 {
+@media all and (min-width: 550px) {
+  .page-template-archive-nexus_program .program-title-wrapper {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; } }
+
+.page-template-archive-nexus_program .program-title {
   text-transform: uppercase;
   color: #15405A;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
   margin-bottom: 34px; }
+  @media all and (min-width: 550px) {
+    .page-template-archive-nexus_program .program-title {
+      text-align: left; } }
+
+@media all and (min-width: 550px) {
+  .page-template-archive-nexus_program .button-wrapper {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; } }
 
 .page-template-archive-nexus_program .contact-want-to:nth-child(1) {
   height: 42px;
@@ -2186,6 +2282,7 @@ nav.main-navigation:hover {
 
 .page-template-archive-nexus_program .button-wrapper {
   width: 130px;
+  padding-top: 50px;
   margin: 0 auto; }
   .page-template-archive-nexus_program .button-wrapper .want-to {
     letter-spacing: 1pt;
@@ -2198,9 +2295,7 @@ nav.main-navigation:hover {
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 60px; }
+    color: #FFFFFF; }
 
 .page-template-contact h1.entry-title {
   display: none; }
@@ -2315,6 +2410,10 @@ nav.main-navigation:hover {
   position: relative;
   cursor: pointer;
   width: 70%; }
+  @media all and (min-width: 550px) {
+    .selectric-wrapper {
+      width: 40%;
+      max-width: 370px; } }
 
 .selectric-responsive {
   width: 100%; }
@@ -2581,8 +2680,13 @@ body.blog .title-wrapper .underline1 {
     text-shadow: none;
     font-size: 18px;
     font-weight: 600;
-    background: #E91C35;
+    background: pink;
     color: #FFFFFF; }
+<<<<<<< HEAD
+=======
+  .blog-page .blog-text button.read-more:nth-type(3) {
+    display: none; }
+>>>>>>> 5ad156ef7f10378c8d05d217ed53c1ce94ac334e
 
 /*--------------------------------------------------------------
 # 404 Not Found

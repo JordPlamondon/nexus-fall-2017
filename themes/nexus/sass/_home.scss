@@ -65,13 +65,18 @@ body.blog {
       text-shadow: none;
       font-size: 18px;
       font-weight: 600;
-      background: $color__icon-element;
+      background: pink;
       color: $color__text-white;
     }
+<<<<<<< HEAD
     .blog-video {
       // position: relative;
       // right: 12px;
       // width: 100vw;
+=======
+    button.read-more:nth-type(3) {
+      display: none;
+>>>>>>> 5ad156ef7f10378c8d05d217ed53c1ce94ac334e
     }
   }
 }    

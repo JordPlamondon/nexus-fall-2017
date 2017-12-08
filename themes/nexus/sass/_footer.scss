@@ -61,6 +61,7 @@ div.widget_info_contain a {
       padding: 20px 0 10px 0;
       text-align: center;
       color: $color__text-white;
+      margin-bottom: 0;
     }
   }
 
@@ -114,6 +115,7 @@ div.widget_info_contain a {
     padding: 20px 0 5px 0;
     text-align: center;
     color: $color__text-white;
+    margin-bottom: 0;
   }
   
   div.widget-fa i {
@@ -133,6 +135,8 @@ div.widget_info_contain a {
 
   .underline.footer {
     margin: auto;
+    width: 49px;
+    border-bottom: 3px solid #ff8a2a;
   }
 }
 
@@ -232,6 +236,7 @@ div.widget_info_contain a {
       font-family: $font__main;
       color: $color__text-white;
       text-align: left;
+      margin-bottom: 0;
     }
   }
 
@@ -263,13 +268,15 @@ div.widget_info_contain a {
     img {
       height: 45px;
       width: 45px;
-      padding: 0 00px 0 0px;
+      padding: 0 0px 0 0px;
       margin: 0 7px;
     }
   }
 
   .underline.footer {
     padding-top: 10px;
+    width: 49px;
+    border-bottom: 3px solid #ff8a2a;
   }
 }
 

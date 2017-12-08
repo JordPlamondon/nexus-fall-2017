@@ -1032,7 +1032,8 @@ a {
 
 @media all and (min-width: 550px) {
   .home .why-canada {
-    position: relative; } }
+    position: relative;
+    height: 90vh; } }
 
 .home .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -1048,38 +1049,57 @@ a {
 
 @media all and (min-width: 550px) {
   .home .why-canada .owl-carousel {
-    width: 65%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 25rem; } }
+    width: 100%;
+    height: 100%; } }
+
+.home .why-canada .first {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus.png");
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus.png");
+  background-size: 65% 75%,75% 100%;
+  background-position-x: left, right;
+  background-repeat: no-repeat, no-repeat; }
+
+.home .why-canada .second {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada.png");
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada.png");
+  background-size: 65% 75%,75% 100%;
+  background-position-x: left, right;
+  background-repeat: no-repeat, no-repeat; }
+
+.home .why-canada .third {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo_review.png");
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo_review.png");
+  background-size: 65% 75%,75% 100%;
+  background-position-x: left, right;
+  background-repeat: no-repeat, no-repeat; }
 
 .home .why-canada .carouselplaceholder {
-  background: rgba(255, 1, 255, 0.5);
-  margin: 0 5rem;
-  width: 100vw;
-  height: 20rem; }
-  @media all and (min-width: 550px) {
-    .home .why-canada .carouselplaceholder {
-      width: 100%;
-      margin-left: 1rem;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start; } }
+  width: 100%;
+  height: 100%; }
+  .home .why-canada .carouselplaceholder__content-wrapper {
+    margin: 0 5rem;
+    width: 65%;
+    height: 25rem; }
+    @media all and (min-width: 550px) {
+      .home .why-canada .carouselplaceholder__content-wrapper {
+        width: 100%;
+        height: 23rem;
+        margin-left: 1rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; } }
+    @media all and (min-width: 550px) {
+      .home .why-canada .carouselplaceholder__content-wrapper * {
+        padding: 0 2rem;
+        width: 50%;
+        text-align: left; } }
 
 .home .why-canada .carouselplaceholder__subheader {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -1089,9 +1109,15 @@ a {
   text-align: center; }
   @media all and (min-width: 550px) {
     .home .why-canada .carouselplaceholder__subheader {
+      margin-top: 5px;
       color: #123048;
       font-size: 2.5rem;
-      font-style: normal; } }
+      font-style: normal;
+      text-align: left; } }
+
+.home .why-canada .carouselplaceholder__info {
+  position: relative;
+  bottom: 2rem; }
 
 .home .why-canada .owl-nav {
   display: -webkit-box;
@@ -1103,6 +1129,7 @@ a {
   @media all and (min-width: 550px) {
     .home .why-canada .owl-nav {
       position: absolute;
+      z-index: 998;
       bottom: 3rem;
       right: 1rem; } }
   .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next {
@@ -1128,14 +1155,18 @@ a {
     .home .why-canada .owl-dots {
       display: inline;
       position: absolute;
-      bottom: 4rem;
-      left: 1rem; } }
+      bottom: 18rem;
+      left: 3rem; } }
 
 .home .why-canada .curious {
   display: none; }
   @media all and (min-width: 550px) {
     .home .why-canada .curious {
-      display: inline-block; } }
+      display: inline-block;
+      margin-left: 1rem;
+      position: absolute;
+      bottom: 11rem;
+      z-index: 9999; } }
   .home .why-canada .curious__subheader {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bold; }
@@ -1732,59 +1763,58 @@ div.widget_info_contain a {
   background-image: url("../../assets/images/faq@3x.png");
   background-size: 100% 100%; }
 
-.page-template-taxonomy-nexus_faq .site-main .underline {
-  width: 49px;
-  border-bottom: 3px solid #FF8A2A;
-  position: relative;
-  padding: 0;
-  bottom: 115px;
-  left: 143px; }
-
-.page-template-taxonomy-nexus_faq .site-main .shadow-border {
-  border-bottom: 1px solid #d1d1d1;
-  -webkit-box-shadow: 0px 10px #F3F5F8;
-          box-shadow: 0px 10px #F3F5F8;
-  padding-top: 10px;
-  width: 100vw;
-  right: 3.5vw;
-  position: relative; }
-
-.page-template-taxonomy-nexus_faq .site-main .shadow-border:last-child {
-  display: none; }
-
-.page-template-taxonomy-nexus_faq .site-main ul {
-  position: relative;
-  right: 20px;
-  padding: 0;
-  padding-top: 120px; }
-  .page-template-taxonomy-nexus_faq .site-main ul li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    list-style-type: none;
-    height: 187px;
-    width: 100%; }
-    .page-template-taxonomy-nexus_faq .site-main ul li .list-text {
+.page-template-taxonomy-nexus_faq .faq-wrapper {
+  height: 1660px; }
+  .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
+    width: 49px;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    padding: 0;
+    bottom: 115px;
+    left: 143px; }
+  .page-template-taxonomy-nexus_faq .faq-wrapper .shadow-border {
+    border-bottom: 1px solid #d1d1d1;
+    -webkit-box-shadow: 0px 10px #F3F5F8;
+            box-shadow: 0px 10px #F3F5F8;
+    padding-top: 10px;
+    width: 100vw;
+    right: 3.5vw;
+    position: relative; }
+  .page-template-taxonomy-nexus_faq .faq-wrapper .shadow-border:last-child {
+    display: none; }
+  .page-template-taxonomy-nexus_faq .faq-wrapper ul {
+    position: relative;
+    right: 20px;
+    padding: 0;
+    padding-top: 120px; }
+    .page-template-taxonomy-nexus_faq .faq-wrapper ul li {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
-    .page-template-taxonomy-nexus_faq .site-main ul li h2 {
-      position: relative;
-      top: 15px; }
-    .page-template-taxonomy-nexus_faq .site-main ul li p {
-      position: relative;
-      bottom: 6px;
-      font-size: 14px;
-      font-weight: 100;
-      color: #15405A; }
-    .page-template-taxonomy-nexus_faq .site-main ul li img {
-      height: 126px;
-      width: 103px;
-      margin: 40px 20px; }
-    .page-template-taxonomy-nexus_faq .site-main ul li a {
-      text-decoration: none; }
+      list-style-type: none;
+      height: 187px;
+      width: 100%; }
+      .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+      .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
+        position: relative;
+        top: 15px; }
+      .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
+        position: relative;
+        bottom: 6px;
+        font-size: 14px;
+        font-weight: 100;
+        color: #15405A; }
+      .page-template-taxonomy-nexus_faq .faq-wrapper ul li img {
+        height: 126px;
+        width: 103px;
+        margin: 40px 20px; }
+      .page-template-taxonomy-nexus_faq .faq-wrapper ul li a {
+        text-decoration: none; }
 
 .page-template-taxonomy-nexus_faq .faq-journey {
   height: 195px;
@@ -1996,6 +2026,7 @@ nav.main-navigation {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: fixed;
   z-index: 10;
   top: 0px; }
   nav.main-navigation .header-logo {
@@ -2019,6 +2050,7 @@ div.menu-content {
   width: 60vw;
   background-color: #F3F5F8;
   margin-left: 40vw;
+  position: fixed;
   z-index: 10; }
   div.menu-content ul {
     list-style-type: none;
@@ -2051,6 +2083,15 @@ ul#primary-menu {
   list-style-type: none;
   margin: 0;
   padding: 0; }
+
+nav.main-navigation:hover {
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s;
+  -webkit-box-shadow: 1px 1px 8px 1px lightgrey;
+          box-shadow: 1px 1px 8px 1px lightgrey;
+  opacity: 1; }
 
 .page-template-archive-nexus_program .search-results {
   background-color: #e0ffff;
@@ -2430,3 +2471,32 @@ ul#primary-menu {
 
 .selectric-items .selectric-group li {
   padding-left: 25px; }
+
+.blog-page ul {
+  position: relative;
+  right: 20px;
+  padding: 0;
+  padding-top: 120px; }
+
+.blog-page li {
+  list-style-type: none; }
+  .blog-page li .blog-img {
+    margin-top: 20px; }
+
+.blog-page a {
+  text-align: center;
+  text-decoration: none; }
+
+.blog-page .blog-text button.read-more {
+  letter-spacing: 1pt;
+  width: 124.65px;
+  height: 40px;
+  padding: 0;
+  border-radius: 25px 0px 25px 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  font-size: 18px;
+  font-weight: 600;
+  background: #E91C35;
+  color: #FFFFFF; }

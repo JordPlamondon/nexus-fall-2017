@@ -1562,51 +1562,6 @@ div.widget_info_contain a {
       height: 45px;
       width: 45px;
       padding: 0 00px 0 0px;
-<<<<<<< HEAD
-      margin: 0 7px; } }
-
-/*
-
-div class=underline
-
-*/
-@media screen and (max-width: 824px) {
-  div.footer__site-info.hidden {
-    display: none; }
-  div.footer__why-nexus {
-    display: none; }
-  .widget_fa {
-    display: show; }
-  div.footer__social-media-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    div.footer__social-media-container h2 {
-      padding: 10px 0; }
-  div.socialmedia-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    div.socialmedia-container img {
-      height: 75px;
-      width: 75px;
-      padding: 0 00px 0 0px;
-=======
->>>>>>> c2ae7522afcb9213d410194ed30c5c1b1ca6ea0d
       margin: 0 7px; }
   .underline.footer {
     padding-top: 10px; } }
@@ -1907,51 +1862,51 @@ ul#primary-menu {
   margin: 0;
   padding: 0; }
 
-.page-template-want-to-study .search-results {
+.page-template-archive-nexus_program .search-results {
   background-color: lightcyan;
   font-size: 18px; }
 
-.page-template-want-to-study article.program {
+.page-template-archive-nexus_program article.program {
   color: red; }
 
-.page-template-want-to-study .want-to-content {
+.page-template-archive-nexus_program .want-to-content {
   background-image: url("../../assets/images/photo_study@2x.png");
   background-size: 100% 100%;
   height: 600px; }
-  .page-template-want-to-study .want-to-content .want-in {
+  .page-template-archive-nexus_program .want-to-content .want-in {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 34px;
     color: #898989; }
 
-.page-template-want-to-study h1 {
+.page-template-archive-nexus_program h1 {
   text-transform: uppercase;
   color: #15405A;
   text-align: center;
   padding-top: 40px;
   margin-bottom: 34px; }
 
-.page-template-want-to-study .contact-want-to:nth-child(1) {
+.page-template-archive-nexus_program .contact-want-to:nth-child(1) {
   height: 42px;
   border-radius: 0px;
   width: 70vw;
   background-color: #F3F5F8;
   margin: 0 auto;
   margin-bottom: 30px; }
-  .page-template-want-to-study .contact-want-to:nth-child(1) select {
+  .page-template-archive-nexus_program .contact-want-to:nth-child(1) select {
     height: 42px;
     border-radius: 0px;
     width: 70vw;
     background-color: #F3F5F8;
     margin: 0 auto;
     margin-bottom: 30px; }
-  .page-template-want-to-study .contact-want-to:nth-child(1) .contact-want-to:nth-child(2) {
+  .page-template-archive-nexus_program .contact-want-to:nth-child(1) .contact-want-to:nth-child(2) {
     margin-bottom: 34px; }
 
-.page-template-want-to-study .button-wrapper {
+.page-template-archive-nexus_program .button-wrapper {
   width: 130px;
   margin: 0 auto; }
-  .page-template-want-to-study .button-wrapper .want-to {
+  .page-template-archive-nexus_program .button-wrapper .want-to {
     letter-spacing: 1pt;
     width: 120px;
     height: 40px;

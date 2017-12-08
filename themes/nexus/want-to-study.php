@@ -54,7 +54,7 @@ get_header(); ?>
   </div>
       </div>
 
-     <div class="search-results">
+     <div class="search-results">  </div>
 
   </div>
 

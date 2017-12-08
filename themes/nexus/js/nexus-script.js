@@ -1,13 +1,13 @@
 (function($) {
-  console.log("hi");
+  console.log("bye");
     $('.menu-content').hide();
   
   $('.menu-toggle').on('click', function(e) {
     e.preventDefault();
     
-    $('.menu-content').toggle().focus();
+    $('.menu-content').slideToggle("swing").focus();
   
-  
+    
   });
   
   
@@ -37,6 +37,10 @@
           }
       }
   })
+
+  $(function () {
+    $('select').selectric();
+  });
 
 
   })(jQuery);

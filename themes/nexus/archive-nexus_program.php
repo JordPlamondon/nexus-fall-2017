@@ -8,39 +8,23 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-				<main id="main" class="site-main" role="main">
-
-	<div class="want-to-content">
-
-					
-
-							<h1> I Want To Study: </h1>
-		
-							<span>
-  					<div class="contact-want-to">
-
+		<main id="main" class="site-main" role="main">
+			<div class="want-to-content">
+				<h1> I Want To Study: </h1>
 						<?php
-						if( $terms = get_terms( array(
+							if( $terms = get_terms( array(
 												'taxonomy' => 'program_type',
 												'hide_empty' => 0 ) ) ) :
 						
-						echo '<select name="programfilter"><option>program</option>';
-						foreach ( $terms as $term ) :
-							echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
-						endforeach;
-						echo '</select>';
-					endif;
-					?>
-		
-						</div>
-						
-					</span>
+								echo '<select name="programfilter"><option>program</option>';
+								foreach ( $terms as $term ) :
+									echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
+								endforeach;
+								echo '</select>';
+							endif;
+						?>
 				
-					<h3 class="want-in"> In </h3>
-
-					<span>
-
-					<div class="contact-want-to">
+					<h2 class="want-in"> In </h2>
 						<?php
 						if( $terms = get_terms( array(
 													'taxonomy' => 'provinces', 
@@ -49,23 +33,15 @@ get_header(); ?>
 							foreach ( $terms as $term ) :
 								echo '<option value="' . $term->slug . '">' . $term->name . '</option>'; // ID of the category as the value of an option
 							endforeach;
-							echo '</select>';
+								echo '</select>';
 						endif;
 						?>
 				<button class="program-filter-submit want-to">Explore</button>
-				</div>
 
-		
-					</span>
-
-					
-	
-	
-				</div>
-			<div class="search-results"></div>
+				<div class="search-results"></div>
+			</div> <!-- #content -->
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
 

@@ -28,7 +28,7 @@ nav.main-navigation {
     padding-top: 30px;
     height: 400px;
     width: 60vw;
-    background-color:$color__textbox-background;
+    background-color: $color__textbox-background;
     margin-left: 40vw;
     // position: fixed; 
     z-index: 10;
@@ -59,7 +59,7 @@ nav.main-navigation {
         box-shadow: none;
         text-shadow: none;
         background: $color__icon-element;
-        color: white;
+        color: $color__text-white;
       }
   }
 ul#primary-menu {

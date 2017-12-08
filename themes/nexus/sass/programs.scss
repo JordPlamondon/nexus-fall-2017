@@ -1,11 +1,11 @@
 .page-template-archive-nexus_program {
 .search-results {
-  background-color: lightcyan;
+  background-color: #e0ffff;
   font-size: 18px;
   
 }
 article.program {
-  color: red;
+  color: $color__text-accent;
 }
   .want-to-content {
     background-image: url("../../assets/images/photo_study@2x.png");
@@ -59,7 +59,7 @@ article.program {
           text-shadow: none;
           font-size: 18px;
           background: $color__icon-element;
-          color: white;
+          color: $color__background-white;
           position: absolute;
           bottom: 60px;
         }

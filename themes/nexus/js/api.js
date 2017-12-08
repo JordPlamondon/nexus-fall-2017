@@ -67,7 +67,6 @@
     ajaxGet(request);
   });
 
-<<<<<<< HEAD
 
 
 
@@ -79,9 +78,6 @@ $(document).ready(function() {
 });
 
 
-})(jQuery);
-
-=======
   $('select').on('change', function() {
     if (submitted) {
        $('.search-results').empty();
@@ -93,4 +89,3 @@ $(document).ready(function() {
 })(jQuery);
 
 
->>>>>>> f8743a83ca7fe09c5b3f2b5665424a3839a0b332

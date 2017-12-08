@@ -39,9 +39,10 @@ foreach ( (array) $entries as $key => $entry ) {
 	$img = $title = $desc = ''; ?>
 
 	<div class="faq-homestay">
-
 		<button class="homestay-button">
-		<i class="fa fa-angle-down" aria-hidden="true"></i>
+		<div style="font-size: 50px;"	
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
+		</div>
 		<!-- title -->
 		<?php 
 			if ( isset( $entry['title'] ) ) {
@@ -74,11 +75,8 @@ foreach ( (array) $entries as $key => $entry ) {
 	</div>
 
 <?php
-	// Do something with the data
 }
 ?>
-<!-- Faq menu dropdown -->
-
 		<?php endwhile; // End of the loop. ?>
 			<div class="faq-single-homestay"> 
 				<h2> Keep Looking<h2><br> 

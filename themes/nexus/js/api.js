@@ -67,12 +67,9 @@
     ajaxGet(request);
   });
 
-
-
-
+//sing-nexus_faq dropdown menus
 $(document).ready(function() {
   $('.homestay-button').click(function() {
-    console.log('butts');
     $('#dropdown').toggleClass('visible');
   });
 });

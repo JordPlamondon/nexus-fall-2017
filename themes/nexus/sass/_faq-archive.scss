@@ -2,7 +2,7 @@
   .title-wrapper {
   h1 {
     text-align: center;
-    color:#123048;
+    color: $color__text-main;
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 900;
@@ -37,7 +37,7 @@
     }
     .shadow-border {
       border-bottom: 1px solid rgb(209, 209, 209);
-      box-shadow: 0px 10px $color__textbox-background;;
+      box-shadow: 0px 10px $color__textbox-background;
       padding-top: 10px;
       width: 100vw;
       right: 3.5vw;
@@ -85,11 +85,11 @@
 // Journey
 .faq-journey {
   height: 195px;
-    background-color:$color__textbox-background;
+    background-color: $color__textbox-background;
     h2 {
       font-size: 24px;
       text-align: center;
-      color:$color__footer-background;
+      color: $color__footer-background;
       font-weight: 900;
       position: relative;
       top: 20px;
@@ -98,7 +98,7 @@
     }
     p {
       font-size: 14px;
-      color: red;
+      color: $color__text-accent;
       font-style: italic;
       font-weight: 200;
       position: relative;
@@ -126,7 +126,7 @@
     text-shadow: none;
     font-size: 18px;
     background: $color__icon-element;
-    color: white;
+    color: $color__text-white;
     position: relative;
     bottom: 40px;
   }

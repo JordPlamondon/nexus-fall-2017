@@ -82,12 +82,12 @@ foreach ( (array) $entries as $key => $entry ) {
       		<div class="underline"></div>
     
       		<div class="homestay-button-wrapper">
-        		<button class="homestay-looking-button">Immigration</button>
-        		<button class="homestay-looking-button">Before Arriving</button>
-        		<button class="homestay-looking-button">Financial</button>
-        		<button class="homestay-looking-button">School</button>
-        		<button class="homestay-looking-button">Working</button>
-        		<button class="homestay-looking-button">Return To Top
+        		<button class="homestay-looking-button"><p>Immigration</p></button>
+        		<button class="homestay-looking-button"><p>Before Arriving</p></button>
+        		<button class="homestay-looking-button"><p>Financial</p></button>
+        		<button class="homestay-looking-button"><p>School</p></button>
+        		<button class="homestay-looking-button"><p>Working</p></button>
+        		<button class="homestay-looking-button"><p>Return To Top</p></button>
       		</div>
 
 				<div class="faq-single-journey">
@@ -101,6 +101,4 @@ foreach ( (array) $entries as $key => $entry ) {
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer();
-?>
+<?php get_footer(); ?>

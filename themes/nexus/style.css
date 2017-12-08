@@ -1839,17 +1839,18 @@ div.banner-faq-single {
     font-weight: 600; }
   .nexus_faq-template-default .faq-homestay .homestay-button {
     height: 55px;
+    width: 53px;
     background-color: #E91C35; }
     .nexus_faq-template-default .faq-homestay .homestay-button .fa {
       color: white;
       text-shadow: none;
       position: relative;
-      bottom: 6px; }
+      bottom: 6px;
+      right: 5.5px; }
 
 .nexus_faq-template-default .faq-meta-text {
-  margin-left: 6.66vw;
-  margin-right: 6.66vw;
-  width: 92vw; }
+  margin-left: 7vw;
+  margin-right: 4vw; }
 
 .nexus_faq-template-default .faq-dropdown {
   display: none; }
@@ -1862,7 +1863,7 @@ div.banner-faq-single {
   text-align: center;
   color: #15405A;
   position: relative;
-  top: 10px; }
+  top: 25px; }
 
 .faq-single-homestay .underline {
   margin: 0 auto;
@@ -1895,6 +1896,9 @@ div.banner-faq-single {
     font-size: 18px;
     color: white;
     text-shadow: none; }
+    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p {
+      position: relative;
+      bottom: 14px; }
 
 .faq-single-homestay .faq-single-journey {
   height: 195px;

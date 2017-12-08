@@ -54,19 +54,20 @@ div.banner-faq-single {
     }
     .homestay-button {
       height: 55px;
+      width: 53px;
       background-color: $color__icon-element;
       .fa {
         color: white;
         text-shadow: none;
         position: relative;
         bottom: 6px;
+        right: 5.5px;
       }
     }
   }
   .faq-meta-text {
-    margin-left: 6.66vw;
-    margin-right: 6.66vw;
-    width: 92vw;
+    margin-left: 7vw;
+    margin-right: 4vw;
   }
   .faq-dropdown {
     display: none;
@@ -82,7 +83,7 @@ div.banner-faq-single {
     text-align: center;
     color:$color__footer-background;
     position: relative;
-    top: 10px;
+    top: 25px;
   }
   .underline {
     margin: 0 auto;
@@ -109,6 +110,10 @@ div.banner-faq-single {
     font-size: 18px;
     color: white;
     text-shadow: none;
+    p {
+      position: relative;
+      bottom: 14px;
+    }
   }
 }
 // Journey

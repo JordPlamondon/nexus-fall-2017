@@ -1,5 +1,5 @@
 (function($) {
-  console.log("hi");
+  console.log("bye");
     $('.menu-content').hide();
   
   $('.menu-toggle').on('click', function(e) {

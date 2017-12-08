@@ -72,7 +72,7 @@
 
 $(document).ready(function() {
   $('.homestay-button').click(function() {
-
+    console.log('butts');
     $('#dropdown').toggleClass('visible');
   });
 });

@@ -2068,15 +2068,15 @@ ul#primary-menu {
     position: absolute;
     bottom: 60px; }
 
-.page-template-contact-us h1.entry-title {
+.page-template-contact h1.entry-title {
   display: none; }
 
-.page-template-contact-us .contact-form {
+.page-template-contact .contact-form {
   padding-top: 24px;
   background-color: #F3F5F8; }
-  .page-template-contact-us .contact-form .wpcf7-form-control {
+  .page-template-contact .contact-form .wpcf7-form-control {
     height: 44px; }
-  .page-template-contact-us .contact-form .wpcf7-submit {
+  .page-template-contact .contact-form .wpcf7-submit {
     letter-spacing: 1pt;
     width: 175px;
     height: 40px;
@@ -2090,17 +2090,17 @@ ul#primary-menu {
     color: white;
     position: relative;
     bottom: 40px; }
-  .page-template-contact-us .contact-form h2.title {
+  .page-template-contact .contact-form h2.title {
     margin-top: 0;
     text-align: center;
     color: #15405A;
     font-size: 24px;
     font-weight: bold; }
-  .page-template-contact-us .contact-form .contact-content {
+  .page-template-contact .contact-form .contact-content {
     margin: 0 auto;
     max-width: 345px;
     color: #CFCFCF; }
-  .page-template-contact-us .contact-form .underline {
+  .page-template-contact .contact-form .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
@@ -2108,9 +2108,9 @@ ul#primary-menu {
     position: relative;
     bottom: 20px; }
 
-.page-template-contact-us .hero-wrapper {
+.page-template-contact .hero-wrapper {
   padding-top: 65px; }
-  .page-template-contact-us .hero-wrapper h1 {
+  .page-template-contact .hero-wrapper h1 {
     text-align: center;
     color: #15405A;
     font-size: 30px;
@@ -2118,12 +2118,12 @@ ul#primary-menu {
     font-weight: 900;
     position: relative;
     top: 46px; }
-  .page-template-contact-us .hero-wrapper .hero-image {
+  .page-template-contact .hero-wrapper .hero-image {
     height: 139px;
     width: 100vw;
     background-image: url("../../assets/images/contact@2x.png");
     background-size: 100% 100%; }
-  .page-template-contact-us .hero-wrapper .underline {
+  .page-template-contact .hero-wrapper .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
@@ -2131,10 +2131,10 @@ ul#primary-menu {
     position: relative;
     bottom: 20px; }
 
-.page-template-contact-us .contact-journey {
+.page-template-contact .contact-journey {
   height: 195px;
   background-color: #F3F5F8; }
-  .page-template-contact-us .contact-journey h2 {
+  .page-template-contact .contact-journey h2 {
     font-size: 24px;
     text-align: center;
     color: #15405A;
@@ -2143,7 +2143,7 @@ ul#primary-menu {
     top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
-  .page-template-contact-us .contact-journey p {
+  .page-template-contact .contact-journey p {
     font-size: 14px;
     color: red;
     font-style: italic;
@@ -2151,7 +2151,7 @@ ul#primary-menu {
     position: relative;
     text-transform: none;
     bottom: 42px; }
-  .page-template-contact-us .contact-journey .underline {
+  .page-template-contact .contact-journey .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
@@ -2159,7 +2159,7 @@ ul#primary-menu {
     position: relative;
     bottom: 48px; }
 
-.page-template-contact-us button.consult {
+.page-template-contact button.consult {
   letter-spacing: 1pt;
   width: 175px;
   height: 40px;

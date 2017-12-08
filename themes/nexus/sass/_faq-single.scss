@@ -47,6 +47,7 @@ div.banner-faq-single {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    margin-top: 10px;
     .faq-meta-title {
       margin: 3.6vw;
       font-weight: 600;
@@ -63,12 +64,12 @@ div.banner-faq-single {
     width: 92vw;
   }
 
-  // .faq-dropdown {
-  //   display: none;
-  // }
-  // .visible {
-  //   display: block;
-  // }
+  .faq-dropdown {
+    display: none;
+  }
+  .visible {
+    display: block;
+  }
 }
 //Keep Looking
 .faq-single-homestay {

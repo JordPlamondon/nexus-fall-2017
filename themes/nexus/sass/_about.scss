@@ -5,7 +5,7 @@
     padding-top: 65px;
     h1 {
       text-align: center;
-      color:$color__footer-background;
+      color: $color__footer-background;
       font-size: 30px;
       text-transform: uppercase;
       font-weight: 900;
@@ -33,7 +33,7 @@
     h2 {
       font-size: 24px;
       text-align: center;
-      color:$color__footer-background;
+      color: $color__footer-background;
       font-weight: 900;
       position: relative;
       top: 20px;
@@ -55,7 +55,7 @@
      text-align: center;
      padding-top: 40px;
      font-weight: 200;
-     color:$color__footer-background;
+     color: $color__footer-background;
    }
   }
 
@@ -63,11 +63,11 @@
 // About help
   .about-help {
     height: 70px;
-    background-color:$color__textbox-background;
+    background-color: $color__textbox-background;
     h2 {
       font-size: 24px;
       text-align: center;
-      color:#123048;
+      color: $color__text-main;
       font-weight: 900;
       position: relative;
       top: 20px;
@@ -91,7 +91,7 @@
   }
     .about-left {
         height: 264px;
-        background-color:$color__textbox-background;
+        background-color: $color__textbox-background;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -111,12 +111,12 @@
         text-align: right;
         padding-right: 14px;
         line-height: 16pt;
-        color:$color__footer-background;
+        color: $color__footer-background;
       }
   }
     .about-right {
       height: 264px;
-      background-color:white;
+      background-color: $color__background-white;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -143,7 +143,7 @@
 // Consultants
   .about-consultants {
     height: 500px;
-    background-color:white;
+    background-color: $color__background-white;
     display: block;
     text-align: center;
     p {
@@ -167,7 +167,7 @@
     h2 {
       font-size: 24px;
       text-align: center;
-      color:#123048;
+      color: $color__text-main;
       font-weight: 900;
       position: relative;
       top: 20px;
@@ -175,7 +175,7 @@
     h3 {
       font-size: 20px;
       text-align: center;
-      color:#123048;
+      color: $color__text-main;
       font-weight: normal;
       position: relative;
       top: 14px;
@@ -192,11 +192,11 @@
 // Journey
  .about-journey {
   height: 195px;
-    background-color:$color__textbox-background;
+    background-color: $color__textbox-background;
     h2 {
       font-size: 24px;
       text-align: center;
-      color:$color__footer-background;
+      color: $color__footer-background;
       font-weight: 900;
       position: relative;
       top: 20px;
@@ -205,7 +205,7 @@
     }
     p {
       font-size: 14px;
-      color: red;
+      color: $color__text-accent;
       font-style: italic;
       font-weight: 200;
       position: relative;

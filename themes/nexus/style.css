@@ -1453,7 +1453,7 @@ div.widget_info_contain a {
         -ms-flex-pack: center;
             justify-content: center; }
     div.footer__social-media-container h2 {
-      padding: 10px 0;
+      padding: 20px 0 10px 0;
       text-align: center;
       color: #FFFFFF; }
   div.socialmedia-container {
@@ -1469,8 +1469,8 @@ div.widget_info_contain a {
             justify-content: center;
     padding-top: 30px; }
     div.socialmedia-container img {
-      height: 75px;
-      width: 75px;
+      height: 45px;
+      width: 45px;
       margin: 0 7px; }
   div.widget_fa {
     display: -webkit-box;
@@ -1927,7 +1927,7 @@ div.banner-faq-single {
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 48px; }
+    bottom: 50px; }
   .faq-single-homestay .faq-single-journey button.consult {
     letter-spacing: 1pt;
     width: 165px;
@@ -2185,7 +2185,6 @@ ul#primary-menu {
   width: 100%; }
 
 .selectric {
-  border: 1px solid #123048;
   background: #F3F5F8;
   position: relative;
   border-radius: 0px; }

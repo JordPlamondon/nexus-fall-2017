@@ -16,7 +16,7 @@ get_header(); ?>
 
 							<h1> I Want To Study: </h1>
 		
-							<span>
+						
   					<div class="contact-want-to">
 
 						<?php
@@ -34,11 +34,8 @@ get_header(); ?>
 		
 						</div>
 						
-					</span>
 				
 					<h3 class="want-in"> In </h3>
-
-					<span>
 
 					<div class="contact-want-to">
 						<?php
@@ -54,13 +51,7 @@ get_header(); ?>
 						?>
 				<button class="program-filter-submit want-to">Explore</button>
 				</div>
-
-		
-					</span>
-
-					
-	
-	
+				
 				</div>
 			<div class="search-results"></div>
 		</main><!-- #main -->

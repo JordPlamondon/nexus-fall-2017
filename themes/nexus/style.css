@@ -1216,14 +1216,14 @@ object {
 button {
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: white;
+  background-color: #FFFFFF;
   border: none;
   border-radius: 0px; }
 
 button:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: white;
+  background-color: #FFFFFF;
   border: none;
   border-radius: 0px; }
 
@@ -2053,11 +2053,11 @@ ul#primary-menu {
   padding: 0; }
 
 .page-template-archive-nexus_program .search-results {
-  background-color: lightcyan;
+  background-color: #e0ffff;
   font-size: 18px; }
 
 .page-template-archive-nexus_program article.program {
-  color: red; }
+  color: #E00029; }
 
 .page-template-archive-nexus_program .want-to-content {
   background-image: url("../../assets/images/photo_study@2x.png");
@@ -2107,7 +2107,7 @@ ul#primary-menu {
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: white;
+    color: #FFFFFF;
     position: absolute;
     bottom: 60px; }
 

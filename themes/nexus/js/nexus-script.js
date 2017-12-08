@@ -38,5 +38,9 @@
       }
   })
 
+  $(function () {
+    $('select').selectric();
+  });
+
 
   })(jQuery);

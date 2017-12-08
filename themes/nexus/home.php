@@ -9,45 +9,43 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+      <div class="blog-wrapper">
+        <div class="title-wrapper">	
+				  <h1 class="blog-title">Blog</h1>
+				  <div class="underline1"></div>
+			  </div> 
 
-    <section class="blog-page">
+        <section class="blog-page">
     
-      <ul class "blog-categories">
-        <?php   
-          $args = array(
-            'post_type' => 'nexus_blog'
-          );		
-          $the_query = new WP_Query($args);
-        ?>
+          <ul class "blog-categories">
+            
+          <?php while ( have_posts() ) : the_post(); ?>
     
-        <?php 
-          if ($the_query->have_posts() ) : 
-          while ($the_query->have_posts() ) : $the_query->the_post()
-        ?>
-    
-        <li>
-          <div class="blog-img">
-            <?php the_post_thumbnail( 'full' ); ?>
-          </div>
-          <div class="blog-text">
-            <a href="<?php the_permalink(); ?>" rel="blog title"> 
-              <h2><?php the_title(); ?></h2>
-            </a>	
-            <?php the_excerpt(); ?>
-            <div style="text-align:center;">
-              <button class="read-more">Read More</button>
-            </div>
-          </div>
-        </li>
-        <!-- <div class="underline"></div>
-        <div class="shadow-border"></div> -->
+            <li>
+              <div class="blog-img">
+                <?php the_post_thumbnail( 'full' ); ?>
+              </div>
+              <div class="blog-text">
+                <div class="blog-video">
+                  <?php the_content(); ?>
+                </div>
+                <a href="<?php the_permalink(); ?>" rel="blog title"> 
+                  <h2><?php the_title(); ?></h2>
+                </a>	
+                <div style="text-align:center;" class="read-button">
+                  <button class="read-more">Read More</button>
+                </div>
+              </div>
+            </li>
+            <!-- <div class="underline"></div> -->
+             <div class="shadow-border"></div> 
               
-        <?php endwhile; // End of the loop. ?>
-        <?php endif; ?>
-      </ul>		
-
+              <?php endwhile; // End of the loop. ?>
+        
+          </ul>		
+        </section>
+      </div>  
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
 
 <?php get_footer(); ?>

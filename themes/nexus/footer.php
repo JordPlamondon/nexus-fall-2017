@@ -64,11 +64,11 @@
       </div> <!-- footer_hidden_anchor -->
         <div class="footer__desktop--nav">
 					<ul class="footer_desktop--nav--ul">
-						<li class="footer--nav--li"><a href="https://" target="_blank">Program</a></li>
-						<li class="footer--nav--li"><a href="https://" target="_blank">About Us</a></li>
-						<li class="footer--nav--li"><a href="https://" target="_blank">FAQ</a></li>
-						<li class="footer--nav--li"><a href="https://" target="_blank">Contact</a></li>
-						<li class="footer--nav--li"><a href="https://" target="_blank">Blog</a></li>
+						<li class="footer--nav--li"><a href="<?php echo home_url() ?>/program/" target="_blank">Program</a></li>
+						<li class="footer--nav--li"><a href="<?php echo home_url() ?>/about/" target="_blank">About Us</a></li>
+						<li class="footer--nav--li"><a href="<?php echo home_url() ?>/advice/" target="_blank">FAQ</a></li>
+						<li class="footer--nav--li"><a href="<?php echo home_url() ?>/contact/" target="_blank">Contact</a></li>
+						<li class="footer--nav--li"><a href="<?php echo home_url() ?>/blog/" target="_blank">Blog</a></li>
       </div> <!--footer__desktop--nav-->
     </div> <!--footer__site-info hidden-->
   </div>  <!--footer_hidden--container-->

@@ -10,10 +10,10 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="faq-wrapper">
-		<div class="title-wrapper">	
-			<h1 class="faq-title"> FAQ </h1>
-			<div class="underline1"></div>
-		</div>
+				<div class="title-wrapper">	
+					<h1 class="faq-title"> FAQ </h1>
+					<div class="underline1"></div>
+				</div>
 			<section class="faq-page">
 
 				<ul class "faq-categories">
@@ -53,11 +53,10 @@ get_header(); ?>
 					<button class="consult">Book Consult</button>
 				</div>
 				</div>	
-						</div>
+				
+			</div>
+			
 			</section>		
-			<?php get_footer();?>	
 		</main><!-- #main -->
-
 	</div><!-- #primary -->
 
-<?php get_footer(); ?>

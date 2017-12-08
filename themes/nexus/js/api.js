@@ -34,7 +34,7 @@
           }
           article += '</a></div></article>'
 
-          $('.search-results').html(article);
+          $('.search-results').append(article);
 
         } // for loop
       });
@@ -67,7 +67,10 @@
     ajaxGet(request);
   });
 
+<<<<<<< HEAD
 //sing-nexus_faq dropdown menus
+=======
+>>>>>>> 10fef9f732a823d3b782d91cbb927b5e20061ed3
 $(document).ready(function() {
   $('.homestay-button').click(function() {
     $('#dropdown').toggleClass('visible');

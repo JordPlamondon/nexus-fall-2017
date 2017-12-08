@@ -51,11 +51,7 @@ get_header(); ?>
     </div>
   </div>
 
-<<<<<<< HEAD
      <div class="search-results"></div>
-=======
-     <div class="search-results">  </div>
->>>>>>> f5af3bc33f5d0a4ea0996fe9afc4f0292e98a890
 
   </div>
 

@@ -79,8 +79,14 @@
     text-transform: uppercase;
     color: $color__footer-background;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     margin-bottom: 34px;
+  }
+
+  .button-wrapper {
+    @media #{$desktop} {
+      flex-basis: 100%;
+    }
   }
   .contact-want-to:nth-child(1) {
     height: 42px;

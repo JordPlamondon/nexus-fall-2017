@@ -47,7 +47,9 @@ get_header(); ?>
 									echo '</select>';
 							endif;
 							?>
-						<button class="program-filter-submit want-to">Explore</button>
+						<div class="button-wrapper">
+							<button class="program-filter-submit want-to">Explore</button>
+						</div>
 					</div>
 				<div class="search-results"></div>
 			</div> <!-- #content -->

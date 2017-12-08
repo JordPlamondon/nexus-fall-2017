@@ -129,3 +129,18 @@ require get_template_directory() . '/inc/extras.php';
  * Notice: ob_end_flush(): failed to send buffer of zlib output compression (1) functions.php on line 3728.
  */
 remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
+ 
+
+
+add_filter("the_content", "plugin_myContentFilter");
+
+function plugin_myContentFilter($content)
+{
+	// Take the existing content and return a subset of it
+	if ( is_home() ) {
+		return substr($content, 0, 300);
+	}
+	
+	return ($content);
+}
+

@@ -1713,8 +1713,37 @@ div.banner-faq-single {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   width: 325px;
   height: 211.9px; }
+
+.nexus_faq-template-default .faq-homestay {
+  height: 55px;
+  width: 92vw;
+  background-color: #F3F5F8;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+  .nexus_faq-template-default .faq-homestay .faq-meta-title {
+    margin: 3.6vw;
+    font-weight: 600; }
+  .nexus_faq-template-default .faq-homestay .homestay-button {
+    height: 55px;
+    width: 55px;
+    background-color: #E91C35; }
+
+.nexus_faq-template-default .faq-meta-text {
+  margin-left: 6.66vw;
+  margin-right: 6.66vw;
+  width: 92vw; }
 
 .faq-single-homestay h2 {
   font-size: 24px;
@@ -1749,10 +1778,11 @@ div.banner-faq-single {
     border-radius: 8px;
     width: 165px;
     height: 47px;
-    background-color: red;
+    background-color: #E91C35;
     margin: 10px;
     font-size: 18px;
-    color: white; }
+    color: white;
+    text-shadow: none; }
 
 .faq-single-homestay .faq-single-journey {
   height: 195px;

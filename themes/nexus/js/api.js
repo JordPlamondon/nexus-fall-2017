@@ -56,6 +56,16 @@
     return request;
   }
 
+  function styleChange(){
+    $('.hero-wrapper').removeClass('hidden');
+    $('.program-title').addClass('hidden');
+    $('.program-filter-submit').addClass('hidden');
+    $('.selectric-wrapper').addClass('select-searched');
+    $('.select-form-wrapper').addClass('select-form-wrapper-searched');
+    $('.program-content').css({
+      'background-image': 'none'
+    });
+  }
 
   var submitted = false;
   $('.program-filter-submit').on('click', function (event){
@@ -63,11 +73,9 @@
     submitted = true;
     $('.search-results').empty();
     var request = requestFilter();
-
     ajaxGet(request);
+    styleChange();
   });
-
-
 
   $('select').on('change', function() {
     if (submitted) {

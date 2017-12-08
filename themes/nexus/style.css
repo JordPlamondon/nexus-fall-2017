@@ -2093,21 +2093,68 @@ nav.main-navigation:hover {
           box-shadow: 1px 1px 8px 1px lightgrey;
   opacity: 1; }
 
+.page-template-archive-nexus_program .hero-wrapper {
+  padding-top: 65px; }
+  .page-template-archive-nexus_program .hero-wrapper h1 {
+    text-align: center;
+    color: #15405A;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    top: 50px; }
+  .page-template-archive-nexus_program .hero-wrapper .hero-image {
+    height: 139px;
+    width: 100vw;
+    background-image: url("../../assets/images/blog@3x.png");
+    background-size: 100% 100%; }
+  .page-template-archive-nexus_program .hero-wrapper .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 24px; }
+
 .page-template-archive-nexus_program .hidden {
   display: none; }
 
 .page-template-archive-nexus_program .search-results {
   background-color: #e0ffff;
-  font-size: 18px; }
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.page-template-archive-nexus_program .select-searched {
+  max-width: 125px; }
+
+.page-template-archive-nexus_program .select-form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.page-template-archive-nexus_program .select-form-wrapper-searched {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
 
 .page-template-archive-nexus_program article.program {
   color: #E00029; }
 
-.page-template-archive-nexus_program .want-to-content {
+.page-template-archive-nexus_program .program-content {
   background-image: url("../../assets/images/photo_study@2x.png");
   background-size: 100% 100%;
   height: 600px; }
-  .page-template-archive-nexus_program .want-to-content .want-in {
+  .page-template-archive-nexus_program .program-content .want-in {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 34px;
@@ -2266,7 +2313,8 @@ nav.main-navigation:hover {
 ======================================*/
 .selectric-wrapper {
   position: relative;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 70%; }
 
 .selectric-responsive {
   width: 100%; }

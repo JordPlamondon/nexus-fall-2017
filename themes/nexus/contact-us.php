@@ -18,6 +18,16 @@ get_header(); ?>
         </div>
       </div>
 
+<div class="contact-form">
+<?php while ( have_posts() ) : the_post(); ?>
+            <h2 class="title"> Send Us a Message</h2>
+            <div class="underline"></div>
+            <div class="contact-content">	<?php get_template_part( 'template-parts/content', 'page' ); ?>
+            <?php endwhile;  ?>
+</div>
+
+
+
       <div class="contact-journey">
       <h2> Start Your Journey<h2><br>
       <div class="underline"></div>

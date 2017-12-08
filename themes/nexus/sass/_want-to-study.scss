@@ -1,30 +1,23 @@
 .page-template-want-to-study {
-.want-to-content {
-  background-image: url("../../assets/images/photo_study@2x.png");
-  background-size: 100% 100%;
-  height: 600px;
+.search-results {
+  background-color: lightcyan;
+  font-size: 18px;
+  
+}
+article.program {
+  color: red;
+}
+  .want-to-content {
+    background-image: url("../../assets/images/photo_study@2x.png");
+    background-size: 100% 100%;
+    height: 600px;
   .want-in {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 34px;
     color: $color__text-quoteform;
-
   }
-  .want-to {
-    letter-spacing: 1pt;
-    width: 120px;
-    height: 40px;
-    padding: 0;
-    border-radius: 25px 0px 25px 0px;
-    box-shadow: none;
-    text-shadow: none;
-    font-size: 18px;
-    background: $color__icon-element;
-    color: white;
-    position: absolute;
-    bottom: 60px;
-    margin-left: 32%;
-  }
+}
   h1 {
     text-transform: uppercase;
     color: $color__footer-background;
@@ -34,20 +27,41 @@
   }
   .contact-want-to:nth-child(1) {
     height: 42px;
+    border-radius: 0px;
     width: 70vw;
     background-color: $color__textbox-background;
     margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
     margin-bottom: 30px;
-      .want-to-button {
-        height: 42px;
-        width: 45px;
-        background-color: red;
-    }
+  
+    select {
+      height: 42px;
+      border-radius: 0px;
+      width: 70vw;
+      background-color: $color__textbox-background;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      }
     .contact-want-to:nth-child(2) {
       margin-bottom: 34px;
     }
 }
+
+    .button-wrapper {
+          width: 130px;
+          margin: 0 auto;
+        .want-to {
+          letter-spacing: 1pt;
+          width: 120px;
+          height: 40px;
+          padding: 0;
+          border-radius: 25px 0px 25px 0px;
+          box-shadow: none;
+          text-shadow: none;
+          font-size: 18px;
+          background: $color__icon-element;
+          color: white;
+          position: absolute;
+          bottom: 60px;
+        }
 }
 }

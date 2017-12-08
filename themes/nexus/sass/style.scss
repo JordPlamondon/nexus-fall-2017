@@ -68,12 +68,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "page-templates";
 @import "about";
 @import "footer";
-@import "faq-archive";
-@import "faq-single";
+@import "faq";
+@import "single-faq";
 @import "header";
 @import "programs";
 @import "contact";
 @import "selectric";
-@import "programs-single";
-@import "blog";
+
+@import "single-program";
+@import "home";
 @import "single-post";

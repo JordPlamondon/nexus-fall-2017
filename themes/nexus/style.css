@@ -1562,51 +1562,6 @@ div.widget_info_contain a {
       height: 45px;
       width: 45px;
       padding: 0 00px 0 0px;
-<<<<<<< HEAD
-      margin: 0 7px; } }
-
-/*
-
-div class=underline
-
-*/
-@media screen and (max-width: 824px) {
-  div.footer__site-info.hidden {
-    display: none; }
-  div.footer__why-nexus {
-    display: none; }
-  .widget_fa {
-    display: show; }
-  div.footer__social-media-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    div.footer__social-media-container h2 {
-      padding: 10px 0; }
-  div.socialmedia-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    div.socialmedia-container img {
-      height: 75px;
-      width: 75px;
-      padding: 0 00px 0 0px;
-=======
->>>>>>> c2ae7522afcb9213d410194ed30c5c1b1ca6ea0d
       margin: 0 7px; }
   .underline.footer {
     padding-top: 10px; } }
@@ -1776,7 +1731,8 @@ div.banner-faq-single {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse; }
+          flex-direction: row-reverse;
+  margin-top: 10px; }
   .nexus_faq-template-default .faq-homestay .faq-meta-title {
     margin: 3.6vw;
     font-weight: 600; }
@@ -1789,6 +1745,12 @@ div.banner-faq-single {
   margin-left: 6.66vw;
   margin-right: 6.66vw;
   width: 92vw; }
+
+.nexus_faq-template-default .faq-dropdown {
+  display: none; }
+
+.nexus_faq-template-default .visible {
+  display: block; }
 
 .faq-single-homestay h2 {
   font-size: 24px;

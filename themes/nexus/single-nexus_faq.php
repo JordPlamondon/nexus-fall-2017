@@ -105,4 +105,5 @@ foreach ( (array) $entries as $key => $entry ) {
 	</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
-<!-- add footer -->
+<?php get_footer();
+?>

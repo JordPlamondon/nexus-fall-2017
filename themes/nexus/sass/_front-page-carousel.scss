@@ -1,0 +1,91 @@
+.home {
+  .why-canada {
+    
+    
+    &__header{
+      font-family: $font__main;
+      font-weight: bold;
+      @media #{$desktop} {
+        text-align: center;  
+      }
+    }
+
+    .underline {
+      @media #{$desktop} {
+        text-align: center;  
+        margin: 0 auto;
+      }
+    }
+  
+    .owl-nav {
+      display: flex;
+      justify-content: center;
+
+      .owl-prev, .owl-next {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $color__icon-element;
+        border-radius: 0;
+        height: 4rem;
+        width: 4rem;
+        font-size: 5rem;
+        padding-bottom: 20px;
+
+      }
+
+    }
+
+    .owl-dots {
+      display: none;
+      @media #{$desktop} {
+        display: block;
+      }
+    }
+    
+
+    .carouselplaceholder {
+      background: url('../../assets/images/whynexus.png');
+      margin: 0 5rem;
+      width: 100vw;
+    }
+
+    .carouselplaceholder__subheader {
+      font-family: $font__accent;
+      font-weight: 600;
+      font-style: italic;
+      color: $color__text-accent;
+      text-align: center;
+      @media #{$desktop} {
+        color: $color__text-main;
+        font-size: 2.5rem;
+      }
+    }
+
+
+    .curious {
+      display: none;
+      @media #{$desktop} {
+        display: inline-block;
+      }
+      &__subheader {
+        font-family: $font__main;
+        font-weight: bold;
+      }
+      &__button{
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: white;
+      }
+    }
+
+  }
+  
+
+}
+ 

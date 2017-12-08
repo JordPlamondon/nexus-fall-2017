@@ -2096,7 +2096,7 @@ div.menu-content {
     font-weight: bold;
     text-decoration: none; }
   div.menu-content button.consult {
-    width: 135px;
+    width: 10vw;
     height: 40px;
     padding: 0;
     border-radius: 25px 0px 25px 0px;
@@ -2124,7 +2124,7 @@ nav.main-navigation:hover {
   display: none; }
   @media all and (min-width: 750px) {
     .full-screen-links {
-      width: 90vw;
+      width: 80vw;
       height: 80px;
       margin-top: 36px;
       display: -webkit-box;
@@ -2134,7 +2134,7 @@ nav.main-navigation:hover {
       position: absolute;
       left: 190px; }
       .full-screen-links li {
-        margin: 32px 0 0 84px;
+        margin: 32px 0 0 5vw;
         position: relative;
         display: inline-block;
         float: none; }
@@ -2148,6 +2148,7 @@ nav.main-navigation:hover {
         left: 44px;
         width: 135px;
         height: 40px;
+        font-size: 16px;
         padding: 0;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
@@ -2157,27 +2158,31 @@ nav.main-navigation:hover {
         color: #FFFFFF; } }
 
 .page-template-archive-nexus_program .hero-wrapper {
-  padding-top: 65px; }
-  .page-template-archive-nexus_program .hero-wrapper h1 {
-    text-align: center;
-    color: #15405A;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 50px; }
-  .page-template-archive-nexus_program .hero-wrapper .hero-image {
-    height: 139px;
-    width: 100vw;
-    background-image: url("../../assets/images/blog@3x.png");
-    background-size: 100% 100%; }
-  .page-template-archive-nexus_program .hero-wrapper .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 24px; }
+  visibility: hidden; }
+  @media all and (min-width: 550px) {
+    .page-template-archive-nexus_program .hero-wrapper {
+      visibility: visible;
+      padding-top: 65px; }
+      .page-template-archive-nexus_program .hero-wrapper h1 {
+        text-align: center;
+        color: #15405A;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 900;
+        position: relative;
+        top: 50px; }
+      .page-template-archive-nexus_program .hero-wrapper .hero-image {
+        height: 139px;
+        width: 100vw;
+        background-image: url("../../assets/images/blog@3x.png");
+        background-size: 100% 100%; }
+      .page-template-archive-nexus_program .hero-wrapper .underline {
+        margin: 0 auto;
+        width: 49px;
+        text-align: center;
+        border-bottom: 3px solid #FF8A2A;
+        position: relative;
+        bottom: 24px; } }
 
 .page-template-archive-nexus_program .hidden {
   display: none; }
@@ -2202,6 +2207,8 @@ nav.main-navigation:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -2210,7 +2217,10 @@ nav.main-navigation:hover {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      jusitfy-content: flex-start;
+      max-width: 750px;
+      padding-left: 60px; } }
 
 .page-template-archive-nexus_program .select-form-wrapper-searched {
   -webkit-box-orient: horizontal;
@@ -2244,6 +2254,9 @@ nav.main-navigation:hover {
   text-align: center;
   padding-top: 30px;
   margin-bottom: 34px; }
+  @media all and (min-width: 550px) {
+    .page-template-archive-nexus_program .program-title {
+      text-align: left; } }
 
 @media all and (min-width: 550px) {
   .page-template-archive-nexus_program .button-wrapper {
@@ -2269,6 +2282,7 @@ nav.main-navigation:hover {
 
 .page-template-archive-nexus_program .button-wrapper {
   width: 130px;
+  padding-top: 50px;
   margin: 0 auto; }
   .page-template-archive-nexus_program .button-wrapper .want-to {
     letter-spacing: 1pt;
@@ -2281,9 +2295,7 @@ nav.main-navigation:hover {
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 60px; }
+    color: #FFFFFF; }
 
 .page-template-contact h1.entry-title {
   display: none; }
@@ -2400,7 +2412,8 @@ nav.main-navigation:hover {
   width: 70%; }
   @media all and (min-width: 550px) {
     .selectric-wrapper {
-      width: 370px; } }
+      width: 40%;
+      max-width: 370px; } }
 
 .selectric-responsive {
   width: 100%; }
@@ -2647,6 +2660,8 @@ body.blog .title-wrapper .underline1 {
       width: 100vw;
       right: 3.5vw;
       position: relative; }
+    .blog-page ul .shadow-border:nth-of-type(-n+2) {
+      display: none; }
   .blog-page li {
     list-style-type: none; }
     .blog-page li .blog-img {
@@ -2665,10 +2680,13 @@ body.blog .title-wrapper .underline1 {
     text-shadow: none;
     font-size: 18px;
     font-weight: 600;
-    background: #E91C35;
+    background: pink;
     color: #FFFFFF; }
-  .blog-page .blog-text button.read-more:nth-child(3) {
+<<<<<<< HEAD
+=======
+  .blog-page .blog-text button.read-more:nth-type(3) {
     display: none; }
+>>>>>>> 5ad156ef7f10378c8d05d217ed53c1ce94ac334e
 
 /*--------------------------------------------------------------
 # 404 Not Found

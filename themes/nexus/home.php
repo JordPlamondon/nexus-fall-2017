@@ -26,11 +26,13 @@ get_header(); ?>
                 <?php the_post_thumbnail( 'full' ); ?>
               </div>
               <div class="blog-text">
-              <?php the_content(); ?>
+                <div class="blog-video">
+                  <?php the_content(); ?>
+                </div>
                 <a href="<?php the_permalink(); ?>" rel="blog title"> 
                   <h2><?php the_title(); ?></h2>
                 </a>	
-                <div style="text-align:center;">
+                <div style="text-align:center;" class="read-button">
                   <button class="read-more">Read More</button>
                 </div>
               </div>

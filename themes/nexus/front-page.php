@@ -1,7 +1,7 @@
 <?php
 /**
- * The home page template file.
- *
+  * The template for displaying all pages.
+ * Template Name: Front Page
  * @package RED_Starter_Theme
  */
 
@@ -169,5 +169,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

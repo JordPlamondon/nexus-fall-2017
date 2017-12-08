@@ -26,13 +26,14 @@ get_header(); ?>
 	    echo '</select>';
     endif;
     ?>
-        <button class="want-to-button">
+       
       </div>
     </span>
 
 <h3 class="want-in"> In </h3>
 
     <span>
+      
       <div class="contact-want-to">
       <?php
     if( $terms = get_terms( array(
@@ -45,14 +46,18 @@ get_header(); ?>
 	    echo '</select>';
     endif;
 		?>
-      
+        
       </div>
     </span>
-
+      <div class="button-wrapper">
       <button class="want-to program-filter-submit">Explore</button>
-  
+  </div>
       </div>
-      <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+     <div class="search-results">
+
+  </div>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

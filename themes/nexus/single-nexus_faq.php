@@ -12,10 +12,14 @@ get_header(); ?>
 
 		<div class="banner-faq-single"> 
     	<div class="banner-image-faq-single">
-      	<h1 class="faq-single-title"> Living In Canada<h1>
+      	<h1 class="faq-single-title"><?php echo get_the_title()?><h1>
       	<div class="underline"></div>
     	</div>
-  	</div>
+		</div>
+		
+		<!-- <div class="contact-homestay">
+      <button class="homestay-button">
+		</div> -->
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
@@ -25,37 +29,55 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
-	<!-- <div class="contact-homestay">
-    <button class="homestay-button">
-  </div> -->
+			
+<!-- Field Group Metaboxes -->
 <?php
 $entries = get_post_meta( get_the_ID(), 'wiki_test_repeat_group', true );
 
 foreach ( (array) $entries as $key => $entry ) {
 
-	$img = $title = $desc = ''; 
+	$img = $title = $desc = ''; ?>
 
-	if ( isset( $entry['title'] ) ) {
-		$title = esc_html( $entry['title'] );
-	}
+	<div class="faq-homestay">
 
-	if ( isset( $entry['description'] ) ) {
-		$desc = wpautop( $entry['description'] );
-	}
+		<button class="homestay-button">
+		<i class="fa fa-angle-down" aria-hidden="true"></i>
+		<!-- title -->
+		<?php 
+			if ( isset( $entry['title'] ) ) {
+				$title = esc_html( $entry['title'] );
+			} ?>
+		</button>
 
-	if ( isset( $entry['image_id'] ) ) {
-		$img = wp_get_attachment_image( $entry['image_id'], 'share-pick', null, array(
+		<div class="faq-meta-title">
+			<?php echo $title; ?>
+		</div>
+	</div>
+
+	<div id="dropdown" class="faq-dropdown">
+		<!-- description -->
+	<?php
+		if ( isset( $entry['description'] ) ) {
+			$desc = wpautop( $entry['description'] );
+		} ?>
+		<div class="faq-meta-text">
+			<?php echo $desc; ?>
+		</div>
+		<!-- image -->
+		<?php
+			if ( isset( $entry['image_id'] ) ) {
+				$img = wp_get_attachment_image( $entry['image_id'], 'share-pick', null, array(
 			'class' => 'thumb',
-		) );
-	}
+			) ); 
+		} ?>
+		<?php echo $img; ?>
+	</div>
 
-	echo $title;
-	echo $desc;
-	echo $img;
-
+<?php
 	// Do something with the data
 }
 ?>
+<!-- Faq menu dropdown -->
 
 		<?php endwhile; // End of the loop. ?>
 			<div class="faq-single-homestay"> 
@@ -63,12 +85,12 @@ foreach ( (array) $entries as $key => $entry ) {
       		<div class="underline"></div>
     
       		<div class="homestay-button-wrapper">
-        		<button class="homestay-looking-button">
-        		<button class="homestay-looking-button">
-        		<button class="homestay-looking-button">
-        		<button class="homestay-looking-button">
-        		<button class="homestay-looking-button">
-        		<button class="homestay-looking-button">
+        		<button class="homestay-looking-button">Immigration</button>
+        		<button class="homestay-looking-button">Before Arriving</button>
+        		<button class="homestay-looking-button">Financial</button>
+        		<button class="homestay-looking-button">School</button>
+        		<button class="homestay-looking-button">Working</button>
+        		<button class="homestay-looking-button">Return To Top
       		</div>
 
 				<div class="faq-single-journey">

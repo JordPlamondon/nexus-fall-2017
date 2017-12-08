@@ -9,6 +9,14 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+
+			<div class="hidden hero-wrapper">
+				 <div class="hero-image">
+          <h1 class="about-title"> Programs <h1>
+          <div class="underline"></div>
+				</div>
+			</div>
+				
 			<div class="want-to-content">
 				<h1> I Want To Study: </h1>
 						<?php

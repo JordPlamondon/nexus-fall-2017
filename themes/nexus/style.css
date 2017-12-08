@@ -2093,6 +2093,9 @@ nav.main-navigation:hover {
           box-shadow: 1px 1px 8px 1px lightgrey;
   opacity: 1; }
 
+.page-template-archive-nexus_program .hidden {
+  display: none; }
+
 .page-template-archive-nexus_program .search-results {
   background-color: #e0ffff;
   font-size: 18px; }

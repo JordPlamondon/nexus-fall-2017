@@ -820,7 +820,7 @@ a {
               box-shadow: none;
       text-shadow: none;
       background: #E91C35;
-      color: white; }
+      color: #FFFFFF; }
   .home .site-main .choose-wrapper {
     display: none; }
     @media all and (min-width: 550px) {
@@ -860,7 +860,7 @@ a {
                   box-shadow: none;
           text-shadow: none;
           background: #E91C35;
-          color: white; } }
+          color: #FFFFFF; } }
   .home .site-main .browse-programs {
     height: 70vh;
     display: -webkit-box;
@@ -933,7 +933,7 @@ a {
                 box-shadow: none;
         text-shadow: none;
         background: #E91C35;
-        color: white; }
+        color: #FFFFFF; }
   .home .site-main .student-review {
     height: 70vh;
     display: -webkit-box;
@@ -1028,7 +1028,11 @@ a {
               box-shadow: none;
       text-shadow: none;
       background: #E91C35;
-      color: white; }
+      color: #FFFFFF; }
+
+@media all and (min-width: 550px) {
+  .home .why-canada {
+    position: relative; } }
 
 .home .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -1042,6 +1046,53 @@ a {
     text-align: center;
     margin: 0 auto; } }
 
+@media all and (min-width: 550px) {
+  .home .why-canada .owl-carousel {
+    width: 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 25rem; } }
+
+.home .why-canada .carouselplaceholder {
+  background: rgba(255, 1, 255, 0.5);
+  margin: 0 5rem;
+  width: 100vw;
+  height: 20rem; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .carouselplaceholder {
+      width: 100%;
+      margin-left: 1rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; } }
+
+.home .why-canada .carouselplaceholder__subheader {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #E00029;
+  text-align: center; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .carouselplaceholder__subheader {
+      color: #123048;
+      font-size: 2.5rem;
+      font-style: normal; } }
+
 .home .why-canada .owl-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1049,6 +1100,11 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .owl-nav {
+      position: absolute;
+      bottom: 3rem;
+      right: 1rem; } }
   .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1070,23 +1126,10 @@ a {
   display: none; }
   @media all and (min-width: 550px) {
     .home .why-canada .owl-dots {
-      display: block; } }
-
-.home .why-canada .carouselplaceholder {
-  background: url("../../assets/images/whynexus.png");
-  margin: 0 5rem;
-  width: 100vw; }
-
-.home .why-canada .carouselplaceholder__subheader {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-style: italic;
-  color: #E00029;
-  text-align: center; }
-  @media all and (min-width: 550px) {
-    .home .why-canada .carouselplaceholder__subheader {
-      color: #123048;
-      font-size: 2.5rem; } }
+      display: inline;
+      position: absolute;
+      bottom: 4rem;
+      left: 1rem; } }
 
 .home .why-canada .curious {
   display: none; }
@@ -1105,7 +1148,7 @@ a {
             box-shadow: none;
     text-shadow: none;
     background: #E91C35;
-    color: white; }
+    color: #FFFFFF; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1173,14 +1216,14 @@ object {
 button {
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: white;
+  background-color: #FFFFFF;
   border: none;
   border-radius: 0px; }
 
 button:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: white;
+  background-color: #FFFFFF;
   border: none;
   border-radius: 0px; }
 
@@ -1292,7 +1335,7 @@ body.page-template-archive-nexus_program main {
 
 .page-template-about .about-right {
   height: 264px;
-  background-color: white;
+  background-color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1320,7 +1363,7 @@ body.page-template-archive-nexus_program main {
 
 .page-template-about .about-consultants {
   height: 500px;
-  background-color: white;
+  background-color: #FFFFFF;
   display: block;
   text-align: center; }
   .page-template-about .about-consultants p {
@@ -1374,7 +1417,7 @@ body.page-template-archive-nexus_program main {
     letter-spacing: 1pt; }
   .page-template-about .about-journey p {
     font-size: 14px;
-    color: red;
+    color: #E00029;
     font-style: italic;
     font-weight: 200;
     position: relative;
@@ -1453,7 +1496,7 @@ div.widget_info_contain a {
         -ms-flex-pack: center;
             justify-content: center; }
     div.footer__social-media-container h2 {
-      padding: 10px 0;
+      padding: 20px 0 10px 0;
       text-align: center;
       color: #FFFFFF; }
   div.socialmedia-container {
@@ -1469,8 +1512,8 @@ div.widget_info_contain a {
             justify-content: center;
     padding-top: 30px; }
     div.socialmedia-container img {
-      height: 75px;
-      width: 75px;
+      height: 45px;
+      width: 45px;
       margin: 0 7px; }
   div.widget_fa {
     display: -webkit-box;
@@ -1757,7 +1800,7 @@ div.widget_info_contain a {
     letter-spacing: 1pt; }
   .page-template-taxonomy-nexus_faq .faq-journey p {
     font-size: 14px;
-    color: red;
+    color: #E00029;
     font-style: italic;
     font-weight: 200;
     position: relative;
@@ -1783,7 +1826,7 @@ div.widget_info_contain a {
   text-shadow: none;
   font-size: 18px;
   background: #E91C35;
-  color: white;
+  color: #FFFFFF;
   position: relative;
   bottom: 40px; }
 
@@ -1843,7 +1886,7 @@ div.banner-faq-single {
     width: 53px;
     background-color: #E91C35; }
     .nexus_faq-template-default .faq-homestay .homestay-button .fa {
-      color: white;
+      color: #FFFFFF;
       text-shadow: none;
       position: relative;
       bottom: 6px;
@@ -1895,7 +1938,7 @@ div.banner-faq-single {
     background-color: #E91C35;
     margin: 10px;
     font-size: 18px;
-    color: white;
+    color: #FFFFFF;
     text-shadow: none; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p {
       position: relative;
@@ -1915,7 +1958,7 @@ div.banner-faq-single {
     letter-spacing: 1pt; }
   .faq-single-homestay .faq-single-journey p {
     font-size: 14px;
-    color: red;
+    color: #E00029;
     font-style: italic;
     font-weight: 200;
     position: relative;
@@ -1939,7 +1982,7 @@ div.banner-faq-single {
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: white;
+    color: #FFFFFF;
     position: relative;
     bottom: 40px; }
 
@@ -2002,7 +2045,7 @@ div.menu-content {
             box-shadow: none;
     text-shadow: none;
     background: #E91C35;
-    color: white; }
+    color: #FFFFFF; }
 
 ul#primary-menu {
   list-style-type: none;
@@ -2010,11 +2053,11 @@ ul#primary-menu {
   padding: 0; }
 
 .page-template-archive-nexus_program .search-results {
-  background-color: lightcyan;
+  background-color: #e0ffff;
   font-size: 18px; }
 
 .page-template-archive-nexus_program article.program {
-  color: red; }
+  color: #E00029; }
 
 .page-template-archive-nexus_program .want-to-content {
   background-image: url("../../assets/images/photo_study@2x.png");
@@ -2064,19 +2107,19 @@ ul#primary-menu {
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: white;
+    color: #FFFFFF;
     position: absolute;
     bottom: 60px; }
 
-.page-template-contact-us h1.entry-title {
+.page-template-contact h1.entry-title {
   display: none; }
 
-.page-template-contact-us .contact-form {
+.page-template-contact .contact-form {
   padding-top: 24px;
   background-color: #F3F5F8; }
-  .page-template-contact-us .contact-form .wpcf7-form-control {
+  .page-template-contact .contact-form .wpcf7-form-control {
     height: 44px; }
-  .page-template-contact-us .contact-form .wpcf7-submit {
+  .page-template-contact .contact-form .wpcf7-submit {
     letter-spacing: 1pt;
     width: 175px;
     height: 40px;
@@ -2087,20 +2130,20 @@ ul#primary-menu {
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: white;
+    color: #FFFFFF;
     position: relative;
     bottom: 40px; }
-  .page-template-contact-us .contact-form h2.title {
+  .page-template-contact .contact-form h2.title {
     margin-top: 0;
     text-align: center;
     color: #15405A;
     font-size: 24px;
     font-weight: bold; }
-  .page-template-contact-us .contact-form .contact-content {
+  .page-template-contact .contact-form .contact-content {
     margin: 0 auto;
     max-width: 345px;
     color: #CFCFCF; }
-  .page-template-contact-us .contact-form .underline {
+  .page-template-contact .contact-form .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
@@ -2108,9 +2151,9 @@ ul#primary-menu {
     position: relative;
     bottom: 20px; }
 
-.page-template-contact-us .hero-wrapper {
+.page-template-contact .hero-wrapper {
   padding-top: 65px; }
-  .page-template-contact-us .hero-wrapper h1 {
+  .page-template-contact .hero-wrapper h1 {
     text-align: center;
     color: #15405A;
     font-size: 30px;
@@ -2118,12 +2161,12 @@ ul#primary-menu {
     font-weight: 900;
     position: relative;
     top: 46px; }
-  .page-template-contact-us .hero-wrapper .hero-image {
+  .page-template-contact .hero-wrapper .hero-image {
     height: 139px;
     width: 100vw;
     background-image: url("../../assets/images/contact@2x.png");
     background-size: 100% 100%; }
-  .page-template-contact-us .hero-wrapper .underline {
+  .page-template-contact .hero-wrapper .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
@@ -2131,10 +2174,10 @@ ul#primary-menu {
     position: relative;
     bottom: 20px; }
 
-.page-template-contact-us .contact-journey {
+.page-template-contact .contact-journey {
   height: 195px;
   background-color: #F3F5F8; }
-  .page-template-contact-us .contact-journey h2 {
+  .page-template-contact .contact-journey h2 {
     font-size: 24px;
     text-align: center;
     color: #15405A;
@@ -2143,15 +2186,15 @@ ul#primary-menu {
     top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
-  .page-template-contact-us .contact-journey p {
+  .page-template-contact .contact-journey p {
     font-size: 14px;
-    color: red;
+    color: #E00029;
     font-style: italic;
     font-weight: 200;
     position: relative;
     text-transform: none;
     bottom: 42px; }
-  .page-template-contact-us .contact-journey .underline {
+  .page-template-contact .contact-journey .underline {
     margin: 0 auto;
     width: 49px;
     text-align: center;
@@ -2159,7 +2202,7 @@ ul#primary-menu {
     position: relative;
     bottom: 48px; }
 
-.page-template-contact-us button.consult {
+.page-template-contact button.consult {
   letter-spacing: 1pt;
   width: 175px;
   height: 40px;
@@ -2170,7 +2213,7 @@ ul#primary-menu {
   text-shadow: none;
   font-size: 18px;
   background: #E91C35;
-  color: white;
+  color: #FFFFFF;
   position: relative;
   bottom: 40px; }
 
@@ -2185,7 +2228,6 @@ ul#primary-menu {
   width: 100%; }
 
 .selectric {
-  border: 1px solid #123048;
   background: #F3F5F8;
   position: relative;
   border-radius: 0px; }

@@ -1,6 +1,8 @@
 .home {
   .why-canada {
-    
+    @media #{$desktop} {
+      position: relative;
+    }    
     
     &__header{
       font-family: $font__main;
@@ -17,9 +19,58 @@
       }
     }
   
+
+    .owl-carousel {
+      @media #{$desktop} {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        height: 25rem;
+        
+
+      }
+    }
+
+
+    .carouselplaceholder {
+      background: rgba(255, 1, 255, 0.5);
+      margin: 0 5rem;
+      width: 100vw;
+      height: 20rem;
+      @media #{$desktop} {
+        width: 100%;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: flex-start;
+        
+
+      }
+    }
+
+    .carouselplaceholder__subheader {
+      font-family: $font__accent;
+      font-weight: 600;
+      font-style: italic;
+      color: $color__text-accent;
+      text-align: center;
+      @media #{$desktop} {
+        color: $color__text-main;
+        font-size: 2.5rem;
+        font-style: normal;
+      }
+    }
+
+
     .owl-nav {
       display: flex;
-      justify-content: center;
+      justify-content: center; 
+      @media #{$desktop} {
+        position: absolute;
+        bottom: 3rem;
+        right: 1rem;  
+      }
 
       .owl-prev, .owl-next {
         display: flex;
@@ -39,28 +90,13 @@
     .owl-dots {
       display: none;
       @media #{$desktop} {
-        display: block;
+        display: inline;
+        position: absolute;
+        bottom: 4rem;
+        left: 1rem;
       }
     }
-    
 
-    .carouselplaceholder {
-      background: url('../../assets/images/whynexus.png');
-      margin: 0 5rem;
-      width: 100vw;
-    }
-
-    .carouselplaceholder__subheader {
-      font-family: $font__accent;
-      font-weight: 600;
-      font-style: italic;
-      color: $color__text-accent;
-      text-align: center;
-      @media #{$desktop} {
-        color: $color__text-main;
-        font-size: 2.5rem;
-      }
-    }
 
 
     .curious {
@@ -80,7 +116,7 @@
         box-shadow: none;
         text-shadow: none;
         background: $color__icon-element;
-        color: white;
+        color: $color__text-white;
       }
     }
 

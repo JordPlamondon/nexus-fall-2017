@@ -1,5 +1,5 @@
 (function ($) {
-
+  console.log('whatever');
   // Ajax functions
   function ajaxGet(request) {
     console.log(api_vars.root_url + request);
@@ -71,4 +71,16 @@
     ajaxGet(request);
   });
 
+
+
+
+$(document).ready(function() {
+  $('.homestay-button').click(function() {
+
+    $('#dropdown').toggleClass('visible');
+  });
+});
+
+
 })(jQuery);
+

@@ -2682,11 +2682,8 @@ body.blog .title-wrapper .underline1 {
     font-weight: 600;
     background: pink;
     color: #FFFFFF; }
-<<<<<<< HEAD
-=======
-  .blog-page .blog-text button.read-more:nth-type(3) {
+  .blog-page .blog-text .blog-video button.read-more:nth-type(3) {
     display: none; }
->>>>>>> 5ad156ef7f10378c8d05d217ed53c1ce94ac334e
 
 /*--------------------------------------------------------------
 # 404 Not Found

@@ -47,7 +47,7 @@ get_header(); ?>
 
 
 			<section class="why-canada">
-				<h2 class="why-canada__header">Why Canada</h2>
+				<h2 class="why-canada__header">Why Canada?</h2>
 				<div class="underline"></div>
 					<div class="owl-carousel owl-theme">
 						<div class="carouselplaceholder first">
@@ -111,12 +111,21 @@ get_header(); ?>
 			<section class="student-review">
 				<h2 class="student-review__header">Student's Review</h2>
 				<div class="underline"></div>
-				<div class="student-review__box">
-					<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
-					alt="Picture of a Student">
-					<p class="student-review__info">
-					Thank you so much for your help! I couldn’t have done this trip without you.
-					</p>
+				<div class="owl-carousel owl-theme">
+					<div class="student-review__box">
+						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
+						alt="Picture of a Student">
+						<p class="student-review__info">
+						Thank you so much for your help! I couldn’t have done this trip without you.
+						</p>
+					</div>
+					<div class="student-review__box">
+						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
+						alt="Picture of a Student">
+						<p class="student-review__info">
+						Thank you so much for your help! I couldn’t have done this trip without you.
+						</p>
+					</div>
 				</div>
 			</section>
 			

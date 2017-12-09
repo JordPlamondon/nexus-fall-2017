@@ -4,14 +4,21 @@
     height: 65px;
     min-width: 325px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 3;
     top: 0px;
       @media #{$tablet} {
+        padding-bottom: 14px;
         height: 126px;
-      } 
+        justify-content: flex-start;
+        align-items: center;
+        .main-navigation:hover {
+        transition: box-shadow .3s;
+        box-shadow: 1px 1px 8px 1px lightgrey;
+      }
+    }
 
 // Nav logo
     .header-logo {
@@ -22,7 +29,7 @@
       background-size: 100% 100%;
       z-index: 10;
         @media #{$tablet} {
-          min-height: 62px;
+          height: 62px;
           min-width: 151px; 
           margin-left: 40px;
          
@@ -72,7 +79,7 @@
           font-weight: bold;
           text-decoration: none;
         }
-        button.consult {
+        button.book-consult {
           width: 130px;
           height: 40px;
           padding: 0;
@@ -99,7 +106,6 @@
     @media #{$tablet} {
       height: 126px;
       width: 80vw;
-      background-color: lightblue;
       margin-top: 36px;
       display: flex;
       align-items: center;
@@ -109,7 +115,6 @@
           align-items: stretch; /* Default */
           justify-content: center;
           width: 70vw;
-          background: #cacaca;
           margin: 0;
           padding: 0;
         }
@@ -122,7 +127,7 @@
           font-weight: bold;
           text-decoration: none;
         }
-      .consult {
+      .book-consult {
         width: 135px;
         height: 40px;
         font-size: 16px;
@@ -135,4 +140,3 @@
       }
     }
   }
-    

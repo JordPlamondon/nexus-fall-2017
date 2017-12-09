@@ -2035,9 +2035,9 @@ nav.main-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2046,7 +2046,21 @@ nav.main-navigation {
   top: 0px; }
   @media all and (min-width: 750px) {
     nav.main-navigation {
-      height: 126px; } }
+      padding-bottom: 14px;
+      height: 126px;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      nav.main-navigation .main-navigation:hover {
+        -webkit-transition: -webkit-box-shadow .3s;
+        transition: -webkit-box-shadow .3s;
+        transition: box-shadow .3s;
+        transition: box-shadow .3s, -webkit-box-shadow .3s;
+        -webkit-box-shadow: 1px 1px 8px 1px lightgrey;
+                box-shadow: 1px 1px 8px 1px lightgrey; } }
   nav.main-navigation .header-logo {
     height: 32px;
     width: 97px;
@@ -2056,7 +2070,7 @@ nav.main-navigation {
     z-index: 10; }
     @media all and (min-width: 750px) {
       nav.main-navigation .header-logo {
-        min-height: 62px;
+        height: 62px;
         min-width: 151px;
         margin-left: 40px;
         background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
@@ -2101,7 +2115,7 @@ div.menu-content {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none; }
-  div.menu-content button.consult {
+  div.menu-content button.book-consult {
     width: 130px;
     height: 40px;
     padding: 0;
@@ -2132,7 +2146,6 @@ nav.main-navigation:hover {
     .full-screen-links {
       height: 126px;
       width: 80vw;
-      background-color: lightblue;
       margin-top: 36px;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2155,7 +2168,6 @@ nav.main-navigation:hover {
             -ms-flex-pack: center;
                 justify-content: center;
         width: 70vw;
-        background: #cacaca;
         margin: 0;
         padding: 0; }
       .full-screen-links li {
@@ -2167,7 +2179,7 @@ nav.main-navigation:hover {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: bold;
         text-decoration: none; }
-      .full-screen-links .consult {
+      .full-screen-links .book-consult {
         width: 135px;
         height: 40px;
         font-size: 16px;

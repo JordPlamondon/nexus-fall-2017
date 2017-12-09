@@ -2035,9 +2035,12 @@ nav.main-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: fixed;
   z-index: 3;
   top: 0px; }
@@ -2053,10 +2056,9 @@ nav.main-navigation {
     z-index: 10; }
     @media all and (min-width: 750px) {
       nav.main-navigation .header-logo {
-        height: 62px;
-        width: 151px;
+        min-height: 62px;
+        min-width: 151px;
         margin-left: 40px;
-        margin-top: 26px;
         background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
         background-size: 100% 100%; } }
   nav.main-navigation .menu-toggle {
@@ -2128,28 +2130,44 @@ nav.main-navigation:hover {
   display: none; }
   @media all and (min-width: 750px) {
     .full-screen-links {
+      height: 126px;
       width: 80vw;
-      height: 80px;
+      background-color: lightblue;
       margin-top: 36px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      overflow: hidden;
-      position: absolute;
-      left: 190px; }
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .full-screen-links ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+        /* Default */
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 70vw;
+        background: #cacaca;
+        margin: 0;
+        padding: 0; }
       .full-screen-links li {
-        margin: 32px 0 0 5vw;
-        position: relative;
-        display: inline-block;
-        float: none; }
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+        margin: 0 auto; }
       .full-screen-links a {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: bold;
         text-decoration: none; }
       .full-screen-links .consult {
-        position: relative;
-        top: 22px;
-        left: 44px;
         width: 135px;
         height: 40px;
         font-size: 16px;

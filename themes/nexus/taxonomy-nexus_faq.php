@@ -59,4 +59,5 @@ get_header(); ?>
 			</section>		
 		</main><!-- #main -->
 	</div><!-- #primary -->
+	<?php get_footer() ?>
 

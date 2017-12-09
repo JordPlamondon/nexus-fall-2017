@@ -1577,6 +1577,7 @@ div.widget_info_contain a {
   div.widget_info_contain a,
   div.widget_info_contain p,
   p.footer__office--hours {
+    margin-left: 24px;
     max-width: 197px; }
   div.widget_info_contain {
     display: -webkit-box;
@@ -1774,7 +1775,7 @@ div.widget_info_contain a {
   background-size: 100% 100%; }
 
 .page-template-taxonomy-nexus_faq .faq-wrapper {
-  height: 1660px; }
+  height: 1590px; }
   .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
     width: 49px;
     border-bottom: 3px solid #FF8A2A;
@@ -2041,8 +2042,7 @@ nav.main-navigation {
   top: 0px; }
   @media all and (min-width: 750px) {
     nav.main-navigation {
-      height: 126px;
-      min-width: 325px; } }
+      height: 126px; } }
   nav.main-navigation .header-logo {
     height: 32px;
     width: 97px;
@@ -2687,9 +2687,9 @@ body.blog .title-wrapper .underline1 {
     color: #FFFFFF; }
 <<<<<<< HEAD
 =======
-  .blog-page .blog-text button.read-more:nth-type(3) {
+  .blog-page .blog-text .blog-video button.read-more:nth-type(3) {
     display: none; }
->>>>>>> 5ad156ef7f10378c8d05d217ed53c1ce94ac334e
+>>>>>>> 077f7115c4eb4040c13880df6071d06c280c5d83
 
 /*--------------------------------------------------------------
 # 404 Not Found

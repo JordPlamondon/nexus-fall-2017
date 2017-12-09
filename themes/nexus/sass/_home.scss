@@ -68,12 +68,19 @@ body.blog {
       background: pink;
       color: $color__text-white;
     }
+
     .blog-video {
       // position: relative;
       // right: 12px;
       // width: 100vw;
     button.read-more:nth-type(3) {
+
       display: none; 
+
+      display: none;
+
     }
+
   }
+ }
 }    

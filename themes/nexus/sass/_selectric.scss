@@ -5,6 +5,11 @@
 .selectric-wrapper {
   position: relative;
   cursor: pointer;
+  width: 70%;
+  @media #{$desktop} {
+    width: 40%;
+    max-width: 370px;
+  }
 }
 
 .selectric-responsive {

@@ -1,51 +1,93 @@
 .home {
   .why-canada {
-    @media #{$desktop} {
+    @media all and (min-width: 960px) {
       position: relative;
+      height: 120vh;
     }    
     
     &__header{
       font-family: $font__main;
       font-weight: bold;
-      @media #{$desktop} {
+      @media all and (min-width: 960px) {
         text-align: center;  
-      }
+        font-size: 3rem;
+        margin: 3rem auto 0 auto;
+      } 
     }
 
     .underline {
-      @media #{$desktop} {
+      @media all and (min-width: 960px) {
         text-align: center;  
-        margin: 0 auto;
+        margin: 0 auto 3rem auto; 
+      
       }
     }
   
 
     .owl-carousel {
-      @media #{$desktop} {
-        width: 65%;
-        display: flex;
-        flex-direction: column;
-        height: 25rem;
+      @media all and (min-width: 960px) {
+        width: 100%;
+        // display: flex;
+        // flex-direction: column;
+        height: 100%;
         
 
       }
     }
 
 
-    .carouselplaceholder {
-      background: rgba(255, 1, 255, 0.5);
-      margin: 0 5rem;
-      width: 100vw;
-      height: 20rem;
-      @media #{$desktop} {
-        width: 100%;
-        margin-left: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        align-items: flex-start;
-        
+    .first {
+      background: linear-gradient(180deg,rgba(255,255,255,.5) 0,rgba(255,255,255,.4)),
+      url('../../assets/images/whynexus@3x.png');
+      background-size: 65% 55%,70% 100%;
+      background-position-x: left,right;
+      background-repeat: no-repeat,no-repeat;
+    }
 
+    .second {
+      background: linear-gradient(180deg,rgba(255,255,255,.5) 0,rgba(255,255,255,.4)),
+      url('../../assets/images/whycanada@3x.png');
+      background-size: 65% 55%,70% 100%;
+      background-position-x: left,right;
+      background-repeat: no-repeat,no-repeat;
+    }
+
+    .third {
+      background: linear-gradient(180deg,rgba(255,255,255,.5) 0,rgba(255,255,255,.4)),
+      url('../../assets/images/photo-review@3x.png');
+      background-size: 65% 55%,70% 100%;
+      background-position-x: left,right;
+      background-repeat: no-repeat,no-repeat;
+    }
+
+    .carouselplaceholder {
+      width: 100%;
+      height: 108vh;
+
+
+      &__content-wrapper{
+        margin: 0 5rem;
+        padding-top: 2rem;
+        width: 71%;
+        height: 30rem;
+        @media all and (min-width: 960px) {
+          width: 100%;
+          height: 23rem;
+          margin-left: 7rem;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+
+
+        * {
+          @media all and (min-width: 960px) {
+            padding: 0 2rem;
+            width: 50%;
+            text-align: left
+          }
+        }
       }
     }
 
@@ -55,22 +97,35 @@
       font-style: italic;
       color: $color__text-accent;
       text-align: center;
-      @media #{$desktop} {
+      @media all and (min-width: 960px) {
+        margin-top: 5px;
         color: $color__text-main;
         font-size: 2.5rem;
         font-style: normal;
+        text-align: left;
       }
+    }
+
+    .carouselplaceholder__info {
+      position: relative;
+      bottom: 2rem;
     }
 
 
     .owl-nav {
       display: flex;
       justify-content: center; 
-      @media #{$desktop} {
-        position: absolute;
-        bottom: 3rem;
-        right: 1rem;  
+      @media all and (min-width: 960px) {
+        position: relative;
+        z-index: 998;
+        bottom: 24rem;
+        right: -3rem;
       }
+      // @media all and (min-width: 1024px) {
+      //     bottom: 25rem;
+      // }
+
+      
 
       .owl-prev, .owl-next {
         display: flex;
@@ -78,22 +133,21 @@
         align-items: center;
         background: $color__icon-element;
         border-radius: 0;
-        height: 4rem;
-        width: 4rem;
-        font-size: 5rem;
+        height: 3rem;
+        width: 3rem;
+        font-size: 4rem;
         padding-bottom: 20px;
-
       }
 
     }
 
     .owl-dots {
       display: none;
-      @media #{$desktop} {
+      @media all and (min-width: 960px) {
         display: inline;
-        position: absolute;
-        bottom: 4rem;
-        left: 1rem;
+        position: relative;
+        bottom: 26rem;
+        left: 140px;
       }
     }
 
@@ -101,8 +155,12 @@
 
     .curious {
       display: none;
-      @media #{$desktop} {
+      @media all and (min-width: 960px) {
         display: inline-block;
+        margin-left: 140px;
+        position: absolute;
+        bottom: 6rem;
+        z-index: 9999;
       }
       &__subheader {
         font-family: $font__main;

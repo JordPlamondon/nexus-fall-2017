@@ -73,8 +73,12 @@ body.blog {
       // right: 12px;
       // width: 100vw;
     button.read-more:nth-type(3) {
+
+      display: none; 
+
       display: none;
     }
+
   }
 }    
 }

@@ -1,6 +1,34 @@
 body.blog {
   .blog-wrapper {
-    height: 3200px;
+    height: 2330px;
+    .latest-videos-title {
+    position: relative;
+    text-align: center;
+    top: 210px;
+    }
+    .underline-videos {
+      margin: 0 auto;
+      width: 49px;
+      text-align: center;
+      border-bottom: 3px solid $color__accent-underline;
+      position: relative;
+      top: 195px;
+      left: 0;
+    }
+    .latest-posts-title {
+      position: relative;
+      text-align: center;
+      bottom: 1150px;
+    }
+    .underline-posts {
+      margin: 0 auto;
+      width: 49px;
+      text-align: center;
+      border-bottom: 3px solid #ff8a2a;
+      position: relative;
+      bottom: 1165px;
+      left: 0;
+    }
   } 
   .title-wrapper {
     h1 {
@@ -29,7 +57,7 @@ body.blog {
   background-size: 100% 100%;
   ul {
     position: relative;
-    right: 20px;
+    right: 15px;
     padding: 0;
     padding-top: 160px;
     .shadow-border {
@@ -37,11 +65,14 @@ body.blog {
       box-shadow: 0px 10px $color__textbox-background;
       padding-top: 40px;
       width: 100vw;
-      right: 3.5vw;
+      right: 4.5vw;
       position: relative;
     }
     .shadow-border:nth-of-type(-n+2) {
       display: none;
+    }
+    .shadow-border:nth-of-type(3) {
+      border-bottom: none;
     }
   }
   li {
@@ -50,9 +81,42 @@ body.blog {
       margin-top: 30px;
     }
   }
+  //video blog posts 
+  li:nth-of-type(-n+3) {
+    display: flex;
+    flex-wrap: wrap;
+    button.read-more {
+      display: none;
+    }
+    iframe {
+      top: 0;
+      left: 0;
+      // width: 100%;
+      height: 100%;
+    }
+  }
+  li:nth-of-type(1) {
+    padding-top: 40px;
+    font-size: 14px;
+  }
+  li:nth-of-type(n+2):nth-of-type(-n+3) {
+    font-size: 10px;
+    width: 50%;
+  }
+  li:nth-of-type(3) {
+  }
   a {
     text-align: center;
     text-decoration: none;
+  }
+  //normal blog posts
+  li:nth-of-type(n+4):nth-of-type(-n+6) {
+    .blog-title {
+      font-size: 18px;
+    }
+  }
+  li:nth-of-type(4) {
+    padding-top: 70px;
   }
   .blog-text {
     button.read-more {
@@ -65,16 +129,9 @@ body.blog {
       text-shadow: none;
       font-size: 18px;
       font-weight: 600;
-      background: pink;
+      background-color: $color__icon-element;
       color: $color__text-white;
     }
-    .blog-video {
-      position: relative;
-      right: 12px;
-      width: 100vw;
-    button.read-more:nth-child(2) {
-      display: none; 
-    }
   }
-}    
-}
+}   
+

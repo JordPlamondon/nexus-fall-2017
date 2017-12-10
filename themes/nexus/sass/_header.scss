@@ -5,12 +5,21 @@
     min-width: 325px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     z-index: 3;
     top: 0px;
       @media #{$tablet} {
+        padding-bottom: 14px;
         height: 126px;
-      } 
+        justify-content: flex-start;
+        align-items: center;
+        .main-navigation:hover {
+        transition: box-shadow .3s;
+        box-shadow: 1px 1px 8px 1px lightgrey;
+      }
+    }
+
 // Nav logo
     .header-logo {
       height: 32px;
@@ -21,9 +30,9 @@
       z-index: 10;
         @media #{$tablet} {
           height: 62px;
-          width: 151px; 
+          min-width: 151px; 
           margin-left: 40px;
-          margin-top: 26px;
+         
           background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
           background-size: 100% 100%;
       } 
@@ -70,7 +79,7 @@
           font-weight: bold;
           text-decoration: none;
         }
-        button.consult {
+        button.book-consult {
           width: 130px;
           height: 40px;
           padding: 0;
@@ -95,28 +104,30 @@
   .full-screen-links {
     display: none;
     @media #{$tablet} {
+      height: 126px;
       width: 80vw;
-      height: 80px;
       margin-top: 36px;
       display: flex;
-      overflow: hidden;
-      position: absolute;
-      left: 190px; 
-      li {
-        margin: 32px 0 0 5vw;
-        position: relative;
-        display: inline-block;
-        float: none;
-      }
-      a {
-        font-family: $font__main;
-        font-weight: bold;
-        text-decoration: none;
-      }
-      .consult {
-        position: relative;
-        top: 22px;
-        left: 44px;
+      align-items: center;
+      justify-content: center; 
+        ul {
+          display: flex;
+          align-items: stretch; /* Default */
+          justify-content: center;
+          width: 70vw;
+          margin: 0;
+          padding: 0;
+        }
+        li {
+          align-items: stretch; 
+        margin: 0 auto;  
+        }
+        a {
+          font-family: $font__main;
+          font-weight: bold;
+          text-decoration: none;
+        }
+      .book-consult {
         width: 135px;
         height: 40px;
         font-size: 16px;
@@ -129,4 +140,3 @@
       }
     }
   }
-    

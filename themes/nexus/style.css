@@ -1871,6 +1871,8 @@ div.widget_info_contain a {
   color: #FFFFFF;
   position: relative;
   bottom: 40px; }
+  .page-template-taxonomy-nexus_faq button.consult:hover {
+    background: #bf1328; }
 
 div.banner-faq-single {
   padding-top: 65px;
@@ -1927,6 +1929,8 @@ div.banner-faq-single {
     height: 55px;
     width: 53px;
     background-color: #E91C35; }
+    .nexus_faq-template-default .faq-homestay .homestay-button:hover {
+      background: #bf1328; }
     .nexus_faq-template-default .faq-homestay .homestay-button .fa {
       color: #FFFFFF;
       text-shadow: none;
@@ -1982,9 +1986,13 @@ div.banner-faq-single {
     font-size: 18px;
     color: #FFFFFF;
     text-shadow: none; }
+    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover, .faq-single-homestay .homestay-button-wrapper .return-to-top-button:hover {
+      background: #bf1328; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p, .faq-single-homestay .homestay-button-wrapper .return-to-top-button p {
       position: relative;
       bottom: 14px; }
+  .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
+    background-color: #ac192c; }
 
 .faq-single-homestay .faq-single-journey {
   height: 195px;
@@ -2027,6 +2035,8 @@ div.banner-faq-single {
     color: #FFFFFF;
     position: relative;
     bottom: 40px; }
+    .faq-single-homestay .faq-single-journey button.consult:hover {
+      background: #bf1328; }
 
 nav.main-navigation {
   background-color: #ffffff;
@@ -2754,6 +2764,7 @@ body.blog .title-wrapper .underline1 {
     text-align: center;
     text-decoration: none; }
   .blog-page li:nth-of-type(n+4):nth-of-type(-n+6) .blog-title {
+    text-align: center;
     font-size: 18px; }
   .blog-page li:nth-of-type(n+4):nth-of-type(-n+6) .blog-img {
     margin-top: 30px; }
@@ -2774,6 +2785,8 @@ body.blog .title-wrapper .underline1 {
     font-weight: 600;
     background-color: #E91C35;
     color: #FFFFFF; }
+    .blog-page .blog-text button.read-more:hover {
+      background: #bf1328; }
 
 /*--------------------------------------------------------------
 # 404 Not Found

@@ -128,5 +128,8 @@
     color: $color__text-white;
     position: relative;
     bottom: 40px;
+    &:hover {
+      background: darken($color__icon-element, 10%);
+    }
   }
 }

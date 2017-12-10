@@ -56,6 +56,9 @@ div.banner-faq-single {
       height: 55px;
       width: 53px;
       background-color: $color__icon-element;
+      &:hover {
+        background: darken($color__icon-element, 10%);
+      }
       .fa {
         color: $color__text-white;
         text-shadow: none;
@@ -110,10 +113,16 @@ div.banner-faq-single {
     font-size: 18px;
     color: $color__text-white;
     text-shadow: none;
+    &:hover {
+      background: darken($color__icon-element, 10%);
+    }
     p {
       position: relative;
       bottom: 14px;
     }
+  }
+  button.return-to-top-button {
+    background-color: rgb(172, 25, 44);
   }
 }
 // Journey
@@ -160,6 +169,9 @@ div.banner-faq-single {
     color: $color__text-white;
     position: relative;
     bottom: 40px;
+    &:hover {
+      background: darken($color__icon-element, 10%);
+    }
   }
   }
 }

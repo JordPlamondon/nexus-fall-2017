@@ -130,6 +130,7 @@ body.blog {
   //Normal Blog Posts
   li:nth-of-type(n+4):nth-of-type(-n+6) {
     .blog-title {
+      text-align: center;
       font-size: 18px;
     }
     .blog-img {
@@ -156,6 +157,9 @@ body.blog {
       font-weight: 600;
       background-color: $color__icon-element;
       color: $color__text-white;
+      &:hover {
+        background: darken($color__icon-element, 10%);
+      }
     }
   }
 }   

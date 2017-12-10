@@ -69,16 +69,12 @@ body.blog {
       color: $color__text-white;
     }
     .blog-video {
-      // position: relative;
-      // right: 12px;
-      // width: 100vw;
-    button.read-more:nth-type(3) {
-
+      position: relative;
+      right: 12px;
+      width: 100vw;
+    button.read-more:nth-child(2) {
       display: none; 
-
-      display: none;
     }
-
   }
 }    
 }

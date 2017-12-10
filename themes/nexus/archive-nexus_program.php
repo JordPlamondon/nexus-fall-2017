@@ -2,7 +2,7 @@
 /**
  * The template for displaying archive pages.
  * Template Name: Programs
- * @package RED_Starter_Theme
+ * @package nexus_Theme
  */
 
 get_header(); ?>

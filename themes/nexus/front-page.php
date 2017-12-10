@@ -2,7 +2,7 @@
 /**
   * The template for displaying all pages.
  * Template Name: Front Page
- * @package RED_Starter_Theme
+ * @package nexus_Theme
  */
 
 get_header(); ?>

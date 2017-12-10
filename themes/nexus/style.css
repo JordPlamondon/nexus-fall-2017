@@ -2743,7 +2743,8 @@ body.blog .title-wrapper .underline1 {
     width: 45vw;
     padding: 0; }
     .blog-page li:nth-of-type(n+2):nth-of-type(-n+3) iframe {
-      height: 28vw; }
+      height: 28vw;
+      padding: 0px 4px; }
     .blog-page li:nth-of-type(n+2):nth-of-type(-n+3) h2 {
       text-align: left; }
   .blog-page a {

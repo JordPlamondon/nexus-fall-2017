@@ -1973,7 +1973,7 @@ div.banner-faq-single {
   margin: 0 auto;
   position: relative;
   bottom: 20px; }
-  .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
+  .faq-single-homestay .homestay-button-wrapper .homestay-looking-button, .faq-single-homestay .homestay-button-wrapper .return-to-top-button {
     border-radius: 8px;
     width: 165px;
     height: 47px;
@@ -1982,7 +1982,7 @@ div.banner-faq-single {
     font-size: 18px;
     color: #FFFFFF;
     text-shadow: none; }
-    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p {
+    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p, .faq-single-homestay .homestay-button-wrapper .return-to-top-button p {
       position: relative;
       bottom: 14px; }
 

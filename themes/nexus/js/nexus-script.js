@@ -44,7 +44,14 @@
 
       $(this).parent().next().slideToggle();
       return false;
-      })
-    });
+    })
+  });
+  
+  //single-nexus-faq return to top button
+  $('.return-to-top-button').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+  });  
 
   })(jQuery);

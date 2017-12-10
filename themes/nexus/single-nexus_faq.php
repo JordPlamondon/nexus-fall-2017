@@ -87,7 +87,7 @@ foreach ( (array) $entries as $key => $entry ) {
         		<button class="homestay-looking-button"><p>Financial</p></button>
         		<button class="homestay-looking-button"><p>School</p></button>
         		<button class="homestay-looking-button"><p>Working</p></button>
-        		<button class="homestay-looking-button"><p>Return To Top</p></button>
+        		<button class="return-to-top-button"><p>Return To Top</p></button>
       		</div>
 
 				<div class="faq-single-journey">

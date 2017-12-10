@@ -48,9 +48,9 @@
   });
   
   //single-nexus-faq return to top button
-  $('.return-to-top-button').click(function() {      // When arrow is clicked
+  $('.return-to-top-button').click(function() {      
     $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
+        scrollTop : 0                     
     }, 500);
   });  
 

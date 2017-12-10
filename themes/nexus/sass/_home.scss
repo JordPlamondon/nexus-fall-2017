@@ -95,6 +95,10 @@ body.blog {
       position: relative;
       bottom: 15px;
     }
+    a {
+      pointer-events: none;
+      cursor: default;
+    }
   }
   li:nth-of-type(1) {
     padding-top: 50px;

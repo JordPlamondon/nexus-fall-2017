@@ -2732,6 +2732,9 @@ body.blog .title-wrapper .underline1 {
   .blog-page li:nth-of-type(-n+3) .blog-text {
     position: relative;
     bottom: 15px; }
+  .blog-page li:nth-of-type(-n+3) a {
+    pointer-events: none;
+    cursor: default; }
   .blog-page li:nth-of-type(1) {
     padding-top: 50px;
     font-size: 11px; }

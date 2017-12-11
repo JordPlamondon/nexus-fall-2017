@@ -83,6 +83,9 @@
   text-align: center;
   margin: 0 auto;
   max-width: 150px;
+  @media #{$desktop} {
+    max-width: 320px;
+  }
 }
 .program-content {
   background-image: url("../../assets/images/photo_study@3x.png");
@@ -90,7 +93,7 @@
   background-position: bottom;
   height: 100vh;
   min-height: 600px;
-  
+
   .want-in {
     text-align: center;
     text-transform: uppercase;

@@ -29,9 +29,14 @@
   text-overflow: ellipsis;
   margin: 0 38px 0 13px;
   font-size: 12px;
+  font-family: $font__accent;
+  font-weight: bold;
   line-height: 38px;
   color: $color__text-main;
   height: 38px;
+  @media #{$desktop} {
+    font-size: 25px;
+  }
 }
 
 .selectric .button {

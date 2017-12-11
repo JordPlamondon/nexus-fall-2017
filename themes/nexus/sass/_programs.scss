@@ -42,7 +42,6 @@
   display: none;
 }
 .search-results {
-  background-color: #e0ffff;
   font-size: 18px;
   display: flex;
   justify-content: space-between;
@@ -97,6 +96,9 @@
   background-position: bottom;
   height: 100vh;
   min-height: 600px;
+  @media #{$desktop} {
+    background-image: url("../../assets/images/program-background-image.png");
+  }
 
   .want-in {
     text-align: center;

@@ -5,6 +5,10 @@
       height: 120vh;
     }    
     
+    .headergroup {
+      line-height: 3rem;
+    }
+
     &__header{
       font-family: $font__main;
       font-weight: bold;
@@ -16,9 +20,9 @@
     }
 
     .underline {
+      margin: 0 auto 3rem auto; 
       @media all and (min-width: 960px) {
         text-align: center;  
-        margin: 0 auto 3rem auto; 
       
       }
     }
@@ -37,40 +41,66 @@
 
 
     .first {
-      background: linear-gradient(180deg,rgba(255,255,255,.5) 0,rgba(255,255,255,.4)),
-      url('../../assets/images/whynexus@3x.png');
-      background-size: 65% 55%,70% 100%;
-      background-position-x: left,right;
+      background: linear-gradient(180deg,hsla(0,0%,100%,.5),hsla(0,0%,100%,.4)),url(../../assets/images/whynexus@3x.png);
+      background-size: 100% 70%,100% 50%;
+      background-position-x: center, center;
+      background-position-y: top, bottom;
       background-repeat: no-repeat,no-repeat;
+
+      @media #{$desktop} {
+        background: linear-gradient(180deg,rgba(255,255,255,.5) 0,rgba(255,255,255,.4)),
+        url('../../assets/images/whynexus@3x.png');
+        background-size: 65% 55%,70% 100%;
+        background-position-x: left,right;
+        background-repeat: no-repeat,no-repeat;  
+      }
     }
 
     .second {
-      background: linear-gradient(180deg,rgba(255,255,255,.5) 0,rgba(255,255,255,.4)),
-      url('../../assets/images/whycanada@3x.png');
-      background-size: 65% 55%,70% 100%;
-      background-position-x: left,right;
+      background: linear-gradient(180deg,hsla(0,0%,100%,.5),hsla(0,0%,100%,.4)),url(../../assets/images/whycanada@3x.png);
+      background-size: 100% 70%,100% 50%;
+      background-position-x: center, center;
+      background-position-y: top, bottom;
       background-repeat: no-repeat,no-repeat;
+
+      @media #{$desktop} {
+        background: linear-gradient(180deg,rgba(255,255,255,.5) 0,rgba(255,255,255,.4)),
+        url('../../assets/images/whycanada@3x.png');
+        background-size: 65% 55%,70% 100%;
+        background-position-x: left,right;
+        background-repeat: no-repeat,no-repeat;  
+      }
     }
 
     .third {
-      background: linear-gradient(180deg,rgba(255,255,255,.5) 0,rgba(255,255,255,.4)),
-      url('../../assets/images/photo-review@3x.png');
-      background-size: 65% 55%,70% 100%;
-      background-position-x: left,right;
+      background: linear-gradient(180deg,hsla(0,0%,100%,.5),hsla(0,0%,100%,.4)),url(../../assets/images/photo_review.png);
+      background-size: 100% 70%,100% 50%;
+      background-position-x: center, center;
+      background-position-y: top, bottom;
       background-repeat: no-repeat,no-repeat;
+
+      @media #{$desktop} {
+        background: linear-gradient(180deg,rgba(255,255,255,.5) 0,rgba(255,255,255,.4)),
+        url('../../assets/images/photo_review.png');
+        background-size: 65% 55%,70% 100%;
+        background-position-x: left,right;
+        background-repeat: no-repeat,no-repeat;  
+      } 
     }
 
     .carouselplaceholder {
       width: 100%;
-      height: 108vh;
-
+      height: 70vh;
+      @media #{$desktop} {
+        height: 108vh;
+      }
 
       &__content-wrapper{
         margin: 0 5rem;
         padding-top: 2rem;
         width: 71%;
         height: 30rem;
-        @media all and (min-width: 960px) {
+        @media #{$desktop} {
           width: 100%;
           height: 23rem;
           margin-left: 7rem;
@@ -82,7 +112,7 @@
 
 
         * {
-          @media all and (min-width: 960px) {
+          @media #{$desktop} {
             padding: 0 2rem;
             width: 50%;
             text-align: left
@@ -97,7 +127,7 @@
       font-style: italic;
       color: $color__text-accent;
       text-align: center;
-      @media all and (min-width: 960px) {
+      @media #{$desktop} {
         margin-top: 5px;
         color: $color__text-main;
         font-size: 2.5rem;
@@ -115,7 +145,9 @@
     .owl-nav {
       display: flex;
       justify-content: center; 
-      @media all and (min-width: 960px) {
+      position: relative;
+      bottom: 2.5rem;
+      @media #{$desktop} {
         position: relative;
         z-index: 998;
         bottom: 24rem;
@@ -143,7 +175,7 @@
 
     .owl-dots {
       display: none;
-      @media all and (min-width: 960px) {
+      @media #{$desktop} {
         display: inline;
         position: relative;
         bottom: 26rem;
@@ -160,7 +192,7 @@
         margin-left: 140px;
         position: absolute;
         bottom: 6rem;
-        z-index: 9999;
+        z-index: 2;
       }
       &__subheader {
         font-family: $font__main;

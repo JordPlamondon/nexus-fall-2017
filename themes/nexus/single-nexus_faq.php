@@ -97,13 +97,15 @@ foreach ( (array) $entries as $key => $entry ) {
 							if ($the_query->have_posts() ) : 
 							while ($the_query->have_posts() ) : $the_query->the_post()
 						?>
-							<button class="homestay-looking-button">
+							
 								<a href="<?php the_permalink(); ?>" rel="faq title"> 
+								<button class="homestay-looking-button">
 								<div class="button-faq-title">
 									<?php the_title(); ?>
 								</div>
+								</button>
 								</a>
-							</button>
+							
 
 						<?php endwhile; // End of the loop. ?>
 						<?php endif; ?>
@@ -111,12 +113,12 @@ foreach ( (array) $entries as $key => $entry ) {
 						<button class="return-to-top-button"><p>Return To Top</p></button>
 					</div>
 
-		<!-- Start Your Journey -->
-				<div class="faq-single-journey">
-      		<h2> Start Your Journey<h2><br>
-					<div class="underline"></div>
-					<div class="journey-text">
-      		<p>Let us help you find your path to success</p>
+					<!-- Start Your Journey -->
+					<div class="faq-single-journey">
+      			<h2> Start Your Journey<h2><br>
+						<div class="underline"></div>
+						<div class="journey-text">
+      			<p>Let us help you find your path to success</p>
 					<button class="consult">Book Consult</button>
 				</div>
 			</div>

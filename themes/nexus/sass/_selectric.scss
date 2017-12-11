@@ -5,10 +5,12 @@
 .selectric-wrapper {
   position: relative;
   cursor: pointer;
-  width: 70%;
+  width: 270px;
   @media #{$desktop} {
+    padding: 15px 0;
     width: 40%;
     max-width: 370px;
+    height: 65px;
   }
 }
 
@@ -29,9 +31,14 @@
   text-overflow: ellipsis;
   margin: 0 38px 0 13px;
   font-size: 12px;
-  line-height: 38px;
+  font-family: $font__accent;
+  font-weight: bold;
+  line-height: 2rem;
   color: $color__text-main;
   height: 38px;
+  @media #{$desktop} {
+    font-size: 25px;
+  }
 }
 
 .selectric .button {

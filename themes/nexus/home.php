@@ -29,12 +29,12 @@ get_header(); ?>
                 <?php the_post_thumbnail( 'full' ); ?>
               </div>
               <div class="blog-text"> 
-                  <h2 class="blog-title"><?php the_title(); ?></h2>
+                <h2 class="blog-title"><?php the_title(); ?></h2>
                   <a href="<?php the_permalink(); ?>" rel="blog title">
-                  <div style="text-align:center;" class="read-button">
-                    <button class="read-more">Read More</button>
-                  </a>
-                </div>
+                <div style="text-align:center;" class="read-button">
+                  <button class="read-more">Read More</button>
+                </a>
+              </div>
               </div>
             </li>
             <!-- <div class="underline"></div> -->

@@ -33,12 +33,16 @@ get_header(); ?>
 						<?php the_post_thumbnail( 'full' ); ?>
 						<div class="list-text">
 							<a href="<?php the_permalink(); ?>" rel="faq title"> 
+							<button class="read-more">Learn More</button>
 								<h2><?php the_title(); ?></h2>
 							</a>	
+							
 							<?php the_excerpt(); ?>
+					
+							<div class="underline"></div>
 						</div>
 					</li>
-					<div class="underline"></div>
+					
 					<div class="shadow-border"></div>
 					
 					<?php endwhile; // End of the loop. ?>

@@ -35,13 +35,12 @@ div.widget_info_contain a {
   color: $color__text-white;
 }
 
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
 
-
-/**************  Mobile MEDIA BREAK  ****************************/
-/**************  Mobile MEDIA BREAK  ****************************/
-/**************  Mobile MEDIA BREAK  ****************************/
-/**************  Mobile MEDIA BREAK  ****************************/
-@media screen and (max-width: 824px){
+@media screen and (max-width: 550px){
 
   div.footer__site-info.hidden {
     display: none;
@@ -94,6 +93,10 @@ div.widget_info_contain a {
     justify-content: center;
   }
 
+  div.widget_info_contain.one {
+    margin-top: 1rem;
+  }
+
   div.widget_info_contain a,
   div.widget_info_contain p,
   p.footer__office--hours {
@@ -105,7 +108,7 @@ div.widget_info_contain a {
     display: flex;
     flex-direction: row;
     width: 250px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     a {
       text-decoration: none;
       color: $color__text-white;
@@ -141,13 +144,139 @@ div.widget_info_contain a {
   }
 }
 
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+
+@media screen and (max-width: 1019px) {
+  @media screen and (min-width: 551px){
+    div.footer__site-info.hidden {
+      display: none;
+    }
+    div.footer__why-nexus {
+      display: none;
+    }
+    .widget_fa {
+      display: none;
+    }
+    
+    div.widget-fa {
+      height: 10px;
+    }
+  
+    div.footer__social-media {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      max-height: 400px;
+    }
+  
+    div.footer__contact h2 {
+      text-align: left;
+    }
+  
+    .widget-info-contain {
+      p {
+        font-family: $font__accent;
+      }
+      a {
+        font-family: $font__accent;
+      }
+    }
+  
+    .footer__social-media-container,
+    .footer__contact {
+      color: $color__text-white;
+      h2 {
+        font-family: $font__main;
+        color: $color__text-white;
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+  
+    div.footer__social-media-container,
+    section.footer_contact_info {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .footer__social-media-container,
+    section.footer_contact_info   {
+      width: 200px;
+    }
+  
+    div.socialmedia-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      margin-top: 3.5rem;
+      img {
+        height: 45px;
+        width: 45px;
+        padding: 0 0px 0 0px;
+        margin: 0 7px;
+      }
+    }
+  
+    .underline.footer {
+      padding-top: 10px;
+      width: 75px;
+      border-bottom: 3px solid #ff8a2a;
+    }
+  }
+}
+
+/**************  NAV FOOTER MEDIA BREAK  ****************************/
+/**************  NAV FOOTER MEDIA BREAK  ****************************/
+/**************  NAV FOOTER MEDIA BREAK  ****************************/
+/**************  NAV FOOTER MEDIA BREAK  ****************************/
+
+@media screen and (min-width: 750px){
+
+  div.footer__site-info.hidden {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 551px;
+    height: 61px;
+    background-color: $color__footer-navbkgrnd;
+  }
+  
+  div.footer__desktop--nav {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 0 auto;
+    padding-right: 3rem;
+    ul.footer_desktop--nav--ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+    
+  .footer--nav--li {
+    padding-left: 1rem;
+  }
+
+  div.footer_hidden_anchor {
+    display: flex;
+    flex: 1 0 auto;
+    padding-left: 3rem;
+  }
+}
 
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
 
-@media screen and (min-width: 825px){
+@media screen and (min-width: 1020px){
   div.footer__site-info.hidden {
     display: show;
   }
@@ -206,7 +335,7 @@ div.widget_info_contain a {
   .footer__why-nexus {
     text-align: left;
     margin-left: 5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: $color__text-white;
     h2 {
       text-align: left;
@@ -242,12 +371,12 @@ div.widget_info_contain a {
   }
 
   div.footer__social-media-container {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   section.footer_contact_info   {
     margin-right: 5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   .footer__why-nexus,
@@ -276,22 +405,10 @@ div.widget_info_contain a {
 
   .underline.footer {
     padding-top: 10px;
-    width: 49px;
+    width: 99px;
     border-bottom: 3px solid #ff8a2a;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

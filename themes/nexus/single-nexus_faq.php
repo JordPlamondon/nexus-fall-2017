@@ -7,8 +7,6 @@
 
 get_header(); ?>
 
-<script src="https://use.fontawesome.com/2a6d225dba.js"></script>
-
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

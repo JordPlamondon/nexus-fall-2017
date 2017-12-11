@@ -20,8 +20,11 @@ get_header(); ?>
 		
 		 <section class="nexus-wrapper">
 			<div class="why-nexus">
-				<h2 class="why-nexus__header">Why Use Nexus?</h2>
-				<div class="underline"></div>
+				<div class="headergroup">
+					<h2 class="why-nexus__header">Why Use Nexus?</h2>
+					<div class="underline"></div>
+				</div>
+				
 				<p class="why-nexus__info">
 				All success stories have a common structure that helps dreams become reality. We believe that orientation, experience, and teamwork is the most powerful tools available to achieve success. Our passion is to help every person learn to prepare a powerful action-plan and execute their life-changing journey of living in Canada effectively.
 				</p>
@@ -34,8 +37,10 @@ get_header(); ?>
 		<section class="choose-wrapper">
 			<div class="choose-program">
 				<div class="choose-program__info-wrapper">
-					<h2 class="choose-program__header">Choose your Program</h2>
-					<div class="underline"></div>
+					<div class="headergroup">
+						<h2 class="choose-program__header">Choose your Program</h2>
+						<div class="underline"></div>
+					</div>
 					<p class="choose-program__info">
 					Nexus has partnered up with over 100 different programs.
 					</p>
@@ -47,8 +52,10 @@ get_header(); ?>
 
 
 			<section class="why-canada">
-				<h2 class="why-canada__header">Why Canada?</h2>
-				<div class="underline"></div>
+				<div class="headergroup">
+					<h2 class="why-canada__header">Why Canada?</h2>
+					<div class="underline"></div>
+				</div>
 					<div class="owl-carousel owl-theme">
 						<div class="carouselplaceholder first">
 							<div class="carouselplaceholder__content-wrapper">
@@ -83,8 +90,10 @@ get_header(); ?>
 
 
 			<section class="browse-programs">
-				<h2 class="browse-programs__header">Browse Programs in: </h2>
-				<div class="underline"></div>
+				<div class="headergroup">
+					<h2 class="browse-programs__header">Browse Programs in: </h2>
+					<div class="underline"></div>
+				</div>
 				<div class="browse-programs__subheading">BC <button class="bracket">></button></div>
 				<div class="browse-programs__subheading">Ontario <button class="bracket">></button></div>
 				<div class="browse-programs__subheading">Alberta <button class="bracket">></button></div>
@@ -99,8 +108,10 @@ get_header(); ?>
 
 			<section class="choose-province-wrapper">
 				<div class="choose-province">
+				<div class="headergroup">
 					<h2 class="choose-province__header">Choose a Province</h2>
 					<div class="underline"></div>
+				</div>
 					<p class="choose-province__info">
 						Fusce tempor felis lacus, a hendrerit urna facilisis at. 
 					</p>
@@ -109,8 +120,10 @@ get_header(); ?>
 			</section>
 
 			<section class="student-review">
-				<h2 class="student-review__header">Student's Review</h2>
-				<div class="underline"></div>
+				<div class="headergroup">
+					<h2 class="student-review__header">Student's Review</h2>
+					<div class="underline"></div>
+				</div>
 				<div class="owl-carousel owl-theme">
 					<div class="student-review__box">
 						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
@@ -130,8 +143,10 @@ get_header(); ?>
 			</section>
 			
 			<section class="start-journey">
-				<h2 class="start-journey__header">Start your journey</h2>
-				<div class="underline"></div>
+				<div class="headergroup">
+					<h2 class="start-journey__header">Start your journey</h2>
+					<div class="underline"></div>
+				</div>
 				<h3 class="start-journey__subheader">Let us help you find your path to success</h3>
 
 				<button class="start-journey__button">Book Consult</button>

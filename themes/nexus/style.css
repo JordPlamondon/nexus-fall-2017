@@ -779,10 +779,10 @@ a {
             align-items: center;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus.png");
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus.png");
-    background-position-y: center, bottom;
+    background-position-y: top, bottom;
     background-position-x: left, left;
     background-repeat: no-repeat;
-    background-size: 100% 50%, 100% 50%; }
+    background-size: 100% 75%, 100% 50%; }
     @media all and (min-width: 550px) {
       .home .site-main .why-nexus {
         -ms-flex-pack: distribute;
@@ -794,22 +794,34 @@ a {
         background-repeat: no-repeat;
         background-position-x: left, right;
         background-size: 55% 50%,50% 50%; } }
+    .home .site-main .why-nexus h2 {
+      width: 80%;
+      margin: 0 auto; }
+      @media all and (min-width: 550px) {
+        .home .site-main .why-nexus h2 {
+          margin: 0;
+          width: 50%; } }
+    .home .site-main .why-nexus .headergroup {
+      width: 100%;
+      line-height: 3rem;
+      margin: 0 auto 3rem auto; }
     .home .site-main .why-nexus__header {
       font-family: "Roboto", Arial, Helvetica, sans-serif; }
       @media all and (min-width: 550px) {
         .home .site-main .why-nexus__header {
           text-align: left; } }
-    @media all and (min-width: 550px) {
-      .home .site-main .why-nexus .underline {
-        position: relative;
-        bottom: 5rem; } }
-    .home .site-main .why-nexus h2, .home .site-main .why-nexus p {
+    .home .site-main .why-nexus__info {
       width: 80%;
-      margin: 0 auto; }
+      margin: 10px auto 0 auto; }
       @media all and (min-width: 550px) {
-        .home .site-main .why-nexus h2, .home .site-main .why-nexus p {
+        .home .site-main .why-nexus__info {
           margin: 0;
           width: 50%; } }
+    .home .site-main .why-nexus .underline {
+      margin: 0 auto; }
+      @media all and (min-width: 550px) {
+        .home .site-main .why-nexus .underline {
+          margin: 0; } }
     .home .site-main .why-nexus button {
       margin-top: 3rem;
       width: 135px;
@@ -820,7 +832,10 @@ a {
               box-shadow: none;
       text-shadow: none;
       background: #E91C35;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      font-size: 18px; }
   .home .site-main .choose-wrapper {
     display: none; }
     @media all and (min-width: 550px) {
@@ -851,6 +866,8 @@ a {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center; }
+        .home .site-main .choose-wrapper .choose-program h2 {
+          text-align: left; }
         .home .site-main .choose-wrapper .choose-program button {
           width: 135px;
           height: 40px;
@@ -862,7 +879,6 @@ a {
           background: #E91C35;
           color: #FFFFFF; } }
   .home .site-main .browse-programs {
-    height: 70vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -877,12 +893,11 @@ a {
         -ms-flex-align: center;
             align-items: center;
     margin: 0 auto; }
-    .home .site-main .browse-programs h2, .home .site-main .browse-programs p {
-      width: 80%;
-      margin: 0 auto; }
     @media all and (min-width: 550px) {
       .home .site-main .browse-programs {
         display: none; } }
+    .home .site-main .browse-programs .underline {
+      margin: 0 auto; }
     .home .site-main .browse-programs__subheading {
       width: 80%;
       text-transform: uppercase;
@@ -924,6 +939,8 @@ a {
       .home .site-main .choose-province-wrapper .choose-province__header {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: bold; }
+      .home .site-main .choose-province-wrapper .choose-province .underline {
+        margin: 0 auto; }
       .home .site-main .choose-province-wrapper .choose-province button {
         width: 135px;
         height: 40px;
@@ -934,81 +951,68 @@ a {
         text-shadow: none;
         background: #E91C35;
         color: #FFFFFF; }
-  .home .site-main .student-review {
-    height: 70vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto; }
-    .home .site-main .student-review h2, .home .site-main .student-review p {
-      width: 80%;
-      margin: 0 auto; }
-    .home .site-main .student-review__box {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      width: 80%; }
-      .home .site-main .student-review__box .student-review__info {
-        width: 100%;
-        padding: 39px 30px 22px 48px;
-        font-weight: bold;
-        font-size: 5vw;
-        background: #F3F5F8;
-        position: relative; }
-        .home .site-main .student-review__box .student-review__info::before {
-          content: "\201C";
-          color: #FFBC4A;
-          font-size: 30vw;
-          font-weight: normal;
-          font-family: "Raleway", Arial, Helvetica, sans-serif;
-          position: absolute;
-          left: 1rem;
-          top: -1rem; }
-        .home .site-main .student-review__box .student-review__info::after {
-          content: '\201D';
-          color: #FFBC4A;
-          font-size: 30vw;
-          font-weight: normal;
-          font-family: "Raleway", Arial, Helvetica, sans-serif;
-          position: absolute;
-          bottom: -4rem;
-          right: 1rem; }
-  .home .site-main .start-journey {
-    height: 70vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .home .site-main .student-review .headergroup {
+    line-height: 3rem; }
+  .home .site-main .student-review .underline {
+    margin: 0 auto 3rem auto; }
+  .home .site-main .student-review .owl-nav {
+    display: none; }
+  .home .site-main .student-review__box {
+    width: 80%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .home .site-main .student-review__box .student-review__info {
+      width: 100%;
+      padding: 39px 30px 22px 48px;
+      font-weight: bold;
+      font-size: 4vw;
+      background: #F3F5F8;
+      position: relative; }
+      .home .site-main .student-review__box .student-review__info::before {
+        content: "\201C";
+        color: #FFBC4A;
+        font-size: 30vw;
+        font-weight: normal;
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        position: absolute;
+        left: 1rem;
+        top: -1rem; }
+      .home .site-main .student-review__box .student-review__info::after {
+        content: '\201D';
+        color: #FFBC4A;
+        font-size: 30vw;
+        font-weight: normal;
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        position: absolute;
+        bottom: -4rem;
+        right: 1rem; }
+  .home .site-main .start-journey {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: auto;
     padding: 1rem 0;
     background: #F3F5F8; }
-    .home .site-main .start-journey h2, .home .site-main .start-journey p {
-      width: 80%;
-      margin: 0 auto; }
+    .home .site-main .start-journey .headergroup {
+      line-height: 3rem; }
+    .home .site-main .start-journey .underline {
+      margin: 0 auto 1rem auto; }
     .home .site-main .start-journey__header {
       text-transform: uppercase; }
     .home .site-main .start-journey__subheader {
@@ -1016,11 +1020,10 @@ a {
       font-family: "Raleway", Arial, Helvetica, sans-serif;
       font-weight: 600;
       font-style: italic;
-      color: #E00029;
-      width: 80%; }
+      color: #E00029; }
     .home .site-main .start-journey button {
-      margin-top: 3rem;
-      width: 135px;
+      margin-top: 2rem;
+      width: 160px;
       height: 40px;
       padding: 0;
       border-radius: 25px 0px 25px 0px;
@@ -1028,12 +1031,18 @@ a {
               box-shadow: none;
       text-shadow: none;
       background: #E91C35;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      font-size: 18px; }
 
 @media all and (min-width: 960px) {
   .home .why-canada {
     position: relative;
     height: 120vh; } }
+
+.home .why-canada .headergroup {
+  line-height: 3rem; }
 
 .home .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -1044,10 +1053,11 @@ a {
       font-size: 3rem;
       margin: 3rem auto 0 auto; } }
 
-@media all and (min-width: 960px) {
-  .home .why-canada .underline {
-    text-align: center;
-    margin: 0 auto 3rem auto; } }
+.home .why-canada .underline {
+  margin: 0 auto 3rem auto; }
+  @media all and (min-width: 960px) {
+    .home .why-canada .underline {
+      text-align: center; } }
 
 @media all and (min-width: 960px) {
   .home .why-canada .owl-carousel {
@@ -1055,35 +1065,62 @@ a {
     height: 100%; } }
 
 .home .why-canada .first {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus@3x.png");
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus@3x.png");
-  background-size: 65% 55%,70% 100%;
-  background-position-x: left,right;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whynexus@3x.png);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whynexus@3x.png);
+  background-size: 100% 70%,100% 50%;
+  background-position-x: center, center;
+  background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .first {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus@3x.png");
+      background-size: 65% 55%,70% 100%;
+      background-position-x: left,right;
+      background-repeat: no-repeat,no-repeat; } }
 
 .home .why-canada .second {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png");
-  background-size: 65% 55%,70% 100%;
-  background-position-x: left,right;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whycanada@3x.png);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whycanada@3x.png);
+  background-size: 100% 70%,100% 50%;
+  background-position-x: center, center;
+  background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .second {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png");
+      background-size: 65% 55%,70% 100%;
+      background-position-x: left,right;
+      background-repeat: no-repeat,no-repeat; } }
 
 .home .why-canada .third {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo-review@3x.png");
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo-review@3x.png");
-  background-size: 65% 55%,70% 100%;
-  background-position-x: left,right;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/photo_review.png);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/photo_review.png);
+  background-size: 100% 70%,100% 50%;
+  background-position-x: center, center;
+  background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .third {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo_review.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo_review.png");
+      background-size: 65% 55%,70% 100%;
+      background-position-x: left,right;
+      background-repeat: no-repeat,no-repeat; } }
 
 .home .why-canada .carouselplaceholder {
   width: 100%;
-  height: 108vh; }
+  height: 70vh; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .carouselplaceholder {
+      height: 108vh; } }
   .home .why-canada .carouselplaceholder__content-wrapper {
     margin: 0 5rem;
     padding-top: 2rem;
     width: 71%;
     height: 30rem; }
-    @media all and (min-width: 960px) {
+    @media all and (min-width: 550px) {
       .home .why-canada .carouselplaceholder__content-wrapper {
         width: 100%;
         height: 23rem;
@@ -1098,7 +1135,7 @@ a {
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start; } }
-    @media all and (min-width: 960px) {
+    @media all and (min-width: 550px) {
       .home .why-canada .carouselplaceholder__content-wrapper * {
         padding: 0 2rem;
         width: 50%;
@@ -1110,7 +1147,7 @@ a {
   font-style: italic;
   color: #E00029;
   text-align: center; }
-  @media all and (min-width: 960px) {
+  @media all and (min-width: 550px) {
     .home .why-canada .carouselplaceholder__subheader {
       margin-top: 5px;
       color: #123048;
@@ -1128,8 +1165,10 @@ a {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
-  @media all and (min-width: 960px) {
+          justify-content: center;
+  position: relative;
+  bottom: 2.5rem; }
+  @media all and (min-width: 550px) {
     .home .why-canada .owl-nav {
       position: relative;
       z-index: 998;
@@ -1154,7 +1193,7 @@ a {
 
 .home .why-canada .owl-dots {
   display: none; }
-  @media all and (min-width: 960px) {
+  @media all and (min-width: 550px) {
     .home .why-canada .owl-dots {
       display: inline;
       position: relative;
@@ -1169,7 +1208,7 @@ a {
       margin-left: 140px;
       position: absolute;
       bottom: 6rem;
-      z-index: 9999; } }
+      z-index: 2; } }
   .home .why-canada .curious__subheader {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bold; }
@@ -2685,11 +2724,9 @@ body.blog .title-wrapper .underline1 {
     font-weight: 600;
     background: pink;
     color: #FFFFFF; }
-<<<<<<< HEAD
-=======
   .blog-page .blog-text .blog-video button.read-more:nth-type(3) {
+    display: none;
     display: none; }
->>>>>>> 077f7115c4eb4040c13880df6071d06c280c5d83
 
 /*--------------------------------------------------------------
 # 404 Not Found

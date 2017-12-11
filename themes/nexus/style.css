@@ -1397,19 +1397,14 @@ body.page-template-archive-nexus_program main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-width: 340px; }
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding-top: 40px; }
   @media all and (min-width: 750px) {
     .page-template-about .about-wrapper {
       padding-left: 74px;
@@ -1576,7 +1571,7 @@ body.page-template-archive-nexus_program main {
     position: relative;
     bottom: 40px; }
 
-.page-template-about .about-right img.path-img-right {
+.about-right img.path-img-right {
   height: 130px;
   position: relative;
   width: 55%;
@@ -1585,7 +1580,7 @@ body.page-template-archive-nexus_program main {
   bottom: 60px;
   min-width: 140px; }
 
-.page-template-about .about-left img.path-img-left {
+.about-left img.path-img-left {
   height: 130px;
   min-width: 140px;
   width: 55%;
@@ -1593,16 +1588,6 @@ body.page-template-archive-nexus_program main {
   left: 80px;
   z-index: 1;
   bottom: 60px; }
-
-.page-template-about .path-ball {
-  display: none; }
-  @media all and (min-width: 750px) {
-    .page-template-about .path-ball {
-      height: 30px;
-      width: 30px;
-      position: relative;
-      left: 330px;
-      display: block; } }
 
 /*--------------------------------------------------------------
 # Footer
@@ -2040,7 +2025,7 @@ div.widget_info_contain a {
   height: 1590px; }
   @media all and (min-width: 550px) {
     .page-template-taxonomy-nexus_faq .faq-wrapper {
-      height: 2960px; } }
+      height: 2720px; } }
   .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
     width: 49px;
     border-bottom: 3px solid #FF8A2A;

@@ -1670,7 +1670,7 @@ div.widget_info_contain a {
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
-@media screen and (max-width: 824px) {
+@media screen and (max-width: 550px) {
   div.footer__site-info.hidden {
     display: none; }
   div.footer__why-nexus {
@@ -1777,11 +1777,135 @@ div.widget_info_contain a {
     width: 49px;
     border-bottom: 3px solid #ff8a2a; } }
 
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Mobile MEDIA BREAK  ****************************/
+@media screen and (max-width: 1019px) and (min-width: 551px) {
+  div.footer__site-info.hidden {
+    display: none; }
+  div.footer__why-nexus {
+    display: none; }
+  .widget_fa {
+    display: none; }
+  div.widget-fa {
+    height: 10px; }
+  div.footer__social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    max-height: 400px; }
+  div.footer__contact h2 {
+    text-align: left; }
+  .widget-info-contain p {
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
+  .widget-info-contain a {
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
+  .footer__social-media-container,
+  .footer__contact {
+    color: #FFFFFF; }
+    .footer__social-media-container h2,
+    .footer__contact h2 {
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      color: #FFFFFF;
+      text-align: left;
+      margin-bottom: 0; }
+  div.footer__social-media-container,
+  section.footer_contact_info {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .footer__social-media-container,
+  section.footer_contact_info {
+    width: 200px; }
+  div.socialmedia-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 3.5rem; }
+    div.socialmedia-container img {
+      height: 45px;
+      width: 45px;
+      padding: 0 0px 0 0px;
+      margin: 0 7px; }
+  .underline.footer {
+    padding-top: 10px;
+    width: 49px;
+    border-bottom: 3px solid #ff8a2a; } }
+
+/**************  NAV FOOTER MEDIA BREAK  ****************************/
+/**************  NAV FOOTER MEDIA BREAK  ****************************/
+/**************  NAV FOOTER MEDIA BREAK  ****************************/
+/**************  NAV FOOTER MEDIA BREAK  ****************************/
+@media screen and (min-width: 750px) {
+  div.footer__site-info.hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-width: 551px;
+    height: 61px;
+    background-color: #122E3F; }
+  div.footer__desktop--nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    padding-right: 3rem; }
+    div.footer__desktop--nav ul.footer_desktop--nav--ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+  .footer--nav--li {
+    padding-left: 1rem; }
+  div.footer_hidden_anchor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    padding-left: 3rem; } }
+
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 1020px) {
   div.footer__site-info.hidden {
     display: show; }
   div.footer__why-nexus {
@@ -1852,7 +1976,7 @@ div.widget_info_contain a {
   .footer__why-nexus {
     text-align: left;
     margin-left: 5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: #FFFFFF; }
     .footer__why-nexus h2 {
       text-align: left; }
@@ -1876,10 +2000,10 @@ div.widget_info_contain a {
       text-align: left;
       margin-bottom: 0; }
   div.footer__social-media-container {
-    margin-top: 4rem; }
+    margin-top: 2rem; }
   section.footer_contact_info {
     margin-right: 5rem;
-    margin-top: 4rem; }
+    margin-top: 2rem; }
   .footer__why-nexus,
   .footer__social-media-container,
   section.footer_contact_info {
@@ -3030,4 +3154,4 @@ div.return-home {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px 0 30px 0; }
+  padding: 30px 0 30px 0; }

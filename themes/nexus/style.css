@@ -2311,6 +2311,9 @@ nav.main-navigation:hover {
   text-align: center;
   margin: 0 auto;
   max-width: 150px; }
+  @media all and (min-width: 550px) {
+    .page-template-archive-nexus_program .program-container {
+      max-width: 320px; } }
 
 .page-template-archive-nexus_program .program-content {
   background-image: url("../../assets/images/photo_study@3x.png");

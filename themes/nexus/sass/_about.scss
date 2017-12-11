@@ -2,8 +2,12 @@
 
 // Hero
   .hero-wrapper {
-    padding-top: 65px;
+     width: 100vw;
+      @media #{$desktop} {
+        padding-top: 65px;
+      }
     h1 {
+     
       text-align: center;
       color: $color__footer-background;
       font-size: 30px;
@@ -11,12 +15,14 @@
       font-weight: 900;
       position: relative;
       top: 50px;
+     
     }
     .hero-image {
-    height: 139px;
-    width: 100vw;
-    background-image: url("../../assets/images/blog@3x.png");
-    background-size: 100% 100%;
+      height: 50vh;
+      width: 100vw;
+      min-width: 350px;
+      background-image: url("../../assets/images/blog@3x.png");
+      background-size: cover;
     }
     .underline {
       margin: 0 auto;

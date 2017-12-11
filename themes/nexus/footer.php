@@ -33,7 +33,7 @@
       <div class="footer__contact">
 				<h2>Contact Us</h2>
 				<div class="underline footer"></div>
-        <div class="widget_info_contain">
+        <div class="widget_info_contain one">
           <div class="widget_fa"><i class="fa fa-map-marker hide-here" aria-hidden="true"></i></div>
           <p>119-970 Burrard St.<br>Vancouver, BC V6Z 2R4</p>
 				</div> <!-- widget_info_contain -->

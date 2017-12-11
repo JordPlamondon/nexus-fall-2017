@@ -966,7 +966,6 @@ a {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-<<<<<<< HEAD
             flex-direction: column; }
     .home .site-main .student-review__box .student-review__info {
       width: 100%;
@@ -993,54 +992,6 @@ a {
         position: absolute;
         bottom: -4rem;
         right: 1rem; }
-=======
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto; }
-    .home .site-main .student-review h2, .home .site-main .student-review p {
-      width: 80%;
-      margin: 0 auto; }
-    .home .site-main .student-review__box {
-      width: 80%;
-      margin: 0 auto;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; }
-      .home .site-main .student-review__box .student-review__info {
-        width: 100%;
-        padding: 39px 30px 22px 48px;
-        font-weight: bold;
-        font-size: 5vw;
-        background: #F3F5F8;
-        position: relative; }
-        .home .site-main .student-review__box .student-review__info::before {
-          content: "\201C";
-          color: #FFBC4A;
-          font-size: 30vw;
-          font-weight: normal;
-          font-family: "Raleway", Arial, Helvetica, sans-serif;
-          position: absolute;
-          left: 1rem;
-          top: -1rem; }
-        .home .site-main .student-review__box .student-review__info::after {
-          content: '\201D';
-          color: #FFBC4A;
-          font-size: 30vw;
-          font-weight: normal;
-          font-family: "Raleway", Arial, Helvetica, sans-serif;
-          position: absolute;
-          bottom: -4rem;
-          right: 1rem; }
->>>>>>> 69af0e61b3251b1454672a347e2b353d74292771
   .home .site-main .start-journey {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1733,6 +1684,8 @@ div.widget_info_contain a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+  div.widget_info_contain.one {
+    margin-top: 1rem; }
   div.widget_info_contain a,
   div.widget_info_contain p,
   p.footer__office--hours {
@@ -1747,7 +1700,7 @@ div.widget_info_contain a {
         -ms-flex-direction: row;
             flex-direction: row;
     width: 250px;
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem; }
     div.widget_info_contain a {
       text-decoration: none;
       color: #FFFFFF; }
@@ -1847,7 +1800,7 @@ div.widget_info_contain a {
       margin: 0 7px; }
   .underline.footer {
     padding-top: 10px;
-    width: 49px;
+    width: 75px;
     border-bottom: 3px solid #ff8a2a; } }
 
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
@@ -2031,7 +1984,7 @@ div.widget_info_contain a {
       margin: 0 7px; }
   .underline.footer {
     padding-top: 10px;
-    width: 49px;
+    width: 99px;
     border-bottom: 3px solid #ff8a2a; } }
 
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
@@ -3104,14 +3057,11 @@ body.blog .title-wrapper .underline1 {
     font-weight: 600;
     background-color: #E91C35;
     color: #FFFFFF; }
-<<<<<<< HEAD
+    .blog-page .blog-text button.read-more:hover {
+      background: #bf1328; }
   .blog-page .blog-text .blog-video button.read-more:nth-type(3) {
     display: none;
     display: none; }
-=======
-    .blog-page .blog-text button.read-more:hover {
-      background: #bf1328; }
->>>>>>> 69af0e61b3251b1454672a347e2b353d74292771
 
 /*--------------------------------------------------------------
 # 404 Not Found

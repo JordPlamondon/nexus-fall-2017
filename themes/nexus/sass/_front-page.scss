@@ -108,10 +108,10 @@
       flex-direction: column;
       align-items: center;
       background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)), url('../../assets/images/whynexus.png');
-      background-position-y: center, bottom;
+      background-position-y: top, bottom;
       background-position-x: left, left;
       background-repeat: no-repeat;
-      background-size: 100% 50%, 100% 50%;
+      background-size: 100% 75%, 100% 50%;
       @media #{$desktop} {
         justify-content: space-around;
         align-items: flex-start;
@@ -121,6 +121,21 @@
         background-size: 55% 50%,50% 50%;
       }
 
+      h2 {
+        width: 80%;
+        margin: 0 auto;
+        @media #{$desktop} {
+          margin: 0;
+          width: 50%;
+        }
+      }
+      
+      .headergroup {
+        width: 100%;
+        line-height: 3rem;
+        margin: 0 auto 3rem auto;
+      }
+
       &__header {
         font-family: $font__main; 
         @media #{$desktop} {
@@ -128,19 +143,20 @@
         }
       }
 
-      .underline {
-        @media #{$desktop} {
-          position: relative;
-          bottom: 5rem; 
-        }
-      }
-
-      h2, p {
+      &__info {   
         width: 80%;
-        margin: 0 auto;
+        margin: 10px auto 0 auto;
         @media #{$desktop} {
           margin: 0;
           width: 50%;
+        }
+      }
+      
+
+      .underline {
+        margin: 0 auto;
+        @media #{$desktop} {
+          margin: 0;
         }
       }
 
@@ -154,6 +170,9 @@
         text-shadow: none;
         background: $color__icon-element;
         color: $color__text-white;
+        font-family: $font__main;
+        font-weight: 900;
+        font-size: 18px;
       }
 
     }
@@ -174,6 +193,11 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+
+        h2 {
+          text-align: left;
+        }
+
         &__info-wrapper {
           
         }
@@ -195,9 +219,17 @@
 
 
     .browse-programs {
-      @include front-page-section-block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
       @media #{$desktop} {
         display: none;
+      }
+
+      .underline {
+        margin: 0 auto; 
       }
 
       &__subheading {
@@ -208,6 +240,9 @@
         background: $color__textbox-background;
       }
     }
+
+
+
 
     .choose-province-wrapper {
       display: none;
@@ -229,6 +264,11 @@
           font-family: $font__main;
           font-weight: bold;
         }
+
+        .underline {
+          margin: 0 auto; 
+        }
+
         button {
           width: 135px;
           height: 40px;
@@ -246,7 +286,18 @@
 
 
     .student-review {
-      @include front-page-section-block;
+
+      .headergroup {
+        line-height: 3rem;
+      }
+
+      .underline {
+        margin: 0 auto 3rem auto;
+      }
+
+      .owl-nav {
+        display: none;
+      }
 
       &__box {
         width: 80%;
@@ -254,13 +305,11 @@
         display: flex;
         flex-direction: column;
         
-        
-
         .student-review__info {
           width: 100%;
           padding: 39px 30px 22px 48px;
           font-weight: bold;
-          font-size: 5vw;
+          font-size: 4vw;
           background: $color__textbox-background;
           position: relative;
 
@@ -290,10 +339,21 @@
     }
 
     .start-journey {
-      @include front-page-section-block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       height: auto;
       padding: 1rem 0;
       background: $color__textbox-background;
+
+      .headergroup{
+        line-height: 3rem;
+      }
+
+      .underline {
+        margin: 0 auto 1rem auto;
+      }
 
       &__header {
         text-transform: uppercase;
@@ -305,12 +365,11 @@
         font-weight: 600;
         font-style: italic;
         color: $color__text-accent;
-        width: 80%;
       }
 
       button {
-        margin-top: 3rem;
-        width: 135px;
+        margin-top: 2rem;
+        width: 160px;
         height: 40px;
         padding: 0;
         border-radius: 25px 0px 25px 0px;
@@ -318,6 +377,9 @@
         text-shadow: none;
         background: $color__icon-element;
         color: $color__text-white;
+        font-family: $font__main;
+        font-weight: 900;
+        font-size: 18px;
       }
       
     }

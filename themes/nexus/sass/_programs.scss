@@ -1,3 +1,4 @@
+// Archives
 .page-template-archive-nexus_program {
 
  .hero-wrapper {
@@ -160,6 +161,27 @@
       font-size: 18px;
       background: $color__icon-element;
       color: $color__background-white;
+    }
+  }
+}
+
+// Single Program
+
+.single-nexus_program {
+  .single-program-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .program-meta {
+    text-align: center;
+    background-color: $color__info-main;
+    width: 100vw;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    p {
+      flex-basis: 30%;
     }
   }
 }

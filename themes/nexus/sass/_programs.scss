@@ -42,14 +42,13 @@
   display: none;
 }
 .search-results {
-  background-color: #e0ffff;
   font-size: 18px;
   display: flex;
   justify-content: space-between;
 }
 
 .selectric-wrapper, .program-title {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 .select-searched {
@@ -97,6 +96,9 @@
   background-position: bottom;
   height: 100vh;
   min-height: 600px;
+  @media #{$desktop} {
+    background-image: url("../../assets/images/program-background-image.png");
+  }
 
   .want-in {
     text-align: center;
@@ -127,10 +129,13 @@
     text-transform: uppercase;
     color: $color__footer-background;
     text-align: center;
-    padding-top: 15px;
     margin-bottom: 34px;
     @media #{$desktop} {
       text-align: left;
+      font-size: 4rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: $color__text-main;
     }
   }
 

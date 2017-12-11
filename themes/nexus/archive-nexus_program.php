@@ -35,7 +35,7 @@ get_header(); ?>
 						endif;
 					?>
 
-						<h2 class="want-in program-title"> In </h2>
+						<h2 class="program-title"> In </h2>
 
 						<?php
 						if( $terms = get_terms( array(

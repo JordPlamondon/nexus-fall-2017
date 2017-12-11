@@ -28,7 +28,7 @@
           article += '<div class="program-link"><a href="' + link + '">'
           article += '<div class="program-image"><img src="' + image + '"></div>'
           article += '<div class="program-school">' + school + '</div>'; 
-          article += '<div class="program-title">' + title + '</div>';
+          article += '<div class="program-name">' + title + '</div>';
           for (var program in programType){
             article += '<div class ="program-type">' + programType[program] + '</div>'
           }
@@ -70,11 +70,16 @@
   var submitted = false;
   $('.program-filter-submit').on('click', function (event){
     event.preventDefault();
-    submitted = true;
+    
     $('.search-results').empty();
     var request = requestFilter();
-    ajaxGet(request);
-    styleChange();
+    if (request !== undefined) {
+      ajaxGet(request);
+      styleChange();
+      submitted = true;
+    }
+    console.log(request);
+    
   });
 
   $('select').on('change', function() {

@@ -2205,8 +2205,7 @@ nav.main-navigation:hover {
   visibility: hidden; }
   @media all and (min-width: 550px) {
     .page-template-archive-nexus_program .hero-wrapper {
-      visibility: visible;
-      padding-top: 65px; }
+      visibility: visible; }
       .page-template-archive-nexus_program .hero-wrapper h1 {
         text-align: center;
         color: #15405A;
@@ -2236,7 +2235,13 @@ nav.main-navigation:hover {
   font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.page-template-archive-nexus_program .selectric-wrapper, .page-template-archive-nexus_program .program-title {
+  margin-right: 1rem; }
 
 .page-template-archive-nexus_program .select-searched {
   max-width: 125px; }
@@ -2262,7 +2267,9 @@ nav.main-navigation:hover {
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row;
-      jusitfy-content: flex-start;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
       max-width: 750px;
       padding-left: 60px; } }
 
@@ -2275,17 +2282,43 @@ nav.main-navigation:hover {
 .page-template-archive-nexus_program .program {
   color: #E00029; }
 
+.page-template-archive-nexus_program .program-container {
+  width: 350px;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px; }
+
 .page-template-archive-nexus_program .program-content {
   background-image: url("../../assets/images/photo_study@2x.png");
   background-size: cover;
   background-position: bottom;
   height: 100vh;
   min-height: 600px; }
+  @media all and (min-width: 550px) {
+    .page-template-archive-nexus_program .program-content {
+      background-image: url("../../assets/images/photo_study@3x.png"); } }
   .page-template-archive-nexus_program .program-content .want-in {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 34px;
     color: #898989; }
+
+.page-template-archive-nexus_program .program-image {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15vw; }
+  .page-template-archive-nexus_program .program-image img {
+    max-width: none;
+    width: auto; }
 
 @media all and (min-width: 550px) {
   .page-template-archive-nexus_program .program-title-wrapper {
@@ -2296,7 +2329,7 @@ nav.main-navigation:hover {
   text-transform: uppercase;
   color: #15405A;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
   margin-bottom: 34px; }
   @media all and (min-width: 550px) {
     .page-template-archive-nexus_program .program-title {

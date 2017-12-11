@@ -4,7 +4,6 @@
   visibility: hidden;
   @media #{$desktop} {
     visibility: visible;
-    padding-top: 65px;
     h1 {
       text-align: center;
       color: $color__footer-background;
@@ -37,6 +36,11 @@
   background-color: #e0ffff;
   font-size: 18px;
   display: flex;
+  justify-content: space-between;
+}
+
+.selectric-wrapper, .program-title {
+  margin-right: 1rem;
 }
 
 .select-searched {
@@ -51,7 +55,7 @@
   align-items: center;
   @media #{$desktop} {
     flex-direction: row;
-    jusitfy-content: flex-start;
+    justify-content: flex-start;
     max-width: 750px;
     padding-left: 60px;
   }
@@ -64,12 +68,23 @@
 .program {
   color: $color__text-accent;
 }
+
+.program-container {
+  width: 350px;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
+}
 .program-content {
   background-image: url("../../assets/images/photo_study@2x.png");
   background-size: cover;
   background-position: bottom;
   height: 100vh;
   min-height: 600px;
+  @media #{$desktop} {
+    background-image: url("../../assets/images/photo_study@3x.png")
+  }
   .want-in {
     text-align: center;
     text-transform: uppercase;
@@ -77,6 +92,18 @@
     color: $color__text-quoteform;
   }
 }
+
+  .program-image{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    img{
+      max-width: none;
+      width: auto;
+    }
+  }
 
   .program-title-wrapper {
       @media #{$desktop} {
@@ -87,7 +114,7 @@
     text-transform: uppercase;
     color: $color__footer-background;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 15px;
     margin-bottom: 34px;
     @media #{$desktop} {
       text-align: left;

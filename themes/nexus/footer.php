@@ -69,6 +69,7 @@
 						<li class="footer--nav--li"><a href="<?php echo home_url() ?>/advice/" target="_blank">FAQ</a></li>
 						<li class="footer--nav--li"><a href="<?php echo home_url() ?>/contact/" target="_blank">Contact</a></li>
 						<li class="footer--nav--li"><a href="<?php echo home_url() ?>/blog/" target="_blank">Blog</a></li>
+					</ul> <!--footer_desktop--nav--ul-->
       </div> <!--footer__desktop--nav-->
     </div> <!--footer__site-info hidden-->
   </div>  <!--footer_hidden--container-->

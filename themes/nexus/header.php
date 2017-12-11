@@ -40,7 +40,7 @@
 
 				<div class="menu-content">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?><br>
-						<button class="consult">Book Consult</button>
+						<button class="book-consult">Book Consult</button>
 				</div>
 
 			</header><!-- #masthead -->

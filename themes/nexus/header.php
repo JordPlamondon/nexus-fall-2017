@@ -2,7 +2,7 @@
 /**
  * The header for our theme.
  *
- * @package RED_Starter_Theme
+ * @package nexus_Theme
  */
 
 ?><!DOCTYPE html>
@@ -32,7 +32,7 @@
 
 <div class="full-screen-links">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-					<button class="consult">Book Consult</button>
+					<button class="book-consult">Book Consult</button>	
 </div>
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 
@@ -40,7 +40,7 @@
 
 				<div class="menu-content">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?><br>
-						<button class="consult">Book Consult</button>
+						<button class="book-consult">Book Consult</button>
 				</div>
 
 			</header><!-- #masthead -->

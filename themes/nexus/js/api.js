@@ -13,6 +13,7 @@
         for (var i = 0; i < data.length; i++){
           
           // Construct an article from each returned Object
+          console.log(data)
           var post = data[i];
           var image = '';
           var school = post['_nexus_program_school'];
@@ -28,7 +29,7 @@
           article += '<div class="program-link"><a href="' + link + '">'
           article += '<div class="program-image"><img src="' + image + '"></div>'
           article += '<div class="program-school">' + school + '</div>'; 
-          article += '<div class="program-title">' + title + '</div>';
+          article += '<div class="program-name">' + title + '</div>';
           for (var program in programType){
             article += '<div class ="program-type">' + programType[program] + '</div>'
           }
@@ -63,18 +64,22 @@
     $('.selectric-wrapper').addClass('select-searched');
     $('.select-form-wrapper').addClass('select-form-wrapper-searched');
     $('.program-content').css({
-      'background-image': 'none'
+      'background-image': 'none',
+      'min-height': 'none'
     });
   }
 
   var submitted = false;
   $('.program-filter-submit').on('click', function (event){
     event.preventDefault();
-    submitted = true;
     $('.search-results').empty();
     var request = requestFilter();
-    ajaxGet(request);
-    styleChange();
+    if (request !== undefined) {
+      ajaxGet(request);
+      styleChange();
+      submitted = true;
+    }
+    console.log(request);
   });
 
   $('select').on('change', function() {

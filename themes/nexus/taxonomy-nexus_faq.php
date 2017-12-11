@@ -2,7 +2,7 @@
 /**
  * 
  * Template Name: FAQ
- * @package RED_Starter_Theme
+ * @package nexus_Theme
  */
 
 get_header(); ?>

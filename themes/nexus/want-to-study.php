@@ -3,7 +3,7 @@
  * The template for displaying all pages.
  * Template Name: Want to Study
  * 
- * @package RED_Starter_Theme
+ * @package nexus_Theme
  */
 get_header(); ?>
 

@@ -47,7 +47,15 @@
 
       $(this).parent().next().slideToggle();
       return false;
-      })
-    });
+    })
+  });
+  
+  //single-nexus_faq return to top button
+  $('.return-to-top-button').click(function() {      
+    $('body,html').animate({
+        scrollTop : 0                     
+    }, 500);
+  }); 
+  
 
-  })(jQuery);
+})(jQuery);

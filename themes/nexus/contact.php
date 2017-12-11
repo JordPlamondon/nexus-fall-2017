@@ -17,6 +17,7 @@ get_header(); ?>
           <div class="underline"></div>
         </div>
       </div>
+<div class="desktop-wrapper">
 
 <div class="contact-form">
 <?php while ( have_posts() ) : the_post(); ?>
@@ -24,7 +25,13 @@ get_header(); ?>
             <div class="underline"></div>
             <div class="contact-content">	<?php get_template_part( 'template-parts/content', 'page' ); ?>
             <?php endwhile;  ?>
+            <div class="desktop-contact-display">
 </div>
+</div>
+<div class="desktop-contact-info">
+</div>
+</div>
+
 
 
 

@@ -48,6 +48,11 @@ div.banner-faq-single {
     justify-content: space-between;
     flex-direction: row-reverse;
     margin-top: 20px;
+    &:hover {
+      transition: box-shadow .2s;
+      box-shadow: 1px 1px 5px 1px #d3d3d3;
+      opacity: 1;
+    }
     .faq-meta-title {
       margin: 15px;
       font-weight: 600;

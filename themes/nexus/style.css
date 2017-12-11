@@ -1922,6 +1922,14 @@ div.banner-faq-single {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   margin-top: 20px; }
+  .nexus_faq-template-default .faq-homestay:hover {
+    -webkit-transition: -webkit-box-shadow .2s;
+    transition: -webkit-box-shadow .2s;
+    transition: box-shadow .2s;
+    transition: box-shadow .2s, -webkit-box-shadow .2s;
+    -webkit-box-shadow: 1px 1px 5px 1px #d3d3d3;
+            box-shadow: 1px 1px 5px 1px #d3d3d3;
+    opacity: 1; }
   .nexus_faq-template-default .faq-homestay .faq-meta-title {
     margin: 15px;
     font-weight: 600; }

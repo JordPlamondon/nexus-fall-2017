@@ -13,6 +13,7 @@
         for (var i = 0; i < data.length; i++){
           
           // Construct an article from each returned Object
+          console.log(data)
           var post = data[i];
           var image = '';
           var school = post['_nexus_program_school'];
@@ -63,14 +64,14 @@
     $('.selectric-wrapper').addClass('select-searched');
     $('.select-form-wrapper').addClass('select-form-wrapper-searched');
     $('.program-content').css({
-      'background-image': 'none'
+      'background-image': 'none',
+      'min-height': 'none'
     });
   }
 
   var submitted = false;
   $('.program-filter-submit').on('click', function (event){
     event.preventDefault();
-    
     $('.search-results').empty();
     var request = requestFilter();
     if (request !== undefined) {
@@ -79,7 +80,6 @@
       submitted = true;
     }
     console.log(request);
-    
   });
 
   $('select').on('change', function() {

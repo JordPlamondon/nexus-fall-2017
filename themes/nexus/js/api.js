@@ -90,6 +90,7 @@
         return true;
       }
       ajaxGet(request);
+      styleChange();
     }
   })
 

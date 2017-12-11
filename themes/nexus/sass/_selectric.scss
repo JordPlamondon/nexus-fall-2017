@@ -5,10 +5,12 @@
 .selectric-wrapper {
   position: relative;
   cursor: pointer;
-  width: 70%;
+  width: 270px;
   @media #{$desktop} {
+    padding: 15px 0;
     width: 40%;
     max-width: 370px;
+    height: 65px;
   }
 }
 
@@ -31,7 +33,7 @@
   font-size: 12px;
   font-family: $font__accent;
   font-weight: bold;
-  line-height: 38px;
+  line-height: 2rem;
   color: $color__text-main;
   height: 38px;
   @media #{$desktop} {

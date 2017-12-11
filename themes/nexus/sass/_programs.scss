@@ -48,7 +48,7 @@
 }
 
 .selectric-wrapper, .program-title {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 .select-searched {
@@ -129,10 +129,13 @@
     text-transform: uppercase;
     color: $color__footer-background;
     text-align: center;
-    padding-top: 15px;
     margin-bottom: 34px;
     @media #{$desktop} {
       text-align: left;
+      font-size: 4rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: $color__text-main;
     }
   }
 

@@ -125,6 +125,14 @@ div.banner-faq-single {
       position: relative;
       bottom: 14px;
     }
+    .button-faq-title {
+      position: relative;
+      bottom: 3px;
+      color: $color__text-white;
+    }
+    a {
+      text-decoration: none;
+    }
   }
   button.return-to-top-button {
     background-color: rgb(172, 25, 44);

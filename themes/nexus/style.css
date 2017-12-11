@@ -1351,12 +1351,11 @@ body.page-template-archive-nexus_program main {
     .page-template-about img.about-img {
       width: 40%;
       height: 30vw;
-      min-height: 190px;
+      min-height: 240px;
       max-height: 260px;
       max-width: 260px; } }
 
 .page-template-about .about-wrapper {
-  background-color: peachpuff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1375,7 +1374,8 @@ body.page-template-archive-nexus_program main {
   min-width: 340px; }
   @media all and (min-width: 750px) {
     .page-template-about .about-wrapper {
-      padding-left: 74px; } }
+      padding-left: 74px;
+      background-color: #F3F5F8; } }
   .page-template-about .about-wrapper .about-left {
     height: 264px;
     background-color: #F3F5F8;
@@ -1394,7 +1394,8 @@ body.page-template-archive-nexus_program main {
       .page-template-about .about-wrapper .about-left {
         width: 70vw;
         height: 344px;
-        margin: 0 auto; } }
+        margin: 0 auto;
+        padding-left: 10%; } }
     .page-template-about .about-wrapper .about-left .about-titles {
       font-size: 21px;
       font-weight: bold;
@@ -1433,7 +1434,8 @@ body.page-template-archive-nexus_program main {
       .page-template-about .about-wrapper .about-right {
         width: 70vw;
         height: 344px;
-        margin: 0 auto; } }
+        margin: 0 auto;
+        padding-left: 10%; } }
     .page-template-about .about-wrapper .about-right .about-titles {
       font-size: 21px;
       font-weight: bold;
@@ -1542,15 +1544,27 @@ body.page-template-archive-nexus_program main {
   width: 55%;
   left: 90px;
   z-index: 1;
-  bottom: 60px; }
+  bottom: 60px;
+  min-width: 140px; }
 
 .page-template-about .about-left img.path-img-left {
   height: 130px;
+  min-width: 140px;
   width: 55%;
   position: relative;
   left: 80px;
   z-index: 1;
   bottom: 60px; }
+
+.page-template-about .path-ball {
+  display: none; }
+  @media all and (min-width: 750px) {
+    .page-template-about .path-ball {
+      height: 30px;
+      width: 30px;
+      position: relative;
+      left: 330px;
+      display: block; } }
 
 /*--------------------------------------------------------------
 # Footer
@@ -2137,7 +2151,8 @@ nav.main-navigation {
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
-  z-index: 30; }
+  z-index: 30;
+  top: 0px; }
   @media all and (min-width: 750px) {
     nav.main-navigation {
       padding-bottom: 14px;
@@ -2446,11 +2461,36 @@ nav.main-navigation:hover {
 .page-template-contact h1.entry-title {
   display: none; }
 
+.page-template-contact .desktop-contact-display {
+  display: none; }
+  @media all and (min-width: 750px) {
+    .page-template-contact .desktop-contact-display {
+      display: block;
+      height: 695px;
+      width: 435px;
+      background-color: #FFC54C;
+      position: relative;
+      bottom: 720px;
+      left: 80%; } }
+
 .page-template-contact .contact-form {
   padding-top: 24px;
   background-color: #F3F5F8; }
+  @media all and (min-width: 750px) {
+    .page-template-contact .contact-form {
+      width: 860px;
+      height: 1000px;
+      margin-left: 70px;
+      margin-top: 64px; } }
+  @media all and (min-width: 750px) {
+    .page-template-contact .contact-form .wpcf7-form {
+      position: relative;
+      right: 200px;
+      bottom: 12px; } }
   .page-template-contact .contact-form .wpcf7-form-control {
     height: 44px; }
+  .page-template-contact .contact-form .wpcf7-textarea {
+    height: 300px; }
   .page-template-contact .contact-form .wpcf7-submit {
     letter-spacing: 1pt;
     width: 175px;
@@ -2463,14 +2503,19 @@ nav.main-navigation:hover {
     font-size: 18px;
     background: #E91C35;
     color: #FFFFFF;
-    position: relative;
-    bottom: 40px; }
+    margin-left: 25%; }
   .page-template-contact .contact-form h2.title {
     margin-top: 0;
     text-align: center;
     color: #15405A;
     font-size: 24px;
     font-weight: bold; }
+    @media all and (min-width: 750px) {
+      .page-template-contact .contact-form h2.title {
+        width: 300px;
+        margin-left: 62px;
+        font-size: 50px;
+        text-align: left; } }
   .page-template-contact .contact-form .contact-content {
     margin: 0 auto;
     max-width: 345px;
@@ -2482,6 +2527,11 @@ nav.main-navigation:hover {
     border-bottom: 3px solid #FF8A2A;
     position: relative;
     bottom: 20px; }
+    @media all and (min-width: 750px) {
+      .page-template-contact .contact-form .underline {
+        right: 310px;
+        bottom: 34px;
+        width: 109px; } }
 
 .page-template-contact .hero-wrapper {
   padding-top: 65px; }

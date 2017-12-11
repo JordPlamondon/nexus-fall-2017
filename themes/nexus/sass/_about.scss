@@ -6,9 +6,7 @@
       @media #{$desktop} {
         padding-top: 65px;
       }
-
-    h1 {
-     
+    h1 {   
       text-align: center;
       color: $color__footer-background;
       font-size: 30px;
@@ -16,26 +14,14 @@
       font-weight: 900;
       position: relative;
       top: 50px;
-     
     }
-
     .hero-image {
-<<<<<<< HEAD
-    height: 139px;
-    width: 100vw;
-    min-width: 350px;
-    margin: 0;
-    background-image: url("../../assets/images/blog@3x.png");
-    background-size: 100% 100%;
-=======
       height: 50vh;
       width: 100vw;
       min-width: 350px;
       background-image: url("../../assets/images/blog@3x.png");
       background-size: cover;
->>>>>>> 72afc014cf22524318ba32b72004c4a480e6d08d
     }
-
     .underline {
       margin: 0 auto;
       width: 49px;
@@ -113,13 +99,12 @@
     @media #{$tablet} {
       width: 40%;
       height: 30vw;
-      min-height: 190px;
+      min-height: 240px;
       max-height: 260px;
       max-width: 260px;
     }
   }
   .about-wrapper {
-      background-color: peachpuff;
       display: flex;
       flex-wrap: nowrap;
       flex-direction: column;
@@ -128,6 +113,7 @@
       min-width: 340px;
       @media #{$tablet} {
       padding-left: 74px;
+      background-color:$color__textbox-background;
       }
     .about-left {
         height: 264px;
@@ -141,6 +127,7 @@
           width: 70vw;
           height: 344px;
           margin: 0 auto;
+          padding-left: 10%;
         }
         .about-titles {
           font-size: 21px;
@@ -178,6 +165,7 @@
         width: 70vw;
         height: 344px;
         margin: 0 auto;
+        padding-left: 10%;
       }
         .about-titles {
           font-size: 21px;
@@ -304,11 +292,13 @@
   left: 90px;
   z-index: 1;
   bottom: 60px;
+  min-width: 140px;
 }
  }
  .about-left {
   img.path-img-left {
     height: 130px;
+    min-width: 140px;
     width: 55%;
     position: relative;
     left: 80px;
@@ -316,4 +306,13 @@
     bottom: 60px;
   }
 }
+.path-ball {
+  display: none;
+  @media #{$tablet} {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 330px;
+    display: block;
+}}
   }

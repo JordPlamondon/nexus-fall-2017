@@ -2003,6 +2003,12 @@ div.banner-faq-single {
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p, .faq-single-homestay .homestay-button-wrapper .return-to-top-button p {
       position: relative;
       bottom: 14px; }
+    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button .button-faq-title, .faq-single-homestay .homestay-button-wrapper .return-to-top-button .button-faq-title {
+      position: relative;
+      bottom: 3px;
+      color: #FFFFFF; }
+    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
+      text-decoration: none; }
   .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
     background-color: #ac192c; }
 
@@ -2779,6 +2785,8 @@ body.blog .title-wrapper .underline1 {
   .blog-page li:nth-of-type(1) {
     padding-top: 50px;
     font-size: 11px; }
+    .blog-page li:nth-of-type(1) h2 {
+      text-align: center; }
     .blog-page li:nth-of-type(1) iframe {
       height: 226px; }
   .blog-page li:nth-of-type(n+2):nth-of-type(-n+3) {

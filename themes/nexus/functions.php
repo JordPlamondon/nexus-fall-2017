@@ -144,3 +144,18 @@ function plugin_myContentFilter($content)
 	return ($content);
 }
 
+add_filter('pre_get_posts', 'per_category_basis');
+function per_category_basis($query){
+    if ($query->is_category) {
+        // category named 'videos' show 3 posts
+        if (is_category('videos')){
+            $query->set('posts_per_page', 3);
+        }
+        // category named 'blogs' show only 3 posts
+        if (is_category('blogs')){
+            $query->set('posts_per_page', 3);
+        }
+    }
+    return $query;
+}
+

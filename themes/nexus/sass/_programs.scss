@@ -1,9 +1,11 @@
 .page-template-archive-nexus_program {
 
-.hero-wrapper {
-  visibility: hidden;
-  @media #{$desktop} {
-    visibility: visible;
+  .hero-wrapper {
+    visibility: hidden;
+    @media #{$desktop} {
+      visibility: visible;
+    }
+  
     h1 {
       text-align: center;
       color: $color__footer-background;
@@ -27,6 +29,13 @@
       position: relative;
       bottom: 24px;
     }
+  }
+
+
+.site-main{
+  padding-top: 0;
+  @media #{$desktop} {
+    padding-top: 65px;
   }
 }
 .hidden { 
@@ -70,11 +79,10 @@
 }
 
 .program-container {
-  width: 350px;
   border: 1px solid #000;
   text-align: center;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 150px;
 }
 .program-content {
   background-image: url("../../assets/images/photo_study@2x.png");
@@ -126,26 +134,26 @@
       flex-basis: 100%;
     }
   }
-  .contact-want-to:nth-child(1) {
-    height: 42px;
-    border-radius: 0px;
-    width: 70vw;
-    background-color: $color__textbox-background;
-    margin: 0 auto;
-    margin-bottom: 30px;
+  // .contact-want-to:nth-child(1) {
+  //   height: 42px;
+  //   border-radius: 0px;
+  //   width: 70vw;
+  //   background-color: $color__textbox-background;
+  //   margin: 0 auto;
+  //   margin-bottom: 30px;
   
-    select {
-      height: 42px;
-      border-radius: 0px;
-      width: 70vw;
-      background-color: $color__textbox-background;
-      margin: 0 auto;
-      margin-bottom: 30px;
-      }
-    .contact-want-to:nth-child(2) {
-      margin-bottom: 34px;
-    }
-  }
+  //   select {
+  //     height: 42px;
+  //     border-radius: 0px;
+  //     width: 70vw;
+  //     background-color: $color__textbox-background;
+  //     margin: 0 auto;
+  //     margin-bottom: 30px;
+  //     }
+  //   .contact-want-to:nth-child(2) {
+  //     margin-bottom: 34px;
+  //   }
+  // }
 
   .button-wrapper {
         width: 130px;

@@ -1267,7 +1267,10 @@ body.page-template-archive-nexus_program main {
   padding-top: 65px; }
 
 .page-template-about .hero-wrapper {
-  padding-top: 65px; }
+  width: 100vw; }
+  @media all and (min-width: 550px) {
+    .page-template-about .hero-wrapper {
+      padding-top: 65px; } }
   .page-template-about .hero-wrapper h1 {
     text-align: center;
     color: #15405A;
@@ -1277,10 +1280,11 @@ body.page-template-archive-nexus_program main {
     position: relative;
     top: 50px; }
   .page-template-about .hero-wrapper .hero-image {
-    height: 139px;
+    height: 50vh;
     width: 100vw;
+    min-width: 350px;
     background-image: url("../../assets/images/blog@3x.png");
-    background-size: 100% 100%; }
+    background-size: cover; }
   .page-template-about .hero-wrapper .underline {
     margin: 0 auto;
     width: 49px;
@@ -2219,27 +2223,33 @@ nav.main-navigation:hover {
   visibility: hidden; }
   @media all and (min-width: 550px) {
     .page-template-archive-nexus_program .hero-wrapper {
-      visibility: visible; }
-      .page-template-archive-nexus_program .hero-wrapper h1 {
-        text-align: center;
-        color: #15405A;
-        font-size: 30px;
-        text-transform: uppercase;
-        font-weight: 900;
-        position: relative;
-        top: 50px; }
-      .page-template-archive-nexus_program .hero-wrapper .hero-image {
-        height: 139px;
-        width: 100vw;
-        background-image: url("../../assets/images/blog@3x.png");
-        background-size: 100% 100%; }
-      .page-template-archive-nexus_program .hero-wrapper .underline {
-        margin: 0 auto;
-        width: 49px;
-        text-align: center;
-        border-bottom: 3px solid #FF8A2A;
-        position: relative;
-        bottom: 24px; } }
+      visibility: visible; } }
+  .page-template-archive-nexus_program .hero-wrapper h1 {
+    text-align: center;
+    color: #15405A;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    top: 50px; }
+  .page-template-archive-nexus_program .hero-wrapper .hero-image {
+    height: 139px;
+    width: 100vw;
+    background-image: url("../../assets/images/blog@3x.png");
+    background-size: 100% 100%; }
+  .page-template-archive-nexus_program .hero-wrapper .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 24px; }
+
+.page-template-archive-nexus_program .site-main {
+  padding-top: 0; }
+  @media all and (min-width: 550px) {
+    .page-template-archive-nexus_program .site-main {
+      padding-top: 65px; } }
 
 .page-template-archive-nexus_program .hidden {
   display: none; }
@@ -2297,11 +2307,10 @@ nav.main-navigation:hover {
   color: #E00029; }
 
 .page-template-archive-nexus_program .program-container {
-  width: 350px;
   border: 1px solid #000;
   text-align: center;
   margin: 0 auto;
-  max-width: 900px; }
+  max-width: 150px; }
 
 .page-template-archive-nexus_program .program-content {
   background-image: url("../../assets/images/photo_study@2x.png");
@@ -2353,23 +2362,6 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .button-wrapper {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; } }
-
-.page-template-archive-nexus_program .contact-want-to:nth-child(1) {
-  height: 42px;
-  border-radius: 0px;
-  width: 70vw;
-  background-color: #F3F5F8;
-  margin: 0 auto;
-  margin-bottom: 30px; }
-  .page-template-archive-nexus_program .contact-want-to:nth-child(1) select {
-    height: 42px;
-    border-radius: 0px;
-    width: 70vw;
-    background-color: #F3F5F8;
-    margin: 0 auto;
-    margin-bottom: 30px; }
-  .page-template-archive-nexus_program .contact-want-to:nth-child(1) .contact-want-to:nth-child(2) {
-    margin-bottom: 34px; }
 
 .page-template-archive-nexus_program .button-wrapper {
   width: 130px;

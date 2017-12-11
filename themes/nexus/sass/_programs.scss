@@ -85,14 +85,12 @@
   max-width: 150px;
 }
 .program-content {
-  background-image: url("../../assets/images/photo_study@2x.png");
+  background-image: url("../../assets/images/photo_study@3x.png");
   background-size: cover;
   background-position: bottom;
   height: 100vh;
   min-height: 600px;
-  @media #{$desktop} {
-    background-image: url("../../assets/images/photo_study@3x.png")
-  }
+  
   .want-in {
     text-align: center;
     text-transform: uppercase;

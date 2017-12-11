@@ -30,26 +30,28 @@ get_header(); ?>
       <div class="underline"></div>
       </div>
      
-
+<div class="about-wrapper">
 <div class="about-left">
     <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/01@2x.png" />
-    <p><span class="about-titles">Planning and Organizing</span> <br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p></div>
-
+    <p><span class="about-titles">Planning and Organizing</span> <br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p>
+    <img class="path-img-left" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-2@3x.png" /></div>
+    
 <div class="about-right">
     <p><span class="about-titles">Applying for School</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.</p>
-    <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/02@2x.png" /></div>
+    
+    <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/02@2x.png" /><img class="path-img-right" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-4@3x.png" /></div>
 
 <div class="about-left">
 <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/03@2x.png" />
-    <p><span class="about-titles">Preparing for Arrival</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.</div>
+    <p><span class="about-titles">Preparing for Arrival</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.</p><img class="path-img-left" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-2@3x.png" /></div>
 
 <div class="about-right">
-  <p class="about-how-help-text"><span class="about-titles">First Days om Canada</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p><img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/04@2x.png" /></div>
+  <p class="about-how-help-text"><span class="about-titles">First Days om Canada</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p><img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/04@2x.png" /><img class="path-img-right" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-4@3x.png" /></div>
 
 <div class="about-left">
 <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/05@2x.png" />
   <p><span class="about-titles">Living in Canada</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p></div>
-
+</div>
 
 
   <div class="about-consultants">

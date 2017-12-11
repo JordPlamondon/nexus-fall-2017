@@ -15,6 +15,8 @@
     .hero-image {
     height: 139px;
     width: 100vw;
+    min-width: 350px;
+    margin: 0;
     background-image: url("../../assets/images/blog@3x.png");
     background-size: 100% 100%;
     }
@@ -84,62 +86,104 @@
 // Content wrappers / images
 
   img.about-img {
-    height: 160px;
-    max-width: 160px;
+   width: 45%;
+   height: 30vw;
+   max-height: 190px;
+   max-width: 190px;
+   min-height: 166px;
     border-radius: 100px;
     margin: 14px 14px 30px 14px;
+    z-index: 5;
+    @media #{$tablet} {
+      width: 40%;
+      height: 30vw;
+      min-height: 190px;
+      max-height: 260px;
+      max-width: 260px;
+    }
   }
+  .about-wrapper {
+      background-color: peachpuff;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+      min-width: 340px;
+      @media #{$tablet} {
+      padding-left: 74px;
+      }
     .about-left {
         height: 264px;
         background-color: $color__textbox-background;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        min-width: 400px;
+        width: 100%;
         padding-top: 40px;
+        @media #{$tablet} {
+          width: 70vw;
+          height: 344px;
+          margin: 0 auto;
+        }
         .about-titles {
           font-size: 21px;
           font-weight: bold;
           text-align: right;
         }
-      img {
-        width: 48%;
-      }
+        img{
+           width: 40%;
+        }
       p {
         font-size: 14px;
-        width: 48%;
+        width: 45%;
         text-align: right;
         padding-right: 14px;
         line-height: 16pt;
         color: $color__footer-background;
+        @media #{$tablet} {
+          font-size: 18px;
+          padding-right: 24px;
+          padding-left: 24px;
+          line-height: 24pt;
+      }
       }
   }
     .about-right {
       height: 264px;
+      min-width: 340px;
       background-color: $color__background-white;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      width: 400px;
+      width: 100%;
       padding-top: 40px;
+      @media #{$tablet} {
+        width: 70vw;
+        height: 344px;
+        margin: 0 auto;
+      }
         .about-titles {
           font-size: 21px;
           font-weight: bold;
           text-align: left;
         }
-      img {
-        width: 200px;
-      }
       p {
         color:$color__footer-background;
-        width: 200px;
+        width: 45%;
         line-height: 16pt;
         text-align: left;
         font-size: 14px;
         padding-left: 14px;
+      @media #{$tablet} {
+          font-size: 18px;
+          padding-right: 24px;
+          padding-left: 24px;
+          line-height: 24pt;
       }
     }
-
+  }
+    }
 // Consultants
   .about-consultants {
     height: 500px;
@@ -221,7 +265,6 @@
       position: relative;
       bottom: 48px;
     }
- }
   button.consult {
     letter-spacing: 1pt;
     width: 175px;
@@ -237,4 +280,24 @@
     bottom: 40px;
   }
  }
-
+ .about-right {
+ img.path-img-right {
+  height: 130px;
+  position: relative;
+  width: 55%;
+  left: 90px;
+  z-index: 1;
+  bottom: 60px;
+}
+ }
+ .about-left {
+  img.path-img-left {
+    height: 130px;
+    width: 55%;
+    position: relative;
+    left: 80px;
+    z-index: 1;
+    bottom: 60px;
+  }
+}
+  }

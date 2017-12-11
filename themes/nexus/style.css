@@ -2307,14 +2307,11 @@ nav.main-navigation:hover {
   max-width: 150px; }
 
 .page-template-archive-nexus_program .program-content {
-  background-image: url("../../assets/images/photo_study@2x.png");
+  background-image: url("../../assets/images/photo_study@3x.png");
   background-size: cover;
   background-position: bottom;
   height: 100vh;
   min-height: 600px; }
-  @media all and (min-width: 550px) {
-    .page-template-archive-nexus_program .program-content {
-      background-image: url("../../assets/images/photo_study@3x.png"); } }
   .page-template-archive-nexus_program .program-content .want-in {
     text-align: center;
     text-transform: uppercase;

@@ -13,6 +13,7 @@
         for (var i = 0; i < data.length; i++){
           
           // Construct an article from each returned Object
+          console.log(data)
           var post = data[i];
           var image = '';
           var school = post['_nexus_program_school'];

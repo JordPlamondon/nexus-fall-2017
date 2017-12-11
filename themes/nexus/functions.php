@@ -4,14 +4,14 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package RED_Starter_Theme
+ * @package nexus_Theme
  */
 
-if ( ! function_exists( 'red_starter_setup' ) ) :
+if ( ! function_exists( 'nexus_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  */
-function red_starter_setup() {
+function nexus_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
@@ -36,25 +36,25 @@ function red_starter_setup() {
 	) );
 
 }
-endif; // red_starter_setup
-add_action( 'after_setup_theme', 'red_starter_setup' );
+endif; // nexus_setup
+add_action( 'after_setup_theme', 'nexus_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * @global int $content_width
  */
-function red_starter_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'red_starter_content_width', 640 );
+function nexus_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'nexus_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'red_starter_content_width', 0 );
+add_action( 'after_setup_theme', 'nexus_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function red_starter_widgets_init() {
+function nexus_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html( 'Sidebar' ),
 		'id'            => 'sidebar-1',
@@ -65,24 +65,24 @@ function red_starter_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'red_starter_widgets_init' );
+add_action( 'widgets_init', 'nexus_widgets_init' );
 
 /**
  * Filter the stylesheet_uri to output the minified CSS file.
  */
-function red_starter_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
+function nexus_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
 	if ( file_exists( get_template_directory() . '/build/css/style.min.css' ) ) {
 		$stylesheet_uri = $stylesheet_dir_uri . '/build/css/style.min.css';
 	}
 
 	return $stylesheet_uri;
 }
-add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
+add_filter( 'stylesheet_uri', 'nexus_minified_css', 10, 2 );
 
 /**
  * Enqueue scripts and styles.
  */
-function red_starter_scripts() {
+function nexus_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'owl.carousel.min', get_template_directory_uri() . '/lib/owl.carousel.min.css' );
 	wp_enqueue_style( 'owl.theme.default.min', get_template_directory_uri() . '/lib/owl.theme.default.min.css' );
@@ -112,7 +112,7 @@ function red_starter_scripts() {
 		) );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
+add_action( 'wp_enqueue_scripts', 'nexus_scripts' );
 
 /**
  * Custom template tags for this theme.
@@ -142,5 +142,20 @@ function plugin_myContentFilter($content)
 	}
 	
 	return ($content);
+}
+
+add_filter('pre_get_posts', 'per_category_basis');
+function per_category_basis($query){
+    if ($query->is_category) {
+        // category named 'videos' show 3 posts
+        if (is_category('videos')){
+            $query->set('posts_per_page', 3);
+        }
+        // category named 'blogs' show only 3 posts
+        if (is_category('blogs')){
+            $query->set('posts_per_page', 3);
+        }
+    }
+    return $query;
 }
 

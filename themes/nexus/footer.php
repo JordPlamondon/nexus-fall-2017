@@ -59,7 +59,7 @@
   <div class="footer_hidden--container">
     <div class="footer__site-info hidden">
       <div class="footer_hidden_anchor">
-        <a href="<?php echo esc_url( 'https://nexusintercambia.com/' ); ?>"><?php printf( esc_html( '&copy; Copyright - Nexus Exchange %s' ), '2017' ); ?>
+        <a href="<?php echo home_url(); ?>"><?php printf( esc_html( '&copy; Copyright - Nexus Exchange %s' ), '2017' ); ?>
         </a>
       </div> <!-- footer_hidden_anchor -->
         <div class="footer__desktop--nav">

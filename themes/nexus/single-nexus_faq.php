@@ -2,10 +2,11 @@
 /**
  * The template for displaying all single posts.
  *
- * @package RED_Starter_Theme
+ * @package nexus_Theme
  */
 
 get_header(); ?>
+
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -77,19 +78,40 @@ foreach ( (array) $entries as $key => $entry ) {
 ?>
 		<?php endwhile; // End of the loop. ?>
 		
+		<!-- Keep Looking Buttons -->
+		
 			<div class="faq-single-homestay"> 
 				<h2> Keep Looking<h2><br> 
-      		<div class="underline"></div>
-    
-      		<div class="homestay-button-wrapper">
-        		<button class="homestay-looking-button"><p>Immigration</p></button>
-        		<button class="homestay-looking-button"><p>Before Arriving</p></button>
-        		<button class="homestay-looking-button"><p>Financial</p></button>
-        		<button class="homestay-looking-button"><p>School</p></button>
-        		<button class="homestay-looking-button"><p>Working</p></button>
-        		<button class="homestay-looking-button"><p>Return To Top</p></button>
-      		</div>
+					<div class="underline"></div>
 
+					<div class="homestay-button-wrapper">
+						<?php   
+      				$args = array(
+								'post_type' => 'nexus_faq',
+								'post__not_in' => array( $post->ID )
+							);		
+							$the_query = new WP_Query($args);
+						?>
+
+						<?php 
+							if ($the_query->have_posts() ) : 
+							while ($the_query->have_posts() ) : $the_query->the_post()
+						?>
+							<button class="homestay-looking-button">
+								<a href="<?php the_permalink(); ?>" rel="faq title"> 
+								<div class="button-faq-title">
+									<?php the_title(); ?>
+								</div>
+								</a>
+							</button>
+
+						<?php endwhile; // End of the loop. ?>
+						<?php endif; ?>
+
+						<button class="return-to-top-button"><p>Return To Top</p></button>
+					</div>
+
+		<!-- Start Your Journey -->
 				<div class="faq-single-journey">
       		<h2> Start Your Journey<h2><br>
 					<div class="underline"></div>

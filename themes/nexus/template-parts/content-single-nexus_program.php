@@ -21,10 +21,12 @@
                 <p>Price</p>
                 <p><?php echo get_post_meta($post->ID, '_nexus_program_price', true); ?></p>
             </div>
+            <div class="program-meta-seperator"></div>
             <div class="program-duration">
                 <p>Duration</p>
                 <p><?php echo get_post_meta($post->ID, '_nexus_program_duration', true); ?></p>
             </div>
+            <div class="program-meta-seperator"></div>
             <div class="program-city">
                 <p>City</p>
                 <p><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></p>

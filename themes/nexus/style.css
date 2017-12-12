@@ -2683,7 +2683,8 @@ nav.main-navigation:hover {
       border-bottom: 4px solid #FF8A2A; }
       @media all and (min-width: 750px) {
         .page-template-archive-nexus_program .hero-wrapper .underline {
-          width: 144px; } }
+          width: 144px;
+          border-bottom-width: 6px; } }
   .page-template-archive-nexus_program .site-main {
     padding-top: 0; }
     @media all and (min-width: 750px) {
@@ -2697,6 +2698,8 @@ nav.main-navigation:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
@@ -3412,8 +3415,6 @@ div.hero-404 {
   height: 100vw;
   width: 100%;
   max-height: 981px;
-  text-align: center;
-  color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3437,11 +3438,15 @@ section.error-404.not-found {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #F3F5F8;
   opacity: 0.75;
   max-height: 633px;
   max-width: 1018px;
-  min-height: 800px; }
+  min-height: 800px;
+  text-align: center; }
   section.error-404.not-found h1.page-title {
     margin: 20px 20px 10px 20px;
     color: #123048;

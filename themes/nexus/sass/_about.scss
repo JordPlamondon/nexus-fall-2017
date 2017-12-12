@@ -129,7 +129,7 @@
           font-weight: bold;
           text-align: right;
         }
-        img {
+        img.about-image {
            width: 50%;
         }
       p {
@@ -183,7 +183,7 @@
       }
     }
   }
-  // Consultants
+// Consultants
   .about-consultants {
     height: 500px;
     background-color: $color__background-white;
@@ -279,12 +279,14 @@
     }
   }
  }
+
+// Squiggles
  .about-right {
  img.path-img-right {
   height: 130px;
   position: relative;
   min-width: 140px;
-  left: 90px;
+  left: 80px;
   z-index: 1;
   bottom: 80px;
   width: 50%;
@@ -293,7 +295,8 @@
  }
  .about-left {
   img.path-img-left {
-    height: 130px;
+    height: 150px;
+    width: 45%;
     min-width: 140px;
     position: relative;
     left: 80px;

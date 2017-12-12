@@ -87,7 +87,7 @@
 
   .select-form-wrapper-searched {
     padding: 0;
-    margin-top: 1rem;
+    margin-top: 2rem;
     flex-direction: row;
     justify-content: flex-start;
   }
@@ -126,9 +126,13 @@
   }
 
   .program-container {
+    margin-right: 1rem;
+    margin-top: 2rem;
+    flex-basis: 50%;
     max-width: 160px;
     text-decoration: none;
     @media #{$tablet} {
+      flex-basis: 33%;
       max-width: 320px;
     }
   }
@@ -186,6 +190,16 @@
     @media #{$tablet} {
       font-size: 1.68rem;
     } 
+  }
+
+  .program-type {
+     font-size: 0.75rem;
+     font-weight: 300;
+     font-family: 'Raleway',
+     sans-serif;
+     @media #{$tablet} {
+       font-size: 1.25rem;
+     }
   }
   .program-name, .program-school, .program-type {
     line-height: 2rem;

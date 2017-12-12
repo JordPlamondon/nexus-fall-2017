@@ -45,11 +45,11 @@
     var program = $('select[name*="programfilter"').val();
     var province = $('select[name*="provincefilter"').val();
     var request = 'wp/v2/nexus_program/?_embed&filter';
-    if (program === 'program' && province === 'province') {
+    if (program === 'Program' && province === 'Province') {
       return;
-    } else if (program === 'program') {
+    } else if (program === 'Program') {
       request += '[provinces]=' + province;
-    } else if (province === 'province') {
+    } else if (province === 'Province') {
       request += '[program_type]=' + program;
     } else {
       request += '[program_type]=' + program + '&filter[provinces]=' + province;
@@ -90,6 +90,7 @@
         return true;
       }
       ajaxGet(request);
+      styleChange();
     }
   })
 

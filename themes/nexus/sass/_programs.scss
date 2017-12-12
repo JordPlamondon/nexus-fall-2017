@@ -1,40 +1,41 @@
+// Archives
 .page-template-archive-nexus_program {
 
-  .hero-wrapper {
-    visibility: hidden;
-    @media #{$desktop} {
-      visibility: visible;
-    }
-  
-    h1 {
-      text-align: center;
-      color: $color__footer-background;
-      font-size: 30px;
-      text-transform: uppercase;
-      font-weight: 900;
-      position: relative;
-      top: 50px;
-    }
-    .hero-image {
-      height: 139px;
-      width: 100vw;
-      background-image: url("../../assets/images/blog@3x.png");
-      background-size: 100% 100%;
-    }
-    .underline {
-      margin: 0 auto;
-      width: 49px;
-      text-align: center;
-      border-bottom: 3px solid $color__accent-underline;
-      position: relative;
-      bottom: 24px;
-    }
-  }
+ .hero-wrapper {
+   width: 100vw;
+   @media #{$tablet} {
+     padding-top: 65px;
+   }
+   h1 {
+     text-align: center;
+     color: $color__footer-background;
+     font-size: 30px;
+     text-transform: uppercase;
+     font-weight: 900;
+     position: relative;
+     top: 50px;
+   }
+   .hero-image {
+     height: 50vh;
+     width: 100vw;
+     min-width: 350px;
+     background-image: url("../../assets/images/blog@3x.png");
+     background-size: cover;
+   }
+   .underline {
+     margin: 0 auto;
+     width: 49px;
+     text-align: center;
+     border-bottom: 3px solid $color__accent-underline;
+     position: relative;
+     bottom: 24px;
+   }
+ }
 
 
 .site-main{
   padding-top: 0;
-  @media #{$desktop} {
+  @media #{$tablet} {
     padding-top: 65px;
   }
 }
@@ -42,18 +43,20 @@
   display: none;
 }
 .search-results {
-  background-color: #e0ffff;
   font-size: 18px;
   display: flex;
   justify-content: space-between;
 }
 
 .selectric-wrapper, .program-title {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 .select-searched {
   max-width: 125px;
+  @media #{$tablet} {
+    max-width: 300px;
+  }
 }
 
 .select-form-wrapper {
@@ -62,11 +65,12 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  @media #{$desktop} {
+  @media #{$tablet} {
     flex-direction: row;
     justify-content: flex-start;
     max-width: 750px;
     padding-left: 60px;
+    padding-top: 65px;
   }
 }
 
@@ -93,6 +97,9 @@
   background-position: bottom;
   height: 100vh;
   min-height: 600px;
+  @media #{$desktop} {
+    background-image: url("../../assets/images/program-background-image.png");
+  }
 
   .want-in {
     text-align: center;
@@ -123,10 +130,13 @@
     text-transform: uppercase;
     color: $color__footer-background;
     text-align: center;
-    padding-top: 15px;
     margin-bottom: 34px;
     @media #{$desktop} {
       text-align: left;
+      font-size: 4rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: $color__text-main;
     }
   }
 
@@ -135,26 +145,6 @@
       flex-basis: 100%;
     }
   }
-  // .contact-want-to:nth-child(1) {
-  //   height: 42px;
-  //   border-radius: 0px;
-  //   width: 70vw;
-  //   background-color: $color__textbox-background;
-  //   margin: 0 auto;
-  //   margin-bottom: 30px;
-  
-  //   select {
-  //     height: 42px;
-  //     border-radius: 0px;
-  //     width: 70vw;
-  //     background-color: $color__textbox-background;
-  //     margin: 0 auto;
-  //     margin-bottom: 30px;
-  //     }
-  //   .contact-want-to:nth-child(2) {
-  //     margin-bottom: 34px;
-  //   }
-  // }
 
   .button-wrapper {
         width: 130px;
@@ -172,5 +162,32 @@
       background: $color__icon-element;
       color: $color__background-white;
     }
+  }
+}
+
+// Single Program
+
+.single-nexus_program {
+
+  .single-program-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .program-meta {
+    text-align: center;
+    align-items: center;
+    background-color: $color__info-main;
+    width: 100vw;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    p {
+      flex-basis: 30%;
+    }
+  }
+  .program-meta-seperator {
+    height: 60px;
+    border-right: 3px solid #ff8a2a;
   }
 }

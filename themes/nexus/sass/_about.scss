@@ -1,14 +1,11 @@
 .page-template-about {
-
-// Hero
+  // Hero
   .hero-wrapper {
      width: 100vw;
       @media #{$desktop} {
         padding-top: 65px;
       }
-
-    h1 {
-     
+    h1 {   
       text-align: center;
       color: $color__footer-background;
       font-size: 30px;
@@ -16,17 +13,15 @@
       font-weight: 900;
       position: relative;
       top: 50px;
-     
     }
-
     .hero-image {
       height: 50vh;
       width: 100vw;
       min-width: 350px;
       background-image: url("../../assets/images/blog@3x.png");
       background-size: cover;
+      background-position: bottom;
     }
-
     .underline {
       margin: 0 auto;
       width: 49px;
@@ -36,7 +31,6 @@
       bottom: 24px;
     }
   }
-
 // Mission
   .mission-wrapper {
     h2 {
@@ -54,21 +48,19 @@
       border-bottom: 3px solid $color__accent-underline;
       position: relative;
       top: 14px;
-   }
-   p {
-     font-size: 14px;
-     line-height:26px;
-     width: 80%;
-     margin: 0 auto;
-     margin-bottom: 40px;
-     text-align: center;
-     padding-top: 40px;
-     font-weight: 200;
-     color: $color__footer-background;
-   }
+    }
+    p {
+      font-size: 14px;
+      line-height: 26px;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      text-align: center;
+      padding-top: 40px;
+      font-weight: 200;
+      color: $color__footer-background;
+    }
   }
-
-
 // About help
   .about-help {
     height: 70px;
@@ -91,34 +83,32 @@
     }
   }
 // Content wrappers / images
-
   img.about-img {
-   width: 45%;
-   height: 30vw;
-   max-height: 190px;
-   max-width: 190px;
-   min-height: 166px;
+    width: 45%;
+    height: 30vw;
+    max-height: 190px;
+    max-width: 190px;
+    min-height: 166px;
     border-radius: 100px;
     margin: 14px 14px 30px 14px;
     z-index: 5;
     @media #{$tablet} {
       width: 40%;
       height: 30vw;
-      min-height: 190px;
+      min-height: 240px;
       max-height: 260px;
       max-width: 260px;
     }
   }
   .about-wrapper {
-      background-color: peachpuff;
       display: flex;
-      flex-wrap: nowrap;
-      flex-direction: column;
-      align-items: stretch;
-      justify-content: center;
-      min-width: 340px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      padding-top: 40px;
       @media #{$tablet} {
       padding-left: 74px;
+      background-color:$color__textbox-background;
       }
     .about-left {
         height: 264px;
@@ -132,14 +122,15 @@
           width: 70vw;
           height: 344px;
           margin: 0 auto;
+          padding-left: 10%;
         }
         .about-titles {
           font-size: 21px;
           font-weight: bold;
           text-align: right;
         }
-        img{
-           width: 40%;
+        img {
+           width: 50%;
         }
       p {
         font-size: 14px;
@@ -153,9 +144,9 @@
           padding-right: 24px;
           padding-left: 24px;
           line-height: 24pt;
+        }
       }
-      }
-  }
+    }
     .about-right {
       height: 264px;
       min-width: 340px;
@@ -169,29 +160,30 @@
         width: 70vw;
         height: 344px;
         margin: 0 auto;
+        padding-left: 10%;
       }
-        .about-titles {
-          font-size: 21px;
-          font-weight: bold;
-          text-align: left;
-        }
+      .about-titles {
+        font-size: 21px;
+        font-weight: bold;
+        text-align: left;
+      }
       p {
-        color:$color__footer-background;
+        color: $color__footer-background;
         width: 45%;
         line-height: 16pt;
         text-align: left;
         font-size: 14px;
         padding-left: 14px;
-      @media #{$tablet} {
+        @media #{$tablet} {
           font-size: 18px;
           padding-right: 24px;
           padding-left: 24px;
           line-height: 24pt;
+        }
       }
     }
   }
-    }
-// Consultants
+  // Consultants
   .about-consultants {
     height: 500px;
     background-color: $color__background-white;
@@ -203,18 +195,18 @@
       color: $color__text-quoteform;
       line-height: 16pt;
     }
-      img {
-        margin: 0 auto;
-        height: 204px;
-        width: 204px;
-        margin: 30px 0 0 0;
-        border-radius: 100px;
-      }
-  i {
-    display: inline-block;
-    font-size: 36px;
-    margin: 10px;
-  }
+    img {
+      margin: 0 auto;
+      height: 204px;
+      width: 204px;
+      margin: 30px 0 0 0;
+      border-radius: 100px;
+    }
+    i {
+      display: inline-block;
+      font-size: 36px;
+      margin: 10px;
+    }
     h2 {
       font-size: 24px;
       text-align: center;
@@ -231,18 +223,18 @@
       position: relative;
       top: 14px;
     }
-  .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid $color__accent-underline;
-    position: relative;
-    bottom: 20px;
+    .underline {
+      margin: 0 auto;
+      width: 49px;
+      text-align: center;
+      border-bottom: 3px solid $color__accent-underline;
+      position: relative;
+      bottom: 20px;
+    }
   }
-  }
-// Journey
- .about-journey {
-  height: 195px;
+  // Journey
+  .about-journey {
+    height: 195px;
     background-color: $color__textbox-background;
     h2 {
       font-size: 24px;
@@ -262,7 +254,6 @@
       position: relative;
       text-transform: none;
       bottom: 42px;
-      
     }
     .underline {
       margin: 0 auto;
@@ -272,39 +263,43 @@
       position: relative;
       bottom: 48px;
     }
-  button.consult {
-    letter-spacing: 1pt;
-    width: 175px;
-    height: 40px;
-    padding: 0;
-    border-radius: 25px 0px 25px 0px;
-    box-shadow: none;
-    text-shadow: none;
-    font-size: 18px;
-    background: $color__icon-element;
-    color: white;
-    position: relative;
-    bottom: 40px;
+    button.consult {
+      letter-spacing: 1pt;
+      width: 175px;
+      height: 40px;
+      padding: 0;
+      border-radius: 25px 0px 25px 0px;
+      box-shadow: none;
+      text-shadow: none;
+      font-size: 18px;
+      background: $color__icon-element;
+      color: white;
+      position: relative;
+      bottom: 40px;
+    }
   }
  }
  .about-right {
  img.path-img-right {
   height: 130px;
   position: relative;
-  width: 55%;
+  min-width: 140px;
   left: 90px;
   z-index: 1;
-  bottom: 60px;
+  bottom: 80px;
+  width: 50%;
+
 }
  }
  .about-left {
   img.path-img-left {
     height: 130px;
-    width: 55%;
+    min-width: 140px;
     position: relative;
     left: 80px;
     z-index: 1;
-    bottom: 60px;
+    bottom: 80px;
   }
 }
-  }
+
+  

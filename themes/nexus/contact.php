@@ -17,6 +17,7 @@ get_header(); ?>
           <div class="underline"></div>
         </div>
       </div>
+<div class="desktop-wrapper">
 
 <div class="contact-form">
 <?php while ( have_posts() ) : the_post(); ?>
@@ -24,7 +25,25 @@ get_header(); ?>
             <div class="underline"></div>
             <div class="contact-content">	<?php get_template_part( 'template-parts/content', 'page' ); ?>
             <?php endwhile;  ?>
+
+
+<div class="desktop-contact-display">
+<h2> Nexus in 
+Canada </h2>
+<p>Come and pay us a visit and talk to our exchange experts or ask for a quote here .</p><br>
+          <i class="fa fa-map-marker" aria-hidden="true"></i><p class="contact-address">119-970 Burrard St.<br>Vancouver, BC V6Z 2R4</p><br>
+
+          <i class="fa fa-hourglass-end"></i>
+            <p class="contact-hours"> Office Hours: Monday-Friday, 9am - 5pm PST</p>
+
+          <i class="fa fa-phone "></i>
+          <a href="tel:6042886787">604 288 6787</a>      
 </div>
+</div>
+<div class="desktop-contact-info">
+</div>
+</div>
+
 
 
 

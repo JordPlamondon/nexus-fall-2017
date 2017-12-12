@@ -93,6 +93,10 @@ div.widget_info_contain a {
     justify-content: center;
   }
 
+  div.widget_info_contain.one {
+    margin-top: 1rem;
+  }
+
   div.widget_info_contain a,
   div.widget_info_contain p,
   p.footer__office--hours {
@@ -104,7 +108,7 @@ div.widget_info_contain a {
     display: flex;
     flex-direction: row;
     width: 250px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     a {
       text-decoration: none;
       color: $color__text-white;
@@ -220,7 +224,7 @@ div.widget_info_contain a {
   
     .underline.footer {
       padding-top: 10px;
-      width: 49px;
+      width: 74px;
       border-bottom: 3px solid #ff8a2a;
     }
   }
@@ -401,7 +405,7 @@ div.widget_info_contain a {
 
   .underline.footer {
     padding-top: 10px;
-    width: 49px;
+    width: 99px;
     border-bottom: 3px solid #ff8a2a;
   }
 }

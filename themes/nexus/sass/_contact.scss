@@ -1,12 +1,64 @@
 .page-template-contact {
+
   h1.entry-title {
     display: none;
+  }
+  .desktop-contact-display {
+    display: none;
+    @media #{$tablet} {
+      font-family: $font__accent;
+      font-size: 18px;
+      display: block;
+      height: 595px;
+      width:435px;
+      background-color: $color__info-main;
+      position: relative;
+      bottom: 720px;
+      left: 80%;
+      padding: 38px;
+      color: $color__footer-navbkgrnd;
+      h2 {
+        font-size: 42px;
+      }
+      i {
+        color:$color__icon-element;
+        font-size: 31px;
+        margin-right: 20px;
+        margin-bottom: 44px;
+      }
+     .contact-address {
+       width: 300px;
+       display: inline-block;
+       margin-left: 14px;
+     }  
+     .contact-hours {
+      width: 300px;
+      display: inline-block;
+     }
+
+    }
   }
   .contact-form {
    padding-top: 24px;
     background-color: $color__textbox-background;
+    @media #{$tablet} {
+      width: 70vw;
+      height: 1000px;
+      margin-left: 70px;
+      margin-top: 64px;
+    }
+    .wpcf7-form {
+      @media #{$tablet} {
+        position: relative;
+        right: 25%;
+        bottom:12px;
+    }
+  }
     .wpcf7-form-control {
       height: 44px;
+    }
+    .wpcf7-textarea {
+      height: 300px;
     }
     .wpcf7-submit {
       letter-spacing: 1pt;
@@ -19,8 +71,7 @@
       font-size: 18px;
       background: $color__icon-element;
       color: $color__text-white;
-      position: relative;
-      bottom: 40px;
+      margin-left: 25%;
     }
     h2.title {
       margin-top: 0;
@@ -28,11 +79,18 @@
       color: $color__footer-background;
       font-size: 24px;
       font-weight: bold;
+      @media #{$tablet} {
+        width: 300px;
+        margin-left: 20%;
+        font-size: 50px;
+        text-align: left;
     }
+  }
     .contact-content {
       margin: 0 auto;
       max-width: 345px;  
       color: $color__contact-input;
+     
   }
   .underline {
     margin: 0 auto;
@@ -41,7 +99,12 @@
     border-bottom: 3px solid $color__accent-underline;
     position: relative;
     bottom: 20px;
+    @media #{$tablet} {
+      right: 20%;
+      bottom: 34px;
+      width: 109px;
   }
+}
 }
 
 // Hero 
@@ -118,5 +181,6 @@
     position: relative;
     bottom: 40px;
   }
+
  }
 

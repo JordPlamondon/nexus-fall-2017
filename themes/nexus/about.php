@@ -35,6 +35,7 @@ get_header(); ?>
     <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/01@2x.png" />
     <p><span class="about-titles">Planning and Organizing</span> <br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p>
     <img class="path-img-left" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-2@3x.png" /></div>
+
     
 <div class="about-right">
     <p><span class="about-titles">Applying for School</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.</p>
@@ -60,14 +61,18 @@ get_header(); ?>
       <img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/TeamMember01@2x.png" />
       <h3>Rafael Schafer Marques </h3>
       <p> Director of International Studies </p>
-      <i class="fa fa-facebook-official" aria-hidden="true"></i><i class="fa fa-envelope" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      <a href="http://www.facebook.com/rafacanada"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+      <a href="mailto:rafael@nexusintercambio.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      <a href="http://br.linkedin.com/in/rafacanada/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 </div>
 
 <div class="about-consultants">
 <img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/TeamMember02@3x.png" />
       <h3> Carolina Robeiro </h3>
       <p> Advisor</p>
-      <i class="fa fa-facebook-official" aria-hidden="true"></i><i class="fa fa-envelope" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      <a href="http://www.facebook.com/carolribeiro.3551/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+      <a href="mailto:carol@nexusintercambio.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+     <i class="fa fa-linkedin-square" aria-hidden="true"></i>
 </div>
 
 

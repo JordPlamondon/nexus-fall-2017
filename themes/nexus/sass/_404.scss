@@ -7,7 +7,7 @@ fieldset {
   width: 100%;
 }
 
-div.hero-404 {
+div.hero-404 {  // Hero image
   background-image: url('../../assets/images/jay-toor-105107.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ div.hero-404 {
   min-height: 800px;
 }
 
-section.error-404.not-found {
+section.error-404.not-found { // White background with opacitiy.  Text contained in here
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -45,7 +45,7 @@ section.error-404.not-found {
     }
 }
 
-.home-button {
+.home-button {  // Home button linked to home_url with a hover border change
   height: 80px;	
   width: 250px;	
   border-radius: 2px 100px 2px 100px;	
@@ -64,7 +64,7 @@ section.error-404.not-found {
   }
 }
 
-div.return-home {
+div.return-home {  // Button container
   display: flex;
   justify-content: center;
   padding: 2rem 0 3rem 0;

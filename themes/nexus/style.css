@@ -935,12 +935,15 @@ a {
               flex-basis: 30%;
           width: 30%; } }
     .home .site-main .student-review__box .student-review__info-wrapper {
+      background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
+      background-repeat: no-repeat;
+      background-position: top left, bottom right;
+      background-color: #F3F5F8;
       margin-top: 0;
       width: 100%;
       padding: 39px 30px 22px 48px;
       font-weight: bold;
       font-size: 4vw;
-      background: #F3F5F8;
       position: relative; }
       @media all and (min-width: 550px) {
         .home .site-main .student-review__box .student-review__info-wrapper {
@@ -948,6 +951,9 @@ a {
           font-size: 3vw;
           -ms-flex-preferred-size: 80%;
               flex-basis: 80%; } }
+      @media all and (min-width: 550px) {
+        .home .site-main .student-review__box .student-review__info-wrapper .student-review__info {
+          padding: 15px 20px 15px 45px; } }
       .home .site-main .student-review__box .student-review__info-wrapper .grey {
         background: #F3F5F8;
         -webkit-transform: rotate(134deg);
@@ -967,22 +973,6 @@ a {
             height: 30px;
             position: relative;
             width: 30px; } }
-      .home .site-main .student-review__box .student-review__info-wrapper .oquote {
-        color: #FFBC4A;
-        font-size: 30vw;
-        font-weight: normal;
-        font-family: "Raleway", Arial, Helvetica, sans-serif;
-        position: absolute;
-        left: 1rem;
-        top: -1rem; }
-      .home .site-main .student-review__box .student-review__info-wrapper .cquote {
-        color: #FFBC4A;
-        font-size: 30vw;
-        font-weight: normal;
-        font-family: "Raleway", Arial, Helvetica, sans-serif;
-        position: absolute;
-        bottom: -4rem;
-        right: 1rem; }
   .home .site-main .start-journey {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1138,7 +1128,6 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      display: none;
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
@@ -1198,7 +1187,6 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      display: none;
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
@@ -1258,7 +1246,6 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      display: none;
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
@@ -1318,7 +1305,6 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      display: none;
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
@@ -1378,7 +1364,6 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      display: none;
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
@@ -1438,7 +1423,6 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      display: none;
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;

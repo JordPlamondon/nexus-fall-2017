@@ -126,7 +126,6 @@
     display: none;
     @media #{$desktop} {
       display: flex;
-      display: none;
       justify-content: flex-end;
       height:  300px;
       margin-top: -200px;
@@ -150,6 +149,7 @@
     }
     p {
       width: 500px;
+     
     }
     .choose-program {
       @media #{$desktop} {
@@ -181,7 +181,6 @@
     display: none;
     @media #{$desktop} {
       display: flex;
-      display: none;
       justify-content: flex-end;
       height:  300px;
       margin-top: -200px;
@@ -235,7 +234,6 @@
     display: none;
     @media #{$desktop} {
       display: flex;
-      display: none;
       justify-content: flex-end;
       height:  300px;
       margin-top: -200px;
@@ -289,7 +287,6 @@
     display: none;
     @media #{$desktop} {
       display: flex;
-      display: none;
       justify-content: flex-end;
       height:  300px;
       margin-top: -200px;
@@ -343,7 +340,6 @@
     display: none;
     @media #{$desktop} {
       display: flex;
-      display: none;
       justify-content: flex-end;
       height:  300px;
       margin-top: -200px;
@@ -397,7 +393,6 @@
     display: none;
     @media #{$desktop} {
       display: flex;
-      display: none;
       justify-content: flex-end;
       height:  300px;
       margin-top: -200px;
@@ -446,7 +441,7 @@
       }
     }
   }
-
+ 
 
 
 

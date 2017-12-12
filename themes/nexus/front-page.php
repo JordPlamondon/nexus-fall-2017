@@ -126,12 +126,15 @@ get_header(); ?>
 					</div>
 					<p class="choose-province__info">
 						Fusce tempor felis lacus, a hendrerit urna facilisis at. 
-					</p>						
-				</div>
-			</section>
+									
+					</p>		
 				
+				</div>
+				
+			</section>
+	
 <!-- Individual Province -->
-	<section class="choose-wrapper-bc">
+	<section class="choose-wrapper-bc hide-prov">
 	<h2 class="choose-program__header">British Columbia</h2>
 	<i class="fa fa-map-marker" aria-hidden="true"></i>
 				<div class="choose-program">
@@ -147,23 +150,24 @@ get_header(); ?>
 					</div>	
 				</div>
 			</section>
-			<section class="choose-wrapper-ab">
+			<section class="choose-wrapper-ab hide-prov">
 	<h2 class="choose-program__header">Alberta</h2>
 	<i class="fa fa-map-marker" aria-hidden="true"></i>
 				<div class="choose-program">
 					<div class="choose-program__info-wrapper">
 						<div class="headergroup">				
 						</div>
-						<p class="choose-program__info">
+						<p class="choose-program__info">	
 						Nexus has partnered up with over 100 different programs.			Nexus has partnered up with over 100 different programs.
 						Nexus has partnered up with over 100 different programs.
 						Nexus has partnered up with over 100 different programs.
 						</p>
+	
 						<button class="choose-program__button">See Programs</button>
 					</div>	
 				</div>
 			</section>
-			<section class="choose-wrapper-sk">
+			<section class="choose-wrapper-sk hide-prov">
 	<h2 class="choose-program__header">Saskatchewan</h2>
 	<i class="fa fa-map-marker" aria-hidden="true"></i>
 				<div class="choose-program">
@@ -180,7 +184,7 @@ get_header(); ?>
 					</div>	
 				</div>
 			</section>
-			<section class="choose-wrapper-man">
+			<section class="choose-wrapper-man hide-prov">
 	<h2 class="choose-program__header">Manitoba</h2>
 	<i class="fa fa-map-marker" aria-hidden="true"></i>
 				<div class="choose-program">
@@ -197,7 +201,7 @@ get_header(); ?>
 					</div>	
 				</div>
 			</section>
-			<section class="choose-wrapper-on">
+			<section class="choose-wrapper-on hide-prov">
 	<h2 class="choose-program__header">Ontario</h2>
 	<i class="fa fa-map-marker" aria-hidden="true"></i>
 				<div class="choose-program">
@@ -214,7 +218,7 @@ get_header(); ?>
 					</div>	
 				</div>
 			</section>
-			<section class="choose-wrapper-qc">
+			<section class="choose-wrapper-qc hide-prov">
 	<h2 class="choose-program__header">Quebec</h2>
 	<i class="fa fa-map-marker" aria-hidden="true"></i>
 				<div class="choose-program">
@@ -247,9 +251,9 @@ get_header(); ?>
 						alt="Picture of a Student">
 						<div class="student-review__info-wrapper">
 							<div class="grey"></div>
-							<p class="student-review__info">
-							<span class="oquote">“</span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote">”</span>
-							</p>
+							<blockquote class="student-review__info">
+							<span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
+							</blockquote>
 						</div>
 					</div>
 
@@ -258,9 +262,9 @@ get_header(); ?>
 						alt="Picture of a Student">
 						<div class="student-review__info-wrapper">
 							<div class="grey"></div>
-							<p class="student-review__info">
-							<span class="oquote">“</span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote">”</span>
-							</p>
+							<blockquote class="student-review__info">
+							<span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
+							</blockquote>
 						</div>
 					</div>
 

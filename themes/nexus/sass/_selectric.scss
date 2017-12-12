@@ -3,8 +3,10 @@
 ======================================*/
 
 .selectric-wrapper {
+  margin: 0 auto;
   position: relative;
   cursor: pointer;
+  max-width: 300px;
   width: 100%;
   @media #{$tablet} {
     padding: 15px 0;
@@ -13,7 +15,7 @@
 }
 
 .select-container {
-  width: 125px;
+  width: 80vw;
   @media #{$tablet} {
     width: 220px;
   }

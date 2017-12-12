@@ -2745,18 +2745,24 @@ nav.main-navigation:hover {
 
 .single-nexus_program .program-meta {
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #FFC54C;
   width: 100vw;
   max-width: 1080px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
   .single-nexus_program .program-meta p {
     -ms-flex-preferred-size: 30%;
         flex-basis: 30%; }
+
+.single-nexus_program .program-meta-seperator {
+  height: 60px;
+  border-right: 3px solid #ff8a2a; }
 
 .page-template-contact h1.entry-title {
   display: none; }

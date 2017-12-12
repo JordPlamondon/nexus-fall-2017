@@ -44,9 +44,7 @@
 					</div> <!-- widget_info_contain -->
 				</div> <!-- footer__office -->      
 			</div> <!-- footer__contact -->
-<!--    </section> 
 
-    <section class="footer_contact_info"> -->
       <div class="footer__office">
 				<div class="widget_info_contain">
           <div class="widget_fa"><i class="fa fa-phone hide-here"></i></div>

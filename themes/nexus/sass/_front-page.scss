@@ -245,7 +245,6 @@
 
 
     .student-review {
-
       .headergroup {
         line-height: 3rem;
       }
@@ -259,21 +258,53 @@
       }
 
       &__box {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
+        @media #{$desktop} {
+          flex-direction: row;
+
+          img {
+            flex-basis:30%;
+            width: 30%;
+          }
+        }
         
-        .student-review__info {
+        .student-review__info-wrapper {
+          margin-top: 0;
           width: 100%;
           padding: 39px 30px 22px 48px;
           font-weight: bold;
           font-size: 4vw;
           background: $color__textbox-background;
           position: relative;
+          @media #{$desktop} {
+            margin: 0;
+            font-size: 3vw;
+            flex-basis: 80%;
+          }
+          
+          .grey {
+            background: $color__textbox-background;
+            transform: rotate(134deg);
+            bottom: 54px;
+            left: 40%;
+            height: 30px;
+            position: relative;
+            width: 30px;
+            @media #{$desktop} {
+              background: $color__textbox-background;
+              transform: rotate(134deg);
+              bottom: -60px;
+              left: -63px;
+              height: 30px;
+              position: relative;
+              width: 30px;
+            }
+          }
 
-          &::before {
-            content: "\201C";
+          .oquote {
             color:$color__fp_quotes;
             font-size: 30vw;
             font-weight: normal;
@@ -281,10 +312,12 @@
             position: absolute;
             left: 1rem;
             top: -1rem;    
+            @media #{$desktop} {
+            }
           }
     
-          &::after {
-            content: '\201D';
+          .cquote {
+            
             color: $color__fp_quotes;
             font-size: 30vw;
             font-weight: normal;
@@ -292,6 +325,8 @@
             position: absolute;
             bottom: -4rem;
             right: 1rem;
+            @media #{$desktop} {
+            }
           }
         }
       } 

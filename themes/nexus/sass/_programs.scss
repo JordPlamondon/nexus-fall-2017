@@ -1,6 +1,6 @@
 // Archives
 .page-template-archive-nexus_program {
- 
+  
   padding-top: 65px;
 
  .hero-wrapper {
@@ -45,6 +45,8 @@
 
 
   .site-main{
+    overflow: auto;
+    min-height: max-content;
     padding-top: 0;
     @media #{$tablet} {
       padding-top: 65px;
@@ -59,7 +61,9 @@
     margin: 1rem 0;
     font-size: 18px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-content: flex-start;
   }
 
   .select-container, .program-title {
@@ -122,7 +126,6 @@
   }
 
   .program-container {
-    margin: 0 auto;
     max-width: 160px;
     text-decoration: none;
     @media #{$tablet} {

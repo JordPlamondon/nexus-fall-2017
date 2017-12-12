@@ -915,7 +915,7 @@ a {
   .home .site-main .student-review .owl-nav {
     display: none; }
   .home .site-main .student-review__box {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -924,15 +924,50 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    .home .site-main .student-review__box .student-review__info {
+    @media all and (min-width: 550px) {
+      .home .site-main .student-review__box {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .home .site-main .student-review__box img {
+          -ms-flex-preferred-size: 30%;
+              flex-basis: 30%;
+          width: 30%; } }
+    .home .site-main .student-review__box .student-review__info-wrapper {
+      margin-top: 0;
       width: 100%;
       padding: 39px 30px 22px 48px;
       font-weight: bold;
       font-size: 4vw;
       background: #F3F5F8;
       position: relative; }
-      .home .site-main .student-review__box .student-review__info::before {
-        content: "\201C";
+      @media all and (min-width: 550px) {
+        .home .site-main .student-review__box .student-review__info-wrapper {
+          margin: 0;
+          font-size: 3vw;
+          -ms-flex-preferred-size: 80%;
+              flex-basis: 80%; } }
+      .home .site-main .student-review__box .student-review__info-wrapper .grey {
+        background: #F3F5F8;
+        -webkit-transform: rotate(134deg);
+                transform: rotate(134deg);
+        bottom: 54px;
+        left: 40%;
+        height: 30px;
+        position: relative;
+        width: 30px; }
+        @media all and (min-width: 550px) {
+          .home .site-main .student-review__box .student-review__info-wrapper .grey {
+            background: #F3F5F8;
+            -webkit-transform: rotate(134deg);
+                    transform: rotate(134deg);
+            bottom: -60px;
+            left: -63px;
+            height: 30px;
+            position: relative;
+            width: 30px; } }
+      .home .site-main .student-review__box .student-review__info-wrapper .oquote {
         color: #FFBC4A;
         font-size: 30vw;
         font-weight: normal;
@@ -940,8 +975,7 @@ a {
         position: absolute;
         left: 1rem;
         top: -1rem; }
-      .home .site-main .student-review__box .student-review__info::after {
-        content: '\201D';
+      .home .site-main .student-review__box .student-review__info-wrapper .cquote {
         color: #FFBC4A;
         font-size: 30vw;
         font-weight: normal;
@@ -3041,6 +3075,10 @@ nav.main-navigation:hover {
           width: 144px;
           border-bottom-width: 6px; } }
   .page-template-archive-nexus_program .site-main {
+    overflow: auto;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
     padding-top: 0; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .site-main {
@@ -3053,9 +3091,13 @@ nav.main-navigation:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    -ms-flex-line-pack: start;
+        align-content: flex-start; }
   .page-template-archive-nexus_program .select-container, .page-template-archive-nexus_program .program-title {
     margin-right: 1.5rem; }
   .page-template-archive-nexus_program .select-form-wrapper {
@@ -3120,7 +3162,6 @@ nav.main-navigation:hover {
       margin-bottom: 34px;
       color: #898989; }
   .page-template-archive-nexus_program .program-container {
-    margin: 0 auto;
     max-width: 160px;
     text-decoration: none; }
     @media all and (min-width: 750px) {
@@ -3764,7 +3805,6 @@ div.hero-404 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 0;
   height: 100vw;
   width: 100%;
   max-height: 981px;
@@ -3835,4 +3875,4 @@ div.return-home {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0px 0 3rem 0; }
+  padding: 2rem 0 3rem 0; }

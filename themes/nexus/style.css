@@ -2095,7 +2095,7 @@ div.widget_info_contain a {
             position: relative;
             top: 250px;
             letter-spacing: 1pt;
-            width: 124.65px;
+            width: 198px;
             height: 40px;
             padding: 0;
             border-radius: 25px 0px 25px 0px;
@@ -2114,7 +2114,7 @@ div.widget_info_contain a {
         display: flex;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        min-width: 375px; }
+        min-width: 200px; }
         @media all and (min-width: 550px) {
           .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
             position: relative;

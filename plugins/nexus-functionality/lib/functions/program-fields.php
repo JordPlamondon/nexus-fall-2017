@@ -24,6 +24,12 @@ function nexus_register_metaboxes() {
 		'priority'   => 'high',
 		'show_names' => true, // Show field names on the left
 	) );
+		$program_details->add_field( array(
+		'name' => 'School Logo',
+		'desc' => 'Image of the School Logo',
+		'id'   => $prefix . 'program_school_logo',
+		'type' => 'file',
+	) );
    $program_details->add_field( array(
 		'name' => 'School',
 		'desc' => 'Name of the School',
@@ -66,6 +72,12 @@ function nexus_register_metaboxes() {
 		'desc' => 'The description of the program',
 		'id'   => $prefix . 'program_about',
 		'type' => 'wysiwyg',
+	) );
+		$program_details->add_field( array(
+		'name' => 'Progam media',
+		'desc' => 'Additional media',
+		'id'   => $prefix . 'program_media',
+		'type' => 'wysiwyg',
   ) );
     $program_details->add_field( array(
 		'name' => 'About School',
@@ -73,19 +85,20 @@ function nexus_register_metaboxes() {
 		'id'   => $prefix . 'program_school_about',
 		'type' => 'wysiwyg',
   ) );
-     $program_details->add_field( array(
+    $program_details->add_field( array(
 		'name' => 'About City',
 		'desc' => 'The description of the City',
 		'id'   => $prefix . 'program_city_about',
 		'type' => 'wysiwyg',
   ) );
-       $program_details->add_field( array(
+  	$program_details->add_field( array(
 		'name' => 'City Photo',
 		'desc' => 'A photo of the City',
 		'id'   => $prefix . 'program_city_photo',
 		'type' => 'file',
+		'repeatable' => true,
   ) );
-     $program_details->add_field( array(
+  	$program_details->add_field( array(
 		'name' => 'Student Reviews',
 		'desc' => 'Student Reviews',
 		'id'   => $prefix . 'program_reviews',

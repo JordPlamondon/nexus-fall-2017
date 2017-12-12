@@ -164,17 +164,25 @@ get_header(); ?>
 					<div class="student-review__box">
 						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
 						alt="Picture of a Student">
-						<p class="student-review__info">
-						Thank you so much for your help! I couldn’t have done this trip without you.
-						</p>
+						<div class="student-review__info-wrapper">
+							<div class="grey"></div>
+							<p class="student-review__info">
+							<span class="oquote">“</span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote">”</span>
+							</p>
+						</div>
 					</div>
+
 					<div class="student-review__box">
 						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
 						alt="Picture of a Student">
-						<p class="student-review__info">
-						Thank you so much for your help! I couldn’t have done this trip without you.
-						</p>
+						<div class="student-review__info-wrapper">
+							<div class="grey"></div>
+							<p class="student-review__info">
+							<span class="oquote">“</span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote">”</span>
+							</p>
+						</div>
 					</div>
+
 				</div>
 			</section>
 			

@@ -3099,9 +3099,11 @@ nav.main-navigation:hover {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: start;
+        align-content: flex-start; }
   .page-template-archive-nexus_program .select-container, .page-template-archive-nexus_program .program-title {
     margin-right: 1.5rem; }
   .page-template-archive-nexus_program .select-form-wrapper {
@@ -3166,7 +3168,6 @@ nav.main-navigation:hover {
       margin-bottom: 34px;
       color: #898989; }
   .page-template-archive-nexus_program .program-container {
-    margin: 0 auto;
     max-width: 160px;
     text-decoration: none; }
     @media all and (min-width: 750px) {
@@ -3810,7 +3811,6 @@ div.hero-404 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 0;
   height: 100vw;
   width: 100%;
   max-height: 981px;
@@ -3881,4 +3881,4 @@ div.return-home {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0px 0 3rem 0; }
+  padding: 2rem 0 3rem 0; }

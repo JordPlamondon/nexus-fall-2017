@@ -62,7 +62,8 @@
     font-size: 18px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-content: flex-start;
   }
 
   .select-container, .program-title {
@@ -125,7 +126,6 @@
   }
 
   .program-container {
-    margin: 0 auto;
     max-width: 160px;
     text-decoration: none;
     @media #{$tablet} {

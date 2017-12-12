@@ -2220,6 +2220,9 @@ div.banner-faq-single {
   margin-bottom: 30px;
   width: 325px;
   height: 211.9px; }
+  @media all and (min-width: 550px) {
+    .nexus_faq-template-default .site-main .thumb {
+      margin: 50px; } }
 
 .nexus_faq-template-default .faq-homestay {
   height: 55px;
@@ -2237,6 +2240,10 @@ div.banner-faq-single {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   margin-top: 20px; }
+  @media all and (min-width: 550px) {
+    .nexus_faq-template-default .faq-homestay {
+      height: 89px;
+      margin-top: 30px; } }
   .nexus_faq-template-default .faq-homestay:hover {
     -webkit-transition: -webkit-box-shadow .2s;
     transition: -webkit-box-shadow .2s;
@@ -2248,10 +2255,18 @@ div.banner-faq-single {
   .nexus_faq-template-default .faq-homestay .faq-meta-title {
     margin: 15px;
     font-weight: 600; }
+    @media all and (min-width: 550px) {
+      .nexus_faq-template-default .faq-homestay .faq-meta-title {
+        font-size: 28px;
+        margin: 20px; } }
   .nexus_faq-template-default .faq-homestay .homestay-button {
     height: 55px;
     width: 53px;
     background-color: #E91C35; }
+    @media all and (min-width: 550px) {
+      .nexus_faq-template-default .faq-homestay .homestay-button {
+        height: 89px;
+        width: 89px; } }
     .nexus_faq-template-default .faq-homestay .homestay-button:hover {
       background: #bf1328; }
     .nexus_faq-template-default .faq-homestay .homestay-button .fa {
@@ -2260,6 +2275,10 @@ div.banner-faq-single {
       position: relative;
       bottom: 6px;
       right: 5.5px; }
+      @media all and (min-width: 550px) {
+        .nexus_faq-template-default .faq-homestay .homestay-button .fa {
+          bottom: 0;
+          right: 0; } }
 
 .nexus_faq-template-default .faq-meta-text {
   margin-left: 7vw;
@@ -2267,6 +2286,18 @@ div.banner-faq-single {
 
 .nexus_faq-template-default .faq-dropdown {
   display: none; }
+  @media all and (min-width: 550px) {
+    .nexus_faq-template-default .faq-dropdown {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: row-reverse;
+              flex-direction: row-reverse;
+      width: 92vw;
+      border: 1px solid #979797;
+      margin-left: 50px; } }
 
 .nexus_faq-template-default .visible {
   display: block; }
@@ -2741,27 +2772,45 @@ nav.main-navigation:hover {
   display: none; }
   @media all and (min-width: 750px) {
     .page-template-contact .desktop-contact-display {
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      font-size: 18px;
       display: block;
-      height: 695px;
+      height: 595px;
       width: 435px;
       background-color: #FFC54C;
       position: relative;
       bottom: 720px;
-      left: 80%; } }
+      left: 80%;
+      padding: 38px;
+      color: #122E3F; }
+      .page-template-contact .desktop-contact-display h2 {
+        font-size: 42px; }
+      .page-template-contact .desktop-contact-display i {
+        color: #E91C35;
+        font-size: 31px;
+        margin-right: 20px;
+        margin-bottom: 44px; }
+      .page-template-contact .desktop-contact-display .contact-address {
+        width: 300px;
+        display: inline-block;
+        margin-left: 14px; }
+      .page-template-contact .desktop-contact-display .contact-hours {
+        width: 300px;
+        display: inline-block; } }
 
 .page-template-contact .contact-form {
   padding-top: 24px;
   background-color: #F3F5F8; }
   @media all and (min-width: 750px) {
     .page-template-contact .contact-form {
-      width: 860px;
+      width: 70vw;
       height: 1000px;
       margin-left: 70px;
       margin-top: 64px; } }
   @media all and (min-width: 750px) {
     .page-template-contact .contact-form .wpcf7-form {
       position: relative;
-      right: 200px;
+      right: 25%;
       bottom: 12px; } }
   .page-template-contact .contact-form .wpcf7-form-control {
     height: 44px; }
@@ -2789,7 +2838,7 @@ nav.main-navigation:hover {
     @media all and (min-width: 750px) {
       .page-template-contact .contact-form h2.title {
         width: 300px;
-        margin-left: 62px;
+        margin-left: 20%;
         font-size: 50px;
         text-align: left; } }
   .page-template-contact .contact-form .contact-content {
@@ -2805,7 +2854,7 @@ nav.main-navigation:hover {
     bottom: 20px; }
     @media all and (min-width: 750px) {
       .page-template-contact .contact-form .underline {
-        right: 310px;
+        right: 20%;
         bottom: 34px;
         width: 109px; } }
 

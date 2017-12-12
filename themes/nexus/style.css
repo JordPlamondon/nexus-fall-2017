@@ -2686,6 +2686,10 @@ nav.main-navigation:hover {
           width: 144px;
           border-bottom-width: 6px; } }
   .page-template-archive-nexus_program .site-main {
+    overflow: auto;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
     padding-top: 0; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .site-main {
@@ -2700,9 +2704,9 @@ nav.main-navigation:hover {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
   .page-template-archive-nexus_program .select-container, .page-template-archive-nexus_program .program-title {
     margin-right: 1.5rem; }
   .page-template-archive-nexus_program .select-form-wrapper {

@@ -29,6 +29,7 @@
       @media #{$desktop} {
         height: 40vw;
         background-size: 100vw 40vw;
+        background-image: url('../../assets/images/home-hero-desktop.png');
         display: flex;
         flex-direction: column;
         justify-content: center;

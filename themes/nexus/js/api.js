@@ -22,16 +22,16 @@
           var programType = post['_nexus_program_type'];
           var link = api_vars.home_url + '/' + post['slug'];
         
-          if (post['featured_media']){
+          if (post['featured_media'] !== undefined){
             image = post['_embedded']['wp:featuredmedia'][0]['source_url'];
           }
           var article = '<article class=program-container "' + programContainer + '">';
           article += '<div class="program-link"><a href="' + link + '">'
           article += '<div class="program-image"><img src="' + image + '"></div>'
-          article += '<div class="program-school">' + school + '</div>'; 
-          article += '<div class="program-name">' + title + '</div>';
+          article += '<div class="program-school"><p>' + school + '</p></div>'; 
+          article += '<div class="program-name"><p>' + title + '</p></div>';
           for (var program in programType){
-            article += '<div class ="program-type">' + programType[program] + '</div>'
+            article += '<div class ="program-type"><p>' + programType[program] + '</p></div>'
           }
           article += '</a></div></article>'
 
@@ -61,8 +61,10 @@
     $('.hero-wrapper').removeClass('hidden');
     $('.program-title').addClass('hidden');
     $('.program-filter-submit').addClass('hidden');
-    $('.selectric-wrapper').addClass('select-searched');
+    $('.button-wrapper').addClass('hidden');
+    $('.select-container').addClass('select-container-searched');
     $('.select-form-wrapper').addClass('select-form-wrapper-searched');
+    $('.program-content').addClass('program-content-container');
     $('.program-content').css({
       'background-image': 'none',
       'min-height': 'none'

@@ -163,7 +163,7 @@ get_header(); ?>
 						Nexus has partnered up with over 100 different programs.
 						</p>
 	
-						<button class="choose-program__button">See Programs</button>
+					<a href="http://localhost:8888/nexus/wp-json/wp/v2/nexus_program/?_embed&filter[provinces]=alberta">	<button class="choose-program__button">See Programs</button></a>
 					</div>	
 				</div>
 			</section>

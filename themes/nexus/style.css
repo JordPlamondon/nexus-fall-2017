@@ -1141,25 +1141,28 @@ a {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      height: 300px;
+      height: 444px;
       margin-top: -200px;
-      background: url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-bc i {
     color: red;
-    font-size: 42px;
+    font-size: 66px;
     position: relative;
-    top: 70px;
-    right: 310px; }
+    top: 120px;
+    right: 398px; }
   .home .choose-wrapper-bc h2 {
     position: relative;
-    font-size: 32px;
-    letter-spacing: 3px;
+    font-size: 48px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    top: 120px;
-    right: 200px;
+    top: 200px;
+    right: 280px;
     width: 200px; }
   .home .choose-wrapper-bc p {
-    width: 500px; }
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-bc .choose-program {
       -ms-flex-preferred-size: 50%;
@@ -1179,10 +1182,12 @@ a {
           -ms-flex-align: center;
               align-items: center; }
       .home .choose-wrapper-bc .choose-program button {
-        width: 135px;
+        width: 205px;
         height: 40px;
+        margin-top: 24px;
         padding: 0;
-        font-size: 18px;
+        font-size: 22px;
+        font-weight: bold;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -1200,25 +1205,28 @@ a {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      height: 300px;
+      height: 444px;
       margin-top: -200px;
-      background: url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-ab i {
     color: red;
-    font-size: 42px;
+    font-size: 66px;
     position: relative;
-    top: 70px;
-    right: 310px; }
+    top: 120px;
+    right: 398px; }
   .home .choose-wrapper-ab h2 {
     position: relative;
-    font-size: 32px;
-    letter-spacing: 3px;
+    font-size: 48px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    top: 120px;
-    right: 200px;
+    top: 200px;
+    right: 280px;
     width: 200px; }
   .home .choose-wrapper-ab p {
-    width: 500px; }
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-ab .choose-program {
       -ms-flex-preferred-size: 50%;
@@ -1238,10 +1246,12 @@ a {
           -ms-flex-align: center;
               align-items: center; }
       .home .choose-wrapper-ab .choose-program button {
-        width: 135px;
+        width: 205px;
         height: 40px;
+        margin-top: 24px;
         padding: 0;
-        font-size: 18px;
+        font-size: 22px;
+        font-weight: bold;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -1259,25 +1269,28 @@ a {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      height: 300px;
+      height: 444px;
       margin-top: -200px;
-      background: url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-man i {
     color: red;
-    font-size: 42px;
+    font-size: 66px;
     position: relative;
-    top: 70px;
-    right: 310px; }
+    top: 120px;
+    right: 398px; }
   .home .choose-wrapper-man h2 {
     position: relative;
-    font-size: 32px;
-    letter-spacing: 3px;
+    font-size: 48px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    top: 120px;
-    right: 200px;
+    top: 200px;
+    right: 280px;
     width: 200px; }
   .home .choose-wrapper-man p {
-    width: 500px; }
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-man .choose-program {
       -ms-flex-preferred-size: 50%;
@@ -1297,10 +1310,12 @@ a {
           -ms-flex-align: center;
               align-items: center; }
       .home .choose-wrapper-man .choose-program button {
-        width: 135px;
+        width: 205px;
         height: 40px;
+        margin-top: 24px;
         padding: 0;
-        font-size: 18px;
+        font-size: 22px;
+        font-weight: bold;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -1318,25 +1333,28 @@ a {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      height: 300px;
+      height: 444px;
       margin-top: -200px;
-      background: url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-sk i {
     color: red;
-    font-size: 42px;
+    font-size: 66px;
     position: relative;
-    top: 70px;
-    right: 310px; }
+    top: 120px;
+    right: 398px; }
   .home .choose-wrapper-sk h2 {
     position: relative;
-    font-size: 32px;
-    letter-spacing: 3px;
+    font-size: 48px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    top: 120px;
-    right: 200px;
+    top: 200px;
+    right: 280px;
     width: 200px; }
   .home .choose-wrapper-sk p {
-    width: 500px; }
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-sk .choose-program {
       -ms-flex-preferred-size: 50%;
@@ -1356,10 +1374,12 @@ a {
           -ms-flex-align: center;
               align-items: center; }
       .home .choose-wrapper-sk .choose-program button {
-        width: 135px;
+        width: 205px;
         height: 40px;
+        margin-top: 24px;
         padding: 0;
-        font-size: 18px;
+        font-size: 22px;
+        font-weight: bold;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -1377,25 +1397,28 @@ a {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      height: 300px;
+      height: 444px;
       margin-top: -200px;
-      background: url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-on i {
     color: red;
-    font-size: 42px;
+    font-size: 66px;
     position: relative;
-    top: 70px;
-    right: 310px; }
+    top: 120px;
+    right: 398px; }
   .home .choose-wrapper-on h2 {
     position: relative;
-    font-size: 32px;
-    letter-spacing: 3px;
+    font-size: 48px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    top: 120px;
-    right: 200px;
+    top: 200px;
+    right: 280px;
     width: 200px; }
   .home .choose-wrapper-on p {
-    width: 500px; }
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-on .choose-program {
       -ms-flex-preferred-size: 50%;
@@ -1415,10 +1438,12 @@ a {
           -ms-flex-align: center;
               align-items: center; }
       .home .choose-wrapper-on .choose-program button {
-        width: 135px;
+        width: 205px;
         height: 40px;
+        margin-top: 24px;
         padding: 0;
-        font-size: 18px;
+        font-size: 22px;
+        font-weight: bold;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -1436,25 +1461,28 @@ a {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      height: 300px;
+      height: 444px;
       margin-top: -200px;
-      background: url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-qc i {
     color: red;
-    font-size: 42px;
+    font-size: 66px;
     position: relative;
-    top: 70px;
-    right: 310px; }
+    top: 120px;
+    right: 398px; }
   .home .choose-wrapper-qc h2 {
     position: relative;
-    font-size: 32px;
-    letter-spacing: 3px;
+    font-size: 48px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    top: 120px;
-    right: 200px;
+    top: 200px;
+    right: 280px;
     width: 200px; }
   .home .choose-wrapper-qc p {
-    width: 500px; }
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-qc .choose-program {
       -ms-flex-preferred-size: 50%;
@@ -1474,10 +1502,12 @@ a {
           -ms-flex-align: center;
               align-items: center; }
       .home .choose-wrapper-qc .choose-program button {
-        width: 135px;
+        width: 205px;
         height: 40px;
+        margin-top: 24px;
         padding: 0;
-        font-size: 18px;
+        font-size: 22px;
+        font-weight: bold;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -3876,3 +3906,34 @@ div.return-home {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 2rem 0 3rem 0; }
+
+.page-template-consult .consult-wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
+  height: 900px;
+  background-color: #FFD479;
+  margin-top: 60px; }
+  .page-template-consult .consult-wrapper h2 {
+    font-size: 46px; }
+
+.page-template-consult .consult-form {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: inline-block; }
+  .page-template-consult .consult-form input {
+    height: 44px;
+    width: 20vw;
+    display: inline-block; }
+  .page-template-consult .consult-form textarea {
+    width: 50vw; }

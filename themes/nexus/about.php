@@ -17,8 +17,13 @@ get_header(); ?>
           <div class="underline"></div>
         </div>
       </div>
-
+      
       <div class="mission-wrapper">
+      <?php while ( have_posts() ) : the_post(); ?>
+            <h2 class="title"> Send Us a Message</h2>
+            <div class="underline"></div>
+            <div class="contact-content">	<?php get_template_part( 'template-parts/content', 'page' ); ?>
+            <?php endwhile;  ?>
           <h2> Our Mission </h2>
             <div class="underline"></div>
              <p> All success stories have a common structure that helps dreams vecome reality. We believe that orientation, experience, and teamwork are the most powerful tools availale to achieve success. Our passion is to help every person learn to prepare a powerful action-plan and execute their life-changing journey of living in Canada effectively. </p>

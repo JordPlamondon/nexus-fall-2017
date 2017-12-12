@@ -4,49 +4,109 @@
     display: none;
     @media #{$desktop} {
       display: flex; 
-      height: 800px;
-      width: 1110px;
+      height: 800px;  
+      width: 1240px;
       margin: 0 auto;
+      margin-top: 44px;
       background: url('../../assets/images/map_nexus01@3x.png');
       background-size: contain;
       background-repeat: no-repeat;
+      .fa {
+        color:$color__quoteform-x; 
+      }
+      .fa:hover {
+        color: $color__icon-element;
+      }
       .bc {
         position: relative;
-         left: 120px;
-         top: 320px;
+         left: 130px;
+         top: 390px;
+         color:$color__quoteform-x;
       }
       .ab {
         position: relative;
-        left: 150px;
-        top: 300px; 
+        left: 190px;
+        top: 360px; 
       }
       .sk {
         position: relative;
-        left: 200px;
-        top: 330px;
+        left: 250px;
+        top: 370px;
+      }
+      .man {
+        position: relative;
+        left: 290px;
+        top: 430px;
+      }
+      .on {
+        position: relative;
+        left: 410px;
+        top: 420px;
+      }
+      .qc {
+        position: relative;
+        left: 500px;
+        top: 400px;
+      }
+      .bc:hover > .bc-text {
+          display: block;
+      }
+      .ab:hover > .ab-text {
+        display: block;
+      }
+      .sk:hover > .sk-text {
+       display: block;
+      }
+      .man:hover > .man-text {
+        display: block;
+      }
+      .on:hover > .on-text {
+        display: block;
+     }
+      .qc:hover > .qc-text {
+        display: block;
+    }
+      h3 {
+        display: none;
+        font-family: $font__main;
+        position: absolute;
+        font-size: 18px;
+        color: $color__footer-background;
+        z-index: 1;
       }
   }
  }
 
-// Choose province
+// Choose province header
   .choose-province {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 
-    .headergroup, &__info {
-      
+
+    &__info {
+      color: $color__footer-background;
+      position: relative;
+      left: 560px;
+      width: 220px;
+      top: 38px;
     }
 
     &__header {
+      color: $color__footer-background;
       font-family: $font__main;
       font-weight: bold;
+      position: relative;
+      font-size: 48px;
+      top: 38px;
+      left: 560px;
     }
-
     .underline {
-      margin: 0 auto; 
+      position: relative;
+      left: 560px;
+      width: 120px;
+      top: 38px;
     }
-
       button {
         width: 135px;
         height: 40px;
@@ -58,49 +118,341 @@
         color: $color__text-white;
       }
     }
-  }
-
-    .provinces {
-      height: 50vh;
+  
+// Province Display
+    
+// Choose BC
+  .choose-wrapper-bc {
+    display: none;
+    @media #{$desktop} {
       display: flex;
-      flex-direction: column;
-      justify-content: center
+      display: none;
+      justify-content: flex-end;
+      height:  300px;
+      margin-top: -200px;
+      background: url('../../assets/images/whycanada@3x.png');
     }
-
-      .provinces__province {
-        &__info-wrapper {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-
-          .headergroup {
-            grid-column: 1 / 2;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-          }
-
-          .province__info {
-            grid-column: 2 / 3;
-            margin-left: 2rem;
-            font-family: $font__main;
-            font-weight: bold;
-
-
-            .province__button { 
-              width: 135px;
-              height: 40px;
-              padding: 0;
-              border-radius: 25px 0px 25px 0px;
-              box-shadow: none;
-              text-shadow: none;
-              background: $color__icon-element;
-              color: $color__text-white;
-              font-family: $font__main;
-              font-weight: 900;
-              font-size: 18px;
-          }
-        }
+    i {
+      color: red;
+      font-size: 42px;
+      position: relative;
+      top: 70px;
+      right: 310px;
+    }
+    h2 {
+      position: relative;
+      font-size: 32px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      top: 120px;
+      right: 200px;
+      width: 200px;
+    }
+    p {
+      width: 500px;
+    }
+    .choose-program {
+      @media #{$desktop} {
+        flex-basis: 50%;
+        background: $color__info-main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      &__info-wrapper {        
+      }
+      button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: $color__text-white;
+      }
       }
     }
+  }
 
+// Choose Alberta
+  .choose-wrapper-ab {
+    display: none;
+    @media #{$desktop} {
+      display: flex;
+      display: none;
+      justify-content: flex-end;
+      height:  300px;
+      margin-top: -200px;
+      background: url('../../assets/images/whycanada@3x.png');
+    }
+    i {
+      color: red;
+      font-size: 42px;
+      position: relative;
+      top: 70px;
+      right: 310px;
+    }
+    h2 {
+      position: relative;
+      font-size: 32px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      top: 120px;
+      right: 200px;
+      width: 200px;
+    }
+    p {
+      width: 500px;
+    }
+    .choose-program {
+      @media #{$desktop} {
+        flex-basis: 50%;
+        background: $color__info-main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      &__info-wrapper {        
+      }
+      button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: $color__text-white;
+      }
+      }
+    }
+  }
+// Choose Manitoba
+  .choose-wrapper-man {
+    display: none;
+    @media #{$desktop} {
+      display: flex;
+      display: none;
+      justify-content: flex-end;
+      height:  300px;
+      margin-top: -200px;
+      background: url('../../assets/images/whycanada@3x.png');
+    }
+    i {
+      color: red;
+      font-size: 42px;
+      position: relative;
+      top: 70px;
+      right: 310px;
+    }
+    h2 {
+      position: relative;
+      font-size: 32px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      top: 120px;
+      right: 200px;
+      width: 200px;
+    }
+    p {
+      width: 500px;
+    }
+    .choose-program {
+      @media #{$desktop} {
+        flex-basis: 50%;
+        background: $color__info-main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      &__info-wrapper {        
+      }
+      button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: $color__text-white;
+      }
+      }
+    }
+  }
+// Choose Saskatchewan
+  .choose-wrapper-sk {
+    display: none;
+    @media #{$desktop} {
+      display: flex;
+      display: none;
+      justify-content: flex-end;
+      height:  300px;
+      margin-top: -200px;
+      background: url('../../assets/images/whycanada@3x.png');
+    }
+    i {
+      color: red;
+      font-size: 42px;
+      position: relative;
+      top: 70px;
+      right: 310px;
+    }
+    h2 {
+      position: relative;
+      font-size: 32px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      top: 120px;
+      right: 200px;
+      width: 200px;
+    }
+    p {
+      width: 500px;
+    }
+    .choose-program {
+      @media #{$desktop} {
+        flex-basis: 50%;
+        background: $color__info-main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      &__info-wrapper {        
+      }
+      button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: $color__text-white;
+      }
+      }
+    }
+  }
+// Choose Ontario
+  .choose-wrapper-on {
+    display: none;
+    @media #{$desktop} {
+      display: flex;
+      display: none;
+      justify-content: flex-end;
+      height:  300px;
+      margin-top: -200px;
+      background: url('../../assets/images/whycanada@3x.png');
+    }
+    i {
+      color: red;
+      font-size: 42px;
+      position: relative;
+      top: 70px;
+      right: 310px;
+    }
+    h2 {
+      position: relative;
+      font-size: 32px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      top: 120px;
+      right: 200px;
+      width: 200px;
+    }
+    p {
+      width: 500px;
+    }
+    .choose-program {
+      @media #{$desktop} {
+        flex-basis: 50%;
+        background: $color__info-main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      &__info-wrapper {        
+      }
+      button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: $color__text-white;
+      }
+      }
+    }
+  }
+// Choose Quebec
+  .choose-wrapper-qc {
+    display: none;
+    @media #{$desktop} {
+      display: flex;
+      display: none;
+      justify-content: flex-end;
+      height:  300px;
+      margin-top: -200px;
+      background: url('../../assets/images/whycanada@3x.png');
+    }
+    i {
+      color: red;
+      font-size: 42px;
+      position: relative;
+      top: 70px;
+      right: 310px;
+    }
+    h2 {
+      position: relative;
+      font-size: 32px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      top: 120px;
+      right: 200px;
+      width: 200px;
+    }
+    p {
+      width: 500px;
+    }
+    .choose-program {
+      @media #{$desktop} {
+        flex-basis: 50%;
+        background: $color__info-main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      &__info-wrapper {        
+      }
+      button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: $color__text-white;
+      }
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+}

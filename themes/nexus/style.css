@@ -1001,23 +1001,60 @@ a {
       display: -ms-flexbox;
       display: flex;
       height: 800px;
-      width: 1110px;
+      width: 1240px;
       margin: 0 auto;
+      margin-top: 44px;
       background: url("../../assets/images/map_nexus01@3x.png");
       background-size: contain;
       background-repeat: no-repeat; }
+      .home .choose-province-wrapper .fa {
+        color: #8C8C8C; }
+      .home .choose-province-wrapper .fa:hover {
+        color: #E91C35; }
       .home .choose-province-wrapper .bc {
         position: relative;
-        left: 120px;
-        top: 320px; }
+        left: 130px;
+        top: 390px;
+        color: #8C8C8C; }
       .home .choose-province-wrapper .ab {
         position: relative;
-        left: 150px;
-        top: 300px; }
+        left: 190px;
+        top: 360px; }
       .home .choose-province-wrapper .sk {
         position: relative;
-        left: 200px;
-        top: 330px; } }
+        left: 250px;
+        top: 370px; }
+      .home .choose-province-wrapper .man {
+        position: relative;
+        left: 290px;
+        top: 430px; }
+      .home .choose-province-wrapper .on {
+        position: relative;
+        left: 410px;
+        top: 420px; }
+      .home .choose-province-wrapper .qc {
+        position: relative;
+        left: 500px;
+        top: 400px; }
+      .home .choose-province-wrapper .bc:hover > .bc-text {
+        display: block; }
+      .home .choose-province-wrapper .ab:hover > .ab-text {
+        display: block; }
+      .home .choose-province-wrapper .sk:hover > .sk-text {
+        display: block; }
+      .home .choose-province-wrapper .man:hover > .man-text {
+        display: block; }
+      .home .choose-province-wrapper .on:hover > .on-text {
+        display: block; }
+      .home .choose-province-wrapper .qc:hover > .qc-text {
+        display: block; }
+      .home .choose-province-wrapper h3 {
+        display: none;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        position: absolute;
+        font-size: 18px;
+        color: #15405A;
+        z-index: 1; } }
 
 .home .choose-province {
   display: -webkit-box;
@@ -1030,11 +1067,25 @@ a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start; }
+  .home .choose-province__info {
+    color: #15405A;
+    position: relative;
+    left: 560px;
+    width: 220px;
+    top: 38px; }
   .home .choose-province__header {
+    color: #15405A;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    position: relative;
+    font-size: 48px;
+    top: 38px;
+    left: 560px; }
   .home .choose-province .underline {
-    margin: 0 auto; }
+    position: relative;
+    left: 560px;
+    width: 120px;
+    top: 38px; }
   .home .choose-province button {
     width: 135px;
     height: 40px;
@@ -1046,55 +1097,365 @@ a {
     background: #E91C35;
     color: #FFFFFF; }
 
-.provinces {
-  height: 50vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+.home .choose-wrapper-bc {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-bc {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: none;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 300px;
+      margin-top: -200px;
+      background: url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-bc i {
+    color: red;
+    font-size: 42px;
+    position: relative;
+    top: 70px;
+    right: 310px; }
+  .home .choose-wrapper-bc h2 {
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    top: 120px;
+    right: 200px;
+    width: 200px; }
+  .home .choose-wrapper-bc p {
+    width: 500px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-bc .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-bc .choose-program button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
 
-.provinces__province__info-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
-  .provinces__province__info-wrapper .headergroup {
-    grid-column: 1 / 2;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-  .provinces__province__info-wrapper .province__info {
-    grid-column: 2 / 3;
-    margin-left: 2rem;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: bold; }
-    .provinces__province__info-wrapper .province__info .province__button {
-      width: 135px;
-      height: 40px;
-      padding: 0;
-      border-radius: 25px 0px 25px 0px;
-      -webkit-box-shadow: none;
-              box-shadow: none;
-      text-shadow: none;
-      background: #E91C35;
-      color: #FFFFFF;
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
-      font-weight: 900;
-      font-size: 18px; }
+.home .choose-wrapper-ab {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-ab {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: none;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 300px;
+      margin-top: -200px;
+      background: url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-ab i {
+    color: red;
+    font-size: 42px;
+    position: relative;
+    top: 70px;
+    right: 310px; }
+  .home .choose-wrapper-ab h2 {
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    top: 120px;
+    right: 200px;
+    width: 200px; }
+  .home .choose-wrapper-ab p {
+    width: 500px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-ab .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-ab .choose-program button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
+
+.home .choose-wrapper-man {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-man {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: none;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 300px;
+      margin-top: -200px;
+      background: url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-man i {
+    color: red;
+    font-size: 42px;
+    position: relative;
+    top: 70px;
+    right: 310px; }
+  .home .choose-wrapper-man h2 {
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    top: 120px;
+    right: 200px;
+    width: 200px; }
+  .home .choose-wrapper-man p {
+    width: 500px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-man .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-man .choose-program button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
+
+.home .choose-wrapper-sk {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-sk {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: none;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 300px;
+      margin-top: -200px;
+      background: url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-sk i {
+    color: red;
+    font-size: 42px;
+    position: relative;
+    top: 70px;
+    right: 310px; }
+  .home .choose-wrapper-sk h2 {
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    top: 120px;
+    right: 200px;
+    width: 200px; }
+  .home .choose-wrapper-sk p {
+    width: 500px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-sk .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-sk .choose-program button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
+
+.home .choose-wrapper-on {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-on {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: none;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 300px;
+      margin-top: -200px;
+      background: url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-on i {
+    color: red;
+    font-size: 42px;
+    position: relative;
+    top: 70px;
+    right: 310px; }
+  .home .choose-wrapper-on h2 {
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    top: 120px;
+    right: 200px;
+    width: 200px; }
+  .home .choose-wrapper-on p {
+    width: 500px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-on .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-on .choose-program button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
+
+.home .choose-wrapper-qc {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-qc {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: none;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 300px;
+      margin-top: -200px;
+      background: url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-qc i {
+    color: red;
+    font-size: 42px;
+    position: relative;
+    top: 70px;
+    right: 310px; }
+  .home .choose-wrapper-qc h2 {
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    top: 120px;
+    right: 200px;
+    width: 200px; }
+  .home .choose-wrapper-qc p {
+    width: 500px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-qc .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-qc .choose-program button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
 
 @media all and (min-width: 960px) {
   .home .why-canada {

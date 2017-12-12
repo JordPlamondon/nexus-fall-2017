@@ -1435,7 +1435,7 @@ body.page-template-archive-nexus_program main {
       font-weight: bold;
       text-align: right; }
     .page-template-about .about-wrapper .about-left img {
-      width: 40%; }
+      width: 50%; }
     .page-template-about .about-wrapper .about-left p {
       font-size: 14px;
       width: 45%;
@@ -1575,20 +1575,19 @@ body.page-template-archive-nexus_program main {
 .about-right img.path-img-right {
   height: 130px;
   position: relative;
-  width: 55%;
+  min-width: 140px;
   left: 90px;
   z-index: 1;
-  bottom: 60px;
-  min-width: 140px; }
+  bottom: 80px;
+  width: 50%; }
 
 .about-left img.path-img-left {
   height: 130px;
   min-width: 140px;
-  width: 55%;
   position: relative;
   left: 80px;
   z-index: 1;
-  bottom: 60px; }
+  bottom: 80px; }
 
 /*--------------------------------------------------------------
 # Footer

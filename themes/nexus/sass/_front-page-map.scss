@@ -1,18 +1,34 @@
 .home {
-
+// Map Icons
   .choose-province-wrapper {
     display: none;
     @media #{$desktop} {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-end;
-      height: 100vh;
+      display: flex; 
+      height: 800px;
+      width: 1110px;
+      margin: 0 auto;
       background: url('../../assets/images/map_nexus01@3x.png');
       background-size: contain;
       background-repeat: no-repeat;
+      .bc {
+        position: relative;
+         left: 120px;
+         top: 320px;
+      }
+      .ab {
+        position: relative;
+        left: 150px;
+        top: 300px; 
+      }
+      .sk {
+        position: relative;
+        left: 200px;
+        top: 330px;
+      }
   }
-  
+ }
+
+// Choose province
   .choose-province {
     display: flex;
     flex-direction: column;
@@ -87,4 +103,4 @@
         }
       }
     }
-}
+

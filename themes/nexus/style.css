@@ -998,48 +998,53 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start;
-      -webkit-box-align: end;
-          -ms-flex-align: end;
-              align-items: flex-end;
-      height: 100vh;
+      height: 800px;
+      width: 1110px;
+      margin: 0 auto;
       background: url("../../assets/images/map_nexus01@3x.png");
       background-size: contain;
-      background-repeat: no-repeat; } }
-  .home .choose-province-wrapper .choose-province {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start; }
-    .home .choose-province-wrapper .choose-province__header {
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
-      font-weight: bold; }
-    .home .choose-province-wrapper .choose-province .underline {
-      margin: 0 auto; }
-    .home .choose-province-wrapper .choose-province button {
-      width: 135px;
-      height: 40px;
-      padding: 0;
-      border-radius: 25px 0px 25px 0px;
-      -webkit-box-shadow: none;
-              box-shadow: none;
-      text-shadow: none;
-      background: #E91C35;
-      color: #FFFFFF; }
+      background-repeat: no-repeat; }
+      .home .choose-province-wrapper .bc {
+        position: relative;
+        left: 120px;
+        top: 320px; }
+      .home .choose-province-wrapper .ab {
+        position: relative;
+        left: 150px;
+        top: 300px; }
+      .home .choose-province-wrapper .sk {
+        position: relative;
+        left: 200px;
+        top: 330px; } }
 
-.home .provinces {
+.home .choose-province {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  .home .choose-province__header {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold; }
+  .home .choose-province .underline {
+    margin: 0 auto; }
+  .home .choose-province button {
+    width: 135px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    background: #E91C35;
+    color: #FFFFFF; }
+
+.provinces {
   height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1052,10 +1057,10 @@ a {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.home .provinces__province__info-wrapper {
+.provinces__province__info-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr; }
-  .home .provinces__province__info-wrapper .headergroup {
+  .provinces__province__info-wrapper .headergroup {
     grid-column: 1 / 2;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1070,12 +1075,12 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  .home .provinces__province__info-wrapper .province__info {
+  .provinces__province__info-wrapper .province__info {
     grid-column: 2 / 3;
     margin-left: 2rem;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bold; }
-    .home .provinces__province__info-wrapper .province__info .province__button {
+    .provinces__province__info-wrapper .province__info .province__button {
       width: 135px;
       height: 40px;
       padding: 0;

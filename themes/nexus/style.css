@@ -1322,7 +1322,8 @@ body.page-template-archive-nexus_program main {
     width: 100vw;
     min-width: 350px;
     background-image: url("../../assets/images/blog@3x.png");
-    background-size: cover; }
+    background-size: cover;
+    background-position: bottom; }
   .page-template-about .hero-wrapper .underline {
     margin: 0 auto;
     width: 49px;
@@ -2563,7 +2564,7 @@ nav.main-navigation:hover {
 
 .page-template-archive-nexus_program .hero-wrapper {
   width: 100vw; }
-  @media all and (min-width: 550px) {
+  @media all and (min-width: 750px) {
     .page-template-archive-nexus_program .hero-wrapper {
       padding-top: 65px; } }
   .page-template-archive-nexus_program .hero-wrapper h1 {
@@ -2590,7 +2591,7 @@ nav.main-navigation:hover {
 
 .page-template-archive-nexus_program .site-main {
   padding-top: 0; }
-  @media all and (min-width: 550px) {
+  @media all and (min-width: 750px) {
     .page-template-archive-nexus_program .site-main {
       padding-top: 65px; } }
 
@@ -2611,7 +2612,7 @@ nav.main-navigation:hover {
 
 .page-template-archive-nexus_program .select-searched {
   max-width: 125px; }
-  @media all and (min-width: 550px) {
+  @media all and (min-width: 750px) {
     .page-template-archive-nexus_program .select-searched {
       max-width: 300px; } }
 
@@ -2630,7 +2631,7 @@ nav.main-navigation:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media all and (min-width: 550px) {
+  @media all and (min-width: 750px) {
     .page-template-archive-nexus_program .select-form-wrapper {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;

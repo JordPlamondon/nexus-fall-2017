@@ -3,7 +3,7 @@
 
  .hero-wrapper {
    width: 100vw;
-   @media #{$desktop} {
+   @media #{$tablet} {
      padding-top: 65px;
    }
    h1 {
@@ -35,7 +35,7 @@
 
 .site-main{
   padding-top: 0;
-  @media #{$desktop} {
+  @media #{$tablet} {
     padding-top: 65px;
   }
 }
@@ -54,7 +54,7 @@
 
 .select-searched {
   max-width: 125px;
-  @media #{$desktop} {
+  @media #{$tablet} {
     max-width: 300px;
   }
 }
@@ -65,7 +65,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  @media #{$desktop} {
+  @media #{$tablet} {
     flex-direction: row;
     justify-content: flex-start;
     max-width: 750px;

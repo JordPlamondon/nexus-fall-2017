@@ -54,6 +54,7 @@ foreach ( (array) $entries as $key => $entry ) {
 	</div>
 
 	<div id="dropdown" class="faq-dropdown">
+		<div class="faq-dropdown-info">
 
 		<!-- description -->
 		<?php
@@ -72,6 +73,7 @@ foreach ( (array) $entries as $key => $entry ) {
 			) ); 
 		} ?>
 		<?php echo $img; ?>
+		</div>
 	</div>
 <?php
 }

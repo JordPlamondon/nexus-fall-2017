@@ -2625,18 +2625,30 @@ nav.main-navigation:hover {
   padding-top: 65px; }
   .page-template-archive-nexus_program .hero-wrapper {
     width: 100vw; }
-    @media all and (min-width: 750px) {
-      .page-template-archive-nexus_program .hero-wrapper {
-        padding-top: 65px; } }
     .page-template-archive-nexus_program .hero-wrapper h1 {
+      margin: 0;
       text-align: center;
       color: #15405A;
       font-size: 30px;
       text-transform: uppercase;
-      font-weight: 900;
-      position: relative;
-      top: 50px; }
+      font-weight: 900; }
+      @media all and (min-width: 750px) {
+        .page-template-archive-nexus_program .hero-wrapper h1 {
+          font-size: 70px; } }
     .page-template-archive-nexus_program .hero-wrapper .hero-image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       height: 50vh;
       width: 100vw;
       min-width: 350px;
@@ -2647,9 +2659,10 @@ nav.main-navigation:hover {
       margin: 0 auto;
       width: 49px;
       text-align: center;
-      border-bottom: 3px solid #FF8A2A;
-      position: relative;
-      bottom: 24px; }
+      border-bottom: 3px solid #FF8A2A; }
+      @media all and (min-width: 750px) {
+        .page-template-archive-nexus_program .hero-wrapper .underline {
+          width: 144px; } }
   .page-template-archive-nexus_program .site-main {
     padding-top: 0; }
     @media all and (min-width: 750px) {

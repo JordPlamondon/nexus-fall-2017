@@ -2,20 +2,25 @@
 .page-template-archive-nexus_program {
   padding-top: 65px;
  .hero-wrapper {
+   
    width: 100vw;
-   @media #{$tablet} {
-     padding-top: 65px;
-   }
    h1 {
+     margin: 0;
      text-align: center;
      color: $color__footer-background;
      font-size: 30px;
      text-transform: uppercase;
      font-weight: 900;
-     position: relative;
-     top: 50px;
+    
+     @media #{$tablet} {
+       font-size: 70px;
+     }
    }
    .hero-image {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
      height: 50vh;
      width: 100vw;
      min-width: 350px;
@@ -28,8 +33,9 @@
      width: 49px;
      text-align: center;
      border-bottom: 3px solid $color__accent-underline;
-     position: relative;
-     bottom: 24px;
+     @media #{$tablet} {
+       width: 144px;
+     }
    }
  }
 

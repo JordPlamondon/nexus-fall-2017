@@ -272,17 +272,27 @@
         }
         
         .student-review__info-wrapper {
+          background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
+          background-repeat: no-repeat;
+          background-position: top left, bottom right;
+          background-color: $color__textbox-background;
           margin-top: 0;
           width: 100%;
           padding: 39px 30px 22px 48px;
           font-weight: bold;
           font-size: 4vw;
-          background: $color__textbox-background;
+          
           position: relative;
           @media #{$desktop} {
             margin: 0;
             font-size: 3vw;
             flex-basis: 80%;
+          }
+
+          .student-review__info {
+            @media #{$desktop} {
+            padding: 15px 20px 15px 45px;
+            }
           }
           
           .grey {
@@ -301,31 +311,6 @@
               height: 30px;
               position: relative;
               width: 30px;
-            }
-          }
-
-          .oquote {
-            color:$color__fp_quotes;
-            font-size: 30vw;
-            font-weight: normal;
-            font-family: $font__accent;
-            position: absolute;
-            left: 1rem;
-            top: -1rem;    
-            @media #{$desktop} {
-            }
-          }
-    
-          .cquote {
-            
-            color: $color__fp_quotes;
-            font-size: 30vw;
-            font-weight: normal;
-            font-family: $font__accent;
-            position: absolute;
-            bottom: -4rem;
-            right: 1rem;
-            @media #{$desktop} {
             }
           }
         }

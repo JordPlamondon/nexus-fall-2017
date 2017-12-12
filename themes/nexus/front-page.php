@@ -247,9 +247,9 @@ get_header(); ?>
 						alt="Picture of a Student">
 						<div class="student-review__info-wrapper">
 							<div class="grey"></div>
-							<p class="student-review__info">
-							<span class="oquote">“</span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote">”</span>
-							</p>
+							<blockquote class="student-review__info">
+							<span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
+							</blockquote>
 						</div>
 					</div>
 
@@ -258,9 +258,9 @@ get_header(); ?>
 						alt="Picture of a Student">
 						<div class="student-review__info-wrapper">
 							<div class="grey"></div>
-							<p class="student-review__info">
-							<span class="oquote">“</span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote">”</span>
-							</p>
+							<blockquote class="student-review__info">
+							<span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
+							</blockquote>
 						</div>
 					</div>
 

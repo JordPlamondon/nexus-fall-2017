@@ -105,11 +105,20 @@ get_header(); ?>
 				blablabla blabl abla bl ab lablabl ablabla blabla bla b l ablablabl ablabla blablabla.
 				</p>
 			</section>
-
+<!-- Province Icons -->
 			<section class="choose-province-wrapper">
-				<i class="bc fa fa-map-marker fa-4x"></i>
-				<i class="ab fa fa-map-marker fa-4x"></i>
-				<i class="sk fa fa-map-marker fa-4x"></i>
+				<i class="bc fa fa-map-marker fa-4x">	<h3 class="show bc-text">British Columbia</h3></i>
+				
+				<i class="ab fa fa-map-marker fa-4x"><h3 class="ab-text">Alberta</h3></i>
+				
+				<i class="sk fa fa-map-marker fa-4x"><h3 class="sk-text">Saskatchewan</h3>	</i>
+					
+				<i class="man fa fa-map-marker fa-4x">	<h3 class="man-text">Manitoba</h3></i>
+				
+				<i class="on fa fa-map-marker fa-4x">	<h3 class="on-text">Ontario</h3></i>
+				
+				<i class="qc fa fa-map-marker fa-4x">	<h3 class="qc-text">Quebec</h3></i>
+				
 				<div class="choose-province">
 					<div class="headergroup">
 						<h2 class="choose-province__header">Choose a Province</h2>
@@ -117,43 +126,115 @@ get_header(); ?>
 					</div>
 					<p class="choose-province__info">
 						Fusce tempor felis lacus, a hendrerit urna facilisis at. 
-					</p>
-					<!-- <button class="choose-province__button">About Us</button> -->
+					</p>						
 				</div>
 			</section>
 				
-				<section class="provinces">
+<!-- Individual Province -->
+	<section class="choose-wrapper-bc">
+	<h2 class="choose-program__header">British Columbia</h2>
+	<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<div class="choose-program">
+					<div class="choose-program__info-wrapper">
+						<div class="headergroup">				
+						</div>
+						<p class="choose-program__info">
+						Nexus has partnered up with over 100 different programs.			Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						</p>
+						<button class="choose-program__button">See Programs</button>
+					</div>	
+				</div>
+			</section>
+			<section class="choose-wrapper-ab">
+	<h2 class="choose-program__header">Alberta</h2>
+	<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<div class="choose-program">
+					<div class="choose-program__info-wrapper">
+						<div class="headergroup">				
+						</div>
+						<p class="choose-program__info">
+						Nexus has partnered up with over 100 different programs.			Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						</p>
+						<button class="choose-program__button">See Programs</button>
+					</div>	
+				</div>
+			</section>
+			<section class="choose-wrapper-sk">
+	<h2 class="choose-program__header">Saskatchewan</h2>
+	<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<div class="choose-program">
+					<div class="choose-program__info-wrapper">
+						<div class="headergroup">				
+						</div>
+						<p class="choose-program__info">
+						Nexus has partnered up with over 100 different programs.			Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						</p>
 
-					<!-- Individual Province -->
-					<div class="provinces__province" >					
-						<div class="provinces__province__info-wrapper">
-							<div class="headergroup">
-								<h2 class="province__header">British Columbia</h2>
-								<div class="underline"></div>
-							</div>
-							<div class="province__info">
-								<p>BC has weed and some other things. </p>
-								<button class="province__button">See Programs</button>
-							</div>
-						</div>	
-					</div>
+						<button class="choose-program__button">See Programs</button>
+					</div>	
+				</div>
+			</section>
+			<section class="choose-wrapper-man">
+	<h2 class="choose-program__header">Manitoba</h2>
+	<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<div class="choose-program">
+					<div class="choose-program__info-wrapper">
+						<div class="headergroup">				
+						</div>
+						<p class="choose-program__info">
+						Nexus has partnered up with over 100 different programs.			Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						</p>
 
-					<!-- Individual Province -->
-					<!-- <div class="provinces__province">				
-						<div class="provinces__province__info-wrapper">
-							<div class="headergroup">
-								<h2 class="province__header">Alberta</h2>
-								<div class="underline"></div>
-							</div>
-							<div class="province__info">
-								<p>Alberta has oil and some other things. </p>
-								<button class="province__info__button">See Programs</button>
-							</div>
-						</div>	
-					</div> -->
+						<button class="choose-program__button">See Programs</button>
+					</div>	
+				</div>
+			</section>
+			<section class="choose-wrapper-on">
+	<h2 class="choose-program__header">Ontario</h2>
+	<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<div class="choose-program">
+					<div class="choose-program__info-wrapper">
+						<div class="headergroup">				
+						</div>
+						<p class="choose-program__info">
+						Nexus has partnered up with over 100 different programs.			Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						</p>
 
-				</section>
+						<button class="choose-program__button">See Programs</button>
+					</div>	
+				</div>
+			</section>
+			<section class="choose-wrapper-qc">
+	<h2 class="choose-program__header">Quebec</h2>
+	<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<div class="choose-program">
+					<div class="choose-program__info-wrapper">
+						<div class="headergroup">				
+						</div>
+						<p class="choose-program__info">
+						Nexus has partnered up with over 100 different programs.			Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						Nexus has partnered up with over 100 different programs.
+						</p>
+						<button class="choose-program__button">See Programs</button>
+					</div>	
+				</div>
+			</section>
 
+
+				
+
+<!-- Student Review -->
 
 			<section class="student-review">
 				<div class="headergroup">
@@ -164,17 +245,25 @@ get_header(); ?>
 					<div class="student-review__box">
 						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
 						alt="Picture of a Student">
-						<p class="student-review__info">
-						Thank you so much for your help! I couldn’t have done this trip without you.
-						</p>
+						<div class="student-review__info-wrapper">
+							<div class="grey"></div>
+							<p class="student-review__info">
+							<span class="oquote">“</span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote">”</span>
+							</p>
+						</div>
 					</div>
+
 					<div class="student-review__box">
 						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
 						alt="Picture of a Student">
-						<p class="student-review__info">
-						Thank you so much for your help! I couldn’t have done this trip without you.
-						</p>
+						<div class="student-review__info-wrapper">
+							<div class="grey"></div>
+							<p class="student-review__info">
+							<span class="oquote">“</span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote">”</span>
+							</p>
+						</div>
 					</div>
+
 				</div>
 			</section>
 			

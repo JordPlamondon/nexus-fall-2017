@@ -34,12 +34,12 @@
 				<h2>Contact Us</h2>
 				<div class="underline footer"></div>
         <div class="widget_info_contain one">
-          <div class="widget_fa"><i class="fa fa-map-marker hide-here" aria-hidden="true"></i></div>
+          <div class="widget_fa"><i class="fa fa-map-marker fa-2x hide-here" aria-hidden="true"></i></div>
           <p>119-970 Burrard St.<br>Vancouver, BC V6Z 2R4</p>
 				</div> <!-- widget_info_contain -->
 				<div class="footer__office">
 					<div class="widget_info_contain">
-						<div class="widget_fa"> <i class="fa fa-hourglass-end hide-here"></i></div>
+						<div class="widget_fa"> <i class="fa fa-hourglass-end fa-2x hide-here"></i></div>
 						<p class="footer__office--hours">Office Hours: Monday-Friday, 9am - 5pm PST</p>
 					</div> <!-- widget_info_contain -->
 				</div> <!-- footer__office -->      
@@ -47,7 +47,7 @@
 
       <div class="footer__office">
 				<div class="widget_info_contain">
-          <div class="widget_fa"><i class="fa fa-phone hide-here"></i></div>
+          <div class="widget_fa"><i class="fa fa-phone fa-2x hide-here"></i></div>
           <a href="tel:6042886787">604 288 6787</a>
         </div> <!-- widget_info_contain -->      
       </div> <!-- footer__office -->

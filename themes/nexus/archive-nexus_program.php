@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<div class="hidden hero-wrapper">
 				 <div class="hero-image">
-          <h1 class="about-title"> Programs <h1>
+          <h1 class="about-title"> Programs </h1>
           <div class="underline"></div>
 				</div>
 			</div>
@@ -22,6 +22,7 @@ get_header(); ?>
 					<div class="program-title-wrapper">
 						<h1 class="program-title"> I Want To Study: </h1>
 					</div>
+					<div class="select-container">	
 					<?php
 						if( $terms = get_terms( array(
 											'taxonomy' => 'program_type',
@@ -34,9 +35,9 @@ get_header(); ?>
 							echo '</select>';
 						endif;
 					?>
-
+					</div>
 						<h2 class="program-title"> In </h2>
-
+						<div class="select-container">	
 						<?php
 						if( $terms = get_terms( array(
 													'taxonomy' => 'provinces', 
@@ -48,6 +49,7 @@ get_header(); ?>
 								echo '</select>';
 						endif;
 						?>
+						</div>
 						<div class="button-wrapper">
 							<button class="program-filter-submit want-to">Explore</button>
 						</div>

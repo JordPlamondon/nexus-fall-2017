@@ -1,6 +1,6 @@
 // Archives
 .page-template-archive-nexus_program {
-
+  padding-top: 65px;
  .hero-wrapper {
    width: 100vw;
    @media #{$tablet} {
@@ -21,6 +21,7 @@
      min-width: 350px;
      background-image: url("../../assets/images/blog@3x.png");
      background-size: cover;
+     background-position: bottom;
    }
    .underline {
      margin: 0 auto;
@@ -48,15 +49,8 @@
   justify-content: space-between;
 }
 
-.selectric-wrapper, .program-title {
+.select-container, .program-title {
   margin-right: 1.5rem;
-}
-
-.select-searched {
-  max-width: 125px;
-  @media #{$tablet} {
-    max-width: 300px;
-  }
 }
 
 .select-form-wrapper {
@@ -83,11 +77,10 @@
 }
 
 .program-container {
-  border: 1px solid #000;
-  text-align: center;
   margin: 0 auto;
   max-width: 150px;
-  @media #{$desktop} {
+  text-decoration: none;
+  @media #{$tablet} {
     max-width: 320px;
   }
 }
@@ -97,7 +90,7 @@
   background-position: bottom;
   height: 100vh;
   min-height: 600px;
-  @media #{$desktop} {
+  @media #{$tablet} {
     background-image: url("../../assets/images/program-background-image.png");
   }
 
@@ -115,6 +108,7 @@
     justify-content: center;
     align-items: center;
     height: 15vw;
+    margin-bottom: 0.75rem;
     img{
       max-width: none;
       width: auto;
@@ -122,7 +116,7 @@
   }
 
   .program-title-wrapper {
-      @media #{$desktop} {
+      @media #{$tablet} {
         flex-basis: 100%;
       }
   }
@@ -131,7 +125,7 @@
     color: $color__footer-background;
     text-align: center;
     margin-bottom: 34px;
-    @media #{$desktop} {
+    @media #{$tablet} {
       text-align: left;
       font-size: 4rem;
       margin-top: 0;
@@ -140,8 +134,28 @@
     }
   }
 
+  .program-school {
+    margin-top: 22px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+  }
+
+  .program-name {
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif;
+    font-size: 1.68rem;
+  }
+  .program-name, .program-school, .program-type {
+    line-height: 2rem;
+    p {
+      margin: 0;
+    }
+  }
+
   .button-wrapper {
-    @media #{$desktop} {
+    @media #{$tablet} {
       flex-basis: 100%;
     }
   }

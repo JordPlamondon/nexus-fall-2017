@@ -3294,7 +3294,7 @@ section.error-404.not-found p {
 .home-button {
   height: 55px;
   width: 272px;
-  border-radius: 100px 2px 100px 2px;
+  border-radius: 2px 100px 2px 100px;
   background-color: #E91C35;
   color: #FFFFFF;
   font-family: "Roboto", Arial, Helvetica, sans-serif;

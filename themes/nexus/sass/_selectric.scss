@@ -5,12 +5,17 @@
 .selectric-wrapper {
   position: relative;
   cursor: pointer;
-  width: 270px;
-  @media #{$desktop} {
+  width: 100%;
+  @media #{$tablet} {
     padding: 15px 0;
-    width: 40%;
-    max-width: 370px;
     height: 65px;
+  }
+}
+
+.select-container {
+  width: 125px;
+  @media #{$tablet} {
+    width: 220px;
   }
 }
 
@@ -36,7 +41,7 @@
   line-height: 2rem;
   color: $color__text-main;
   height: 38px;
-  @media #{$desktop} {
+  @media #{$tablet} {
     font-size: 25px;
   }
 }

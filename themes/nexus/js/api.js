@@ -28,10 +28,10 @@
           var article = '<article class=program-container "' + programContainer + '">';
           article += '<div class="program-link"><a href="' + link + '">'
           article += '<div class="program-image"><img src="' + image + '"></div>'
-          article += '<div class="program-school">' + school + '</div>'; 
-          article += '<div class="program-name">' + title + '</div>';
+          article += '<div class="program-school"><p>' + school + '</p></div>'; 
+          article += '<div class="program-name"><p>' + title + '</p></div>';
           for (var program in programType){
-            article += '<div class ="program-type">' + programType[program] + '</div>'
+            article += '<div class ="program-type"><p>' + programType[program] + '</p></div>'
           }
           article += '</a></div></article>'
 
@@ -61,7 +61,9 @@
     $('.hero-wrapper').removeClass('hidden');
     $('.program-title').addClass('hidden');
     $('.program-filter-submit').addClass('hidden');
-    $('.selectric-wrapper').addClass('select-searched');
+    $('.selectric-container').css({
+      'max-width': '125px'
+    });
     $('.select-form-wrapper').addClass('select-form-wrapper-searched');
     $('.program-content').css({
       'background-image': 'none',

@@ -107,17 +107,53 @@ get_header(); ?>
 			</section>
 
 			<section class="choose-province-wrapper">
+				<i class="bc fa fa-map-marker fa-4x"></i>
+				<i class="ab fa fa-map-marker fa-4x"></i>
+				<i class="sk fa fa-map-marker fa-4x"></i>
 				<div class="choose-province">
-				<div class="headergroup">
-					<h2 class="choose-province__header">Choose a Province</h2>
-					<div class="underline"></div>
-				</div>
+					<div class="headergroup">
+						<h2 class="choose-province__header">Choose a Province</h2>
+						<div class="underline"></div>
+					</div>
 					<p class="choose-province__info">
 						Fusce tempor felis lacus, a hendrerit urna facilisis at. 
 					</p>
-					<button class="choose-province__button">About Us</button>
+					<!-- <button class="choose-province__button">About Us</button> -->
 				</div>
 			</section>
+				
+				<section class="provinces">
+
+					<!-- Individual Province -->
+					<div class="provinces__province" >					
+						<div class="provinces__province__info-wrapper">
+							<div class="headergroup">
+								<h2 class="province__header">British Columbia</h2>
+								<div class="underline"></div>
+							</div>
+							<div class="province__info">
+								<p>BC has weed and some other things. </p>
+								<button class="province__button">See Programs</button>
+							</div>
+						</div>	
+					</div>
+
+					<!-- Individual Province -->
+					<!-- <div class="provinces__province">				
+						<div class="provinces__province__info-wrapper">
+							<div class="headergroup">
+								<h2 class="province__header">Alberta</h2>
+								<div class="underline"></div>
+							</div>
+							<div class="province__info">
+								<p>Alberta has oil and some other things. </p>
+								<button class="province__info__button">See Programs</button>
+							</div>
+						</div>	
+					</div> -->
+
+				</section>
+
 
 			<section class="student-review">
 				<div class="headergroup">

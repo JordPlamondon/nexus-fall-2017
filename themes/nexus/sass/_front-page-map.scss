@@ -1,7 +1,106 @@
 .home {
+// Map Icons
+  .choose-province-wrapper {
+    display: none;
+    @media #{$desktop} {
+      display: flex; 
+      height: 800px;
+      width: 1110px;
+      margin: 0 auto;
+      background: url('../../assets/images/map_nexus01@3x.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      .bc {
+        position: relative;
+         left: 120px;
+         top: 320px;
+      }
+      .ab {
+        position: relative;
+        left: 150px;
+        top: 300px; 
+      }
+      .sk {
+        position: relative;
+        left: 200px;
+        top: 330px;
+      }
+  }
+ }
+
+// Choose province
+  .choose-province {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .headergroup, &__info {
+      
+    }
+
+    &__header {
+      font-family: $font__main;
+      font-weight: bold;
+    }
+
+    .underline {
+      margin: 0 auto; 
+    }
+
+      button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: none;
+        text-shadow: none;
+        background: $color__icon-element;
+        color: $color__text-white;
+      }
+    }
+  }
+
+    .provinces {
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center
+    }
+
+      .provinces__province {
+        &__info-wrapper {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          .headergroup {
+            grid-column: 1 / 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .province__info {
+            grid-column: 2 / 3;
+            margin-left: 2rem;
+            font-family: $font__main;
+            font-weight: bold;
 
 
+            .province__button { 
+              width: 135px;
+              height: 40px;
+              padding: 0;
+              border-radius: 25px 0px 25px 0px;
+              box-shadow: none;
+              text-shadow: none;
+              background: $color__icon-element;
+              color: $color__text-white;
+              font-family: $font__main;
+              font-weight: 900;
+              font-size: 18px;
+          }
+        }
+      }
+    }
 
-
-  
-}

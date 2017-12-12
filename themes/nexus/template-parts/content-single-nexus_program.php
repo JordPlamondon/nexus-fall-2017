@@ -75,8 +75,7 @@
 
 					
 						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-                            <?php the_title(); ?>
-							<?php get_template_part( 'template-parts/content', 'single-nexus_program-readmore' ); ?>
+							<?php get_template_part( 'template-parts/content-single-nexus_program-readmore' ); ?>
 
 						<?php endwhile; ?>
 						<?php wp_reset_postdata(); ?>

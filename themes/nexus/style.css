@@ -2192,9 +2192,8 @@ div.widget_info_contain a {
             flex-direction: row;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     max-height: 400px; }
   div.footer__contact h2 {
     text-align: left; }

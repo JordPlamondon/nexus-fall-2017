@@ -168,6 +168,7 @@
 // Single Program
 
 .single-nexus_program {
+
   .single-program-container {
     display: flex;
     flex-direction: column;
@@ -175,13 +176,18 @@
   }
   .program-meta {
     text-align: center;
+    align-items: center;
     background-color: $color__info-main;
     width: 100vw;
     max-width: 1080px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     p {
       flex-basis: 30%;
     }
+  }
+  .program-meta-seperator {
+    height: 60px;
+    border-right: 3px solid #ff8a2a;
   }
 }

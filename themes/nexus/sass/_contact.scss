@@ -1,24 +1,48 @@
 .page-template-contact {
+
   h1.entry-title {
     display: none;
   }
   .desktop-contact-display {
     display: none;
     @media #{$tablet} {
+      font-family: $font__accent;
+      font-size: 18px;
       display: block;
-      height: 695px;
+      height: 595px;
       width:435px;
       background-color: $color__info-main;
       position: relative;
       bottom: 720px;
       left: 80%;
+      padding: 38px;
+      color: $color__footer-navbkgrnd;
+      h2 {
+        font-size: 42px;
+      }
+      i {
+        color:$color__icon-element;
+        font-size: 31px;
+        margin-right: 20px;
+        margin-bottom: 44px;
+      }
+     .contact-address {
+       width: 300px;
+       display: inline-block;
+       margin-left: 14px;
+     }  
+     .contact-hours {
+      width: 300px;
+      display: inline-block;
+     }
+
     }
   }
   .contact-form {
    padding-top: 24px;
     background-color: $color__textbox-background;
     @media #{$tablet} {
-      width: 860px;
+      width: 70vw;
       height: 1000px;
       margin-left: 70px;
       margin-top: 64px;
@@ -26,7 +50,7 @@
     .wpcf7-form {
       @media #{$tablet} {
         position: relative;
-        right: 200px;
+        right: 25%;
         bottom:12px;
     }
   }
@@ -57,7 +81,7 @@
       font-weight: bold;
       @media #{$tablet} {
         width: 300px;
-        margin-left: 62px;
+        margin-left: 20%;
         font-size: 50px;
         text-align: left;
     }
@@ -76,7 +100,7 @@
     position: relative;
     bottom: 20px;
     @media #{$tablet} {
-      right: 310px;
+      right: 20%;
       bottom: 34px;
       width: 109px;
   }

@@ -144,6 +144,7 @@ function plugin_myContentFilter($content)
 	return ($content);
 }
 
+//filter videos and blogs on blog page
 add_filter('pre_get_posts', 'per_category_basis');
 function per_category_basis($query){
     if ($query->is_category) {

@@ -241,6 +241,9 @@
 // Single Program
 
 .single-nexus_program {
+  @media #{$tablet} {
+    padding-top: 55px;
+  }
   .single-program-content {
     margin-top: 0;
     line-height: 1.75;

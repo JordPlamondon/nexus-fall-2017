@@ -11,8 +11,13 @@
 
     <section class="single-program-container">
         
-        <h2><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h1>
-        <h1 class="single-program-title"><?php echo get_post_meta($post->ID, '_nexus_program_title', true); ?></h2>
+        <h2><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
+
+        <div class="header-wrapper">
+            <h1 class="single-program-title"><?php echo get_post_meta($post->ID, '_nexus_program_title', true); ?></h2>
+            <div class="underline"></div>
+        </div>
+
         <div class="program-meta">
             <div class="program-price">
                 <p class="program-meta-category">Price</p>
@@ -29,16 +34,33 @@
                 <p class="program-meta-content"><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></p>
             </div>
         </div>
-        <h2 class="single-program-header">About Program</h2>
+
+        <div class="header-wrapper">
+            <h2 class="single-program-header">About Program</h2>
+            <div class="underline"></div>
+        </div>
+
         <p><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
         <p><?php echo get_post_meta($post->ID, '_nexus_program_media', true); ?></p>
-        <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
+
+        <div class="header-wrapper">
+            <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
+            <div class="underline"></div>
+        </div>
+
         <p><?php echo get_post_meta($post->ID, '_nexus_program_school_about', true); ?></p>
         <div><?php echo get_post_meta($post->ID, '_nexus_program_city_photo', true); ?></div>
-        <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></h2>
+
+        <div class="header-wrapper">
+            <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></h2>
+            <div class="underline"></div>
+        </div>
+
         <p><?php echo get_post_meta($post->ID, '_nexus_program_city_about', true); ?></p>
         <p><?php echo get_post_meta($post->ID, '_nexus_program_reviews', true); ?></p>
+
     </div>
+
     <div class="readmore">
         <?php $terms = wp_get_post_terms( $post->ID, 'program_type' ); ?>
         <!-- <?php var_dump ( $terms ) ?> -->

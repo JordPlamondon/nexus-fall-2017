@@ -12,19 +12,22 @@
     font-weight: bold;
   }
 
-  .underline {
+  .underline { 
     width: 49px;
     border-bottom: 3px solid $color__accent-underline;
-  }
+    @media #{$desktop} {
+      width: 120px;
+    }
+  } 
 
   .site-main {
-    .banner {
+    .banner { 
       padding-top: 4.5rem;
       width: 100%;
-      height: 15rem;
-      background: url('../../assets/images/photo-hero-mobile.png');
+      height: 16rem;
+      background: url(../../assets/images/photo-hero-mobile.png);
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: 97vw;
       @media #{$desktop} {
         height: 40vw;
         background-size: 100vw 40vw;
@@ -45,7 +48,7 @@
       }
 
       &__info__h1 {
-        margin: 0;
+        margin: 1vw 0 0 0;
         font-size: 11vw;
         font-family: $font__main;
         font-weight: 900;
@@ -67,6 +70,7 @@
         color: $color__text-accent;
         text-transform: none;
         text-align: center;
+        line-height: 18px;
         @media #{$desktop} {
           margin-bottom: 2vw;  
           font-size: 4vw;
@@ -118,7 +122,7 @@
         background-position-y: center, center;
         background-repeat: no-repeat;
         background-position-x: left, right;
-        background-size: 55% 50%,50% 50%;
+        background-size: 70% 50%,50% 50%;
       }
 
       h2 {
@@ -158,6 +162,7 @@
         margin: 0 auto;
         @media #{$desktop} {
           margin: 0;
+          width: 120px;
         }
       }
 
@@ -178,54 +183,60 @@
 
     }
 
-    .choose-wrapper {
+    .front-choose-wrapper {
       display: none;
       @media #{$desktop} {
         display: flex;
         justify-content: flex-end;
-        height: 50vh;
-        background: url('../../assets/images/programs_nexus@3x.png');
-        background-size: 53%;
+        height: 50vw;
+        background: url(../../assets/images/programs_nexus@3x.png);
+        background-size: 80vw;
         background-repeat: no-repeat;
       }
 
-      .choose-program {
+      .front-choose-program {
         @media #{$desktop} {
-          flex-basis: 50%;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          background: url('../../assets/images/ImageOverlay@3x.png');
-          opacity: 0.8;
-
-        h2 {
-          text-align: left;
-        }
-
-        &__info-wrapper {
-          display: flex;
-          flex-direction: column;
-          width: 90%;
-          margin: 0 auto;
-        }
-
-        button {
-          width: 135px;
-          height: 40px;
-          padding: 0;
-          border-radius: 25px 0px 25px 0px;
-          box-shadow: none;
-          text-shadow: none;
-          background: $color__icon-element;
-          color: $color__text-white;
-          font-family: $font__main;
-          font-weight: 900;
-          font-size: 18px;
-        }
+          width: 50%;
+          background: url(../../assets/images/ImageOverlay@3x.png);
+          opacity: .8;
         }
       }
 
+
+        .front-choose-program__info-wrapper {
+          position: relative;
+          left: 4vw;
+          top: 3vw;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+
+          h2, p {
+            // color: $color__text-main;
+            color: darken($color__text-main, 2%);
+          }
+
+          h2 {
+            text-align: left;
+            font-size: 4vw;
+          }
+
+          button {
+            width: 135px;
+            height: 40px;
+            padding: 0;
+            border-radius: 25px 0px 25px 0px;
+            box-shadow: none;
+            text-shadow: none;
+            background: darken($color__icon-element, 20%);
+            color: $color__text-white;
+            font-family: $font__main;
+            font-weight: 900;
+            font-size: 18px;
+          }  
+        }
+      
     }
 
 
@@ -241,6 +252,9 @@
 
       .underline {
         margin: 0 auto; 
+        @media #{$desktop} {
+          width: 120px;
+        }
       }
 
       &__subheading {
@@ -259,8 +273,15 @@
         line-height: 3rem;
       }
 
+      h2 {
+        font-size: 4vw;
+      }
+
       .underline {
         margin: 0 auto 3rem auto;
+        @media #{$desktop} {
+          width: 120px;
+        }
       }
 
       .owl-nav {
@@ -270,66 +291,79 @@
       .owl-dots {
         margin: 3rem auto;
       }
-
-      &__box {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        @media #{$desktop} {
-          flex-direction: row;
-
-          img {
-            flex-basis:30%;
-            width: 30%;
-          }
-        }
-        
-        .student-review__info-wrapper {
-          background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
-          background-repeat: no-repeat;
-          background-position: top left, bottom right;
-          background-color: $color__textbox-background;
-          margin-top: 0;
-          width: 100%;
-          padding: 39px 30px 22px 48px;
-          font-weight: bold;
-          font-size: 4vw;
-          
-          position: relative;
-          @media #{$desktop} {
-            margin: 0;
-            font-size: 3vw;
-            flex-basis: 80%;
-          }
-
-          .student-review__info {
-            @media #{$desktop} {
-            padding: 15px 20px 15px 45px;
-            }
-          }
-          
-          .grey {
-            background: $color__textbox-background;
-            transform: rotate(134deg);
-            bottom: 54px;
-            left: 40%;
-            height: 30px;
-            position: relative;
-            width: 30px;
-            @media #{$desktop} {
-              background: $color__textbox-background;
-              transform: rotate(134deg);
-              bottom: -60px;
-              left: -63px;
-              height: 30px;
-              position: relative;
-              width: 30px;
-            }
-          }
-        }
-      } 
     }
+
+    .student-review__box {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      @media #{$desktop} {
+        flex-direction: row;
+      }
+    
+
+    .student-review__box__image {
+      @media #{$desktop} {
+        flex-basis:40%;
+        width: 30%;
+        overflow: hidden;
+      }
+
+      img {
+        @media #{$desktop} {
+          transform: scale(3);
+          position: relative;
+          top: 50px;
+        }
+      }
+    }
+  }
+      
+    .student-review__info-wrapper {
+      background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
+      background-repeat: no-repeat;
+      background-position: top left, bottom right;
+      background-color: $color__textbox-background;
+      margin-top: 0;
+      width: 100%;
+      padding: 39px 30px 22px 48px;
+      font-weight: bold;
+      font-size: 4vw;
+          
+      position: relative;
+      @media #{$desktop} {
+        margin: 0;
+        font-size: 3vw;
+        flex-basis: 80%;
+      }
+
+      .student-review__info {
+        @media #{$desktop} {
+          padding: 15px 20px 15px 45px;
+        }
+      }
+          
+      .grey {
+        background: $color__textbox-background;
+        transform: rotate(134deg);
+        bottom: 54px;
+        left: 40%;
+        height: 30px;
+        position: relative;
+        width: 30px;
+        @media #{$desktop} {
+          background: $color__textbox-background;
+          transform: rotate(134deg);
+          bottom: -60px;
+          left: -63px;
+          height: 30px;
+          position: relative;
+          width: 30px;
+        }
+      }
+    }
+     
 
     .start-journey {
       display: flex;
@@ -346,11 +380,14 @@
 
       .underline {
         margin: 0 auto 1rem auto;
+        @media #{$desktop} {
+          width: 120px;
+        }
       }
 
       &__header {
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 4.2vw;
       }
 
       &__subheader {

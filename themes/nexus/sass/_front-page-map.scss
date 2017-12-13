@@ -19,9 +19,9 @@
       }
       .bc {
         position: relative;
-         left: 130px;
-         top: 390px;
-         color:$color__quoteform-x;
+        left: 130px;
+        top: 390px;
+        color:$color__quoteform-x;
       }
       .ab {
         position: relative;
@@ -83,20 +83,20 @@
     flex-direction: column;
     align-items: flex-start;
     &__info {
-      color: $color__footer-background;
       position: relative;
       left: 560px;
       width: 220px;
       top: 38px;
+      color: $color__footer-background;
     }
     &__header {
-      color: $color__footer-background;
-      font-family: $font__main;
-      font-weight: bold;
       position: relative;
       font-size: 48px;
       top: 38px;
       left: 560px;
+      color: $color__footer-background;
+      font-family: $font__main;
+      font-weight: bold;
     }
     .underline {
       position: relative;
@@ -104,15 +104,15 @@
       width: 120px;
       top: 38px;
     }
-      button {
-        width: 135px;
-        height: 40px;
-        padding: 0;
-        border-radius: 25px 0px 25px 0px;
-        box-shadow: none;
-        text-shadow: none;
-        background: $color__icon-element;
-        color: $color__text-white;
+    button {
+      width: 135px;
+      height: 40px;
+      padding: 0;
+      border-radius: 25px 0px 25px 0px;
+      box-shadow: none;
+      text-shadow: none;
+      background: $color__icon-element;
+      color: $color__text-white;
       }
     }
   
@@ -129,36 +129,34 @@
       background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
     }
     i {
-      color: red;
-      font-size: 66px;
       position: relative;
       top: 120px;
       right: 398px;
+      color: red;
+      font-size: 66px;
     }
     h2 {
       position: relative;
-      font-size: 48px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
       top: 200px;
       right: 280px;
       width: 200px;
-      
+      font-size: 48px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
     }
     p {
-      font-family: $font__accent;
       width: 500px;
       font-size: 23px;
-      
+      font-family: $font__accent;
     }
     .choose-program {
       @media #{$desktop} {
-        flex-basis: 50%;
-        background: $color__info-main;
         display: flex;
+        flex-basis: 50%;     
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: $color__info-main;
       button {
         width: 205px;
         height: 40px;
@@ -187,36 +185,34 @@
       background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
     }
     i {
-      color: red;
-      font-size: 66px;
       position: relative;
       top: 120px;
       right: 398px;
+      color: red;
+      font-size: 66px;      
     }
     h2 {
-      position: relative;
-      font-size: 48px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
+      position: relative;   
       top: 200px;
       right: 280px;
       width: 200px;
-      
+      font-size: 48px;
+      letter-spacing: 2px;
+      text-transform: uppercase;     
     }
-    p {
-      font-family: $font__accent;
+    p {    
       width: 500px;
       font-size: 23px;
-      
+      font-family: $font__accent;
     }
     .choose-program {
       @media #{$desktop} {
-        flex-basis: 50%;
-        background: $color__info-main;
         display: flex;
+        flex-basis: 50%;       
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: $color__info-main;
       button {
         width: 205px;
         height: 40px;
@@ -244,27 +240,25 @@
       background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
     }
     i {
-      color: red;
-      font-size: 66px;
       position: relative;
       top: 120px;
       right: 398px;
+      color: red;
+      font-size: 66px;     
     }
     h2 {
       position: relative;
-      font-size: 48px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
       top: 200px;
       right: 280px;
       width: 200px;
-      
+      font-size: 48px;
+      letter-spacing: 2px;
+      text-transform: uppercase;   
     }
-    p {
-      font-family: $font__accent;
+    p {  
       width: 500px;
       font-size: 23px;
-      
+      font-family: $font__accent;
     }
     .choose-program {
       @media #{$desktop} {
@@ -301,36 +295,34 @@
       background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
     }
     i {
-      color: red;
-      font-size: 66px;
       position: relative;
       top: 120px;
       right: 398px;
+      color: red;
+      font-size: 66px;   
     }
     h2 {
       position: relative;
-      font-size: 48px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
       top: 200px;
       right: 280px;
       width: 200px;
-      
+      font-size: 48px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
     }
     p {
-      font-family: $font__accent;
       width: 500px;
       font-size: 23px;
-      
+      font-family: $font__accent;
     }
     .choose-program {
       @media #{$desktop} {
         flex-basis: 50%;
-        background: $color__info-main;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: $color__info-main;
       button {
         width: 205px;
         height: 40px;
@@ -358,27 +350,25 @@
       background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
     }
     i {
-      color: red;
-      font-size: 66px;
       position: relative;
       top: 120px;
       right: 398px;
+      color: red;
+      font-size: 66px;
     }
     h2 {
       position: relative;
-      font-size: 48px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
       top: 200px;
       right: 280px;
       width: 200px;
-      
+      font-size: 48px;
+      letter-spacing: 2px;
+      text-transform: uppercase;   
     }
-    p {
-      font-family: $font__accent;
+    p {    
       width: 500px;
       font-size: 23px;
-      
+      font-family: $font__accent;
     }
     .choose-program {
       @media #{$desktop} {
@@ -414,37 +404,35 @@
       margin-top: -200px;
       background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
     }
-    i {
-      color: red;
-      font-size: 66px;
+    i {   
       position: relative;
       top: 120px;
       right: 398px;
+      color: red;
+      font-size: 66px;
     }
     h2 {
       position: relative;
-      font-size: 48px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
       top: 200px;
       right: 280px;
       width: 200px;
-      
+      font-size: 48px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
     }
-    p {
-      font-family: $font__accent;
+    p {   
       width: 500px;
       font-size: 23px;
-      
+      font-family: $font__accent;
     }
     .choose-program {
       @media #{$desktop} {
         flex-basis: 50%;
-        background: $color__info-main;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: $color__info-main;
       button {
         width: 205px;
         height: 40px;

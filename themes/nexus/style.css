@@ -1806,13 +1806,13 @@ body.page-template-archive-nexus_program main {
     .page-template-about .hero-wrapper {
       padding-top: 65px; } }
   .page-template-about .hero-wrapper h1 {
+    position: relative;
+    top: 50px;
     text-align: center;
     color: #15405A;
     font-size: 30px;
     text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 50px; }
+    font-weight: 900; }
   .page-template-about .hero-wrapper .hero-image {
     height: 50vh;
     width: 100vw;
@@ -1821,37 +1821,37 @@ body.page-template-archive-nexus_program main {
     background-size: cover;
     background-position: bottom; }
   .page-template-about .hero-wrapper .underline {
+    position: relative;
+    bottom: 24px;
     margin: 0 auto;
     width: 49px;
     text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 24px; }
+    border-bottom: 3px solid #FF8A2A; }
 
 .page-template-about .mission-wrapper h2 {
+  position: relative;
+  top: 20px;
   font-size: 24px;
   text-align: center;
   color: #15405A;
-  font-weight: 900;
-  position: relative;
-  top: 20px; }
+  font-weight: 900; }
 
 .page-template-about .mission-wrapper .underline {
+  position: relative;
+  top: 14px;
   margin: 0 auto;
   width: 49px;
   text-align: center;
-  border-bottom: 3px solid #FF8A2A;
-  position: relative;
-  top: 14px; }
+  border-bottom: 3px solid #FF8A2A; }
 
 .page-template-about .mission-wrapper p {
-  font-size: 14px;
-  line-height: 26px;
   width: 80%;
   margin: 0 auto;
   margin-bottom: 40px;
-  text-align: center;
   padding-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
   font-weight: 200;
   color: #15405A; }
   @media all and (min-width: 750px) {
@@ -1862,19 +1862,19 @@ body.page-template-archive-nexus_program main {
   height: 70px;
   background-color: #F3F5F8; }
   .page-template-about .about-help h2 {
+    position: relative;
+    top: 20px;
     font-size: 24px;
     text-align: center;
     color: #123048;
-    font-weight: 900;
-    position: relative;
-    top: 20px; }
+    font-weight: 900; }
   .page-template-about .about-help .underline {
+    position: relative;
+    bottom: 20px;
     margin: 0 auto;
     width: 49px;
     text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 20px; }
+    border-bottom: 3px solid #FF8A2A; }
 
 .page-template-about img.about-img {
   width: 45%;
@@ -1886,11 +1886,11 @@ body.page-template-archive-nexus_program main {
   z-index: 5; }
   @media all and (min-width: 750px) {
     .page-template-about img.about-img {
-      margin-bottom: 44px;
       height: 30vw;
       min-height: 240px;
       max-height: 260px;
-      max-width: 260px; } }
+      max-width: 260px;
+      margin-bottom: 44px; } }
 
 .page-template-about .about-wrapper {
   display: -webkit-box;
@@ -1909,7 +1909,7 @@ body.page-template-archive-nexus_program main {
       background-color: #F3F5F8; } }
   .page-template-about .about-wrapper .about-left {
     height: 264px;
-    background-color: #F3F5F8;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1919,14 +1919,14 @@ body.page-template-archive-nexus_program main {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 100%;
-    padding-top: 40px; }
+    padding-top: 40px;
+    background-color: #F3F5F8; }
     @media all and (min-width: 550px) {
       .page-template-about .about-wrapper .about-left {
-        padding-right: 15%;
-        padding-left: 15%;
         width: 100%;
         height: 344px;
+        padding-right: 15%;
+        padding-left: 15%;
         margin: 0; } }
     @media all and (min-width: 750px) {
       .page-template-about .about-wrapper .about-left {
@@ -1937,22 +1937,23 @@ body.page-template-archive-nexus_program main {
       font-weight: bold;
       text-align: right; }
     .page-template-about .about-wrapper .about-left p {
-      font-size: 14px;
       width: 45%;
       text-align: right;
       padding-right: 14px;
       line-height: 16pt;
+      font-size: 16px;
       color: #15405A; }
       @media all and (min-width: 750px) {
         .page-template-about .about-wrapper .about-left p {
-          font-size: 18px;
           padding-right: 24px;
           padding-left: 24px;
-          line-height: 24pt; } }
+          line-height: 24pt;
+          font-size: 18px; } }
   .page-template-about .about-wrapper .about-right {
     height: 264px;
+    width: 100%;
     min-width: 310px;
-    background-color: #FFFFFF;
+    padding-top: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1962,13 +1963,12 @@ body.page-template-archive-nexus_program main {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 100%;
-    padding-top: 40px; }
+    background-color: #FFFFFF; }
     @media all and (min-width: 550px) {
       .page-template-about .about-wrapper .about-right {
-        margin: 0;
         width: 100%;
         height: 344px;
+        margin: 0;
         margin: 0 auto;
         padding-right: 18%;
         padding-left: 18%; } }
@@ -1996,79 +1996,79 @@ body.page-template-archive-nexus_program main {
 
 .page-template-about .about-consultants {
   height: 500px;
-  background-color: #FFFFFF;
   display: block;
-  text-align: center;
-  margin-top: 44px; }
+  margin-top: 44px;
+  background-color: #FFFFFF;
+  text-align: center; }
   .page-template-about .about-consultants p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100;
     color: #898989;
     line-height: 16pt; }
   .page-template-about .about-consultants img {
-    margin: 0 auto;
     height: 204px;
     width: 204px;
     margin: 30px 0 0 0;
     border-radius: 100px; }
   .page-template-about .about-consultants i {
     display: inline-block;
-    font-size: 36px;
     margin: 10px;
-    margin-bottom: 24px; }
+    margin-bottom: 24px;
+    font-size: 36px; }
   .page-template-about .about-consultants h2 {
+    position: relative;
+    top: 20px;
     font-size: 24px;
     text-align: center;
     color: #123048;
-    font-weight: 900;
-    position: relative;
-    top: 20px; }
+    font-weight: 900; }
   .page-template-about .about-consultants h3 {
+    position: relative;
+    top: 14px;
     font-size: 20px;
     text-align: center;
     color: #123048;
-    font-weight: normal;
-    position: relative;
-    top: 14px; }
+    font-weight: normal; }
   .page-template-about .about-consultants .underline2 {
     margin: 0 auto;
     width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 40px; }
+    bottom: 40px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A; }
 
 .page-template-about .about-journey {
   height: 195px;
   background-color: #F3F5F8; }
   .page-template-about .about-journey h2 {
+    position: relative;
+    top: 20px;
     font-size: 24px;
     text-align: center;
     color: #15405A;
     font-weight: 900;
-    position: relative;
-    top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
   .page-template-about .about-journey p {
-    font-size: 14px;
+    position: relative;
+    bottom: 42px;
+    font-size: 16px;
     color: #E00029;
     font-style: italic;
     font-weight: 200;
-    position: relative;
-    text-transform: none;
-    bottom: 42px; }
+    text-transform: none; }
   .page-template-about .about-journey .underline {
     margin: 0 auto;
     width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 78px; }
+    bottom: 78px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A; }
   .page-template-about .about-journey button.consult {
-    letter-spacing: 1pt;
     width: 175px;
     height: 40px;
+    position: relative;
+    bottom: 40px;
     padding: 0;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
@@ -2077,17 +2077,16 @@ body.page-template-archive-nexus_program main {
     font-size: 18px;
     background: #E91C35;
     color: white;
-    position: relative;
-    bottom: 40px; }
+    letter-spacing: 1pt; }
 
 .about-right img.path-img-right {
-  height: 130px;
-  position: relative;
+  height: 150px;
+  width: 60%;
   min-width: 140px;
+  position: relative;
+  bottom: 70px;
   left: 80px;
-  z-index: 1;
-  bottom: 80px;
-  width: 60%; }
+  z-index: 1; }
   @media all and (min-width: 550px) {
     .about-right img.path-img-right {
       display: none; } }
@@ -2097,9 +2096,9 @@ body.page-template-archive-nexus_program main {
   width: 60%;
   min-width: 140px;
   position: relative;
+  bottom: 60px;
   left: 80px;
-  z-index: 1;
-  bottom: 80px; }
+  z-index: 1; }
   @media all and (min-width: 550px) {
     .about-left img.path-img-left {
       display: none; } }
@@ -4007,35 +4006,35 @@ div.return-home {
 
 .page-template-consult .wpcf7-validation-errors {
   border: none;
-  background: #E91C35;
   padding: 24px;
   color: white;
-  font-size: 16px; }
+  font-size: 16px;
+  background: #E91C35; }
 
 .page-template-consult .wpcf7-mail-sent-ok {
   border: none;
-  background: #55ACEE;
   padding: 24px;
+  background: #55ACEE;
   color: white;
   font-size: 16px; }
 
 .page-template-consult .underline1 {
-  margin: 0 auto;
   width: 69px;
-  text-align: center;
-  border-bottom: 3px solid #FF8A2A;
   position: relative;
-  bottom: 34px; }
+  bottom: 34px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 3px solid #FF8A2A; }
 
 .page-template-consult .consult-wrapper {
   width: 80vw;
   height: 1000px;
   margin: 0 auto;
+  margin-bottom: 24px;
   margin-top: 60px;
   padding: 24px;
   text-align: center;
-  background-color: #FFD479;
-  margin-bottom: 24px; }
+  background-color: #FFD479; }
   .page-template-consult .consult-wrapper h2 {
     font-size: 46px; }
 
@@ -4059,7 +4058,6 @@ div.return-home {
   .page-template-consult .consult-form textarea {
     width: 100%; }
   .page-template-consult .consult-form .wpcf7-submit {
-    letter-spacing: 1pt;
     width: 175px;
     height: 40px;
     padding: 0;
@@ -4070,4 +4068,5 @@ div.return-home {
     font-size: 18px;
     background: #E91C35;
     color: #FFFFFF;
-    border: none; }
+    border: none;
+    letter-spacing: 1pt; }

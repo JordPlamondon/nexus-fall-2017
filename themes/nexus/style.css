@@ -4005,6 +4005,20 @@ div.return-home {
 .page-template-consult .entry-title {
   display: none; }
 
+.page-template-consult .wpcf7-validation-errors {
+  border: none;
+  background: #E91C35;
+  padding: 24px;
+  color: white;
+  font-size: 16px; }
+
+.page-template-consult .wpcf7-mail-sent-ok {
+  border: none;
+  background: #55ACEE;
+  padding: 24px;
+  color: white;
+  font-size: 16px; }
+
 .page-template-consult .underline1 {
   margin: 0 auto;
   width: 69px;

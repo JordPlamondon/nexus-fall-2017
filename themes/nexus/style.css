@@ -3096,7 +3096,10 @@ nav.main-navigation:hover {
         color: #FFFFFF; } }
 
 .page-template-archive-nexus_program {
-  padding-top: 65px; }
+  padding-top: 55px; }
+  @media all and (min-width: 750px) {
+    .page-template-archive-nexus_program {
+      padding-top: 0; } }
   .page-template-archive-nexus_program .hero-wrapper {
     width: 100vw; }
     .page-template-archive-nexus_program .hero-wrapper h1 {
@@ -3146,7 +3149,7 @@ nav.main-navigation:hover {
     padding-top: 0; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .site-main {
-        padding-top: 65px; } }
+        padding-top: 55px; } }
   .page-template-archive-nexus_program .hidden {
     display: none; }
   .page-template-archive-nexus_program .search-results {
@@ -3210,6 +3213,7 @@ nav.main-navigation:hover {
     color: #E00029; }
   .page-template-archive-nexus_program .program-content-container {
     width: 90%;
+    max-width: 1100px;
     margin: 0 auto; }
   .page-template-archive-nexus_program .program-content {
     background-image: url("../../assets/images/photo_study@3x.png");
@@ -3234,8 +3238,8 @@ nav.main-navigation:hover {
     text-decoration: none; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-container {
-        -ms-flex-preferred-size: 33%;
-            flex-basis: 33%;
+        -ms-flex-preferred-size: 30%;
+            flex-basis: 30%;
         max-width: 320px; } }
   .page-template-archive-nexus_program .program-image {
     overflow: hidden;
@@ -3274,23 +3278,25 @@ nav.main-navigation:hover {
         margin-bottom: 0;
         color: #123048; } }
   .page-template-archive-nexus_program .program-school {
-    margin-top: 22px;
+    text-transform: uppercase;
+    margin-top: 12px;
     font-size: 0.75rem;
     font-weight: 300;
     font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-school {
-        font-size: 1.25rem; } }
+        font-size: 1.25rem;
+        margin-top: 22px; } }
   .page-template-archive-nexus_program .program-name {
-    margin: 10px 0;
     font-size: 1rem;
     font-weight: bold;
     font-family: 'Roboto' sans-serif; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-name {
+        margin: 10px 0;
         font-size: 1.68rem; } }
   .page-template-archive-nexus_program .program-type {
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 300;
     font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 750px) {
@@ -3322,6 +3328,8 @@ nav.main-navigation:hover {
       color: #FFFFFF; }
 
 .single-nexus_program .single-program-container {
+  max-width: 1100px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3351,8 +3359,12 @@ nav.main-navigation:hover {
         flex-basis: 30%; }
 
 .single-nexus_program .program-meta-seperator {
-  height: 60px;
-  border-right: 3px solid #ff8a2a; }
+  visibility: hidden; }
+  @media all and (min-width: 550px) {
+    .single-nexus_program .program-meta-seperator {
+      visibility: visible;
+      height: 60px;
+      border-right: 3px solid #ff8a2a; } }
 
 .page-template-contact h1.entry-title {
   display: none; }

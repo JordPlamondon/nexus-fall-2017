@@ -3434,6 +3434,7 @@ nav.main-navigation:hover {
       display: none; } }
 
 .single-nexus_program .single-program-title {
+  text-align: center;
   margin: 2px 0; }
 
 .single-nexus_program .single-program-header {

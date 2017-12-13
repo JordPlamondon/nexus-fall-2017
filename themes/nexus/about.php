@@ -20,8 +20,7 @@ get_header(); ?>
       
       <div class="mission-wrapper">
       <?php while ( have_posts() ) : the_post(); ?>
-            <h2 class="title"> Send Us a Message</h2>
-            <div class="underline"></div>
+            
             <div class="contact-content">	<?php get_template_part( 'template-parts/content', 'page' ); ?>
             <?php endwhile;  ?>
           <h2> Our Mission </h2>
@@ -83,7 +82,6 @@ get_header(); ?>
 
 <div class="about-journey">
       <h2> Start Your Journey<h2><br>
-      <div class="underline"></div>
       <p>Let us help you find your path to success</p>
       <button class="consult">Book Consult</button>
       </div>

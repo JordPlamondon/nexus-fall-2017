@@ -1,28 +1,64 @@
 .page-template-consult {
-
+  .entry-title {
+    display: none;
+  }
+  .underline1 {
+    margin: 0 auto;
+    width: 69px;
+    text-align: center;
+    border-bottom: 3px solid $color__accent-underline;
+    position: relative;
+    bottom: 34px;
+  }
   .consult-wrapper {
     width: 80vw;
-    height: 900px;
+    height: 1000px;
     margin: 0 auto;
     margin-top: 60px;
     padding: 24px;
     text-align: center;
-    background-color: $color__quoteform-background;   
+    background-color: $color__quoteform-background;  
+    margin-bottom: 24px; 
     h2 {
       font-size: 46px;
     }
 }
   .consult-form {
     display: inline-block;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
+    text-align: left;
+    font-size: 16px;
+    @media #{$tablet} {
+      width: 50%;
+    }
     input {
       display: inline-block;
       height: 44px;
-      width: 20vw;
-    } 
+      width: 100%;
+    }
+      input:hover {
+        background-color: rgb(238, 238, 238);
+      }
+      label:hover {
+        font-size: 18px;
+      }
     textarea {
-      width: 50vw;
+      width: 100%;
+    }
+    .wpcf7-submit {
+      letter-spacing: 1pt;
+      width: 175px;
+      height: 40px;
+      padding: 0;
+      border-radius: 25px 0px 25px 0px;
+      box-shadow: none;
+      text-shadow: none;
+      font-size: 18px;
+      background: $color__icon-element;
+      color: $color__text-white;
+      border: none;
+      
     }
   }
 }

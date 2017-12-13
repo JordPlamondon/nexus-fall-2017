@@ -1797,6 +1797,9 @@ button:hover {
 body.page-template-archive-nexus_program main {
   padding-top: 65px; }
 
+.page-template-about .entry-title {
+  display: none; }
+
 .page-template-about .hero-wrapper {
   width: 100vw; }
   @media all and (min-width: 550px) {
@@ -1851,6 +1854,9 @@ body.page-template-archive-nexus_program main {
   padding-top: 40px;
   font-weight: 200;
   color: #15405A; }
+  @media all and (min-width: 750px) {
+    .page-template-about .mission-wrapper p {
+      width: 40%; } }
 
 .page-template-about .about-help {
   height: 70px;
@@ -1877,11 +1883,10 @@ body.page-template-archive-nexus_program main {
   max-width: 190px;
   min-height: 166px;
   border-radius: 100px;
-  margin: 14px 14px 30px 14px;
   z-index: 5; }
   @media all and (min-width: 750px) {
     .page-template-about img.about-img {
-      width: 40%;
+      margin-bottom: 44px;
       height: 30vw;
       min-height: 240px;
       max-height: 260px;
@@ -1901,7 +1906,6 @@ body.page-template-archive-nexus_program main {
   padding-top: 40px; }
   @media all and (min-width: 750px) {
     .page-template-about .about-wrapper {
-      padding-left: 74px;
       background-color: #F3F5F8; } }
   .page-template-about .about-wrapper .about-left {
     height: 264px;
@@ -1917,18 +1921,21 @@ body.page-template-archive-nexus_program main {
         flex-wrap: wrap;
     width: 100%;
     padding-top: 40px; }
+    @media all and (min-width: 550px) {
+      .page-template-about .about-wrapper .about-left {
+        padding-right: 15%;
+        padding-left: 15%;
+        width: 100%;
+        height: 344px;
+        margin: 0; } }
     @media all and (min-width: 750px) {
       .page-template-about .about-wrapper .about-left {
-        width: 70vw;
-        height: 344px;
-        margin: 0 auto;
-        padding-left: 10%; } }
+        padding-right: 22%;
+        padding-left: 22%; } }
     .page-template-about .about-wrapper .about-left .about-titles {
       font-size: 21px;
       font-weight: bold;
       text-align: right; }
-    .page-template-about .about-wrapper .about-left img.about-image {
-      width: 50%; }
     .page-template-about .about-wrapper .about-left p {
       font-size: 14px;
       width: 45%;
@@ -1944,7 +1951,7 @@ body.page-template-archive-nexus_program main {
           line-height: 24pt; } }
   .page-template-about .about-wrapper .about-right {
     height: 264px;
-    min-width: 340px;
+    min-width: 310px;
     background-color: #FFFFFF;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1957,12 +1964,18 @@ body.page-template-archive-nexus_program main {
         flex-wrap: wrap;
     width: 100%;
     padding-top: 40px; }
-    @media all and (min-width: 750px) {
+    @media all and (min-width: 550px) {
       .page-template-about .about-wrapper .about-right {
-        width: 70vw;
+        margin: 0;
+        width: 100%;
         height: 344px;
         margin: 0 auto;
-        padding-left: 10%; } }
+        padding-right: 18%;
+        padding-left: 18%; } }
+    @media all and (min-width: 750px) {
+      .page-template-about .about-wrapper .about-right {
+        padding-right: 22%;
+        padding-left: 22%; } }
     .page-template-about .about-wrapper .about-right .about-titles {
       font-size: 21px;
       font-weight: bold;
@@ -1985,7 +1998,8 @@ body.page-template-archive-nexus_program main {
   height: 500px;
   background-color: #FFFFFF;
   display: block;
-  text-align: center; }
+  text-align: center;
+  margin-top: 44px; }
   .page-template-about .about-consultants p {
     font-size: 14px;
     font-weight: 100;
@@ -2000,7 +2014,8 @@ body.page-template-archive-nexus_program main {
   .page-template-about .about-consultants i {
     display: inline-block;
     font-size: 36px;
-    margin: 10px; }
+    margin: 10px;
+    margin-bottom: 24px; }
   .page-template-about .about-consultants h2 {
     font-size: 24px;
     text-align: center;
@@ -2015,13 +2030,13 @@ body.page-template-archive-nexus_program main {
     font-weight: normal;
     position: relative;
     top: 14px; }
-  .page-template-about .about-consultants .underline {
+  .page-template-about .about-consultants .underline2 {
     margin: 0 auto;
     width: 49px;
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 20px; }
+    bottom: 40px; }
 
 .page-template-about .about-journey {
   height: 195px;
@@ -2049,7 +2064,7 @@ body.page-template-archive-nexus_program main {
     text-align: center;
     border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 48px; }
+    bottom: 78px; }
   .page-template-about .about-journey button.consult {
     letter-spacing: 1pt;
     width: 175px;
@@ -2072,16 +2087,22 @@ body.page-template-archive-nexus_program main {
   left: 80px;
   z-index: 1;
   bottom: 80px;
-  width: 50%; }
+  width: 60%; }
+  @media all and (min-width: 550px) {
+    .about-right img.path-img-right {
+      display: none; } }
 
 .about-left img.path-img-left {
   height: 150px;
-  width: 45%;
+  width: 60%;
   min-width: 140px;
   position: relative;
   left: 80px;
   z-index: 1;
   bottom: 80px; }
+  @media all and (min-width: 550px) {
+    .about-left img.path-img-left {
+      display: none; } }
 
 /*--------------------------------------------------------------
 # Footer
@@ -3944,24 +3965,58 @@ div.return-home {
           justify-content: center;
   padding: 2rem 0 3rem 0; }
 
+.page-template-consult .entry-title {
+  display: none; }
+
+.page-template-consult .underline1 {
+  margin: 0 auto;
+  width: 69px;
+  text-align: center;
+  border-bottom: 3px solid #FF8A2A;
+  position: relative;
+  bottom: 34px; }
+
 .page-template-consult .consult-wrapper {
   width: 80vw;
-  height: 900px;
+  height: 1000px;
   margin: 0 auto;
   margin-top: 60px;
   padding: 24px;
   text-align: center;
-  background-color: #FFD479; }
+  background-color: #FFD479;
+  margin-bottom: 24px; }
   .page-template-consult .consult-wrapper h2 {
     font-size: 46px; }
 
 .page-template-consult .consult-form {
   display: inline-block;
-  width: 60%;
-  margin: 0 auto; }
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 16px; }
+  @media all and (min-width: 750px) {
+    .page-template-consult .consult-form {
+      width: 50%; } }
   .page-template-consult .consult-form input {
     display: inline-block;
     height: 44px;
-    width: 20vw; }
+    width: 100%; }
+  .page-template-consult .consult-form input:hover {
+    background-color: #eeeeee; }
+  .page-template-consult .consult-form label:hover {
+    font-size: 18px; }
   .page-template-consult .consult-form textarea {
-    width: 50vw; }
+    width: 100%; }
+  .page-template-consult .consult-form .wpcf7-submit {
+    letter-spacing: 1pt;
+    width: 175px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: #E91C35;
+    color: #FFFFFF;
+    border: none; }

@@ -1,5 +1,9 @@
 .page-template-about {
   // Hero
+  .entry-title {
+    display: none;
+  }
+
   .hero-wrapper {
      width: 100vw;
       @media #{$desktop} {
@@ -59,6 +63,9 @@
       padding-top: 40px;
       font-weight: 200;
       color: $color__footer-background;
+      @media #{$tablet} {
+        width: 40%;
+      }
     }
   }
 // About help
@@ -90,10 +97,9 @@
     max-width: 190px;
     min-height: 166px;
     border-radius: 100px;
-    margin: 14px 14px 30px 14px;
     z-index: 5;
     @media #{$tablet} {
-      width: 40%;
+      margin-bottom: 44px;
       height: 30vw;
       min-height: 240px;
       max-height: 260px;
@@ -107,7 +113,6 @@
       width: 100%;
       padding-top: 40px;
       @media #{$tablet} {
-      padding-left: 74px;
       background-color:$color__textbox-background;
       }
     .about-left {
@@ -118,19 +123,21 @@
         flex-wrap: wrap;
         width: 100%;
         padding-top: 40px;
-        @media #{$tablet} {
-          width: 70vw;
+        @media #{$desktop} {
+          padding-right: 15%;
+          padding-left: 15%;
+          width: 100%;
           height: 344px;
-          margin: 0 auto;
-          padding-left: 10%;
+          margin: 0;
+        }
+          @media #{$tablet} {
+            padding-right: 22%;
+            padding-left: 22%;
         }
         .about-titles {
           font-size: 21px;
           font-weight: bold;
           text-align: right;
-        }
-        img.about-image {
-           width: 50%;
         }
       p {
         font-size: 14px;
@@ -149,18 +156,24 @@
     }
     .about-right {
       height: 264px;
-      min-width: 340px;
+      min-width: 310px;
       background-color: $color__background-white;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       width: 100%;
       padding-top: 40px;
-      @media #{$tablet} {
-        width: 70vw;
+      @media #{$desktop} {
+        margin: 0;
+        width: 100%;
         height: 344px;
         margin: 0 auto;
-        padding-left: 10%;
+        padding-right: 18%;
+        padding-left: 18%;
+      }
+      @media #{$tablet} {
+        padding-right: 22%;
+        padding-left: 22%;
       }
       .about-titles {
         font-size: 21px;
@@ -189,6 +202,7 @@
     background-color: $color__background-white;
     display: block;
     text-align: center;
+    margin-top: 44px;
     p {
       font-size: 14px;
       font-weight: 100;
@@ -201,11 +215,13 @@
       width: 204px;
       margin: 30px 0 0 0;
       border-radius: 100px;
+  
     }
     i {
       display: inline-block;
       font-size: 36px;
       margin: 10px;
+      margin-bottom: 24px;
     }
     h2 {
       font-size: 24px;
@@ -223,13 +239,13 @@
       position: relative;
       top: 14px;
     }
-    .underline {
+    .underline2 {
       margin: 0 auto;
       width: 49px;
       text-align: center;
       border-bottom: 3px solid $color__accent-underline;
       position: relative;
-      bottom: 20px;
+      bottom: 40px;
     }
   }
   // Journey
@@ -261,7 +277,7 @@
       text-align: center;
       border-bottom: 3px solid $color__accent-underline;
       position: relative;
-      bottom: 48px;
+      bottom: 78px;
     }
     button.consult {
       letter-spacing: 1pt;
@@ -289,19 +305,24 @@
   left: 80px;
   z-index: 1;
   bottom: 80px;
-  width: 50%;
-
+  width: 60%;
+  @media #{$desktop} {
+   display: none;
+  }
 }
  }
  .about-left {
   img.path-img-left {
     height: 150px;
-    width: 45%;
+    width: 60%;
     min-width: 140px;
     position: relative;
     left: 80px;
     z-index: 1;
     bottom: 80px;
+    @media #{$desktop} {
+      display: none;
+    }
   }
 }
 

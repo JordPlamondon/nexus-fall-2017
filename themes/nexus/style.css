@@ -695,128 +695,15 @@ a {
     @media all and (min-width: 550px) {
       .home .underline {
         width: 120px; } }
-  .home .site-main .banner {
-    padding-top: 4.5rem;
-    width: 100%;
-    height: 16rem;
-    background: url(../../assets/images/photo-hero-mobile.png);
-    background-repeat: no-repeat;
-    background-size: 97vw; }
-    @media all and (min-width: 550px) {
-      .home .site-main .banner {
-        height: 40vw;
-        background-size: 100vw 40vw;
-        background-image: url("../../assets/images/home-hero-desktop.png");
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center; } }
-    .home .site-main .banner__info {
-      width: 40%;
-      margin-left: 2rem;
-      line-height: 2rem; }
-      @media all and (min-width: 550px) {
-        .home .site-main .banner__info {
-          margin: 0; } }
-    .home .site-main .banner__info__h1 {
-      margin: 1vw 0 0 0;
-      font-size: 11vw;
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
-      font-weight: 900;
-      text-transform: uppercase;
-      color: #123048; }
-      @media all and (min-width: 550px) {
-        .home .site-main .banner__info__h1 {
-          font-size: 6vw;
-          font-weight: bold;
-          text-align: center; } }
-    .home .site-main .banner__info__p {
-      margin: 0;
-      font-size: 6vw;
-      font-family: "Raleway", Arial, Helvetica, sans-serif;
-      font-weight: 600;
-      font-style: italic;
-      color: #E00029;
-      text-transform: none;
-      text-align: center;
-      line-height: 18px; }
-      @media all and (min-width: 550px) {
-        .home .site-main .banner__info__p {
-          margin-bottom: 2vw;
-          font-size: 4vw; } }
-    .home .site-main .banner__p {
-      width: 52%;
-      margin-left: 2rem;
-      font-family: "Raleway", Arial, Helvetica, sans-serif;
-      font-size: 4vw;
-      font-style: italic;
-      font-weight: 600;
-      color: #123048; }
-      @media all and (min-width: 550px) {
-        .home .site-main .banner__p {
-          margin-top: 2vw;
-          font-size: 2vw;
-          width: 33%; } }
-    .home .site-main .banner__p__span {
-      font-weight: 800; }
-  .home .site-main .nexus-wrapper {
-    width: 100%; }
-    @media all and (min-width: 550px) {
-      .home .site-main .nexus-wrapper {
-        width: 90%;
-        margin: 0 0 0 auto; } }
-  .home .site-main .why-nexus {
-    height: 90vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus.png");
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus.png");
-    background-position-y: top, bottom;
-    background-position-x: left, left;
-    background-repeat: no-repeat;
-    background-size: 100% 75%, 100% 50%; }
-    @media all and (min-width: 550px) {
-      .home .site-main .why-nexus {
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-        -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
-        background-position-y: center, center;
-        background-repeat: no-repeat;
-        background-position-x: left, right;
-        background-size: 70% 50%,50% 50%; } }
-    .home .site-main .why-nexus h2 {
-      width: 80%;
-      margin: 0 auto; }
-      @media all and (min-width: 550px) {
-        .home .site-main .why-nexus h2 {
-          margin: 0;
-          width: 65%;
-          font-size: 2.5rem; } }
-    .home .site-main .why-nexus .headergroup {
+  .home .site-main .full-page-wrapper {
+    max-width: 100vw; }
+    .home .site-main .full-page-wrapper .banner {
+      padding-top: 4.5rem;
       width: 100%;
-      height: 15rem;
-      background: url("../../assets/images/photo-hero-mobile.png");
+      height: 16rem;
+      background: url(../../assets/images/photo-hero-mobile.png);
       background-repeat: no-repeat;
-      background-size: contain; }
+      background-size: 97vw; }
       @media all and (min-width: 550px) {
         .home .site-main .full-page-wrapper .banner {
           height: 100vh;
@@ -844,7 +731,7 @@ a {
           .home .site-main .full-page-wrapper .banner__info {
             margin: 0; } }
       .home .site-main .full-page-wrapper .banner__info__h1 {
-        margin: 0;
+        margin: 1vw 0 0 0;
         font-size: 11vw;
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: 900;
@@ -866,7 +753,8 @@ a {
         font-style: italic;
         color: #E00029;
         text-transform: none;
-        text-align: center; }
+        text-align: center;
+        line-height: 18px; }
         @media all and (min-width: 550px) {
           .home .site-main .full-page-wrapper .banner__info__p {
             margin-bottom: 2vw;
@@ -962,7 +850,8 @@ a {
             font-family: "Raleway", Arial, Helvetica, sans-serif;
             position: relative;
             bottom: 80px;
-            margin: 0; } }
+            margin: 0;
+            width: 120px; } }
       .home .site-main .full-page-wrapper .why-nexus button {
         margin-top: 3rem;
         width: 185px;
@@ -979,10 +868,10 @@ a {
         font-size: 22px;
         position: relative;
         letter-spacing: 2px; }
-    .home .site-main .full-page-wrapper .choose-wrapper {
+    .home .site-main .full-page-wrapper .front-choose-wrapper {
       display: none; }
       @media all and (min-width: 550px) {
-        .home .site-main .full-page-wrapper .choose-wrapper {
+        .home .site-main .full-page-wrapper .front-choose-wrapper {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -994,7 +883,7 @@ a {
           background-size: 80%;
           background-repeat: no-repeat; } }
       @media all and (min-width: 550px) {
-        .home .site-main .full-page-wrapper .choose-wrapper .choose-program {
+        .home .site-main .full-page-wrapper .front-choose-wrapper .front-choose-program {
           -ms-flex-preferred-size: 50%;
               flex-basis: 50%;
           display: -webkit-box;
@@ -1003,7 +892,7 @@ a {
           background: url("../../assets/images/ImageOverlay@3x.png");
           opacity: 0.85;
           padding-left: 88px; }
-          .home .site-main .full-page-wrapper .choose-wrapper .choose-program h2 {
+          .home .site-main .full-page-wrapper .front-choose-wrapper .front-choose-program h2 {
             text-align: left;
             font-size: 58px;
             width: 400px;
@@ -1011,164 +900,27 @@ a {
             letter-spacing: 4px;
             margin-top: 200px;
             margin-bottom: 24px;
-            line-height: 55px; }
-          .home .site-main .full-page-wrapper .choose-wrapper .choose-program__info-wrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-            width: 90%;
-            margin: 0 auto; }
-          .home .site-main .full-page-wrapper .choose-wrapper .choose-program__info {
-            font-size: 18px;
-            margin-bottom: 78px; }
-          .home .site-main .full-page-wrapper .choose-wrapper .choose-program button {
-            width: 185px;
-            height: 60px;
-            padding: 0;
-            border-radius: 25px 0px 25px 0px;
-            -webkit-box-shadow: none;
-                    box-shadow: none;
-            text-shadow: none;
-            background: #E91C35;
-            color: #FFFFFF;
-            font-family: "Roboto", Arial, Helvetica, sans-serif;
-            font-weight: 900;
-            font-size: 22px;
-            letter-spacing: 2px; } }
-    .home .site-main .full-page-wrapper .browse-programs {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      margin: 0 auto; }
-      @media all and (min-width: 550px) {
-        .home .site-main .full-page-wrapper .browse-programs {
-          display: none; } }
-      .home .site-main .full-page-wrapper .browse-programs .underline {
+            line-height: 55px; } }
+      .home .site-main .full-page-wrapper .front-choose-wrapper .front-choose-program .front-choose-program__info-wrapper {
+        position: relative;
+        left: 4vw;
+        top: 3vw;
         margin: 0 auto;
-        width: 70px; }
-      .home .site-main .full-page-wrapper .browse-programs__subheading {
-        width: 80%;
-        text-transform: uppercase;
-        margin: 0.5rem auto;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        background: #F3F5F8; }
-    .home .site-main .full-page-wrapper .student-review .headergroup {
-      line-height: 3rem; }
-    .home .site-main .full-page-wrapper .student-review .underline {
-      margin: 0 auto 3rem auto; }
-    .home .site-main .full-page-wrapper .student-review .owl-nav {
-      display: none; }
-    .home .site-main .full-page-wrapper .student-review .owl-dots {
-      margin: 3rem auto; }
-    .home .site-main .full-page-wrapper .student-review__box {
-      width: 90%;
-      margin: 0 auto;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; }
-      @media all and (min-width: 550px) {
-        .home .site-main .full-page-wrapper .student-review__box {
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: row;
-                  flex-direction: row; }
-          .home .site-main .full-page-wrapper .student-review__box img {
-            -ms-flex-preferred-size: 30%;
-                flex-basis: 30%;
-            width: 30%; } }
-      .home .site-main .full-page-wrapper .student-review__box .student-review__info-wrapper {
-        background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
-        background-repeat: no-repeat;
-        background-position: top left, bottom right;
-        background-color: #F3F5F8;
-        margin-top: 0;
-        width: 100%;
-        padding: 39px 30px 22px 48px;
-        font-weight: bold;
-        font-size: 4vw;
-        position: relative; }
-        @media all and (min-width: 550px) {
-          .home .site-main .full-page-wrapper .student-review__box .student-review__info-wrapper {
-            margin: 0;
-            font-size: 3vw;
-            -ms-flex-preferred-size: 80%;
-                flex-basis: 80%; } }
-        @media all and (min-width: 550px) {
-          .home .site-main .full-page-wrapper .student-review__box .student-review__info-wrapper .student-review__info {
-            padding: 15px 20px 15px 45px; } }
-        .home .site-main .full-page-wrapper .student-review__box .student-review__info-wrapper .grey {
-          background: #F3F5F8;
-          -webkit-transform: rotate(134deg);
-                  transform: rotate(134deg);
-          bottom: 54px;
-          left: 40%;
-          height: 30px;
-          position: relative;
-          width: 30px; }
-          @media all and (min-width: 550px) {
-            .home .site-main .full-page-wrapper .student-review__box .student-review__info-wrapper .grey {
-              background: #F3F5F8;
-              -webkit-transform: rotate(134deg);
-                      transform: rotate(134deg);
-              bottom: -60px;
-              left: -63px;
-              height: 30px;
-              position: relative;
-              width: 30px; } }
-    .home .site-main .full-page-wrapper .start-journey {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      height: auto;
-      padding: 1rem 0;
-      background: #F3F5F8; }
-      .home .site-main .full-page-wrapper .start-journey .headergroup {
-        line-height: 3rem; }
-      .home .site-main .full-page-wrapper .start-journey .underline {
-        margin: 0 auto 1rem auto; }
-      .home .site-main .full-page-wrapper .start-journey__header {
-        text-transform: uppercase;
-        font-size: 2rem; }
-      .home .site-main .full-page-wrapper .start-journey__subheader {
-        margin: 0;
-        font-family: "Raleway", Arial, Helvetica, sans-serif;
-        font-weight: 600;
-        font-style: italic;
-        color: #E00029; }
-      .home .site-main .full-page-wrapper .start-journey button {
-        margin-top: 2rem;
-        width: 160px;
-        height: 40px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 90%;
+        margin: 0 auto; }
+      .home .site-main .full-page-wrapper .front-choose-wrapper .front-choose-program__info {
+        font-size: 18px;
+        margin-bottom: 78px; }
+      .home .site-main .full-page-wrapper .front-choose-wrapper .front-choose-program button {
+        width: 185px;
+        height: 60px;
         padding: 0;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
@@ -1178,7 +930,180 @@ a {
         color: #FFFFFF;
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: 900;
-        font-size: 18px; }
+        font-size: 22px;
+        letter-spacing: 2px; }
+    .home .site-main .full-page-wrapper h2 {
+      text-align: left;
+      font-size: 4vw; }
+    .home .site-main .full-page-wrapper button {
+      width: 135px;
+      height: 40px;
+      padding: 0;
+      border-radius: 25px 0px 25px 0px;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      background: #910e1e;
+      color: #FFFFFF;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      font-size: 18px; }
+  .home .browse-programs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto; }
+    @media all and (min-width: 550px) {
+      .home .browse-programs {
+        display: none; } }
+    .home .browse-programs .underline {
+      margin: 0 auto;
+      width: 70px; }
+    .home .browse-programs__subheading {
+      width: 80%;
+      text-transform: uppercase;
+      margin: 0.5rem auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background: #F3F5F8; }
+  .home .student-review .headergroup {
+    line-height: 3rem; }
+  .home .student-review h2 {
+    font-size: 4vw; }
+  .home .student-review .underline {
+    margin: 0 auto 3rem auto; }
+    @media all and (min-width: 550px) {
+      .home .student-review .underline {
+        width: 120px; } }
+  .home .student-review .owl-nav {
+    display: none; }
+  .home .student-review .owl-dots {
+    margin: 3rem auto; }
+  .home .student-review__box {
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    @media all and (min-width: 550px) {
+      .home .student-review__box {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
+    @media all and (min-width: 550px) {
+      .home .student-review__box .student-review__box__image {
+        -ms-flex-preferred-size: 40%;
+            flex-basis: 40%;
+        width: 30%;
+        overflow: hidden; } }
+    @media all and (min-width: 550px) {
+      .home .student-review__box .student-review__box__image img {
+        -webkit-transform: scale(3);
+                transform: scale(3);
+        position: relative;
+        top: 50px; } }
+  .home .student-review__info-wrapper {
+    background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #F3F5F8;
+    margin-top: 0;
+    width: 100%;
+    padding: 39px 30px 22px 48px;
+    font-weight: bold;
+    font-size: 4vw;
+    position: relative; }
+    @media all and (min-width: 550px) {
+      .home .student-review__info-wrapper {
+        margin: 0;
+        font-size: 3vw;
+        -ms-flex-preferred-size: 80%;
+            flex-basis: 80%; } }
+    @media all and (min-width: 550px) {
+      .home .student-review__info-wrapper .student-review__info {
+        padding: 15px 20px 15px 45px; } }
+    .home .student-review__info-wrapper .grey {
+      background: #F3F5F8;
+      -webkit-transform: rotate(134deg);
+              transform: rotate(134deg);
+      bottom: 54px;
+      left: 40%;
+      height: 30px;
+      position: relative;
+      width: 30px; }
+      @media all and (min-width: 550px) {
+        .home .student-review__info-wrapper .grey {
+          background: #F3F5F8;
+          -webkit-transform: rotate(134deg);
+                  transform: rotate(134deg);
+          bottom: -60px;
+          left: -63px;
+          height: 30px;
+          position: relative;
+          width: 30px; } }
+  .home .start-journey {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    padding: 1rem 0;
+    background: #F3F5F8; }
+    .home .start-journey .headergroup {
+      line-height: 3rem; }
+    .home .start-journey .underline {
+      margin: 0 auto 1rem auto; }
+      @media all and (min-width: 550px) {
+        .home .start-journey .underline {
+          width: 120px; } }
+    .home .start-journey__header {
+      text-transform: uppercase;
+      font-size: 4.2vw; }
+    .home .start-journey__subheader {
+      margin: 0;
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      font-style: italic;
+      color: #E00029; }
+    .home .start-journey button {
+      margin-top: 2rem;
+      width: 160px;
+      height: 40px;
+      padding: 0;
+      border-radius: 25px 0px 25px 0px;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      background: #E91C35;
+      color: #FFFFFF;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      font-size: 18px; }
 
 .home .choose-province-wrapper {
   display: none; }

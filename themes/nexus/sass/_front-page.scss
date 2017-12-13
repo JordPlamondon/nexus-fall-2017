@@ -126,7 +126,7 @@
       background-position-y: top, bottom;
       background-position-x: left, left;
       background-repeat: no-repeat;
-      background-size: 100% 75%, 100% 90%;
+      background-size: 100% 75%, 100% 50%;
       color: $color__footer-background;
       @media #{$desktop} {
         justify-content: space-around;
@@ -134,7 +134,7 @@
         background-position-y: center, center;
         background-repeat: no-repeat;
         background-position-x: left, right;
-        background-size: 55% 50%,50% 80%;
+        background-size: 70% 75%,50% 70%;
       }
 
       h2 {
@@ -170,7 +170,7 @@
           font-weight: 100;
           width: 60%;
           position: relative;
-          right: 10%;
+          right: 20%;
          
           
         }
@@ -214,85 +214,65 @@
       @media #{$desktop} {
         display: flex;
         justify-content: flex-end;
-        height: 100vh;
-        background: url('../../assets/images/programs_nexus@3x.png');
-        background-size: 80%;
+        height: 50vw;
+        min-height: 560px;
+        background: url(../../assets/images/programs_nexus@3x.png);
+        background-size: cover;
         background-repeat: no-repeat;
       }
 
       .front-choose-program {
         @media #{$desktop} {
-          flex-basis: 50%;
-          display: flex;
-          background: url('../../assets/images/ImageOverlay@3x.png');
-          opacity: 0.85;
-          padding-left: 88px;
-
-        h2 {
-          text-align: left;
-          font-size: 58px;
-          width: 400px;
-          height: 100px;
-          letter-spacing: 4px;
-          margin-top: 200px;
-          margin-bottom: 24px;
-          line-height: 55px;
+          width: 50%;
+          background: url(../../assets/images/ImageOverlay@3x.png);
+          opacity: .8;
         }
       }
 
+      .front-choose-program__info-wrapper {
+        position: relative;
+        left: 4vw;
+        top: 3vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
 
-        .front-choose-program__info-wrapper {
-          position: relative;
-          left: 4vw;
-          top: 3vw;
-          margin: 0 auto;
-          display: flex;
-          flex-direction: column;
-          width: 90%;
-          margin: 0 auto;
+        h2, p {
+          // color: $color__text-main;
+          color: darken($color__text-main, 2%);
         }
-        &__info {
-          font-size: 18px;
-          margin-bottom: 78px;
+
+        h2 {
+      
+            text-align: left;
+            font-size: 38px;
+            width: 400px;
+            height: 100px;
+            letter-spacing: 4px;
+            margin-top: 200px;
+            margin-bottom: 24px;
+            line-height: 55px;
+    
         }
+
         button {
-          width: 185px;
-          height: 60px;
+          width: 135px;
+          height: 40px;
           padding: 0;
           border-radius: 25px 0px 25px 0px;
           box-shadow: none;
           text-shadow: none;
-          background: $color__icon-element;
+          background: darken($color__icon-element, 20%);
           color: $color__text-white;
           font-family: $font__main;
           font-weight: 900;
-          font-size: 22px;
-          letter-spacing: 2px;
-        }
-        }
+          font-size: 18px;
+        }  
       }
-
-          h2 {
-            text-align: left;
-            font-size: 4vw;
-          }
-
-          button {
-            width: 135px;
-            height: 40px;
-            padding: 0;
-            border-radius: 25px 0px 25px 0px;
-            box-shadow: none;
-            text-shadow: none;
-            background: darken($color__icon-element, 20%);
-            color: $color__text-white;
-            font-family: $font__main;
-            font-weight: 900;
-            font-size: 18px;
-          }  
-        }
-      
     }
+
+  
 
 
     .browse-programs {
@@ -471,3 +451,4 @@
   }
 
 
+  }}

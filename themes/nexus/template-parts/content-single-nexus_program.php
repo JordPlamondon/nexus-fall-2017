@@ -47,7 +47,7 @@
             <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
             <div class="underline"></div>
         </div>
-
+        <div><?php echo get_post_meta($post->ID, '_nexus_program_about_image', true); ?></div>
         <p><?php echo get_post_meta($post->ID, '_nexus_program_school_about', true); ?></p>
         <div><?php echo get_post_meta($post->ID, '_nexus_program_city_photo', true); ?></div>
 

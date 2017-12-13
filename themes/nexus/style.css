@@ -691,13 +691,16 @@ a {
   .home .underline {
     width: 49px;
     border-bottom: 3px solid #FF8A2A; }
+    @media all and (min-width: 550px) {
+      .home .underline {
+        width: 120px; } }
   .home .site-main .banner {
     padding-top: 4.5rem;
     width: 100%;
-    height: 15rem;
-    background: url("../../assets/images/photo-hero-mobile.png");
+    height: 16rem;
+    background: url(../../assets/images/photo-hero-mobile.png);
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: 97vw; }
     @media all and (min-width: 550px) {
       .home .site-main .banner {
         height: 40vw;
@@ -724,7 +727,7 @@ a {
         .home .site-main .banner__info {
           margin: 0; } }
     .home .site-main .banner__info__h1 {
-      margin: 0;
+      margin: 1vw 0 0 0;
       font-size: 11vw;
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       font-weight: 900;
@@ -743,7 +746,8 @@ a {
       font-style: italic;
       color: #E00029;
       text-transform: none;
-      text-align: center; }
+      text-align: center;
+      line-height: 18px; }
       @media all and (min-width: 550px) {
         .home .site-main .banner__info__p {
           margin-bottom: 2vw;
@@ -797,7 +801,7 @@ a {
         background-position-y: center, center;
         background-repeat: no-repeat;
         background-position-x: left, right;
-        background-size: 55% 50%,50% 50%; } }
+        background-size: 70% 50%,50% 50%; } }
     .home .site-main .why-nexus h2 {
       width: 80%;
       margin: 0 auto; }
@@ -826,7 +830,8 @@ a {
       margin: 0 auto; }
       @media all and (min-width: 550px) {
         .home .site-main .why-nexus .underline {
-          margin: 0; } }
+          margin: 0;
+          width: 120px; } }
     .home .site-main .why-nexus button {
       margin-top: 3rem;
       width: 135px;
@@ -841,64 +846,58 @@ a {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       font-weight: 900;
       font-size: 18px; }
-  .home .site-main .choose-wrapper {
+  .home .site-main .front-choose-wrapper {
     display: none; }
     @media all and (min-width: 550px) {
-      .home .site-main .choose-wrapper {
+      .home .site-main .front-choose-wrapper {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: end;
             -ms-flex-pack: end;
                 justify-content: flex-end;
-        height: 50vh;
-        background: url("../../assets/images/programs_nexus@3x.png");
-        background-size: 53%;
+        height: 50vw;
+        background: url(../../assets/images/programs_nexus@3x.png);
+        background-size: 80vw;
         background-repeat: no-repeat; } }
     @media all and (min-width: 550px) {
-      .home .site-main .choose-wrapper .choose-program {
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background: url("../../assets/images/ImageOverlay@3x.png");
-        opacity: 0.8; }
-        .home .site-main .choose-wrapper .choose-program h2 {
-          text-align: left; }
-        .home .site-main .choose-wrapper .choose-program__info-wrapper {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: column;
-                  flex-direction: column;
-          width: 90%;
-          margin: 0 auto; }
-        .home .site-main .choose-wrapper .choose-program button {
-          width: 135px;
-          height: 40px;
-          padding: 0;
-          border-radius: 25px 0px 25px 0px;
-          -webkit-box-shadow: none;
-                  box-shadow: none;
-          text-shadow: none;
-          background: #E91C35;
-          color: #FFFFFF;
-          font-family: "Roboto", Arial, Helvetica, sans-serif;
-          font-weight: 900;
-          font-size: 18px; } }
+      .home .site-main .front-choose-wrapper .front-choose-program {
+        width: 50%;
+        background: url(../../assets/images/ImageOverlay@3x.png);
+        opacity: .8; } }
+    .home .site-main .front-choose-wrapper .front-choose-program__info-wrapper {
+      position: relative;
+      left: 4vw;
+      top: 3vw;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .home .site-main .front-choose-wrapper .front-choose-program__info-wrapper h2, .home .site-main .front-choose-wrapper .front-choose-program__info-wrapper p {
+        color: #102b40; }
+      .home .site-main .front-choose-wrapper .front-choose-program__info-wrapper h2 {
+        text-align: left;
+        font-size: 4vw; }
+      .home .site-main .front-choose-wrapper .front-choose-program__info-wrapper button {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #910e1e;
+        color: #FFFFFF;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 18px; }
   .home .site-main .browse-programs {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -919,6 +918,9 @@ a {
         display: none; } }
     .home .site-main .browse-programs .underline {
       margin: 0 auto; }
+      @media all and (min-width: 550px) {
+        .home .site-main .browse-programs .underline {
+          width: 120px; } }
     .home .site-main .browse-programs__subheading {
       width: 80%;
       text-transform: uppercase;
@@ -929,8 +931,13 @@ a {
       background: #F3F5F8; }
   .home .site-main .student-review .headergroup {
     line-height: 3rem; }
+  .home .site-main .student-review h2 {
+    font-size: 4vw; }
   .home .site-main .student-review .underline {
     margin: 0 auto 3rem auto; }
+    @media all and (min-width: 550px) {
+      .home .site-main .student-review .underline {
+        width: 120px; } }
   .home .site-main .student-review .owl-nav {
     display: none; }
   .home .site-main .student-review .owl-dots {
@@ -950,50 +957,58 @@ a {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
-                flex-direction: row; }
-        .home .site-main .student-review__box img {
-          -ms-flex-preferred-size: 30%;
-              flex-basis: 30%;
-          width: 30%; } }
-    .home .site-main .student-review__box .student-review__info-wrapper {
-      background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
-      background-repeat: no-repeat;
-      background-position: top left, bottom right;
-      background-color: #F3F5F8;
-      margin-top: 0;
-      width: 100%;
-      padding: 39px 30px 22px 48px;
-      font-weight: bold;
-      font-size: 4vw;
-      position: relative; }
-      @media all and (min-width: 550px) {
-        .home .site-main .student-review__box .student-review__info-wrapper {
-          margin: 0;
-          font-size: 3vw;
-          -ms-flex-preferred-size: 80%;
-              flex-basis: 80%; } }
-      @media all and (min-width: 550px) {
-        .home .site-main .student-review__box .student-review__info-wrapper .student-review__info {
-          padding: 15px 20px 15px 45px; } }
-      .home .site-main .student-review__box .student-review__info-wrapper .grey {
-        background: #F3F5F8;
-        -webkit-transform: rotate(134deg);
-                transform: rotate(134deg);
-        bottom: 54px;
-        left: 40%;
-        height: 30px;
+                flex-direction: row; } }
+    @media all and (min-width: 550px) {
+      .home .site-main .student-review__box .student-review__box__image {
+        -ms-flex-preferred-size: 40%;
+            flex-basis: 40%;
+        width: 30%;
+        overflow: hidden; } }
+    @media all and (min-width: 550px) {
+      .home .site-main .student-review__box .student-review__box__image img {
+        -webkit-transform: scale(3);
+                transform: scale(3);
         position: relative;
-        width: 30px; }
-        @media all and (min-width: 550px) {
-          .home .site-main .student-review__box .student-review__info-wrapper .grey {
-            background: #F3F5F8;
-            -webkit-transform: rotate(134deg);
-                    transform: rotate(134deg);
-            bottom: -60px;
-            left: -63px;
-            height: 30px;
-            position: relative;
-            width: 30px; } }
+        top: 50px; } }
+  .home .site-main .student-review__info-wrapper {
+    background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #F3F5F8;
+    margin-top: 0;
+    width: 100%;
+    padding: 39px 30px 22px 48px;
+    font-weight: bold;
+    font-size: 4vw;
+    position: relative; }
+    @media all and (min-width: 550px) {
+      .home .site-main .student-review__info-wrapper {
+        margin: 0;
+        font-size: 3vw;
+        -ms-flex-preferred-size: 80%;
+            flex-basis: 80%; } }
+    @media all and (min-width: 550px) {
+      .home .site-main .student-review__info-wrapper .student-review__info {
+        padding: 15px 20px 15px 45px; } }
+    .home .site-main .student-review__info-wrapper .grey {
+      background: #F3F5F8;
+      -webkit-transform: rotate(134deg);
+              transform: rotate(134deg);
+      bottom: 54px;
+      left: 40%;
+      height: 30px;
+      position: relative;
+      width: 30px; }
+      @media all and (min-width: 550px) {
+        .home .site-main .student-review__info-wrapper .grey {
+          background: #F3F5F8;
+          -webkit-transform: rotate(134deg);
+                  transform: rotate(134deg);
+          bottom: -60px;
+          left: -63px;
+          height: 30px;
+          position: relative;
+          width: 30px; } }
   .home .site-main .start-journey {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1015,9 +1030,12 @@ a {
       line-height: 3rem; }
     .home .site-main .start-journey .underline {
       margin: 0 auto 1rem auto; }
+      @media all and (min-width: 550px) {
+        .home .site-main .start-journey .underline {
+          width: 120px; } }
     .home .site-main .start-journey__header {
       text-transform: uppercase;
-      font-size: 2rem; }
+      font-size: 4.2vw; }
     .home .site-main .start-journey__subheader {
       margin: 0;
       font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -1535,11 +1553,14 @@ a {
 
 .home .why-canada .headergroup {
   line-height: 3rem; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .headergroup {
+      margin-bottom: 3rem; } }
 
 .home .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold; }
-  @media all and (min-width: 960px) {
+  @media all and (min-width: 550px) {
     .home .why-canada__header {
       text-align: center;
       font-size: 3rem;
@@ -1553,13 +1574,14 @@ a {
 
 @media all and (min-width: 960px) {
   .home .why-canada .owl-carousel {
+    position: relative;
     width: 100%;
     height: 100%; } }
 
 .home .why-canada .first {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whynexus@3x.png);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whynexus@3x.png);
-  background-size: 100% 70%,100% 50%;
+  background-size: 100% 70%,100% 75%;
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
@@ -1574,7 +1596,7 @@ a {
 .home .why-canada .second {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whycanada@3x.png);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whycanada@3x.png);
-  background-size: 100% 70%,100% 50%;
+  background-size: 100% 70%,100% 75%;
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
@@ -1587,16 +1609,16 @@ a {
       background-repeat: no-repeat,no-repeat; } }
 
 .home .why-canada .third {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/photo_review.png);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/photo_review.png);
-  background-size: 100% 70%,100% 50%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/photo-review@3x.png);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/photo-review@3x.png);
+  background-size: 100% 70%,100% 75%;
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
   @media all and (min-width: 550px) {
     .home .why-canada .third {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo_review.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo_review.png");
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo-review@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo-review@3x.png");
       background-size: 65% 55%,70% 100%;
       background-position-x: left,right;
       background-repeat: no-repeat,no-repeat; } }
@@ -1663,10 +1685,10 @@ a {
   bottom: 2.5rem; }
   @media all and (min-width: 550px) {
     .home .why-canada .owl-nav {
-      position: relative;
+      position: absolute;
       z-index: 998;
-      bottom: 24rem;
-      right: -3rem; } }
+      top: 20%;
+      left: 50%; } }
   .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3271,7 +3293,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type {
     font-size: 0.75rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-type {
         font-size: 1.25rem; } }

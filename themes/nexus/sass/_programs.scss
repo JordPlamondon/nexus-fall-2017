@@ -241,7 +241,16 @@
 // Single Program
 
 .single-nexus_program {
+  .single-program-content {
+    margin-top: 0;
+    line-height: 1.75;
+    text-align: center;
+    color: $color__text-main;
+    font-family: 'Roboto', sans-serif;
+  }
   .header-wrapper {
+    margin-top: 1.75rem;
+    margin-bottom: 2.25rem;
     display: flex;
     flex-direction: column;
     .underline {
@@ -256,12 +265,18 @@
     }
   }
 
+  .single-program-about-image {
+    display: none;
+    @media #{$desktop} {
+      display: none;
+    }
+  }
   .single-program-title {
-    margin-bottom: 2px;
+    margin: 2px 0;
   }
 
   .single-program-header {
-    margin-bottom: 2px;
+    margin: 2px 0;
   }
 
   .single-program-container {
@@ -274,12 +289,14 @@
   }
 
   .program-meta-category {
+    margin: 1rem 0 0 0;
     font-size: 0.75rem;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
   }
   
   .program-meta-content {
+    margin: 0 0 1rem 0;
     font-size: 1.15rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;

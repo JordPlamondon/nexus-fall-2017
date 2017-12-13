@@ -1,8 +1,8 @@
 (function ($) {
-  console.log('whatever');
+
   // Ajax functions
   function ajaxGet(request) {
-    console.log(api_vars.root_url + request);
+
     $.ajax({
         method: 'get',
         // Go to the wordpress rest api and get the request
@@ -11,7 +11,7 @@
       .done(function (data) {
         // Loop through the returned results
         for (var i = 0; i < data.length; i++){
-          
+        
           // Construct an article from each returned Object
           console.log(data)
           var post = data[i];
@@ -38,9 +38,13 @@
           $('.search-results').append(article);
 
         } // for loop
+      })
+      .fail(function() {
+        $('.search-results').append('<div><p>No programs matched your search</p></div>');
       });
   }
 
+  // Construct Get request based on form input
   function requestFilter () {
     var program = $('select[name*="programfilter"').val();
     var province = $('select[name*="provincefilter"').val();
@@ -57,6 +61,7 @@
     return request;
   }
 
+  // Change the page style after the search form is submitted
   function styleChange(){
     $('.hero-wrapper').removeClass('hidden');
     $('.program-title').addClass('hidden');
@@ -70,18 +75,21 @@
       'min-height': 'none'
     });
   }
-
+  // Variable to check the state of the form
   var submitted = false;
+
+  // Event listener on submit button 
+  // Will run both styleChange and ajaxGet if a valid request is submitted
   $('.program-filter-submit').on('click', function (event){
     event.preventDefault();
     $('.search-results').empty();
+    // Get a request based on search form filters and check that it returns posts
     var request = requestFilter();
     if (request !== undefined) {
       ajaxGet(request);
       styleChange();
       submitted = true;
     }
-    console.log(request);
   });
 
   $('select').on('change', function() {

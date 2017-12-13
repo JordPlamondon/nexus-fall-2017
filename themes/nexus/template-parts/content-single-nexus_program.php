@@ -40,7 +40,7 @@
             <div class="underline"></div>
         </div>
         <div class="single-program-about-image"><img src="<?php echo get_post_meta($post->ID, '_nexus_program_about_image', true); ?>"/></div>
-        <p><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
+        <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
         <div><?php echo get_post_meta($post->ID, '_nexus_program_media', true); ?></div>
 
         <div class="header-wrapper">
@@ -48,7 +48,7 @@
             <div class="underline"></div>
         </div>
     
-        <p><?php echo get_post_meta($post->ID, '_nexus_program_school_about', true); ?></p>
+        <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_school_about', true); ?></p>
         <div><?php echo get_post_meta($post->ID, '_nexus_program_city_photo', true); ?></div>
 
         <div class="header-wrapper">
@@ -56,8 +56,8 @@
             <div class="underline"></div>
         </div>
 
-        <p><?php echo get_post_meta($post->ID, '_nexus_program_city_about', true); ?></p>
-        <p><?php echo get_post_meta($post->ID, '_nexus_program_reviews', true); ?></p>
+        <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_city_about', true); ?></p>
+        <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_reviews', true); ?></p>
 
     </div>
 

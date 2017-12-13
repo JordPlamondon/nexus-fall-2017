@@ -3326,7 +3326,16 @@ nav.main-navigation:hover {
       background: #E91C35;
       color: #FFFFFF; }
 
+.single-nexus_program .single-program-content {
+  margin-top: 0;
+  line-height: 1.75;
+  text-align: center;
+  color: #123048;
+  font-family: 'Roboto', sans-serif; }
+
 .single-nexus_program .header-wrapper {
+  margin-top: 1.75rem;
+  margin-bottom: 2.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3344,11 +3353,17 @@ nav.main-navigation:hover {
         width: 144px;
         border-bottom-width: 6px; } }
 
+.single-nexus_program .single-program-about-image {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .single-nexus_program .single-program-about-image {
+      display: none; } }
+
 .single-nexus_program .single-program-title {
-  margin-bottom: 2px; }
+  margin: 2px 0; }
 
 .single-nexus_program .single-program-header {
-  margin-bottom: 2px; }
+  margin: 2px 0; }
 
 .single-nexus_program .single-program-container {
   padding: 1rem;
@@ -3366,11 +3381,13 @@ nav.main-navigation:hover {
           align-items: center; }
 
 .single-nexus_program .program-meta-category {
+  margin: 1rem 0 0 0;
   font-size: 0.75rem;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif; }
 
 .single-nexus_program .program-meta-content {
+  margin: 0 0 1rem 0;
   font-size: 1.15rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;

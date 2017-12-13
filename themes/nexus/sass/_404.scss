@@ -7,26 +7,52 @@ fieldset {
   width: 100%;
 }
 
-section.error-404.not-found {
-  h1.page-title {
-    margin: 5rem 5rem 0 5rem;
-    color: $color__text-main;
-    padding-top: 3rem;
-  } 
-  p {
-    margin: 0 5rem 0 5rem;
-    color: $color__text-main;
-  }
+div.hero-404 {  // Hero image
+  background-image: url('../../assets/images/jay-toor-105107.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vw;
+  width: 100%;
+  max-height: 981px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 800px;
 }
 
-.home-button {
-  height: 55px;	
-  width: 272px;	
+section.error-404.not-found { // White background with opacitiy.  Text contained in here
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $color__textbox-background;
+  opacity: 0.75;
+  max-height: 633px;	
+  max-width: 1018px;	
+  min-height: 800px;
+  text-align: center;
+    h1.page-title {
+    margin: 20px 20px 10px 20px;
+    color: $color__text-main;
+    padding-top: 2rem;
+    font-size: 4rem;
+    } 
+    p {
+      margin: 10px 30px 20px 30px;
+      color: $color__text-main;
+      font-size: 2rem;
+    }
+}
+
+.home-button {  // Home button linked to home_url with a hover border change
+  height: 80px;	
+  width: 250px;	
   border-radius: 2px 100px 2px 100px;	
   background-color: $color__icon-element;	
   color: $color__text-white;
   font-family: $font__main;
-  font-size: 24px;	
+  font-size: 36px;	
   font-weight: bold;	
   letter-spacing: 2px;	
   line-height: 28px;	
@@ -38,10 +64,10 @@ section.error-404.not-found {
   }
 }
 
-div.return-home {
+div.return-home {  // Button container
   display: flex;
   justify-content: center;
-  padding: 30px 0 30px 0;
+  padding: 2rem 0 3rem 0;
 }
 
 

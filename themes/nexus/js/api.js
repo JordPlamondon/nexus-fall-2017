@@ -22,7 +22,7 @@
           var programType = post['_nexus_program_type'];
           var link = api_vars.home_url + '/' + post['slug'];
         
-          if (post['featured_media']){
+          if (post['featured_media'] !== undefined){
             image = post['_embedded']['wp:featuredmedia'][0]['source_url'];
           }
           var article = '<article class=program-container "' + programContainer + '">';
@@ -61,10 +61,10 @@
     $('.hero-wrapper').removeClass('hidden');
     $('.program-title').addClass('hidden');
     $('.program-filter-submit').addClass('hidden');
-    $('.selectric-container').css({
-      'max-width': '125px'
-    });
+    $('.button-wrapper').addClass('hidden');
+    $('.select-container').addClass('select-container-searched');
     $('.select-form-wrapper').addClass('select-form-wrapper-searched');
+    $('.program-content').addClass('program-content-container');
     $('.program-content').css({
       'background-image': 'none',
       'min-height': 'none'

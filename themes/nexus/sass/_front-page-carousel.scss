@@ -3,6 +3,7 @@
     @media all and (min-width: 960px) {
       position: relative;
       height: 120vh;
+      margin-top: 3rem;
     }    
     
     .headergroup {
@@ -20,7 +21,7 @@
     }
 
     .underline {
-      margin: 0 auto 3rem auto; 
+      margin: 0 auto ; 
       @media all and (min-width: 960px) {
         text-align: center;  
       
@@ -97,7 +98,6 @@
 
       &__content-wrapper{
         margin: 0 5rem;
-        padding-top: 2rem;
         width: 71%;
         height: 30rem;
         @media #{$desktop} {
@@ -122,11 +122,13 @@
     }
 
     .carouselplaceholder__subheader {
+      padding-right: 3rem;
+      margin-bottom: 3rem;
+      text-align: center;
       font-family: $font__accent;
       font-weight: 600;
       font-style: italic;
       color: $color__text-accent;
-      text-align: center;
       @media #{$desktop} {
         margin-top: 5px;
         color: $color__text-main;

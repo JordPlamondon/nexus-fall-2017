@@ -1,0 +1,31 @@
+.page-template-consult {
+
+.consult-wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
+  height: 900px;
+  background-color: $color__quoteform-background;
+  margin-top: 60px;
+  h2 {
+    font-size: 46px;
+  }
+}
+  .consult-form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: inline-block;
+    input {
+      height: 44px;
+      width: 20vw;
+      display: inline-block;
+    } 
+    textarea {
+      width: 50vw;
+    }
+  }
+}

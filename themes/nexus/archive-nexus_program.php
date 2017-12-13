@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<div class="hidden hero-wrapper">
 				 <div class="hero-image">
-          <h1 class="about-title"> Programs <h1>
+          <h1 class="about-title"> Programs </h1>
           <div class="underline"></div>
 				</div>
 			</div>

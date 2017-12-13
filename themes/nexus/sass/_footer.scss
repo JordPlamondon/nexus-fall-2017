@@ -15,13 +15,11 @@ div.footer__contact p a,
 div.footer__site-info a,
 div.footer__desktop--nav li a {
   text-decoration: none;
-} 
+}
 
 div.footer__social-media {
   background-color: $color__footer-background;
 }
-
-
 
 div#secondary.widget-area,
 div.footer__contact p a,
@@ -29,19 +27,19 @@ div.footer__contact p a,
   color: $color__background-hr;
   font-family: $font__main
 }
-    
+
 div.widget_info_contain a {
   text-decoration: none;
   color: $color__text-white;
 }
 
+
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
 
-@media screen and (max-width: 550px){
-
+@media screen and (max-width: 550px) {
   div.footer__site-info.hidden {
     display: none;
   }
@@ -51,19 +49,17 @@ div.widget_info_contain a {
   .widget_fa {
     display: show;
   }
-
   div.footer__social-media-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-      h2 {
+    h2 {
       padding: 20px 0 10px 0;
       text-align: center;
       color: $color__text-white;
       margin-bottom: 0;
     }
   }
-
   div.socialmedia-container {
     display: flex;
     flex-direction: row;
@@ -75,35 +71,29 @@ div.widget_info_contain a {
       margin: 0 7px;
     }
   }
-
   div.widget_fa {
     display: flex;
     align-items: center;
     padding-right: 20px;
   }
-
   section.footer_contact_info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-
   div.footer__contact,
   div.footer__office {
     justify-content: center;
   }
-
   div.widget_info_contain.one {
     margin-top: 1rem;
   }
-
   div.widget_info_contain a,
   div.widget_info_contain p,
   p.footer__office--hours {
     margin-left: 24px;
     max-width: 197px;
   }
-
   div.widget_info_contain {
     display: flex;
     flex-direction: row;
@@ -114,21 +104,18 @@ div.widget_info_contain a {
       color: $color__text-white;
     }
   }
-
   div.footer__contact h2 {
     padding: 20px 0 5px 0;
     text-align: center;
     color: $color__text-white;
     margin-bottom: 0;
   }
-  
   div.widget-fa i {
     color: $color__text-white;
   }
-
   .footer__contact,
   .footer__office {
-    display:  flex;
+    display: flex;
     flex-direction: column;
     margin: auto;
     p {
@@ -136,7 +123,6 @@ div.widget_info_contain a {
       color: $color__text-white;
     }
   }
-
   .underline.footer {
     margin: auto;
     width: 49px;
@@ -144,13 +130,14 @@ div.widget_info_contain a {
   }
 }
 
+
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
 
 @media screen and (max-width: 1019px) {
-  @media screen and (min-width: 551px){
+  @media screen and (min-width: 551px) {
     div.footer__site-info.hidden {
       display: none;
     }
@@ -160,23 +147,19 @@ div.widget_info_contain a {
     .widget_fa {
       display: none;
     }
-    
     div.widget-fa {
       height: 10px;
     }
-  
     div.footer__social-media {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      justify-content: space-evenly;
+      justify-content: space-around;
       max-height: 400px;
     }
-  
     div.footer__contact h2 {
       text-align: left;
     }
-  
     .widget-info-contain {
       p {
         font-family: $font__accent;
@@ -185,7 +168,6 @@ div.widget_info_contain a {
         font-family: $font__accent;
       }
     }
-  
     .footer__social-media-container,
     .footer__contact {
       color: $color__text-white;
@@ -196,18 +178,15 @@ div.widget_info_contain a {
         margin-bottom: 0;
       }
     }
-  
     div.footer__social-media-container,
     section.footer_contact_info {
       margin-top: 2rem;
       margin-bottom: 2rem;
     }
-  
     .footer__social-media-container,
-    section.footer_contact_info   {
+    section.footer_contact_info {
       width: 200px;
     }
-  
     div.socialmedia-container {
       display: flex;
       flex-direction: row;
@@ -221,7 +200,6 @@ div.widget_info_contain a {
         margin: 0 7px;
       }
     }
-  
     .underline.footer {
       padding-top: 10px;
       width: 74px;
@@ -230,13 +208,13 @@ div.widget_info_contain a {
   }
 }
 
+
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 
-@media screen and (min-width: 750px){
-
+@media screen and (min-width: 750px) {
   div.footer__site-info.hidden {
     display: flex;
     flex-direction: row;
@@ -246,7 +224,6 @@ div.widget_info_contain a {
     height: 61px;
     background-color: $color__footer-navbkgrnd;
   }
-  
   div.footer__desktop--nav {
     display: flex;
     justify-content: flex-end;
@@ -259,11 +236,9 @@ div.widget_info_contain a {
       padding: 0;
     }
   }
-    
   .footer--nav--li {
     padding-left: 1rem;
   }
-
   div.footer_hidden_anchor {
     display: flex;
     flex: 1 0 auto;
@@ -271,12 +246,13 @@ div.widget_info_contain a {
   }
 }
 
+
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
 /**************  Desktop MEDIA BREAK  ****************************/
 
-@media screen and (min-width: 1020px){
+@media screen and (min-width: 1020px) {
   div.footer__site-info.hidden {
     display: show;
   }
@@ -286,11 +262,9 @@ div.widget_info_contain a {
   .widget_fa {
     display: none;
   }
-  
   div.widget-fa {
     height: 10px;
   }
-
   div.footer__site-info.hidden {
     display: flex;
     flex-direction: row;
@@ -300,7 +274,6 @@ div.widget_info_contain a {
     height: 61px;
     background-color: $color__footer-navbkgrnd;
   }
-  
   div.footer__desktop--nav {
     display: flex;
     justify-content: flex-end;
@@ -313,17 +286,14 @@ div.widget_info_contain a {
       padding: 0;
     }
   }
-   
   .footer--nav--li {
     padding-left: 1rem;
   }
-
   div.footer_hidden_anchor {
     display: flex;
     flex: 1 0 auto;
     padding-left: 3rem;
   }
-
   div.footer__social-media {
     display: flex;
     flex-direction: row;
@@ -331,7 +301,6 @@ div.widget_info_contain a {
     justify-content: space-between;
     max-height: 400px;
   }
-
   .footer__why-nexus {
     text-align: left;
     margin-left: 5rem;
@@ -344,11 +313,9 @@ div.widget_info_contain a {
       font-family: $font__accent;
     }
   }
-
   div.footer__contact h2 {
     text-align: left;
   }
-
   .widget-info-contain {
     p {
       font-family: $font__accent;
@@ -357,7 +324,6 @@ div.widget_info_contain a {
       font-family: $font__accent;
     }
   }
-
   .footer__why-nexus,
   .footer__social-media-container,
   .footer__contact {
@@ -369,26 +335,21 @@ div.widget_info_contain a {
       margin-bottom: 0;
     }
   }
-
   div.footer__social-media-container {
     margin-top: 2rem;
   }
-
-  section.footer_contact_info   {
+  section.footer_contact_info {
     margin-right: 5rem;
     margin-top: 2rem;
   }
-
   .footer__why-nexus,
   .footer__social-media-container,
-  section.footer_contact_info   {
+  section.footer_contact_info {
     width: 200px;
   }
-
   .footer__why-nexus p {
     margin-top: 33px;
   }
-
   div.socialmedia-container {
     display: flex;
     flex-direction: row;
@@ -402,24 +363,9 @@ div.widget_info_contain a {
       margin: 0 7px;
     }
   }
-
   .underline.footer {
     padding-top: 10px;
     width: 99px;
     border-bottom: 3px solid #ff8a2a;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

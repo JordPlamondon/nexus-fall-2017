@@ -682,6 +682,8 @@ a {
 .home {
   min-width: 375px;
   margin-top: -15px; }
+  .home article {
+    display: none; }
   .home h2 {
     margin: 0;
     text-align: center;
@@ -692,7 +694,7 @@ a {
   .home .site-main .banner {
     padding-top: 4.5rem;
     width: 100%;
-    height: 25rem;
+    height: 15rem;
     background: url("../../assets/images/photo-hero-mobile.png");
     background-repeat: no-repeat;
     background-size: contain; }
@@ -802,11 +804,12 @@ a {
       @media all and (min-width: 550px) {
         .home .site-main .why-nexus h2 {
           margin: 0;
-          width: 50%; } }
+          width: 65%;
+          font-size: 2.5rem; } }
     .home .site-main .why-nexus .headergroup {
       width: 100%;
       line-height: 3rem;
-      margin: 0 auto 3rem auto; }
+      margin: 0 auto; }
     .home .site-main .why-nexus__header {
       font-family: "Roboto", Arial, Helvetica, sans-serif; }
       @media all and (min-width: 550px) {
@@ -849,12 +852,13 @@ a {
             -ms-flex-pack: end;
                 justify-content: flex-end;
         height: 50vh;
-        background: url("../../assets/images/whynexus.png"); } }
+        background: url("../../assets/images/programs_nexus@3x.png");
+        background-size: 53%;
+        background-repeat: no-repeat; } }
     @media all and (min-width: 550px) {
       .home .site-main .choose-wrapper .choose-program {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
-        background: #FFC54C;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -867,9 +871,21 @@ a {
                 justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                align-items: center; }
+                align-items: center;
+        background: url("../../assets/images/ImageOverlay@3x.png");
+        opacity: 0.8; }
         .home .site-main .choose-wrapper .choose-program h2 {
           text-align: left; }
+        .home .site-main .choose-wrapper .choose-program__info-wrapper {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          width: 90%;
+          margin: 0 auto; }
         .home .site-main .choose-wrapper .choose-program button {
           width: 135px;
           height: 40px;
@@ -879,7 +895,10 @@ a {
                   box-shadow: none;
           text-shadow: none;
           background: #E91C35;
-          color: #FFFFFF; } }
+          color: #FFFFFF;
+          font-family: "Roboto", Arial, Helvetica, sans-serif;
+          font-weight: 900;
+          font-size: 18px; } }
   .home .site-main .browse-programs {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -914,8 +933,10 @@ a {
     margin: 0 auto 3rem auto; }
   .home .site-main .student-review .owl-nav {
     display: none; }
+  .home .site-main .student-review .owl-dots {
+    margin: 3rem auto; }
   .home .site-main .student-review__box {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -924,31 +945,55 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    .home .site-main .student-review__box .student-review__info {
+    @media all and (min-width: 550px) {
+      .home .site-main .student-review__box {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .home .site-main .student-review__box img {
+          -ms-flex-preferred-size: 30%;
+              flex-basis: 30%;
+          width: 30%; } }
+    .home .site-main .student-review__box .student-review__info-wrapper {
+      background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
+      background-repeat: no-repeat;
+      background-position: top left, bottom right;
+      background-color: #F3F5F8;
+      margin-top: 0;
       width: 100%;
       padding: 39px 30px 22px 48px;
       font-weight: bold;
       font-size: 4vw;
-      background: #F3F5F8;
       position: relative; }
-      .home .site-main .student-review__box .student-review__info::before {
-        content: "\201C";
-        color: #FFBC4A;
-        font-size: 30vw;
-        font-weight: normal;
-        font-family: "Raleway", Arial, Helvetica, sans-serif;
-        position: absolute;
-        left: 1rem;
-        top: -1rem; }
-      .home .site-main .student-review__box .student-review__info::after {
-        content: '\201D';
-        color: #FFBC4A;
-        font-size: 30vw;
-        font-weight: normal;
-        font-family: "Raleway", Arial, Helvetica, sans-serif;
-        position: absolute;
-        bottom: -4rem;
-        right: 1rem; }
+      @media all and (min-width: 550px) {
+        .home .site-main .student-review__box .student-review__info-wrapper {
+          margin: 0;
+          font-size: 3vw;
+          -ms-flex-preferred-size: 80%;
+              flex-basis: 80%; } }
+      @media all and (min-width: 550px) {
+        .home .site-main .student-review__box .student-review__info-wrapper .student-review__info {
+          padding: 15px 20px 15px 45px; } }
+      .home .site-main .student-review__box .student-review__info-wrapper .grey {
+        background: #F3F5F8;
+        -webkit-transform: rotate(134deg);
+                transform: rotate(134deg);
+        bottom: 54px;
+        left: 40%;
+        height: 30px;
+        position: relative;
+        width: 30px; }
+        @media all and (min-width: 550px) {
+          .home .site-main .student-review__box .student-review__info-wrapper .grey {
+            background: #F3F5F8;
+            -webkit-transform: rotate(134deg);
+                    transform: rotate(134deg);
+            bottom: -60px;
+            left: -63px;
+            height: 30px;
+            position: relative;
+            width: 30px; } }
   .home .site-main .start-journey {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -971,7 +1016,8 @@ a {
     .home .site-main .start-journey .underline {
       margin: 0 auto 1rem auto; }
     .home .site-main .start-journey__header {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 2rem; }
     .home .site-main .start-journey__subheader {
       margin: 0;
       font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -1001,23 +1047,60 @@ a {
       display: -ms-flexbox;
       display: flex;
       height: 800px;
-      width: 1110px;
+      width: 1240px;
       margin: 0 auto;
+      margin-top: 44px;
       background: url("../../assets/images/map_nexus01@3x.png");
       background-size: contain;
       background-repeat: no-repeat; }
+      .home .choose-province-wrapper .fa {
+        color: #8C8C8C; }
+      .home .choose-province-wrapper .fa:hover {
+        color: #E91C35; }
       .home .choose-province-wrapper .bc {
         position: relative;
-        left: 120px;
-        top: 320px; }
+        left: 130px;
+        top: 390px;
+        color: #8C8C8C; }
       .home .choose-province-wrapper .ab {
         position: relative;
-        left: 150px;
-        top: 300px; }
+        left: 190px;
+        top: 360px; }
       .home .choose-province-wrapper .sk {
         position: relative;
-        left: 200px;
-        top: 330px; } }
+        left: 250px;
+        top: 370px; }
+      .home .choose-province-wrapper .man {
+        position: relative;
+        left: 290px;
+        top: 430px; }
+      .home .choose-province-wrapper .on {
+        position: relative;
+        left: 410px;
+        top: 420px; }
+      .home .choose-province-wrapper .qc {
+        position: relative;
+        left: 500px;
+        top: 400px; }
+      .home .choose-province-wrapper .bc:hover > .bc-text {
+        display: block; }
+      .home .choose-province-wrapper .ab:hover > .ab-text {
+        display: block; }
+      .home .choose-province-wrapper .sk:hover > .sk-text {
+        display: block; }
+      .home .choose-province-wrapper .man:hover > .man-text {
+        display: block; }
+      .home .choose-province-wrapper .on:hover > .on-text {
+        display: block; }
+      .home .choose-province-wrapper .qc:hover > .qc-text {
+        display: block; }
+      .home .choose-province-wrapper h3 {
+        display: none;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        position: absolute;
+        font-size: 18px;
+        color: #15405A;
+        z-index: 1; } }
 
 .home .choose-province {
   display: -webkit-box;
@@ -1030,11 +1113,25 @@ a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start; }
+  .home .choose-province__info {
+    color: #15405A;
+    position: relative;
+    left: 560px;
+    width: 220px;
+    top: 38px; }
   .home .choose-province__header {
+    color: #15405A;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    position: relative;
+    font-size: 48px;
+    top: 38px;
+    left: 560px; }
   .home .choose-province .underline {
-    margin: 0 auto; }
+    position: relative;
+    left: 560px;
+    width: 120px;
+    top: 38px; }
   .home .choose-province button {
     width: 135px;
     height: 40px;
@@ -1046,60 +1143,395 @@ a {
     background: #E91C35;
     color: #FFFFFF; }
 
-.provinces {
-  height: 50vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+.home .choose-wrapper-bc {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-bc {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 444px;
+      margin-top: -200px;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-bc i {
+    color: red;
+    font-size: 66px;
+    position: relative;
+    top: 120px;
+    right: 398px; }
+  .home .choose-wrapper-bc h2 {
+    position: relative;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 200px;
+    right: 280px;
+    width: 200px; }
+  .home .choose-wrapper-bc p {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-bc .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-bc .choose-program button {
+        width: 205px;
+        height: 40px;
+        margin-top: 24px;
+        padding: 0;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
 
-.provinces__province__info-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
-  .provinces__province__info-wrapper .headergroup {
-    grid-column: 1 / 2;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-  .provinces__province__info-wrapper .province__info {
-    grid-column: 2 / 3;
-    margin-left: 2rem;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: bold; }
-    .provinces__province__info-wrapper .province__info .province__button {
-      width: 135px;
-      height: 40px;
-      padding: 0;
-      border-radius: 25px 0px 25px 0px;
-      -webkit-box-shadow: none;
-              box-shadow: none;
-      text-shadow: none;
-      background: #E91C35;
-      color: #FFFFFF;
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
-      font-weight: 900;
-      font-size: 18px; }
+.home .choose-wrapper-ab {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-ab {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 444px;
+      margin-top: -200px;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-ab i {
+    color: red;
+    font-size: 66px;
+    position: relative;
+    top: 120px;
+    right: 398px; }
+  .home .choose-wrapper-ab h2 {
+    position: relative;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 200px;
+    right: 280px;
+    width: 200px; }
+  .home .choose-wrapper-ab p {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-ab .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-ab .choose-program button {
+        width: 205px;
+        height: 40px;
+        margin-top: 24px;
+        padding: 0;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
+
+.home .choose-wrapper-man {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-man {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 444px;
+      margin-top: -200px;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-man i {
+    color: red;
+    font-size: 66px;
+    position: relative;
+    top: 120px;
+    right: 398px; }
+  .home .choose-wrapper-man h2 {
+    position: relative;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 200px;
+    right: 280px;
+    width: 200px; }
+  .home .choose-wrapper-man p {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-man .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-man .choose-program button {
+        width: 205px;
+        height: 40px;
+        margin-top: 24px;
+        padding: 0;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
+
+.home .choose-wrapper-sk {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-sk {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 444px;
+      margin-top: -200px;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-sk i {
+    color: red;
+    font-size: 66px;
+    position: relative;
+    top: 120px;
+    right: 398px; }
+  .home .choose-wrapper-sk h2 {
+    position: relative;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 200px;
+    right: 280px;
+    width: 200px; }
+  .home .choose-wrapper-sk p {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-sk .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-sk .choose-program button {
+        width: 205px;
+        height: 40px;
+        margin-top: 24px;
+        padding: 0;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
+
+.home .choose-wrapper-on {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-on {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 444px;
+      margin-top: -200px;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-on i {
+    color: red;
+    font-size: 66px;
+    position: relative;
+    top: 120px;
+    right: 398px; }
+  .home .choose-wrapper-on h2 {
+    position: relative;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 200px;
+    right: 280px;
+    width: 200px; }
+  .home .choose-wrapper-on p {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-on .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-on .choose-program button {
+        width: 205px;
+        height: 40px;
+        margin-top: 24px;
+        padding: 0;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
+
+.home .choose-wrapper-qc {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-qc {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      height: 444px;
+      margin-top: -200px;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+  .home .choose-wrapper-qc i {
+    color: red;
+    font-size: 66px;
+    position: relative;
+    top: 120px;
+    right: 398px; }
+  .home .choose-wrapper-qc h2 {
+    position: relative;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 200px;
+    right: 280px;
+    width: 200px; }
+  .home .choose-wrapper-qc p {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 23px; }
+  @media all and (min-width: 550px) {
+    .home .choose-wrapper-qc .choose-program {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      background: #FFC54C;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .home .choose-wrapper-qc .choose-program button {
+        width: 205px;
+        height: 40px;
+        margin-top: 24px;
+        padding: 0;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 25px 0px 25px 0px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        background: #E91C35;
+        color: #FFFFFF; } }
 
 @media all and (min-width: 960px) {
   .home .why-canada {
     position: relative;
-    height: 120vh; } }
+    height: 120vh;
+    margin-top: 3rem; } }
 
 .home .why-canada .headergroup {
   line-height: 3rem; }
@@ -1114,7 +1546,7 @@ a {
       margin: 3rem auto 0 auto; } }
 
 .home .why-canada .underline {
-  margin: 0 auto 3rem auto; }
+  margin: 0 auto; }
   @media all and (min-width: 960px) {
     .home .why-canada .underline {
       text-align: center; } }
@@ -1177,7 +1609,6 @@ a {
       height: 104vh; } }
   .home .why-canada .carouselplaceholder__content-wrapper {
     margin: 0 5rem;
-    padding-top: 2rem;
     width: 71%;
     height: 30rem; }
     @media all and (min-width: 550px) {
@@ -1202,11 +1633,13 @@ a {
         text-align: left; } }
 
 .home .why-canada .carouselplaceholder__subheader {
+  padding-right: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-style: italic;
-  color: #E00029;
-  text-align: center; }
+  color: #E00029; }
   @media all and (min-width: 550px) {
     .home .why-canada .carouselplaceholder__subheader {
       margin-top: 5px;
@@ -1494,7 +1927,7 @@ body.page-template-archive-nexus_program main {
       font-size: 21px;
       font-weight: bold;
       text-align: right; }
-    .page-template-about .about-wrapper .about-left img {
+    .page-template-about .about-wrapper .about-left img.about-image {
       width: 50%; }
     .page-template-about .about-wrapper .about-left p {
       font-size: 14px;
@@ -1636,13 +2069,14 @@ body.page-template-archive-nexus_program main {
   height: 130px;
   position: relative;
   min-width: 140px;
-  left: 90px;
+  left: 80px;
   z-index: 1;
   bottom: 80px;
   width: 50%; }
 
 .about-left img.path-img-left {
-  height: 130px;
+  height: 150px;
+  width: 45%;
   min-width: 140px;
   position: relative;
   left: 80px;
@@ -1812,9 +2246,8 @@ div.widget_info_contain a {
             flex-direction: row;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     max-height: 400px; }
   div.footer__contact h2 {
     text-align: left; }
@@ -2645,18 +3078,30 @@ nav.main-navigation:hover {
   padding-top: 65px; }
   .page-template-archive-nexus_program .hero-wrapper {
     width: 100vw; }
-    @media all and (min-width: 750px) {
-      .page-template-archive-nexus_program .hero-wrapper {
-        padding-top: 65px; } }
     .page-template-archive-nexus_program .hero-wrapper h1 {
+      margin: 0;
       text-align: center;
       color: #15405A;
       font-size: 30px;
       text-transform: uppercase;
-      font-weight: 900;
-      position: relative;
-      top: 50px; }
+      font-weight: 900; }
+      @media all and (min-width: 750px) {
+        .page-template-archive-nexus_program .hero-wrapper h1 {
+          font-size: 70px; } }
     .page-template-archive-nexus_program .hero-wrapper .hero-image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       height: 50vh;
       width: 100vw;
       min-width: 350px;
@@ -2667,10 +3112,16 @@ nav.main-navigation:hover {
       margin: 0 auto;
       width: 49px;
       text-align: center;
-      border-bottom: 3px solid #FF8A2A;
-      position: relative;
-      bottom: 24px; }
+      border-bottom: 4px solid #FF8A2A; }
+      @media all and (min-width: 750px) {
+        .page-template-archive-nexus_program .hero-wrapper .underline {
+          width: 144px;
+          border-bottom-width: 6px; } }
   .page-template-archive-nexus_program .site-main {
+    overflow: auto;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
     padding-top: 0; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .site-main {
@@ -2678,13 +3129,18 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .hidden {
     display: none; }
   .page-template-archive-nexus_program .search-results {
+    margin: 1rem 0;
     font-size: 18px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    -ms-flex-line-pack: start;
+        align-content: flex-start; }
   .page-template-archive-nexus_program .select-container, .page-template-archive-nexus_program .program-title {
     margin-right: 1.5rem; }
   .page-template-archive-nexus_program .select-form-wrapper {
@@ -2715,19 +3171,25 @@ nav.main-navigation:hover {
         padding-left: 60px;
         padding-top: 65px; } }
   .page-template-archive-nexus_program .select-form-wrapper-searched {
+    padding: 0;
+    margin-top: 2rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            flex-direction: row; }
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .page-template-archive-nexus_program .select-container-searched {
+    max-width: 150px; }
+    @media all and (min-width: 750px) {
+      .page-template-archive-nexus_program .select-container-searched {
+        max-width: 220px; } }
   .page-template-archive-nexus_program .program {
     color: #E00029; }
-  .page-template-archive-nexus_program .program-container {
-    margin: 0 auto;
-    max-width: 150px;
-    text-decoration: none; }
-    @media all and (min-width: 750px) {
-      .page-template-archive-nexus_program .program-container {
-        max-width: 320px; } }
+  .page-template-archive-nexus_program .program-content-container {
+    width: 90%;
+    margin: 0 auto; }
   .page-template-archive-nexus_program .program-content {
     background-image: url("../../assets/images/photo_study@3x.png");
     background-size: cover;
@@ -2742,6 +3204,18 @@ nav.main-navigation:hover {
       text-transform: uppercase;
       margin-bottom: 34px;
       color: #898989; }
+  .page-template-archive-nexus_program .program-container {
+    margin-right: 1rem;
+    margin-top: 2rem;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    max-width: 160px;
+    text-decoration: none; }
+    @media all and (min-width: 750px) {
+      .page-template-archive-nexus_program .program-container {
+        -ms-flex-preferred-size: 33%;
+            flex-basis: 33%;
+        max-width: 320px; } }
   .page-template-archive-nexus_program .program-image {
     overflow: hidden;
     display: -webkit-box;
@@ -2753,8 +3227,12 @@ nav.main-navigation:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 15vw;
+    height: 33vw;
+    max-height: 120px;
     margin-bottom: 0.75rem; }
+    @media all and (min-width: 750px) {
+      .page-template-archive-nexus_program .program-image {
+        max-height: 240px; } }
     .page-template-archive-nexus_program .program-image img {
       max-width: none;
       width: auto; }
@@ -2776,14 +3254,27 @@ nav.main-navigation:hover {
         color: #123048; } }
   .page-template-archive-nexus_program .program-school {
     margin-top: 22px;
+    font-size: 0.75rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.25rem; }
+    font-family: 'Raleway', sans-serif; }
+    @media all and (min-width: 750px) {
+      .page-template-archive-nexus_program .program-school {
+        font-size: 1.25rem; } }
   .page-template-archive-nexus_program .program-name {
     margin: 10px 0;
+    font-size: 1rem;
     font-weight: bold;
-    font-family: 'Roboto' sans-serif;
-    font-size: 1.68rem; }
+    font-family: 'Roboto' sans-serif; }
+    @media all and (min-width: 750px) {
+      .page-template-archive-nexus_program .program-name {
+        font-size: 1.68rem; } }
+  .page-template-archive-nexus_program .program-type {
+    font-size: 0.75rem;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif; }
+    @media all and (min-width: 750px) {
+      .page-template-archive-nexus_program .program-type {
+        font-size: 1.25rem; } }
   .page-template-archive-nexus_program .program-name, .page-template-archive-nexus_program .program-school, .page-template-archive-nexus_program .program-type {
     line-height: 2rem; }
     .page-template-archive-nexus_program .program-name p, .page-template-archive-nexus_program .program-school p, .page-template-archive-nexus_program .program-type p {
@@ -3005,8 +3496,10 @@ nav.main-navigation:hover {
   Selectric
 ======================================*/
 .selectric-wrapper {
+  margin: 0 auto;
   position: relative;
   cursor: pointer;
+  max-width: 300px;
   width: 100%; }
   @media all and (min-width: 750px) {
     .selectric-wrapper {
@@ -3014,7 +3507,7 @@ nav.main-navigation:hover {
       height: 65px; } }
 
 .select-container {
-  width: 125px; }
+  width: 80vw; }
   @media all and (min-width: 750px) {
     .select-container {
       width: 220px; } }
@@ -3363,23 +3856,64 @@ fieldset {
   max-width: 260px;
   width: 100%; }
 
-section.error-404.not-found h1.page-title {
-  margin: 5rem 5rem 0 5rem;
-  color: #123048;
-  padding-top: 3rem; }
+div.hero-404 {
+  background-image: url("../../assets/images/jay-toor-105107.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vw;
+  width: 100%;
+  max-height: 981px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 800px; }
 
-section.error-404.not-found p {
-  margin: 0 5rem 0 5rem;
-  color: #123048; }
+section.error-404.not-found {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F3F5F8;
+  opacity: 0.75;
+  max-height: 633px;
+  max-width: 1018px;
+  min-height: 800px;
+  text-align: center; }
+  section.error-404.not-found h1.page-title {
+    margin: 20px 20px 10px 20px;
+    color: #123048;
+    padding-top: 2rem;
+    font-size: 4rem; }
+  section.error-404.not-found p {
+    margin: 10px 30px 20px 30px;
+    color: #123048;
+    font-size: 2rem; }
 
 .home-button {
-  height: 55px;
-  width: 272px;
+  height: 80px;
+  width: 250px;
   border-radius: 2px 100px 2px 100px;
   background-color: #E91C35;
   color: #FFFFFF;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 28px;
@@ -3397,4 +3931,35 @@ div.return-home {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 30px 0 30px 0; }
+  padding: 2rem 0 3rem 0; }
+
+.page-template-consult .consult-wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
+  height: 900px;
+  background-color: #FFD479;
+  margin-top: 60px; }
+  .page-template-consult .consult-wrapper h2 {
+    font-size: 46px; }
+
+.page-template-consult .consult-form {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: inline-block; }
+  .page-template-consult .consult-form input {
+    height: 44px;
+    width: 20vw;
+    display: inline-block; }
+  .page-template-consult .consult-form textarea {
+    width: 50vw; }

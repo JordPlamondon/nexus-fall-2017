@@ -13,7 +13,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
   <div class="footer__social-media">
     <div class="footer__why-nexus">
-			<h2>Why Nexus?</h2>
+			<h2>Why Nexus?</h2>   <!-- Hidden in media breaks below 1020px - footer.SCSS -->
 			<div class="underline footer"></div>
       <p>Our passion is helping our clients learn how to prepare a powerful action plan and execute their life-changing journey of living in Canada.</p>
     </div> <!-- footer__why-nexus -->
@@ -33,7 +33,7 @@
       <div class="footer__contact">
 				<h2>Contact Us</h2>
 				<div class="underline footer"></div>
-        <div class="widget_info_contain one">
+        <div class="widget_info_contain one"> <!-- FA icons hidden below 1020px - footer.SCSS -->
           <div class="widget_fa"><i class="fa fa-map-marker fa-2x hide-here" aria-hidden="true"></i></div>
           <p>119-970 Burrard St.<br>Vancouver, BC V6Z 2R4</p>
 				</div> <!-- widget_info_contain -->
@@ -51,12 +51,12 @@
           <a href="tel:6042886787">604 288 6787</a>
         </div> <!-- widget_info_contain -->      
       </div> <!-- footer__office -->
-    </section> <!-- footer_contact_info --><!-- footer_contact_info -->
+    </section> <!-- footer_contact_info -->
   </div> <!-- footer__social-media -->
 
   <div class="footer_hidden--container">
-    <div class="footer__site-info hidden">
-      <div class="footer_hidden_anchor">
+    <div class="footer__site-info hidden">  <!-- bottom anchor hidden below 750px - footer.SCSS @ line 212 -->
+      <div class="footer_hidden_anchor">  
         <a href="<?php echo home_url(); ?>"><?php printf( esc_html( '&copy; Copyright - Nexus Exchange %s' ), '2017' ); ?>
         </a>
       </div> <!-- footer_hidden_anchor -->
@@ -73,16 +73,7 @@
   </div>  <!--footer_hidden--container-->
 </footer>
 
-
-
-
-
-
-
-
-	<?php wp_footer(); ?>
-
-
+<?php wp_footer(); ?>
 
 	</body>
 </html>

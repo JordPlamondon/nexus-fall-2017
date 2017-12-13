@@ -34,20 +34,19 @@ get_header(); ?>
 		</section>
 
 
-		<section class="choose-wrapper">
-			<div class="choose-program">
-				<div class="choose-program__info-wrapper">
+		<section class="front-choose-wrapper">
+			<div class="front-choose-program">
+				<div class="front-choose-program__info-wrapper">
 					<div class="headergroup">
-						<h2 class="choose-program__header">Choose your Program</h2>
+						<h2 class="front-choose-program__header">Choose your Program</h2>
 						<div class="underline"></div>
 					</div>
-					<p class="choose-program__info">
+					<p class="front-choose-program__info">
 					Nexus has partnered up with over 100 different programs.
 					</p>
-
-					<button class="choose-program__button">Programs</button>
-				</div>	
-			</div>
+					<button class="front-choose-program__button">Programs</button>
+				</div>			
+			</div>	
 		</section>
 
 
@@ -256,8 +255,10 @@ get_header(); ?>
 				</div>
 				<div class="owl-carousel owl-theme">
 					<div class="student-review__box">
-						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
+						<div class="student-review__box__image">
+						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo-review@3x.png'?>
 						alt="Picture of a Student">
+						</div>
 						<div class="student-review__info-wrapper">
 							<div class="grey"></div>
 							<blockquote class="student-review__info">
@@ -267,8 +268,10 @@ get_header(); ?>
 					</div>
 
 					<div class="student-review__box">
-						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo_review.png'?>
+						<div class="student-review__box__image">
+						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo-review@3x.png'?>
 						alt="Picture of a Student">
+						</div>
 						<div class="student-review__info-wrapper">
 							<div class="grey"></div>
 							<blockquote class="student-review__info">

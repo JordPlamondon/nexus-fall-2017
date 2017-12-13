@@ -153,11 +153,10 @@
         margin: 10px auto 0 auto;
         @media #{$desktop} {
           margin: 0;
-          width: 50%;
+          width: 60%;
         }
       }
       
-
       .underline {
         margin: 0 auto;
         @media #{$desktop} {
@@ -179,6 +178,9 @@
         font-family: $font__main;
         font-weight: 900;
         font-size: 18px;
+        @media #{$desktop} {
+          margin-bottom: 3rem;
+        }
       }
     }
 
@@ -269,7 +271,7 @@
       }
 
       h2 {
-        font-size: 4vw;
+        font-size: 4.5vw;
       }
 
       .underline {

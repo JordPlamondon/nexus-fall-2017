@@ -7,6 +7,8 @@
 
 get_header(); ?>
 
+	<!-- Banner Section  -->
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="banner">
@@ -18,44 +20,47 @@ get_header(); ?>
 					</p>
 			</div>
 		
-		 <section class="nexus-wrapper">
-			<div class="why-nexus">
+	<!-- Why Nexus? Introductory Section -->
+
+  <section class="nexus-wrapper">
+	  <div class="why-nexus">
+			<div class="headergroup">
+				<h2 class="why-nexus__header">Why use Nexus?</h2>
+				<div class="underline"></div>
+			</div>
+			<p class="why-nexus__info">
+				All success stories have a common structure that helps dreams become reality. We believe that orientation, experience, and teamwork is the most powerful tools available to achieve success. Our passion is to help every person learn to prepare a powerful action-plan and execute their life-changing journey of living in Canada effectively.
+			</p>
+			<button class="why-nexus__button">About Us</button>
+		</div>
+	</section>
+
+	<!-- Program link section. This section is not displayed in the mobile version of the site.  -->
+
+	<section class="front-choose-wrapper">
+		<div class="front-choose-program">
+			<div class="front-choose-program__info-wrapper">
 				<div class="headergroup">
-					<h2 class="why-nexus__header">Why Use Nexus?</h2>
+					<h2 class="front-choose-program__header">Choose your Program</h2>
 					<div class="underline"></div>
 				</div>
-				
-				<p class="why-nexus__info">
-				All success stories have a common structure that helps dreams become reality. We believe that orientation, experience, and teamwork is the most powerful tools available to achieve success. Our passion is to help every person learn to prepare a powerful action-plan and execute their life-changing journey of living in Canada effectively.
+				<p class="front-choose-program__info">
+	  			Nexus has partnered up with over 100 different programs.
 				</p>
+				<button class="front-choose-program__button">Programs</button>
+			</div>			
+		</div>	
+	</section>
 
-				<button class="why-nexus__button">About Us</button>
-			</div>
-		</section>
+	<!-- Carousel for 'Why Canada' section -->
 
-
-		<section class="front-choose-wrapper">
-			<div class="front-choose-program">
-				<div class="front-choose-program__info-wrapper">
-					<div class="headergroup">
-						<h2 class="front-choose-program__header">Choose your Program</h2>
-						<div class="underline"></div>
-					</div>
-					<p class="front-choose-program__info">
-					Nexus has partnered up with over 100 different programs.
-					</p>
-					<button class="front-choose-program__button">Programs</button>
-				</div>			
-			</div>	
-		</section>
-
-
-			<section class="why-canada">
-				<div class="headergroup">
-					<h2 class="why-canada__header">Why Canada?</h2>
-					<div class="underline"></div>
+	<section class="why-canada">
+		<div class="headergroup">
+			<h2 class="why-canada__header">Why Canada?</h2>
+			<div class="underline"></div>
 				</div>
 					<div class="owl-carousel owl-theme">
+									<!-- Begin Carousel Cell -->
 						<div class="carouselplaceholder first">
 							<div class="carouselplaceholder__content-wrapper">
 								<h3 class="carouselplaceholder__subheader">Quality of Life</h3>
@@ -64,6 +69,8 @@ get_header(); ?>
 								</p>
 							</div>
 						</div>
+						<!-- End Carousel Cell -->
+					  <!-- Begin Carousel Cell -->
 						<div class="carouselplaceholder second">
 							<div class="carouselplaceholder__content-wrapper">
 								<h3 class="carouselplaceholder__subheader">Fresh Air</h3>
@@ -72,6 +79,8 @@ get_header(); ?>
 								</p>
 							</div>
 						</div>
+						<!-- End Carousel Cell -->
+					  <!-- Begin Carousel Cell -->
 						<div class="carouselplaceholder third">
 							<div class="carouselplaceholder__content-wrapper">
 								<h3 class="carouselplaceholder__subheader">Awesome People</h3>
@@ -81,29 +90,31 @@ get_header(); ?>
 							</div>
 						</div>
 					</div> 
-					<div class="curious">
-						<h2 class="curious__subheader">Curious About Canada?</h2>
-						<button class="curious__button">Visit FAQ Section</button>
-					</div>
-				</section>
 
+					<!-- End Carousel -->
 
-			<section class="browse-programs">
-				<div class="headergroup">
-					<h2 class="browse-programs__header">Browse Programs in: </h2>
-					<div class="underline"></div>
-				</div>
-				<div class="browse-programs__subheading">BC <button class="bracket">></button></div>
-				<div class="browse-programs__subheading">Ontario <button class="bracket">></button></div>
-				<div class="browse-programs__subheading">Alberta <button class="bracket">></button></div>
-				<div class="browse-programs__subheading">Quebec <button class="bracket">></button></div>
-				<div class="browse-programs__subheading">Manitoba <button class="bracket">></button></div>
-				<div class="browse-programs__subheading">Saskatchewan <button class="bracket">></button></div>
+					<!-- 'Curious' section that is overlayed on top of the carousel  -->
 
-				<p class="browse-programs__info1">
-				blablabla blabl abla bl ab lablabl ablabla blabla bla b l ablablabl ablabla blablabla.
-				</p>
-			</section>
+		<div class="curious">
+			<h2 class="curious__subheader">Curious About Canada?</h2>
+			<button class="curious__button">Visit FAQ Section</button>
+		</div>
+	</section>
+				<!-- End Carousel Section -->
+
+				<!-- Browse Program Section. This section is not displayed in the desktop version of the site -->
+	<section class="browse-programs">
+		<div class="headergroup">
+			<h2 class="browse-programs__header">Browse Programs in: </h2>
+			<div class="underline"></div>
+		</div>
+		<div class="browse-programs__subheading">BC <button class="bracket">></button></div>
+		<div class="browse-programs__subheading">Ontario <button class="bracket">></button></div>
+		<div class="browse-programs__subheading">Alberta <button class="bracket">></button></div>
+		<div class="browse-programs__subheading">Quebec <button class="bracket">></button></div>
+		<div class="browse-programs__subheading">Manitoba <button class="bracket">></button></div>
+		<div class="browse-programs__subheading">Saskatchewan <button class="bracket">></button></div>
+	</section>
 
 <!-- ###### Main map and Province Icons - ##########-->
 			<section class="choose-province-wrapper">

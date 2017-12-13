@@ -825,7 +825,7 @@ a {
       @media all and (min-width: 550px) {
         .home .site-main .why-nexus__info {
           margin: 0;
-          width: 50%; } }
+          width: 60%; } }
     .home .site-main .why-nexus .underline {
       margin: 0 auto; }
       @media all and (min-width: 550px) {
@@ -846,6 +846,9 @@ a {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       font-weight: 900;
       font-size: 18px; }
+      @media all and (min-width: 550px) {
+        .home .site-main .why-nexus button {
+          margin-bottom: 3rem; } }
   .home .site-main .front-choose-wrapper {
     display: none; }
     @media all and (min-width: 550px) {
@@ -932,7 +935,7 @@ a {
   .home .site-main .student-review .headergroup {
     line-height: 3rem; }
   .home .site-main .student-review h2 {
-    font-size: 4vw; }
+    font-size: 4.5vw; }
   .home .site-main .student-review .underline {
     margin: 0 auto 3rem auto; }
     @media all and (min-width: 550px) {

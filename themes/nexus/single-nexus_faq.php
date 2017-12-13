@@ -108,6 +108,8 @@ foreach ( (array) $entries as $key => $entry ) {
 								</button>
 								</a>
 							
+								<!-- add the post thumbnail into loop
+								in place of buttons -->
 
 						<?php endwhile; // End of the loop. ?>
 						<?php endif; ?>

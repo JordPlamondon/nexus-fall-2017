@@ -27,13 +27,14 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-
+<!-- ##### Main logo, change in header.scss line 27 ###### -->
 					<a href="<?php echo home_url();?>"class="header-logo"></a>
 
-<div class="full-screen-links">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-					<button class="book-consult">Book Consult</button>	
-</div>
+					<div class="full-screen-links">
+						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+						<a href="/nexus/consult/"><button class="book-consult">Book Consult</button>	</a>
+					</div>
+					
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 
 				</nav><!-- #site-navigation -->

@@ -1132,19 +1132,19 @@ a {
       -ms-flex-align: start;
           align-items: flex-start; }
   .home .choose-province__info {
-    color: #15405A;
     position: relative;
     left: 560px;
     width: 220px;
-    top: 38px; }
+    top: 38px;
+    color: #15405A; }
   .home .choose-province__header {
-    color: #15405A;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: bold;
     position: relative;
     font-size: 48px;
     top: 38px;
-    left: 560px; }
+    left: 560px;
+    color: #15405A;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold; }
   .home .choose-province .underline {
     position: relative;
     left: 560px;
@@ -1176,31 +1176,30 @@ a {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-bc i {
-    color: red;
-    font-size: 66px;
     position: relative;
     top: 120px;
-    right: 398px; }
+    right: 398px;
+    color: red;
+    font-size: 66px; }
   .home .choose-wrapper-bc h2 {
     position: relative;
-    font-size: 48px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     top: 200px;
     right: 280px;
-    width: 200px; }
+    width: 200px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
   .home .choose-wrapper-bc p {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
     width: 500px;
-    font-size: 23px; }
+    font-size: 23px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-bc .choose-program {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
-      background: #FFC54C;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -1210,7 +1209,8 @@ a {
               justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; }
+              align-items: center;
+      background: #FFC54C; }
       .home .choose-wrapper-bc .choose-program button {
         width: 205px;
         height: 40px;
@@ -1240,31 +1240,30 @@ a {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-ab i {
-    color: red;
-    font-size: 66px;
     position: relative;
     top: 120px;
-    right: 398px; }
+    right: 398px;
+    color: red;
+    font-size: 66px; }
   .home .choose-wrapper-ab h2 {
     position: relative;
-    font-size: 48px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     top: 200px;
     right: 280px;
-    width: 200px; }
+    width: 200px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
   .home .choose-wrapper-ab p {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
     width: 500px;
-    font-size: 23px; }
+    font-size: 23px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-ab .choose-program {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
-      background: #FFC54C;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -1274,7 +1273,8 @@ a {
               justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; }
+              align-items: center;
+      background: #FFC54C; }
       .home .choose-wrapper-ab .choose-program button {
         width: 205px;
         height: 40px;
@@ -1304,23 +1304,23 @@ a {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-man i {
-    color: red;
-    font-size: 66px;
     position: relative;
     top: 120px;
-    right: 398px; }
+    right: 398px;
+    color: red;
+    font-size: 66px; }
   .home .choose-wrapper-man h2 {
     position: relative;
-    font-size: 48px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     top: 200px;
     right: 280px;
-    width: 200px; }
+    width: 200px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
   .home .choose-wrapper-man p {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
     width: 500px;
-    font-size: 23px; }
+    font-size: 23px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-man .choose-program {
       -ms-flex-preferred-size: 50%;
@@ -1368,28 +1368,27 @@ a {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-sk i {
-    color: red;
-    font-size: 66px;
     position: relative;
     top: 120px;
-    right: 398px; }
+    right: 398px;
+    color: red;
+    font-size: 66px; }
   .home .choose-wrapper-sk h2 {
     position: relative;
-    font-size: 48px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     top: 200px;
     right: 280px;
-    width: 200px; }
+    width: 200px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
   .home .choose-wrapper-sk p {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
     width: 500px;
-    font-size: 23px; }
+    font-size: 23px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-sk .choose-program {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
-      background: #FFC54C;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1402,7 +1401,8 @@ a {
               justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; }
+              align-items: center;
+      background: #FFC54C; }
       .home .choose-wrapper-sk .choose-program button {
         width: 205px;
         height: 40px;
@@ -1432,23 +1432,23 @@ a {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-on i {
-    color: red;
-    font-size: 66px;
     position: relative;
     top: 120px;
-    right: 398px; }
+    right: 398px;
+    color: red;
+    font-size: 66px; }
   .home .choose-wrapper-on h2 {
     position: relative;
-    font-size: 48px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     top: 200px;
     right: 280px;
-    width: 200px; }
+    width: 200px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
   .home .choose-wrapper-on p {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
     width: 500px;
-    font-size: 23px; }
+    font-size: 23px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-on .choose-program {
       -ms-flex-preferred-size: 50%;
@@ -1496,28 +1496,27 @@ a {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
   .home .choose-wrapper-qc i {
-    color: red;
-    font-size: 66px;
     position: relative;
     top: 120px;
-    right: 398px; }
+    right: 398px;
+    color: red;
+    font-size: 66px; }
   .home .choose-wrapper-qc h2 {
     position: relative;
-    font-size: 48px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     top: 200px;
     right: 280px;
-    width: 200px; }
+    width: 200px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
   .home .choose-wrapper-qc p {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
     width: 500px;
-    font-size: 23px; }
+    font-size: 23px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif; }
   @media all and (min-width: 550px) {
     .home .choose-wrapper-qc .choose-program {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
-      background: #FFC54C;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1530,7 +1529,8 @@ a {
               justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; }
+              align-items: center;
+      background: #FFC54C; }
       .home .choose-wrapper-qc .choose-program button {
         width: 205px;
         height: 40px;
@@ -1819,19 +1819,22 @@ button:hover {
 body.page-template-archive-nexus_program main {
   padding-top: 65px; }
 
+.page-template-about .entry-title {
+  display: none; }
+
 .page-template-about .hero-wrapper {
   width: 100vw; }
   @media all and (min-width: 550px) {
     .page-template-about .hero-wrapper {
       padding-top: 65px; } }
   .page-template-about .hero-wrapper h1 {
+    position: relative;
+    top: 50px;
     text-align: center;
     color: #15405A;
     font-size: 30px;
     text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 50px; }
+    font-weight: 900; }
   .page-template-about .hero-wrapper .hero-image {
     height: 50vh;
     width: 100vw;
@@ -1840,57 +1843,60 @@ body.page-template-archive-nexus_program main {
     background-size: cover;
     background-position: bottom; }
   .page-template-about .hero-wrapper .underline {
+    position: relative;
+    bottom: 24px;
     margin: 0 auto;
     width: 49px;
     text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 24px; }
+    border-bottom: 3px solid #FF8A2A; }
 
 .page-template-about .mission-wrapper h2 {
+  position: relative;
+  top: 20px;
   font-size: 24px;
   text-align: center;
   color: #15405A;
-  font-weight: 900;
-  position: relative;
-  top: 20px; }
+  font-weight: 900; }
 
 .page-template-about .mission-wrapper .underline {
+  position: relative;
+  top: 14px;
   margin: 0 auto;
   width: 49px;
   text-align: center;
-  border-bottom: 3px solid #FF8A2A;
-  position: relative;
-  top: 14px; }
+  border-bottom: 3px solid #FF8A2A; }
 
 .page-template-about .mission-wrapper p {
-  font-size: 14px;
-  line-height: 26px;
   width: 80%;
   margin: 0 auto;
   margin-bottom: 40px;
-  text-align: center;
   padding-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
   font-weight: 200;
   color: #15405A; }
+  @media all and (min-width: 750px) {
+    .page-template-about .mission-wrapper p {
+      width: 40%; } }
 
 .page-template-about .about-help {
   height: 70px;
   background-color: #F3F5F8; }
   .page-template-about .about-help h2 {
+    position: relative;
+    top: 20px;
     font-size: 24px;
     text-align: center;
     color: #123048;
-    font-weight: 900;
-    position: relative;
-    top: 20px; }
+    font-weight: 900; }
   .page-template-about .about-help .underline {
+    position: relative;
+    bottom: 20px;
     margin: 0 auto;
     width: 49px;
     text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 20px; }
+    border-bottom: 3px solid #FF8A2A; }
 
 .page-template-about img.about-img {
   width: 45%;
@@ -1899,15 +1905,14 @@ body.page-template-archive-nexus_program main {
   max-width: 190px;
   min-height: 166px;
   border-radius: 100px;
-  margin: 14px 14px 30px 14px;
   z-index: 5; }
   @media all and (min-width: 750px) {
     .page-template-about img.about-img {
-      width: 40%;
       height: 30vw;
       min-height: 240px;
       max-height: 260px;
-      max-width: 260px; } }
+      max-width: 260px;
+      margin-bottom: 44px; } }
 
 .page-template-about .about-wrapper {
   display: -webkit-box;
@@ -1923,11 +1928,10 @@ body.page-template-archive-nexus_program main {
   padding-top: 40px; }
   @media all and (min-width: 750px) {
     .page-template-about .about-wrapper {
-      padding-left: 74px;
       background-color: #F3F5F8; } }
   .page-template-about .about-wrapper .about-left {
     height: 264px;
-    background-color: #F3F5F8;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1937,37 +1941,41 @@ body.page-template-archive-nexus_program main {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 100%;
-    padding-top: 40px; }
+    padding-top: 40px;
+    background-color: #F3F5F8; }
+    @media all and (min-width: 550px) {
+      .page-template-about .about-wrapper .about-left {
+        width: 100%;
+        height: 344px;
+        padding-right: 15%;
+        padding-left: 15%;
+        margin: 0; } }
     @media all and (min-width: 750px) {
       .page-template-about .about-wrapper .about-left {
-        width: 70vw;
-        height: 344px;
-        margin: 0 auto;
-        padding-left: 10%; } }
+        padding-right: 22%;
+        padding-left: 22%; } }
     .page-template-about .about-wrapper .about-left .about-titles {
       font-size: 21px;
       font-weight: bold;
       text-align: right; }
-    .page-template-about .about-wrapper .about-left img.about-image {
-      width: 50%; }
     .page-template-about .about-wrapper .about-left p {
-      font-size: 14px;
       width: 45%;
       text-align: right;
       padding-right: 14px;
       line-height: 16pt;
+      font-size: 16px;
       color: #15405A; }
       @media all and (min-width: 750px) {
         .page-template-about .about-wrapper .about-left p {
-          font-size: 18px;
           padding-right: 24px;
           padding-left: 24px;
-          line-height: 24pt; } }
+          line-height: 24pt;
+          font-size: 18px; } }
   .page-template-about .about-wrapper .about-right {
     height: 264px;
-    min-width: 340px;
-    background-color: #FFFFFF;
+    width: 100%;
+    min-width: 310px;
+    padding-top: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1977,14 +1985,19 @@ body.page-template-archive-nexus_program main {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 100%;
-    padding-top: 40px; }
+    background-color: #FFFFFF; }
+    @media all and (min-width: 550px) {
+      .page-template-about .about-wrapper .about-right {
+        width: 100%;
+        height: 344px;
+        margin: 0;
+        margin: 0 auto;
+        padding-right: 18%;
+        padding-left: 18%; } }
     @media all and (min-width: 750px) {
       .page-template-about .about-wrapper .about-right {
-        width: 70vw;
-        height: 344px;
-        margin: 0 auto;
-        padding-left: 10%; } }
+        padding-right: 22%;
+        padding-left: 22%; } }
     .page-template-about .about-wrapper .about-right .about-titles {
       font-size: 21px;
       font-weight: bold;
@@ -2005,77 +2018,79 @@ body.page-template-archive-nexus_program main {
 
 .page-template-about .about-consultants {
   height: 500px;
-  background-color: #FFFFFF;
   display: block;
+  margin-top: 44px;
+  background-color: #FFFFFF;
   text-align: center; }
   .page-template-about .about-consultants p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100;
     color: #898989;
     line-height: 16pt; }
   .page-template-about .about-consultants img {
-    margin: 0 auto;
     height: 204px;
     width: 204px;
     margin: 30px 0 0 0;
     border-radius: 100px; }
   .page-template-about .about-consultants i {
     display: inline-block;
-    font-size: 36px;
-    margin: 10px; }
+    margin: 10px;
+    margin-bottom: 24px;
+    font-size: 36px; }
   .page-template-about .about-consultants h2 {
+    position: relative;
+    top: 20px;
     font-size: 24px;
     text-align: center;
     color: #123048;
-    font-weight: 900;
-    position: relative;
-    top: 20px; }
+    font-weight: 900; }
   .page-template-about .about-consultants h3 {
+    position: relative;
+    top: 14px;
     font-size: 20px;
     text-align: center;
     color: #123048;
-    font-weight: normal;
-    position: relative;
-    top: 14px; }
-  .page-template-about .about-consultants .underline {
+    font-weight: normal; }
+  .page-template-about .about-consultants .underline2 {
     margin: 0 auto;
     width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 20px; }
+    bottom: 40px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A; }
 
 .page-template-about .about-journey {
   height: 195px;
   background-color: #F3F5F8; }
   .page-template-about .about-journey h2 {
+    position: relative;
+    top: 20px;
     font-size: 24px;
     text-align: center;
     color: #15405A;
     font-weight: 900;
-    position: relative;
-    top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
   .page-template-about .about-journey p {
-    font-size: 14px;
+    position: relative;
+    bottom: 42px;
+    font-size: 16px;
     color: #E00029;
     font-style: italic;
     font-weight: 200;
-    position: relative;
-    text-transform: none;
-    bottom: 42px; }
+    text-transform: none; }
   .page-template-about .about-journey .underline {
     margin: 0 auto;
     width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 48px; }
+    bottom: 78px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A; }
   .page-template-about .about-journey button.consult {
-    letter-spacing: 1pt;
     width: 175px;
     height: 40px;
+    position: relative;
+    bottom: 40px;
     padding: 0;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
@@ -2084,26 +2099,31 @@ body.page-template-archive-nexus_program main {
     font-size: 18px;
     background: #E91C35;
     color: white;
-    position: relative;
-    bottom: 40px; }
+    letter-spacing: 1pt; }
 
 .about-right img.path-img-right {
-  height: 130px;
-  position: relative;
+  height: 150px;
+  width: 60%;
   min-width: 140px;
+  position: relative;
+  bottom: 70px;
   left: 80px;
-  z-index: 1;
-  bottom: 80px;
-  width: 50%; }
+  z-index: 1; }
+  @media all and (min-width: 550px) {
+    .about-right img.path-img-right {
+      display: none; } }
 
 .about-left img.path-img-left {
   height: 150px;
-  width: 45%;
+  width: 60%;
   min-width: 140px;
   position: relative;
+  bottom: 60px;
   left: 80px;
-  z-index: 1;
-  bottom: 80px; }
+  z-index: 1; }
+  @media all and (min-width: 550px) {
+    .about-left img.path-img-left {
+      display: none; } }
 
 /*--------------------------------------------------------------
 # Footer
@@ -2934,7 +2954,6 @@ div.banner-faq-single {
       background: #bf1328; }
 
 nav.main-navigation {
-  background-color: #ffffff;
   height: 65px;
   min-width: 325px;
   display: -webkit-box;
@@ -2948,7 +2967,8 @@ nav.main-navigation {
           align-items: center;
   position: fixed;
   z-index: 30;
-  top: 0px; }
+  top: 0px;
+  background-color: #ffffff; }
   @media all and (min-width: 750px) {
     nav.main-navigation {
       padding-bottom: 14px;
@@ -2992,30 +3012,30 @@ nav.main-navigation {
         display: none; } }
 
 div.menu-content {
+  height: 400px;
+  width: 60vw;
+  margin-left: 40vw;
+  padding-top: 50px;
+  position: fixed;
+  top: 20px;
+  background-color: #F3F5F8;
   -webkit-transition: -webkit-box-shadow .3s;
   transition: -webkit-box-shadow .3s;
   transition: box-shadow .3s;
   transition: box-shadow .3s, -webkit-box-shadow .3s;
   -webkit-box-shadow: 1px 1px 8px 1px lightgrey;
           box-shadow: 1px 1px 8px 1px lightgrey;
-  padding-top: 50px;
-  height: 400px;
-  width: 60vw;
-  background-color: #F3F5F8;
-  margin-left: 40vw;
-  position: fixed;
-  top: 20px;
   z-index: 20;
   text-align: center; }
   div.menu-content ul {
-    list-style-type: none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    list-style-type: none; }
   div.menu-content li {
-    text-align: center;
-    padding-top: 15px;
     display: block;
-    float: none; }
+    padding-top: 15px;
+    float: none;
+    text-align: center; }
   div.menu-content a {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -3032,9 +3052,9 @@ div.menu-content {
     color: #FFFFFF; }
 
 ul#primary-menu {
-  list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  list-style-type: none; }
 
 nav.main-navigation:hover {
   -webkit-transition: -webkit-box-shadow .3s;
@@ -3049,12 +3069,12 @@ nav.main-navigation:hover {
   display: none; }
   @media all and (min-width: 750px) {
     .full-screen-links {
-      height: 126px;
-      width: 80vw;
-      margin-top: 36px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      height: 126px;
+      width: 80vw;
+      margin-top: 36px;
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
@@ -3065,16 +3085,16 @@ nav.main-navigation:hover {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        width: 70vw;
+        margin: 0;
+        padding: 0;
         -webkit-box-align: stretch;
             -ms-flex-align: stretch;
                 align-items: stretch;
         /* Default */
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center;
-        width: 70vw;
-        margin: 0;
-        padding: 0; }
+                justify-content: center; }
       .full-screen-links li {
         -webkit-box-align: stretch;
             -ms-flex-align: stretch;
@@ -3097,7 +3117,10 @@ nav.main-navigation:hover {
         color: #FFFFFF; } }
 
 .page-template-archive-nexus_program {
-  padding-top: 65px; }
+  padding-top: 55px; }
+  @media all and (min-width: 750px) {
+    .page-template-archive-nexus_program {
+      padding-top: 0; } }
   .page-template-archive-nexus_program .hero-wrapper {
     width: 100vw; }
     .page-template-archive-nexus_program .hero-wrapper h1 {
@@ -3147,7 +3170,7 @@ nav.main-navigation:hover {
     padding-top: 0; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .site-main {
-        padding-top: 65px; } }
+        padding-top: 55px; } }
   .page-template-archive-nexus_program .hidden {
     display: none; }
   .page-template-archive-nexus_program .search-results {
@@ -3211,6 +3234,7 @@ nav.main-navigation:hover {
     color: #E00029; }
   .page-template-archive-nexus_program .program-content-container {
     width: 90%;
+    max-width: 1100px;
     margin: 0 auto; }
   .page-template-archive-nexus_program .program-content {
     background-image: url("../../assets/images/photo_study@3x.png");
@@ -3235,8 +3259,8 @@ nav.main-navigation:hover {
     text-decoration: none; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-container {
-        -ms-flex-preferred-size: 33%;
-            flex-basis: 33%;
+        -ms-flex-preferred-size: 30%;
+            flex-basis: 30%;
         max-width: 320px; } }
   .page-template-archive-nexus_program .program-image {
     overflow: hidden;
@@ -3275,23 +3299,25 @@ nav.main-navigation:hover {
         margin-bottom: 0;
         color: #123048; } }
   .page-template-archive-nexus_program .program-school {
-    margin-top: 22px;
+    text-transform: uppercase;
+    margin-top: 12px;
     font-size: 0.75rem;
     font-weight: 300;
     font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-school {
-        font-size: 1.25rem; } }
+        font-size: 1.25rem;
+        margin-top: 22px; } }
   .page-template-archive-nexus_program .program-name {
-    margin: 10px 0;
     font-size: 1rem;
     font-weight: bold;
     font-family: 'Roboto' sans-serif; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-name {
+        margin: 10px 0;
         font-size: 1.68rem; } }
   .page-template-archive-nexus_program .program-type {
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 300;
     font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 750px) {
@@ -3322,7 +3348,34 @@ nav.main-navigation:hover {
       background: #E91C35;
       color: #FFFFFF; }
 
+.single-nexus_program .header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .single-nexus_program .header-wrapper .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 4px solid #FF8A2A; }
+    @media all and (min-width: 750px) {
+      .single-nexus_program .header-wrapper .underline {
+        width: 144px;
+        border-bottom-width: 6px; } }
+
+.single-nexus_program .single-program-title {
+  margin-bottom: 2px; }
+
+.single-nexus_program .single-program-header {
+  margin-bottom: 2px; }
+
 .single-nexus_program .single-program-container {
+  padding: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3334,7 +3387,19 @@ nav.main-navigation:hover {
       -ms-flex-align: center;
           align-items: center; }
 
+.single-nexus_program .program-meta-category {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif; }
+
+.single-nexus_program .program-meta-content {
+  font-size: 1.15rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin-top: 0; }
+
 .single-nexus_program .program-meta {
+  margin-top: 1rem;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -3352,8 +3417,12 @@ nav.main-navigation:hover {
         flex-basis: 30%; }
 
 .single-nexus_program .program-meta-seperator {
-  height: 60px;
-  border-right: 3px solid #ff8a2a; }
+  visibility: hidden; }
+  @media all and (min-width: 550px) {
+    .single-nexus_program .program-meta-seperator {
+      visibility: visible;
+      height: 60px;
+      border-right: 3px solid #ff8a2a; } }
 
 .page-template-contact h1.entry-title {
   display: none; }
@@ -3362,16 +3431,16 @@ nav.main-navigation:hover {
   display: none; }
   @media all and (min-width: 750px) {
     .page-template-contact .desktop-contact-display {
-      font-family: "Raleway", Arial, Helvetica, sans-serif;
-      font-size: 18px;
       display: block;
       height: 595px;
       width: 435px;
-      background-color: #FFC54C;
+      padding: 38px;
       position: relative;
       bottom: 720px;
       left: 80%;
-      padding: 38px;
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      background-color: #FFC54C;
       color: #122E3F; }
       .page-template-contact .desktop-contact-display h2 {
         font-size: 42px; }
@@ -3381,12 +3450,11 @@ nav.main-navigation:hover {
         margin-right: 20px;
         margin-bottom: 44px; }
       .page-template-contact .desktop-contact-display .contact-address {
-        width: 300px;
         display: inline-block;
+        width: 300px;
         margin-left: 14px; }
       .page-template-contact .desktop-contact-display .contact-hours {
-        width: 300px;
-        display: inline-block; } }
+        width: 300px; } }
 
 .page-template-contact .contact-form {
   padding-top: 24px;
@@ -3411,14 +3479,14 @@ nav.main-navigation:hover {
     width: 175px;
     height: 40px;
     padding: 0;
+    margin-left: 25%;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
             box-shadow: none;
     text-shadow: none;
     font-size: 18px;
     background: #E91C35;
-    color: #FFFFFF;
-    margin-left: 25%; }
+    color: #FFFFFF; }
   .page-template-contact .contact-form h2.title {
     margin-top: 0;
     text-align: center;
@@ -3451,13 +3519,13 @@ nav.main-navigation:hover {
 .page-template-contact .hero-wrapper {
   padding-top: 65px; }
   .page-template-contact .hero-wrapper h1 {
+    position: relative;
+    top: 46px;
     text-align: center;
     color: #15405A;
     font-size: 30px;
     text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 46px; }
+    font-weight: 900; }
   .page-template-contact .hero-wrapper .hero-image {
     height: 139px;
     width: 100vw;
@@ -3475,34 +3543,35 @@ nav.main-navigation:hover {
   height: 195px;
   background-color: #F3F5F8; }
   .page-template-contact .contact-journey h2 {
+    position: relative;
+    top: 20px;
     font-size: 24px;
     text-align: center;
     color: #15405A;
     font-weight: 900;
-    position: relative;
-    top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
   .page-template-contact .contact-journey p {
+    position: relative;
+    bottom: 42px;
+    text-transform: none;
     font-size: 14px;
     color: #E00029;
     font-style: italic;
-    font-weight: 200;
-    position: relative;
-    text-transform: none;
-    bottom: 42px; }
+    font-weight: 200; }
   .page-template-contact .contact-journey .underline {
     margin: 0 auto;
     width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
     position: relative;
-    bottom: 48px; }
+    bottom: 48px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A; }
 
 .page-template-contact button.consult {
-  letter-spacing: 1pt;
   width: 175px;
   height: 40px;
+  position: relative;
+  bottom: 40px;
   padding: 0;
   border-radius: 25px 0px 25px 0px;
   -webkit-box-shadow: none;
@@ -3511,8 +3580,7 @@ nav.main-navigation:hover {
   font-size: 18px;
   background: #E91C35;
   color: #FFFFFF;
-  position: relative;
-  bottom: 40px; }
+  letter-spacing: 1pt; }
 
 /*======================================
   Selectric
@@ -3955,33 +4023,72 @@ div.return-home {
           justify-content: center;
   padding: 2rem 0 3rem 0; }
 
+.page-template-consult .entry-title {
+  display: none; }
+
+.page-template-consult .wpcf7-validation-errors {
+  border: none;
+  padding: 24px;
+  color: white;
+  font-size: 16px;
+  background: #E91C35; }
+
+.page-template-consult .wpcf7-mail-sent-ok {
+  border: none;
+  padding: 24px;
+  background: #55ACEE;
+  color: white;
+  font-size: 16px; }
+
+.page-template-consult .underline1 {
+  width: 69px;
+  position: relative;
+  bottom: 34px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 3px solid #FF8A2A; }
+
 .page-template-consult .consult-wrapper {
   width: 80vw;
+  height: 1000px;
   margin: 0 auto;
+  margin-bottom: 24px;
+  margin-top: 60px;
   padding: 24px;
   text-align: center;
-  height: 900px;
-  background-color: #FFD479;
-  margin-top: 60px; }
+  background-color: #FFD479; }
   .page-template-consult .consult-wrapper h2 {
     font-size: 46px; }
 
 .page-template-consult .consult-form {
-  width: 60%;
+  display: inline-block;
+  width: 80%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  display: inline-block; }
+  text-align: left;
+  font-size: 16px; }
+  @media all and (min-width: 750px) {
+    .page-template-consult .consult-form {
+      width: 50%; } }
   .page-template-consult .consult-form input {
+    display: inline-block;
     height: 44px;
-    width: 20vw;
-    display: inline-block; }
+    width: 100%; }
+  .page-template-consult .consult-form input:hover {
+    background-color: #eeeeee; }
+  .page-template-consult .consult-form label:hover {
+    font-size: 18px; }
   .page-template-consult .consult-form textarea {
-    width: 50vw; }
+    width: 100%; }
+  .page-template-consult .consult-form .wpcf7-submit {
+    width: 175px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: #E91C35;
+    color: #FFFFFF;
+    border: none;
+    letter-spacing: 1pt; }

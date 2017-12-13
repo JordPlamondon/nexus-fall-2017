@@ -20,3 +20,19 @@ function nexus_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'nexus_body_classes' );
+
+// this function initializes the iframe elements 
+function allow_post_tags( $allowedposttags ){
+	$allowedposttags['iframe'] = array(
+	'src' => true,
+	'width' => true,
+	'height' => true,
+	'class' => true,
+	'frameborder' => true,
+	'webkitAllowFullScreen' => true,
+	'mozallowfullscreen' => true,
+	'allowFullScreen' => true
+	);
+	return $allowedposttags;
+}
+add_filter('wp_kses_allowed_html','allow_post_tags', 1);

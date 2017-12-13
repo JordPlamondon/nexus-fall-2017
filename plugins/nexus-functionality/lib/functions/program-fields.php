@@ -66,7 +66,13 @@ function nexus_register_metaboxes() {
 		'desc' => 'The City the program is located in',
 		'id'   => $prefix . 'program_city',
 		'type' => 'text',
-  ) );
+	) );
+	$program_details->add_field( array(
+		'name' => 'About Photo',
+		'desc' => 'Image to add a little flair to the page',
+		'id'   => $prefix . 'program_about_image',
+		'type' => 'file',
+	) );
    $program_details->add_field( array(
 		'name' => 'About',
 		'desc' => 'The description of the program',

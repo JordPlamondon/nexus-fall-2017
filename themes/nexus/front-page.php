@@ -9,6 +9,8 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+
+<div class="full-page-wrapper">
 			<div class="banner">
 				<div class="banner__info">
 					<p class="banner__info__p"> Dreaming Of </p>
@@ -241,7 +243,7 @@ get_header(); ?>
 						Nexus has partnered up with over 100 different programs.
 						Nexus has partnered up with over 100 different programs.
 						</p>
-						<a href="/nexus/program/">
+						<a href="	/nexus/program/">
 						<button class="choose-program__button">See Programs</button></a>
 					</div>	
 				</div>
@@ -316,6 +318,7 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
+		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

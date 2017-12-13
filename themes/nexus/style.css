@@ -2145,8 +2145,8 @@ div.footer__social-media {
 div#secondary.widget-area,
 div.footer__contact p a,
 .hidden a {
-  color: #ffffff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif; }
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #ffffff; }
 
 div.widget_info_contain a {
   text-decoration: none;
@@ -2263,7 +2263,7 @@ div.widget_info_contain a {
   .underline.footer {
     margin: auto;
     width: 49px;
-    border-bottom: 3px solid #ff8a2a; } }
+    border-bottom: 3px solid #FF8A2A; } }
 
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
@@ -2335,7 +2335,7 @@ div.widget_info_contain a {
   .underline.footer {
     padding-top: 10px;
     width: 74px;
-    border-bottom: 3px solid #ff8a2a; } }
+    border-bottom: 3px solid #FF8A2A; } }
 
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
@@ -2519,7 +2519,7 @@ div.widget_info_contain a {
   .underline.footer {
     padding-top: 10px;
     width: 99px;
-    border-bottom: 3px solid #ff8a2a; } }
+    border-bottom: 3px solid #FF8A2A; } }
 
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
   text-align: center;
@@ -3319,7 +3319,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-type {
         font-size: 1.25rem; } }
@@ -3970,6 +3970,7 @@ div.hero-404 {
   background-size: cover;
   height: 100vw;
   width: 100%;
+  min-height: 800px;
   max-height: 981px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3983,8 +3984,7 @@ div.hero-404 {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 800px; }
+          justify-content: center; }
 
 section.error-404.not-found {
   display: -webkit-box;
@@ -3997,34 +3997,34 @@ section.error-404.not-found {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #F3F5F8;
-  opacity: 0.75;
   max-height: 633px;
   max-width: 1018px;
   min-height: 800px;
-  text-align: center; }
+  text-align: center;
+  background-color: #F3F5F8;
+  opacity: 0.75; }
   section.error-404.not-found h1.page-title {
-    margin: 20px 20px 10px 20px;
-    color: #123048;
     padding-top: 2rem;
-    font-size: 4rem; }
+    font-size: 4rem;
+    margin: 20px 20px 10px 20px;
+    color: #123048; }
   section.error-404.not-found p {
     margin: 10px 30px 20px 30px;
-    color: #123048;
-    font-size: 2rem; }
+    font-size: 2rem;
+    color: #123048; }
 
 .home-button {
   height: 80px;
   width: 250px;
   border-radius: 2px 100px 2px 100px;
-  background-color: #E91C35;
-  color: #FFFFFF;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 28px;
-  text-align: center; }
+  text-align: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #E91C35;
+  color: #FFFFFF; }
   .home-button:hover {
     border-radius: 100px 2px 100px 2px;
     background-color: #E91C35;

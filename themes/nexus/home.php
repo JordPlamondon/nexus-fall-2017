@@ -17,9 +17,17 @@ get_header(); ?>
         <h2 class="latest-videos-title">Latest Videos</h2>
         <div class="underline-videos"></div>
         <section class="blog-page">
-    
+
+        <?php
+        $category_name = 'videos, blogs'; 
+        $temp = $wp_query;
+        $wp_query = null;
+        $wp_query = new WP_Query();
+        $wp_query->query('showposts=6' . '&paged=' . $paged . '&category_name=' . $category_name); ?>
+
+     
           <ul class "blog-categories">
-            
+       
           <?php while ( have_posts() ) : the_post(); ?>
             <li>
               <div class="blog-video">
@@ -39,7 +47,7 @@ get_header(); ?>
             </li>
             <!-- <div class="underline"></div> -->
              <div class="shadow-border"></div> 
-              
+             
               <?php endwhile; // End of the loop. ?>
         
           </ul>		

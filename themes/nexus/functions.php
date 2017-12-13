@@ -144,19 +144,27 @@ function plugin_myContentFilter($content)
 	return ($content);
 }
 
-//filter videos and blogs on blog page
-add_filter('pre_get_posts', 'per_category_basis');
-function per_category_basis($query){
-    if ($query->is_category) {
-        // category named 'videos' show 3 posts
-        if (is_category('videos')){
-            $query->set('posts_per_page', 3);
-        }
-        // category named 'blogs' show only 3 posts
-        if (is_category('blogs')){
-            $query->set('posts_per_page', 3);
-        }
-    }
-    return $query;
-}
+// filter videos and blogs on blog page
+// add_filter('pre_get_posts', 'per_category_basis');
+// function per_category_basis($query){
+//     if ($query->category__in) {
+      
+//         if (is_category('videos')){
+//             $query->set('posts_per_page', 2);
+//         }
+       
+//         if (is_category('blogs')){
+//             $query->set('posts_per_page', 2);
+//         }
+//     }
+//     return $query;
+// }
+
+// add_filter('pre_get_posts', 'limit_category_posts');
+// function limit_category_posts($query){
+//     if ($query->is_category) {
+//         $query->set('posts_per_page', 3);
+//     }
+//     return $query;
+// }
 

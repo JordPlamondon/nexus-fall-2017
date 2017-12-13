@@ -692,10 +692,126 @@ a {
   .home .underline {
     width: 49px;
     border-bottom: 3px solid #FF8A2A; }
-  .home .site-main .full-page-wrapper {
-    max-width: 100vw; }
-    .home .site-main .full-page-wrapper .banner {
-      padding-top: 4.5rem;
+    @media all and (min-width: 550px) {
+      .home .underline {
+        width: 120px; } }
+  .home .site-main .banner {
+    padding-top: 4.5rem;
+    width: 100%;
+    height: 16rem;
+    background: url(../../assets/images/photo-hero-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 97vw; }
+    @media all and (min-width: 550px) {
+      .home .site-main .banner {
+        height: 40vw;
+        background-size: 100vw 40vw;
+        background-image: url("../../assets/images/home-hero-desktop.png");
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+    .home .site-main .banner__info {
+      width: 40%;
+      margin-left: 2rem;
+      line-height: 2rem; }
+      @media all and (min-width: 550px) {
+        .home .site-main .banner__info {
+          margin: 0; } }
+    .home .site-main .banner__info__h1 {
+      margin: 1vw 0 0 0;
+      font-size: 11vw;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #123048; }
+      @media all and (min-width: 550px) {
+        .home .site-main .banner__info__h1 {
+          font-size: 6vw;
+          font-weight: bold;
+          text-align: center; } }
+    .home .site-main .banner__info__p {
+      margin: 0;
+      font-size: 6vw;
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      font-style: italic;
+      color: #E00029;
+      text-transform: none;
+      text-align: center;
+      line-height: 18px; }
+      @media all and (min-width: 550px) {
+        .home .site-main .banner__info__p {
+          margin-bottom: 2vw;
+          font-size: 4vw; } }
+    .home .site-main .banner__p {
+      width: 52%;
+      margin-left: 2rem;
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      font-size: 4vw;
+      font-style: italic;
+      font-weight: 600;
+      color: #123048; }
+      @media all and (min-width: 550px) {
+        .home .site-main .banner__p {
+          margin-top: 2vw;
+          font-size: 2vw;
+          width: 33%; } }
+    .home .site-main .banner__p__span {
+      font-weight: 800; }
+  .home .site-main .nexus-wrapper {
+    width: 100%; }
+    @media all and (min-width: 550px) {
+      .home .site-main .nexus-wrapper {
+        width: 90%;
+        margin: 0 0 0 auto; } }
+  .home .site-main .why-nexus {
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus.png");
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus.png");
+    background-position-y: top, bottom;
+    background-position-x: left, left;
+    background-repeat: no-repeat;
+    background-size: 100% 75%, 100% 50%; }
+    @media all and (min-width: 550px) {
+      .home .site-main .why-nexus {
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        background-position-y: center, center;
+        background-repeat: no-repeat;
+        background-position-x: left, right;
+        background-size: 70% 50%,50% 50%; } }
+    .home .site-main .why-nexus h2 {
+      width: 80%;
+      margin: 0 auto; }
+      @media all and (min-width: 550px) {
+        .home .site-main .why-nexus h2 {
+          margin: 0;
+          width: 65%;
+          font-size: 2.5rem; } }
+    .home .site-main .why-nexus .headergroup {
       width: 100%;
       height: 15rem;
       background: url("../../assets/images/photo-hero-mobile.png");
@@ -1560,11 +1676,14 @@ a {
 
 .home .why-canada .headergroup {
   line-height: 3rem; }
+  @media all and (min-width: 550px) {
+    .home .why-canada .headergroup {
+      margin-bottom: 3rem; } }
 
 .home .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold; }
-  @media all and (min-width: 960px) {
+  @media all and (min-width: 550px) {
     .home .why-canada__header {
       text-align: center;
       font-size: 3rem;
@@ -1578,13 +1697,14 @@ a {
 
 @media all and (min-width: 960px) {
   .home .why-canada .owl-carousel {
+    position: relative;
     width: 100%;
     height: 100%; } }
 
 .home .why-canada .first {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whynexus@3x.png);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whynexus@3x.png);
-  background-size: 100% 70%,100% 50%;
+  background-size: 100% 70%,100% 75%;
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
@@ -1599,7 +1719,7 @@ a {
 .home .why-canada .second {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whycanada@3x.png);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whycanada@3x.png);
-  background-size: 100% 70%,100% 50%;
+  background-size: 100% 70%,100% 75%;
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
@@ -1612,16 +1732,16 @@ a {
       background-repeat: no-repeat,no-repeat; } }
 
 .home .why-canada .third {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/photo_review.png);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/photo_review.png);
-  background-size: 100% 70%,100% 50%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/photo-review@3x.png);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/photo-review@3x.png);
+  background-size: 100% 70%,100% 75%;
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
   @media all and (min-width: 550px) {
     .home .why-canada .third {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo_review.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo_review.png");
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo-review@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo-review@3x.png");
       background-size: 65% 55%,70% 100%;
       background-position-x: left,right;
       background-repeat: no-repeat,no-repeat; } }
@@ -1688,10 +1808,10 @@ a {
   bottom: 2.5rem; }
   @media all and (min-width: 550px) {
     .home .why-canada .owl-nav {
-      position: relative;
+      position: absolute;
       z-index: 998;
-      bottom: 24rem;
-      right: -3rem; } }
+      top: 20%;
+      left: 50%; } }
   .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2148,8 +2268,8 @@ div.footer__social-media {
 div#secondary.widget-area,
 div.footer__contact p a,
 .hidden a {
-  color: #ffffff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif; }
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #ffffff; }
 
 div.widget_info_contain a {
   text-decoration: none;
@@ -2266,7 +2386,7 @@ div.widget_info_contain a {
   .underline.footer {
     margin: auto;
     width: 49px;
-    border-bottom: 3px solid #ff8a2a; } }
+    border-bottom: 3px solid #FF8A2A; } }
 
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
@@ -2338,7 +2458,7 @@ div.widget_info_contain a {
   .underline.footer {
     padding-top: 10px;
     width: 74px;
-    border-bottom: 3px solid #ff8a2a; } }
+    border-bottom: 3px solid #FF8A2A; } }
 
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
@@ -2522,7 +2642,7 @@ div.widget_info_contain a {
   .underline.footer {
     padding-top: 10px;
     width: 99px;
-    border-bottom: 3px solid #ff8a2a; } }
+    border-bottom: 3px solid #FF8A2A; } }
 
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
   text-align: center;
@@ -2999,9 +3119,9 @@ nav.main-navigation {
     @media all and (min-width: 750px) {
       nav.main-navigation .header-logo {
         height: 62px;
-        min-width: 151px;
+        min-width: 186px;
         margin-left: 40px;
-        background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
+        background-image: url("../../assets/images/nexus_logo_04@2x.png");
         background-size: 100% 100%; } }
   nav.main-navigation .menu-toggle {
     height: 17px;
@@ -3351,7 +3471,20 @@ nav.main-navigation:hover {
       background: #E91C35;
       color: #FFFFFF; }
 
+@media all and (min-width: 750px) {
+  .single-nexus_program {
+    padding-top: 55px; } }
+
+.single-nexus_program .single-program-content {
+  margin-top: 0;
+  line-height: 1.75;
+  text-align: center;
+  color: #123048;
+  font-family: 'Roboto', sans-serif; }
+
 .single-nexus_program .header-wrapper {
+  margin-top: 1.75rem;
+  margin-bottom: 2.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3369,11 +3502,17 @@ nav.main-navigation:hover {
         width: 144px;
         border-bottom-width: 6px; } }
 
+.single-nexus_program .single-program-about-image {
+  display: none; }
+  @media all and (min-width: 550px) {
+    .single-nexus_program .single-program-about-image {
+      display: none; } }
+
 .single-nexus_program .single-program-title {
-  margin-bottom: 2px; }
+  margin: 2px 0; }
 
 .single-nexus_program .single-program-header {
-  margin-bottom: 2px; }
+  margin: 2px 0; }
 
 .single-nexus_program .single-program-container {
   padding: 1rem;
@@ -3391,11 +3530,13 @@ nav.main-navigation:hover {
           align-items: center; }
 
 .single-nexus_program .program-meta-category {
+  margin: 1rem 0 0 0;
   font-size: 0.75rem;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif; }
 
 .single-nexus_program .program-meta-content {
+  margin: 0 0 1rem 0;
   font-size: 1.15rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -3957,6 +4098,7 @@ div.hero-404 {
   background-size: cover;
   height: 100vw;
   width: 100%;
+  min-height: 800px;
   max-height: 981px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3970,8 +4112,7 @@ div.hero-404 {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 800px; }
+          justify-content: center; }
 
 section.error-404.not-found {
   display: -webkit-box;
@@ -3984,34 +4125,34 @@ section.error-404.not-found {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #F3F5F8;
-  opacity: 0.75;
   max-height: 633px;
   max-width: 1018px;
   min-height: 800px;
-  text-align: center; }
+  text-align: center;
+  background-color: #F3F5F8;
+  opacity: 0.75; }
   section.error-404.not-found h1.page-title {
-    margin: 20px 20px 10px 20px;
-    color: #123048;
     padding-top: 2rem;
-    font-size: 4rem; }
+    font-size: 4rem;
+    margin: 20px 20px 10px 20px;
+    color: #123048; }
   section.error-404.not-found p {
     margin: 10px 30px 20px 30px;
-    color: #123048;
-    font-size: 2rem; }
+    font-size: 2rem;
+    color: #123048; }
 
 .home-button {
   height: 80px;
   width: 250px;
   border-radius: 2px 100px 2px 100px;
-  background-color: #E91C35;
-  color: #FFFFFF;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 28px;
-  text-align: center; }
+  text-align: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #E91C35;
+  color: #FFFFFF; }
   .home-button:hover {
     border-radius: 100px 2px 100px 2px;
     background-color: #E91C35;

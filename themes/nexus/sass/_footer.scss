@@ -24,8 +24,9 @@ div.footer__social-media {
 div#secondary.widget-area,
 div.footer__contact p a,
 .hidden a {
+  font-family: $font__main;
   color: $color__background-hr;
-  font-family: $font__main
+  
 }
 
 div.widget_info_contain a {
@@ -126,7 +127,7 @@ div.widget_info_contain a {
   .underline.footer {
     margin: auto;
     width: 49px;
-    border-bottom: 3px solid #ff8a2a;
+    border-bottom: 3px solid $color__accent-underline;
   }
 }
 
@@ -203,7 +204,7 @@ div.widget_info_contain a {
     .underline.footer {
       padding-top: 10px;
       width: 74px;
-      border-bottom: 3px solid #ff8a2a;
+      border-bottom: 3px solid $color__accent-underline;
     }
   }
 }
@@ -366,6 +367,6 @@ div.widget_info_contain a {
   .underline.footer {
     padding-top: 10px;
     width: 99px;
-    border-bottom: 3px solid #ff8a2a;
+    border-bottom: 3px solid $color__accent-underline;
   }
 }

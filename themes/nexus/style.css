@@ -3075,7 +3075,10 @@ nav.main-navigation:hover {
         color: #FFFFFF; } }
 
 .page-template-archive-nexus_program {
-  padding-top: 65px; }
+  padding-top: 55px; }
+  @media all and (min-width: 750px) {
+    .page-template-archive-nexus_program {
+      padding-top: 0; } }
   .page-template-archive-nexus_program .hero-wrapper {
     width: 100vw; }
     .page-template-archive-nexus_program .hero-wrapper h1 {
@@ -3125,7 +3128,7 @@ nav.main-navigation:hover {
     padding-top: 0; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .site-main {
-        padding-top: 65px; } }
+        padding-top: 55px; } }
   .page-template-archive-nexus_program .hidden {
     display: none; }
   .page-template-archive-nexus_program .search-results {
@@ -3189,6 +3192,7 @@ nav.main-navigation:hover {
     color: #E00029; }
   .page-template-archive-nexus_program .program-content-container {
     width: 90%;
+    max-width: 1100px;
     margin: 0 auto; }
   .page-template-archive-nexus_program .program-content {
     background-image: url("../../assets/images/photo_study@3x.png");
@@ -3213,8 +3217,8 @@ nav.main-navigation:hover {
     text-decoration: none; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-container {
-        -ms-flex-preferred-size: 33%;
-            flex-basis: 33%;
+        -ms-flex-preferred-size: 30%;
+            flex-basis: 30%;
         max-width: 320px; } }
   .page-template-archive-nexus_program .program-image {
     overflow: hidden;
@@ -3253,23 +3257,25 @@ nav.main-navigation:hover {
         margin-bottom: 0;
         color: #123048; } }
   .page-template-archive-nexus_program .program-school {
-    margin-top: 22px;
+    text-transform: uppercase;
+    margin-top: 12px;
     font-size: 0.75rem;
     font-weight: 300;
     font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-school {
-        font-size: 1.25rem; } }
+        font-size: 1.25rem;
+        margin-top: 22px; } }
   .page-template-archive-nexus_program .program-name {
-    margin: 10px 0;
     font-size: 1rem;
     font-weight: bold;
     font-family: 'Roboto' sans-serif; }
     @media all and (min-width: 750px) {
       .page-template-archive-nexus_program .program-name {
+        margin: 10px 0;
         font-size: 1.68rem; } }
   .page-template-archive-nexus_program .program-type {
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 300;
     font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 750px) {
@@ -3301,6 +3307,8 @@ nav.main-navigation:hover {
       color: #FFFFFF; }
 
 .single-nexus_program .single-program-container {
+  max-width: 1100px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3330,8 +3338,12 @@ nav.main-navigation:hover {
         flex-basis: 30%; }
 
 .single-nexus_program .program-meta-seperator {
-  height: 60px;
-  border-right: 3px solid #ff8a2a; }
+  visibility: hidden; }
+  @media all and (min-width: 550px) {
+    .single-nexus_program .program-meta-seperator {
+      visibility: visible;
+      height: 60px;
+      border-right: 3px solid #ff8a2a; } }
 
 .page-template-contact h1.entry-title {
   display: none; }
@@ -3340,16 +3352,16 @@ nav.main-navigation:hover {
   display: none; }
   @media all and (min-width: 750px) {
     .page-template-contact .desktop-contact-display {
-      font-family: "Raleway", Arial, Helvetica, sans-serif;
-      font-size: 18px;
       display: block;
       height: 595px;
       width: 435px;
-      background-color: #FFC54C;
+      padding: 38px;
       position: relative;
       bottom: 720px;
       left: 80%;
-      padding: 38px;
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      background-color: #FFC54C;
       color: #122E3F; }
       .page-template-contact .desktop-contact-display h2 {
         font-size: 42px; }
@@ -3359,12 +3371,11 @@ nav.main-navigation:hover {
         margin-right: 20px;
         margin-bottom: 44px; }
       .page-template-contact .desktop-contact-display .contact-address {
-        width: 300px;
         display: inline-block;
+        width: 300px;
         margin-left: 14px; }
       .page-template-contact .desktop-contact-display .contact-hours {
-        width: 300px;
-        display: inline-block; } }
+        width: 300px; } }
 
 .page-template-contact .contact-form {
   padding-top: 24px;
@@ -3935,31 +3946,22 @@ div.return-home {
 
 .page-template-consult .consult-wrapper {
   width: 80vw;
+  height: 900px;
   margin: 0 auto;
+  margin-top: 60px;
   padding: 24px;
   text-align: center;
-  height: 900px;
-  background-color: #FFD479;
-  margin-top: 60px; }
+  background-color: #FFD479; }
   .page-template-consult .consult-wrapper h2 {
     font-size: 46px; }
 
 .page-template-consult .consult-form {
+  display: inline-block;
   width: 60%;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  display: inline-block; }
+  margin: 0 auto; }
   .page-template-consult .consult-form input {
+    display: inline-block;
     height: 44px;
-    width: 20vw;
-    display: inline-block; }
+    width: 20vw; }
   .page-template-consult .consult-form textarea {
     width: 50vw; }

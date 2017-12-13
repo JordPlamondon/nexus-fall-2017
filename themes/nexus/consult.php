@@ -12,6 +12,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
     <div class="consult-wrapper">
     <h2 class="title"> Start Your Journey</h2>
+    <div class="underline1"></div>
       <div class="consult-form">
     <?php while ( have_posts() ) : the_post(); ?>
            

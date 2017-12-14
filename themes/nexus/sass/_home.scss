@@ -215,7 +215,7 @@ body.blog {
       text-align: center;
       font-size: 18px;
       @media #{$desktop} {
-        // font-size: 27px;
+        font-size: 27px;
       }
     }
     .blog-img {
@@ -242,7 +242,7 @@ body.blog {
     .blog-img {
       @media #{$desktop} {
         height: 224.89px;
-        padding-top: 22px;
+        padding-top: 35px;
       }
     }
     .blog-text {
@@ -264,7 +264,7 @@ body.blog {
     .blog-img {
       @media #{$desktop} {
         height: 224.89px;
-        padding-top: 22px;
+        padding-top: 35px;
       }
     }
     .blog-text {

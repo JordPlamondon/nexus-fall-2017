@@ -1582,7 +1582,7 @@ a {
     margin-top: 3rem; } }
 
 .home .why-canada .headergroup {
-  line-height: 3rem; }
+  line-height: 10rem; }
   @media all and (min-width: 650px) {
     .home .why-canada .headergroup {
       margin-bottom: 3rem; } }
@@ -1696,7 +1696,7 @@ a {
     .home .why-canada .carouselplaceholder__subheader {
       margin-top: 5px;
       color: #123048;
-      font-size: 2.5rem;
+      font-size: 250rem;
       font-style: normal;
       text-align: left; } }
 
@@ -2780,7 +2780,7 @@ div.banner-faq-single {
   div.banner-faq-single .banner-image-faq-single {
     height: 139px;
     width: 100vw;
-    background-image: url("../../assets/images/living@2x.png");
+    background-image: url("../../assets/images/living_no_canada@3x.png");
     background-size: 100% 100%; }
     @media all and (min-width: 650px) {
       div.banner-faq-single .banner-image-faq-single {
@@ -4137,6 +4137,9 @@ body.blog .blog-wrapper {
     body.blog .blog-wrapper li:nth-of-type(n+4):nth-of-type(-n+6) .blog-title {
       text-align: center;
       font-size: 18px; }
+      @media all and (min-width: 650px) {
+        body.blog .blog-wrapper li:nth-of-type(n+4):nth-of-type(-n+6) .blog-title {
+          font-size: 27px; } }
     body.blog .blog-wrapper li:nth-of-type(n+4):nth-of-type(-n+6) .blog-img {
       margin-top: 30px; }
     @media all and (min-width: 650px) {
@@ -4153,7 +4156,7 @@ body.blog .blog-wrapper {
   @media all and (min-width: 650px) {
     body.blog .blog-wrapper li:nth-of-type(n+4):nth-of-type(-n+4) .blog-img {
       height: 224.89px;
-      padding-top: 22px; } }
+      padding-top: 35px; } }
   @media all and (min-width: 650px) {
     body.blog .blog-wrapper li:nth-of-type(n+4):nth-of-type(-n+4) .blog-text {
       position: relative;
@@ -4165,7 +4168,7 @@ body.blog .blog-wrapper {
   @media all and (min-width: 650px) {
     body.blog .blog-wrapper li:nth-of-type(n+6):nth-of-type(-n+6) .blog-img {
       height: 224.89px;
-      padding-top: 22px; } }
+      padding-top: 35px; } }
   @media all and (min-width: 650px) {
     body.blog .blog-wrapper li:nth-of-type(n+6):nth-of-type(-n+6) .blog-text {
       position: relative;

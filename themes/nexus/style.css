@@ -2167,7 +2167,8 @@ body.page-template-archive-nexus_program main {
 /********************* Shared between media *************************/
 /********************* Shared between media *************************/
 footer#colophon.site-footer {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  letter-spacing: 2px; }
 
 div.footer__contact p a,
 div.footer__site-info a,
@@ -2213,7 +2214,8 @@ div.widget_info_contain a {
       padding: 20px 0 10px 0;
       text-align: center;
       color: #FFFFFF;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      letter-spacing: 2px; }
   div.socialmedia-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2278,7 +2280,8 @@ div.widget_info_contain a {
     padding: 20px 0 5px 0;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    letter-spacing: 2px; }
   div.widget-fa i {
     color: #FFFFFF; }
   .footer__contact,
@@ -2340,7 +2343,8 @@ div.widget_info_contain a {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       color: #FFFFFF;
       text-align: left;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      letter-spacing: 2px; }
   div.footer__social-media-container,
   section.footer_contact_info {
     margin-top: 2rem;
@@ -2520,7 +2524,8 @@ div.widget_info_contain a {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       color: #FFFFFF;
       text-align: left;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      letter-spacing: 2px; }
   div.footer__social-media-container {
     margin-top: 2rem; }
   section.footer_contact_info {
@@ -2529,7 +2534,7 @@ div.widget_info_contain a {
   .footer__why-nexus,
   .footer__social-media-container,
   section.footer_contact_info {
-    width: 200px; }
+    width: 210px; }
   .footer__why-nexus p {
     margin-top: 33px; }
   div.socialmedia-container {
@@ -2897,7 +2902,7 @@ div.banner-faq-single {
   text-align: center;
   color: #15405A;
   position: relative;
-  top: 25px; }
+  top: 50px; }
   @media all and (min-width: 950px) {
     .faq-single-homestay h2 {
       font-size: 60px;
@@ -2954,6 +2959,9 @@ div.banner-faq-single {
       color: #FFFFFF; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
       text-decoration: none; }
+      @media all and (min-width: 950px) {
+        .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
+          display: inline; } }
   @media all and (min-width: 950px) {
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
       display: inline;
@@ -2964,13 +2972,12 @@ div.banner-faq-single {
         background: white; } }
   @media all and (min-width: 950px) and (min-width: 950px) {
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button .button-faq-title {
-      display: block;
       color: #15405a; } }
   .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
     display: none; }
     @media all and (min-width: 950px) {
       .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
-        display: inline;
+        display: block;
         margin: 0.8vw; } }
   .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
     background-color: #ac192c; }
@@ -3172,11 +3179,13 @@ nav.main-navigation:hover {
       .full-screen-links a {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: bold;
-        text-decoration: none; }
+        text-decoration: none;
+        font-size: 21px; }
       .full-screen-links .book-consult {
-        width: 135px;
+        width: 200px;
         height: 40px;
-        font-size: 16px;
+        font-size: 24px;
+        letter-spacing: 2px;
         padding: 0;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
@@ -3978,7 +3987,7 @@ body.blog .blog-wrapper {
       margin-bottom: 98vw; } }
   @media all and (min-width: 950px) {
     body.blog .blog-wrapper {
-      margin-bottom: 38vw; } }
+      margin-bottom: 55vw; } }
   body.blog .blog-wrapper .latest-videos-title {
     position: relative;
     text-align: center;

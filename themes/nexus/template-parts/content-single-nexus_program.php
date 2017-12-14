@@ -15,7 +15,7 @@
 
         <div class="header-wrapper">
             <h1 class="single-program-title"><?php echo get_post_meta($post->ID, '_nexus_program_title', true); ?></h2>
-            <div class="underline"></div>
+            <div class="underline-centered"></div>
         </div>
 
         <div class="program-meta">
@@ -34,26 +34,34 @@
                 <p class="program-meta-content"><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></p>
             </div>
         </div>
+        <section class="program-flex-container">
+            <div class="left-side">
+                <div class="header-wrapper">
+                    <h2 class="single-program-header">About Program</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
+            </div>
+            <div class="single-program-about-image"><img src="<?php echo get_post_meta($post->ID, '_nexus_program_about_image', true); ?>"/></div>
+            
+        </section>
+       <section class="program-flex-container">
+            <div class="program-media"><?php echo get_post_meta($post->ID, '_nexus_program_media', true); ?></div>
+                <div class="strong-side">
+                    <div class="header-wrapper">
+                    <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
+                    <div class="title-underline"></div>
+                </div>
 
-        <div class="header-wrapper">
-            <h2 class="single-program-header">About Program</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="single-program-about-image"><img src="<?php echo get_post_meta($post->ID, '_nexus_program_about_image', true); ?>"/></div>
-        <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
-        <div><?php echo get_post_meta($post->ID, '_nexus_program_media', true); ?></div>
+                <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_school_about', true); ?></p>
+            </div>
+        </section>
 
-        <div class="header-wrapper">
-            <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
-            <div class="underline"></div>
-        </div>
-    
-        <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_school_about', true); ?></p>
         <div><?php echo get_post_meta($post->ID, '_nexus_program_city_photo', true); ?></div>
 
         <div class="header-wrapper">
             <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></h2>
-            <div class="underline"></div>
+            <div class="title-underline"></div>
         </div>
 
         <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_city_about', true); ?></p>
@@ -61,7 +69,7 @@
 
     </div>
 
-    <div class="readmore">
+    <div class="read-more">
         <?php $terms = wp_get_post_terms( $post->ID, 'program_type' ); ?>
         <!-- <?php var_dump ( $terms ) ?> -->
         <?php

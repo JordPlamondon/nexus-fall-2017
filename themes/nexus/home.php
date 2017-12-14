@@ -18,12 +18,12 @@ get_header(); ?>
         <div class="underline-videos"></div>
         <section class="blog-page">
 
-        <?php
-        $category_name = 'videos, blogs'; 
+        
+        <!-- $category_name = 'videos, blogs'; 
         $temp = $wp_query;
         $wp_query = null;
         $wp_query = new WP_Query();
-        $wp_query->query('showposts=6' . '&paged=' . $paged . '&category_name=' . $category_name); ?>
+        $wp_query->query('showposts=6' . '&paged=' . $paged . '&category_name=' . $category_name);  -->
 
      
           <ul class "blog-categories">
@@ -38,11 +38,16 @@ get_header(); ?>
               </div>
               <div class="blog-text"> 
                 <h2 class="blog-title"><?php the_title(); ?></h2>
+                <div class="blog-content-button">
+                  <div class="blog-content">
+                    <?php the_content(); ?>
+                  </div>
                   <a href="<?php the_permalink(); ?>" rel="blog title">
-                <div style="text-align:center;" class="read-button">
-                  <button class="read-more">Read More</button>
-                </a>
-              </div>
+                  <div style="text-align:center;" class="read-button">
+                    <button class="read-more">Read More</button>
+                  </a>
+                  </div>
+                </div>  
               </div>
             </li>
             <!-- <div class="underline"></div> -->

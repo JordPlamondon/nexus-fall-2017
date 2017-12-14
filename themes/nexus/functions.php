@@ -138,7 +138,7 @@ function plugin_myContentFilter($content)
 {
 	// Take the existing content and return a subset of it
 	if ( is_home() ) {
-		return substr($content, 0, 300);
+		return substr($content, 0, 200);
 	}
 	
 	return ($content);

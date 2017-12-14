@@ -2911,7 +2911,7 @@ div.banner-faq-single {
     .faq-single-homestay h2 {
       font-size: 60px;
       font-weight: 500;
-      top: 0; } }
+      top: 60px; } }
 
 .faq-single-homestay .underline {
   margin: 0 auto;
@@ -2950,7 +2950,10 @@ div.banner-faq-single {
               flex-direction: row;
       -ms-flex-flow: row;
           flex-flow: row;
-      width: 90%; }
+      width: 100vw;
+      bottom: 80px;
+      padding-left: 40px;
+      padding-right: 40px; }
       .faq-single-homestay .homestay-button-wrapper img {
         width: 16.2vw;
         height: 171px; } }
@@ -2994,6 +2997,9 @@ div.banner-faq-single {
       .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
         display: inline;
         margin: 0.8vw; } }
+  @media all and (min-width: 950px) {
+    .faq-single-homestay .homestay-button-wrapper .permalink-wrapper {
+      height: 220px; } }
   .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
     background-color: #ac192c; }
     @media all and (min-width: 950px) {

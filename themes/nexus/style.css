@@ -2606,7 +2606,7 @@ div.widget_info_contain a {
       .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
         width: 74px;
         border-bottom: 6px solid #FF8A2A;
-        bottom: 90px; } }
+        bottom: 80px; } }
   .page-template-taxonomy-nexus_faq .faq-wrapper .shadow-border {
     border-bottom: 1px solid #d1d1d1;
     -webkit-box-shadow: 0px 13px #F3F5F8;
@@ -2943,9 +2943,6 @@ div.banner-faq-single {
     font-size: 18px;
     color: #FFFFFF;
     text-shadow: none; }
-    @media all and (min-width: 950px) {
-      .faq-single-homestay .homestay-button-wrapper .homestay-looking-button, .faq-single-homestay .homestay-button-wrapper .return-to-top-button {
-        display: none; } }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover, .faq-single-homestay .homestay-button-wrapper .return-to-top-button:hover {
       background: #bf1328; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p, .faq-single-homestay .homestay-button-wrapper .return-to-top-button p {
@@ -2957,6 +2954,18 @@ div.banner-faq-single {
       color: #FFFFFF; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
       text-decoration: none; }
+  @media all and (min-width: 950px) {
+    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
+      display: inline;
+      background-color: white;
+      color: #15405a;
+      border-radius: none; }
+      .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover {
+        background: white; } }
+  @media all and (min-width: 950px) and (min-width: 950px) {
+    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button .button-faq-title {
+      display: block;
+      color: #15405a; } }
   .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
     display: none; }
     @media all and (min-width: 950px) {
@@ -3964,7 +3973,7 @@ nav.main-navigation:hover {
 body.blog .blog-wrapper {
   margin-bottom: 60vw;
   height: 2110px; }
-  @media all and (min-width: 650px) {
+  @media all and (min-width: 450px) {
     body.blog .blog-wrapper {
       margin-bottom: 98vw; } }
   body.blog .blog-wrapper .latest-videos-title {

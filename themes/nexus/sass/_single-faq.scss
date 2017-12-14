@@ -182,9 +182,6 @@ div.banner-faq-single {
     font-size: 18px;
     color: $color__text-white;
     text-shadow: none;
-    @media #{$desktop} {
-      display: none;
-    }
     &:hover {
       background: darken($color__icon-element, 10%);
     }
@@ -199,6 +196,23 @@ div.banner-faq-single {
     }
     a {
       text-decoration: none;
+    }
+  }
+  .homestay-looking-button {
+    @media #{$desktop} {
+      display: inline;
+      background-color: white;
+      color: #15405a;
+      border-radius: none;
+      &:hover {
+        background: white;
+      }
+      .button-faq-title {
+        @media #{$desktop} {
+          display: block;
+          color: #15405a;
+        }
+      }
     }
   }
   .desktop-thumbnail {

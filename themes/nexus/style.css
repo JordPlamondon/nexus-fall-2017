@@ -2900,7 +2900,7 @@ div.banner-faq-single {
   text-align: center;
   color: #15405A;
   position: relative;
-  top: 50px; }
+  top: 25px; }
   @media all and (min-width: 950px) {
     .faq-single-homestay h2 {
       font-size: 60px;
@@ -2946,6 +2946,9 @@ div.banner-faq-single {
     font-size: 18px;
     color: #FFFFFF;
     text-shadow: none; }
+    @media all and (min-width: 950px) {
+      .faq-single-homestay .homestay-button-wrapper .homestay-looking-button, .faq-single-homestay .homestay-button-wrapper .return-to-top-button {
+        display: none; } }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover, .faq-single-homestay .homestay-button-wrapper .return-to-top-button:hover {
       background: #bf1328; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p, .faq-single-homestay .homestay-button-wrapper .return-to-top-button p {
@@ -2957,25 +2960,11 @@ div.banner-faq-single {
       color: #FFFFFF; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
       text-decoration: none; }
-      @media all and (min-width: 950px) {
-        .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
-          display: inline; } }
-  @media all and (min-width: 950px) {
-    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
-      display: inline;
-      background-color: white;
-      color: #15405a;
-      border-radius: none; }
-      .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover {
-        background: white; } }
-  @media all and (min-width: 950px) and (min-width: 950px) {
-    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button .button-faq-title {
-      color: #15405a; } }
   .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
     display: none; }
     @media all and (min-width: 950px) {
       .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
-        display: block;
+        display: inline;
         margin: 0.8vw; } }
   .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
     background-color: #ac192c; }

@@ -2166,7 +2166,10 @@ body.page-template-archive-nexus_program main {
 /********************* Shared between media *************************/
 footer#colophon.site-footer {
   color: #FFFFFF;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif; }
+  footer#colophon.site-footer h2 {
+    font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 div.footer__contact p a,
 div.footer__site-info a,
@@ -2229,7 +2232,8 @@ div.widget_info_contain a {
     div.socialmedia-container img {
       height: 45px;
       width: 45px;
-      margin: 0 7px; }
+      margin: 0 10px;
+      max-width: 100px; }
   div.widget_fa {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2349,7 +2353,7 @@ div.widget_info_contain a {
     margin-bottom: 2rem; }
   .footer__social-media-container,
   section.footer_contact_info {
-    width: 200px; }
+    width: 220px; }
   div.socialmedia-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2368,7 +2372,8 @@ div.widget_info_contain a {
       height: 45px;
       width: 45px;
       padding: 0 0px 0 0px;
-      margin: 0 7px; }
+      margin: 0 10px;
+      max-width: 100px; }
   .underline.footer {
     padding-top: 10px;
     width: 74px;
@@ -2532,7 +2537,7 @@ div.widget_info_contain a {
   .footer__why-nexus,
   .footer__social-media-container,
   section.footer_contact_info {
-    width: 210px; }
+    width: 220px; }
   .footer__why-nexus p {
     margin-top: 33px; }
   div.socialmedia-container {
@@ -2553,7 +2558,8 @@ div.widget_info_contain a {
       height: 45px;
       width: 45px;
       padding: 0 0px 0 0px;
-      margin: 0 7px; }
+      margin: 0 10px;
+      max-width: 100px; }
   .underline.footer {
     padding-top: 10px;
     width: 99px;
@@ -4417,11 +4423,12 @@ section.error-404.not-found {
     padding-top: 2rem;
     font-size: 4rem;
     margin: 20px 20px 10px 20px;
-    color: #123048; }
+    color: #000000; }
   section.error-404.not-found p {
     margin: 10px 30px 20px 30px;
     font-size: 2rem;
-    color: #123048; }
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    color: #000000; }
 
 .home-button {
   height: 80px;

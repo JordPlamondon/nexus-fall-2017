@@ -3383,7 +3383,7 @@ nav.main-navigation:hover {
   margin-top: 0;
   line-height: 1.75;
   text-align: center;
-  color: #123048;
+  color: #14304A;
   font-family: 'Roboto', sans-serif; }
 
 .single-nexus_program .header-wrapper {
@@ -3396,6 +3396,14 @@ nav.main-navigation:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+  @media all and (min-width: 850px) {
+    .single-nexus_program .header-wrapper {
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
   .single-nexus_program .header-wrapper .underline {
     margin: 0 auto;
     width: 49px;
@@ -3404,20 +3412,27 @@ nav.main-navigation:hover {
     @media all and (min-width: 850px) {
       .single-nexus_program .header-wrapper .underline {
         width: 144px;
-        border-bottom-width: 6px; } }
+        border-bottom-width: 6px;
+        margin: 0; } }
 
 .single-nexus_program .single-program-about-image {
   display: none; }
   @media all and (min-width: 650px) {
     .single-nexus_program .single-program-about-image {
-      display: none; } }
+      display: block; } }
 
 .single-nexus_program .single-program-title {
   text-align: center;
   margin: 2px 0; }
+  @media all and (min-width: 650px) {
+    .single-nexus_program .single-program-title {
+      font-size: 4rem; } }
 
 .single-nexus_program .single-program-header {
   margin: 2px 0; }
+  @media all and (min-width: 850px) {
+    .single-nexus_program .single-program-header {
+      font-size: 3.75rem; } }
 
 .single-nexus_program .single-program-container {
   padding: 1rem;
@@ -3439,6 +3454,10 @@ nav.main-navigation:hover {
   font-size: 0.75rem;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif; }
+  @media all and (min-width: 650px) {
+    .single-nexus_program .program-meta-category {
+      font-size: 1.25rem;
+      font-weight: 600; } }
 
 .single-nexus_program .program-meta-content {
   margin: 0 0 1rem 0;
@@ -3446,6 +3465,9 @@ nav.main-navigation:hover {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   margin-top: 0; }
+  @media all and (min-width: 650px) {
+    .single-nexus_program .program-meta-content {
+      font-size: 2.8rem; } }
 
 .single-nexus_program .program-meta {
   margin-top: 1rem;

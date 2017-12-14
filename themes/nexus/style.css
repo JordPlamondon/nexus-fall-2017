@@ -1584,14 +1584,14 @@ a {
 .home .why-canada .headergroup, .page-template-test .why-canada .headergroup {
   line-height: 10rem; }
   @media all and (min-width: 950px) {
-    .home .why-canada .headergroup {
+    .home .why-canada .headergroup, .page-template-test .why-canada .headergroup {
       margin-bottom: 3rem; } }
 
 .home .why-canada__header, .page-template-test .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold; }
   @media all and (min-width: 950px) {
-    .home .why-canada__header {
+    .home .why-canada__header, .page-template-test .why-canada__header {
       text-align: center;
       font-size: 3rem;
       margin: 3rem auto 0 auto; } }
@@ -1615,13 +1615,8 @@ a {
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .first {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .first, .page-template-test .why-canada .first {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus@3x.png");
       background-size: 65% 55%,70% 100%;
@@ -1635,13 +1630,8 @@ a {
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .second {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .second, .page-template-test .why-canada .second {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png");
       background-size: 65% 55%,70% 100%;
@@ -1655,13 +1645,8 @@ a {
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .third {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .third, .page-template-test .why-canada .third {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo-review@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo-review@3x.png");
       background-size: 65% 55%,70% 100%;
@@ -1671,25 +1656,15 @@ a {
 .home .why-canada .carouselplaceholder, .page-template-test .why-canada .carouselplaceholder {
   width: 100%;
   height: 70vh; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .carouselplaceholder {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .carouselplaceholder, .page-template-test .why-canada .carouselplaceholder {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       height: 104vh; } }
   .home .why-canada .carouselplaceholder__content-wrapper, .page-template-test .why-canada .carouselplaceholder__content-wrapper {
     margin: 0 5rem;
     width: 71%;
     height: 30rem; }
-<<<<<<< HEAD
     @media all and (min-width: 950px) {
-      .home .why-canada .carouselplaceholder__content-wrapper {
-=======
-    @media all and (min-width: 650px) {
       .home .why-canada .carouselplaceholder__content-wrapper, .page-template-test .why-canada .carouselplaceholder__content-wrapper {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
         width: 100%;
         height: 23rem;
         margin-left: 7rem;
@@ -1703,13 +1678,8 @@ a {
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start; } }
-<<<<<<< HEAD
     @media all and (min-width: 950px) {
-      .home .why-canada .carouselplaceholder__content-wrapper * {
-=======
-    @media all and (min-width: 650px) {
       .home .why-canada .carouselplaceholder__content-wrapper *, .page-template-test .why-canada .carouselplaceholder__content-wrapper * {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
         padding: 0 2rem;
         width: 50%;
         text-align: left; } }
@@ -1722,13 +1692,8 @@ a {
   font-weight: 600;
   font-style: italic;
   color: #E00029; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .carouselplaceholder__subheader {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .carouselplaceholder__subheader, .page-template-test .why-canada .carouselplaceholder__subheader {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       margin-top: 5px;
       color: #123048;
       font-size: 250rem;
@@ -2937,7 +2902,7 @@ div.banner-faq-single {
   color: #15405A;
   position: relative;
   top: 25px; }
-  @media all and (min-width: 650px) {
+  @media all and (min-width: 950px) {
     .faq-single-homestay h2 {
       font-size: 60px;
       font-weight: 500; } }
@@ -2949,7 +2914,7 @@ div.banner-faq-single {
   border-bottom: 3px solid #FF8A2A;
   position: relative;
   bottom: 48px; }
-  @media all and (min-width: 650px) {
+  @media all and (min-width: 950px) {
     .faq-single-homestay .underline {
       display: none; } }
 
@@ -4001,16 +3966,11 @@ nav.main-navigation:hover {
   padding-left: 25px; }
 
 body.blog .blog-wrapper {
-<<<<<<< HEAD
-  height: 2110px;
-  min-height: 2110px; }
-  @media all and (min-width: 650px) {
-=======
+  margin-bottom: 60vw;
   height: 2110px; }
-  @media all and (min-width: 950px) {
->>>>>>> d028d63672c49d0e69626a437024510f2b13fd12
+  @media all and (min-width: 650px) {
     body.blog .blog-wrapper {
-      height: 2700px; } }
+      margin-bottom: 98vw; } }
   body.blog .blog-wrapper .latest-videos-title {
     position: relative;
     text-align: center;

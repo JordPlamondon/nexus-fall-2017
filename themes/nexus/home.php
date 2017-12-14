@@ -63,6 +63,4 @@ get_header(); ?>
 		</main><!-- #main -->
   </div><!-- #primary -->
   
-<div class="blog-footer">
   <?php get_footer(); ?>
-</div>

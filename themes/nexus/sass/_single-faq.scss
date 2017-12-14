@@ -160,9 +160,11 @@ div.banner-faq-single {
     position: relative;
     bottom: 20px;
     @media #{$desktop} {
-      display: flex;
-      flex-flow: row wrap;
-      flex-wrap: wrap;
+      display: inline;
+      img {
+        width: 16.2vw;
+        height: 171px;
+      }
     }
   .homestay-looking-button, .return-to-top-button {
     border-radius: 8px;
@@ -196,6 +198,7 @@ div.banner-faq-single {
     display: none;
     @media #{$desktop} {
       display: inline;
+      margin: 0.8vw;
     }
   }
   button.return-to-top-button {

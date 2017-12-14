@@ -2927,15 +2927,10 @@ div.banner-faq-single {
   bottom: 20px; }
   @media all and (min-width: 650px) {
     .faq-single-homestay .homestay-button-wrapper {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: row wrap;
-              flex-flow: row wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; } }
+      display: inline; }
+      .faq-single-homestay .homestay-button-wrapper img {
+        width: 16.2vw;
+        height: 171px; } }
   .faq-single-homestay .homestay-button-wrapper .homestay-looking-button, .faq-single-homestay .homestay-button-wrapper .return-to-top-button {
     border-radius: 8px;
     width: 165px;
@@ -2963,7 +2958,8 @@ div.banner-faq-single {
     display: none; }
     @media all and (min-width: 650px) {
       .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
-        display: inline; } }
+        display: inline;
+        margin: 0.8vw; } }
   .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
     background-color: #ac192c; }
     @media all and (min-width: 650px) {
@@ -3962,7 +3958,7 @@ body.blog .blog-wrapper {
   height: 2110px; }
   @media all and (min-width: 650px) {
     body.blog .blog-wrapper {
-      height: 4000px; } }
+      height: 2600px; } }
   body.blog .blog-wrapper .latest-videos-title {
     position: relative;
     text-align: center;
@@ -4120,19 +4116,19 @@ body.blog a {
   text-decoration: none; }
 
 body.blog li:nth-of-type(n+4):nth-of-type(-n+6) {
-  display: inline-block;
-  position: relative;
-  left: 30px;
-  margin: 0 auto;
-  width: 385px; }
+  display: inline-block; }
   @media all and (min-width: 650px) {
     body.blog li:nth-of-type(n+4):nth-of-type(-n+6) {
+      display: inline-block;
+      position: relative;
+      left: 30px;
+      margin: 0 auto;
       width: 31vw; } }
   body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-content {
-    visibility: hidden; }
+    display: none; }
     @media all and (min-width: 650px) {
       body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-content {
-        visibility: visible; } }
+        display: inline-block; } }
   body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-title {
     text-align: center;
     font-size: 18px; }

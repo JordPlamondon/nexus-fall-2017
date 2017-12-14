@@ -3,7 +3,7 @@ body.blog {
   .blog-wrapper {
     height: 2110px;
     @media #{$desktop} {
-      height: 4000px;
+      height: 2600px;
     }
     .latest-videos-title {
     position: relative;
@@ -186,18 +186,19 @@ body.blog {
   //Normal Blog Posts (bottom 3)
   li:nth-of-type(n+4):nth-of-type(-n+6) {
     display: inline-block;
-    position: relative;
-    left: 30px;
-    margin: 0 auto;
-    width: 385px;
     @media #{$desktop} {
+      display: inline-block;
+      position: relative;
+      left: 30px;
+      margin: 0 auto;
+      // width: 385px;
       width: 31vw;
       // margin-left: 20px;
     }
     .blog-content {
-      visibility: hidden;
+      display: none;
       @media #{$desktop} {
-        visibility: visible;
+        display: inline-block;
       }
     }
     .blog-title {

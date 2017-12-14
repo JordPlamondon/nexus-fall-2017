@@ -131,10 +131,10 @@
       @media #{$desktop} {
         justify-content: space-around;
         align-items: flex-start;
-        background-position-y: center, center;
+        background-position-y: center, center; 
         background-repeat: no-repeat;
         background-position-x: left, right;
-        background-size: 70% 75%,50% 70%;
+        background-size: 70% 75%,56% 70%;
       }
 
       h2 {
@@ -166,7 +166,7 @@
         width: 80%;
         margin: 10px auto 0 auto;
         @media #{$desktop} {
-          font-size: 24px;
+          font-size: 1rem;
           font-weight: 100;
           width: 60%;
           position: relative;
@@ -176,7 +176,6 @@
         }
       }
       
-
       .underline {
         margin: 0 auto;
         @media #{$desktop} {
@@ -204,9 +203,10 @@
         font-size: 22px;
         position: relative;
         letter-spacing: 2px;
-        
+        @media #{$desktop} {
+          margin-bottom: 3rem;
+        }
       }
-
     }
 
     .front-choose-wrapper {
@@ -244,7 +244,6 @@
         }
 
         h2 {
-      
             text-align: left;
             font-size: 38px;
             width: 400px;
@@ -253,7 +252,6 @@
             margin-top: 200px;
             margin-bottom: 24px;
             line-height: 55px;
-    
         }
 
         button {
@@ -299,15 +297,13 @@
       }
     }
 
-
-
     .student-review {
       .headergroup {
         line-height: 3rem;
       }
 
       h2 {
-        font-size: 4vw;
+        font-size: 4.5vw;
       }
 
       .underline {
@@ -335,13 +331,12 @@
         flex-direction: row;
       }
     
-
-    .student-review__box__image {
-      @media #{$desktop} {
-        flex-basis:40%;
-        width: 30%;
-        overflow: hidden;
-      }
+      .student-review__box__image {
+        @media #{$desktop} {
+          flex-basis:40%;
+          width: 30%;
+          overflow: hidden;
+        }
 
       img {
         @media #{$desktop} {
@@ -363,7 +358,6 @@
       padding: 39px 30px 22px 48px;
       font-weight: bold;
       font-size: 4vw;
-          
       position: relative;
       @media #{$desktop} {
         margin: 0;
@@ -407,7 +401,7 @@
       padding: 1rem 0;
       background: $color__textbox-background;
 
-      .headergroup{
+      .headergroup {
         line-height: 3rem;
       }
 
@@ -444,11 +438,8 @@
         font-family: $font__main;
         font-weight: 900;
         font-size: 18px;
-      }
-      
+      } 
     }
-
   }
-
-
-  }}
+}
+}

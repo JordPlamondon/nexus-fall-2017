@@ -8,7 +8,7 @@
   cursor: pointer;
   max-width: 300px;
   width: 100%;
-  @media #{$tablet} {
+  @media #{$tablet-test} {
     padding: 15px 0;
     height: 65px;
   }
@@ -16,7 +16,7 @@
 
 .select-container {
   width: 80vw;
-  @media #{$tablet} {
+  @media #{$tablet-test} {
     width: 220px;
   }
 }
@@ -43,7 +43,7 @@
   line-height: 2rem;
   color: $color__text-main;
   height: 38px;
-  @media #{$tablet} {
+  @media #{$tablet-test} {
     font-size: 25px;
   }
 }

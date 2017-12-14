@@ -5,7 +5,7 @@
   }
   .desktop-contact-display {
      display: none;
-      @media #{$tablet} {
+      @media #{$tablet-test} {
         display: block;
         height: 595px;
         width:435px;
@@ -40,14 +40,14 @@
   .contact-form {
     padding-top: 24px;
     background-color: $color__textbox-background;
-      @media #{$tablet} {
+      @media #{$tablet-test} {
         width: 70vw;
         height: 1000px;
         margin-left: 70px;
         margin-top: 64px;
       }
       .wpcf7-form {
-        @media #{$tablet} {
+        @media #{$tablet-test} {
           position: relative;
           right: 25%;
           bottom:12px;
@@ -78,7 +78,7 @@
       color: $color__footer-background;
       font-size: 24px;
       font-weight: bold;
-      @media #{$tablet} {
+      @media #{$tablet-test} {
         width: 300px;
         margin-left: 20%;
         font-size: 50px;
@@ -97,7 +97,7 @@
       border-bottom: 3px solid $color__accent-underline;
       position: relative;
       bottom: 20px;
-      @media #{$tablet} {
+      @media #{$tablet-test} {
         right: 20%;
         bottom: 34px;
         width: 109px;

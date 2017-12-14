@@ -43,7 +43,7 @@
     margin: 0 auto;
     text-align: left;
     font-size: 16px;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       width: 50%;
     }
     input {

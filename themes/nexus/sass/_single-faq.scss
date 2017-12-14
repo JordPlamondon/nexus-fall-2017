@@ -145,7 +145,7 @@ div.banner-faq-single {
     @media #{$desktop} {
       font-size: 60px;
       font-weight: 500;
-      top: 0;
+      top: 60px;
     }
   }
   .underline {
@@ -172,7 +172,10 @@ div.banner-faq-single {
       display: flex;
       flex-direction: row;
       flex-flow: row;
-      width: 90%;
+      width: 100vw;
+      bottom: 80px;
+      padding-left: 40px;
+      padding-right: 40px;
       img {
         width: 16.2vw;
         height: 171px;
@@ -225,6 +228,11 @@ div.banner-faq-single {
     @media #{$desktop} {
       display: inline;
       margin: 0.8vw;
+    }
+  }
+  .permalink-wrapper {
+    @media #{$desktop} {
+      height: 220px;
     }
   }
   button.return-to-top-button {

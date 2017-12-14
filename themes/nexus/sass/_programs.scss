@@ -1,7 +1,7 @@
 // Archives
 .page-template-archive-nexus_program {
   padding-top: 55px;
-  @media #{$tablet} {
+  @media #{$tablet-test} {
     padding-top: 0;
   }
  .hero-wrapper {
@@ -16,7 +16,7 @@
      text-transform: uppercase;
      font-weight: 900;
     
-     @media #{$tablet} {
+     @media #{$tablet-test} {
        font-size: 70px;
      }
    }
@@ -37,7 +37,7 @@
      width: 49px;
      text-align: center;
      border-bottom: 4px solid $color__accent-underline;
-     @media #{$tablet} {
+     @media #{$tablet-test} {
        width: 144px;
        border-bottom-width: 6px;
      }
@@ -49,7 +49,7 @@
     overflow: auto;
     min-height: max-content;
     padding-top: 0;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       padding-top: 55px;
     }
   }
@@ -77,7 +77,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       flex-direction: row;
       justify-content: flex-start;
       max-width: 750px;
@@ -94,7 +94,7 @@
   }
   .select-container-searched {
     max-width: 150px;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       max-width: 220px;
     }
   }
@@ -115,7 +115,7 @@
     background-position: bottom;
     height: 100vh;
     min-height: 600px;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       background-image: url("../../assets/images/program-background-image.png");
     }
 
@@ -133,7 +133,7 @@
     flex-basis: 50%;
     max-width: 160px;
     text-decoration: none;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       flex-basis: 30%;
       max-width: 320px;
     }
@@ -146,7 +146,7 @@
     height: 33vw;
     max-height: 120px;
     margin-bottom: 0.75rem;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       max-height: 240px;
     }
     img{
@@ -156,7 +156,7 @@
   }
 
   .program-title-wrapper {
-      @media #{$tablet} {
+      @media #{$tablet-test} {
         flex-basis: 100%;
       }
   }
@@ -165,7 +165,7 @@
     color: $color__footer-background;
     text-align: center;
     margin-bottom: 34px;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       text-align: left;
       font-size: 4rem;
       margin-top: 0;
@@ -180,7 +180,7 @@
     font-size: 0.75rem;
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       font-size: 1.25rem;
       margin-top: 22px;
     }
@@ -191,7 +191,7 @@
     font-size: 1rem;
     font-weight: bold;
     font-family: 'Roboto' sans-serif;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       margin: 10px 0;
       font-size: 1.68rem;
     } 
@@ -202,7 +202,7 @@
      font-weight: 300;
      font-family: 'Raleway',
      sans-serif;
-     @media #{$tablet} {
+     @media #{$tablet-test} {
        font-size: 1.25rem;
      }
   }
@@ -214,7 +214,7 @@
   }
 
   .button-wrapper {
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       flex-basis: 100%;
     }
   }
@@ -242,7 +242,7 @@
 
 .single-nexus_program {
   padding-top: 20px;
-  @media #{$tablet} {
+  @media #{$tablet-test} {
     padding-top: 75px;
   }
   .single-program-content {
@@ -253,7 +253,7 @@
     text-align: center;
     color: $color__text-blue-large;
     font-family: 'Roboto', sans-serif;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       margin: 0;
       text-align: left;
       font-size: 1.5rem;
@@ -265,7 +265,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       align-items: flex-start;
       justify-content: flex-start;
       margin-top: 0;
@@ -277,7 +277,7 @@
     width: 49px;
     text-align: center;
     border-bottom: 4px solid $color__accent-underline;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       width: 144px;
       border-bottom-width: 6px;
     }
@@ -288,7 +288,7 @@
     width: 49px;
     text-align: center;
     border-bottom: 4px solid $color__accent-underline;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       width: 144px;
       border-bottom-width: 6px;
       margin: 0;
@@ -297,7 +297,7 @@
 
   .left-side {
     height: 100%;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       margin-right: -10%;
       z-index: 10;
     }
@@ -333,13 +333,13 @@
 
   .single-program-header {
     margin: 2px 0;
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       font-size: 3.75rem;
     }
   }
 
   .program-flex-container {
-    @media #{$tablet} {
+    @media #{$tablet-test} {
       height: auto;
       overflow: hidden;
       display: flex;

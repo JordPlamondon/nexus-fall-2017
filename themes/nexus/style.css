@@ -1913,7 +1913,7 @@ body.page-template-archive-nexus_program main {
     line-height: 26px;
     font-weight: 200;
     color: #15405A; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-about .mission-wrapper p {
         width: 40%; } }
   .page-template-about .about-help {
@@ -1941,7 +1941,7 @@ body.page-template-archive-nexus_program main {
     min-height: 166px;
     border-radius: 100px;
     z-index: 5; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-about img.about-img {
         height: 30vw;
         min-height: 240px;
@@ -1963,7 +1963,7 @@ body.page-template-archive-nexus_program main {
     @media all and (min-width: 450px) {
       .page-template-about .about-wrapper {
         margin-left: 10%; } }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-about .about-wrapper {
         background-color: #F3F5F8; } }
     .page-template-about .about-wrapper .about-left {
@@ -1987,7 +1987,7 @@ body.page-template-archive-nexus_program main {
           padding-right: 15%;
           padding-left: 15%;
           margin: 0; } }
-      @media all and (min-width: 850px) {
+      @media all and (min-width: 450px) {
         .page-template-about .about-wrapper .about-left {
           padding-right: 22%;
           padding-left: 22%; } }
@@ -2002,7 +2002,7 @@ body.page-template-archive-nexus_program main {
         line-height: 16pt;
         font-size: 14px;
         color: #15405A; }
-        @media all and (min-width: 850px) {
+        @media all and (min-width: 450px) {
           .page-template-about .about-wrapper .about-left p {
             padding-right: 24px;
             padding-left: 24px;
@@ -2031,7 +2031,7 @@ body.page-template-archive-nexus_program main {
           margin: 0 auto;
           padding-right: 18%;
           padding-left: 18%; } }
-      @media all and (min-width: 850px) {
+      @media all and (min-width: 450px) {
         .page-template-about .about-wrapper .about-right {
           padding-right: 22%;
           padding-left: 22%; } }
@@ -2046,7 +2046,7 @@ body.page-template-archive-nexus_program main {
         text-align: left;
         font-size: 14px;
         padding-left: 14px; }
-        @media all and (min-width: 850px) {
+        @media all and (min-width: 450px) {
           .page-template-about .about-wrapper .about-right p {
             font-size: 18px;
             padding-right: 24px;
@@ -3178,7 +3178,7 @@ nav.main-navigation:hover {
 
 .page-template-archive-nexus_program {
   padding-top: 55px; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .page-template-archive-nexus_program {
       padding-top: 0; } }
   .page-template-archive-nexus_program .hero-wrapper {
@@ -3190,7 +3190,7 @@ nav.main-navigation:hover {
       font-size: 30px;
       text-transform: uppercase;
       font-weight: 900; }
-      @media all and (min-width: 850px) {
+      @media all and (min-width: 450px) {
         .page-template-archive-nexus_program .hero-wrapper h1 {
           font-size: 70px; } }
     .page-template-archive-nexus_program .hero-wrapper .hero-image {
@@ -3218,7 +3218,7 @@ nav.main-navigation:hover {
       width: 49px;
       text-align: center;
       border-bottom: 4px solid #FF8A2A; }
-      @media all and (min-width: 850px) {
+      @media all and (min-width: 450px) {
         .page-template-archive-nexus_program .hero-wrapper .underline {
           width: 144px;
           border-bottom-width: 6px; } }
@@ -3228,7 +3228,7 @@ nav.main-navigation:hover {
     min-height: -moz-max-content;
     min-height: max-content;
     padding-top: 0; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .site-main {
         padding-top: 55px; } }
   .page-template-archive-nexus_program .hidden {
@@ -3263,7 +3263,7 @@ nav.main-navigation:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .select-form-wrapper {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -3287,7 +3287,7 @@ nav.main-navigation:hover {
             justify-content: flex-start; }
   .page-template-archive-nexus_program .select-container-searched {
     max-width: 150px; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .select-container-searched {
         max-width: 220px; } }
   .page-template-archive-nexus_program .program {
@@ -3302,7 +3302,7 @@ nav.main-navigation:hover {
     background-position: bottom;
     height: 100vh;
     min-height: 600px; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-content {
         background-image: url("../../assets/images/program-background-image.png"); } }
     .page-template-archive-nexus_program .program-content .want-in {
@@ -3317,7 +3317,7 @@ nav.main-navigation:hover {
         flex-basis: 50%;
     max-width: 160px;
     text-decoration: none; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-container {
         -ms-flex-preferred-size: 30%;
             flex-basis: 30%;
@@ -3336,13 +3336,13 @@ nav.main-navigation:hover {
     height: 33vw;
     max-height: 120px;
     margin-bottom: 0.75rem; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-image {
         max-height: 240px; } }
     .page-template-archive-nexus_program .program-image img {
       max-width: none;
       width: auto; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .page-template-archive-nexus_program .program-title-wrapper {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%; } }
@@ -3351,7 +3351,7 @@ nav.main-navigation:hover {
     color: #15405A;
     text-align: center;
     margin-bottom: 34px; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-title {
         text-align: left;
         font-size: 4rem;
@@ -3364,7 +3364,7 @@ nav.main-navigation:hover {
     font-size: 0.75rem;
     font-weight: 300;
     font-family: 'Raleway', sans-serif; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-school {
         font-size: 1.25rem;
         margin-top: 22px; } }
@@ -3372,7 +3372,7 @@ nav.main-navigation:hover {
     font-size: 1rem;
     font-weight: bold;
     font-family: 'Roboto' sans-serif; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-name {
         margin: 10px 0;
         font-size: 1.68rem; } }
@@ -3380,14 +3380,14 @@ nav.main-navigation:hover {
     font-size: 1rem;
     font-weight: 300;
     font-family: 'Raleway', sans-serif; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type {
         font-size: 1.25rem; } }
   .page-template-archive-nexus_program .program-name, .page-template-archive-nexus_program .program-school, .page-template-archive-nexus_program .program-type {
     line-height: 2rem; }
     .page-template-archive-nexus_program .program-name p, .page-template-archive-nexus_program .program-school p, .page-template-archive-nexus_program .program-type p {
       margin: 0; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .page-template-archive-nexus_program .button-wrapper {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%; } }
@@ -3410,7 +3410,7 @@ nav.main-navigation:hover {
 
 .single-nexus_program {
   padding-top: 20px; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .single-nexus_program {
       padding-top: 75px; } }
   .single-nexus_program .single-program-content {
@@ -3421,7 +3421,7 @@ nav.main-navigation:hover {
     text-align: center;
     color: #14304A;
     font-family: 'Roboto', sans-serif; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .single-nexus_program .single-program-content {
         margin: 0;
         text-align: left;
@@ -3439,7 +3439,7 @@ nav.main-navigation:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .single-nexus_program .header-wrapper {
         -webkit-box-align: start;
             -ms-flex-align: start;
@@ -3453,7 +3453,7 @@ nav.main-navigation:hover {
     width: 49px;
     text-align: center;
     border-bottom: 4px solid #FF8A2A; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .single-nexus_program .underline-centered {
         width: 144px;
         border-bottom-width: 6px; } }
@@ -3462,14 +3462,14 @@ nav.main-navigation:hover {
     width: 49px;
     text-align: center;
     border-bottom: 4px solid #FF8A2A; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .single-nexus_program .title-underline {
         width: 144px;
         border-bottom-width: 6px;
         margin: 0; } }
   .single-nexus_program .left-side {
     height: 100%; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .single-nexus_program .left-side {
         margin-right: -10%;
         z-index: 10; } }
@@ -3499,10 +3499,10 @@ nav.main-navigation:hover {
         font-size: 4rem; } }
   .single-nexus_program .single-program-header {
     margin: 2px 0; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .single-nexus_program .single-program-header {
         font-size: 3.75rem; } }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .single-nexus_program .program-flex-container {
       height: auto;
       overflow: hidden;
@@ -3575,7 +3575,7 @@ nav.main-navigation:hover {
 
 .page-template-contact .desktop-contact-display {
   display: none; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .page-template-contact .desktop-contact-display {
       display: block;
       height: 595px;
@@ -3606,13 +3606,13 @@ nav.main-navigation:hover {
 .page-template-contact .contact-form {
   padding-top: 24px;
   background-color: #F3F5F8; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .page-template-contact .contact-form {
       width: 70vw;
       height: 1000px;
       margin-left: 70px;
       margin-top: 64px; } }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .page-template-contact .contact-form .wpcf7-form {
       position: relative;
       right: 25%;
@@ -3640,7 +3640,7 @@ nav.main-navigation:hover {
     color: #15405A;
     font-size: 24px;
     font-weight: bold; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-contact .contact-form h2.title {
         width: 300px;
         margin-left: 20%;
@@ -3657,7 +3657,7 @@ nav.main-navigation:hover {
     border-bottom: 3px solid #FF8A2A;
     position: relative;
     bottom: 20px; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 450px) {
       .page-template-contact .contact-form .underline {
         right: 20%;
         bottom: 34px;
@@ -3738,14 +3738,14 @@ nav.main-navigation:hover {
   cursor: pointer;
   max-width: 300px;
   width: 100%; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .selectric-wrapper {
       padding: 15px 0;
       height: 65px; } }
 
 .select-container {
   width: 80vw; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .select-container {
       width: 220px; } }
 
@@ -3769,7 +3769,7 @@ nav.main-navigation:hover {
   line-height: 2rem;
   color: #123048;
   height: 38px; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .selectric .label {
       font-size: 25px; } }
 
@@ -3964,9 +3964,12 @@ nav.main-navigation:hover {
 body.blog .blog-wrapper {
   margin-bottom: 60vw;
   height: 2110px; }
-  @media all and (min-width: 650px) {
+  @media all and (min-width: 450px) {
     body.blog .blog-wrapper {
       margin-bottom: 98vw; } }
+  @media all and (min-width: 950px) {
+    body.blog .blog-wrapper {
+      margin-bottom: 38vw; } }
   body.blog .blog-wrapper .latest-videos-title {
     position: relative;
     text-align: center;
@@ -4325,7 +4328,7 @@ div.return-home {
   margin: 0 auto;
   text-align: left;
   font-size: 16px; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 450px) {
     .page-template-consult .consult-form {
       width: 50%; } }
   .page-template-consult .consult-form input {

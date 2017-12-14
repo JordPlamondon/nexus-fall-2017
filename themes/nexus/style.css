@@ -2985,8 +2985,6 @@ div.banner-faq-single {
           text-transform: uppercase; } }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
       text-decoration: none; }
-<<<<<<< HEAD
-=======
   @media all and (min-width: 950px) {
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
       display: inline;
@@ -2996,7 +2994,6 @@ div.banner-faq-single {
       background-color: white; }
       .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover {
         background-color: white; } }
->>>>>>> dd13dc1a1d319bf92bb4d92c9ca9374396bf9fe4
   .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
     display: none; }
     @media all and (min-width: 950px) {

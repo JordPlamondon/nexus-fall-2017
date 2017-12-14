@@ -83,7 +83,7 @@ foreach ( (array) $entries as $key => $entry ) {
 		<!-- Keep Looking Buttons -->
 		
 			<div class="faq-single-homestay"> 
-				<h2> Keep Looking<h2><br> 
+				<h2> Keep Looking:<h2><br> 
 					<div class="underline"></div>
 
 					<div class="homestay-button-wrapper">
@@ -102,8 +102,9 @@ foreach ( (array) $entries as $key => $entry ) {
 							
 								<a href="<?php the_permalink(); ?>" rel="faq title"> 
 								<div class="desktop-thumbnail">
-								<?php the_post_thumbnail( 'full' ); ?>
-							</div>
+									<?php the_post_thumbnail( 'full' ); ?>
+								</div>
+								
 								<button class="homestay-looking-button">
 								<div class="button-faq-title">
 									<?php the_title(); ?>

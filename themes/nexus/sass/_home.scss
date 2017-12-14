@@ -1,9 +1,10 @@
 //Banner/Hero & Title
 body.blog {
   .blog-wrapper {
+    margin-bottom: 60vw;
     height: 2110px;
-    @media #{$desktop} {
-      height: 2700px;
+    @media #{$tablet-test} {
+      margin-bottom: 98vw;
     }
     .latest-videos-title {
     position: relative;

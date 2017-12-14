@@ -3962,7 +3962,8 @@ nav.main-navigation:hover {
   padding-left: 25px; }
 
 body.blog .blog-wrapper {
-  height: 2110px; }
+  height: 2110px;
+  min-height: 2110px; }
   @media all and (min-width: 650px) {
     body.blog .blog-wrapper {
       height: 2700px; } }
@@ -4268,7 +4269,7 @@ section.error-404.not-found {
   color: #FFFFFF; }
   .home-button:hover {
     border-radius: 100px 2px 100px 2px;
-    background-color: #E91C35;
+    background-color: #bf1328;
     -webkit-box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.5);
             box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.5); }
 

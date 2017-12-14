@@ -59,7 +59,7 @@ section.error-404.not-found { // White background with opacitiy.  Text contained
   color: $color__text-white;
   &:hover {
     border-radius: 100px 2px 100px 2px;	
-    background-color: $color__icon-element;
+    background-color: #bf1328;
     box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.5);
   }
 }

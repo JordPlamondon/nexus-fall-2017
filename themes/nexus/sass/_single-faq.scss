@@ -142,6 +142,10 @@ div.banner-faq-single {
     color: $color__footer-background;
     position: relative;
     top: 25px;
+    @media #{$desktop} {
+      font-size: 60px;
+      font-weight: 500;
+    }
   }
   .underline {
     margin: 0 auto;
@@ -150,6 +154,9 @@ div.banner-faq-single {
     border-bottom: 3px solid $color__accent-underline;
     position: relative;
     bottom: 48px;
+    @media #{$desktop} {
+      display: none;
+    }
   }
   .homestay-button-wrapper {
     width: 375px;

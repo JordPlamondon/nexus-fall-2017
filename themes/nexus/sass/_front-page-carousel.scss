@@ -1,4 +1,4 @@
-.home {
+.home, .page-template-test {
   .why-canada {
     @media all and (min-width: 960px) {
       position: relative;
@@ -7,7 +7,7 @@
     }    
     
     .headergroup {
-      line-height: 3rem;
+      line-height: 10rem;
       @media #{$desktop} {
       margin-bottom: 3rem;
       }
@@ -136,7 +136,7 @@
       @media #{$desktop} {
         margin-top: 5px;
         color: $color__text-main;
-        font-size: 2.5rem;
+        font-size: 250rem;
         font-style: normal;
         text-align: left;
       }

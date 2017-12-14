@@ -682,8 +682,6 @@ a {
 .home {
   min-width: 375px;
   margin-top: -15px; }
-  .home article {
-    display: none; }
   .home h2 {
     margin: 0;
     line-height: 40px;
@@ -1575,42 +1573,40 @@ a {
         background: #E91C35;
         color: #FFFFFF; } }
 
-<<<<<<< HEAD
-=======
 @media all and (min-width: 960px) {
-  .home .why-canada, .page-template-test .why-canada {
+  .home .why-canada {
     position: relative;
     height: 120vh;
     margin-top: 3rem; } }
 
-.home .why-canada .headergroup, .page-template-test .why-canada .headergroup {
+.home .why-canada .headergroup {
   line-height: 10rem; }
   @media all and (min-width: 950px) {
-    .home .why-canada .headergroup, .page-template-test .why-canada .headergroup {
+    .home .why-canada .headergroup {
       margin-bottom: 3rem; } }
 
-.home .why-canada__header, .page-template-test .why-canada__header {
+.home .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold; }
   @media all and (min-width: 950px) {
-    .home .why-canada__header, .page-template-test .why-canada__header {
+    .home .why-canada__header {
       text-align: center;
       font-size: 3rem;
       margin: 3rem auto 0 auto; } }
 
-.home .why-canada .underline, .page-template-test .why-canada .underline {
+.home .why-canada .underline {
   margin: 0 auto; }
   @media all and (min-width: 960px) {
-    .home .why-canada .underline, .page-template-test .why-canada .underline {
+    .home .why-canada .underline {
       text-align: center; } }
 
 @media all and (min-width: 960px) {
-  .home .why-canada .owl-carousel, .page-template-test .why-canada .owl-carousel {
+  .home .why-canada .owl-carousel {
     position: relative;
     width: 100%;
     height: 100%; } }
 
-.home .why-canada .first, .page-template-test .why-canada .first {
+.home .why-canada .first {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whynexus@3x.png);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whynexus@3x.png);
   background-size: 100% 70%,100% 75%;
@@ -1618,14 +1614,14 @@ a {
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
   @media all and (min-width: 950px) {
-    .home .why-canada .first, .page-template-test .why-canada .first {
+    .home .why-canada .first {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus@3x.png");
       background-size: 65% 55%,70% 100%;
       background-position-x: left,right;
       background-repeat: no-repeat,no-repeat; } }
 
-.home .why-canada .second, .page-template-test .why-canada .second {
+.home .why-canada .second {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whycanada@3x.png);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whycanada@3x.png);
   background-size: 100% 70%,100% 75%;
@@ -1633,14 +1629,14 @@ a {
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
   @media all and (min-width: 950px) {
-    .home .why-canada .second, .page-template-test .why-canada .second {
+    .home .why-canada .second {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png");
       background-size: 65% 55%,70% 100%;
       background-position-x: left,right;
       background-repeat: no-repeat,no-repeat; } }
 
-.home .why-canada .third, .page-template-test .why-canada .third {
+.home .why-canada .third {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/photo-review@3x.png);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/photo-review@3x.png);
   background-size: 100% 70%,100% 75%;
@@ -1648,25 +1644,25 @@ a {
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
   @media all and (min-width: 950px) {
-    .home .why-canada .third, .page-template-test .why-canada .third {
+    .home .why-canada .third {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo-review@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo-review@3x.png");
       background-size: 65% 55%,70% 100%;
       background-position-x: left,right;
       background-repeat: no-repeat,no-repeat; } }
 
-.home .why-canada .carouselplaceholder, .page-template-test .why-canada .carouselplaceholder {
+.home .why-canada .carouselplaceholder {
   width: 100%;
   height: 70vh; }
   @media all and (min-width: 950px) {
-    .home .why-canada .carouselplaceholder, .page-template-test .why-canada .carouselplaceholder {
+    .home .why-canada .carouselplaceholder {
       height: 104vh; } }
-  .home .why-canada .carouselplaceholder__content-wrapper, .page-template-test .why-canada .carouselplaceholder__content-wrapper {
+  .home .why-canada .carouselplaceholder__content-wrapper {
     margin: 0 5rem;
     width: 71%;
     height: 30rem; }
     @media all and (min-width: 950px) {
-      .home .why-canada .carouselplaceholder__content-wrapper, .page-template-test .why-canada .carouselplaceholder__content-wrapper {
+      .home .why-canada .carouselplaceholder__content-wrapper {
         width: 100%;
         height: 23rem;
         margin-left: 7rem;
@@ -1681,12 +1677,12 @@ a {
             -ms-flex-align: start;
                 align-items: flex-start; } }
     @media all and (min-width: 950px) {
-      .home .why-canada .carouselplaceholder__content-wrapper *, .page-template-test .why-canada .carouselplaceholder__content-wrapper * {
+      .home .why-canada .carouselplaceholder__content-wrapper * {
         padding: 0 2rem;
         width: 50%;
         text-align: left; } }
 
-.home .why-canada .carouselplaceholder__subheader, .page-template-test .why-canada .carouselplaceholder__subheader {
+.home .why-canada .carouselplaceholder__subheader {
   padding-right: 3rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -1695,18 +1691,18 @@ a {
   font-style: italic;
   color: #E00029; }
   @media all and (min-width: 950px) {
-    .home .why-canada .carouselplaceholder__subheader, .page-template-test .why-canada .carouselplaceholder__subheader {
+    .home .why-canada .carouselplaceholder__subheader {
       margin-top: 5px;
       color: #123048;
       font-size: 250rem;
       font-style: normal;
       text-align: left; } }
 
-.home .why-canada .carouselplaceholder__info, .page-template-test .why-canada .carouselplaceholder__info {
+.home .why-canada .carouselplaceholder__info {
   position: relative;
   bottom: 2rem; }
 
-.home .why-canada .owl-nav, .page-template-test .why-canada .owl-nav {
+.home .why-canada .owl-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1716,18 +1712,18 @@ a {
   position: relative;
   bottom: 2.5rem; }
   @media all and (min-width: 650px) {
-    .home .why-canada .owl-nav, .page-template-test .why-canada .owl-nav {
+    .home .why-canada .owl-nav {
       position: absolute;
       z-index: 998;
       top: 42%;
       left: 42%; } }
   @media all and (min-width: 880px) {
-    .home .why-canada .owl-nav, .page-template-test .why-canada .owl-nav {
+    .home .why-canada .owl-nav {
       position: absolute;
       z-index: 998;
       top: 36%;
       left: 50%; } }
-  .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next, .page-template-test .why-canada .owl-nav .owl-prev, .page-template-test .why-canada .owl-nav .owl-next {
+  .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1744,31 +1740,31 @@ a {
     font-size: 4rem;
     padding-bottom: 20px; }
 
-.home .why-canada .owl-dots, .page-template-test .why-canada .owl-dots {
+.home .why-canada .owl-dots {
   display: none; }
   @media all and (min-width: 650px) {
-    .home .why-canada .owl-dots, .page-template-test .why-canada .owl-dots {
+    .home .why-canada .owl-dots {
       display: inline;
       position: absolute;
       bottom: 305px;
       left: 15px; } }
   @media all and (min-width: 880px) {
-    .home .why-canada .owl-dots, .page-template-test .why-canada .owl-dots {
+    .home .why-canada .owl-dots {
       bottom: 335px; } }
 
-.home .why-canada .curious, .page-template-test .why-canada .curious {
+.home .why-canada .curious {
   display: none; }
   @media all and (min-width: 960px) {
-    .home .why-canada .curious, .page-template-test .why-canada .curious {
+    .home .why-canada .curious {
       display: inline-block;
       margin-left: 140px;
       position: absolute;
       bottom: 6rem;
       z-index: 2; } }
-  .home .why-canada .curious__subheader, .page-template-test .why-canada .curious__subheader {
+  .home .why-canada .curious__subheader {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bold; }
-  .home .why-canada .curious__button, .page-template-test .why-canada .curious__button {
+  .home .why-canada .curious__button {
     width: 135px;
     height: 40px;
     padding: 0;
@@ -1779,7 +1775,6 @@ a {
     background: #E91C35;
     color: #FFFFFF; }
 
->>>>>>> 906c8988a029418ca86ed878db3fd0dafb5177b9
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -2170,7 +2165,8 @@ body.page-template-archive-nexus_program main {
 /********************* Shared between media *************************/
 /********************* Shared between media *************************/
 footer#colophon.site-footer {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  letter-spacing: 2px; }
 
 div.footer__contact p a,
 div.footer__site-info a,
@@ -2216,7 +2212,8 @@ div.widget_info_contain a {
       padding: 20px 0 10px 0;
       text-align: center;
       color: #FFFFFF;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      letter-spacing: 2px; }
   div.socialmedia-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2281,7 +2278,8 @@ div.widget_info_contain a {
     padding: 20px 0 5px 0;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    letter-spacing: 2px; }
   div.widget-fa i {
     color: #FFFFFF; }
   .footer__contact,
@@ -2343,7 +2341,8 @@ div.widget_info_contain a {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       color: #FFFFFF;
       text-align: left;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      letter-spacing: 2px; }
   div.footer__social-media-container,
   section.footer_contact_info {
     margin-top: 2rem;
@@ -2523,7 +2522,8 @@ div.widget_info_contain a {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       color: #FFFFFF;
       text-align: left;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      letter-spacing: 2px; }
   div.footer__social-media-container {
     margin-top: 2rem; }
   section.footer_contact_info {
@@ -2532,7 +2532,7 @@ div.widget_info_contain a {
   .footer__why-nexus,
   .footer__social-media-container,
   section.footer_contact_info {
-    width: 200px; }
+    width: 210px; }
   .footer__why-nexus p {
     margin-top: 33px; }
   div.socialmedia-container {
@@ -3175,11 +3175,13 @@ nav.main-navigation:hover {
       .full-screen-links a {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: bold;
-        text-decoration: none; }
+        text-decoration: none;
+        font-size: 21px; }
       .full-screen-links .book-consult {
-        width: 135px;
+        width: 200px;
         height: 40px;
-        font-size: 16px;
+        font-size: 24px;
+        letter-spacing: 2px;
         padding: 0;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;

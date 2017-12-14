@@ -104,7 +104,6 @@ foreach ( (array) $entries as $key => $entry ) {
 								<div class="desktop-thumbnail">
 									<?php the_post_thumbnail( 'full' ); ?>
 								</div>
-
 								<button class="homestay-looking-button">
 								<div class="button-faq-title">
 									<?php the_title(); ?>

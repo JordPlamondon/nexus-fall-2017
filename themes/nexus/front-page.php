@@ -61,37 +61,26 @@ get_header(); ?>
 			<h2 class="why-canada__header">Why Canada?</h2>
 			<div class="underline"></div>
 				</div>
+					<?php $args = array( 'post_type' => 'nexus_front_carousel', 'orderby' => 'rand', 'posts_per_page' => 3, ); $query = new WP_Query( $args );?>
 					<div class="owl-carousel owl-theme">
 									<!-- Begin Carousel Cell -->
-						<div class="carouselplaceholder first">
-							<div class="carouselplaceholder__content-wrapper">
-								<h3 class="carouselplaceholder__subheader">Quality of Life</h3>
-								<p class="carouselplaceholder__info">
-								So as most people will know by now, i am doing a backpacking adventure over the next month. Really, i'm not entirely sure what drove me to this. While iImay have my…
-								</p>
-							</div>
-						</div>
-						<!-- End Carousel Cell -->
-					  <!-- Begin Carousel Cell -->
-						<div class="carouselplaceholder second">
-							<div class="carouselplaceholder__content-wrapper">
-								<h3 class="carouselplaceholder__subheader">Fresh Air</h3>
-								<p class="carouselplaceholder__info">
-								The air is super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
-								</p>
-							</div>
-						</div>
-						<!-- End Carousel Cell -->
-					  <!-- Begin Carousel Cell -->
-						<div class="carouselplaceholder third">
-							<div class="carouselplaceholder__content-wrapper">
-								<h3 class="carouselplaceholder__subheader">Awesome People</h3>
-								<p class="carouselplaceholder__info">
-								The people are super fresh. It's the best think you've ever smelled, it's like crack smoke, man, I'm tellin' ya. This one time, my buddy and I were walking to the trap and we saw...
-								</p>
-							</div>
-						</div>
-					</div> 
+
+									<?php if ( $query->have_posts() ) : ?>
+
+										<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+											<?php get_template_part( 'template-parts/content-test' ); ?>
+
+										<?php endwhile; ?>
+										<?php wp_reset_postdata(); ?>
+
+									<?php else : ?>
+
+										<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+    				                <?php endif; 
+
+    				    wp_reset_query();?>
+      		</div> <!-- carousel -->
 
 					<!-- End Carousel -->
 

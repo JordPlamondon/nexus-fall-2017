@@ -22,10 +22,18 @@
 			<h2>Stay Connected</h2>
 			<div class="underline footer"></div>
 			<div class="socialmedia-container">
-				<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/face_logo1@3x.png" alt="Facebook" />
-				<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/twitter_logo1@3x.png" alt="Twitter" />
-				<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/youtube_logo1@3x.png" alt="Youtube" />
-				<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/Instagram@3x.png" alt="Instagram" />
+				<a href="http://www.facebook.com">
+					<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/face_logo1@3x.png" alt="Facebook" />
+				</a>
+				<a href="http://www.twitter.com">
+					<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/twitter_logo1@3x.png" alt="Twitter" />
+				</a>
+				<a href="http://www.youtube.com">
+					<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/youtube_logo1@3x.png" alt="Youtube" />
+				</a>
+				<a href="http://www.instagram.com">
+					<img src="http://nexus.van.cp.academy.red/wp-content/uploads/2017/12/Instagram@3x.png" alt="Instagram" />
+				</a>
 			</div> <!-- socialmedia-container -->
     </div> <!-- footer__social-media-container -->
 
@@ -34,7 +42,7 @@
 				<h2>Contact Us</h2>
 				<div class="underline footer"></div>
         <div class="widget_info_contain one"> <!-- FA icons hidden below 1020px - footer.SCSS -->
-          <div class="widget_fa"><i class="fa fa-map-marker fa-2x hide-here" aria-hidden="true"></i></div>
+          <div class="widget_fa"><i class="fa fa-map-marker fa-3x hide-here" aria-hidden="true"></i></div>
           <p>119-970 Burrard St.<br>Vancouver, BC V6Z 2R4</p>
 				</div> <!-- widget_info_contain -->
 				<div class="footer__office">

@@ -9,6 +9,7 @@
 
 footer#colophon.site-footer {
   color: $color__text-white;
+  letter-spacing: 2px;
 }
 
 div.footer__contact p a,
@@ -59,6 +60,7 @@ div.widget_info_contain a {
       text-align: center;
       color: $color__text-white;
       margin-bottom: 0;
+      letter-spacing: 2px;
     }
   }
   div.socialmedia-container {
@@ -110,6 +112,7 @@ div.widget_info_contain a {
     text-align: center;
     color: $color__text-white;
     margin-bottom: 0;
+    letter-spacing: 2px;
   }
   div.widget-fa i {
     color: $color__text-white;
@@ -177,6 +180,7 @@ div.widget_info_contain a {
         color: $color__text-white;
         text-align: left;
         margin-bottom: 0;
+        letter-spacing: 2px;
       }
     }
     div.footer__social-media-container,
@@ -334,6 +338,7 @@ div.widget_info_contain a {
       color: $color__text-white;
       text-align: left;
       margin-bottom: 0;
+      letter-spacing: 2px;
     }
   }
   div.footer__social-media-container {
@@ -346,7 +351,7 @@ div.widget_info_contain a {
   .footer__why-nexus,
   .footer__social-media-container,
   section.footer_contact_info {
-    width: 200px;
+    width: 210px;
   }
   .footer__why-nexus p {
     margin-top: 33px;

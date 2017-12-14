@@ -1584,14 +1584,14 @@ a {
 .home .why-canada .headergroup, .page-template-test .why-canada .headergroup {
   line-height: 10rem; }
   @media all and (min-width: 950px) {
-    .home .why-canada .headergroup {
+    .home .why-canada .headergroup, .page-template-test .why-canada .headergroup {
       margin-bottom: 3rem; } }
 
 .home .why-canada__header, .page-template-test .why-canada__header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold; }
   @media all and (min-width: 950px) {
-    .home .why-canada__header {
+    .home .why-canada__header, .page-template-test .why-canada__header {
       text-align: center;
       font-size: 3rem;
       margin: 3rem auto 0 auto; } }
@@ -1615,13 +1615,8 @@ a {
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .first {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .first, .page-template-test .why-canada .first {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus@3x.png");
       background-size: 65% 55%,70% 100%;
@@ -1635,13 +1630,8 @@ a {
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .second {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .second, .page-template-test .why-canada .second {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png");
       background-size: 65% 55%,70% 100%;
@@ -1655,13 +1645,8 @@ a {
   background-position-x: center, center;
   background-position-y: top, bottom;
   background-repeat: no-repeat,no-repeat; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .third {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .third, .page-template-test .why-canada .third {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo-review@3x.png");
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo-review@3x.png");
       background-size: 65% 55%,70% 100%;
@@ -1671,25 +1656,15 @@ a {
 .home .why-canada .carouselplaceholder, .page-template-test .why-canada .carouselplaceholder {
   width: 100%;
   height: 70vh; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .carouselplaceholder {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .carouselplaceholder, .page-template-test .why-canada .carouselplaceholder {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       height: 104vh; } }
   .home .why-canada .carouselplaceholder__content-wrapper, .page-template-test .why-canada .carouselplaceholder__content-wrapper {
     margin: 0 5rem;
     width: 71%;
     height: 30rem; }
-<<<<<<< HEAD
     @media all and (min-width: 950px) {
-      .home .why-canada .carouselplaceholder__content-wrapper {
-=======
-    @media all and (min-width: 650px) {
       .home .why-canada .carouselplaceholder__content-wrapper, .page-template-test .why-canada .carouselplaceholder__content-wrapper {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
         width: 100%;
         height: 23rem;
         margin-left: 7rem;
@@ -1703,13 +1678,8 @@ a {
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start; } }
-<<<<<<< HEAD
     @media all and (min-width: 950px) {
-      .home .why-canada .carouselplaceholder__content-wrapper * {
-=======
-    @media all and (min-width: 650px) {
       .home .why-canada .carouselplaceholder__content-wrapper *, .page-template-test .why-canada .carouselplaceholder__content-wrapper * {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
         padding: 0 2rem;
         width: 50%;
         text-align: left; } }
@@ -1722,13 +1692,8 @@ a {
   font-weight: 600;
   font-style: italic;
   color: #E00029; }
-<<<<<<< HEAD
   @media all and (min-width: 950px) {
-    .home .why-canada .carouselplaceholder__subheader {
-=======
-  @media all and (min-width: 650px) {
     .home .why-canada .carouselplaceholder__subheader, .page-template-test .why-canada .carouselplaceholder__subheader {
->>>>>>> e98657bbf72c1b52d509a93de6cc949803dc0b7c
       margin-top: 5px;
       color: #123048;
       font-size: 250rem;
@@ -1893,309 +1858,305 @@ button:hover {
 body.page-template-archive-nexus_program main {
   padding-top: 65px; }
 
-.page-template-about .entry-title {
-  display: none; }
-
-.page-template-about .hero-wrapper {
-  width: 100vw; }
-  @media all and (min-width: 950px) {
-    .page-template-about .hero-wrapper {
-      padding-top: 65px; } }
-  .page-template-about .hero-wrapper h1 {
+.page-template-about {
+  min-width: 320px; }
+  .page-template-about .entry-title {
+    display: none; }
+  .page-template-about .hero-wrapper {
+    width: 100vw; }
+    @media all and (min-width: 950px) {
+      .page-template-about .hero-wrapper {
+        padding-top: 65px; } }
+    .page-template-about .hero-wrapper h1 {
+      position: relative;
+      top: 50px;
+      text-align: center;
+      color: #15405A;
+      font-size: 46px;
+      text-transform: uppercase;
+      font-weight: 900; }
+    .page-template-about .hero-wrapper .hero-image {
+      height: 50vh;
+      width: 100vw;
+      min-width: 350px;
+      background-image: url("../../assets/images/blog@3x.png");
+      background-size: cover;
+      background-position: bottom; }
+    .page-template-about .hero-wrapper .underline {
+      position: relative;
+      bottom: 24px;
+      margin: 0 auto;
+      width: 49px;
+      text-align: center;
+      border-bottom: 3px solid #FF8A2A; }
+  .page-template-about .mission-wrapper h2 {
     position: relative;
-    top: 50px;
+    top: 20px;
+    font-size: 24px;
     text-align: center;
     color: #15405A;
-    font-size: 46px;
-    text-transform: uppercase;
     font-weight: 900; }
-  .page-template-about .hero-wrapper .hero-image {
-    height: 50vh;
-    width: 100vw;
-    min-width: 350px;
-    background-image: url("../../assets/images/blog@3x.png");
-    background-size: cover;
-    background-position: bottom; }
-  .page-template-about .hero-wrapper .underline {
-    position: relative;
-    bottom: 24px;
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A; }
-
-.page-template-about .mission-wrapper h2 {
-  position: relative;
-  top: 20px;
-  font-size: 24px;
-  text-align: center;
-  color: #15405A;
-  font-weight: 900; }
-
-.page-template-about .mission-wrapper .underline {
-  position: relative;
-  top: 14px;
-  margin: 0 auto;
-  width: 49px;
-  text-align: center;
-  border-bottom: 3px solid #FF8A2A; }
-
-.page-template-about .mission-wrapper p {
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  padding-top: 40px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 200;
-  color: #15405A; }
-  @media all and (min-width: 850px) {
-    .page-template-about .mission-wrapper p {
-      width: 40%; } }
-
-.page-template-about .about-help {
-  height: 70px;
-  background-color: #F3F5F8; }
-  .page-template-about .about-help h2 {
-    position: relative;
-    top: 20px;
-    font-size: 24px;
-    text-align: center;
-    color: #123048;
-    font-weight: 900; }
-  .page-template-about .about-help .underline {
-    position: relative;
-    bottom: 20px;
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A; }
-
-.page-template-about img.about-img {
-  width: 45%;
-  height: 30vw;
-  max-height: 190px;
-  max-width: 190px;
-  min-height: 166px;
-  border-radius: 100px;
-  z-index: 5; }
-  @media all and (min-width: 850px) {
-    .page-template-about img.about-img {
-      height: 30vw;
-      min-height: 240px;
-      max-height: 260px;
-      max-width: 260px;
-      margin-bottom: 44px; } }
-
-.page-template-about .about-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%;
-  padding-top: 40px; }
-  @media all and (min-width: 850px) {
-    .page-template-about .about-wrapper {
-      background-color: #F3F5F8; } }
-  .page-template-about .about-wrapper .about-left {
-    height: 264px;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding-top: 40px;
-    background-color: #F3F5F8; }
-    @media all and (min-width: 950px) {
-      .page-template-about .about-wrapper .about-left {
-        width: 100%;
-        height: 344px;
-        padding-right: 15%;
-        padding-left: 15%;
-        margin: 0; } }
-    @media all and (min-width: 850px) {
-      .page-template-about .about-wrapper .about-left {
-        padding-right: 22%;
-        padding-left: 22%; } }
-    .page-template-about .about-wrapper .about-left .about-titles {
-      font-size: 21px;
-      font-weight: bold;
-      text-align: right; }
-    .page-template-about .about-wrapper .about-left p {
-      width: 45%;
-      text-align: right;
-      padding-right: 14px;
-      line-height: 16pt;
-      font-size: 16px;
-      color: #15405A; }
-      @media all and (min-width: 850px) {
-        .page-template-about .about-wrapper .about-left p {
-          padding-right: 24px;
-          padding-left: 24px;
-          line-height: 24pt;
-          font-size: 18px; } }
-  .page-template-about .about-wrapper .about-right {
-    height: 264px;
-    width: 100%;
-    min-width: 310px;
-    padding-top: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    background-color: #FFFFFF; }
-    @media all and (min-width: 950px) {
-      .page-template-about .about-wrapper .about-right {
-        width: 100%;
-        height: 344px;
-        margin: 0;
-        margin: 0 auto;
-        padding-right: 18%;
-        padding-left: 18%; } }
-    @media all and (min-width: 850px) {
-      .page-template-about .about-wrapper .about-right {
-        padding-right: 22%;
-        padding-left: 22%; } }
-    .page-template-about .about-wrapper .about-right .about-titles {
-      font-size: 21px;
-      font-weight: bold;
-      text-align: left; }
-    .page-template-about .about-wrapper .about-right p {
-      color: #15405A;
-      width: 45%;
-      line-height: 16pt;
-      text-align: left;
-      font-size: 14px;
-      padding-left: 14px; }
-      @media all and (min-width: 850px) {
-        .page-template-about .about-wrapper .about-right p {
-          font-size: 18px;
-          padding-right: 24px;
-          padding-left: 24px;
-          line-height: 24pt; } }
-
-.page-template-about .about-consultants {
-  height: 500px;
-  display: block;
-  margin-top: 44px;
-  background-color: #FFFFFF;
-  text-align: center; }
-  .page-template-about .about-consultants p {
-    font-size: 16px;
-    font-weight: 100;
-    color: #898989;
-    line-height: 16pt; }
-  .page-template-about .about-consultants img {
-    height: 204px;
-    width: 204px;
-    margin: 30px 0 0 0;
-    border-radius: 100px; }
-  .page-template-about .about-consultants i {
-    display: inline-block;
-    margin: 10px;
-    margin-bottom: 24px;
-    font-size: 36px; }
-  .page-template-about .about-consultants h2 {
-    position: relative;
-    top: 20px;
-    font-size: 24px;
-    text-align: center;
-    color: #123048;
-    font-weight: 900; }
-  .page-template-about .about-consultants h3 {
+  .page-template-about .mission-wrapper .underline {
     position: relative;
     top: 14px;
-    font-size: 20px;
-    text-align: center;
-    color: #123048;
-    font-weight: normal; }
-  .page-template-about .about-consultants .underline2 {
     margin: 0 auto;
     width: 49px;
-    position: relative;
-    bottom: 40px;
     text-align: center;
     border-bottom: 3px solid #FF8A2A; }
-
-.page-template-about .about-journey {
-  height: 195px;
-  background-color: #F3F5F8; }
-  .page-template-about .about-journey h2 {
-    position: relative;
-    top: 20px;
-    font-size: 24px;
+  .page-template-about .mission-wrapper p {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-top: 40px;
     text-align: center;
-    color: #15405A;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1pt; }
-  .page-template-about .about-journey p {
-    position: relative;
-    bottom: 42px;
     font-size: 16px;
-    color: #E00029;
-    font-style: italic;
+    line-height: 26px;
     font-weight: 200;
-    text-transform: none; }
-  .page-template-about .about-journey .underline {
-    margin: 0 auto;
-    width: 49px;
-    position: relative;
-    bottom: 78px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A; }
-  .page-template-about .about-journey button.consult {
-    width: 175px;
-    height: 40px;
-    position: relative;
-    bottom: 40px;
-    padding: 0;
-    border-radius: 25px 0px 25px 0px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    text-shadow: none;
-    font-size: 18px;
-    background: #E91C35;
-    color: white;
-    letter-spacing: 1pt; }
+    color: #15405A; }
+    @media all and (min-width: 850px) {
+      .page-template-about .mission-wrapper p {
+        width: 40%; } }
+  .page-template-about .about-help {
+    height: 70px;
+    background-color: #F3F5F8; }
+    .page-template-about .about-help h2 {
+      position: relative;
+      top: 20px;
+      font-size: 24px;
+      text-align: center;
+      color: #123048;
+      font-weight: 900; }
+    .page-template-about .about-help .underline {
+      position: relative;
+      bottom: 20px;
+      margin: 0 auto;
+      width: 49px;
+      text-align: center;
+      border-bottom: 3px solid #FF8A2A; }
+  .page-template-about img.about-img {
+    width: 45%;
+    height: 30vw;
+    max-height: 190px;
+    max-width: 190px;
+    min-height: 166px;
+    border-radius: 100px;
+    z-index: 5; }
+    @media all and (min-width: 850px) {
+      .page-template-about img.about-img {
+        height: 30vw;
+        min-height: 240px;
+        max-height: 260px;
+        max-width: 260px;
+        margin-bottom: 44px; } }
+  .page-template-about .about-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    padding-top: 40px; }
+    @media all and (min-width: 450px) {
+      .page-template-about .about-wrapper {
+        margin-left: 10%; } }
+    @media all and (min-width: 850px) {
+      .page-template-about .about-wrapper {
+        background-color: #F3F5F8; } }
+    .page-template-about .about-wrapper .about-left {
+      height: 264px;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      padding-top: 40px;
+      background-color: #F3F5F8; }
+      @media all and (min-width: 950px) {
+        .page-template-about .about-wrapper .about-left {
+          width: 100%;
+          height: 344px;
+          padding-right: 15%;
+          padding-left: 15%;
+          margin: 0; } }
+      @media all and (min-width: 850px) {
+        .page-template-about .about-wrapper .about-left {
+          padding-right: 22%;
+          padding-left: 22%; } }
+      .page-template-about .about-wrapper .about-left .about-titles {
+        font-size: 21px;
+        font-weight: bold;
+        text-align: right; }
+      .page-template-about .about-wrapper .about-left p {
+        width: 45%;
+        text-align: right;
+        padding-right: 14px;
+        line-height: 16pt;
+        font-size: 14px;
+        color: #15405A; }
+        @media all and (min-width: 850px) {
+          .page-template-about .about-wrapper .about-left p {
+            padding-right: 24px;
+            padding-left: 24px;
+            line-height: 24pt;
+            font-size: 18px; } }
+    .page-template-about .about-wrapper .about-right {
+      height: 264px;
+      width: 100%;
+      min-width: 310px;
+      padding-top: 40px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      background-color: #FFFFFF; }
+      @media all and (min-width: 950px) {
+        .page-template-about .about-wrapper .about-right {
+          width: 100%;
+          height: 344px;
+          margin: 0;
+          margin: 0 auto;
+          padding-right: 18%;
+          padding-left: 18%; } }
+      @media all and (min-width: 850px) {
+        .page-template-about .about-wrapper .about-right {
+          padding-right: 22%;
+          padding-left: 22%; } }
+      .page-template-about .about-wrapper .about-right .about-titles {
+        font-size: 21px;
+        font-weight: bold;
+        text-align: left; }
+      .page-template-about .about-wrapper .about-right p {
+        color: #15405A;
+        width: 45%;
+        line-height: 16pt;
+        text-align: left;
+        font-size: 14px;
+        padding-left: 14px; }
+        @media all and (min-width: 850px) {
+          .page-template-about .about-wrapper .about-right p {
+            font-size: 18px;
+            padding-right: 24px;
+            padding-left: 24px;
+            line-height: 24pt; } }
+  .page-template-about .about-consultants {
+    height: 500px;
+    display: block;
+    margin-top: 44px;
+    background-color: #FFFFFF;
+    text-align: center; }
+    .page-template-about .about-consultants p {
+      font-size: 16px;
+      font-weight: 100;
+      color: #898989;
+      line-height: 16pt; }
+    .page-template-about .about-consultants img {
+      height: 204px;
+      width: 204px;
+      margin: 30px 0 0 0;
+      border-radius: 100px; }
+    .page-template-about .about-consultants i {
+      display: inline-block;
+      margin: 10px;
+      margin-bottom: 24px;
+      font-size: 36px; }
+    .page-template-about .about-consultants h2 {
+      position: relative;
+      top: 20px;
+      font-size: 24px;
+      text-align: center;
+      color: #123048;
+      font-weight: 900; }
+    .page-template-about .about-consultants h3 {
+      position: relative;
+      top: 14px;
+      font-size: 20px;
+      text-align: center;
+      color: #123048;
+      font-weight: normal; }
+    .page-template-about .about-consultants .underline2 {
+      margin: 0 auto;
+      width: 49px;
+      position: relative;
+      bottom: 40px;
+      text-align: center;
+      border-bottom: 3px solid #FF8A2A; }
+  .page-template-about .about-journey {
+    height: 195px;
+    background-color: #F3F5F8; }
+    .page-template-about .about-journey h2 {
+      position: relative;
+      top: 20px;
+      font-size: 24px;
+      text-align: center;
+      color: #15405A;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1pt; }
+    .page-template-about .about-journey p {
+      position: relative;
+      bottom: 42px;
+      font-size: 16px;
+      color: #E00029;
+      font-style: italic;
+      font-weight: 200;
+      text-transform: none; }
+    .page-template-about .about-journey .underline {
+      margin: 0 auto;
+      width: 49px;
+      position: relative;
+      bottom: 78px;
+      text-align: center;
+      border-bottom: 3px solid #FF8A2A; }
+    .page-template-about .about-journey button.consult {
+      width: 175px;
+      height: 40px;
+      position: relative;
+      bottom: 40px;
+      padding: 0;
+      border-radius: 25px 0px 25px 0px;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      font-size: 18px;
+      background: #E91C35;
+      color: white;
+      letter-spacing: 1pt; }
 
 .about-right img.path-img-right {
-  height: 150px;
+  height: 180px;
   width: 60%;
   min-width: 140px;
   position: relative;
-  bottom: 70px;
+  bottom: 90px;
   left: 80px;
   z-index: 1; }
-  @media all and (min-width: 950px) {
+  @media all and (min-width: 450px) {
     .about-right img.path-img-right {
       display: none; } }
 
 .about-left img.path-img-left {
-  height: 150px;
+  height: 180px;
   width: 60%;
   min-width: 140px;
   position: relative;
-  bottom: 60px;
+  bottom: 90px;
   left: 80px;
   z-index: 1; }
-  @media all and (min-width: 950px) {
+  @media all and (min-width: 450px) {
     .about-left img.path-img-left {
       display: none; } }
 

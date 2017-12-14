@@ -1,5 +1,5 @@
 .page-template-about {
-  
+  min-width: 320px;
   .entry-title {
     display: none;
   }
@@ -112,6 +112,9 @@
     flex-wrap: wrap;
     width: 100%;
     padding-top: 40px;
+    @media #{$tablet-test} {
+      margin-left: 10%;
+    }
       @media #{$tablet} {
         background-color:$color__textbox-background;
         }
@@ -144,7 +147,7 @@
         text-align: right;
         padding-right: 14px;
         line-height: 16pt;
-        font-size: 16px;
+        font-size: 14px;
         color: $color__footer-background;
         @media #{$tablet} {   
           padding-right: 24px;
@@ -297,28 +300,28 @@
 // Squiggles
  .about-right {
   img.path-img-right {
-      height: 150px;
+      height: 180px;
       width: 60%;
       min-width: 140px;
       position: relative;
-      bottom: 70px;
+      bottom: 90px;
       left: 80px;
       z-index: 1;
-        @media #{$desktop} {
+        @media #{$tablet-test} {
         display: none;
         }
   }
  }
  .about-left {
     img.path-img-left {
-      height: 150px;
+      height: 180px;
       width: 60%;
       min-width: 140px;
       position: relative;
-      bottom: 60px;
+      bottom: 90px;
       left: 80px;
       z-index: 1;
-        @media #{$desktop} {
+        @media #{$tablet-test} {
           display: none;
         }
   }

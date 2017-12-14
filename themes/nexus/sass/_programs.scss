@@ -241,16 +241,20 @@
 // Single Program
 
 .single-nexus_program {
+  padding-top: 20px;
   @media #{$tablet} {
-    padding-top: 55px;
+    padding-top: 75px;
   }
   .single-program-content {
+    margin: 0 auto;
+    max-width: 90%;
     margin-top: 0;
     line-height: 1.75;
     text-align: center;
     color: $color__text-blue-large;
     font-family: 'Roboto', sans-serif;
     @media #{$tablet} {
+      margin: 0;
       text-align: left;
       font-size: 1.5rem;
     }
@@ -260,9 +264,11 @@
     margin-bottom: 2.25rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
     @media #{$tablet} {
       align-items: flex-start;
       justify-content: flex-start;
+      margin-top: 0;
     }
   }
 
@@ -288,12 +294,32 @@
       margin: 0;
     }
   }
+
+  .left-side {
+    @media #{$tablet} {
+      margin-right: -10%;
+      z-index: 10;
+    }
+  }
  
+  .strong-side {
+    flex-basis: 55%;
+    margin-left: 1rem;
+  }
+
+  .program-media {
+    max-width: max-content;
+    margin: 0 auto;
+    @media #{$desktop} {
+      margin-top: 1rem;
+    }
+  }
 
   .single-program-about-image {
     display: none;
     @media #{$desktop} {
       display: block;
+      min-width: 50%;
     }
   }
   .single-program-title {
@@ -314,6 +340,8 @@
   .program-flex-container {
     @media #{$tablet} {
       display: flex;
+      align-items: flex-start;
+      margin: 2rem 0;
     }
   }
 

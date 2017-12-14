@@ -46,7 +46,7 @@
             
         </section>
        <section class="program-flex-container">
-            <div><?php echo get_post_meta($post->ID, '_nexus_program_media', true); ?></div>
+            <div class="program-media"><?php echo get_post_meta($post->ID, '_nexus_program_media', true); ?></div>
                 <div class="strong-side">
                     <div class="header-wrapper">
                     <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>

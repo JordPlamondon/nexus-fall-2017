@@ -2902,6 +2902,10 @@ div.banner-faq-single {
   color: #15405A;
   position: relative;
   top: 25px; }
+  @media all and (min-width: 650px) {
+    .faq-single-homestay h2 {
+      font-size: 60px;
+      font-weight: 500; } }
 
 .faq-single-homestay .underline {
   margin: 0 auto;
@@ -2910,6 +2914,9 @@ div.banner-faq-single {
   border-bottom: 3px solid #FF8A2A;
   position: relative;
   bottom: 48px; }
+  @media all and (min-width: 650px) {
+    .faq-single-homestay .underline {
+      display: none; } }
 
 .faq-single-homestay .homestay-button-wrapper {
   width: 375px;

@@ -3902,7 +3902,7 @@ body.blog .blog-wrapper {
   height: 2110px; }
   @media all and (min-width: 650px) {
     body.blog .blog-wrapper {
-      height: 2600px; } }
+      height: 4000px; } }
   body.blog .blog-wrapper .latest-videos-title {
     position: relative;
     text-align: center;
@@ -3911,10 +3911,6 @@ body.blog .blog-wrapper {
       body.blog .blog-wrapper .latest-videos-title {
         font-size: 60px;
         top: 295px; } }
-    body.blog .blog-wrapper .latest-videos-title .latest-posts-title {
-      position: relative;
-      text-align: center;
-      bottom: 1205px; }
     body.blog .blog-wrapper .latest-videos-title .underline-posts {
       margin: 0 auto;
       width: 49px;
@@ -3923,6 +3919,10 @@ body.blog .blog-wrapper {
       position: relative;
       bottom: 1220px;
       left: 0; }
+  body.blog .blog-wrapper .latest-posts-title {
+    position: relative;
+    text-align: center;
+    bottom: 1205px; }
   body.blog .blog-wrapper .underline-videos {
     margin: 0 auto;
     width: 49px;
@@ -4010,6 +4010,9 @@ body.blog li:nth-of-type(-n+3) a {
   pointer-events: none;
   cursor: default; }
 
+body.blog li:nth-of-type(-n+3) .blog-content {
+  display: none; }
+
 body.blog li:nth-of-type(1) {
   padding-top: 50px;
   font-size: 11px; }
@@ -4058,21 +4061,25 @@ body.blog a {
 
 body.blog li:nth-of-type(n+4):nth-of-type(-n+6) {
   display: inline-block;
+  position: relative;
+  left: 30px;
   margin: 0 auto;
   width: 385px; }
   @media all and (min-width: 650px) {
     body.blog li:nth-of-type(n+4):nth-of-type(-n+6) {
-      width: 410px; } }
+      width: 31vw; } }
   body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-title {
     text-align: center;
     font-size: 18px; }
   body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-img {
     margin-top: 30px; }
-    @media all and (min-width: 650px) {
-      body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-img {
-        margin: 0;
-        height: 224.89px;
-        width: 31vw; } }
+  @media all and (min-width: 650px) {
+    body.blog li:nth-of-type(n+4):nth-of-type(-n+6) img {
+      margin: 0;
+      height: 224.89px;
+      width: 30vw; } }
+  body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-video {
+    display: none; }
   body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .read-button {
     padding-top: 20px; }
 
@@ -4081,7 +4088,8 @@ body.blog li:nth-of-type(4) {
 
 @media all and (min-width: 650px) {
   body.blog li:nth-of-type(n+4):nth-of-type(-n+4) .blog-img {
-    padding-top: 27px; } }
+    height: 224.89px;
+    padding-top: 22px; } }
 
 @media all and (min-width: 650px) {
   body.blog li:nth-of-type(n+4):nth-of-type(-n+4) .blog-text {

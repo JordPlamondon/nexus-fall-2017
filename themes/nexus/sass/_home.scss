@@ -3,7 +3,7 @@ body.blog {
   .blog-wrapper {
     height: 2110px;
     @media #{$desktop} {
-      height: 2600px;
+      height: 4000px;
     }
     .latest-videos-title {
     position: relative;
@@ -12,11 +12,6 @@ body.blog {
     @media #{$desktop} {
       font-size: 60px;
       top: 295px;
-    }
-    .latest-posts-title {
-      position: relative;
-      text-align: center;
-      bottom: 1205px;
     }
     .underline-posts {
       margin: 0 auto;
@@ -28,6 +23,11 @@ body.blog {
       left: 0;
     }
   } 
+  .latest-posts-title {
+    position: relative;
+    text-align: center;
+    bottom: 1205px;
+  }
   .underline-videos {
     margin: 0 auto;
     width: 49px;
@@ -110,7 +110,7 @@ body.blog {
     list-style-type: none; 
   }
 
-  //Video Blog Posts 
+  //Video Blog Posts (top 3)
   li:nth-of-type(-n+3) {
     button.read-more {
       display: none;
@@ -126,6 +126,9 @@ body.blog {
     a {
       pointer-events: none;
       cursor: default;
+    }
+    .blog-content {
+      display: none;
     }
   }
   li:nth-of-type(1) {
@@ -180,13 +183,16 @@ body.blog {
     text-decoration: none;
   }
 
-  //Normal Blog Posts
+  //Normal Blog Posts (bottom 3)
   li:nth-of-type(n+4):nth-of-type(-n+6) {
     display: inline-block;
+    position: relative;
+    left: 30px;
     margin: 0 auto;
     width: 385px;
     @media #{$desktop} {
-      width: 410px;
+      width: 31vw;
+      // margin-left: 20px;
     }
     .blog-title {
       text-align: center;
@@ -194,11 +200,16 @@ body.blog {
     }
     .blog-img {
       margin-top: 30px;
+    }
+    img {
       @media #{$desktop} {
         margin: 0;
         height: 224.89px;
-        width: 31vw;
+        width: 30vw;
       }
+    }
+    .blog-video {
+      display: none;
     }
     .read-button {
       padding-top: 20px;
@@ -210,7 +221,8 @@ body.blog {
   li:nth-of-type(n+4):nth-of-type(-n+4) {
     .blog-img {
       @media #{$desktop} {
-        padding-top: 27px;
+        height: 224.89px;
+        padding-top: 22px;
       }
     }
     .blog-text {

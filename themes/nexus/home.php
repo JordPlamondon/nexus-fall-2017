@@ -38,6 +38,9 @@ get_header(); ?>
               </div>
               <div class="blog-text"> 
                 <h2 class="blog-title"><?php the_title(); ?></h2>
+                <div class="blog-content">
+                    <?php the_content(); ?>
+                  </div>
                   <a href="<?php the_permalink(); ?>" rel="blog title">
                 <div style="text-align:center;" class="read-button">
                   <button class="read-more">Read More</button>

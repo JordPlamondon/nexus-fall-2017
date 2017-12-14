@@ -100,17 +100,19 @@ foreach ( (array) $entries as $key => $entry ) {
 							while ($the_query->have_posts() ) : $the_query->the_post()
 						?>
 							<!-- <div class="desktop-faq-wrapper"> -->
-								<a href="<?php the_permalink(); ?>" rel="faq title"> 
+								<div class="permalink-wrapper">
+									<a href="<?php the_permalink(); ?>" rel="faq title"> 
+								
 								<div class="desktop-thumbnail">
 									<?php the_post_thumbnail( 'full' ); ?>
 								</div>
-
 								<button class="homestay-looking-button">
 								<div class="button-faq-title">
 									<?php the_title(); ?>
 								</div>
 								</button>
 								</a>
+								</div>
 							<!-- </div> -->
 							
 								<!-- add the post thumbnail into loop

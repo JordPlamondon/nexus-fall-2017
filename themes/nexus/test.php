@@ -11,7 +11,7 @@ get_header(); ?>
 
 
 
-    <?php $args = array( 'post_type' => 'nexus_program', 'posts_per_page' => 3, ); $query = new WP_Query( $args );?>
+    <?php $args = array( 'post_type' => 'nexus_front_carousel', 'orderby' => 'rand', 'posts_per_page' => 3, ); $query = new WP_Query( $args );?>
         <div class="owl-carousel owl-theme">
 					<?php if ( $query->have_posts() ) : ?>
 

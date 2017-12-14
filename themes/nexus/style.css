@@ -2165,7 +2165,10 @@ body.page-template-archive-nexus_program main {
 /********************* Shared between media *************************/
 footer#colophon.site-footer {
   color: #FFFFFF;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif; }
+  footer#colophon.site-footer h2 {
+    font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 div.footer__contact p a,
 div.footer__site-info a,
@@ -2228,7 +2231,8 @@ div.widget_info_contain a {
     div.socialmedia-container img {
       height: 45px;
       width: 45px;
-      margin: 0 7px; }
+      margin: 0 10px;
+      max-width: 100px; }
   div.widget_fa {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2348,7 +2352,7 @@ div.widget_info_contain a {
     margin-bottom: 2rem; }
   .footer__social-media-container,
   section.footer_contact_info {
-    width: 200px; }
+    width: 220px; }
   div.socialmedia-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2367,7 +2371,8 @@ div.widget_info_contain a {
       height: 45px;
       width: 45px;
       padding: 0 0px 0 0px;
-      margin: 0 7px; }
+      margin: 0 10px;
+      max-width: 100px; }
   .underline.footer {
     padding-top: 10px;
     width: 74px;
@@ -2531,7 +2536,7 @@ div.widget_info_contain a {
   .footer__why-nexus,
   .footer__social-media-container,
   section.footer_contact_info {
-    width: 210px; }
+    width: 220px; }
   .footer__why-nexus p {
     margin-top: 33px; }
   div.socialmedia-container {
@@ -2552,7 +2557,8 @@ div.widget_info_contain a {
       height: 45px;
       width: 45px;
       padding: 0 0px 0 0px;
-      margin: 0 7px; }
+      margin: 0 10px;
+      max-width: 100px; }
   .underline.footer {
     padding-top: 10px;
     width: 99px;
@@ -2903,7 +2909,8 @@ div.banner-faq-single {
   @media all and (min-width: 950px) {
     .faq-single-homestay h2 {
       font-size: 60px;
-      font-weight: 500; } }
+      font-weight: 500;
+      top: 60px; } }
 
 .faq-single-homestay .underline {
   margin: 0 auto;
@@ -2914,7 +2921,8 @@ div.banner-faq-single {
   bottom: 48px; }
   @media all and (min-width: 950px) {
     .faq-single-homestay .underline {
-      display: none; } }
+      display: none;
+      bottom: 0; } }
 
 .faq-single-homestay .homestay-button-wrapper {
   width: 375px;
@@ -2932,7 +2940,19 @@ div.banner-faq-single {
   bottom: 20px; }
   @media all and (min-width: 950px) {
     .faq-single-homestay .homestay-button-wrapper {
-      display: inline; }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
+      width: 100vw;
+      bottom: 80px;
+      padding-left: 40px;
+      padding-right: 40px; }
       .faq-single-homestay .homestay-button-wrapper img {
         width: 16.2vw;
         height: 171px; } }
@@ -2945,6 +2965,9 @@ div.banner-faq-single {
     font-size: 18px;
     color: #FFFFFF;
     text-shadow: none; }
+    @media all and (min-width: 950px) {
+      .faq-single-homestay .homestay-button-wrapper .homestay-looking-button, .faq-single-homestay .homestay-button-wrapper .return-to-top-button {
+        display: none; } }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover, .faq-single-homestay .homestay-button-wrapper .return-to-top-button:hover {
       background: #bf1328; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p, .faq-single-homestay .homestay-button-wrapper .return-to-top-button p {
@@ -2954,26 +2977,34 @@ div.banner-faq-single {
       position: relative;
       bottom: 3px;
       color: #FFFFFF; }
+      @media all and (min-width: 950px) {
+        .faq-single-homestay .homestay-button-wrapper .homestay-looking-button .button-faq-title, .faq-single-homestay .homestay-button-wrapper .return-to-top-button .button-faq-title {
+          color: #123048;
+          font-weight: 600;
+          text-transform: uppercase; } }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
       text-decoration: none; }
+<<<<<<< HEAD
+=======
   @media all and (min-width: 950px) {
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
       display: inline;
-      background-color: white;
-      color: #15405a;
-      border-radius: none; }
+      width: 200px;
+      position: relative;
+      bottom: 55px;
+      background-color: white; }
       .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover {
-        background: white; } }
-  @media all and (min-width: 950px) and (min-width: 950px) {
-    .faq-single-homestay .homestay-button-wrapper .homestay-looking-button .button-faq-title {
-      display: block;
-      color: #15405a; } }
+        background-color: white; } }
+>>>>>>> dd13dc1a1d319bf92bb4d92c9ca9374396bf9fe4
   .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
     display: none; }
     @media all and (min-width: 950px) {
       .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
         display: inline;
         margin: 0.8vw; } }
+  @media all and (min-width: 950px) {
+    .faq-single-homestay .homestay-button-wrapper .permalink-wrapper {
+      height: 220px; } }
   .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
     background-color: #ac192c; }
     @media all and (min-width: 950px) {
@@ -3485,7 +3516,8 @@ nav.main-navigation:hover {
     @media all and (min-width: 450px) {
       .single-nexus_program .left-side {
         margin-right: -10%;
-        z-index: 10; } }
+        z-index: 10;
+        margin-left: 10%; } }
   .single-nexus_program .strong-side {
     -ms-flex-preferred-size: 55%;
         flex-basis: 55%;
@@ -3494,7 +3526,8 @@ nav.main-navigation:hover {
     max-width: -webkit-max-content;
     max-width: -moz-max-content;
     max-width: max-content;
-    margin: 0 auto; }
+    margin: 0 auto;
+    height: 100%; }
     @media all and (min-width: 950px) {
       .single-nexus_program .program-media {
         margin-top: 1rem; } }
@@ -3503,7 +3536,11 @@ nav.main-navigation:hover {
     @media all and (min-width: 950px) {
       .single-nexus_program .single-program-about-image {
         display: block;
-        min-width: 50%; } }
+        height: 100%;
+        min-width: 50%; }
+        .single-nexus_program .single-program-about-image img {
+          height: 500px;
+          width: 140%; } }
   .single-nexus_program .single-program-title {
     text-align: center;
     margin: 2px 0; }
@@ -3517,7 +3554,7 @@ nav.main-navigation:hover {
         font-size: 3.75rem; } }
   @media all and (min-width: 450px) {
     .single-nexus_program .program-flex-container {
-      height: auto;
+      height: 500px;
       overflow: hidden;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3525,11 +3562,15 @@ nav.main-navigation:hover {
       -webkit-box-align: start;
           -ms-flex-align: start;
               align-items: flex-start;
-      margin: 2rem 0; } }
+      margin: 2rem 0;
+      margin-bottom: 48px;
+      background: green; } }
   .single-nexus_program .single-program-container {
+    background: red;
     padding: 1rem;
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: 48px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3582,6 +3623,145 @@ nav.main-navigation:hover {
         visibility: visible;
         height: 60px;
         border-right: 3px solid #ff8a2a; } }
+
+.student-review .headergroup {
+  line-height: 3rem; }
+
+.student-review h2 {
+  font-size: 4.5vw; }
+
+.student-review .underline {
+  margin: 0 auto 3rem auto; }
+  @media all and (min-width: 950px) {
+    .student-review .underline {
+      width: 120px; } }
+
+.student-review .owl-nav {
+  display: none; }
+
+.student-review .owl-dots {
+  margin: 3rem auto; }
+
+.student-review__box {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 950px) {
+    .student-review__box {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  @media all and (min-width: 950px) {
+    .student-review__box .student-review__box__image {
+      -ms-flex-preferred-size: 40%;
+          flex-basis: 40%;
+      width: 30%;
+      overflow: hidden; } }
+  @media all and (min-width: 950px) {
+    .student-review__box .student-review__box__image img {
+      height: 270px; } }
+
+.student-review-header {
+  color: #122E3F;
+  text-align: center;
+  font-size: 58px; }
+
+.student-review__info-wrapper {
+  background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: #F3F5F8;
+  margin-top: 0;
+  width: 100%;
+  padding: 39px 30px 22px 48px;
+  font-weight: bold;
+  font-size: 4vw;
+  position: relative;
+  margin-bottom: 64px; }
+  @media all and (min-width: 950px) {
+    .student-review__info-wrapper {
+      margin: 0;
+      font-size: 3vw;
+      -ms-flex-preferred-size: 80%;
+          flex-basis: 80%;
+      margin-bottom: 10vw; } }
+  @media all and (min-width: 950px) {
+    .student-review__info-wrapper .student-review__info {
+      padding: 15px 20px 15px 45px; } }
+  .student-review__info-wrapper .grey {
+    background: #F3F5F8;
+    -webkit-transform: rotate(134deg);
+            transform: rotate(134deg);
+    bottom: 54px;
+    left: 40%;
+    height: 30px;
+    position: relative;
+    width: 30px; }
+    @media all and (min-width: 950px) {
+      .student-review__info-wrapper .grey {
+        background: #F3F5F8;
+        -webkit-transform: rotate(134deg);
+                transform: rotate(134deg);
+        bottom: -60px;
+        left: -63px;
+        height: 30px;
+        position: relative;
+        width: 30px; } }
+
+.start-journey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  padding: 1rem 0;
+  background: #F3F5F8; }
+  .start-journey .headergroup {
+    line-height: 3rem; }
+  .start-journey .underline {
+    margin: 0 auto 1rem auto; }
+    @media all and (min-width: 950px) {
+      .start-journey .underline {
+        width: 120px; } }
+  .start-journey__header {
+    text-transform: uppercase;
+    font-size: 4.2vw; }
+  .start-journey__subheader {
+    margin: 0;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #E00029; }
+  .start-journey button {
+    margin-top: 2rem;
+    width: 160px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    background: #E91C35;
+    color: #FFFFFF;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 18px; }
 
 .page-template-contact h1.entry-title {
   display: none; }
@@ -3982,7 +4162,7 @@ body.blog .blog-wrapper {
       margin-bottom: 98vw; } }
   @media all and (min-width: 950px) {
     body.blog .blog-wrapper {
-      margin-bottom: 38vw; } }
+      margin-bottom: 55vw; } }
   body.blog .blog-wrapper .latest-videos-title {
     position: relative;
     text-align: center;
@@ -4265,11 +4445,12 @@ section.error-404.not-found {
     padding-top: 2rem;
     font-size: 4rem;
     margin: 20px 20px 10px 20px;
-    color: #123048; }
+    color: #000000; }
   section.error-404.not-found p {
     margin: 10px 30px 20px 30px;
     font-size: 2rem;
-    color: #123048; }
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    color: #000000; }
 
 .home-button {
   height: 80px;

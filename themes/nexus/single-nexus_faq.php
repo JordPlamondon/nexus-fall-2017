@@ -85,7 +85,7 @@ foreach ( (array) $entries as $key => $entry ) {
 			<div class="faq-single-homestay"> 
 				<h2> Keep Looking:<h2><br> 
 					<div class="underline"></div>
-
+<div class="faq-card-wrapper">
 					<div class="homestay-button-wrapper">
 						<?php   
       				$args = array(
@@ -99,18 +99,21 @@ foreach ( (array) $entries as $key => $entry ) {
 							if ($the_query->have_posts() ) : 
 							while ($the_query->have_posts() ) : $the_query->the_post()
 						?>
-							
-								<a href="<?php the_permalink(); ?>" rel="faq title"> 
+							<!-- <div class="desktop-faq-wrapper"> -->
+								<div class="permalink-wrapper">
+									<a href="<?php the_permalink(); ?>" rel="faq title"> 
+								
 								<div class="desktop-thumbnail">
 									<?php the_post_thumbnail( 'full' ); ?>
 								</div>
-								
 								<button class="homestay-looking-button">
 								<div class="button-faq-title">
 									<?php the_title(); ?>
 								</div>
 								</button>
 								</a>
+								</div>
+							<!-- </div> -->
 							
 								<!-- add the post thumbnail into loop
 								in place of buttons -->
@@ -120,7 +123,7 @@ foreach ( (array) $entries as $key => $entry ) {
 
 						<button class="return-to-top-button"><p>Return To Top</p></button>
 					</div>
-
+							</div>
 					<!-- Start Your Journey -->
 					<div class="faq-single-journey">
       			<h2> Start Your Journey<h2><br>

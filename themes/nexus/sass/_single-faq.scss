@@ -145,6 +145,7 @@ div.banner-faq-single {
     @media #{$desktop} {
       font-size: 60px;
       font-weight: 500;
+      top: 60px;
     }
   }
   .underline {
@@ -156,6 +157,7 @@ div.banner-faq-single {
     bottom: 48px;
     @media #{$desktop} {
       display: none;
+      bottom: 0;
     }
   }
   .homestay-button-wrapper {
@@ -167,7 +169,13 @@ div.banner-faq-single {
     position: relative;
     bottom: 20px;
     @media #{$desktop} {
-      display: inline;
+      display: flex;
+      flex-direction: row;
+      flex-flow: row;
+      width: 100vw;
+      bottom: 80px;
+      padding-left: 40px;
+      padding-right: 40px;
       img {
         width: 16.2vw;
         height: 171px;
@@ -182,6 +190,9 @@ div.banner-faq-single {
     font-size: 18px;
     color: $color__text-white;
     text-shadow: none;
+    @media #{$desktop} {
+      display: none;
+    }
     &:hover {
       background: darken($color__icon-element, 10%);
     }
@@ -193,6 +204,11 @@ div.banner-faq-single {
       position: relative;
       bottom: 3px;
       color: $color__text-white;
+      @media #{$desktop} {
+        color: $color__text-main;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
     }
     a {
       text-decoration: none;
@@ -201,25 +217,25 @@ div.banner-faq-single {
   .homestay-looking-button {
     @media #{$desktop} {
       display: inline;
+      width: 200px;
+      position: relative;
+      bottom: 55px;
       background-color: white;
-      color: #15405a;
-      border-radius: none;
       &:hover {
-        background: white;
+        background-color: white;
       }
-      .button-faq-title {
-        @media #{$desktop} {
-          display: block;
-          color: #15405a;
-        }
-      }
-    }
+    }  
   }
   .desktop-thumbnail {
     display: none;
     @media #{$desktop} {
       display: inline;
       margin: 0.8vw;
+    }
+  }
+  .permalink-wrapper {
+    @media #{$desktop} {
+      height: 220px;
     }
   }
   button.return-to-top-button {

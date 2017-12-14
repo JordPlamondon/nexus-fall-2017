@@ -34,6 +34,7 @@
                 <p class="program-meta-content"><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></p>
             </div>
         </div>
+</section>
         <section class="program-flex-container">
             <div class="left-side">
                 <div class="header-wrapper">
@@ -113,6 +114,19 @@
                     <?php endif; 
                     
         wp_reset_query();?>
+<h1 class="student-review-header"> Student Review </h1>
+	<div class="student-review__box">
+    <div class="student-review__box__image">
+    <img src=<?php echo get_template_directory_uri() . '/assets/images/photo-review@3x.png'?>
+    alt="Picture of a Student">
+    </div>
+    <div class="student-review__info-wrapper">
+        <div class="grey"></div>
+        <blockquote class="student-review__info">
+        <span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
+        </blockquote>
+    </div>
+</div>
     </div> <!-- / Readmore -->
 
 </article><!-- #post-## -->

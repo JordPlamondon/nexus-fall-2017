@@ -246,6 +246,7 @@
     padding-top: 75px;
   }
   .single-program-content {
+  
     margin: 0 auto;
     max-width: 90%;
     margin-top: 0;
@@ -300,6 +301,7 @@
     @media #{$tablet-test} {
       margin-right: -10%;
       z-index: 10;
+      margin-left: 10%;
     }
   }
  
@@ -311,8 +313,11 @@
   .program-media {
     max-width: max-content;
     margin: 0 auto;
+    height: 100%;
+
     @media #{$desktop} {
       margin-top: 1rem;
+     
     }
   }
 
@@ -320,7 +325,12 @@
     display: none;
     @media #{$desktop} {
       display: block;
+      height: 100%;
       min-width: 50%;
+      img {
+        height: 500px;
+        width: 140%;
+      }
     }
   }
   .single-program-title {
@@ -340,18 +350,22 @@
 
   .program-flex-container {
     @media #{$tablet-test} {
-      height: auto;
+      height: 500px;
       overflow: hidden;
       display: flex;
       align-items: flex-start;
       margin: 2rem 0;
+      margin-bottom: 48px;
+      background: green;
     }
   }
 
   .single-program-container {
+     background: red;
     padding: 1rem;
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: 48px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -399,4 +413,153 @@
       border-right: 3px solid #ff8a2a;
     }
   }
+}
+
+.student-review {
+  .headergroup {
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 4.5vw;
+  }
+
+  .underline {
+    margin: 0 auto 3rem auto;
+    @media #{$desktop} {
+      width: 120px;
+    }
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .owl-dots {
+    margin: 3rem auto;
+  }
+}
+
+.student-review__box {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  @media #{$desktop} {
+    flex-direction: row;
+  }
+
+  .student-review__box__image {
+    @media #{$desktop} {
+      flex-basis:40%;
+      width: 30%;
+      overflow: hidden;
+    }
+
+  img {
+    @media #{$desktop} {
+      height: 270px;
+     
+    }
+  }
+}
+}
+  .student-review-header {
+    color: $color__footer-navbkgrnd;
+    text-align: center;
+    font-size: 58px;
+  }
+.student-review__info-wrapper {
+  background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: $color__textbox-background;
+  margin-top: 0;
+  width: 100%;
+  padding: 39px 30px 22px 48px;
+  font-weight: bold;
+  font-size: 4vw;
+  position: relative;
+  margin-bottom: 64px;
+  @media #{$desktop} {
+    margin: 0;
+    font-size: 3vw;
+    flex-basis: 80%;
+    margin-bottom: 10vw;
+  }
+  
+  .student-review__info {
+    @media #{$desktop} {
+      padding: 15px 20px 15px 45px;
+    }
+  }
+      
+  .grey {
+    background: $color__textbox-background;
+    transform: rotate(134deg);
+    bottom: 54px;
+    left: 40%;
+    height: 30px;
+    position: relative;
+    width: 30px;
+    @media #{$desktop} {
+      background: $color__textbox-background;
+      transform: rotate(134deg);
+      bottom: -60px;
+      left: -63px;
+      height: 30px;
+      position: relative;
+      width: 30px;
+    }
+  }
+}
+ 
+
+.start-journey {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 1rem 0;
+  background: $color__textbox-background;
+
+  .headergroup {
+    line-height: 3rem;
+  }
+
+  .underline {
+    margin: 0 auto 1rem auto;
+    @media #{$desktop} {
+      width: 120px;
+    }
+  }
+
+  &__header {
+    text-transform: uppercase;
+    font-size: 4.2vw;
+  }
+
+  &__subheader {
+    margin: 0;
+    font-family: $font__accent;
+    font-weight: 600;
+    font-style: italic;
+    color: $color__text-accent;
+  }
+
+  button {
+    margin-top: 2rem;
+    width: 160px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: none;
+    text-shadow: none;
+    background: $color__icon-element;
+    color: $color__text-white;
+    font-family: $font__main;
+    font-weight: 900;
+    font-size: 18px;
+  } 
 }

@@ -63,7 +63,7 @@
     line-height: 26px;
     font-weight: 200;
     color: $color__footer-background;
-      @media #{$tablet} {
+      @media #{$tablet-test} {
         width: 40%;
       }
     }
@@ -98,7 +98,7 @@
     min-height: 166px;
     border-radius: 100px;
     z-index: 5;
-    @media #{$tablet} {      
+    @media #{$tablet-test} {      
       height: 30vw;
       min-height: 240px;
       max-height: 260px;
@@ -115,7 +115,7 @@
     @media #{$tablet-test} {
       margin-left: 10%;
     }
-      @media #{$tablet} {
+      @media #{$tablet-test} {
         background-color:$color__textbox-background;
         }
       .about-left {
@@ -133,7 +133,7 @@
           padding-left: 15%;
           margin: 0;
         }
-        @media #{$tablet} {
+        @media #{$tablet-test} {
           padding-right: 22%;
           padding-left: 22%;
         }
@@ -149,7 +149,7 @@
         line-height: 16pt;
         font-size: 14px;
         color: $color__footer-background;
-        @media #{$tablet} {   
+        @media #{$tablet-test} {   
           padding-right: 24px;
           padding-left: 24px;
           line-height: 24pt;
@@ -174,7 +174,7 @@
         padding-right: 18%;
         padding-left: 18%;
       }
-      @media #{$tablet} {
+      @media #{$tablet-test} {
         padding-right: 22%;
         padding-left: 22%;
       }
@@ -190,7 +190,7 @@
         text-align: left;
         font-size: 14px;
         padding-left: 14px;
-        @media #{$tablet} {
+        @media #{$tablet-test} {
           font-size: 18px;
           padding-right: 24px;
           padding-left: 24px;

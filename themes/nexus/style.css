@@ -2898,6 +2898,10 @@ div.banner-faq-single {
   color: #15405A;
   position: relative;
   top: 25px; }
+  @media all and (min-width: 650px) {
+    .faq-single-homestay h2 {
+      font-size: 60px;
+      font-weight: 500; } }
 
 .faq-single-homestay .underline {
   margin: 0 auto;
@@ -2906,6 +2910,9 @@ div.banner-faq-single {
   border-bottom: 3px solid #FF8A2A;
   position: relative;
   bottom: 48px; }
+  @media all and (min-width: 650px) {
+    .faq-single-homestay .underline {
+      display: none; } }
 
 .faq-single-homestay .homestay-button-wrapper {
   width: 375px;
@@ -3955,8 +3962,14 @@ nav.main-navigation:hover {
   padding-left: 25px; }
 
 body.blog .blog-wrapper {
+<<<<<<< HEAD
+  height: 2110px;
+  min-height: 2110px; }
+  @media all and (min-width: 650px) {
+=======
   height: 2110px; }
   @media all and (min-width: 950px) {
+>>>>>>> d028d63672c49d0e69626a437024510f2b13fd12
     body.blog .blog-wrapper {
       height: 2700px; } }
   body.blog .blog-wrapper .latest-videos-title {

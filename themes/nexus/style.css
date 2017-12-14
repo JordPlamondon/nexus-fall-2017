@@ -2184,7 +2184,7 @@ div.footer__social-media {
 div#secondary.widget-area,
 div.footer__contact p a,
 .hidden a {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
   color: #ffffff; }
 
 div.widget_info_contain a {
@@ -3464,10 +3464,12 @@ nav.main-navigation:hover {
         width: 144px;
         border-bottom-width: 6px;
         margin: 0; } }
-  @media all and (min-width: 850px) {
-    .single-nexus_program .left-side {
-      margin-right: -10%;
-      z-index: 10; } }
+  .single-nexus_program .left-side {
+    height: 100%; }
+    @media all and (min-width: 850px) {
+      .single-nexus_program .left-side {
+        margin-right: -10%;
+        z-index: 10; } }
   .single-nexus_program .strong-side {
     -ms-flex-preferred-size: 55%;
         flex-basis: 55%;
@@ -3499,6 +3501,8 @@ nav.main-navigation:hover {
         font-size: 3.75rem; } }
   @media all and (min-width: 850px) {
     .single-nexus_program .program-flex-container {
+      height: auto;
+      overflow: hidden;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;

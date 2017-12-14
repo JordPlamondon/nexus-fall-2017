@@ -2925,6 +2925,17 @@ div.banner-faq-single {
   margin: 0 auto;
   position: relative;
   bottom: 20px; }
+  @media all and (min-width: 650px) {
+    .faq-single-homestay .homestay-button-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
   .faq-single-homestay .homestay-button-wrapper .homestay-looking-button, .faq-single-homestay .homestay-button-wrapper .return-to-top-button {
     border-radius: 8px;
     width: 165px;
@@ -2934,6 +2945,9 @@ div.banner-faq-single {
     font-size: 18px;
     color: #FFFFFF;
     text-shadow: none; }
+    @media all and (min-width: 650px) {
+      .faq-single-homestay .homestay-button-wrapper .homestay-looking-button, .faq-single-homestay .homestay-button-wrapper .return-to-top-button {
+        display: none; } }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover, .faq-single-homestay .homestay-button-wrapper .return-to-top-button:hover {
       background: #bf1328; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button p, .faq-single-homestay .homestay-button-wrapper .return-to-top-button p {
@@ -2945,8 +2959,16 @@ div.banner-faq-single {
       color: #FFFFFF; }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
       text-decoration: none; }
+  .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
+    display: none; }
+    @media all and (min-width: 650px) {
+      .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
+        display: inline; } }
   .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
     background-color: #ac192c; }
+    @media all and (min-width: 650px) {
+      .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
+        display: none; } }
 
 .faq-single-homestay .faq-single-journey {
   height: 195px;
@@ -4068,6 +4090,11 @@ body.blog li:nth-of-type(n+4):nth-of-type(-n+6) {
   @media all and (min-width: 650px) {
     body.blog li:nth-of-type(n+4):nth-of-type(-n+6) {
       width: 31vw; } }
+  body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-content {
+    visibility: hidden; }
+    @media all and (min-width: 650px) {
+      body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-content {
+        visibility: visible; } }
   body.blog li:nth-of-type(n+4):nth-of-type(-n+6) .blog-title {
     text-align: center;
     font-size: 18px; }

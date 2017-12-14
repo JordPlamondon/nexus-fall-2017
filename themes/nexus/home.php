@@ -18,12 +18,12 @@ get_header(); ?>
         <div class="underline-videos"></div>
         <section class="blog-page">
 
-        <?php
-        $category_name = 'videos, blogs'; 
+        
+        <!-- $category_name = 'videos, blogs'; 
         $temp = $wp_query;
         $wp_query = null;
         $wp_query = new WP_Query();
-        $wp_query->query('showposts=6' . '&paged=' . $paged . '&category_name=' . $category_name); ?>
+        $wp_query->query('showposts=6' . '&paged=' . $paged . '&category_name=' . $category_name);  -->
 
      
           <ul class "blog-categories">

@@ -159,6 +159,11 @@ div.banner-faq-single {
     margin: 0 auto;
     position: relative;
     bottom: 20px;
+    @media #{$desktop} {
+      display: flex;
+      flex-flow: row wrap;
+      flex-wrap: wrap;
+    }
   .homestay-looking-button, .return-to-top-button {
     border-radius: 8px;
     width: 165px;
@@ -168,6 +173,9 @@ div.banner-faq-single {
     font-size: 18px;
     color: $color__text-white;
     text-shadow: none;
+    @media #{$desktop} {
+      display: none;
+    }
     &:hover {
       background: darken($color__icon-element, 10%);
     }
@@ -184,8 +192,17 @@ div.banner-faq-single {
       text-decoration: none;
     }
   }
+  .desktop-thumbnail {
+    display: none;
+    @media #{$desktop} {
+      display: inline;
+    }
+  }
   button.return-to-top-button {
     background-color: rgb(172, 25, 44);
+    @media #{$desktop} {
+      display: none;
+    }
   }
 }
 // Journey

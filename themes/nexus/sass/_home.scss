@@ -194,6 +194,12 @@ body.blog {
       width: 31vw;
       // margin-left: 20px;
     }
+    .blog-content {
+      visibility: hidden;
+      @media #{$desktop} {
+        visibility: visible;
+      }
+    }
     .blog-title {
       text-align: center;
       font-size: 18px;

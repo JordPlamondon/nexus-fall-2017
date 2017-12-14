@@ -8,6 +8,7 @@
 
   h2 {
     margin:0;
+    line-height: 40px;
     text-align: center;
     font-weight: bold;
   }
@@ -21,7 +22,9 @@
   } 
 
   .site-main {
-    .banner { 
+    .full-page-wrapper {
+      max-width: 100vw;
+    .banner {
       padding-top: 4.5rem;
       width: 100%;
       height: 16rem;
@@ -29,8 +32,9 @@
       background-repeat: no-repeat;
       background-size: 97vw;
       @media #{$desktop} {
-        height: 40vw;
-        background-size: 100vw 40vw;
+        height: 100vh;
+        min-width: 00px;
+        background-size: 100% 100%;
         background-image: url('../../assets/images/home-hero-desktop.png');
         display: flex;
         flex-direction: column;
@@ -55,15 +59,18 @@
         text-transform: uppercase;
         color: $color__text-main;
         @media #{$desktop} {
-          font-size: 6vw;
+          font-size: 86px;
+          letter-spacing: 10px;
           font-weight: bold;
+          margin-bottom: 14px;
           text-align: center;
+          color: $color__footer-background;
         }
       }
 
       &__info__p {
         margin: 0;
-        font-size: 6vw;
+        font-size: 16px;
         font-family: $font__accent;
         font-weight: 600;
         font-style: italic;
@@ -73,7 +80,8 @@
         line-height: 18px;
         @media #{$desktop} {
           margin-bottom: 2vw;  
-          font-size: 4vw;
+          font-size: 46px;
+          
         }
       }
 
@@ -85,10 +93,12 @@
         font-style: italic;
         font-weight: 600;
         color: $color__text-main;
+        text-align: center;
         @media #{$desktop} {
           margin-top: 2vw;
-          font-size: 2vw;  
+          font-size: 22px;
           width: 33%;
+          color: $color__footer-background;
         }
       }
 
@@ -107,22 +117,24 @@
     }
 
     .why-nexus {
-      height: 90vh;
+      margin-top: 100px;
+      height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
-      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)), url('../../assets/images/whynexus.png');
+      background: linear-gradient(180deg,rgba(255, 255, 255, 0.726) 0,rgba(255, 255, 255, 0.658)), url('../../assets/images/whynexus.png');
       background-position-y: top, bottom;
       background-position-x: left, left;
       background-repeat: no-repeat;
       background-size: 100% 75%, 100% 50%;
+      color: $color__footer-background;
       @media #{$desktop} {
         justify-content: space-around;
         align-items: flex-start;
-        background-position-y: center, center;
+        background-position-y: center, center; 
         background-repeat: no-repeat;
         background-position-x: left, right;
-        background-size: 70% 50%,50% 50%;
+        background-size: 70% 75%,56% 70%;
       }
 
       h2 {
@@ -131,7 +143,9 @@
         @media #{$desktop} {
           margin: 0;
           width: 65%;
-          font-size: 2.5rem;
+          font-size: 3.5rem;
+          position: relative;
+          bottom: 100px;
         }
       }
       
@@ -152,14 +166,23 @@
         width: 80%;
         margin: 10px auto 0 auto;
         @media #{$desktop} {
-          margin: 0;
+          font-size: 1rem;
+          font-weight: 100;
           width: 60%;
+          position: relative;
+          right: 20%;
+         
+          
         }
       }
       
       .underline {
         margin: 0 auto;
         @media #{$desktop} {
+          width: 170px;
+          font-family: $font__accent;
+          position: relative;
+          bottom: 80px;
           margin: 0;
           width: 120px;
         }
@@ -167,8 +190,8 @@
 
       button {
         margin-top: 3rem;
-        width: 135px;
-        height: 40px;
+        width: 185px;
+        height: 50px;
         padding: 0;
         border-radius: 25px 0px 25px 0px;
         box-shadow: none;
@@ -177,7 +200,9 @@
         color: $color__text-white;
         font-family: $font__main;
         font-weight: 900;
-        font-size: 18px;
+        font-size: 22px;
+        position: relative;
+        letter-spacing: 2px;
         @media #{$desktop} {
           margin-bottom: 3rem;
         }
@@ -190,8 +215,9 @@
         display: flex;
         justify-content: flex-end;
         height: 50vw;
+        min-height: 560px;
         background: url(../../assets/images/programs_nexus@3x.png);
-        background-size: 80vw;
+        background-size: cover;
         background-repeat: no-repeat;
       }
 
@@ -218,8 +244,14 @@
         }
 
         h2 {
-          text-align: left;
-          font-size: 4vw;
+            text-align: left;
+            font-size: 38px;
+            width: 400px;
+            height: 100px;
+            letter-spacing: 4px;
+            margin-top: 200px;
+            margin-bottom: 24px;
+            line-height: 55px;
         }
 
         button {
@@ -238,6 +270,8 @@
       }
     }
 
+  
+
 
     .browse-programs {
       display: flex;
@@ -251,9 +285,7 @@
 
       .underline {
         margin: 0 auto; 
-        @media #{$desktop} {
-          width: 120px;
-        }
+        width: 70px;
       }
 
       &__subheading {
@@ -409,4 +441,5 @@
       } 
     }
   }
+}
 }

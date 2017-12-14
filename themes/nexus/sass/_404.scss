@@ -13,35 +13,35 @@ div.hero-404 {  // Hero image
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vw;
-  width: 100%;
+  width: 100%; 
+  min-height: 800px;
   max-height: 981px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 800px;
+  justify-content: center; 
 }
 
 section.error-404.not-found { // White background with opacitiy.  Text contained in here
   display:flex;
   flex-direction: column;
   justify-content: center;
-  background-color: $color__textbox-background;
-  opacity: 0.75;
   max-height: 633px;	
   max-width: 1018px;	
   min-height: 800px;
   text-align: center;
+  background-color: $color__textbox-background;
+  opacity: 0.75;
     h1.page-title {
-    margin: 20px 20px 10px 20px;
-    color: $color__text-main;
-    padding-top: 2rem;
-    font-size: 4rem;
+      padding-top: 2rem;
+      font-size: 4rem;
+      margin: 20px 20px 10px 20px;
+      color: $color__text-main;
     } 
     p {
       margin: 10px 30px 20px 30px;
-      color: $color__text-main;
       font-size: 2rem;
+      color: $color__text-main;
     }
 }
 
@@ -49,14 +49,14 @@ section.error-404.not-found { // White background with opacitiy.  Text contained
   height: 80px;	
   width: 250px;	
   border-radius: 2px 100px 2px 100px;	
-  background-color: $color__icon-element;	
-  color: $color__text-white;
-  font-family: $font__main;
   font-size: 36px;	
   font-weight: bold;	
   letter-spacing: 2px;	
   line-height: 28px;	
   text-align: center;
+  font-family: $font__main;  
+  background-color: $color__icon-element;	
+  color: $color__text-white;
   &:hover {
     border-radius: 100px 2px 100px 2px;	
     background-color: $color__icon-element;

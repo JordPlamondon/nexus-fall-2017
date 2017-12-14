@@ -153,10 +153,16 @@
       justify-content: center; 
       position: relative;
       bottom: 2.5rem;
-      @media #{$desktop} {
+      @media all and (min-width: 650px) {
         position: absolute;
         z-index: 998;
-        top: 20%;
+        top: 42%;
+        left: 42%;
+      }
+      @media all and (min-width: 880px) {
+        position: absolute;
+        z-index: 998;
+        top: 36%;
         left: 50%;
       }
       // @media all and (min-width: 1024px) {
@@ -181,14 +187,16 @@
 
     .owl-dots {
       display: none;
-      @media #{$desktop} {
+      @media all and (min-width: 650px) {
         display: inline;
-        position: relative;
-        bottom: 26rem;
-        left: 140px;
+        position: absolute;
+        bottom: 305px;
+        left: 15px;
+      }
+      @media all and (min-width: 880px) {
+        bottom: 335px;
       }
     }
-
 
 
     .curious {
@@ -215,9 +223,5 @@
         color: $color__text-white;
       }
     }
-
   }
-  
-
 }
- 

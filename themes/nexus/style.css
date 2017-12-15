@@ -698,15 +698,16 @@ a {
   .home .site-main .full-page-wrapper {
     max-width: 100vw; }
     .home .site-main .full-page-wrapper .banner {
-      padding-top: 2.5rem;
+      padding-top: 20vw;
       height: 50vw;
       background: url(../../assets/images/photo-hero-mobile.png);
       background-size: cover;
       background-position: bottom; }
+      @media all and (min-width: 620px) {
+        .home .site-main .full-page-wrapper .banner {
+          padding-top: 6rem; } }
       @media all and (min-width: 950px) {
         .home .site-main .full-page-wrapper .banner {
-          height: 80vh;
-          min-width: 00px;
           background-size: cover;
           background-position: bottom;
           background-image: url("../../assets/images/home-hero-desktop.png");
@@ -729,7 +730,9 @@ a {
         line-height: 2rem; }
         @media all and (min-width: 950px) {
           .home .site-main .full-page-wrapper .banner__info {
-            margin: 0; } }
+            margin: 0;
+            position: relative;
+            bottom: 5rem; } }
       .home .site-main .full-page-wrapper .banner__info__h1 {
         margin: 1vw 0 0 0;
         font-size: 11vw;
@@ -775,10 +778,9 @@ a {
             top: 7vw; } }
         @media all and (min-width: 950px) {
           .home .site-main .full-page-wrapper .banner__info__p {
-            margin-bottom: 2vw;
             font-size: 46px; } }
       .home .site-main .full-page-wrapper .banner__p {
-        width: 52%;
+        width: 56%;
         margin-left: 2rem;
         margin-top: 0;
         font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -796,6 +798,7 @@ a {
             top: 10vw; } }
         @media all and (min-width: 950px) {
           .home .site-main .full-page-wrapper .banner__p {
+            top: 2rem;
             margin-top: 2vw;
             font-size: 22px;
             width: 33%;
@@ -1037,51 +1040,6 @@ a {
           -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
               -ms-flex-direction: row;
-<<<<<<< HEAD
-                  flex-direction: row; } }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
-          -ms-flex-preferred-size: 40%;
-              flex-basis: 40%;
-          width: 30%;
-          overflow: hidden; } }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review__box .student-review__box__image img {
-          -webkit-transform: scale(3);
-                  transform: scale(3);
-          position: relative;
-          top: 50px; } }
-    .home .site-main .full-page-wrapper .student-review__info-wrapper {
-      background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
-      background-repeat: no-repeat;
-      background-position: top left, bottom right;
-      background-color: #F3F5F8;
-      margin-top: 0;
-      margin-bottom: 1rem;
-      width: 100%;
-      padding: 39px 30px 22px 48px;
-      font-weight: bold;
-      font-size: 4vw;
-      position: relative; }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review__info-wrapper {
-          margin: 0;
-          font-size: 3vw;
-          -ms-flex-preferred-size: 80%;
-              flex-basis: 80%; } }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review__info-wrapper .student-review__info {
-          padding: 15px 20px 15px 45px; } }
-      .home .site-main .full-page-wrapper .student-review__info-wrapper .grey {
-        background: #F3F5F8;
-        -webkit-transform: rotate(134deg);
-                transform: rotate(134deg);
-        bottom: 54px;
-        left: 40%;
-        height: 30px;
-        position: relative;
-        width: 30px; }
-=======
                   flex-direction: row;
           max-height: 270px; } }
       .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
@@ -1097,7 +1055,6 @@ a {
         height: 40vw;
         max-height: 500px;
         overflow: hidden; }
->>>>>>> 70dfb095b3082d04724f6f2a41d559d4f3ea6858
         @media all and (min-width: 950px) {
           .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
             -ms-flex-preferred-size: 40%;
@@ -3621,7 +3578,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }

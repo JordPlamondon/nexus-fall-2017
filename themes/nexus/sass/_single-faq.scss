@@ -13,6 +13,9 @@ div.banner-faq-single {
     @media #{$desktop} {
       top: 250px;
     }
+    span {
+      background-color: red;
+    }
   }
   .banner-image-faq-single{
     height: 139px;

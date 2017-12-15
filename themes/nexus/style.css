@@ -2874,6 +2874,8 @@ div.banner-faq-single {
     @media all and (min-width: 950px) {
       div.banner-faq-single h1 {
         top: 250px; } }
+    div.banner-faq-single h1 span {
+      background-color: red; }
   div.banner-faq-single .banner-image-faq-single {
     height: 139px;
     width: 100vw;
@@ -4480,7 +4482,7 @@ div#id.hfeed.site {
   margin-top: 85px; }
 
 .single-post .blog-wrapper {
-  height: 4000px;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4517,7 +4519,6 @@ div#id.hfeed.site {
 .single-post .blog-picture {
   height: 40vw;
   width: 80vw;
-  background: pink;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4531,12 +4532,14 @@ div#id.hfeed.site {
   margin: 0 auto;
   margin-bottom: 48px; }
   .single-post .blog-picture h2 {
-    background-color: goldenrod;
+    color: #14304A;
+    background-color: #FFBC4A;
     font-size: 48px;
     padding: 14px;
     width: 60%; }
   .single-post .blog-picture p {
-    background-color: goldenrod;
+    color: #E00029;
+    background-color: #FFBC4A;
     padding: 14px;
     width: 40%;
     position: absolute;
@@ -4547,7 +4550,7 @@ div#id.hfeed.site {
   margin-top: 48px;
   width: 80%;
   margin: 0 auto;
-  text-align: center;
+  margin-bottom: 48px;
   border: 1px solid lightgrey; }
   .single-post .blog-post p {
     padding: 24px;
@@ -4555,6 +4558,31 @@ div#id.hfeed.site {
     margin: 0 auto;
     font-size: 18px;
     line-height: 28px; }
+
+.single-post .blog-comments {
+  background-color: #FFBC4A;
+  width: 80%;
+  padding: 24px;
+  margin: 0 auto;
+  margin-bottom: 48px; }
+
+.single-post .comments-area {
+  border: 1px solid lightgrey;
+  background: white;
+  padding: 14px;
+  width: 70%;
+  margin: 0 auto; }
+  .single-post .comments-area input {
+    width: 175px;
+    height: 40px;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: #E91C35;
+    color: white;
+    letter-spacing: 1pt; }
 
 /*--------------------------------------------------------------
 # 404 Not Found

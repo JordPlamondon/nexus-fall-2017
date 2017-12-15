@@ -13,7 +13,7 @@ get_header(); ?>
 
 		<div class="banner-faq-single"> 
     	<div class="banner-image-faq-single">
-      	<h1 class="faq-single-title"><?php echo get_the_title()?><h1>
+      	<h1 class="faq-single-title"><?php pixelninja_single_cat_title(); ?><h1>
       	<div class="underline"></div>
     	</div>
 		</div>

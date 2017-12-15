@@ -259,8 +259,10 @@ get_header(); ?>
 
 <!-- Student Review -->
 			<section class="student-review">
-				<h1 class="student-review-header"> Student Review </h1>
-
+				<div class="headergroup">
+					<h2 class="student-review-header"> Student Review </h2>
+					<div class="underline"></div>
+				</div>
 				<?php $args = array( 'post_type' => 'nexus_reviews', 'orderby' => 'rand', 'posts_per_page' => 3, ); $query = new WP_Query( $args );?>
 					<div class="owl-carousel owl-theme">
 									<!-- Begin Carousel Cell -->

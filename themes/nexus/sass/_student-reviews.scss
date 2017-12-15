@@ -10,7 +10,7 @@
     }
     .underline {
       margin: 0 auto 3rem auto;
-      width: 49px;
+      width: 49px; 
       @media #{$desktop} {
         width: 144px;
       }
@@ -45,8 +45,8 @@
       overflow: hidden;
       @media #{$desktop} {
         flex-direction: column;
-        flex-basis: 40%;
-        width: 30%;
+        // flex-basis: 40%;
+        // width: 30%;
         height: 220px;
         justify-content: flex-end;
       }

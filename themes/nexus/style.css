@@ -4769,9 +4769,6 @@ div.return-home {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        -ms-flex-preferred-size: 40%;
-            flex-basis: 40%;
-        width: 30%;
         height: 220px;
         -webkit-box-pack: end;
             -ms-flex-pack: end;

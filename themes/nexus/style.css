@@ -2817,7 +2817,7 @@ div.widget_info_contain a {
     bottom: 42px; }
     @media all and (min-width: 950px) {
       .page-template-taxonomy-nexus_faq .faq-journey p {
-        bottom: 130px;
+        bottom: 140px;
         font-size: 30px;
         font-weight: 600; } }
   .page-template-taxonomy-nexus_faq .faq-journey .underline {
@@ -3129,7 +3129,7 @@ div.banner-faq-single {
     bottom: 42px; }
     @media all and (min-width: 950px) {
       .faq-single-homestay .faq-single-journey p {
-        bottom: 130px;
+        bottom: 140px;
         font-size: 30px;
         font-weight: 600; } }
   .faq-single-homestay .faq-single-journey .underline {

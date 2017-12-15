@@ -9,14 +9,16 @@
 
 	<article id="post-<?php the_ID(); ?>" class="carouselplaceholder"; ?>
 			<div class="carouselplaceholder__content-wrapper">
-				<div class="carouselplaceholder__image-wrapper">
-  			<?php if ( has_post_thumbnail() ) : ?>
-  				<?php the_post_thumbnail( 'large' ); ?>
-				<?php endif; ?>
-				
-  			<?php the_title( '<h2 class="carouselplaceholder_subheader">', '</h1>' ); ?>
-  			<div class="carouselplaceholder__info">
-  				<?php the_content(); ?>
+				<div class="carouselplaceholder__info-wrapper">
+					<?php the_title( '<h2 class="carouselplaceholder__subheader">', '</h1>' ); ?>
+					<div class="carouselplaceholder__info">
+						<?php the_content(); ?>
+					</div>
 				</div><!-- .entry-content -->
+				<div class="carouselplaceholder__image-wrapper">
+					<?php if ( has_post_thumbnail() ) : ?>
+						<?php the_post_thumbnail( 'large' ); ?>
+					<?php endif; ?>
+				</div>	
 			</div><!-- content-wrapper -->
   </article><!-- #post-## -->

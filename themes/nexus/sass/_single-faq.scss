@@ -141,7 +141,7 @@ div.banner-faq-single {
     text-align: center;
     color: $color__footer-background;
     position: relative;
-    top: 50px;
+    top: 25px;
     @media #{$desktop} {
       font-size: 60px;
       font-weight: 500;
@@ -190,6 +190,9 @@ div.banner-faq-single {
     font-size: 18px;
     color: $color__text-white;
     text-shadow: none;
+    @media #{$desktop} {
+      display: none;
+    }
     &:hover {
       background: darken($color__icon-element, 10%);
     }

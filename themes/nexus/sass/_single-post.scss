@@ -9,83 +9,133 @@ div#id.hfeed.site {
 .single-post {
   .blog-wrapper {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     
   }
-.blog-hero {
-  height: 40vw;
-  background-image: url("../../assets/images/blog-hero.jpg");
-  background-size: 100% 100%;
+.blog-picture {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 64px;
-  h1 {
-    font-size: 60px;
-  }
-  .underline {
-    
-    width: 49px;
-    border-bottom: 3px solid $color__accent-underline;    
-  }
-}
-.blog-picture {
-  height: 40vw;
-  width: 80vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  position: relative;
+  height: 90vw;
+  width: 100vw;
   margin: 0 auto;
   margin-bottom: 48px;
-  h2 {
-    color: $color__text-blue-large;
-    background-color: $color__fp_quotes;
-    font-size: 48px;
-    padding: 14px;
-    width: 60%;
+  position: relative;
+  @media #{$tablet-test} {
+    height: 70vw;
+    width: 90vw;
+  }
+  @media #{$tablet} {
+    height: 50vw;
+    width: 90vw;
+  }
+  h1 {
+    background-color: rgba(255,255,255,.2);
+    color: white;
+    font-size: 18px;
+    align-self: center;
+    text-align: center;
+    justify-self:baseline;
+    position: relative;
+    padding: 24px;
+    top: 30%;
+     @media #{$tablet-test} {
+       font-size: 24px;
+     }
+     @media #{$tablet} {
+      font-size: 34px;
+    }
+    @media #{$desktop} {
+      font-size: 44px;
+    }
+  }
+
+   .underline {
+     position: relative;
+     top: 2vw;
+     width: 49px;
+     border-bottom: 3px solid $color__accent-underline;  
+     @media #{$tablet-test} {
+       position: relative;
+       bottom: 3vw;
+       width: 69px;
+     }  
+     @media #{$tablet} {
+       width: 129px;
+       bottom: 3vw;
+     }  
   }
   p {
+    align-self: flex-end;
     color: $color__text-accent;
     background-color: $color__fp_quotes;
-    padding: 14px;
-    width: 40%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    padding: 2px;
+    width: 90%;
+    font-size: 14px;
+    @media #{$tablet-test} {
+      font-size: 16px;
+      padding: 4px;
+      width: 80%;    
+    }
+    @media #{$tablet} {
+      width: 40%;
+    }
   }
 }
 .blog-post {
   margin-top: 48px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 48px;
   border: 1px solid lightgrey;
- 
+  @media #{$tablet-test} {
+    width: 90%;
+  }
   p {
     padding: 24px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
+    @media #{$tablet} {
+      width: 70%;
+    }
   }
 }
 .blog-comments {
   background-color: $color__fp_quotes;
-  width: 80%;
-  padding: 24px;
+  width: 100%;
+  padding: 8px;
   margin: 0 auto;
   margin-bottom: 48px;
+  @media #{$tablet} {
+    width: 80%;
+    padding: 24px;
+  }
 }
 .comments-area {
   border:  1px solid lightgrey;
   background: white;
   padding: 14px;
-  width: 70%;
+  width: 95%;
   margin: 0 auto;
+  li {
+    font-size: 14px;
+    @media #{$tablet} {
+      font-size: 16px;
+    }
+  }
+  ol {
+    margin: 0;
+  }
+  @media #{$tablet} {
+    width: 80%;
+  }
   input {
     width: 175px;
     height: 40px;

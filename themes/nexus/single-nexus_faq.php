@@ -26,7 +26,7 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
-			
+<div class="desktop-metaboxes">			
 <!-- Field Group Metaboxes -->
 <?php
 $entries = get_post_meta( get_the_ID(), 'wiki_test_repeat_group', true );
@@ -79,7 +79,7 @@ foreach ( (array) $entries as $key => $entry ) {
 }
 ?>
 		<?php endwhile; // End of the loop. ?>
-		
+</div>		
 		<!-- Keep Looking Buttons -->
 		
 			<div class="faq-single-homestay"> 

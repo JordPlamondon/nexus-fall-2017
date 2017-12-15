@@ -143,6 +143,7 @@ function plugin_myContentFilter($content)
 	
 	return ($content);
 }
+
 //Faq Single h1 Title first word select function
 function pixelninja_spanify_title($title) {
 
@@ -160,6 +161,7 @@ function pixelninja_spanify_title($title) {
 function pixelninja_single_cat_title() {
 	echo pixelninja_spanify_title(single_cat_title('', false));
 }
+
 
 
 // filter videos and blogs on blog page

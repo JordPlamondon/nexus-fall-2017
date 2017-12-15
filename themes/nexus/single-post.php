@@ -14,16 +14,13 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="blog-wrapper">
 
-			<div class="blog-hero">
- <h1> Blog Posts </h1></br>
-<div class="underline"></div>
-</div>
 
 
 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 echo '<div class="blog-picture" style="background: url('. $url.');background-size: cover;">'; ?>
 
-	<h2> <?php the_title(); ?> </h2>
+	<h1> <?php the_title(); ?> </h1>
+	<div class="underline"></div>
 	<p>	<?php nexus_posted_on(); ?> / <?php nexus_comment_count(); ?> / <?php nexus_posted_by(); ?></p>
 	<!-- title , meta, image -->
 </div>

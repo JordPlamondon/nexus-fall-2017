@@ -249,6 +249,7 @@ get_header(); ?>
 	</section>	
 
 <!-- Student Review -->
+				<h1 class="student-review-header"> Student Review </h1>
 
 				<?php $args = array( 'post_type' => 'nexus_reviews', 'orderby' => 'rand', 'posts_per_page' => 3, ); $query = new WP_Query( $args );?>
 					<div class="owl-carousel owl-theme">
@@ -271,40 +272,6 @@ get_header(); ?>
     				    wp_reset_query();?>
       		</div> <!-- carousel -->
 
-			<section class="student-review">
-				<div class="headergroup">
-					<h2 class="student-review__header">Student's Review</h2>
-					<div class="underline"></div>
-				</div>
-				<div class="owl-carousel owl-theme">
-					<div class="student-review__box">
-						<div class="student-review__box__image">
-						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo-review@3x.png'?>
-						alt="Picture of a Student">
-						</div>
-						<div class="student-review__info-wrapper">
-							<div class="grey"></div>
-							<blockquote class="student-review__info">
-							<span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
-							</blockquote>
-						</div>
-					</div>
-
-					<div class="student-review__box">
-						<div class="student-review__box__image">
-						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo-review@3x.png'?>
-						alt="Picture of a Student">
-						</div>
-						<div class="student-review__info-wrapper">
-							<div class="grey"></div>
-							<blockquote class="student-review__info">
-							<span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
-							</blockquote>
-						</div>
-					</div>
-
-				</div>
-			</section>
 			
 			<section class="start-journey">
 				<div class="headergroup">

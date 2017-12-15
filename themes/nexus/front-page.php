@@ -99,12 +99,21 @@ get_header(); ?>
 			<h2 class="browse-programs__header">Browse Programs in: </h2>
 			<div class="underline"></div>
 		</div>
-		<div class="browse-programs__subheading">BC <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Ontario <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Alberta <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Quebec <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Manitoba <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Saskatchewan <button class="bracket">></button></div>
+			<?php
+					$terms = get_terms( array(
+						'taxonomy' => 'provinces',
+						'hide_empty' => 0,
+					));
+					if ( ! empty( $terms ) ** ! is_wp_error( $terms)):
+					?>
+						<?php foreach ($terms as $term) : ?>
+							<div class="browse-programs__subheading">	
+								<p><?php echo $term->name; ?></p>
+								<a class="bracket" href="<?php echo get_term_link( $term ); ?>"> > </a>
+							</div>
+						<?php endforeach; ?>
+				<?php endif ?>
+	
 	</section>
 
 <!-- ###### Main map and Province Icons - ##########-->

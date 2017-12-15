@@ -117,37 +117,6 @@ function nexus_register_metaboxes() {
 		'type' => 'wysiwyg',
 	) );
 		$program_details->add_field( array(
-		'name' => 'Progam media',
-		'desc' => 'Additional media',
-		'id'   => $prefix . 'program_media',
-		'type' => 'wysiwyg',
-  ) );
-    $program_details->add_field( array(
-		'name' => 'About School',
-		'desc' => 'The description of the school',
-		'id'   => $prefix . 'program_school_about',
-		'type' => 'wysiwyg',
-  ) );
-    $program_details->add_field( array(
-		'name' => 'About City',
-		'desc' => 'The description of the City',
-		'id'   => $prefix . 'program_city_about',
-		'type' => 'wysiwyg',
-  ) );
-  	$program_details->add_field( array(
-		'name' => 'City Photo',
-		'desc' => 'A photo of the City',
-		'id'   => $prefix . 'program_city_photo',
-		'type' => 'file',
-		'repeatable' => true,
-  ) );
-  	$program_details->add_field( array(
-		'name' => 'Student Reviews',
-		'desc' => 'Student Reviews',
-		'id'   => $prefix . 'program_reviews',
-		'type' => 'wysiwyg',
-	) );
-		$program_details->add_field( array(
 		'name'       => __( 'Select Review', 'cmb2' ),
 		'desc'       => __( 'Link to a student Review', 'cmb2' ),
 		'id'         => $prefix . 'post_multicheckbox',

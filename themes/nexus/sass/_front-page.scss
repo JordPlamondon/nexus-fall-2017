@@ -325,10 +325,15 @@
         text-transform: uppercase;
         margin: 0.5rem auto;
         display: flex;
+        justify-content: space-between;
         background: $color__textbox-background;
       }
     }
-
+    .bracket {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .student-review {
       .headergroup {
         line-height: 3rem;

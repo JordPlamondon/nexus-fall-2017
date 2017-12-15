@@ -68,7 +68,7 @@ get_header(); ?>
 									<?php if ( $query->have_posts() ) : ?>
 
 										<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-											<?php get_template_part( 'template-parts/content-test' ); ?>
+											<?php get_template_part( 'template-parts/content-carousel' ); ?>
 
 										<?php endwhile; ?>
 										<?php wp_reset_postdata(); ?>
@@ -99,12 +99,21 @@ get_header(); ?>
 			<h2 class="browse-programs__header">Browse Programs in: </h2>
 			<div class="underline"></div>
 		</div>
-		<div class="browse-programs__subheading">BC <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Ontario <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Alberta <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Quebec <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Manitoba <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Saskatchewan <button class="bracket">></button></div>
+			<?php
+					$terms = get_terms( array(
+						'taxonomy' => 'provinces',
+						'hide_empty' => 0,
+					));
+					if ( ! empty( $terms ) ** ! is_wp_error( $terms)):
+					?>
+						<?php foreach ($terms as $term) : ?>
+							<div class="browse-programs__subheading">	
+								<p><?php echo $term->name; ?></p>
+								<a class="bracket" href="<?php echo get_term_link( $term ); ?>"> > </a>
+							</div>
+						<?php endforeach; ?>
+				<?php endif ?>
+	
 	</section>
 
 <!-- ###### Main map and Province Icons - ##########-->
@@ -282,6 +291,27 @@ get_header(); ?>
 
 				<button class="start-journey__button">Book Consult</button>
 			</section>
+
+			<div class="product-type-title-wrapper container">
+				<?php
+					the_archive_title( '<h1 class="page-title centered">', '</h1>' );
+				?>
+					<?php
+					$terms = get_terms( array(
+						'taxonomy' => 'provinces',
+						'hide_empty' => 0,
+					));
+					if ( ! empty( $terms ) ** ! is_wp_error( $terms)):
+					?>
+					<div class="container">
+						<?php foreach ($terms as $term) : ?>
+							<div class="container">	
+								<p><a href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a> </p>
+							</div>
+						<?php endforeach; ?>
+					</div>
+				</div>
+				<?php endif ?>
 
 
 

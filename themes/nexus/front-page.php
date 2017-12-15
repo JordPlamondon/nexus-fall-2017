@@ -68,7 +68,7 @@ get_header(); ?>
 									<?php if ( $query->have_posts() ) : ?>
 
 										<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-											<?php get_template_part( 'template-parts/content-test' ); ?>
+											<?php get_template_part( 'template-parts/content-carousel' ); ?>
 
 										<?php endwhile; ?>
 										<?php wp_reset_postdata(); ?>
@@ -282,6 +282,27 @@ get_header(); ?>
 
 				<button class="start-journey__button">Book Consult</button>
 			</section>
+
+			<div class="product-type-title-wrapper container">
+				<?php
+					the_archive_title( '<h1 class="page-title centered">', '</h1>' );
+				?>
+					<?php
+					$terms = get_terms( array(
+						'taxonomy' => 'provinces',
+						'hide_empty' => 0,
+					));
+					if ( ! empty( $terms ) ** ! is_wp_error( $terms)):
+					?>
+					<div class="container">
+						<?php foreach ($terms as $term) : ?>
+							<div class="container">	
+								<p><a href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a> </p>
+							</div>
+						<?php endforeach; ?>
+					</div>
+				</div>
+				<?php endif ?>
 
 
 

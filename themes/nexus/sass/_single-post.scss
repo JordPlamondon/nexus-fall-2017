@@ -6,3 +6,71 @@ div#id.hfeed.site {
   margin-top: 85px;
 }
 
+.single-post {
+  .blog-wrapper {
+    height: 4000px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+  }
+.blog-hero {
+  height: 40vw;
+  background-image: url("../../assets/images/blog-hero.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+  h1 {
+    font-size: 60px;
+  }
+  .underline {
+    
+    width: 49px;
+    border-bottom: 3px solid $color__accent-underline;    
+  }
+}
+.blog-picture {
+  height: 40vw;
+  width: 80vw;
+  background: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  h2 {
+    background-color: goldenrod;
+    font-size: 48px;
+    padding: 14px;
+    width: 60%;
+  }
+  p {
+    background-color: goldenrod;
+    padding: 14px;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+.blog-post {
+  margin-top: 48px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid lightgrey;
+ 
+  p {
+    padding: 24px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+ 
+}

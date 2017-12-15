@@ -42,9 +42,14 @@ get_header(); ?>
 
       <!-- ######## Items with right aligned images. Text and image can be changed here #######--> 
   <div class="about-right">
+
       <p><span class="about-titles">Applying for School</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.</p>
+
+
       <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/02@2x.png" /><img class="path-img-right" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-4@3x.png" />
+
   </div>
+
 
     <!-- ######## Items with left aligned images. Text and image can be changed here #######-->
   <div class="about-left">

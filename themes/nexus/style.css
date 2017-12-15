@@ -699,12 +699,14 @@ a {
       padding-top: 2.5rem;
       height: 50vw;
       background: url(../../assets/images/photo-hero-mobile.png);
-      background-size: 98vw; }
+      background-size: cover;
+      background-position: bottom; }
       @media all and (min-width: 950px) {
         .home .site-main .full-page-wrapper .banner {
-          height: 100vh;
+          height: 80vh;
           min-width: 00px;
-          background-size: 100% 100%;
+          background-size: cover;
+          background-position: bottom;
           background-image: url("../../assets/images/home-hero-desktop.png");
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1016,19 +1018,35 @@ a {
           -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
               -ms-flex-direction: row;
-                  flex-direction: row; } }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
-          -ms-flex-preferred-size: 40%;
-              flex-basis: 40%;
-          width: 30%;
-          overflow: hidden; } }
-      @media all and (min-width: 950px) {
+                  flex-direction: row;
+          max-height: 270px; } }
+      .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 40vw;
+        max-height: 500px;
+        overflow: hidden; }
+        @media all and (min-width: 950px) {
+          .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
+            -ms-flex-preferred-size: 40%;
+                flex-basis: 40%;
+            width: 30%;
+            max-height: 270px;
+            -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end; } }
         .home .site-main .full-page-wrapper .student-review__box .student-review__box__image img {
-          -webkit-transform: scale(3);
-                  transform: scale(3);
-          position: relative;
-          top: 50px; } }
+          max-width: none; }
+          @media all and (min-width: 950px) {
+            .home .site-main .full-page-wrapper .student-review__box .student-review__box__image img {
+              width: auto; } }
     .home .site-main .full-page-wrapper .student-review__info-wrapper {
       background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
       background-repeat: no-repeat;

@@ -29,11 +29,13 @@
       padding-top: 2.5rem;
       height: 50vw;
       background: url(../../assets/images/photo-hero-mobile.png);
-      background-size: 98vw;
+      background-size: cover;
+      background-position: bottom;
       @media #{$desktop} {
-        height: 100vh;
+        height: 80vh;
         min-width: 00px;
-        background-size: 100% 100%;
+        background-size: cover;
+        background-position: bottom;
         background-image: url('../../assets/images/home-hero-desktop.png');
         display: flex;
         flex-direction: column;
@@ -356,25 +358,33 @@
 
     .student-review__box {
       width: 90%;
+
       margin: 0 auto;
       display: flex;
       flex-direction: column;
       @media #{$desktop} {
         flex-direction: row;
+        max-height: 270px;
       }
     
       .student-review__box__image {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vw;
+        max-height: 500px;
+        overflow: hidden;
         @media #{$desktop} {
           flex-basis:40%;
           width: 30%;
-          overflow: hidden;
+          max-height: 270px;
+          justify-content: flex-end;
         }
 
-      img {
+      img {       
+        max-width: none;
         @media #{$desktop} {
-          transform: scale(3);
-          position: relative;
-          top: 50px;
+          width: auto;
         }
       }
     }

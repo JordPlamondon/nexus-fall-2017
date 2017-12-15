@@ -1007,68 +1007,6 @@ a {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-    .home .site-main .full-page-wrapper .student-review .headergroup {
-      line-height: 3rem; }
-    .home .site-main .full-page-wrapper .student-review h2 {
-      font-size: 4.5vw;
-      margin-bottom: 10px; }
-    .home .site-main .full-page-wrapper .student-review .underline {
-      margin: 0 auto 3rem auto;
-      width: 49px; }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review .underline {
-          width: 144px; } }
-    .home .site-main .full-page-wrapper .student-review .owl-nav {
-      display: none; }
-    .home .site-main .full-page-wrapper .student-review .owl-dots {
-      margin: 0 auto; }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review .owl-dots {
-          margin: 3rem auto; } }
-    .home .site-main .full-page-wrapper .student-review__box {
-      width: 90%;
-      margin: 0 auto;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review__box {
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: row;
-                  flex-direction: row;
-          max-height: 270px; } }
-      .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        height: 40vw;
-        max-height: 500px;
-        overflow: hidden; }
-        @media all and (min-width: 950px) {
-          .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
-            -ms-flex-preferred-size: 40%;
-                flex-basis: 40%;
-            width: 30%;
-            max-height: 270px;
-            -webkit-box-pack: end;
-                -ms-flex-pack: end;
-                    justify-content: flex-end; } }
-        .home .site-main .full-page-wrapper .student-review__box .student-review__box__image img {
-          max-width: none; }
-          @media all and (min-width: 950px) {
-            .home .site-main .full-page-wrapper .student-review__box .student-review__box__image img {
-              width: auto; } }
     .home .site-main .full-page-wrapper .start-journey {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1655,21 +1593,6 @@ a {
 .home .why-canada .owl-item:not(.active) img {
   display: none; }
 
-.home .why-canada .first {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whynexus@3x.png);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whynexus@3x.png);
-  background-size: 100% 70%,100% 75%;
-  background-position-x: center, center;
-  background-position-y: top, bottom;
-  background-repeat: no-repeat,no-repeat; }
-  @media all and (min-width: 880px) {
-    .home .why-canada .first {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whynexus@3x.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whynexus@3x.png");
-      background-size: 65% 55%,70% 100%;
-      background-position-x: left,right;
-      background-repeat: no-repeat,no-repeat; } }
-
 .home .why-canada .carouselplaceholder {
   width: 100%;
   height: 90vh;
@@ -1685,8 +1608,11 @@ a {
     .home .why-canada .carouselplaceholder {
       position: relative;
       height: 104vh;
-      background-size: 65% 57%;
+      background-size: 65% 100%;
       background-position: top left; } }
+  @media all and (min-width: 1240px) {
+    .home .why-canada .carouselplaceholder {
+      background-size: 65% 57%; } }
   .home .why-canada .carouselplaceholder__image-wrapper {
     position: relative;
     z-index: -1; }
@@ -2921,8 +2847,9 @@ div.banner-faq-single {
     bottom: 15px; }
     @media all and (min-width: 950px) {
       div.banner-faq-single .underline {
-        width: 74px;
-        border-bottom: 6px solid #FF8A2A; } }
+        width: 144px;
+        border-bottom: 6px solid #FF8A2A;
+        bottom: 45px; } }
 
 .nexus_faq-template-default .site-main .thumb {
   display: block;
@@ -3072,12 +2999,14 @@ div.banner-faq-single {
               flex-direction: row;
       -ms-flex-flow: row;
           flex-flow: row;
-      width: 100vw;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 90vw;
       bottom: 80px;
-      padding-left: 10px;
-      padding-right: 40px; }
+      margin: 0 auto; }
       .faq-single-homestay .homestay-button-wrapper img {
-        width: 16.2vw;
+        width: 200px;
         height: 171px; } }
   .faq-single-homestay .homestay-button-wrapper .homestay-looking-button, .faq-single-homestay .homestay-button-wrapper .return-to-top-button {
     border-radius: 8px;
@@ -3120,12 +3049,10 @@ div.banner-faq-single {
     display: none; }
     @media all and (min-width: 950px) {
       .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
-        display: inline;
-        margin: 0.8vw; } }
+        display: inline; } }
   @media all and (min-width: 950px) {
     .faq-single-homestay .homestay-button-wrapper a {
-      height: 220px;
-      margin-left: 10px; } }
+      height: 220px; } }
   .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
     background-color: #ac192c; }
     @media all and (min-width: 950px) {
@@ -3796,32 +3723,6 @@ nav.main-navigation:hover {
 
 .student-review .owl-dots {
   margin: 3rem auto; }
-
-.student-review__box {
-  width: 90%;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  @media all and (min-width: 950px) {
-    .student-review__box {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row; } }
-  @media all and (min-width: 950px) {
-    .student-review__box .student-review__box__image {
-      -ms-flex-preferred-size: 40%;
-          flex-basis: 40%;
-      width: 30%;
-      overflow: hidden; } }
-  @media all and (min-width: 950px) {
-    .student-review__box .student-review__box__image img {
-      height: 270px; } }
 
 .start-journey {
   display: -webkit-box;
@@ -4787,22 +4688,93 @@ div.return-home {
   @media all and (min-width: 950px) {
     .student-review__info-wrapper .student-review__info {
       padding: 15px 20px 15px 45px; } }
-  .student-review__info-wrapper .grey {
-    background: #F3F5F8;
-    -webkit-transform: rotate(134deg);
-            transform: rotate(134deg);
-    bottom: 54px;
-    left: 40%;
-    height: 30px;
-    position: relative;
-    width: 30px; }
+  .student-review__info-wrapper .student-review .headergroup {
+    line-height: 3rem; }
+  .student-review__info-wrapper .student-review h2 {
+    font-size: 4.5vw;
+    margin-bottom: 10px; }
+  .student-review__info-wrapper .student-review .underline {
+    margin: 0 auto 3rem auto;
+    width: 49px; }
     @media all and (min-width: 950px) {
-      .student-review__info-wrapper .grey {
-        background: #F3F5F8;
-        -webkit-transform: rotate(134deg);
-                transform: rotate(134deg);
-        bottom: -60px;
-        left: -63px;
-        height: 30px;
-        position: relative;
-        width: 30px; } }
+      .student-review__info-wrapper .student-review .underline {
+        width: 144px; } }
+  .student-review__info-wrapper .student-review .owl-nav {
+    display: none; }
+  .student-review__info-wrapper .student-review .owl-dots {
+    margin: 3rem auto; }
+  .student-review__info-wrapper .student-review__box {
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media all and (min-width: 950px) {
+      .student-review__info-wrapper .student-review__box {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        max-height: 220px; } }
+    .student-review__info-wrapper .student-review__box .student-review__box__image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 40vw;
+      max-height: 500px;
+      overflow: hidden; }
+      @media all and (min-width: 950px) {
+        .student-review__info-wrapper .student-review__box .student-review__box__image {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -ms-flex-preferred-size: 40%;
+              flex-basis: 40%;
+          width: 30%;
+          height: 220px;
+          -webkit-box-pack: end;
+              -ms-flex-pack: end;
+                  justify-content: flex-end; } }
+      .student-review__info-wrapper .student-review__box .student-review__box__image img {
+        max-width: none; }
+        @media all and (min-width: 950px) {
+          .student-review__info-wrapper .student-review__box .student-review__box__image img {
+            height: 220px;
+            width: auto; } }
+  .student-review__info-wrapper .student-review__info-wrapper {
+    background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #F3F5F8;
+    margin-top: 0;
+    width: 100%;
+    padding: 39px 30px 22px 48px;
+    font-weight: bold;
+    font-size: 4vw;
+    position: relative; }
+    .student-review__info-wrapper .student-review__info-wrapper .grey {
+      background: #F3F5F8;
+      -webkit-transform: rotate(134deg);
+              transform: rotate(134deg);
+      bottom: 54px;
+      left: 40%;
+      height: 30px;
+      position: relative;
+      width: 30px; }
+      @media all and (min-width: 950px) {
+        .student-review__info-wrapper .student-review__info-wrapper .grey {
+          background: #F3F5F8;
+          -webkit-transform: rotate(134deg);
+                  transform: rotate(134deg);
+          bottom: -60px;
+          left: -63px;
+          height: 30px;
+          position: relative;
+          width: 30px; } }

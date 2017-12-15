@@ -161,10 +161,6 @@ function pixelninja_single_cat_title() {
 	echo pixelninja_spanify_title(single_cat_title('', false));
 }
 
-// $('.title-span').text(function(_, txt) {
-// 	return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
-// });
-
 
 // filter videos and blogs on blog page
 // add_filter('pre_get_posts', 'per_category_basis');

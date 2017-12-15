@@ -2825,7 +2825,7 @@ div.banner-faq-single {
     top: 50px; }
     @media all and (min-width: 950px) {
       div.banner-faq-single h1 {
-        top: 250px;
+        top: 150px;
         font-size: 70px; } }
     div.banner-faq-single h1 .title-span {
       font-style: italic;
@@ -2834,11 +2834,13 @@ div.banner-faq-single {
       text-transform: capitalize; }
       @media all and (min-width: 950px) {
         div.banner-faq-single h1 .title-span {
+          display: block;
           font-style: italic;
           color: #E00029;
           font-size: 50px;
           font-weight: 200;
-          text-transform: capitalize; } }
+          text-transform: capitalize;
+          overflow-wrap: break-word; } }
   div.banner-faq-single .banner-image-faq-single {
     height: 139px;
     width: 100vw;

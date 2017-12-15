@@ -143,6 +143,7 @@ function plugin_myContentFilter($content)
 	
 	return ($content);
 }
+
 //Faq Single h1 Title first word select function
 function pixelninja_spanify_title($title) {
 

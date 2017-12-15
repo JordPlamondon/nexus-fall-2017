@@ -1,5 +1,5 @@
 .page-template-taxonomy-nexus_faq {
-  .title-wrapper {  //position absolute for desktop
+  .title-wrapper { 
     h1 {
       text-align: center;
       color: $color__text-main;
@@ -28,7 +28,7 @@
     }
   }
   .faq-page {
-    height: 130px;
+    height: 139px;
     width: 100vw;
     background-image: url("../../assets/images/faq@3x.png");
     background-size: 100% 100%;
@@ -145,7 +145,7 @@
           color: $color__footer-background;
           @media #{$desktop} {
             font-size: 23px;
-            bottom: 0;
+            top: 15px;
           }
           @media #{$tablet} {
             font-size: 20px;

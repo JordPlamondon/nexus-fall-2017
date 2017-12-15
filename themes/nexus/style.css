@@ -2586,7 +2586,7 @@ div.widget_info_contain a {
       top: 190px; } }
 
 .page-template-taxonomy-nexus_faq .faq-page {
-  height: 130px;
+  height: 139px;
   width: 100vw;
   background-image: url("../../assets/images/faq@3x.png");
   background-size: 100% 100%; }
@@ -2715,7 +2715,7 @@ div.widget_info_contain a {
         @media all and (min-width: 950px) {
           .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
             font-size: 23px;
-            bottom: 0; } }
+            top: 15px; } }
         @media all and (min-width: 850px) {
           .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
             font-size: 20px; } }
@@ -2806,26 +2806,32 @@ div.banner-faq-single {
   padding-top: 65px;
   margin-bottom: 24px; }
   div.banner-faq-single h1 {
+    position: relative;
     text-align: center;
     color: #15405A;
     font-size: 30px;
     text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 50px; }
+    font-weight: 900; }
     @media all and (min-width: 950px) {
       div.banner-faq-single h1 {
-        top: 150px;
+        top: 40px;
         font-size: 70px; } }
     div.banner-faq-single h1 .title-span {
+      display: block;
       font-style: italic;
+      position: relative;
+      top: 10px;
+      font-size: 25px;
       color: #E00029;
       font-weight: 200;
+      overflow-wrap: break-word;
       text-transform: capitalize; }
       @media all and (min-width: 950px) {
         div.banner-faq-single h1 .title-span {
           display: block;
           font-style: italic;
+          position: relative;
+          top: 20px;
           color: #E00029;
           font-size: 50px;
           font-weight: 200;
@@ -2838,7 +2844,7 @@ div.banner-faq-single {
     background-size: 100% 100%; }
     @media all and (min-width: 950px) {
       div.banner-faq-single .banner-image-faq-single {
-        height: 460px; } }
+        height: 50vh; } }
   div.banner-faq-single .underline {
     margin: 0 auto;
     width: 49px;
@@ -2863,6 +2869,10 @@ div.banner-faq-single {
     .nexus_faq-template-default .site-main .thumb {
       margin: 50px;
       width: 402px; } }
+
+@media all and (min-width: 950px) {
+  .nexus_faq-template-default .desktop-metaboxes {
+    padding-top: 40px; } }
 
 .nexus_faq-template-default .faq-homestay {
   height: 55px;
@@ -3506,7 +3516,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }

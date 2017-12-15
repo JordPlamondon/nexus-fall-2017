@@ -38,8 +38,14 @@ function cmb2_get_post_options( $query_args ) {
  * Gets 5 posts for your_post_type and displays them as options
  * @return array An array of options that matches the CMB2 options array
  */
-function cmb2_get_your_post_type_post_options() {
+function cmb2_get_review_post_options() {
 	return cmb2_get_post_options( array( 'post_type' => 'nexus_reviews', 'numberposts' => -1 ) );
+}
+function cmb2_get_city_post_options() {
+	return cmb2_get_post_options( array( 'post_type' => 'nexus_cities', 'numberposts' => -1 ) );
+}
+function cmb2_get_school_post_options() {
+	return cmb2_get_post_options( array( 'post_type' => 'nexus_schools', 'numberposts' => -1 ) );
 }
 /**
  * Add metaboxes.
@@ -146,7 +152,57 @@ function nexus_register_metaboxes() {
 		'desc'       => __( 'Link to a student Review', 'cmb2' ),
 		'id'         => $prefix . 'post_multicheckbox',
 		'type'       => 'multicheck',
-		'options_cb' => 'cmb2_get_your_post_type_post_options',
+		'options_cb' => 'cmb2_get_review_post_options',
+	) );
+	$program_details->add_field( array(
+		'name'       => __( 'Select School', 'cmb2' ),
+		'desc'       => __( 'Link to a school', 'cmb2' ),
+		'id'         => $prefix . 'post_multicheckbox_school',
+		'type'       => 'multicheck',
+		'options_cb' => 'cmb2_get_city_post_options',
+	) );
+	$program_details->add_field( array(
+		'name'       => __( 'Select City', 'cmb2' ),
+		'desc'       => __( 'Link to a City', 'cmb2' ),
+		'id'         => $prefix . 'post_multicheckbox_city',
+		'type'       => 'multicheck',
+		'options_cb' => 'cmb2_get_school_post_options',
+	) );
+		$cities = new_cmb2_box( array(
+		'id'            => $prefix . 'nexus_cities_metabox',
+		'title'         => 'City Details',
+		'object_types'  => array( 'nexus_cities', ), // Post type
+		'context'    => 'normal',
+		'priority'   => 'high',
+		'show_names' => true, // Show field names on the left
+	) );
+		$cities->add_field( array(
+		'name' => 'City Description',
+		'desc' => 'Write short blurbs about the city',
+		'id'   => $prefix . 'city_text',
+		'type' => 'text',
+		'repeatable' => true,
+	) );
+		$cities->add_field( array(
+		'name' => 'City Media',
+		'desc' => 'Upload photos of the city',
+		'id'   => $prefix . 'city_media',
+		'type' => 'file',
+		'repeatable' => true,
+	) );
+		$schools = new_cmb2_box( array(
+		'id'            => $prefix . 'nexus_schools_metabox',
+		'title'         => 'School Details',
+		'object_types'  => array( 'nexus_schools', ), // Post type
+		'context'    => 'normal',
+		'priority'   => 'high',
+		'show_names' => true, // Show field names on the left
+	) );
+		$schools->add_field( array(
+		'name' => 'School Media',
+		'desc' => 'Embed a video or photo of the school',
+		'id'   => $prefix . 'city_media',
+		'type' => 'wysiwyg',
 	) );
 }
 add_action( 'cmb2_admin_init', 'nexus_register_metaboxes' );

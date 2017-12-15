@@ -1604,6 +1604,13 @@ a {
   .home .why-canada .owl-carousel {
     position: relative;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: 100%; } }
 
 .home .why-canada .first {
@@ -1621,46 +1628,39 @@ a {
       background-position-x: left,right;
       background-repeat: no-repeat,no-repeat; } }
 
-.home .why-canada .second {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/whycanada@3x.png);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/whycanada@3x.png);
-  background-size: 100% 70%,100% 75%;
-  background-position-x: center, center;
-  background-position-y: top, bottom;
-  background-repeat: no-repeat,no-repeat; }
-  @media all and (min-width: 950px) {
-    .home .why-canada .second {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png");
-      background-size: 65% 55%,70% 100%;
-      background-position-x: left,right;
-      background-repeat: no-repeat,no-repeat; } }
-
-.home .why-canada .third {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url(../../assets/images/photo-review@3x.png);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url(../../assets/images/photo-review@3x.png);
-  background-size: 100% 70%,100% 75%;
-  background-position-x: center, center;
-  background-position-y: top, bottom;
-  background-repeat: no-repeat,no-repeat; }
-  @media all and (min-width: 950px) {
-    .home .why-canada .third {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/photo-review@3x.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/photo-review@3x.png");
-      background-size: 65% 55%,70% 100%;
-      background-position-x: left,right;
-      background-repeat: no-repeat,no-repeat; } }
-
 .home .why-canada .carouselplaceholder {
   width: 100%;
-  height: 70vh; }
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4));
+  background-size: 100% 70%;
+  background-position: top;
+  background-repeat: no-repeat; }
   @media all and (min-width: 950px) {
     .home .why-canada .carouselplaceholder {
       height: 104vh; } }
+  .home .why-canada .carouselplaceholder__image-wrapper {
+    position: relative;
+    z-index: -1; }
+    .home .why-canada .carouselplaceholder__image-wrapper img {
+      min-height: 330px; }
+  .home .why-canada .carouselplaceholder__info-wrapper {
+    width: 80%;
+    margin: 0 auto; }
   .home .why-canada .carouselplaceholder__content-wrapper {
-    margin: 0 5rem;
-    width: 71%;
-    height: 30rem; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     @media all and (min-width: 950px) {
       .home .why-canada .carouselplaceholder__content-wrapper {
         width: 100%;
@@ -1683,7 +1683,6 @@ a {
         text-align: left; } }
 
 .home .why-canada .carouselplaceholder__subheader {
-  padding-right: 3rem;
   margin-bottom: 3rem;
   text-align: center;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -1700,7 +1699,7 @@ a {
 
 .home .why-canada .carouselplaceholder__info {
   position: relative;
-  bottom: 2rem; }
+  bottom: 1rem; }
 
 .home .why-canada .owl-nav {
   display: -webkit-box;
@@ -2604,7 +2603,7 @@ div.widget_info_contain a {
   height: 1590px; }
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .faq-wrapper {
-      height: 2720px; } }
+      height: 2965px; } }
   .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
     width: 49px;
     border-bottom: 3px solid #FF8A2A;
@@ -2615,7 +2614,7 @@ div.widget_info_contain a {
       .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
         width: 74px;
         border-bottom: 6px solid #FF8A2A;
-        bottom: 80px; } }
+        bottom: 98px; } }
   .page-template-taxonomy-nexus_faq .faq-wrapper .shadow-border {
     border-bottom: 1px solid #d1d1d1;
     -webkit-box-shadow: 0px 13px #F3F5F8;
@@ -2675,13 +2674,13 @@ div.widget_info_contain a {
             top: 250px;
             letter-spacing: 1pt;
             width: 198px;
-            height: 40px;
+            height: 50px;
             padding: 0;
             border-radius: 25px 0px 25px 0px;
             -webkit-box-shadow: none;
                     box-shadow: none;
             text-shadow: none;
-            font-size: 18px;
+            font-size: 24px;
             font-weight: 600;
             background-color: #E91C35;
             color: #FFFFFF; }
@@ -2704,6 +2703,9 @@ div.widget_info_contain a {
         top: 15px; }
         @media all and (min-width: 950px) {
           .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
+            position: relative;
+            right: 200px;
+            top: 40px;
             font-size: 41px; } }
       .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
         position: relative;
@@ -2711,6 +2713,10 @@ div.widget_info_contain a {
         font-size: 14px;
         font-weight: 100;
         color: #15405A; }
+        @media all and (min-width: 950px) {
+          .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
+            font-size: 23px;
+            bottom: 0; } }
       .page-template-taxonomy-nexus_faq .faq-wrapper ul li img {
         height: 126px;
         width: 103px;
@@ -2718,13 +2724,19 @@ div.widget_info_contain a {
         @media all and (min-width: 950px) {
           .page-template-taxonomy-nexus_faq .faq-wrapper ul li img {
             width: 519px;
-            height: 328.84px; } }
+            height: 328.84px;
+            padding-top: 50px; } }
       .page-template-taxonomy-nexus_faq .faq-wrapper ul li a {
         text-decoration: none; }
 
 .page-template-taxonomy-nexus_faq .faq-journey {
   height: 195px;
   background-color: #F3F5F8; }
+  @media all and (min-width: 950px) {
+    .page-template-taxonomy-nexus_faq .faq-journey {
+      height: 360px;
+      position: relative;
+      top: 90px; } }
   .page-template-taxonomy-nexus_faq .faq-journey h2 {
     font-size: 24px;
     text-align: center;
@@ -2734,6 +2746,10 @@ div.widget_info_contain a {
     top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
+    @media all and (min-width: 950px) {
+      .page-template-taxonomy-nexus_faq .faq-journey h2 {
+        top: 50px;
+        font-size: 60px; } }
   .page-template-taxonomy-nexus_faq .faq-journey p {
     font-size: 14px;
     color: #E00029;
@@ -2742,6 +2758,11 @@ div.widget_info_contain a {
     position: relative;
     text-transform: none;
     bottom: 42px; }
+    @media all and (min-width: 950px) {
+      .page-template-taxonomy-nexus_faq .faq-journey p {
+        bottom: 130px;
+        font-size: 30px;
+        font-weight: 600; } }
   .page-template-taxonomy-nexus_faq .faq-journey .underline {
     margin: 0 auto;
     width: 49px;
@@ -2750,6 +2771,11 @@ div.widget_info_contain a {
     position: relative;
     bottom: 48px;
     left: 0; }
+    @media all and (min-width: 950px) {
+      .page-template-taxonomy-nexus_faq .faq-journey .underline {
+        width: 144px;
+        border-bottom: 6px solid #FF8A2A;
+        bottom: 135px; } }
 
 .page-template-taxonomy-nexus_faq button.consult {
   letter-spacing: 1pt;
@@ -2765,6 +2791,12 @@ div.widget_info_contain a {
   color: #FFFFFF;
   position: relative;
   bottom: 40px; }
+  @media all and (min-width: 950px) {
+    .page-template-taxonomy-nexus_faq button.consult {
+      width: 272px;
+      height: 55px;
+      bottom: 150px;
+      font-size: 24px; } }
   .page-template-taxonomy-nexus_faq button.consult:hover {
     background: #bf1328; }
 
@@ -2952,7 +2984,7 @@ div.banner-faq-single {
           flex-flow: row;
       width: 100vw;
       bottom: 80px;
-      padding-left: 40px;
+      padding-left: 20px;
       padding-right: 40px; }
       .faq-single-homestay .homestay-button-wrapper img {
         width: 16.2vw;
@@ -3001,8 +3033,9 @@ div.banner-faq-single {
         display: inline;
         margin: 0.8vw; } }
   @media all and (min-width: 950px) {
-    .faq-single-homestay .homestay-button-wrapper .permalink-wrapper {
-      height: 220px; } }
+    .faq-single-homestay .homestay-button-wrapper a {
+      height: 220px;
+      margin-left: 10px; } }
   .faq-single-homestay .homestay-button-wrapper button.return-to-top-button {
     background-color: #ac192c; }
     @media all and (min-width: 950px) {
@@ -3012,6 +3045,10 @@ div.banner-faq-single {
 .faq-single-homestay .faq-single-journey {
   height: 195px;
   background-color: #F3F5F8; }
+  @media all and (min-width: 950px) {
+    .faq-single-homestay .faq-single-journey {
+      height: 360px;
+      position: relative; } }
   .faq-single-homestay .faq-single-journey h2 {
     font-size: 24px;
     text-align: center;
@@ -3021,6 +3058,10 @@ div.banner-faq-single {
     top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
+    @media all and (min-width: 950px) {
+      .faq-single-homestay .faq-single-journey h2 {
+        top: 50px;
+        font-size: 60px; } }
   .faq-single-homestay .faq-single-journey p {
     font-size: 14px;
     color: #E00029;
@@ -3029,6 +3070,11 @@ div.banner-faq-single {
     position: relative;
     text-transform: none;
     bottom: 42px; }
+    @media all and (min-width: 950px) {
+      .faq-single-homestay .faq-single-journey p {
+        bottom: 130px;
+        font-size: 30px;
+        font-weight: 600; } }
   .faq-single-homestay .faq-single-journey .underline {
     margin: 0 auto;
     width: 49px;
@@ -3036,6 +3082,12 @@ div.banner-faq-single {
     border-bottom: 3px solid #FF8A2A;
     position: relative;
     bottom: 50px; }
+    @media all and (min-width: 950px) {
+      .faq-single-homestay .faq-single-journey .underline {
+        display: block;
+        width: 144px;
+        border-bottom: 6px solid #FF8A2A;
+        bottom: 135px; } }
   .faq-single-homestay .faq-single-journey button.consult {
     letter-spacing: 1pt;
     width: 165px;
@@ -3050,6 +3102,12 @@ div.banner-faq-single {
     color: #FFFFFF;
     position: relative;
     bottom: 40px; }
+    @media all and (min-width: 950px) {
+      .faq-single-homestay .faq-single-journey button.consult {
+        width: 272px;
+        height: 55px;
+        bottom: 150px;
+        font-size: 24px; } }
     .faq-single-homestay .faq-single-journey button.consult:hover {
       background: #bf1328; }
 
@@ -3817,6 +3875,7 @@ nav.main-navigation:hover {
     height: 40px;
     padding: 0;
     margin-left: 25%;
+    margin-bottom: 20px;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -4390,6 +4449,12 @@ body.blog .blog-wrapper {
         font-size: 24px; } }
     body.blog .blog-wrapper .blog-text button.read-more:hover {
       background: #bf1328; }
+
+/*--------------------------------------------------------------
+# Single-Post
+--------------------------------------------------------------*/
+div#id.hfeed.site {
+  margin-top: 85px; }
 
 /*--------------------------------------------------------------
 # 404 Not Found

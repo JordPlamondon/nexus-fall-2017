@@ -2575,7 +2575,7 @@ div.widget_info_contain a {
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .title-wrapper h1 {
       font-size: 70px;
-      top: 360px; } }
+      top: 240px; } }
 
 .page-template-taxonomy-nexus_faq .title-wrapper .underline1 {
   margin: 0 auto;
@@ -2588,7 +2588,7 @@ div.widget_info_contain a {
     .page-template-taxonomy-nexus_faq .title-wrapper .underline1 {
       border-bottom: 6px solid #FF8A2A;
       width: 144px;
-      top: 310px; } }
+      top: 190px; } }
 
 .page-template-taxonomy-nexus_faq .faq-page {
   height: 130px;
@@ -2597,13 +2597,13 @@ div.widget_info_contain a {
   background-size: 100% 100%; }
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .faq-page {
-      height: 460px; } }
+      height: 50vh; } }
 
 .page-template-taxonomy-nexus_faq .faq-wrapper {
   height: 1590px; }
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .faq-wrapper {
-      height: 2965px; } }
+      height: 2830px; } }
   .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
     width: 49px;
     border-bottom: 3px solid #FF8A2A;
@@ -2647,7 +2647,8 @@ div.widget_info_contain a {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        padding-top: 520px; } }
+        padding-top: 350px;
+        right: 30px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li {
       display: -webkit-box;
       display: -ms-flexbox;

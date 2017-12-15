@@ -46,12 +46,12 @@ Canada </h2>
 
 
 
-
       <div class="contact-journey">
       <h2> Start Your Journey<h2><br>
       <div class="underline"></div>
       <p>Let us help you find your path to success</p>
-      <button class="consult">Book Consult</button>
+      <a href="<?php echo home_url() ?>/consult/"><button class="consult">Book Consult</button></a>
+
       </div>
 
 

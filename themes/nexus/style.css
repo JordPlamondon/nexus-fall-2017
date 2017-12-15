@@ -2000,19 +2000,18 @@ body.page-template-archive-nexus_program main {
       text-align: center;
       border-bottom: 3px solid #FF8A2A; }
   .page-template-about img.about-img {
-    width: 30vw;
-    height: 30vw;
-    max-height: 190px;
-    max-width: 190px;
-    min-height: 166px;
+    width: 40vw;
+    height: 40vw;
     border-radius: 100px;
     z-index: 5; }
     @media all and (min-width: 450px) {
       .page-template-about img.about-img {
-        height: 30vw;
-        min-height: 240px;
-        max-height: 260px;
-        max-width: 260px; } }
+        width: 25vw;
+        height: 25vw; } }
+    @media all and (min-width: 850px) {
+      .page-template-about img.about-img {
+        width: 20vw;
+        height: 20vw; } }
   .page-template-about .about-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2035,7 +2034,8 @@ body.page-template-archive-nexus_program main {
       .page-template-about .about-wrapper {
         background-color: #F3F5F8; } }
     .page-template-about .about-wrapper .about-left {
-      height: 264px;
+      height: 30vw;
+      min-height: 248px;
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2046,9 +2046,9 @@ body.page-template-archive-nexus_program main {
               flex-direction: row;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-      -webkit-box-align: stretch;
-          -ms-flex-align: stretch;
-              align-items: stretch;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       /* Default */
       -webkit-box-pack: center;
           -ms-flex-pack: center;
@@ -2058,7 +2058,7 @@ body.page-template-archive-nexus_program main {
       @media all and (min-width: 950px) {
         .page-template-about .about-wrapper .about-left {
           width: 100%;
-          height: 344px;
+          height: 30vw;
           padding-right: 15%;
           padding-left: 15%;
           -webkit-box-align: center;
@@ -2086,10 +2086,10 @@ body.page-template-archive-nexus_program main {
           .page-template-about .about-wrapper .about-left p {
             line-height: 20pt;
             font-size: 16px;
-            width: 40%;
-            padding-bottom: 10%; } }
+            width: 40%; } }
     .page-template-about .about-wrapper .about-right {
-      height: 264px;
+      height: 30vw;
+      min-height: 248px;
       width: 100%;
       min-width: 310px;
       padding-top: 14px;
@@ -2102,9 +2102,9 @@ body.page-template-archive-nexus_program main {
               flex-direction: row;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-      -webkit-box-align: stretch;
-          -ms-flex-align: stretch;
-              align-items: stretch;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       /* Default */
       -webkit-box-pack: center;
           -ms-flex-pack: center;
@@ -2113,7 +2113,7 @@ body.page-template-archive-nexus_program main {
       @media all and (min-width: 950px) {
         .page-template-about .about-wrapper .about-right {
           width: 100%;
-          height: 344px;
+          height: 30vw;
           -webkit-box-align: center;
               -ms-flex-align: center;
                   align-items: center;
@@ -2141,8 +2141,7 @@ body.page-template-archive-nexus_program main {
           .page-template-about .about-wrapper .about-right p {
             line-height: 20pt;
             font-size: 16px;
-            width: 40%;
-            padding-bottom: 10%; } }
+            width: 40%; } }
   .page-template-about .about-consultants {
     height: 500px;
     display: block;
@@ -4559,6 +4558,7 @@ div#id.hfeed.site {
 
 .single-post .blog-wrapper {
   height: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4568,10 +4568,7 @@ div#id.hfeed.site {
           flex-direction: column;
   margin-top: 50px; }
 
-.single-post .blog-hero {
-  height: 40vw;
-  background-image: url("../../assets/images/blog-hero.jpg");
-  background-size: 100% 100%;
+.single-post .blog-picture {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4579,75 +4576,123 @@ div#id.hfeed.site {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 64px; }
-  .single-post .blog-hero h1 {
-    font-size: 60px; }
-  .single-post .blog-hero .underline {
-    width: 49px;
-    border-bottom: 3px solid #FF8A2A; }
-
-.single-post .blog-picture {
-  height: 40vw;
-  width: 80vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 64px;
+  height: 90vw;
+  width: 100vw;
   margin: 0 auto;
-  margin-bottom: 48px; }
-  .single-post .blog-picture h2 {
-    color: #14304A;
-    background-color: #FFBC4A;
-    font-size: 48px;
-    padding: 14px;
-    width: 60%; }
+  margin-bottom: 48px;
+  position: relative; }
+  @media all and (min-width: 450px) {
+    .single-post .blog-picture {
+      height: 70vw;
+      width: 90vw; } }
+  @media all and (min-width: 850px) {
+    .single-post .blog-picture {
+      height: 50vw;
+      width: 90vw; } }
+  .single-post .blog-picture h1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 18px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center;
+    justify-self: baseline;
+    position: relative;
+    padding: 24px;
+    top: 30%; }
+    @media all and (min-width: 450px) {
+      .single-post .blog-picture h1 {
+        font-size: 24px; } }
+    @media all and (min-width: 850px) {
+      .single-post .blog-picture h1 {
+        font-size: 34px; } }
+    @media all and (min-width: 950px) {
+      .single-post .blog-picture h1 {
+        font-size: 44px; } }
+  .single-post .blog-picture .underline {
+    position: relative;
+    top: 2vw;
+    width: 49px;
+    border-bottom: 3px solid #FF8A2A; }
+    @media all and (min-width: 450px) {
+      .single-post .blog-picture .underline {
+        position: relative;
+        bottom: 3vw;
+        width: 69px; } }
+    @media all and (min-width: 850px) {
+      .single-post .blog-picture .underline {
+        width: 129px;
+        bottom: 3vw; } }
   .single-post .blog-picture p {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     color: #E00029;
     background-color: #FFBC4A;
-    padding: 14px;
-    width: 40%;
-    position: absolute;
-    bottom: 0;
-    right: 0; }
+    padding: 2px;
+    width: 90%;
+    font-size: 14px; }
+    @media all and (min-width: 450px) {
+      .single-post .blog-picture p {
+        font-size: 16px;
+        padding: 4px;
+        width: 80%; } }
+    @media all and (min-width: 850px) {
+      .single-post .blog-picture p {
+        width: 40%; } }
 
 .single-post .blog-post {
   margin-top: 48px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 48px;
   border: 1px solid lightgrey; }
+  @media all and (min-width: 450px) {
+    .single-post .blog-post {
+      width: 90%; } }
   .single-post .blog-post p {
     padding: 24px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px; }
+    @media all and (min-width: 850px) {
+      .single-post .blog-post p {
+        width: 70%; } }
 
 .single-post .blog-comments {
   background-color: #FFBC4A;
-  width: 80%;
-  padding: 24px;
+  width: 100%;
+  padding: 8px;
   margin: 0 auto;
   margin-bottom: 48px; }
+  @media all and (min-width: 850px) {
+    .single-post .blog-comments {
+      width: 80%;
+      padding: 24px; } }
 
 .single-post .comments-area {
   border: 1px solid lightgrey;
   background: white;
   padding: 14px;
-  width: 70%;
+  width: 95%;
   margin: 0 auto; }
+  .single-post .comments-area li {
+    font-size: 14px; }
+    @media all and (min-width: 850px) {
+      .single-post .comments-area li {
+        font-size: 16px; } }
+  .single-post .comments-area ol {
+    margin: 0; }
+  @media all and (min-width: 850px) {
+    .single-post .comments-area {
+      width: 80%; } }
   .single-post .comments-area input {
     width: 175px;
     height: 40px;

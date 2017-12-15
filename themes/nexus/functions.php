@@ -131,7 +131,7 @@ require get_template_directory() . '/inc/extras.php';
 remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
  
 
-
+//Blog page content filter
 add_filter("the_content", "plugin_myContentFilter");
 
 function plugin_myContentFilter($content)
@@ -143,22 +143,27 @@ function plugin_myContentFilter($content)
 	
 	return ($content);
 }
-
+//Faq Single h1 Title first word select function
 function pixelninja_spanify_title($title) {
-  // Break the title into words
+
   $title_words = explode(' ', get_the_title());
-  if (count($title_words) > 0) {
-    // If the title consists of more than one word, wrap the first word in a <span> tag
-    $title_words[0] = '<span>' . $title_words[0] . '</span>';
+  if (count($title_words) > 1) {
+
+
+    $title_words[0] = '<span class="title-span">' . $title_words[0] . '</span>';
     return implode(' ', $title_words);
   } else {
-    // If the title is only one word, do not change it
+
     return get_the_title();
-  }
+	}
 }
 function pixelninja_single_cat_title() {
 	echo pixelninja_spanify_title(single_cat_title('', false));
 }
+
+// $('.title-span').text(function(_, txt) {
+// 	return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
+// });
 
 
 // filter videos and blogs on blog page

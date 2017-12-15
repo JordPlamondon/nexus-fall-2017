@@ -21,7 +21,7 @@ get_header(); ?>
 						<p><?php echo esc_html( 'Not to worry, visit the Nexus homepage by clicking the button below' ); ?></p>
 
 						<div class="return-home"> <!-- Home button - 404.scss starting @ line 48 -->
-							<a href="<?php echo home_url() ?>"><button class="home-button">Home</button></a>
+							<a class= "home-button" href="<?php echo home_url() ?>">Home</a>
 						</div>
 
 					</div><!-- .page-content -->

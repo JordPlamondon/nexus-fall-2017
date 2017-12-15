@@ -155,16 +155,16 @@ function nexus_register_metaboxes() {
 		'options_cb' => 'cmb2_get_review_post_options',
 	) );
 	$program_details->add_field( array(
-		'name'       => __( 'Select School', 'cmb2' ),
-		'desc'       => __( 'Link to a school', 'cmb2' ),
-		'id'         => $prefix . 'post_multicheckbox_school',
+		'name'       => __( 'Select City', 'cmb2' ),
+		'desc'       => __( 'Link to a City', 'cmb2' ),
+		'id'         => $prefix . 'post_multicheckbox_city',
 		'type'       => 'multicheck',
 		'options_cb' => 'cmb2_get_city_post_options',
 	) );
 	$program_details->add_field( array(
-		'name'       => __( 'Select City', 'cmb2' ),
-		'desc'       => __( 'Link to a City', 'cmb2' ),
-		'id'         => $prefix . 'post_multicheckbox_city',
+		'name'       => __( 'Select School', 'cmb2' ),
+		'desc'       => __( 'Link to a School', 'cmb2' ),
+		'id'         => $prefix . 'post_multicheckbox_school',
 		'type'       => 'multicheck',
 		'options_cb' => 'cmb2_get_school_post_options',
 	) );
@@ -201,7 +201,7 @@ function nexus_register_metaboxes() {
 		$schools->add_field( array(
 		'name' => 'School Media',
 		'desc' => 'Embed a video or photo of the school',
-		'id'   => $prefix . 'city_media',
+		'id'   => $prefix . 'school_media',
 		'type' => 'wysiwyg',
 	) );
 }

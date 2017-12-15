@@ -2053,8 +2053,8 @@ body.page-template-archive-nexus_program main {
                   align-items: center; } }
       @media all and (min-width: 450px) {
         .page-template-about .about-wrapper .about-left {
-          padding-right: 5%;
-          padding-left: 5%;
+          padding-right: 2%;
+          padding-left: 2%;
           -webkit-box-align: center;
               -ms-flex-align: center;
                   align-items: center; } }
@@ -2072,7 +2072,9 @@ body.page-template-archive-nexus_program main {
         @media all and (min-width: 450px) {
           .page-template-about .about-wrapper .about-left p {
             line-height: 20pt;
-            font-size: 18px; } }
+            font-size: 16px;
+            width: 40%;
+            padding-bottom: 10%; } }
     .page-template-about .about-wrapper .about-right {
       height: 264px;
       width: 100%;
@@ -2106,8 +2108,8 @@ body.page-template-archive-nexus_program main {
           padding-left: 15%; } }
       @media all and (min-width: 450px) {
         .page-template-about .about-wrapper .about-right {
-          padding-right: 5%;
-          padding-left: 5%;
+          padding-right: 2%;
+          padding-left: 2%;
           -webkit-box-align: center;
               -ms-flex-align: center;
                   align-items: center; } }
@@ -2125,7 +2127,9 @@ body.page-template-archive-nexus_program main {
         @media all and (min-width: 450px) {
           .page-template-about .about-wrapper .about-right p {
             line-height: 20pt;
-            font-size: 18px; } }
+            font-size: 16px;
+            width: 40%;
+            padding-bottom: 10%; } }
   .page-template-about .about-consultants {
     height: 500px;
     display: block;
@@ -4531,6 +4535,83 @@ body.blog .blog-wrapper {
 --------------------------------------------------------------*/
 div#id.hfeed.site {
   margin-top: 85px; }
+
+.single-post .blog-wrapper {
+  height: 4000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px; }
+
+.single-post .blog-hero {
+  height: 40vw;
+  background-image: url("../../assets/images/blog-hero.jpg");
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 64px; }
+  .single-post .blog-hero h1 {
+    font-size: 60px; }
+  .single-post .blog-hero .underline {
+    width: 49px;
+    border-bottom: 3px solid #FF8A2A; }
+
+.single-post .blog-picture {
+  height: 40vw;
+  width: 80vw;
+  background: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 48px; }
+  .single-post .blog-picture h2 {
+    background-color: goldenrod;
+    font-size: 48px;
+    padding: 14px;
+    width: 60%; }
+  .single-post .blog-picture p {
+    background-color: goldenrod;
+    padding: 14px;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+
+.single-post .blog-post {
+  margin-top: 48px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid lightgrey; }
+  .single-post .blog-post p {
+    padding: 24px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 28px; }
 
 /*--------------------------------------------------------------
 # 404 Not Found

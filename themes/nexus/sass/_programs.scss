@@ -446,31 +446,6 @@
   }
 }
 
-.student-review__box {
-  width: 90%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  @media #{$desktop} {
-    flex-direction: row;
-  }
-
-  .student-review__box__image {
-    @media #{$desktop} {
-      flex-basis:40%;
-      width: 30%;
-      overflow: hidden;
-    }
-
-  img {
-    @media #{$desktop} {
-      height: 270px;
-     
-    }
-  }
-}
-}
-
 .start-journey {
   display: flex;
   flex-direction: column;

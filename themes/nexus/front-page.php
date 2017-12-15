@@ -258,6 +258,7 @@ get_header(); ?>
 	</section>	
 
 <!-- Student Review -->
+			<section class="student-review">
 				<h1 class="student-review-header"> Student Review </h1>
 
 				<?php $args = array( 'post_type' => 'nexus_reviews', 'orderby' => 'rand', 'posts_per_page' => 3, ); $query = new WP_Query( $args );?>
@@ -280,8 +281,7 @@ get_header(); ?>
 
     				    wp_reset_query();?>
       		</div> <!-- carousel -->
-
-			
+			</section>
 			<section class="start-journey">
 				<div class="headergroup">
 					<h2 class="start-journey__header">Start your journey</h2>
@@ -291,33 +291,6 @@ get_header(); ?>
 
 				<button class="start-journey__button">Book Consult</button>
 			</section>
-
-			<div class="product-type-title-wrapper container">
-				<?php
-					the_archive_title( '<h1 class="page-title centered">', '</h1>' );
-				?>
-					<?php
-					$terms = get_terms( array(
-						'taxonomy' => 'provinces',
-						'hide_empty' => 0,
-					));
-					if ( ! empty( $terms ) ** ! is_wp_error( $terms)):
-					?>
-					<div class="container">
-						<?php foreach ($terms as $term) : ?>
-							<div class="container">	
-								<p><a href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a> </p>
-							</div>
-						<?php endforeach; ?>
-					</div>
-				</div>
-				<?php endif ?>
-
-
-
-
-
-	
 		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->

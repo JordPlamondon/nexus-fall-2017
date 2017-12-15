@@ -2,6 +2,10 @@
   min-width: 375px;
   margin-top: -15px;
 
+  .post-86 {
+    display: none;
+  }
+
   h2 {
     line-height: 40px;
     text-align: center;
@@ -144,8 +148,8 @@
     }
 
     .why-nexus {
-      margin-top: 100px;
       height: 100vh;
+      margin-top: 50px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -156,6 +160,7 @@
       background-size: 100% 75%, 100% 50%;
       color: $color__footer-background;
       @media #{$desktop} {
+        margin-top: 100px;
         justify-content: space-around;
         align-items: flex-start;
         background-position-y: center, center; 
@@ -334,111 +339,7 @@
       align-items: center;
       justify-content: center;
     }
-    .student-review {
-      .headergroup {
-        line-height: 3rem;
-      }
-
-      h2 {
-        font-size: 4.5vw;
-        margin-bottom: 10px;
-      }
-
-      .underline {
-        margin: 0 auto 3rem auto;
-        width: 49px;
-        @media #{$desktop} {
-          width: 144px;
-        }
-      }
-
-      .owl-nav {
-        display: none;
-      }
-
-      .owl-dots {
-        margin: 3rem auto;
-      }
-    }
-
-    .student-review__box {
-      width: 90%;
-
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      @media #{$desktop} {
-        flex-direction: row;
-        max-height: 270px;
-      }
-    
-      .student-review__box__image {
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        height: 40vw;
-        max-height: 500px;
-        overflow: hidden;
-        @media #{$desktop} {
-          flex-basis:40%;
-          width: 30%;
-          max-height: 270px;
-          justify-content: flex-end;
-        }
-
-      img {       
-        max-width: none;
-        @media #{$desktop} {
-          width: auto;
-        }
-      }
-    }
-  }
-      
-    .student-review__info-wrapper {
-      background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
-      background-repeat: no-repeat;
-      background-position: top left, bottom right;
-      background-color: $color__textbox-background;
-      margin-top: 0;
-      width: 100%;
-      padding: 39px 30px 22px 48px;
-      font-weight: bold;
-      font-size: 4vw;
-      position: relative;
-      @media #{$desktop} {
-        margin: 0;
-        font-size: 3vw;
-        flex-basis: 80%;
-      }
-
-      .student-review__info {
-        @media #{$desktop} {
-          padding: 15px 20px 15px 45px;
-        }
-      }
-          
-      .grey {
-        background: $color__textbox-background;
-        transform: rotate(134deg);
-        bottom: 54px;
-        left: 40%;
-        height: 30px;
-        position: relative;
-        width: 30px;
-        @media #{$desktop} {
-          background: $color__textbox-background;
-          transform: rotate(134deg);
-          bottom: -60px;
-          left: -63px;
-          height: 30px;
-          position: relative;
-          width: 30px;
-        }
-      }
-    }
      
-
     .start-journey {
       display: flex;
       flex-direction: column;

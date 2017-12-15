@@ -24,7 +24,7 @@ body.blog {
     bottom: 1205px;
     @media #{$desktop} {
       font-size: 60px;
-      bottom: 600px;
+      bottom: 640px;
     }
   }
   .underline-posts {
@@ -38,7 +38,7 @@ body.blog {
     @media #{$desktop} {
       width: 144px;
       border-bottom: 6px solid $color__accent-underline;
-      bottom: 645px;
+      bottom: 685px;
     }  
   }
   .underline-videos {

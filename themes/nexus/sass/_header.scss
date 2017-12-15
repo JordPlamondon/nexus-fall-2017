@@ -104,7 +104,7 @@
     @media #{$tablet} {
       display: flex;
       height: 126px;
-      width: 75vw;
+      width: 80vw;
       margin-top: 36px;
       align-items: center;
       justify-content: center; 
@@ -132,6 +132,7 @@
           font-size: 24px;
           letter-spacing: 2px;
           padding: 0;
+          margin-left: 24px;
           border-radius: 25px 0px 25px 0px;
           box-shadow: none;
           text-shadow: none;

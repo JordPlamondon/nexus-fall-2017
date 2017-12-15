@@ -3268,7 +3268,7 @@ nav.main-navigation:hover {
       display: -ms-flexbox;
       display: flex;
       height: 126px;
-      width: 75vw;
+      width: 80vw;
       margin-top: 36px;
       -webkit-box-align: center;
           -ms-flex-align: center;
@@ -3306,6 +3306,7 @@ nav.main-navigation:hover {
         font-size: 24px;
         letter-spacing: 2px;
         padding: 0;
+        margin-left: 24px;
         border-radius: 25px 0px 25px 0px;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -3526,7 +3527,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }

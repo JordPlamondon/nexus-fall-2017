@@ -85,7 +85,7 @@ foreach ( (array) $entries as $key => $entry ) {
 			<div class="faq-single-homestay"> 
 				<h2> Keep Looking:<h2><br> 
 					<div class="underline"></div>
-<div class="faq-card-wrapper">
+				<div class="faq-card-wrapper">
 					<div class="homestay-button-wrapper">
 						<?php   
       				$args = array(

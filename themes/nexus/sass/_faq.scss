@@ -1,10 +1,4 @@
 .page-template-taxonomy-nexus_faq {
-  .faq-categories ul {
-    @media #{$desktop} {
-      padding-bottom: 60px;
-      background-color:red;
-    }
-  }
   .title-wrapper {  //position absolute for desktop
     h1 {
       text-align: center;
@@ -45,7 +39,7 @@
   .faq-wrapper {
     height: 1590px;
     @media #{$desktop} {
-      height: 2800px;
+      height: 2965px;
     }
       .underline {
         width: 49px;
@@ -171,7 +165,9 @@
   height: 195px;
   background-color: $color__textbox-background;
   @media #{$desktop} {
-    
+    height: 360px;
+    position: relative;
+    top: 90px;
   }
     h2 {
       font-size: 24px;
@@ -182,6 +178,10 @@
       top: 20px;
       text-transform: uppercase;
       letter-spacing: 1pt;
+      @media #{$desktop} {
+        top: 50px;
+        font-size: 60px;
+      }
     }
     p {
       font-size: 14px;
@@ -191,6 +191,11 @@
       position: relative;
       text-transform: none;
       bottom: 42px;
+      @media #{$desktop} {
+        bottom: 130px;
+        font-size: 30px;
+        font-weight: 600;
+      }
       
     }
     .underline {
@@ -201,6 +206,11 @@
       position: relative;
       bottom: 48px;
       left: 0;
+      @media #{$desktop} {
+        width: 144px;
+        border-bottom: 6px solid $color__accent-underline;
+        bottom: 135px;
+      }  
     }
  }
   button.consult {
@@ -216,6 +226,12 @@
     color: $color__text-white;
     position: relative;
     bottom: 40px;
+    @media #{$desktop} {
+      width: 272px;
+      height: 55px;
+      bottom: 150px;
+      font-size: 24px;
+    }
     &:hover {
       background: darken($color__icon-element, 10%);
     }

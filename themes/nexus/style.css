@@ -2564,11 +2564,6 @@ div.widget_info_contain a {
     width: 99px;
     border-bottom: 3px solid #FF8A2A; } }
 
-@media all and (min-width: 950px) {
-  .page-template-taxonomy-nexus_faq .faq-categories ul {
-    padding-bottom: 60px;
-    background-color: red; } }
-
 .page-template-taxonomy-nexus_faq .title-wrapper h1 {
   text-align: center;
   color: #123048;
@@ -2608,7 +2603,7 @@ div.widget_info_contain a {
   height: 1590px; }
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .faq-wrapper {
-      height: 2800px; } }
+      height: 2965px; } }
   .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
     width: 49px;
     border-bottom: 3px solid #FF8A2A;
@@ -2737,6 +2732,11 @@ div.widget_info_contain a {
 .page-template-taxonomy-nexus_faq .faq-journey {
   height: 195px;
   background-color: #F3F5F8; }
+  @media all and (min-width: 950px) {
+    .page-template-taxonomy-nexus_faq .faq-journey {
+      height: 360px;
+      position: relative;
+      top: 90px; } }
   .page-template-taxonomy-nexus_faq .faq-journey h2 {
     font-size: 24px;
     text-align: center;
@@ -2746,6 +2746,10 @@ div.widget_info_contain a {
     top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt; }
+    @media all and (min-width: 950px) {
+      .page-template-taxonomy-nexus_faq .faq-journey h2 {
+        top: 50px;
+        font-size: 60px; } }
   .page-template-taxonomy-nexus_faq .faq-journey p {
     font-size: 14px;
     color: #E00029;
@@ -2754,6 +2758,11 @@ div.widget_info_contain a {
     position: relative;
     text-transform: none;
     bottom: 42px; }
+    @media all and (min-width: 950px) {
+      .page-template-taxonomy-nexus_faq .faq-journey p {
+        bottom: 130px;
+        font-size: 30px;
+        font-weight: 600; } }
   .page-template-taxonomy-nexus_faq .faq-journey .underline {
     margin: 0 auto;
     width: 49px;
@@ -2762,6 +2771,11 @@ div.widget_info_contain a {
     position: relative;
     bottom: 48px;
     left: 0; }
+    @media all and (min-width: 950px) {
+      .page-template-taxonomy-nexus_faq .faq-journey .underline {
+        width: 144px;
+        border-bottom: 6px solid #FF8A2A;
+        bottom: 135px; } }
 
 .page-template-taxonomy-nexus_faq button.consult {
   letter-spacing: 1pt;
@@ -2777,6 +2791,12 @@ div.widget_info_contain a {
   color: #FFFFFF;
   position: relative;
   bottom: 40px; }
+  @media all and (min-width: 950px) {
+    .page-template-taxonomy-nexus_faq button.consult {
+      width: 272px;
+      height: 55px;
+      bottom: 150px;
+      font-size: 24px; } }
   .page-template-taxonomy-nexus_faq button.consult:hover {
     background: #bf1328; }
 
@@ -2997,8 +3017,6 @@ div.banner-faq-single {
           text-transform: uppercase; } }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
       text-decoration: none; }
-<<<<<<< HEAD
-=======
   @media all and (min-width: 950px) {
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
       display: inline;
@@ -3008,7 +3026,6 @@ div.banner-faq-single {
       background-color: white; }
       .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover {
         background-color: white; } }
->>>>>>> dd13dc1a1d319bf92bb4d92c9ca9374396bf9fe4
   .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
     display: none; }
     @media all and (min-width: 950px) {
@@ -3437,7 +3454,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type {
         font-size: 1.25rem; } }
@@ -3834,6 +3851,7 @@ nav.main-navigation:hover {
     height: 40px;
     padding: 0;
     margin-left: 25%;
+    margin-bottom: 20px;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -4407,6 +4425,12 @@ body.blog .blog-wrapper {
         font-size: 24px; } }
     body.blog .blog-wrapper .blog-text button.read-more:hover {
       background: #bf1328; }
+
+/*--------------------------------------------------------------
+# Single-Post
+--------------------------------------------------------------*/
+div#id.hfeed.site {
+  margin-top: 85px; }
 
 /*--------------------------------------------------------------
 # 404 Not Found

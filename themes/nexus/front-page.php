@@ -68,7 +68,7 @@ get_header(); ?>
 									<?php if ( $query->have_posts() ) : ?>
 
 										<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-											<?php get_template_part( 'template-parts/content-test' ); ?>
+											<?php get_template_part( 'template-parts/content-carousel' ); ?>
 
 										<?php endwhile; ?>
 										<?php wp_reset_postdata(); ?>

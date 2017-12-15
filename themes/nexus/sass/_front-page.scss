@@ -2,6 +2,10 @@
   min-width: 375px;
   margin-top: -15px;
 
+  .post-86 {
+    display: none;
+  }
+
   h2 {
     line-height: 40px;
     text-align: center;
@@ -142,8 +146,8 @@
     }
 
     .why-nexus {
-      margin-top: 100px;
       height: 100vh;
+      margin-top: 50px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -154,6 +158,7 @@
       background-size: 100% 75%, 100% 50%;
       color: $color__footer-background;
       @media #{$desktop} {
+        margin-top: 100px;
         justify-content: space-around;
         align-items: flex-start;
         background-position-y: center, center; 
@@ -350,7 +355,10 @@
       }
 
       .owl-dots {
-        margin: 3rem auto;
+        margin: 0 auto;
+        @media #{$desktop} {
+          margin: 3rem auto;  
+        }
       }
     }
 
@@ -386,6 +394,7 @@
       background-position: top left, bottom right;
       background-color: $color__textbox-background;
       margin-top: 0;
+      margin-bottom: 1rem;
       width: 100%;
       padding: 39px 30px 22px 48px;
       font-weight: bold;

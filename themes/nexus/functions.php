@@ -144,6 +144,23 @@ function plugin_myContentFilter($content)
 	return ($content);
 }
 
+function pixelninja_spanify_title($title) {
+  // Break the title into words
+  $title_words = explode(' ', get_the_title());
+  if (count($title_words) > 0) {
+    // If the title consists of more than one word, wrap the first word in a <span> tag
+    $title_words[0] = '<span>' . $title_words[0] . '</span>';
+    return implode(' ', $title_words);
+  } else {
+    // If the title is only one word, do not change it
+    return get_the_title();
+  }
+}
+function pixelninja_single_cat_title() {
+	echo pixelninja_spanify_title(single_cat_title('', false));
+}
+
+
 // filter videos and blogs on blog page
 // add_filter('pre_get_posts', 'per_category_basis');
 // function per_category_basis($query){

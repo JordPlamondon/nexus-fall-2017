@@ -46,26 +46,7 @@ section.error-404.not-found { // White background with opacity.  Text contained 
     }
 }
 
-// .home-button {  // Home button linked to home_url with a hover border change
-//   height: 80px;	
-//   width: 250px;	
-//   border-radius: 2px 100px 2px 100px;	
-//   font-size: 36px;	
-//   font-weight: bold;	
-//   letter-spacing: 2px;	
-//   line-height: 28px;	
-//   text-align: center;
-//   font-family: $font__main;  
-//   background-color: $color__icon-element;	
-//   color: $color__text-white;
-//   &:hover {
-//     border-radius: 100px 2px 100px 2px;	
-//     background-color: #bf1328;
-//     box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.5);
-//   }
-// }
-
-div.return-home {  // Button container
+div.return-home {  // Home link container
   display: flex;
   justify-content: center;
   padding: 2rem 0 3rem 0;

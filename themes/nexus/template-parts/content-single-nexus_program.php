@@ -64,15 +64,12 @@
             <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></h2>
             <div class="title-underline"></div>
         </div>
-
         <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_city_about', true); ?></p>
-        <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_reviews', true); ?></p>
 
     </div>
 
     <div class="read-more">
         <?php $terms = wp_get_post_terms( $post->ID, 'program_type' ); ?>
-        <!-- <?php var_dump ( $terms ) ?> -->
         <?php
 
         $custom_terms = get_terms('program_type');
@@ -114,19 +111,31 @@
                     <?php endif; 
                     
         wp_reset_query();?>
-<h1 class="student-review-header"> Student Review </h1>
-	<div class="student-review__box">
-    <div class="student-review__box__image">
-    <img src=<?php echo get_template_directory_uri() . '/assets/images/photo-review@3x.png'?>
-    alt="Picture of a Student">
-    </div>
-    <div class="student-review__info-wrapper">
-        <div class="grey"></div>
-        <blockquote class="student-review__info">
-        <span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
-        </blockquote>
-    </div>
-</div>
     </div> <!-- / Readmore -->
+
+<?php $review_id = get_post_meta($post->ID, '_nexus_post_multicheckbox', true);?>
+
+<?php if($review_id):; ?>
+    <?php
+    $post_id = $review_id[0];
+    $queried_post = get_post($post_id);
+    $title = $queried_post->post_title;
+    $review_image = wp_get_attachment_url ( get_post_thumbnail_id($post_id), 'thumbnail' );
+    ?>
+    <h1 class="student-review-header"> Student Review </h1>
+    	<div class="student-review__box">
+            <div class="student-review__box__image">
+                <img src="<?php echo $review_image ?>" alt="Picture of a Student">
+            </div>
+            <div class="student-review__info-wrapper">
+                <div class="grey"></div>
+                <blockquote class="student-review__info">
+                    <span class="oquote"></span><?php echo $queried_post->post_content; ?><span class="cquote"></span>
+                </blockquote>
+                
+            </div>
+        </div>
+<?php endif; ?>
+<?php wp_reset_query();?>
 
 </article><!-- #post-## -->

@@ -1,7 +1,6 @@
 // Main navigation bar  
   nav.main-navigation {  
     height: 65px;
-    min-width: 325px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,13 +103,13 @@
     @media #{$tablet} {
       display: flex;
       height: 126px;
-      width: 80vw;
+      width: 75vw;
       margin-top: 36px;
       align-items: center;
       justify-content: center; 
         ul {
           display: flex;
-          width: 70vw;
+          width: 59vw;
           margin: 0;
           padding: 0;
           align-items: stretch; /* Default */

@@ -509,7 +509,7 @@ a {
   clear: both;
   display: block;
   float: left;
-  width: 100%; }
+  width: 100vw; }
   .main-navigation ul {
     list-style: none;
     margin: 0;
@@ -3151,7 +3151,6 @@ div.banner-faq-single {
 
 nav.main-navigation {
   height: 65px;
-  min-width: 325px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3269,7 +3268,7 @@ nav.main-navigation:hover {
       display: -ms-flexbox;
       display: flex;
       height: 126px;
-      width: 80vw;
+      width: 75vw;
       margin-top: 36px;
       -webkit-box-align: center;
           -ms-flex-align: center;
@@ -3281,7 +3280,7 @@ nav.main-navigation:hover {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        width: 70vw;
+        width: 59vw;
         margin: 0;
         padding: 0;
         -webkit-box-align: stretch;

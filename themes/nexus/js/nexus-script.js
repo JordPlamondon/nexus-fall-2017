@@ -4,16 +4,20 @@
   
   $('.menu-toggle').on('click', function(e) {
     e.preventDefault();
-    
-    $('.menu-content').slideToggle("swing").focus();
-  
+    $('.menu-content').slideToggle("swing").focus(); 
   });
-
     $('.menu-content').on('click', function(){
-  
       $('.menu-content').toggle().focus();
-  
     });
+
+
+    $("#primary").click(function(event) { 
+      if(!$(event.target).closest('.menu-content').length) {
+          if($('.menu-content').is(":visible")) {
+              $('.menu-content').hide();
+          }
+      }        
+  });
 
   $('.owl-carousel').owlCarousel({
       loop:true,

@@ -21,7 +21,7 @@ get_header(); ?>
 
 
 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-echo '<div class="blog-picture" style="background: url('. $url.')">'; ?>
+echo '<div class="blog-picture" style="background: url('. $url.');background-size: cover;">'; ?>
 
 	<h2> <?php the_title(); ?> </h2>
 	<p>	<?php nexus_posted_on(); ?> / <?php nexus_comment_count(); ?> / <?php nexus_posted_by(); ?></p>
@@ -35,6 +35,12 @@ echo '<div class="blog-picture" style="background: url('. $url.')">'; ?>
 
 			<?php endwhile; // End of the loop. ?>
 </p></article>
+<div class="blog-comments">
+<?php if ( comments_open() || get_comments_number() ) :
+											comments_template();
+									endif;
+								?>
+								</div>
 <!--  -->
 </div>
 

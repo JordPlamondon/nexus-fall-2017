@@ -8,7 +8,7 @@ div#id.hfeed.site {
 
 .single-post {
   .blog-wrapper {
-    height: 4000px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -35,7 +35,6 @@ div#id.hfeed.site {
 .blog-picture {
   height: 40vw;
   width: 80vw;
-  background: pink;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -43,13 +42,15 @@ div#id.hfeed.site {
   margin: 0 auto;
   margin-bottom: 48px;
   h2 {
-    background-color: goldenrod;
+    color: $color__text-blue-large;
+    background-color: $color__fp_quotes;
     font-size: 48px;
     padding: 14px;
     width: 60%;
   }
   p {
-    background-color: goldenrod;
+    color: $color__text-accent;
+    background-color: $color__fp_quotes;
     padding: 14px;
     width: 40%;
     position: absolute;
@@ -61,7 +62,7 @@ div#id.hfeed.site {
   margin-top: 48px;
   width: 80%;
   margin: 0 auto;
-  text-align: center;
+  margin-bottom: 48px;
   border: 1px solid lightgrey;
  
   p {
@@ -70,6 +71,31 @@ div#id.hfeed.site {
     margin: 0 auto;
     font-size: 18px;
     line-height: 28px;
+  }
+}
+.blog-comments {
+  background-color: $color__fp_quotes;
+  width: 80%;
+  padding: 24px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.comments-area {
+  border:  1px solid lightgrey;
+  background: white;
+  padding: 14px;
+  width: 70%;
+  margin: 0 auto;
+  input {
+    width: 175px;
+    height: 40px;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: $color__icon-element;
+    color: white;
+    letter-spacing: 1pt;
   }
 }
  

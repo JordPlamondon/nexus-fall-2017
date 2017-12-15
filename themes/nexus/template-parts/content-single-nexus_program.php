@@ -112,6 +112,9 @@
                     
         wp_reset_query();?>
     </div> <!-- / Readmore -->
+    
+            
+    <section class="student-review"> <!-- Student Review Section -->
 
 <?php $review_id = get_post_meta($post->ID, '_nexus_post_multicheckbox', true);?>
 
@@ -122,7 +125,11 @@
     $title = $queried_post->post_title;
     $review_image = wp_get_attachment_url ( get_post_thumbnail_id($post_id), 'thumbnail' );
     ?>
-    <h1 class="student-review-header"> Student Review </h1>
+    
+				<div class="headergroup">
+					<h2 class="student-review-header"> Student Review </h2>
+					<div class="underline"></div>
+                </div>
     	<div class="student-review__box">
             <div class="student-review__box__image">
                 <img src="<?php echo $review_image ?>" alt="Picture of a Student">
@@ -137,5 +144,7 @@
         </div>
 <?php endif; ?>
 <?php wp_reset_query();?>
+
+    </section>  <!-- End Student Review Section  -->
 
 </article><!-- #post-## -->

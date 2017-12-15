@@ -509,7 +509,7 @@ a {
   clear: both;
   display: block;
   float: left;
-  width: 100%; }
+  width: 100vw; }
   .main-navigation ul {
     list-style: none;
     margin: 0;
@@ -2985,8 +2985,6 @@ div.banner-faq-single {
           text-transform: uppercase; } }
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button a, .faq-single-homestay .homestay-button-wrapper .return-to-top-button a {
       text-decoration: none; }
-<<<<<<< HEAD
-=======
   @media all and (min-width: 950px) {
     .faq-single-homestay .homestay-button-wrapper .homestay-looking-button {
       display: inline;
@@ -2996,7 +2994,6 @@ div.banner-faq-single {
       background-color: white; }
       .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover {
         background-color: white; } }
->>>>>>> dd13dc1a1d319bf92bb4d92c9ca9374396bf9fe4
   .faq-single-homestay .homestay-button-wrapper .desktop-thumbnail {
     display: none; }
     @media all and (min-width: 950px) {
@@ -3058,7 +3055,6 @@ div.banner-faq-single {
 
 nav.main-navigation {
   height: 65px;
-  min-width: 325px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3176,7 +3172,7 @@ nav.main-navigation:hover {
       display: -ms-flexbox;
       display: flex;
       height: 126px;
-      width: 80vw;
+      width: 75vw;
       margin-top: 36px;
       -webkit-box-align: center;
           -ms-flex-align: center;
@@ -3188,7 +3184,7 @@ nav.main-navigation:hover {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        width: 70vw;
+        width: 59vw;
         margin: 0;
         padding: 0;
         -webkit-box-align: stretch;

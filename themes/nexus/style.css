@@ -2724,7 +2724,7 @@ div.widget_info_contain a {
         @media all and (min-width: 950px) {
           .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
             font-size: 23px;
-            bottom: 0; } }
+            top: 15px; } }
         @media all and (min-width: 850px) {
           .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
             font-size: 20px; } }
@@ -2815,26 +2815,32 @@ div.banner-faq-single {
   padding-top: 65px;
   margin-bottom: 24px; }
   div.banner-faq-single h1 {
+    position: relative;
     text-align: center;
     color: #15405A;
     font-size: 30px;
     text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    top: 50px; }
+    font-weight: 900; }
     @media all and (min-width: 950px) {
       div.banner-faq-single h1 {
-        top: 150px;
+        top: 40px;
         font-size: 70px; } }
     div.banner-faq-single h1 .title-span {
+      display: block;
       font-style: italic;
+      position: relative;
+      top: 10px;
+      font-size: 25px;
       color: #E00029;
       font-weight: 200;
+      overflow-wrap: break-word;
       text-transform: capitalize; }
       @media all and (min-width: 950px) {
         div.banner-faq-single h1 .title-span {
           display: block;
           font-style: italic;
+          position: relative;
+          top: 20px;
           color: #E00029;
           font-size: 50px;
           font-weight: 200;
@@ -2847,7 +2853,7 @@ div.banner-faq-single {
     background-size: 100% 100%; }
     @media all and (min-width: 950px) {
       div.banner-faq-single .banner-image-faq-single {
-        height: 460px; } }
+        height: 50vh; } }
   div.banner-faq-single .underline {
     margin: 0 auto;
     width: 49px;
@@ -2872,6 +2878,10 @@ div.banner-faq-single {
     .nexus_faq-template-default .site-main .thumb {
       margin: 50px;
       width: 402px; } }
+
+@media all and (min-width: 950px) {
+  .nexus_faq-template-default .desktop-metaboxes {
+    padding-top: 40px; } }
 
 .nexus_faq-template-default .faq-homestay {
   height: 55px;
@@ -4175,6 +4185,23 @@ nav.main-navigation:hover {
 .selectric-items .selectric-group li {
   padding-left: 25px; }
 
+.single-nexus_program .student-review {
+  margin-bottom: 3rem; }
+  .single-nexus_program .student-review .headergroup {
+    text-align: center; }
+  .single-nexus_program .student-review .underline {
+    margin: 0 auto;
+    width: 49px;
+    text-align: center;
+    border-bottom: 3px solid #FF8A2A;
+    position: relative;
+    bottom: 15px; }
+    @media all and (min-width: 950px) {
+      .single-nexus_program .student-review .underline {
+        width: 144px;
+        border-bottom: 6px solid #FF8A2A;
+        top: 10px; } }
+
 body.blog .blog-wrapper {
   margin-bottom: 60vw;
   height: 2110px; }
@@ -4725,7 +4752,75 @@ div.return-home {
     border: none;
     letter-spacing: 1pt; }
 
-.student-review__info-wrapper {
+.student-review .headergroup {
+  line-height: 3rem; }
+  .student-review .headergroup h2 {
+    font-size: 4.5vw;
+    margin-bottom: 10px; }
+  .student-review .headergroup .underline {
+    margin: 0 auto 3rem auto;
+    width: 49px; }
+    @media all and (min-width: 950px) {
+      .student-review .headergroup .underline {
+        width: 144px; } }
+
+.student-review .owl-nav {
+  display: none; }
+
+.student-review .owl-dots {
+  margin: 3rem auto; }
+
+.student-review .student-review__box {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 950px) {
+    .student-review .student-review__box {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      max-height: 220px; } }
+  .student-review .student-review__box .student-review__box__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 40vw;
+    max-height: 500px;
+    overflow: hidden; }
+    @media all and (min-width: 950px) {
+      .student-review .student-review__box .student-review__box__image {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        height: 220px;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; } }
+    .student-review .student-review__box .student-review__box__image img {
+      max-width: none;
+      width: 100%; }
+      @media all and (min-width: 950px) {
+        .student-review .student-review__box .student-review__box__image img {
+          -ms-flex-item-align: end;
+              align-self: flex-end;
+          height: 220px;
+          width: auto; } }
+
+.student-review .student-review__info-wrapper {
   background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
@@ -4737,108 +4832,31 @@ div.return-home {
   font-size: 4vw;
   position: relative; }
   @media all and (min-width: 950px) {
-    .student-review__info-wrapper {
+    .student-review .student-review__info-wrapper {
       margin: 0;
       font-size: 3vw;
       -ms-flex-preferred-size: 80%;
           flex-basis: 80%; } }
   @media all and (min-width: 950px) {
-    .student-review__info-wrapper .student-review__info {
+    .student-review .student-review__info-wrapper .student-review__info {
       padding: 15px 20px 15px 45px; } }
-  .student-review__info-wrapper .student-review .headergroup {
-    line-height: 3rem; }
-  .student-review__info-wrapper .student-review h2 {
-    font-size: 4.5vw;
-    margin-bottom: 10px; }
-  .student-review__info-wrapper .student-review .underline {
-    margin: 0 auto 3rem auto;
-    width: 49px; }
-    @media all and (min-width: 950px) {
-      .student-review__info-wrapper .student-review .underline {
-        width: 144px; } }
-  .student-review__info-wrapper .student-review .owl-nav {
-    display: none; }
-  .student-review__info-wrapper .student-review .owl-dots {
-    margin: 3rem auto; }
-  .student-review__info-wrapper .student-review__box {
-    width: 90%;
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-    @media all and (min-width: 950px) {
-      .student-review__info-wrapper .student-review__box {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        max-height: 220px; } }
-    .student-review__info-wrapper .student-review__box .student-review__box__image {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      height: 40vw;
-      max-height: 500px;
-      overflow: hidden; }
-      @media all and (min-width: 950px) {
-        .student-review__info-wrapper .student-review__box .student-review__box__image {
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: column;
-                  flex-direction: column;
-          -ms-flex-preferred-size: 40%;
-              flex-basis: 40%;
-          width: 30%;
-          height: 220px;
-          -webkit-box-pack: end;
-              -ms-flex-pack: end;
-                  justify-content: flex-end; } }
-      .student-review__info-wrapper .student-review__box .student-review__box__image img {
-        max-width: none;
-        width: 100%; }
-        @media all and (min-width: 950px) {
-          .student-review__info-wrapper .student-review__box .student-review__box__image img {
-            -ms-flex-item-align: end;
-                align-self: flex-end;
-            height: 220px;
-            width: auto; } }
-  .student-review__info-wrapper .student-review__info-wrapper {
-    background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-color: #F3F5F8;
-    margin-top: 0;
-    width: 100%;
-    padding: 39px 30px 22px 48px;
-    font-weight: bold;
-    font-size: 4vw;
-    position: relative; }
-    .student-review__info-wrapper .student-review__info-wrapper .grey {
+
+.student-review .grey {
+  background: #F3F5F8;
+  -webkit-transform: rotate(134deg);
+          transform: rotate(134deg);
+  bottom: 54px;
+  left: 40%;
+  height: 30px;
+  position: relative;
+  width: 30px; }
+  @media all and (min-width: 950px) {
+    .student-review .grey {
       background: #F3F5F8;
       -webkit-transform: rotate(134deg);
               transform: rotate(134deg);
-      bottom: 54px;
-      left: 40%;
+      bottom: -60px;
+      left: -63px;
       height: 30px;
       position: relative;
-      width: 30px; }
-      @media all and (min-width: 950px) {
-        .student-review__info-wrapper .student-review__info-wrapper .grey {
-          background: #F3F5F8;
-          -webkit-transform: rotate(134deg);
-                  transform: rotate(134deg);
-          bottom: -60px;
-          left: -63px;
-          height: 30px;
-          position: relative;
-          width: 30px; } }
+      width: 30px; } }

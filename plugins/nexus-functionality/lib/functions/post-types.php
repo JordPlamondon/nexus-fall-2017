@@ -231,4 +231,120 @@ function nexus_faq() {
 	}
 	add_action( 'init', 'nexus_reviews', 0 );
 
+	function nexus_schools() {
+	
+		$labels = array(
+			'name'                  => _x( 'Schools', 'Post Type General Name', 'text_domain' ),
+			'singular_name'         => _x( 'School', 'Post Type Singular Name', 'text_domain' ),
+			'menu_name'             => __( 'Schools', 'text_domain' ),
+			'name_admin_bar'        => __( 'School', 'text_domain' ),
+			'archives'              => __( 'School Archives', 'text_domain' ),
+			'attributes'            => __( 'School Attributes', 'text_domain' ),
+			'parent_item_colon'     => __( 'Parent School:', 'text_domain' ),
+			'all_items'             => __( 'All Schools', 'text_domain' ),
+			'add_new_item'          => __( 'Add New School', 'text_domain' ),
+			'add_new'               => __( 'Add New', 'text_domain' ),
+			'new_item'              => __( 'New School', 'text_domain' ),
+			'edit_item'             => __( 'Edit School', 'text_domain' ),
+			'update_item'           => __( 'Update School', 'text_domain' ),
+			'view_item'             => __( 'View School', 'text_domain' ),
+			'view_items'            => __( 'View Schools', 'text_domain' ),
+			'search_items'          => __( 'Search School', 'text_domain' ),
+			'not_found'             => __( 'Not found', 'text_domain' ),
+			'not_found_in_trash'    => __( 'Not found in Trash', 'text_domain' ),
+			'featured_image'        => __( 'Featured Image', 'text_domain' ),
+			'set_featured_image'    => __( 'Set featured image', 'text_domain' ),
+			'remove_featured_image' => __( 'Remove featured image', 'text_domain' ),
+			'use_featured_image'    => __( 'Use as featured image', 'text_domain' ),
+			'insert_into_item'      => __( 'Insert into School', 'text_domain' ),
+			'uploaded_to_this_item' => __( 'Uploaded to this School', 'text_domain' ),
+			'items_list'            => __( 'Schools list', 'text_domain' ),
+			'items_list_navigation' => __( 'Schools list navigation', 'text_domain' ),
+			'filter_items_list'     => __( 'Filter Schools list', 'text_domain' ),
+		);
+		$args = array(
+			'label'                 => __( 'School', 'text_domain' ),
+			'description'           => __( 'School page for nexus website.', 'text_domain' ),
+			'labels'                => $labels,
+			'supports'              => array( 'title', 'editor', 'thumbnail' ),
+			'taxonomies'            => array( 'category', 'post_tag', 'School' ),
+			'hierarchical'          => false,
+			'public'                => true,
+			'show_ui'               => true,
+			'show_in_menu'          => true,
+			'menu_position'         => 5,
+			'show_in_admin_bar'     => true,
+			'show_in_nav_menus'     => true,
+			'can_export'            => true,
+			'has_archive'           => true,
+			'exclude_from_search'   => false,
+			'publicly_queryable'    => true,
+			'capability_type'       => 'post',
+			'show_in_rest'          => true,
+		);
+		register_post_type( 'nexus_schools', $args );
+	
+	}
+	add_action( 'init', 'nexus_schools', 0 );
+
+	function nexus_cities() {
+	
+		$labels = array(
+			'name'                  => _x( 'Cities', 'Post Type General Name', 'text_domain' ),
+			'singular_name'         => _x( 'City', 'Post Type Singular Name', 'text_domain' ),
+			'menu_name'             => __( 'Cities', 'text_domain' ),
+			'name_admin_bar'        => __( 'City', 'text_domain' ),
+			'archives'              => __( 'City Archives', 'text_domain' ),
+			'attributes'            => __( 'City Attributes', 'text_domain' ),
+			'parent_item_colon'     => __( 'Parent City:', 'text_domain' ),
+			'all_items'             => __( 'All Cities', 'text_domain' ),
+			'add_new_item'          => __( 'Add New City', 'text_domain' ),
+			'add_new'               => __( 'Add New', 'text_domain' ),
+			'new_item'              => __( 'New City', 'text_domain' ),
+			'edit_item'             => __( 'Edit City', 'text_domain' ),
+			'update_item'           => __( 'Update City', 'text_domain' ),
+			'view_item'             => __( 'View City', 'text_domain' ),
+			'view_items'            => __( 'View Cities', 'text_domain' ),
+			'search_items'          => __( 'Search City', 'text_domain' ),
+			'not_found'             => __( 'Not found', 'text_domain' ),
+			'not_found_in_trash'    => __( 'Not found in Trash', 'text_domain' ),
+			'featured_image'        => __( 'Featured Image', 'text_domain' ),
+			'set_featured_image'    => __( 'Set featured image', 'text_domain' ),
+			'remove_featured_image' => __( 'Remove featured image', 'text_domain' ),
+			'use_featured_image'    => __( 'Use as featured image', 'text_domain' ),
+			'insert_into_item'      => __( 'Insert into City', 'text_domain' ),
+			'uploaded_to_this_item' => __( 'Uploaded to this City', 'text_domain' ),
+			'items_list'            => __( 'Cities list', 'text_domain' ),
+			'items_list_navigation' => __( 'Cities list navigation', 'text_domain' ),
+			'filter_items_list'     => __( 'Filter Cities list', 'text_domain' ),
+		);
+		$args = array(
+			'label'                 => __( 'City', 'text_domain' ),
+			'description'           => __( 'City page for nexus website.', 'text_domain' ),
+			'labels'                => $labels,
+			'supports'              => array( 'title'),
+			'taxonomies'            => array( 'category', 'post_tag', 'City' ),
+			'hierarchical'          => false,
+			'public'                => true,
+			'show_ui'               => true,
+			'show_in_menu'          => true,
+			'menu_position'         => 5,
+			'show_in_admin_bar'     => true,
+			'show_in_nav_menus'     => true,
+			'can_export'            => true,
+			'has_archive'           => true,
+			'exclude_from_search'   => false,
+			'publicly_queryable'    => true,
+			'capability_type'       => 'post',
+			'show_in_rest'          => true,
+		);
+		register_post_type( 'nexus_cities', $args );
+	
+	}
+	add_action( 'init', 'nexus_cities', 0 );
+
+
+
+
+
 

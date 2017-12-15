@@ -27,13 +27,14 @@
       } 
     }
   }
-  .faq-page {
-    height: 130px;
+  .title-wrapper {
+    height: 50vw;
     width: 100vw;
     background-image: url("../../assets/images/faq@3x.png");
     background-size: 100% 100%;
     @media #{$desktop} { 
-      height: 50vh;
+      height: 50vw;
+      width: 100vw;
     }      
   }
   .faq-wrapper {
@@ -74,13 +75,11 @@
         position: relative;
         right: 20px;
         padding: 0;
-        padding-top: 120px;
         @media #{$desktop} {
           display: flex;
           flex-flow: row wrap;
           flex-wrap: wrap;
           justify-content: center;
-          padding-top: 350px;
           right: 30px;
         }
       li {

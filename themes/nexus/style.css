@@ -1981,16 +1981,21 @@ body.page-template-archive-nexus_program main {
         text-align: right; }
       .page-template-about .about-wrapper .about-left p {
         width: 45%;
-        text-align: right;
+        text-align: left;
         padding-left: 14px;
         line-height: 16pt;
         font-size: 14px;
         color: #15405A; }
         @media all and (min-width: 450px) {
           .page-template-about .about-wrapper .about-left p {
-            line-height: 20pt;
+            line-height: 16pt;
             font-size: 16px;
-            width: 40%; } }
+            width: 50%; } }
+        @media all and (min-width: 950px) {
+          .page-template-about .about-wrapper .about-left p {
+            line-height: 20pt;
+            font-size: 18px;
+            width: 30%; } }
     .page-template-about .about-wrapper .about-right {
       height: 30vw;
       min-height: 248px;
@@ -2038,14 +2043,19 @@ body.page-template-archive-nexus_program main {
         color: #15405A;
         width: 45%;
         line-height: 16pt;
-        text-align: left;
+        text-align: right;
         font-size: 14px;
         padding-right: 14px; }
         @media all and (min-width: 450px) {
           .page-template-about .about-wrapper .about-right p {
-            line-height: 20pt;
+            line-height: 16pt;
             font-size: 16px;
-            width: 40%; } }
+            width: 50%; } }
+        @media all and (min-width: 950px) {
+          .page-template-about .about-wrapper .about-right p {
+            line-height: 20pt;
+            font-size: 18px;
+            width: 30%; } }
   .page-template-about .about-consultants {
     height: 500px;
     display: block;
@@ -2585,14 +2595,15 @@ div.widget_info_contain a {
       width: 144px;
       top: 190px; } }
 
-.page-template-taxonomy-nexus_faq .faq-page {
-  height: 130px;
+.page-template-taxonomy-nexus_faq .title-wrapper {
+  height: 50vw;
   width: 100vw;
   background-image: url("../../assets/images/faq@3x.png");
   background-size: 100% 100%; }
   @media all and (min-width: 950px) {
-    .page-template-taxonomy-nexus_faq .faq-page {
-      height: 50vh; } }
+    .page-template-taxonomy-nexus_faq .title-wrapper {
+      height: 50vw;
+      width: 100vw; } }
 
 .page-template-taxonomy-nexus_faq .faq-wrapper {
   height: 1590px; }
@@ -2629,8 +2640,7 @@ div.widget_info_contain a {
   .page-template-taxonomy-nexus_faq .faq-wrapper ul {
     position: relative;
     right: 20px;
-    padding: 0;
-    padding-top: 120px; }
+    padding: 0; }
     @media all and (min-width: 950px) {
       .page-template-taxonomy-nexus_faq .faq-wrapper ul {
         display: -webkit-box;
@@ -2645,7 +2655,6 @@ div.widget_info_contain a {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        padding-top: 350px;
         right: 30px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li {
       display: -webkit-box;
@@ -3164,13 +3173,14 @@ nav.main-navigation {
   nav.main-navigation .header-logo {
     height: 32px;
     width: 97px;
-    margin: 17px 0 16px 15px;
+    margin: 22px 0 16px 15px;
     background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
     background-size: 100% 100%;
     z-index: 10; }
     @media all and (min-width: 850px) {
       nav.main-navigation .header-logo {
         height: 62px;
+        margin-top: 24px;
         min-width: 186px;
         margin-left: 40px;
         background-image: url("../../assets/images/nexus_logo_04@2x.png");
@@ -3218,10 +3228,10 @@ div.menu-content {
   div.menu-content button.book-consult {
     width: 130px;
     height: 40px;
-    padding: 0;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
             box-shadow: none;
+    margin-left: 24px;
     text-shadow: none;
     background: #E91C35;
     color: #FFFFFF; }
@@ -3506,7 +3516,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -3786,7 +3796,7 @@ nav.main-navigation:hover {
       padding: 38px;
       position: relative;
       bottom: 720px;
-      left: 90%;
+      left: 30vw;
       font-family: "Raleway", Arial, Helvetica, sans-serif;
       font-size: 18px;
       background-color: #FFC54C;
@@ -3847,7 +3857,7 @@ nav.main-navigation:hover {
     @media all and (min-width: 450px) {
       .page-template-contact .contact-form h2.title {
         width: 300px;
-        margin-left: 20%;
+        margin-left: 20vw;
         font-size: 50px;
         text-align: left; } }
   .page-template-contact .contact-form .contact-content {
@@ -3863,7 +3873,7 @@ nav.main-navigation:hover {
     bottom: 20px; }
     @media all and (min-width: 450px) {
       .page-template-contact .contact-form .underline {
-        right: 20%;
+        right: 10vw;
         bottom: 34px;
         width: 109px; } }
 
@@ -4755,7 +4765,11 @@ div.return-home {
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
     @media all and (min-width: 950px) {
       .student-review__info-wrapper .student-review__box {
         -webkit-box-orient: horizontal;
@@ -4790,9 +4804,12 @@ div.return-home {
               -ms-flex-pack: end;
                   justify-content: flex-end; } }
       .student-review__info-wrapper .student-review__box .student-review__box__image img {
-        max-width: none; }
+        max-width: none;
+        width: 100%; }
         @media all and (min-width: 950px) {
           .student-review__info-wrapper .student-review__box .student-review__box__image img {
+            -ms-flex-item-align: end;
+                align-self: flex-end;
             height: 220px;
             width: auto; } }
   .student-review__info-wrapper .student-review__info-wrapper {

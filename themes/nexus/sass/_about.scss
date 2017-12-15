@@ -150,15 +150,20 @@
         }
       p {      
         width: 45%;
-        text-align: right;
+        text-align: left;
         padding-left: 14px;
         line-height: 16pt;
         font-size: 14px;
         color: $color__footer-background;
         @media #{$tablet-test} { 
-          line-height: 20pt;
+          line-height: 16pt;
           font-size: 16px;
-          width: 40%;
+          width: 50%;
+        }
+        @media #{$desktop} { 
+          line-height: 20pt;
+          font-size: 18px;
+          width: 30%;
           
         }
       }
@@ -196,14 +201,18 @@
         color: $color__footer-background;
         width: 45%;
         line-height: 16pt;
-        text-align: left;
+        text-align: right;
         font-size: 14px;
         padding-right: 14px;
         @media #{$tablet-test} {
-          line-height: 20pt;
+          line-height: 16pt;
           font-size: 16px;
-          width: 40%;
-        
+          width: 50%;
+        }
+        @media #{$desktop} { 
+          line-height: 20pt;
+          font-size: 18px;
+          width: 30%;        
         }
       }
     }

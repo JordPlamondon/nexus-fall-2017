@@ -36,16 +36,14 @@ get_header(); ?>
   <!-- ######## Items with left aligned images. Text and image can be changed here #######-->
   <div class="about-left">
       <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/01@2x.png" />
-      <p><span class="about-titles">Planning and Organizing</span> <br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p>
+      <p><span class="about-titles">Planning and Organizing</span> <br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and prid graphic design and bring it to  om Canadaic design and bring it to life and pride ourselves on creating memorable experiences.  </p>
       <img class="path-img-left" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-2@3x.png" />
   </div>
 
       <!-- ######## Items with right aligned images. Text and image can be changed here #######--> 
   <div class="about-right">
 
-      <p><span class="about-titles">Applying for School</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.</p>
-
-
+      <p><span class="about-titles">Applying for School</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pri.We are passionate about graphic design and bring it to life and pride ing it to life and pride ourselves on creating memorable experiences. .</p>
       <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/02@2x.png" /><img class="path-img-right" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-4@3x.png" />
 
   </div>
@@ -54,17 +52,17 @@ get_header(); ?>
     <!-- ######## Items with left aligned images. Text and image can be changed here #######-->
   <div class="about-left">
       <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/03@2x.png" />
-      <p><span class="about-titles">Preparing for Arrival</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.</p><img class="path-img-left" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-2@3x.png" />
+      <p><span class="about-titles">Applying for School</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pride bring it to life and pride ourselves on creating memorable experiences. .</p><img class="path-img-left" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-2@3x.png" />
   </div>
 
   <!-- ######## Items with right aligned images. Text and image can be changed here #######--> 
   <div class="about-right">
-    <p class="about-how-help-text"><span class="about-titles">First Days om Canada</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p><img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/04@2x.png" /><img class="path-img-right" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-4@3x.png" />
+    <p class="about-how-help-text"><span class="about-titles">Applying for School</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pride ourselves on creatinesind bring it to life and pride ourselves on creating memorable experiences. </p><img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/04@2x.png" /><img class="path-img-right" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-4@3x.png" />
   </div>
   <!-- ######## Items with left aligned images. Text and image can be changed here #######-->
   <div class="about-left">
     <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/05@2x.png" />
-    <p><span class="about-titles">Living in Canada</span><br>We are passionate about graphic design and bring it to life and pride ourselves on creating memorable experiences. </p>
+    <p><span class="about-titles">Living in Canada</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pripassionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.  </p>
   </div>
 
 </div>

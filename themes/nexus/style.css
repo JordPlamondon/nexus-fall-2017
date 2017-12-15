@@ -4715,7 +4715,78 @@ div.return-home {
     border: none;
     letter-spacing: 1pt; }
 
-.student-review__info-wrapper {
+.student-review .headergroup {
+  line-height: 3rem; }
+  .student-review .headergroup h2 {
+    font-size: 4.5vw;
+    margin-bottom: 10px; }
+  .student-review .headergroup .underline {
+    margin: 0 auto 3rem auto;
+    width: 49px; }
+    @media all and (min-width: 950px) {
+      .student-review .headergroup .underline {
+        width: 144px; } }
+
+.student-review .owl-nav {
+  display: none; }
+
+.student-review .owl-dots {
+  margin: 3rem auto; }
+
+.student-review .student-review__box {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 950px) {
+    .student-review .student-review__box {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      max-height: 220px; } }
+  .student-review .student-review__box .student-review__box__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 40vw;
+    max-height: 500px;
+    overflow: hidden; }
+    @media all and (min-width: 950px) {
+      .student-review .student-review__box .student-review__box__image {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-preferred-size: 40%;
+            flex-basis: 40%;
+        width: 30%;
+        height: 220px;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; } }
+    .student-review .student-review__box .student-review__box__image img {
+      max-width: none;
+      width: 100%; }
+      @media all and (min-width: 950px) {
+        .student-review .student-review__box .student-review__box__image img {
+          -ms-flex-item-align: end;
+              align-self: flex-end;
+          height: 220px;
+          width: auto; } }
+
+.student-review .student-review__info-wrapper {
   background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
@@ -4727,101 +4798,31 @@ div.return-home {
   font-size: 4vw;
   position: relative; }
   @media all and (min-width: 950px) {
-    .student-review__info-wrapper {
+    .student-review .student-review__info-wrapper {
       margin: 0;
       font-size: 3vw;
       -ms-flex-preferred-size: 80%;
           flex-basis: 80%; } }
   @media all and (min-width: 950px) {
-    .student-review__info-wrapper .student-review__info {
+    .student-review .student-review__info-wrapper .student-review__info {
       padding: 15px 20px 15px 45px; } }
-  .student-review__info-wrapper .student-review .headergroup {
-    line-height: 3rem; }
-  .student-review__info-wrapper .student-review h2 {
-    font-size: 4.5vw;
-    margin-bottom: 10px; }
-  .student-review__info-wrapper .student-review .underline {
-    margin: 0 auto 3rem auto;
-    width: 49px; }
-    @media all and (min-width: 950px) {
-      .student-review__info-wrapper .student-review .underline {
-        width: 144px; } }
-  .student-review__info-wrapper .student-review .owl-nav {
-    display: none; }
-  .student-review__info-wrapper .student-review .owl-dots {
-    margin: 3rem auto; }
-  .student-review__info-wrapper .student-review__box {
-    width: 90%;
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    @media all and (min-width: 950px) {
-      .student-review__info-wrapper .student-review__box {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        max-height: 220px; } }
-    .student-review__info-wrapper .student-review__box .student-review__box__image {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      height: 40vw;
-      max-height: 500px;
-      overflow: hidden; }
-      @media all and (min-width: 950px) {
-        .student-review__info-wrapper .student-review__box .student-review__box__image {
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: column;
-                  flex-direction: column;
-          -ms-flex-preferred-size: 40%;
-              flex-basis: 40%;
-          width: 30%;
-          height: 220px;
-          -webkit-box-pack: end;
-              -ms-flex-pack: end;
-                  justify-content: flex-end; } }
-      .student-review__info-wrapper .student-review__box .student-review__box__image img {
-        max-width: none; }
-        @media all and (min-width: 950px) {
-          .student-review__info-wrapper .student-review__box .student-review__box__image img {
-            height: 220px;
-            width: auto; } }
-  .student-review__info-wrapper .student-review__info-wrapper {
-    background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-color: #F3F5F8;
-    margin-top: 0;
-    width: 100%;
-    padding: 39px 30px 22px 48px;
-    font-weight: bold;
-    font-size: 4vw;
-    position: relative; }
-    .student-review__info-wrapper .student-review__info-wrapper .grey {
+
+.student-review .grey {
+  background: #F3F5F8;
+  -webkit-transform: rotate(134deg);
+          transform: rotate(134deg);
+  bottom: 54px;
+  left: 40%;
+  height: 30px;
+  position: relative;
+  width: 30px; }
+  @media all and (min-width: 950px) {
+    .student-review .grey {
       background: #F3F5F8;
       -webkit-transform: rotate(134deg);
               transform: rotate(134deg);
-      bottom: 54px;
-      left: 40%;
+      bottom: -60px;
+      left: -63px;
       height: 30px;
       position: relative;
-      width: 30px; }
-      @media all and (min-width: 950px) {
-        .student-review__info-wrapper .student-review__info-wrapper .grey {
-          background: #F3F5F8;
-          -webkit-transform: rotate(134deg);
-                  transform: rotate(134deg);
-          bottom: -60px;
-          left: -63px;
-          height: 30px;
-          position: relative;
-          width: 30px; } }
+      width: 30px; } }

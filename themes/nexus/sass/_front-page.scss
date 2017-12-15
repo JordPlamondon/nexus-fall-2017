@@ -334,66 +334,7 @@
       align-items: center;
       justify-content: center;
     }
-    .student-review {
-      .headergroup {
-        line-height: 3rem;
-      }
-
-      h2 {
-        font-size: 4.5vw;
-        margin-bottom: 10px;
-      }
-
-      .underline {
-        margin: 0 auto 3rem auto;
-        width: 49px;
-        @media #{$desktop} {
-          width: 144px;
-        }
-      }
-
-      .owl-nav {
-        display: none;
-      }
-
-      .owl-dots {
-        margin: 3rem auto;
-      }
-    }
-
-    .student-review__box {
-      width: 90%;
-
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      @media #{$desktop} {
-        flex-direction: row;
-        max-height: 270px;
-      }
-    
-      .student-review__box__image {
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        height: 40vw;
-        max-height: 500px;
-        overflow: hidden;
-        @media #{$desktop} {
-          flex-basis:40%;
-          width: 30%;
-          max-height: 270px;
-          justify-content: flex-end;
-        }
-
-      img {       
-        max-width: none;
-        @media #{$desktop} {
-          width: auto;
-        }
-      }
-    }
-  }
+   
      
     .start-journey {
       display: flex;

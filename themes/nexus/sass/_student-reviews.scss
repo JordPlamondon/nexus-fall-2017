@@ -1,40 +1,95 @@
-  .student-review__info-wrapper {
-    background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-color: $color__textbox-background;
-    margin-top: 0;
-    width: 100%;
-    padding: 39px 30px 22px 48px;
-    font-weight: bold;
-    font-size: 4vw;
-    position: relative;
+.student-review {
+  .headergroup {
+    line-height: 3rem;
+  }
+  h2 {
+    font-size: 4.5vw;
+    margin-bottom: 10px;
+  }
+  .underline {
+    margin: 0 auto 3rem auto;
+    width: 49px;
     @media #{$desktop} {
-      margin: 0;
-      font-size: 3vw;
-      flex-basis: 80%;
+      width: 144px;
     }
-    .student-review__info {
-      @media #{$desktop} {
-        padding: 15px 20px 15px 45px;
-      }
+  }
+  .owl-nav {
+    display: none;
+  }
+  .owl-dots {
+    margin: 3rem auto;
+  }
+}
+ .student-review__box {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  
+  @media #{$desktop} {
+    flex-direction: row;
+    max-height: 220px;
+  }
+  .student-review__box__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+    max-height: 500px;
+    overflow: hidden;
+    @media #{$desktop} {
+      flex-direction: column;
+      flex-basis: 40%;
+      width: 30%;
+      height: 220px;
+      justify-content: flex-end;
     }
-    .grey {
-      background: $color__textbox-background;
-      transform: rotate(134deg);
-      bottom: 54px;
-      left: 40%;
-      height: 30px;
-      position: relative;
-      width: 30px;
+    img {
+      max-width: none;
       @media #{$desktop} {
-        background: $color__textbox-background;
-        transform: rotate(134deg);
-        bottom: -60px;
-        left: -63px;
-        height: 30px;
-        position: relative;
-        width: 30px;
+        height: 220px;
+        width: auto;
       }
     }
   }
+}
+
+.student-review__info-wrapper {
+  background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: $color__textbox-background;
+  margin-top: 0;
+  width: 100%;
+  padding: 39px 30px 22px 48px;
+  font-weight: bold;
+  font-size: 4vw;
+  position: relative;
+  @media #{$desktop} {
+    margin: 0;
+    font-size: 3vw;
+    flex-basis: 80%;
+  }
+  .student-review__info {
+    @media #{$desktop} {
+      padding: 15px 20px 15px 45px;
+    }
+  }
+  .grey {
+    background: $color__textbox-background;
+    transform: rotate(134deg);
+    bottom: 54px;
+    left: 40%;
+    height: 30px;
+    position: relative;
+    width: 30px;
+    @media #{$desktop} {
+      background: $color__textbox-background;
+      transform: rotate(134deg);
+      bottom: -60px;
+      left: -63px;
+      height: 30px;
+      position: relative;
+      width: 30px;
+    }
+  }
+}

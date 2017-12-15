@@ -1001,65 +1001,6 @@ a {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-    .home .site-main .full-page-wrapper .student-review .headergroup {
-      line-height: 3rem; }
-    .home .site-main .full-page-wrapper .student-review h2 {
-      font-size: 4.5vw;
-      margin-bottom: 10px; }
-    .home .site-main .full-page-wrapper .student-review .underline {
-      margin: 0 auto 3rem auto;
-      width: 49px; }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review .underline {
-          width: 144px; } }
-    .home .site-main .full-page-wrapper .student-review .owl-nav {
-      display: none; }
-    .home .site-main .full-page-wrapper .student-review .owl-dots {
-      margin: 3rem auto; }
-    .home .site-main .full-page-wrapper .student-review__box {
-      width: 90%;
-      margin: 0 auto;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; }
-      @media all and (min-width: 950px) {
-        .home .site-main .full-page-wrapper .student-review__box {
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: row;
-                  flex-direction: row;
-          max-height: 270px; } }
-      .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        height: 40vw;
-        max-height: 500px;
-        overflow: hidden; }
-        @media all and (min-width: 950px) {
-          .home .site-main .full-page-wrapper .student-review__box .student-review__box__image {
-            -ms-flex-preferred-size: 40%;
-                flex-basis: 40%;
-            width: 30%;
-            max-height: 270px;
-            -webkit-box-pack: end;
-                -ms-flex-pack: end;
-                    justify-content: flex-end; } }
-        .home .site-main .full-page-wrapper .student-review__box .student-review__box__image img {
-          max-width: none; }
-          @media all and (min-width: 950px) {
-            .home .site-main .full-page-wrapper .student-review__box .student-review__box__image img {
-              width: auto; } }
     .home .site-main .full-page-wrapper .start-journey {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3769,32 +3710,6 @@ nav.main-navigation:hover {
 .student-review .owl-dots {
   margin: 3rem auto; }
 
-.student-review__box {
-  width: 90%;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  @media all and (min-width: 950px) {
-    .student-review__box {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row; } }
-  @media all and (min-width: 950px) {
-    .student-review__box .student-review__box__image {
-      -ms-flex-preferred-size: 40%;
-          flex-basis: 40%;
-      width: 30%;
-      overflow: hidden; } }
-  @media all and (min-width: 950px) {
-    .student-review__box .student-review__box__image img {
-      height: 270px; } }
-
 .start-journey {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4738,6 +4653,72 @@ div.return-home {
     color: #FFFFFF;
     border: none;
     letter-spacing: 1pt; }
+
+.student-review .headergroup {
+  line-height: 3rem; }
+
+.student-review h2 {
+  font-size: 4.5vw;
+  margin-bottom: 10px; }
+
+.student-review .underline {
+  margin: 0 auto 3rem auto;
+  width: 49px; }
+  @media all and (min-width: 950px) {
+    .student-review .underline {
+      width: 144px; } }
+
+.student-review .owl-nav {
+  display: none; }
+
+.student-review .owl-dots {
+  margin: 3rem auto; }
+
+.student-review__box {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media all and (min-width: 950px) {
+    .student-review__box {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      max-height: 220px; } }
+  .student-review__box .student-review__box__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 40vw;
+    max-height: 500px;
+    overflow: hidden; }
+    @media all and (min-width: 950px) {
+      .student-review__box .student-review__box__image {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-preferred-size: 40%;
+            flex-basis: 40%;
+        width: 30%;
+        height: 220px;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; } }
+    .student-review__box .student-review__box__image img {
+      max-width: none; }
+      @media all and (min-width: 950px) {
+        .student-review__box .student-review__box__image img {
+          height: 220px;
+          width: auto; } }
 
 .student-review__info-wrapper {
   background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");

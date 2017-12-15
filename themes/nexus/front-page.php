@@ -68,7 +68,7 @@ get_header(); ?>
 									<?php if ( $query->have_posts() ) : ?>
 
 										<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-											<?php get_template_part( 'template-parts/content-test' ); ?>
+											<?php get_template_part( 'template-parts/content-carousel' ); ?>
 
 										<?php endwhile; ?>
 										<?php wp_reset_postdata(); ?>
@@ -99,12 +99,21 @@ get_header(); ?>
 			<h2 class="browse-programs__header">Browse Programs in: </h2>
 			<div class="underline"></div>
 		</div>
-		<div class="browse-programs__subheading">BC <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Ontario <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Alberta <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Quebec <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Manitoba <button class="bracket">></button></div>
-		<div class="browse-programs__subheading">Saskatchewan <button class="bracket">></button></div>
+			<?php
+					$terms = get_terms( array(
+						'taxonomy' => 'provinces',
+						'hide_empty' => 0,
+					));
+					if ( ! empty( $terms ) ** ! is_wp_error( $terms)):
+					?>
+						<?php foreach ($terms as $term) : ?>
+							<div class="browse-programs__subheading">	
+								<p><?php echo $term->name; ?></p>
+								<a class="bracket" href="<?php echo get_term_link( $term ); ?>"> > </a>
+							</div>
+						<?php endforeach; ?>
+				<?php endif ?>
+	
 	</section>
 
 <!-- ###### Main map and Province Icons - ##########-->
@@ -249,41 +258,29 @@ get_header(); ?>
 	</section>	
 
 <!-- Student Review -->
+				<h1 class="student-review-header"> Student Review </h1>
 
-			<section class="student-review">
-				<div class="headergroup">
-					<h2 class="student-review__header">Student's Review</h2>
-					<div class="underline"></div>
-				</div>
-				<div class="owl-carousel owl-theme">
-					<div class="student-review__box">
-						<div class="student-review__box__image">
-						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo-review@3x.png'?>
-						alt="Picture of a Student">
-						</div>
-						<div class="student-review__info-wrapper">
-							<div class="grey"></div>
-							<blockquote class="student-review__info">
-							<span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
-							</blockquote>
-						</div>
-					</div>
+				<?php $args = array( 'post_type' => 'nexus_reviews', 'orderby' => 'rand', 'posts_per_page' => 3, ); $query = new WP_Query( $args );?>
+					<div class="owl-carousel owl-theme">
+									<!-- Begin Carousel Cell -->
 
-					<div class="student-review__box">
-						<div class="student-review__box__image">
-						<img src=<?php echo get_template_directory_uri() . '/assets/images/photo-review@3x.png'?>
-						alt="Picture of a Student">
-						</div>
-						<div class="student-review__info-wrapper">
-							<div class="grey"></div>
-							<blockquote class="student-review__info">
-							<span class="oquote"></span>Thank you so much for your help! I couldn’t have done this trip without you.<span class="cquote"></span>
-							</blockquote>
-						</div>
-					</div>
+									<?php if ( $query->have_posts() ) : ?>
 
-				</div>
-			</section>
+										<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+											<?php get_template_part( 'template-parts/content-review' ); ?>
+
+										<?php endwhile; ?>
+										<?php wp_reset_postdata(); ?>
+
+									<?php else : ?>
+
+										<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+    				                <?php endif; 
+
+    				    wp_reset_query();?>
+      		</div> <!-- carousel -->
+
 			
 			<section class="start-journey">
 				<div class="headergroup">
@@ -295,32 +292,32 @@ get_header(); ?>
 				<button class="start-journey__button">Book Consult</button>
 			</section>
 
+			<div class="product-type-title-wrapper container">
+				<?php
+					the_archive_title( '<h1 class="page-title centered">', '</h1>' );
+				?>
+					<?php
+					$terms = get_terms( array(
+						'taxonomy' => 'provinces',
+						'hide_empty' => 0,
+					));
+					if ( ! empty( $terms ) ** ! is_wp_error( $terms)):
+					?>
+					<div class="container">
+						<?php foreach ($terms as $term) : ?>
+							<div class="container">	
+								<p><a href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a> </p>
+							</div>
+						<?php endforeach; ?>
+					</div>
+				</div>
+				<?php endif ?>
 
 
 
 
-		<?php if ( have_posts() ) : ?>
 
-			<?php if ( is_home() && ! is_front_page() ) : ?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-			<?php endif; ?>
-
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'template-parts/content' ); ?>
-
-			<?php endwhile; ?>
-
-			<?php the_posts_navigation(); ?>
-
-		<?php else : ?>
-
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
-		<?php endif; ?>
+	
 		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->

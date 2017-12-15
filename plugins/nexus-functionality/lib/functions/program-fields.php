@@ -11,6 +11,37 @@ if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
 	require_once dirname( __FILE__ ) . '/CMB2/init.php';
 }
 /**
+ * Gets a number of posts and displays them as options
+ * @param  array $query_args Optional. Overrides defaults.
+ * @return array             An array of options that matches the CMB2 options array
+ */
+function cmb2_get_post_options( $query_args ) {
+
+	$args = wp_parse_args( $query_args, array(
+		'post_type'   => 'post',
+		'numberposts' => 10,
+	) );
+
+	$posts = get_posts( $args );
+
+	$post_options = array();
+	if ( $posts ) {
+		foreach ( $posts as $post ) {
+          $post_options[ $post->ID ] = $post->post_title;
+		}
+	}
+
+	return $post_options;
+}
+
+/**
+ * Gets 5 posts for your_post_type and displays them as options
+ * @return array An array of options that matches the CMB2 options array
+ */
+function cmb2_get_your_post_type_post_options() {
+	return cmb2_get_post_options( array( 'post_type' => 'nexus_reviews', 'numberposts' => -1 ) );
+}
+/**
  * Add metaboxes.
  */
 function nexus_register_metaboxes() {
@@ -109,6 +140,13 @@ function nexus_register_metaboxes() {
 		'desc' => 'Student Reviews',
 		'id'   => $prefix . 'program_reviews',
 		'type' => 'wysiwyg',
-  ) );
+	) );
+		$program_details->add_field( array(
+		'name'       => __( 'Select Review', 'cmb2' ),
+		'desc'       => __( 'Link to a student Review', 'cmb2' ),
+		'id'         => $prefix . 'post_multicheckbox',
+		'type'       => 'multicheck',
+		'options_cb' => 'cmb2_get_your_post_type_post_options',
+	) );
 }
 add_action( 'cmb2_admin_init', 'nexus_register_metaboxes' );

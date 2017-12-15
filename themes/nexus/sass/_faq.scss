@@ -10,7 +10,7 @@
       top: 110px;
       @media #{$desktop} {
         font-size: 70px;
-        top: 360px;
+        top: 240px;
       }
     }
     .underline1 {
@@ -23,7 +23,7 @@
       @media #{$desktop} {
         border-bottom: 6px solid $color__accent-underline;
         width: 144px;
-        top:310px;
+        top: 190px;
       } 
     }
   }
@@ -33,13 +33,13 @@
     background-image: url("../../assets/images/faq@3x.png");
     background-size: 100% 100%;
     @media #{$desktop} { 
-      height: 460px;
+      height: 50vh;
     }      
   }
   .faq-wrapper {
     height: 1590px;
     @media #{$desktop} {
-      height: 2965px;
+      height: 2830px;
     }
       .underline {
         width: 49px;
@@ -47,10 +47,13 @@
         position: relative;
         padding: 0;
         bottom: 115px;
+        @media #{$tablet} {
+          bottom: 110px; 
+        }  
         @media #{$desktop} {
           width: 74px;
           border-bottom: 6px solid $color__accent-underline;
-          bottom: 98px;
+          bottom: 90px;
         }  
       }
       .shadow-border {
@@ -77,7 +80,8 @@
           flex-flow: row wrap;
           flex-wrap: wrap;
           justify-content: center;
-          padding-top: 520px;
+          padding-top: 350px;
+          right: 30px;
         }
       li {
         display: flex;
@@ -143,14 +147,17 @@
             font-size: 23px;
             bottom: 0;
           }
+          @media #{$tablet} {
+            font-size: 20px;
+          }
         }
         img {
           height: 126px;
           width: 103px;
           margin: 40px 20px;
           @media #{$desktop} {
-            width: 519px;
-            height: 328.84px;
+            width: 41.8vw;
+            height: 26.45vw;
             padding-top: 50px;
           }
         }
@@ -159,7 +166,8 @@
         }
       }
     }
-  }   
+  }  
+  
 // Journey
 .faq-journey {
   height: 195px;
@@ -192,7 +200,7 @@
       text-transform: none;
       bottom: 42px;
       @media #{$desktop} {
-        bottom: 130px;
+        bottom: 140px;
         font-size: 30px;
         font-weight: 600;
       }

@@ -12,6 +12,20 @@ div.banner-faq-single {
     top: 50px;
     @media #{$desktop} {
       top: 250px;
+      font-size: 70px;
+    }
+    .title-span {
+      font-style: italic;
+      color: $color__text-accent;
+      font-weight: 200;
+      text-transform: capitalize; 
+      @media #{$desktop} {
+        font-style: italic;
+        color: $color__text-accent;
+        font-size: 50px;
+        font-weight: 200;
+        text-transform: capitalize; 
+      }  
     }
   }
   .banner-image-faq-single{
@@ -174,7 +188,7 @@ div.banner-faq-single {
       flex-flow: row;
       width: 100vw;
       bottom: 80px;
-      padding-left: 20px;
+      padding-left: 10px;
       padding-right: 40px;
       img {
         width: 16.2vw;
@@ -277,7 +291,7 @@ div.banner-faq-single {
     text-transform: none;
     bottom: 42px;
     @media #{$desktop} {
-      bottom: 130px;
+      bottom: 140px;
       font-size: 30px;
       font-weight: 600;
     }

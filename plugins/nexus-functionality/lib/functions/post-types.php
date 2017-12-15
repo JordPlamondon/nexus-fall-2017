@@ -154,7 +154,7 @@ function nexus_faq() {
 			'label'                 => __( 'Front Page Carousel Cell', 'text_domain' ),
 			'description'           => __( 'Front Page Carousel Cell page for nexus website.', 'text_domain' ),
 			'labels'                => $labels,
-			'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
+			'supports'              => array( 'title', 'editor', 'thumbnail' ),
 			'taxonomies'            => array( 'category', 'post_tag', 'Front Page Carousel Cell' ),
 			'hierarchical'          => false,
 			'public'                => true,
@@ -174,4 +174,61 @@ function nexus_faq() {
 	
 	}
 	add_action( 'init', 'nexus_front_carousel', 0 );
+
+	function nexus_reviews() {
+	
+		$labels = array(
+			'name'                  => _x( 'Student Reviews', 'Post Type General Name', 'text_domain' ),
+			'singular_name'         => _x( 'Student Review', 'Post Type Singular Name', 'text_domain' ),
+			'menu_name'             => __( 'Student Reviews', 'text_domain' ),
+			'name_admin_bar'        => __( 'Student Review', 'text_domain' ),
+			'archives'              => __( 'Student Review Archives', 'text_domain' ),
+			'attributes'            => __( 'Student Review Attributes', 'text_domain' ),
+			'parent_item_colon'     => __( 'Parent Student Review:', 'text_domain' ),
+			'all_items'             => __( 'All Student Reviews', 'text_domain' ),
+			'add_new_item'          => __( 'Add New Student Review', 'text_domain' ),
+			'add_new'               => __( 'Add New', 'text_domain' ),
+			'new_item'              => __( 'New Student Review', 'text_domain' ),
+			'edit_item'             => __( 'Edit Student Review', 'text_domain' ),
+			'update_item'           => __( 'Update Student Review', 'text_domain' ),
+			'view_item'             => __( 'View Student Review', 'text_domain' ),
+			'view_items'            => __( 'View Student Reviews', 'text_domain' ),
+			'search_items'          => __( 'Search Student Review', 'text_domain' ),
+			'not_found'             => __( 'Not found', 'text_domain' ),
+			'not_found_in_trash'    => __( 'Not found in Trash', 'text_domain' ),
+			'featured_image'        => __( 'Featured Image', 'text_domain' ),
+			'set_featured_image'    => __( 'Set featured image', 'text_domain' ),
+			'remove_featured_image' => __( 'Remove featured image', 'text_domain' ),
+			'use_featured_image'    => __( 'Use as featured image', 'text_domain' ),
+			'insert_into_item'      => __( 'Insert into Student Review', 'text_domain' ),
+			'uploaded_to_this_item' => __( 'Uploaded to this Student Review', 'text_domain' ),
+			'items_list'            => __( 'Student Reviews list', 'text_domain' ),
+			'items_list_navigation' => __( 'Student Reviews list navigation', 'text_domain' ),
+			'filter_items_list'     => __( 'Filter Student Reviews list', 'text_domain' ),
+		);
+		$args = array(
+			'label'                 => __( 'Student Review', 'text_domain' ),
+			'description'           => __( 'Student Review page for nexus website.', 'text_domain' ),
+			'labels'                => $labels,
+			'supports'              => array( 'title', 'editor', 'thumbnail' ),
+			'taxonomies'            => array( 'category', 'post_tag', 'Student Review' ),
+			'hierarchical'          => false,
+			'public'                => true,
+			'show_ui'               => true,
+			'show_in_menu'          => true,
+			'menu_position'         => 5,
+			'show_in_admin_bar'     => true,
+			'show_in_nav_menus'     => true,
+			'can_export'            => true,
+			'has_archive'           => true,
+			'exclude_from_search'   => false,
+			'publicly_queryable'    => true,
+			'capability_type'       => 'post',
+			'show_in_rest'          => true,
+		);
+		register_post_type( 'nexus_reviews', $args );
+	
+	}
+	add_action( 'init', 'nexus_reviews', 0 );
+
 

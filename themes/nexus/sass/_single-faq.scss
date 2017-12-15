@@ -174,7 +174,7 @@ div.banner-faq-single {
       flex-flow: row;
       width: 100vw;
       bottom: 80px;
-      padding-left: 40px;
+      padding-left: 20px;
       padding-right: 40px;
       img {
         width: 16.2vw;
@@ -230,9 +230,10 @@ div.banner-faq-single {
       margin: 0.8vw;
     }
   }
-  .permalink-wrapper {
+  a {
     @media #{$desktop} {
       height: 220px;
+      margin-left: 10px;
     }
   }
   button.return-to-top-button {

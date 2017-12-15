@@ -34,8 +34,10 @@ get_header(); ?>
 						<div class="list-text">
 							<a href="<?php the_permalink(); ?>" rel="faq title"> 
 							<button class="read-more">Learn More</button>
+							</a>
+							<a href="<?php the_permalink(); ?>" rel="faq title"> 
 								<h2><?php the_title(); ?></h2>
-							</a>	
+						</a>
 							
 							<?php the_excerpt(); ?>
 					

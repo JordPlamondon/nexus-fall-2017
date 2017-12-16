@@ -34,39 +34,73 @@
                 <p class="program-meta-content"><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></p>
             </div>
         </div>
-</section>
-        <section class="program-flex-container">
-            <div class="left-side">
-                <div class="header-wrapper">
-                    <h2 class="single-program-header">About Program</h2>
-                    <div class="title-underline"></div>
-                </div>
-                <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
+    </section>
+
+    <section class="program-flex-container">
+        
+        <?php $about_image =  get_post_meta($post->ID, '_nexus_program_about_image', true); ?>
+        <div class="left-side">
+            <div class="header-wrapper">
+                <h2 class="single-program-header">About Program</h2>
+                <div class="title-underline"></div>
             </div>
-            <div class="single-program-about-image"><img src="<?php echo get_post_meta($post->ID, '_nexus_program_about_image', true); ?>"/></div>
-            
-        </section>
-       <section class="program-flex-container">
-            <div class="program-media"><?php echo get_post_meta($post->ID, '_nexus_program_media', true); ?></div>
-                <div class="strong-side">
-                    <div class="header-wrapper">
-                    <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
-                    <div class="title-underline"></div>
-                </div>
-
-                <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_school_about', true); ?></p>
-            </div>
-        </section>
-
-        <div><?php echo get_post_meta($post->ID, '_nexus_program_city_photo', true); ?></div>
-
-        <div class="header-wrapper">
-            <h2 class="single-program-header"><?php echo get_post_meta($post->ID, '_nexus_program_city', true); ?></h2>
-            <div class="title-underline"></div>
+            <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
         </div>
-        <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_city_about', true); ?></p>
+        <?php if( $about_image ):; ?>
+            <div class="single-program-about-image"><img src="<?php echo $about_image; ?>"/></div>
+        <?php endif; ?>
+        
+    </section>
 
-    </div>
+    <section class="program-flex-container">
+
+         <?php $school_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_school', true);?>
+         <?php if($school_id):; ?>
+         <?php
+             $post_id = $school_id[0];
+             $queried_post = get_post($post_id);
+             $school_title = $queried_post->post_title;
+             $school_media = get_post_meta($queried_post->ID, '_nexus_school_media', true);
+         ?>
+         
+             <div class="school_media">
+                 <?php echo $school_media; ?>
+             </div>
+             <div class="strong-side">
+                 <div class="header-wrapper">
+                     <h2 class="single-program-header"><?php echo $school_title; ?></h2>
+                     <div class="title-underline"></div>
+                 </div>
+                 <p class="single-program-content"><?php echo $queried_post->post_content; ?></p>
+             </div>
+         <?php endif; ?>
+
+     </section>
+    
+
+        <?php $city_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_city', true);?>
+
+        <?php if($city_id):; ?>
+            <?php
+            $post_id = $city_id[0];
+            $queried_post = get_post($post_id);
+            $city_title = $queried_post->post_title;
+            $city_blurbs = get_post_meta($queried_post->ID, '_nexus_city_text', true);
+            $city_blurb = $city_blurbs[0];
+            $city_images = get_post_meta($queried_post->ID, '_nexus_school_media', true);
+            if($city_images){
+                $city_image = $city_images[0];
+            }
+            ?>
+            <div class="header-wrapper">
+                <h2 class="single-program-header"><?php echo $city_title; ?></h2>
+                <div class="title-underline"></div>
+            </div>
+            <?php if ( $city_images ): ; ?>
+                <img src="<?php echo $city_image ?>" alt="Picture of a Student">
+            <?php endif; ?>
+            <p class="single-program-content"><?php echo $city_blurb; ?></p>
+        <?php endif; ?>
 
     <div class="read-more">
         <?php $terms = wp_get_post_terms( $post->ID, 'program_type' ); ?>

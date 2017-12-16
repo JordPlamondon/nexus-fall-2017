@@ -151,15 +151,17 @@ function pixelninja_spanify_title($title) {
   if (count($title_words) > 1) {
 
 
-    $title_words[0] = '<span class="title-span">' . $title_words[0] . '</span>';
+		$title_words[0] = '<span class="title-span">' . $title_words[0] . '</span>';
+	
     return implode(' ', $title_words);
   } else {
 
     return get_the_title();
 	}
+
 }
 function pixelninja_single_cat_title() {
-	echo pixelninja_spanify_title(single_cat_title('', false));
+	echo pixelninja_spanify_title(single_cat_title('', true));
 }
 
 
@@ -170,21 +172,21 @@ function pixelninja_single_cat_title() {
 //     if ($query->category__in) {
       
 //         if (is_category('videos')){
-//             $query->set('posts_per_page', 2);
+//             $query->set('posts_per_page', 3);
 //         }
        
 //         if (is_category('blogs')){
-//             $query->set('posts_per_page', 2);
+//             $query->set('posts_per_page', 3);
 //         }
 //     }
 //     return $query;
 // }
 
-// add_filter('pre_get_posts', 'limit_category_posts');
-// function limit_category_posts($query){
-//     if ($query->is_category) {
-//         $query->set('posts_per_page', 3);
-//     }
-//     return $query;
-// }
+add_filter('pre_get_posts', 'limit_category_posts');
+function limit_category_posts($query){
+    if ($query->is_category) {
+        $query->set('posts_per_page', 3);
+    }
+    return $query;
+}
 

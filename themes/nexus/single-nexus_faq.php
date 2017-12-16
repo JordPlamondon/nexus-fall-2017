@@ -26,8 +26,9 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
+			
+			<!-- Field Group Metaboxes -->
 <div class="desktop-metaboxes">			
-<!-- Field Group Metaboxes -->
 <?php
 $entries = get_post_meta( get_the_ID(), 'wiki_test_repeat_group', true );
 

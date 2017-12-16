@@ -12,7 +12,7 @@
         padding: 38px;
         position: relative;
         bottom: 720px;
-        left: 90%;
+        left:30vw;
         font-family: $font__accent;
         font-size: 18px;   
         background-color: $color__info-main;    
@@ -81,7 +81,7 @@
       font-weight: bold;
       @media #{$tablet-test} {
         width: 300px;
-        margin-left: 20%;
+        margin-left: 20vw;
         font-size: 50px;
         text-align: left;
       }
@@ -99,7 +99,7 @@
       position: relative;
       bottom: 20px;
       @media #{$tablet-test} {
-        right: 20%;
+       right: 10vw;
         bottom: 34px;
         width: 109px;
       }

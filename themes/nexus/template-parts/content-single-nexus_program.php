@@ -37,6 +37,7 @@
     </section>
 
     <section class="program-flex-container">
+        
         <?php $about_image =  get_post_meta($post->ID, '_nexus_program_about_image', true); ?>
         <div class="left-side">
             <div class="header-wrapper">
@@ -50,6 +51,7 @@
         <?php endif; ?>
         
     </section>
+
     <section class="program-flex-container">
 
          <?php $school_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_school', true);?>

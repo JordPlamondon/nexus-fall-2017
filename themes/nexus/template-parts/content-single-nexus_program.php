@@ -37,7 +37,7 @@
     </section>
 
     <section class="program-flex-container">
-
+        <?php $about_image =  get_post_meta($post->ID, '_nexus_program_about_image', true); ?>
         <div class="left-side">
             <div class="header-wrapper">
                 <h2 class="single-program-header">About Program</h2>
@@ -45,7 +45,9 @@
             </div>
             <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
         </div>
-        <div class="single-program-about-image"><img src="<?php echo get_post_meta($post->ID, '_nexus_program_about_image', true); ?>"/></div>
+        <?php if( $about_image ):; ?>
+            <div class="single-program-about-image"><img src="<?php echo $about_image; ?>"/></div>
+        <?php endif; ?>
         
     </section>
     <section class="program-flex-container">

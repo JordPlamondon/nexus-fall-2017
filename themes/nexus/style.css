@@ -988,16 +988,24 @@ a {
         bottom: 10px; }
       .home .site-main .full-page-wrapper .browse-programs__subheading {
         width: 80%;
+        overflow: hidden;
         text-transform: uppercase;
         margin: 0.5rem auto;
+        padding-left: 1rem;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        background: #F3F5F8; }
+        background: #F3F5F8;
+        color: #123048;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: bold; }
     .home .site-main .full-page-wrapper .bracket {
+      height: 3.5rem;
+      width: 3rem;
+      padding-bottom: 15px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1006,7 +1014,11 @@ a {
               align-items: center;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      font-size: 4rem;
+      font-weight: normal;
+      background: #E91C35;
+      color: white; }
     .home .site-main .full-page-wrapper .start-journey {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1033,9 +1045,10 @@ a {
             width: 120px; } }
       .home .site-main .full-page-wrapper .start-journey__header {
         text-transform: uppercase;
-        font-size: 4.2vw; }
+        font-size: 1.5em; }
       .home .site-main .full-page-wrapper .start-journey__subheader {
         margin: 0;
+        text-align: center;
         font-family: "Raleway", Arial, Helvetica, sans-serif;
         font-weight: 600;
         font-style: italic;
@@ -4755,7 +4768,7 @@ div.return-home {
 .student-review .headergroup {
   line-height: 3rem; }
   .student-review .headergroup h2 {
-    font-size: 4.5vw;
+    font-size: 1.5em;
     margin-bottom: 10px; }
   .student-review .headergroup .underline {
     margin: 0 auto 3rem auto;
@@ -4821,13 +4834,9 @@ div.return-home {
           width: auto; } }
 
 .student-review .student-review__info-wrapper {
-  background: url("../../assets/images/oquote.png"), url("../../assets/images/cquote.png");
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
   background-color: #F3F5F8;
   margin-top: 0;
   width: 100%;
-  padding: 39px 30px 22px 48px;
   font-weight: bold;
   font-size: 4vw;
   position: relative; }
@@ -4840,12 +4849,25 @@ div.return-home {
   @media all and (min-width: 950px) {
     .student-review .student-review__info-wrapper .student-review__info {
       padding: 15px 20px 15px 45px; } }
+  .student-review .student-review__info-wrapper .student-review__info p {
+    width: 50%;
+    margin: 0 auto; }
+  .student-review .student-review__info-wrapper .student-review__info .oquote {
+    color: #FFBC4A; }
+  .student-review .student-review__info-wrapper .student-review__info .cquote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    color: #FFBC4A; }
 
 .student-review .grey {
   background: #F3F5F8;
   -webkit-transform: rotate(134deg);
           transform: rotate(134deg);
-  bottom: 54px;
+  bottom: 15px;
   left: 40%;
   height: 30px;
   position: relative;
@@ -4856,7 +4878,7 @@ div.return-home {
       -webkit-transform: rotate(134deg);
               transform: rotate(134deg);
       bottom: -60px;
-      left: -63px;
+      left: -104px;
       height: 30px;
       position: relative;
       width: 30px; } }

@@ -137,28 +137,6 @@ function nexus_register_metaboxes() {
 		'type'       => 'multicheck',
 		'options_cb' => 'cmb2_get_school_post_options',
 	) );
-		$cities = new_cmb2_box( array(
-		'id'            => $prefix . 'nexus_cities_metabox',
-		'title'         => 'City Details',
-		'object_types'  => array( 'nexus_cities', ), // Post type
-		'context'    => 'normal',
-		'priority'   => 'high',
-		'show_names' => true, // Show field names on the left
-	) );
-		$cities->add_field( array(
-		'name' => 'City Description',
-		'desc' => 'Write short blurbs about the city',
-		'id'   => $prefix . 'city_text',
-		'type' => 'text',
-		'repeatable' => true,
-	) );
-		$cities->add_field( array(
-		'name' => 'City Media',
-		'desc' => 'Upload photos of the city',
-		'id'   => $prefix . 'city_media',
-		'type' => 'file',
-		'repeatable' => true,
-	) );
 		$schools = new_cmb2_box( array(
 		'id'            => $prefix . 'nexus_schools_metabox',
 		'title'         => 'School Details',
@@ -173,5 +151,51 @@ function nexus_register_metaboxes() {
 		'id'   => $prefix . 'school_media',
 		'type' => 'wysiwyg',
 	) );
+	$cmb = new_cmb2_box( array(
+		'id'            => $prefix . 'nexus_cities_metabox',
+		'title'         => __( 'Cities Metabox Fields', 'cmb2' ),
+		'object_types'  => array( 'nexus_cities' ), // Post type
+		'context'       => 'normal',
+		'priority'      => 'high',
+		'show_names'    => true, // Show field names on the left
+		// 'cmb_styles' => false, // false to disable the CMB stylesheet
+		// 'closed'     => true, // Keep the metabox closed by default
+	) );
+	
+	$city_group_field_id = $cmb->add_field( array(
+    'id'          => 'cities_repeat_group',
+    'type'        => 'group',
+    'description' => 'Generates reusable form entries',
+    // 'repeatable'  => false, // use false if you want non-repeatable group
+    'options'     => array(
+      'group_title'   => __( 'Entry {#}', 'cmb2' ), // since version 1.1.4, {#} gets replaced by row number
+      'add_button'    => __( 'Add Another Entry', 'cmb2' ),
+      'remove_button' => __( 'Remove Entry', 'cmb2' ),
+      'sortable'      => true, // beta
+      // 'closed'     => true, // true to have the groups closed by default
+    ),
+  ) );
+
+  // Id's for group's fields only need to be unique for the group. Prefix is not needed.
+  $cmb->add_group_field( $city_group_field_id, array(
+    'name' => 'Entry Title',
+    'id'   => 'title',
+    'type' => 'text',
+    // 'repeatable' => true, // Repeatable fields are supported w/in repeatable groups (for most types)
+  ) );
+  
+  $cmb->add_group_field( $city_group_field_id, array(
+    'name' => 'Description',
+    'description' => 'Write a short description for this entry',
+    'id'   => 'description',
+    'type' => 'textarea_small',
+  ) );
+  
+  $cmb->add_group_field( $city_group_field_id, array(
+    'name' => 'Entry Image',
+    'id'   => 'image',
+    'type' => 'file',
+  ) );
+  
 }
 add_action( 'cmb2_admin_init', 'nexus_register_metaboxes' );

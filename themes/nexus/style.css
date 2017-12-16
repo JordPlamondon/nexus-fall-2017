@@ -3516,7 +3516,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -4783,19 +4783,11 @@ div.return-home {
         -webkit-box-pack: end;
             -ms-flex-pack: end;
                 justify-content: flex-end; } }
-<<<<<<< HEAD
-    .student-review__box .student-review__box__image img {
-      max-width: none;
-      width: 100%; }
-      @media all and (min-width: 950px) {
-        .student-review__box .student-review__box__image img {
-=======
     .student-review .student-review__box .student-review__box__image img {
       max-width: none;
       width: 100%; }
       @media all and (min-width: 950px) {
         .student-review .student-review__box .student-review__box__image img {
->>>>>>> 7b197f745685ab7ea8f5fdb17f749f9f18a67b9f
           -ms-flex-item-align: end;
               align-self: flex-end;
           height: 220px;

@@ -12,7 +12,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('program-container'); ?>>
 	<header class="entry-header">
     <div class="program-link">
-    <a href="<?php esc_url( get_permalink()); ?>">
+    <a href="<?php echo esc_url( get_permalink()); ?>">
       <?php if ( has_post_thumbnail() ) : ?>
       <?php $program_image = wp_get_attachment_url ( get_post_thumbnail_id(), 'thumbnail' );?>
 		  	<div class="program-image"><img src="<?php echo $program_image; ?>"></div>

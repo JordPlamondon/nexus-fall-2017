@@ -83,60 +83,52 @@
         <?php $city_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_city', true);?>
 
         <?php
-        $entries = get_post_meta( $city_id[0], 'cities_repeat_group', true );
-          if($city_id):; ?>
-            <?php
+        if($city_id):;
+            $entries = get_post_meta( $city_id[0], 'cities_repeat_group', true );
             $post_id = $city_id[0];
             $queried_post = get_post($post_id);
             $city_title = $queried_post->post_title;
             ?>
 
             <h2 class="single-program-header"><?php echo $city_title; ?></h2>
-            <?php endif;?>
+            
         <?php 
         var_dump($entries);
         ?>
         <div class="city-carousel owl-carousel owl-theme">
-        <?php
-        foreach ( (array) $entries as $key => $entry ) :
-       
-	    $img = $title = $desc = ''; ?>
-
-    	 <article class="city-carousel">
-
-		<!-- title -->
-		<?php 
-			if ( isset( $entry['title'] ) ) {
-				$title = esc_html( $entry['title'] );
-			} ?>
-
-		    <div class="city-name">
-		    	<?php echo $title; ?>
-		    </div>
-
-		    <!-- description -->
-		    <?php
-		    	if ( isset( $entry['description'] ) ) {
-		    		$desc = wpautop( $entry['description'] );
-		    	} ?>
-		    	<div class="faq-meta-text">
-		    		<?php echo $desc; ?>
-		    	</div>
-
-		    <!-- image -->
-		    <?php
-		    	if ( isset( $entry['image_id'] ) ) {
-		    		$img = wp_get_attachment_image( $entry['image_id'], 'share-pick', null, array(
-		    	'class' => 'thumb',
-		    	) ); 
-		    } ?>
-		    <?php echo $img; ?>
-		</article>
-	 
-        <?php
-        endforeach;
-        ?>
-           </div>
+            <?php
+            foreach ( (array) $entries as $key => $entry ) :
+            
+	        $img = $title = $desc = ''; ?>
+    
+    	     <article class="city-container">
+            
+		        <!-- description -->
+		        <?php
+		        	if ( isset( $entry['description'] ) ) {
+		        		$desc = wpautop( $entry['description'] );
+		        	} ?>
+		        	<div class="city-text">
+		        		<?php echo $desc; ?>
+		        	</div>
+                
+		        <!-- image -->
+		        <?php
+		        	if ( isset( $entry['image_id'] ) ) {
+		        	$img = wp_get_attachment_image( $entry['image_id'], 'share-pick', null, array(
+		        	'class' => 'thumb',
+		        	) ); 
+		        } ?>
+                <div class="city-image">
+		        <?php echo $img; ?>
+                </div>
+		    </article>
+            
+            <?php
+            endforeach;
+            ?>
+            <?php endif;?>
+        </div>
 
         <!-- <?php if($city_id):; ?>
             <?php

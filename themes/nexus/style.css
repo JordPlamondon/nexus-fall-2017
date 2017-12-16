@@ -4199,6 +4199,19 @@ nav.main-navigation:hover {
 .selectric-items .selectric-group li {
   padding-left: 25px; }
 
+.single-nexus_program .city-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.single-nexus_program .city-image {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
+
+.single-nexus_program .city-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
+
 .single-nexus_program .student-review {
   margin-bottom: 3rem; }
   .single-nexus_program .student-review .headergroup {

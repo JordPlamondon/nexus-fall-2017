@@ -1,4 +1,14 @@
 .single-nexus_program {
+  .city-container{
+
+    display: flex;
+  }
+  .city-image {
+    flex-basis: 50%;
+  }
+  .city-text {
+    flex-basis: 50%;
+  }
   .student-review {  
     margin-bottom: 3rem;
     .headergroup {

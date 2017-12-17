@@ -279,7 +279,7 @@ get_header(); ?>
 
 										<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-    				                <?php endif; 
+    				      <?php endif; 
 
     				    wp_reset_query();?>
       		</div> <!-- carousel -->

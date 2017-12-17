@@ -1,13 +1,13 @@
 //Banner/Hero & Title
 body.blog {
   .blog-wrapper {
-    margin-bottom: 60vw;
+    // margin-bottom: 1000px;
     height: 2110px;
     @media #{$tablet-test} {
-      margin-bottom: 98vw;
+      margin-bottom: 127px;
     }
     @media #{$desktop} {
-      margin-bottom: 55vw;
+      margin-bottom: 620px;
     }
     .latest-videos-title {
     position: relative;
@@ -301,6 +301,7 @@ body.blog {
         background: darken($color__icon-element, 10%);
       }
     }
-  }  
+  } 
 }  
 }
+

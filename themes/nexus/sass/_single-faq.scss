@@ -135,10 +135,9 @@ div.banner-faq-single {
     margin-left: 7vw;
     margin-right: 4vw;
     @media #{$desktop} {
-      width: 500px;
+      width: 650px;
       font-size: 23px;
       margin: auto;
-      // padding-bottom: 100px;
     }  
   }
   .faq-dropdown {
@@ -201,7 +200,7 @@ div.banner-faq-single {
       flex-direction: row;
       flex-flow: row;
       justify-content: center;
-      width: 90vw;
+      // width: 90vw;
       bottom: 80px;
       margin: 0 auto;
       img {

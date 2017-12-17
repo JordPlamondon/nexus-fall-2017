@@ -2665,7 +2665,9 @@ div.widget_info_contain a {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        right: 30px; } }
+        right: 30px;
+        bottom: 50px;
+        padding-top: 70px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2962,7 +2964,7 @@ div.banner-faq-single {
   margin-right: 4vw; }
   @media all and (min-width: 950px) {
     .nexus_faq-template-default .faq-meta-text {
-      width: 500px;
+      width: 650px;
       font-size: 23px;
       margin: auto; } }
 
@@ -3040,7 +3042,6 @@ div.banner-faq-single {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      width: 90vw;
       bottom: 80px;
       margin: 0 auto; }
       .faq-single-homestay .homestay-button-wrapper img {
@@ -4235,14 +4236,13 @@ nav.main-navigation:hover {
         top: 10px; } }
 
 body.blog .blog-wrapper {
-  margin-bottom: 60vw;
   height: 2110px; }
   @media all and (min-width: 450px) {
     body.blog .blog-wrapper {
-      margin-bottom: 98vw; } }
+      margin-bottom: 127px; } }
   @media all and (min-width: 950px) {
     body.blog .blog-wrapper {
-      margin-bottom: 55vw; } }
+      margin-bottom: 620px; } }
   body.blog .blog-wrapper .latest-videos-title {
     position: relative;
     text-align: center;

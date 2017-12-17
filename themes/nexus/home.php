@@ -56,11 +56,12 @@ get_header(); ?>
               <?php endwhile; // End of the loop. ?>
         
           </ul>		
+
           <h2 class="latest-posts-title">Latest Posts</h2>
           <div class="underline-posts"></div>
         </section>
       </div>  
 		</main><!-- #main -->
   </div><!-- #primary -->
-  
+
   <?php get_footer(); ?>

@@ -102,6 +102,9 @@ div.widget_info_contain a {
     margin-left: 24px;
     max-width: 197px;
   }
+  div.widget_info_contain p a {
+    margin-left: 0px;
+  }
   p.footer__office--hours a {
     margin-left: 0px;
   }
@@ -245,7 +248,7 @@ div.widget_info_contain a {
     display: flex;
     justify-content: flex-end;
     flex: 1 0 auto;
-    padding-right: 3rem;
+    padding-right: 1rem;
     ul.footer_desktop--nav--ul {
       display: flex;
       list-style: none;
@@ -253,9 +256,22 @@ div.widget_info_contain a {
       padding: 0;
     }
   }
+
+  .footer__desktop--nav .menu-header-mobile-container ul {
+    display: flex;
+    li a {
+      margin: 0 15px;
+    }
+  }
+
+
   .footer--nav--li {
     padding-left: 1rem;
   }
+  aside#text-3.widget.widget_text {
+    margin-bottom: 0px;
+  }
+
   div.footer_hidden_anchor {
     display: flex;
     flex: 1 0 auto;
@@ -295,7 +311,7 @@ div.widget_info_contain a {
     display: flex;
     justify-content: flex-end;
     flex: 1 0 auto;
-    padding-right: 3rem;
+    padding-right: 1rem;
     ul.footer_desktop--nav--ul {
       display: flex;
       list-style: none;

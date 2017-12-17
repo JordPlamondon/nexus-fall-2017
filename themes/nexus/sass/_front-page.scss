@@ -197,13 +197,14 @@
         }
       }
 
+      
       &__info {   
         width: 80%;
         margin: 10px auto 0 auto;
         @media #{$desktop} {
-          font-size: 1rem;
+          font-size: 1.6rem;
           font-weight: 100;
-          width: 60%;
+          width: 40%;
           position: relative;
           right: 20%;
          

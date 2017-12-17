@@ -867,9 +867,9 @@ a {
         margin: 10px auto 0 auto; }
         @media all and (min-width: 950px) {
           .home .site-main .full-page-wrapper .why-nexus__info {
-            font-size: 1rem;
+            font-size: 1.6rem;
             font-weight: 100;
-            width: 60%;
+            width: 40%;
             position: relative;
             right: 20%; } }
       .home .site-main .full-page-wrapper .why-nexus .underline {
@@ -1885,6 +1885,12 @@ body.page-template-archive-nexus_program main {
     color: #15405A; }
     @media all and (min-width: 450px) {
       .page-template-about .mission-wrapper p {
+        width: 70%; } }
+    @media all and (min-width: 850px) {
+      .page-template-about .mission-wrapper p {
+        width: 60%; } }
+    @media all and (min-width: 950px) {
+      .page-template-about .mission-wrapper p {
         width: 40%; } }
   .page-template-about .about-help {
     height: 70px;
@@ -1932,8 +1938,7 @@ body.page-template-archive-nexus_program main {
     /* Default */
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 100%;
-    padding-top: 40px; }
+    width: 100%; }
     @media all and (min-width: 450px) {
       .page-template-about .about-wrapper {
         background-color: #F3F5F8; } }
@@ -1953,34 +1958,35 @@ body.page-template-archive-nexus_program main {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      /* Default */
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
       padding-top: 14px;
       background-color: #F3F5F8; }
-      @media all and (min-width: 950px) {
-        .page-template-about .about-wrapper .about-left {
-          width: 100%;
-          height: 30vw;
-          padding-right: 15%;
-          padding-left: 15%;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center; } }
       @media all and (min-width: 450px) {
         .page-template-about .about-wrapper .about-left {
           padding-right: 2%;
           padding-left: 2%;
           -webkit-box-align: center;
               -ms-flex-align: center;
-                  align-items: center; } }
+                  align-items: center;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
+      @media all and (min-width: 850px) {
+        .page-template-about .about-wrapper .about-left {
+          padding-right: 10%;
+          padding-left: 10%; } }
+      @media all and (min-width: 950px) {
+        .page-template-about .about-wrapper .about-left {
+          width: 100%;
+          height: 30vw;
+          padding-right: 10%;
+          padding-left: 10%; } }
       .page-template-about .about-wrapper .about-left .about-titles {
         font-size: 21px;
         font-weight: bold;
         text-align: right; }
       .page-template-about .about-wrapper .about-left p {
-        width: 45%;
+        width: 50%;
         text-align: left;
         padding-left: 14px;
         line-height: 16pt;
@@ -1995,7 +2001,7 @@ body.page-template-archive-nexus_program main {
           .page-template-about .about-wrapper .about-left p {
             line-height: 20pt;
             font-size: 18px;
-            width: 30%; } }
+            width: 50%; } }
     .page-template-about .about-wrapper .about-right {
       height: 30vw;
       min-height: 248px;
@@ -2014,34 +2020,35 @@ body.page-template-archive-nexus_program main {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      /* Default */
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
       background-color: #FFFFFF; }
-      @media all and (min-width: 950px) {
-        .page-template-about .about-wrapper .about-right {
-          width: 100%;
-          height: 30vw;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          padding-right: 15%;
-          padding-left: 15%; } }
       @media all and (min-width: 450px) {
         .page-template-about .about-wrapper .about-right {
           padding-right: 2%;
           padding-left: 2%;
           -webkit-box-align: center;
               -ms-flex-align: center;
-                  align-items: center; } }
+                  align-items: center;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
+      @media all and (min-width: 850px) {
+        .page-template-about .about-wrapper .about-right {
+          padding-right: 10%;
+          padding-left: 10%; } }
+      @media all and (min-width: 950px) {
+        .page-template-about .about-wrapper .about-right {
+          width: 100%;
+          height: 30vw;
+          padding-right: 10%;
+          padding-left: 10%; } }
       .page-template-about .about-wrapper .about-right .about-titles {
         font-size: 21px;
         font-weight: bold;
         text-align: left; }
       .page-template-about .about-wrapper .about-right p {
         color: #15405A;
-        width: 45%;
+        width: 50%;
         line-height: 16pt;
         text-align: right;
         font-size: 14px;
@@ -2055,7 +2062,7 @@ body.page-template-archive-nexus_program main {
           .page-template-about .about-wrapper .about-right p {
             line-height: 20pt;
             font-size: 18px;
-            width: 30%; } }
+            width: 50%; } }
   .page-template-about .about-consultants {
     height: 500px;
     display: block;
@@ -2141,6 +2148,7 @@ body.page-template-archive-nexus_program main {
       letter-spacing: 1pt; }
 
 .about-right img.path-img-right {
+  opacity: .5;
   height: 180px;
   width: 30%;
   min-width: 140px;
@@ -2152,6 +2160,7 @@ body.page-template-archive-nexus_program main {
       display: none; } }
 
 .about-left img.path-img-left {
+  opacity: .5;
   height: 180px;
   width: 30%;
   min-width: 140px;

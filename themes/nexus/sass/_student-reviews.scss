@@ -5,7 +5,7 @@
     line-height: 3rem;
     
     h2 {
-      font-size: 4.5vw;
+      font-size: 1.5em;
       margin-bottom: 10px;
     }
     .underline {
@@ -65,13 +65,13 @@
   
 
 .student-review__info-wrapper {
-    background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-color: $color__textbox-background;
+    // background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
+    // background-repeat: no-repeat;
+    // background-position: 15px 15px, 97% 84%;
+    background-color: $color__textbox-background;  
     margin-top: 0;
     width: 100%;
-    padding: 39px 30px 22px 48px;
+    // padding: 20px 18px 50px 90px;
     font-weight: bold;
     font-size: 4vw;
     position: relative;
@@ -85,13 +85,28 @@
       @media #{$desktop} {
         padding: 15px 20px 15px 45px;
       }
+
+      p {
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .oquote {
+        color: $color__fp-quotes;
+      }
+      .cquote {
+        display: flex;
+        justify-content: flex-end;
+        color: $color__fp-quotes;        
+      }
+
     }
   }
 
   .grey {
     background: $color__textbox-background;
     transform: rotate(134deg);
-    bottom: 54px;
+    bottom: 15px;
     left: 40%;
     height: 30px;
     position: relative;
@@ -100,7 +115,7 @@
       background: $color__textbox-background;
       transform: rotate(134deg);
       bottom: -60px;
-      left: -63px;
+      left: -104px;
       height: 30px;
       position: relative;
       width: 30px;

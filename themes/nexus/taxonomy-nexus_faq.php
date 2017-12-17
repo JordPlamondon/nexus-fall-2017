@@ -57,9 +57,10 @@ get_header(); ?>
       		<h2> Start Your Journey<h2><br>
 					<div class="underline"></div>
 					<div class="journey-text">
-      		<p>Let us help you find your path to success</p>
-					<button class="consult">Book Consult</button>
-				</div>
+					<p>Let us help you find your path to success</p>
+					</div>
+					<a href="<?php echo home_url();?>/consult/"><button class="consult">Book Consult</button></a>
+					
 				</div>	
 				
 			</div>

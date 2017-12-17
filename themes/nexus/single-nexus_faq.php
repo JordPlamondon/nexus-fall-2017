@@ -26,7 +26,7 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
-			
+
 			<!-- Field Group Metaboxes -->
 <div class="desktop-metaboxes">			
 <?php
@@ -130,7 +130,7 @@ foreach ( (array) $entries as $key => $entry ) {
 						<div class="underline"></div>
 						<div class="journey-text">
       			<p>Let us help you find your path to success</p>
-					<button class="consult">Book Consult</button>
+					<a href="<?php echo home_url();?>/consult/"><button class="consult">Book Consult</button></a>
 				</div>
 			</div>
 		</main><!-- #main -->

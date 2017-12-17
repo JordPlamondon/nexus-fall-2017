@@ -12,7 +12,7 @@ get_header(); ?>
       <div class="blog-wrapper">
         <div class="title-wrapper">	
 				  <h1 class="blog-title-hero">Blog</h1>
-				  <div class="underline1"></div>
+				  <!-- <div class="underline1"></div> -->
 			  </div> 
         <h2 class="latest-videos-title">Latest Videos</h2>
         <div class="underline-videos"></div>

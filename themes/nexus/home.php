@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
       <div class="blog-wrapper">
         <div class="title-wrapper">	
-				  <h1 class="blog-title">Blog</h1>
+				  <h1 class="blog-title-hero">Blog</h1>
 				  <div class="underline1"></div>
 			  </div> 
         <h2 class="latest-videos-title">Latest Videos</h2>
@@ -56,10 +56,10 @@ get_header(); ?>
               <?php endwhile; // End of the loop. ?>
         
           </ul>		
-
-          <h2 class="latest-posts-title">Latest Posts</h2>
+            <h2 class="latest-posts-title">Latest Posts</h2>
           <div class="underline-posts"></div>
         </section>
+        
       </div>  
 		</main><!-- #main -->
   </div><!-- #primary -->

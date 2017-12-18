@@ -1,6 +1,8 @@
-# RED Starter
+# Nexus Intercambio
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+![nexus](https://user-images.githubusercontent.com/32310250/34117024-3c725884-e3cf-11e7-9b47-67d12d724357.PNG)
+
+http://nexus.van.cp.academy.red/
 
 ## Installation
 
@@ -8,7 +10,7 @@ A WordPress starter theme for RED Academy students, forked from Underscores.
 
 Then add me to your `wp-content` directory.
 
-### 2. Rename the `redstarter-master` directory
+### 2. Rename the `nexus` directory
 
 Make sure that the theme directory name is project appropriate!
 
@@ -20,6 +22,59 @@ Next you'll need to run `npm install` **inside your theme directory** next to in
 
 Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
 
-I'm adding some stuff but it'll probably get deleted soon -s
-I'm adding this random text muahhahahahaha
-hi guys.
+### Technology used
+
+* HTML
+* CSS
+* Javascript
+* php
+* gulp (min, lint, uglify, etc.)
+* npm
+* WordPress
+* MAMP / MySQL
+
+### Built With
+
+* Visual Studio Code - The "Editor" - https://code.visualstudio.com/
+
+* Chrome - Testing platform - Google.ca
+
+* GULP - Issues and all.
+
+* GIT - github
+
+* WordPress and various plugins.
+
+### Contributing voices and ideas
+
+* RED Academy Starter Theme
+
+* RED Web Dev 2017 Fall class
+
+* Special thanks to Jim Bennett/Rose Cass
+
+### Versioning:
+
+* This will be the only version unless required to make changes or upgrades. Wordpress and other tech used will have it's own updates
+
+### Authors
+
+* Scott Livingstone
+* Ilya Meerovich
+* Jordan Plamondon
+* Sean Stobo
+* Colin Yaremko
+
+See also the list of contributors who participated in this project.
+
+### License
+
+* GNU General Public License v2 or later
+
+### Acknowledgments
+
+* See contributions!
+
+### Issues
+
+* Definitely some issues with CSS. Made changes and information disappeared on other pages. 

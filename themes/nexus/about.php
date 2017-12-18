@@ -14,7 +14,6 @@ get_header(); ?>
       <div class="hero-wrapper"> 
         <div class="hero-image">
           <h1 class="about-title"> About Us <h1>
-          <div class="underline"></div>
         </div>
       </div>
       
@@ -89,11 +88,19 @@ get_header(); ?>
 </div>
 
 <!-- ######## Journy Hero  ###### -->
-<div class="about-journey">
+<!-- <div class="about-journey">
       <h2> Start Your Journey<h2><br>
       <p>Let us help you find your path to success</p>
       <button class="consult">Book Consult</button>
-      </div>
+      </div> -->
+      <div class="about-journey">
+      		<h2 class="about-journey-h2">Start Your Journey<h2><br>
+					<!-- <div class="underline"></div> -->
+					<div class="journey-text">
+						<p>Let us help you find your path to success</p>
+					</div>
+					<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
+				</div>	
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

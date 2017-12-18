@@ -17,11 +17,13 @@ get_header(); ?>
         <section class="blog-page">
 
         
-        <!-- $category_name = 'videos, blogs'; 
+        <!-- $category_name = 'videos'; 
+        $category_flame = 'blogs';
         $temp = $wp_query;
         $wp_query = null;
         $wp_query = new WP_Query();
-        $wp_query->query('showposts=6' . '&paged=' . $paged . '&category_name=' . $category_name);  -->
+        $wp_query->query('showposts=3' . '&paged=' . $paged . '&category_name=' . $category_name); 
+         -->
 
      
           <ul class "blog-categories">
@@ -41,7 +43,7 @@ get_header(); ?>
                     <?php the_content(); ?>
                   </div>
                   <a href="<?php the_permalink(); ?>" rel="blog title">
-                  <div style="text-align:center;" class="read-button">
+                  <div class="read-button">
                     <button class="read-more">Read More</button>
                   </a>
                   </div>
@@ -49,7 +51,7 @@ get_header(); ?>
               </div>
             </li>
              <div class="shadow-border"></div> 
-             
+
               <?php endwhile; // End of the loop. ?>
         
           </ul>		

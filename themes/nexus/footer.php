@@ -18,8 +18,7 @@
 		<div class="footer_hidden--container">
 			<div class="footer__site-info hidden">
 				<div class="footer_hidden_anchor">
-					<a href="&lt;?php echo home_url(); ?&gt;">© Copyright - Nexus Exchange 2017
-					</a>
+					<a href="<?php echo home_url(); ?>">© Copyright - Nexus Exchange 2017</a>			
 				</div>
 				
 				<div class="footer__desktop--nav">

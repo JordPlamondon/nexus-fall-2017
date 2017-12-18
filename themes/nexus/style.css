@@ -4367,7 +4367,6 @@ nav.main-navigation:hover {
         margin: 0; } }
   .single-nexus_program .left-side {
     height: 100%;
-    width: 55%;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4)));
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)); }
     @media all and (min-width: 450px) {
@@ -4375,6 +4374,9 @@ nav.main-navigation:hover {
         margin-right: -10%;
         z-index: 10;
         margin-left: 1rem; } }
+    @media all and (min-width: 950px) {
+      .single-nexus_program .left-side {
+        width: 55%; } }
   .single-nexus_program .strong-side {
     -ms-flex-preferred-size: 55%;
         flex-basis: 55%;

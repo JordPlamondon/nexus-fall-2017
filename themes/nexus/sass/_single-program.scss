@@ -159,12 +159,14 @@
 
   .left-side {
     height: 100%;
-    width: 55%;
     background: linear-gradient(180deg, hsla(0, 0%, 100%, .5), hsla(0, 0%, 100%, .4));
     @media #{$tablet-test} {
       margin-right: -10%;
       z-index: 10;
       margin-left: 1rem;
+    }
+    @media #{$desktop} {
+      width: 55%;
     }
   }
 

@@ -6,10 +6,12 @@
       background-image: url("../../assets/images/faq@3x.png");
       background-size: 100% 100%;
       min-width: 350px;
+      margin-top: -65px;
       @media #{$desktop} { 
         position: relative;
         top: 65px;
         height: 50vh;
+        margin-top: 65px;
       } 
       h1 {
         text-align: center;

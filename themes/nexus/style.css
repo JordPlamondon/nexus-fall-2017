@@ -1588,7 +1588,7 @@ a {
 @media all and (min-width: 880px) {
   .home .why-canada {
     position: relative;
-    height: 120vh;
+    max-height: 110vh;
     margin-top: 3rem; } }
 
 .home .why-canada .headergroup {

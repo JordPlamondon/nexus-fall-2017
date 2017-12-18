@@ -13,7 +13,6 @@ get_header(); ?>
 				<div class="title-wrapper">	
 					<div class="faq-hero-image">
 						<h1 class="faq-title"> FAQ </h1>
-						<!-- <div class="underline1"></div> -->
 					</div>
 				</div>
 			<section class="faq-page">
@@ -55,7 +54,6 @@ get_header(); ?>
 					
 				<div class="faq-journey">
       		<h2 class="faq-journey-h2">Start Your Journey<h2><br>
-					<!-- <div class="underline"></div> -->
 					<div class="journey-text">
 						<p>Let us help you find your path to success</p>
 					</div>

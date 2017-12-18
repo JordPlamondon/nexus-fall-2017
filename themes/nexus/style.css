@@ -1886,11 +1886,13 @@ body.page-template-archive-nexus_program main {
       color: #15405A;
       font-size: 30px;
       text-transform: uppercase;
-      font-weight: 900; }
+      font-weight: 900;
+      padding-bottom: 5px; }
       @media all and (min-width: 950px) {
         .page-template-about .hero-wrapper .about-title {
           font-size: 60px;
-          top: 100px; } }
+          top: 100px;
+          padding-bottom: 10px; } }
     .page-template-about .hero-wrapper .about-title:after {
       content: "";
       position: absolute;
@@ -4030,69 +4032,115 @@ nav.main-navigation:hover {
 
 .page-template-contact .hero-wrapper {
   padding-top: 65px; }
-  .page-template-contact .hero-wrapper h1 {
+  .page-template-contact .hero-wrapper .contact-hero-title {
     position: relative;
-    top: 46px;
+    top: 100px;
     text-align: center;
     color: #15405A;
-    font-size: 48px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 900; }
+    @media all and (min-width: 950px) {
+      .page-template-contact .hero-wrapper .contact-hero-title {
+        font-size: 60px;
+        padding-bottom: 10px;
+        top: 60px; } }
+  .page-template-contact .hero-wrapper .contact-hero-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 49px;
+    margin: 0 0 0 -25px;
+    border-bottom: 3px solid #FF8A2A; }
+    @media all and (min-width: 950px) {
+      .page-template-contact .hero-wrapper .contact-hero-title:after {
+        margin: 0 0 0 -73px;
+        border-bottom: 6px solid #FF8A2A;
+        width: 144px; } }
   .page-template-contact .hero-wrapper .hero-image {
     height: 239px;
     width: 100vw;
     background-image: url("../../assets/images/blog_3@3x.png");
     background-size: 100% 100%; }
-  .page-template-contact .hero-wrapper .underline {
-    margin: 0 auto;
-    width: 49px;
-    text-align: center;
-    border-bottom: 3px solid #FF8A2A;
-    position: relative;
-    bottom: 20px; }
 
 .page-template-contact .contact-journey {
   height: 195px;
   background-color: #F3F5F8; }
-  .page-template-contact .contact-journey h2 {
-    position: relative;
-    top: 20px;
+  @media all and (min-width: 950px) {
+    .page-template-contact .contact-journey {
+      height: 360px; } }
+  .page-template-contact .contact-journey .contact-journey-h2 {
     font-size: 24px;
     text-align: center;
     color: #15405A;
     font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1pt; }
-  .page-template-contact .contact-journey p {
     position: relative;
-    bottom: 42px;
-    text-transform: none;
+    top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    padding-bottom: 5px; }
+    @media all and (min-width: 950px) {
+      .page-template-contact .contact-journey .contact-journey-h2 {
+        top: 50px;
+        font-size: 60px;
+        font-weight: 600;
+        padding-bottom: 10px; } }
+  .page-template-contact .contact-journey .contact-journey-h2:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 49px;
+    margin: 0 0 0 -25px;
+    border-bottom: 3px solid #FF8A2A; }
+    @media all and (min-width: 950px) {
+      .page-template-contact .contact-journey .contact-journey-h2:after {
+        margin: 0 0 0 -73px;
+        border-bottom: 6px solid #FF8A2A;
+        width: 144px; } }
+  .page-template-contact .contact-journey p {
     font-size: 14px;
     color: #E00029;
     font-style: italic;
-    font-weight: 200; }
-  .page-template-contact .contact-journey .underline {
-    margin: 0 auto;
-    width: 49px;
+    font-weight: 200;
     position: relative;
-    bottom: 48px;
     text-align: center;
-    border-bottom: 3px solid #FF8A2A; }
-
-.page-template-contact button.consult {
-  width: 175px;
-  height: 40px;
-  position: relative;
-  bottom: 40px;
-  padding: 0;
-  border-radius: 25px 0px 25px 0px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  text-shadow: none;
-  font-size: 18px;
-  background: #E91C35;
-  color: #FFFFFF;
-  letter-spacing: 1pt; }
+    text-transform: none;
+    bottom: 30px; }
+    @media all and (min-width: 950px) {
+      .page-template-contact .contact-journey p {
+        bottom: 50px;
+        font-size: 30px;
+        font-weight: 600; } }
+  .page-template-contact .contact-journey .consult {
+    letter-spacing: 1pt;
+    width: 175px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    text-align: center;
+    background: #E91C35;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 20px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding: 6px; }
+    @media all and (min-width: 950px) {
+      .page-template-contact .contact-journey .consult {
+        width: 272px;
+        height: 55px;
+        bottom: 30px;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 8px; } }
+    .page-template-contact .contact-journey .consult:hover {
+      background: #bf1328; }
 
 /*======================================
   Selectric

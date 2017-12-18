@@ -12,10 +12,8 @@ get_header(); ?>
       <div class="blog-wrapper">
         <div class="title-wrapper">	
 				  <h1 class="blog-title-hero">Blog</h1>
-				  <!-- <div class="underline1"></div> -->
 			  </div> 
         <h2 class="latest-videos-title">Latest Videos</h2>
-        <!-- <div class="underline-videos"></div> -->
         <section class="blog-page">
 
         
@@ -50,14 +48,12 @@ get_header(); ?>
                 </div>  
               </div>
             </li>
-            <!-- <div class="underline"></div> -->
              <div class="shadow-border"></div> 
              
               <?php endwhile; // End of the loop. ?>
         
           </ul>		
             <h2 class="latest-posts-title">Latest Posts</h2>
-          <!-- <div class="underline-posts"></div> -->
         </section>
         
       </div>  

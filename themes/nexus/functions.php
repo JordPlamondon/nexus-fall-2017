@@ -138,7 +138,7 @@ function plugin_myContentFilter($content)
 {
 	// Take the existing content and return a subset of it
 	if ( is_home() ) {
-		return substr($content, 0, 200);
+		return substr($content, 0, 179);
 	}
 	
 	return ($content);
@@ -183,6 +183,7 @@ function pixelninja_single_cat_title() {
 // 		return $query;
 // 		add_action('pre_get_posts', 'per_category_basis');
 // }
+
 
 
 // add_filter('pre_get_posts', 'limit_category_posts');

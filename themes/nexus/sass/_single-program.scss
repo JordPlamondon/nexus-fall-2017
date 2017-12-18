@@ -3,6 +3,17 @@
   @media #{$tablet-test} {
     padding-top: 75px;
   }
+  
+  article {
+    margin-bottom: 0;
+  }
+
+  .main-content-wrapper {
+    @media #{$tablet}{
+      margin-left: 10%;
+    }
+  }
+
 
   .owl-dots {
     display: none;
@@ -41,10 +52,13 @@
     }
   }
 
+<<<<<<< HEAD
   .owl-item:not(.active) img {
     display: none;
   }
 
+=======
+>>>>>>> f86bad84c3bddf20c80a7585a481373d9e8b8044
   .city-container {
     display: flex;
     flex-direction: column;
@@ -76,10 +90,6 @@
       top: 12rem;
       left: 10rem;
     }
-  }
-  
-  article{
-    margin-bottom: 0;
   }
 
   .student-review {
@@ -157,10 +167,14 @@
 
   .left-side {
     height: 100%;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, .5), hsla(0, 0%, 100%, .4));
     @media #{$tablet-test} {
       margin-right: -10%;
       z-index: 10;
-      margin-left: 10%;
+      margin-left: 1rem;
+    }
+    @media #{$desktop} {
+      width: 55%;
     }
   }
 
@@ -218,24 +232,32 @@
     @media #{$tablet-test} {
       font-size: 2rem;
     }
+<<<<<<< HEAD
     @media all and (min-width: 950px) {
         left: 10rem;
         top: 10rem;
+=======
+    @media #{$desktop} {
+      font-size: 3rem;
+>>>>>>> f86bad84c3bddf20c80a7585a481373d9e8b8044
     }
   }
 
   .program-flex-container {
     @media #{$tablet-test} {
       display: flex;
+      flex-direction: column;
       align-items: flex-start;
       margin: 2rem 0;
       margin-bottom: 48px;
-      background: green;
+      
+    }
+    @media #{$desktop} {
+      flex-direction: row;
     }
   }
 
   .single-program-container {
-    background: red;
     padding: 1rem;
     max-width: 1100px;
     margin: 0 auto;
@@ -288,4 +310,30 @@
         border-right: 3px solid #ff8a2a;
       }
     }
+
+    .read-more {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .read-more-program {
+      &:last-child{
+        display: none;
+        @media #{$tablet} {
+          display: block;
+        }
+      }
+      width: 45%;
+      @media #{$tablet} {
+        width: 30%;
+      }
+    }
+
+    .centered {
+      margin: 0 auto;
+      text-align: center;
+    }
+  
   }

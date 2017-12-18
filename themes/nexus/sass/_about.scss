@@ -430,11 +430,12 @@
  .about-right {
   img.path-img-right {
     opacity: .5;
-      height: 180px;
-      width: 30%;
-      min-width: 140px;
-      position: relative;
-      bottom: 90px;
+   
+    height: 140px;
+    width: 40%;
+    min-width: 140px;
+    position: relative;
+    bottom: 120px;
    
       z-index: 1;
         @media #{$tablet-test} {
@@ -445,8 +446,8 @@
  .about-left {
     img.path-img-left {
       opacity: .5;
-      height: 180px;
-      width: 30%;
+      height: 40vw;
+      width: 40%;
       min-width: 140px;
       position: relative;
       bottom: 90px;

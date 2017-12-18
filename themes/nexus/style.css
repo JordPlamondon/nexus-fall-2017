@@ -2239,11 +2239,11 @@ body.page-template-archive-nexus_program main {
 
 .about-right img.path-img-right {
   opacity: .5;
-  height: 180px;
-  width: 30%;
+  height: 140px;
+  width: 40%;
   min-width: 140px;
   position: relative;
-  bottom: 90px;
+  bottom: 120px;
   z-index: 1; }
   @media all and (min-width: 450px) {
     .about-right img.path-img-right {
@@ -2251,8 +2251,8 @@ body.page-template-archive-nexus_program main {
 
 .about-left img.path-img-left {
   opacity: .5;
-  height: 180px;
-  width: 30%;
+  height: 40vw;
+  width: 40%;
   min-width: 140px;
   position: relative;
   bottom: 90px;

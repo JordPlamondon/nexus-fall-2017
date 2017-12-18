@@ -1,4 +1,9 @@
 .single-nexus_program {
+  padding-top: 20px;
+  @media #{$tablet-test} {
+    padding-top: 75px;
+  }
+
   .owl-dots {
     display: none;
     @media all and (min-width: 950px) {
@@ -15,7 +20,7 @@
     position: relative;
     bottom: 2.5rem;
     @media all and (min-width: 880px) {
-      position: absolute;
+      position: absolute; 
       z-index: 998;
 
       right: 20%;
@@ -36,14 +41,9 @@
     }
   }
 
-  .city-container{
-   padding-top: 20px;
-   @media #{$tablet-test} {
-     padding-top: 75px;
-   }
-  article{
-    margin-bottom: 0;
-  }
+
+
+
   .city-container {
     display: flex;
     flex-direction: column;
@@ -76,6 +76,10 @@
     }
   }
   
+  article{
+    margin-bottom: 0;
+  }
+
   .student-review {
     margin-bottom: 3rem;
     .headergroup {
@@ -256,13 +260,12 @@
     }
   }
 
-  .program-meta-seperator {
-    visibility: hidden;
-    @media #{$desktop} {
-      visibility: visible;
-      height: 60px;
-      border-right: 3px solid #ff8a2a;
+    .program-meta-seperator {
+      visibility: hidden;
+      @media #{$desktop} {
+        visibility: visible;
+        height: 60px;
+        border-right: 3px solid #ff8a2a;
+      }
     }
   }
-}
-}

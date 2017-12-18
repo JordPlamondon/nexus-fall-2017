@@ -202,10 +202,13 @@
         width: 80%;
         margin: 10px auto 0 auto;
         @media #{$desktop} {
-          font-size: 1.6rem;
+          font-size: 20px;
           font-weight: 100;
-          width: 40%;
+          letter-spacing: 1.5px;
+          font-family: $font__accent;
+          width: 60%;
           position: relative;
+          bottom: 4%;
           right: 20%;
          
           
@@ -293,8 +296,9 @@
             line-height: 55px;
         }
         p {
-          font-size: 22px;
+          font-size: 20px;
           margin-bottom: 44px;
+          font-family: $font__accent;
         }
 
         a {
@@ -406,9 +410,10 @@
     }
   }
   p {
-    font-size: 22px;
+    font-size: 18px;
     color: $color__text-accent;
     font-style: italic;
+    font-family: $font__accent;
     font-weight: 200;
     position: relative;
     text-align: center;

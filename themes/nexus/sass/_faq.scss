@@ -24,6 +24,7 @@
         top: 140px;
         border-bottom: 3px solid $color__accent-underline;
         width: 49px;
+        color: $color__footer-background;
         @media #{$desktop} {
           font-size: 70px;
           position: relative;
@@ -47,7 +48,7 @@
           bottom: 70px; 
         }
         @media all and (min-width: 1150px) {
-          bottom: 100px;
+          bottom: 95px;
         }  
       }
       .shadow-border {
@@ -111,13 +112,14 @@
             }
           }
           @media all and (min-width: 1150px) {
-            top: 260px;
+            top: 270px;
           }
         }
         .list-text {
           display: flex;
           flex-wrap: wrap;
           min-width: 200px;
+          color: $color__footer-background;
           @media #{$desktop} {
             position: relative;
             bottom: 100px;
@@ -127,6 +129,7 @@
         h2 {
           position: relative;
           top: 15px;
+          color: $color__footer-background;
           @media #{$desktop} {
             position: relative;
             right: 200px;

@@ -1935,7 +1935,10 @@ body.page-template-archive-nexus_program main {
     font-size: 24px;
     text-align: center;
     color: #15405A;
-    font-weight: 900; }
+    font-weight: 800; }
+    @media all and (min-width: 950px) {
+      .page-template-about .mission-wrapper h2 {
+        font-size: 30px; } }
   .page-template-about .mission-wrapper .underline {
     position: relative;
     top: 14px;
@@ -1943,9 +1946,15 @@ body.page-template-archive-nexus_program main {
     width: 49px;
     text-align: center;
     border-bottom: 3px solid #FF8A2A; }
+    @media all and (min-width: 950px) {
+      .page-template-about .mission-wrapper .underline {
+        border-bottom: 6px solid #FF8A2A;
+        width: 99px;
+        bottom: 44px; } }
   .page-template-about .mission-wrapper p {
     width: 80%;
     margin: 0 auto;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
     margin-bottom: 40px;
     padding-top: 40px;
     text-align: center;
@@ -1955,30 +1964,43 @@ body.page-template-archive-nexus_program main {
     color: #15405A; }
     @media all and (min-width: 450px) {
       .page-template-about .mission-wrapper p {
-        width: 70%; } }
+        width: 70%;
+        font-size: 20px; } }
     @media all and (min-width: 850px) {
       .page-template-about .mission-wrapper p {
-        width: 60%; } }
+        width: 70%; } }
     @media all and (min-width: 950px) {
       .page-template-about .mission-wrapper p {
-        width: 40%; } }
+        width: 70%; } }
   .page-template-about .about-help {
     height: 70px;
     background-color: #F3F5F8; }
     .page-template-about .about-help h2 {
       position: relative;
-      top: 20px;
+      top: 4px;
       font-size: 24px;
       text-align: center;
-      color: #123048;
+      color: #15405A;
       font-weight: 900; }
+      @media all and (min-width: 850px) {
+        .page-template-about .about-help h2 {
+          font-size: 30px; } }
+      @media all and (min-width: 950px) {
+        .page-template-about .about-help h2 {
+          font-size: 40px;
+          bottom: 30px; } }
     .page-template-about .about-help .underline {
       position: relative;
-      bottom: 20px;
+      bottom: 40px;
       margin: 0 auto;
       width: 49px;
       text-align: center;
       border-bottom: 3px solid #FF8A2A; }
+      @media all and (min-width: 950px) {
+        .page-template-about .about-help .underline {
+          border-bottom: 6px solid #FF8A2A;
+          width: 99px;
+          bottom: 50px; } }
   .page-template-about img.about-img {
     width: 40vw;
     height: 40vw;
@@ -1990,8 +2012,8 @@ body.page-template-archive-nexus_program main {
         height: 25vw; } }
     @media all and (min-width: 850px) {
       .page-template-about img.about-img {
-        width: 20vw;
-        height: 20vw; } }
+        width: 25vw;
+        height: 25vw; } }
   .page-template-about .about-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2014,7 +2036,7 @@ body.page-template-archive-nexus_program main {
         background-color: #F3F5F8; } }
     .page-template-about .about-wrapper .about-left {
       height: 30vw;
-      min-height: 248px;
+      min-height: 288px;
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2055,12 +2077,19 @@ body.page-template-archive-nexus_program main {
         font-size: 21px;
         font-weight: bold;
         text-align: right; }
+        @media all and (min-width: 850px) {
+          .page-template-about .about-wrapper .about-left .about-titles {
+            font-size: 34px;
+            position: relative;
+            bottom: 34px;
+            line-height: 30px; } }
       .page-template-about .about-wrapper .about-left p {
         width: 50%;
         text-align: left;
         padding-left: 14px;
         line-height: 16pt;
         font-size: 14px;
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
         color: #15405A; }
         @media all and (min-width: 450px) {
           .page-template-about .about-wrapper .about-left p {
@@ -2115,10 +2144,18 @@ body.page-template-archive-nexus_program main {
       .page-template-about .about-wrapper .about-right .about-titles {
         font-size: 21px;
         font-weight: bold;
-        text-align: left; }
+        text-align: right; }
+        @media all and (min-width: 850px) {
+          .page-template-about .about-wrapper .about-right .about-titles {
+            font-size: 34px;
+            position: relative;
+            bottom: 14px;
+            line-height: 30px; } }
       .page-template-about .about-wrapper .about-right p {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
         color: #15405A;
         width: 50%;
+        height: 230px;
         line-height: 16pt;
         text-align: right;
         font-size: 14px;
@@ -2127,7 +2164,8 @@ body.page-template-archive-nexus_program main {
           .page-template-about .about-wrapper .about-right p {
             line-height: 16pt;
             font-size: 16px;
-            width: 50%; } }
+            width: 50%;
+            position: relative; } }
         @media all and (min-width: 950px) {
           .page-template-about .about-wrapper .about-right p {
             line-height: 20pt;
@@ -2139,6 +2177,9 @@ body.page-template-archive-nexus_program main {
     margin-top: 44px;
     background-color: #FFFFFF;
     text-align: center; }
+    @media all and (min-width: 950px) {
+      .page-template-about .about-consultants {
+        height: 700px; } }
     .page-template-about .about-consultants p {
       font-size: 16px;
       font-weight: 100;
@@ -2147,20 +2188,28 @@ body.page-template-archive-nexus_program main {
     .page-template-about .about-consultants img {
       height: 204px;
       width: 204px;
-      margin: 30px 0 0 0;
+      margin: 24px 0 0 0;
       border-radius: 100px; }
+      @media all and (min-width: 950px) {
+        .page-template-about .about-consultants img {
+          height: 404px;
+          width: 404px; } }
     .page-template-about .about-consultants i {
       display: inline-block;
       margin: 10px;
-      margin-bottom: 24px;
+      margin-bottom: 14px;
       font-size: 36px; }
     .page-template-about .about-consultants h2 {
       position: relative;
-      top: 20px;
+      top: 40px;
       font-size: 24px;
       text-align: center;
       color: #123048;
-      font-weight: 900; }
+      font-weight: 600;
+      color: #15405A; }
+      @media all and (min-width: 950px) {
+        .page-template-about .about-consultants h2 {
+          font-size: 44px; } }
     .page-template-about .about-consultants h3 {
       position: relative;
       top: 14px;
@@ -2255,27 +2304,41 @@ body.page-template-archive-nexus_program main {
 
 .about-right img.path-img-right {
   opacity: .3;
-  height: 140px;
-  width: 40%;
+  height: 60vw;
+  width: 40vw;
   min-width: 140px;
   position: relative;
-  bottom: 120px;
+  bottom: 45vw;
   z-index: 1; }
   @media all and (min-width: 450px) {
     .about-right img.path-img-right {
-      display: none; } }
+      width: 50vw;
+      height: 30vw;
+      bottom: 10vw; } }
+  @media all and (min-width: 850px) {
+    .about-right img.path-img-right {
+      width: 50vw;
+      height: 20vw;
+      bottom: 10vw; } }
 
 .about-left img.path-img-left {
   opacity: .3;
-  height: 40vw;
-  width: 40%;
+  height: 60vw;
+  width: 40vw;
   min-width: 140px;
   position: relative;
-  bottom: 90px;
+  bottom: 45vw;
   z-index: 1; }
   @media all and (min-width: 450px) {
     .about-left img.path-img-left {
-      display: none; } }
+      width: 50vw;
+      height: 40vw;
+      bottom: 10vw; } }
+  @media all and (min-width: 850px) {
+    .about-left img.path-img-left {
+      width: 50vw;
+      height: 20vw;
+      bottom: 10vw; } }
 
 /*--------------------------------------------------------------
 # Footer
@@ -4319,7 +4382,7 @@ nav.main-navigation:hover {
     line-height: 1.75;
     text-align: center;
     color: #14304A;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .single-nexus_program .single-program-content {
         margin: 0;
@@ -4362,11 +4425,11 @@ nav.main-navigation:hover {
     margin: 0 auto;
     width: 49px;
     text-align: center;
-    border-bottom: 4px solid #FF8A2A; }
+    border-bottom: 3px solid #FF8A2A; }
     @media all and (min-width: 450px) {
       .single-nexus_program .title-underline {
         width: 144px;
-        border-bottom-width: 6px;
+        border-bottom-width: 4px;
         margin: 0; } }
   .single-nexus_program .left-side {
     height: 100%;
@@ -4401,7 +4464,6 @@ nav.main-navigation:hover {
         height: 100%;
         min-width: 50%; }
         .single-nexus_program .single-program-about-image img {
-          height: 500px;
           width: 140%; } }
   .single-nexus_program .single-program-title {
     text-align: center;
@@ -4522,6 +4584,11 @@ nav.main-navigation:hover {
             justify-content: space-between;
     width: 80%;
     margin: 0 auto; }
+  .single-nexus_program .read-more__title {
+    font-size: 1rem; }
+    @media all and (min-width: 850px) {
+      .single-nexus_program .read-more__title {
+        font-size: 1.5rem; } }
   .single-nexus_program .read-more-program {
     width: 45%; }
     .single-nexus_program .read-more-program:last-child {

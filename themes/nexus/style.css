@@ -4316,7 +4316,7 @@ nav.main-navigation:hover {
     line-height: 1.75;
     text-align: center;
     color: #14304A;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .single-nexus_program .single-program-content {
         margin: 0;
@@ -4359,11 +4359,11 @@ nav.main-navigation:hover {
     margin: 0 auto;
     width: 49px;
     text-align: center;
-    border-bottom: 4px solid #FF8A2A; }
+    border-bottom: 3px solid #FF8A2A; }
     @media all and (min-width: 450px) {
       .single-nexus_program .title-underline {
         width: 144px;
-        border-bottom-width: 6px;
+        border-bottom-width: 4px;
         margin: 0; } }
   .single-nexus_program .left-side {
     height: 100%;
@@ -4398,7 +4398,6 @@ nav.main-navigation:hover {
         height: 100%;
         min-width: 50%; }
         .single-nexus_program .single-program-about-image img {
-          height: 500px;
           width: 140%; } }
   .single-nexus_program .single-program-title {
     text-align: center;
@@ -4500,6 +4499,11 @@ nav.main-navigation:hover {
             justify-content: space-between;
     width: 80%;
     margin: 0 auto; }
+  .single-nexus_program .read-more__title {
+    font-size: 1rem; }
+    @media all and (min-width: 850px) {
+      .single-nexus_program .read-more__title {
+        font-size: 1.5rem; } }
   .single-nexus_program .read-more-program {
     width: 45%; }
     .single-nexus_program .read-more-program:last-child {

@@ -143,8 +143,8 @@
                 $review_image = wp_get_attachment_url ( get_post_thumbnail_id($post_id), 'thumbnail' );
                 ?>
 
-            		<div class="headergroup">
-            			<h2 class="student-review-header"> Student Review </h2>
+            		<div class="header-wrapper">
+            			<h2 class="single-program-header centered"> Student Review </h2>
             			<div class="underline"></div>
                     </div>
                 

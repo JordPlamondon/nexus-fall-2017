@@ -39,6 +39,9 @@ div.widget_info_contain a {
   color: $color__text-white;
 }
 
+aside.widget.widget_text {
+  margin-bottom: 0px;
+}
 
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
@@ -382,7 +385,7 @@ div.widget_info_contain a {
     width: 220px;
   }
   .footer__why-nexus p {
-    margin-top: 33px;
+    margin-top: 16px;
   }
   div.socialmedia-container {
     display: flex;

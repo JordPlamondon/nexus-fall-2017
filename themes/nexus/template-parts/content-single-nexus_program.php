@@ -36,7 +36,7 @@
         </div>
     </section>
 
-    <section class="program-flex-container">
+    <section class="program-flex-container about">
         
         <?php $about_image =  get_post_meta($post->ID, '_nexus_program_about_image', true); ?>
         <div class="left-side">
@@ -52,7 +52,7 @@
         
     </section>
 
-    <section class="program-flex-container">
+    <section class="program-flex-container school">
 
          <?php $school_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_school', true);?>
          <?php if($school_id):; ?>
@@ -69,40 +69,69 @@
              <div class="strong-side">
                  <div class="header-wrapper">
                      <h2 class="single-program-header"><?php echo $school_title; ?></h2>
-                     <div class="title-underline"></div>
+                     <div class="title-underline"></d iv>
                  </div>
                  <p class="single-program-content"><?php echo $queried_post->post_content; ?></p>
              </div>
          <?php endif; ?>
 
      </section>
-    
 
-        <?php $city_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_city', true);?>
 
-        <?php if($city_id):; ?>
-            <?php
-            $post_id = $city_id[0];
-            $queried_post = get_post($post_id);
-            $city_title = $queried_post->post_title;
-            $city_blurbs = get_post_meta($queried_post->ID, '_nexus_city_text', true);
-            $city_blurb = $city_blurbs[0];
-            $city_images = get_post_meta($queried_post->ID, '_nexus_school_media', true);
-            if($city_images){
-                $city_image = $city_images[0];
-            }
+        <!-- Get City if post has a city linked to it -->
+
+    <?php $city_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_city', true);?>
+
+    <?php
+    if($city_id):;
+        $entries = get_post_meta( $city_id[0], 'cities_repeat_group', true );
+        $post_id = $city_id[0];
+        $queried_post = get_post($post_id);
+        $city_title = $queried_post->post_title;
+        ?>
+        <section>
+            <h2 class="single-program-header"><?php echo $city_title; ?></h2>
+            
+            <?php 
+            var_dump($entries);
             ?>
-            <div class="header-wrapper">
-                <h2 class="single-program-header"><?php echo $city_title; ?></h2>
-                <div class="title-underline"></div>
-            </div>
-            <?php if ( $city_images ): ; ?>
-                <img src="<?php echo $city_image ?>" alt="Picture of a Student">
-            <?php endif; ?>
-            <p class="single-program-content"><?php echo $city_blurb; ?></p>
-        <?php endif; ?>
+            <div class="city-carousel owl-carousel owl-theme">
+                <?php
+                foreach ( (array) $entries as $key => $entry ) :
+                
+	            $img = $title = $desc = ''; ?>
 
-    <div class="read-more">
+    	         <article class="city-container">
+
+		            <!-- description -->
+		            <?php
+		            	if ( isset( $entry['description'] ) ) {
+		            		$desc = wpautop( $entry['description'] );
+		            	} ?>
+		            	<div class="city-text">
+		            		<?php echo $desc; ?>
+		            	</div>
+
+		            <!-- image -->
+		            <?php
+		            	if ( isset( $entry['image_id'] ) ) {
+		            	$img = wp_get_attachment_image( $entry['image_id'], 'share-pick', null, array(
+		            	'class' => 'thumb',
+		            	) ); 
+		            } ?>
+                    <div class="city-image">
+		            <?php echo $img; ?>
+                    </div>
+		        </article>
+                
+                <?php
+                endforeach;
+                ?>
+                </div>
+            </section>   
+    <?php endif;?>
+          
+    <section class="read-more">
         <?php $terms = wp_get_post_terms( $post->ID, 'program_type' ); ?>
         <?php
 
@@ -145,7 +174,7 @@
                     <?php endif; 
                     
         wp_reset_query();?>
-    </div> <!-- / Readmore -->
+    </section> <!-- / Readmore -->
     
             
     <section class="student-review"> <!-- Student Review Section -->

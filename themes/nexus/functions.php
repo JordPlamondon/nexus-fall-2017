@@ -167,26 +167,26 @@ function pixelninja_single_cat_title() {
 
 
 // filter videos and blogs on blog page
-// add_filter('pre_get_posts', 'per_category_basis');
-// function per_category_basis($query){
-//     if ($query->category__in) {
+add_filter('pre_get_posts', 'per_category_basis');
+function per_category_basis($query){
+    if ($query->category__in) {
       
-//         if (is_category('videos')){
-//             $query->set('posts_per_page', 3);
-//         }
+        if (is_category('videos')){
+            $query->set('posts_per_page', 3);
+        }
        
-//         if (is_category('blogs')){
-//             $query->set('posts_per_page', 3);
-//         }
-//     }
-//     return $query;
-// }
-
-add_filter('pre_get_posts', 'limit_category_posts');
-function limit_category_posts($query){
-    if ($query->is_category) {
-        $query->set('posts_per_page', 3);
+        if (is_category('blogs')){
+            $query->set('posts_per_page', 3);
+        }
     }
     return $query;
 }
+
+// add_filter('pre_get_posts', 'limit_category_posts');
+// function limit_category_posts($query){
+//     if ($query->is_category) {
+//         $query->set('posts_per_page', 3);
+//     }
+//     return $query;
+// }
 

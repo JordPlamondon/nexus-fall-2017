@@ -14,7 +14,6 @@ get_header(); ?>
 		<div class="banner-faq-single"> 
     	<div class="banner-image-faq-single">
       	<h1 class="faq-single-title"><?php pixelninja_single_cat_title(); ?><h1>
-      	<div class="underline"></div>
     	</div>
 		</div>
 
@@ -26,7 +25,7 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
-			
+
 			<!-- Field Group Metaboxes -->
 <div class="desktop-metaboxes">			
 <?php
@@ -84,7 +83,7 @@ foreach ( (array) $entries as $key => $entry ) {
 		<!-- Keep Looking Buttons -->
 		
 			<div class="faq-single-homestay"> 
-				<h2> Keep Looking:<h2><br> 
+				<h2 class="keep-looking-h2"> Keep Looking:<h2><br> 
 					<div class="underline"></div>
 				<div class="faq-card-wrapper">
 					<div class="homestay-button-wrapper">
@@ -100,7 +99,6 @@ foreach ( (array) $entries as $key => $entry ) {
 							if ($the_query->have_posts() ) : 
 							while ($the_query->have_posts() ) : $the_query->the_post()
 						?>
-							<!-- <div class="desktop-faq-wrapper"> -->
 								<div class="permalink-wrapper">
 									<a href="<?php the_permalink(); ?>" rel="faq title"> 
 									</div>
@@ -123,15 +121,15 @@ foreach ( (array) $entries as $key => $entry ) {
 
 						<button class="return-to-top-button"><p>Return To Top</p></button>
 					</div>
-							</div>
+					</div>
+
 					<!-- Start Your Journey -->
 					<div class="faq-single-journey">
-      			<h2> Start Your Journey<h2><br>
-						<div class="underline"></div>
+      			<h2 class="single-journey-h2">Start Your Journey<h2><br>
 						<div class="journey-text">
       			<p>Let us help you find your path to success</p>
-					<button class="consult">Book Consult</button>
-				</div>
+						<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
+					</div>
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->

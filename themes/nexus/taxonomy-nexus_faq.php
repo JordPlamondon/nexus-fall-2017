@@ -11,8 +11,9 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="faq-wrapper">
 				<div class="title-wrapper">	
-					<h1 class="faq-title"> FAQ </h1>
-					<div class="underline1"></div>
+					<div class="faq-hero-image">
+						<h1 class="faq-title"> FAQ </h1>
+					</div>
 				</div>
 			<section class="faq-page">
 
@@ -52,16 +53,13 @@ get_header(); ?>
 				</ul>		
 					
 				<div class="faq-journey">
-      		<h2> Start Your Journey<h2><br>
-					<div class="underline"></div>
+      		<h2 class="faq-journey-h2">Start Your Journey<h2><br>
 					<div class="journey-text">
-      		<p>Let us help you find your path to success</p>
-					<button class="consult">Book Consult</button>
-				</div>
+						<p>Let us help you find your path to success</p>
+					</div>
+					<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
 				</div>	
-				
 			</div>
-			
 			</section>		
 		</main><!-- #main -->
 	</div><!-- #primary -->

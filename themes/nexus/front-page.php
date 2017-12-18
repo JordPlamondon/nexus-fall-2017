@@ -279,11 +279,12 @@ get_header(); ?>
 
 										<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-    				                <?php endif; 
+    				      <?php endif; 
 
     				    wp_reset_query();?>
-      		</div> <!-- carousel -->
-			</section>
+					</div> <!-- carousel -->
+					
+			<!-- </section>
 			<section class="start-journey">
 				<div class="headergroup">
 					<h2 class="start-journey__header">Start your journey</h2>
@@ -292,7 +293,15 @@ get_header(); ?>
 				<h3 class="start-journey__subheader">Let us help you find your path to success</h3>
 
 				<button class="start-journey__button">Book Consult</button>
-			</section>
+			</section> -->
+			
+			<div class="front-journey">
+      		<h2 class="front-journey-h2">Start Your Journey<h2><br>
+					<div class="journey-text">
+						<p>Let us help you find your path to success</p>
+					</div>
+					<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
+				</div>	
 		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->

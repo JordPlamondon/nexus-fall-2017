@@ -102,7 +102,7 @@
       ajaxGet(request);
       styleChange();
     }
-  })
+  });
 
 })(jQuery);
 

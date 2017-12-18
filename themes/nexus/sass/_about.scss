@@ -429,7 +429,7 @@
 // Squiggles
  .about-right {
   img.path-img-right {
-    opacity: .5;
+    opacity: .3;
    
     height: 140px;
     width: 40%;
@@ -441,11 +441,11 @@
         @media #{$tablet-test} {
         display: none;
         }
-  }
+    }
  }
  .about-left {
     img.path-img-left {
-      opacity: .5;
+      opacity: .3;
       height: 40vw;
       width: 40%;
       min-width: 140px;

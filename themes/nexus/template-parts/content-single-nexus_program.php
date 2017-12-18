@@ -92,9 +92,6 @@
         <section>
             <h2 class="single-program-header"><?php echo $city_title; ?></h2>
             
-            <?php 
-            var_dump($entries);
-            ?>
             <div class="city-carousel owl-carousel owl-theme">
                 <?php
                 foreach ( (array) $entries as $key => $entry ) :

@@ -2710,7 +2710,8 @@ aside.widget.widget_text {
     margin: 0 auto;
     top: 140px;
     border-bottom: 3px solid #FF8A2A;
-    width: 49px; }
+    width: 49px;
+    color: #15405A; }
     @media all and (min-width: 950px) {
       .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image h1 {
         font-size: 70px;
@@ -2732,7 +2733,7 @@ aside.widget.widget_text {
       bottom: 70px; } }
   @media all and (min-width: 1150px) {
     .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
-      bottom: 100px; } }
+      bottom: 95px; } }
 
 .page-template-taxonomy-nexus_faq .faq-wrapper .shadow-border {
   border-bottom: 1px solid #d1d1d1;
@@ -2810,14 +2811,15 @@ aside.widget.widget_text {
             background: #bf1328; } }
       @media all and (min-width: 1150px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li button.read-more {
-          top: 260px; } }
+          top: 270px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-      min-width: 200px; }
+      min-width: 200px;
+      color: #15405A; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
           position: relative;
@@ -2825,7 +2827,8 @@ aside.widget.widget_text {
           left: 20px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
       position: relative;
-      top: 15px; }
+      top: 15px;
+      color: #15405A; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
           position: relative;
@@ -2951,7 +2954,7 @@ div.banner-faq-single {
   margin-top: -65px; }
   @media all and (min-width: 950px) {
     div.banner-faq-single {
-      height: 60.2vh; } }
+      height: 70vh; } }
   div.banner-faq-single .faq-single-title {
     position: relative;
     text-align: center;
@@ -2964,7 +2967,7 @@ div.banner-faq-single {
     top: 130px; }
     @media all and (min-width: 950px) {
       div.banner-faq-single .faq-single-title {
-        top: 160px;
+        top: 200px;
         font-size: 70px;
         padding-bottom: 10px; } }
     div.banner-faq-single .faq-single-title .title-span {
@@ -3048,7 +3051,8 @@ div.banner-faq-single {
     opacity: 1; }
   .nexus_faq-template-default .faq-homestay .faq-meta-title {
     margin: 15px;
-    font-weight: 600; }
+    font-weight: 600;
+    color: #15405A; }
     @media all and (min-width: 950px) {
       .nexus_faq-template-default .faq-homestay .faq-meta-title {
         font-size: 28px;
@@ -3198,6 +3202,7 @@ div.banner-faq-single {
       width: 200px;
       position: relative;
       right: 10px;
+      color: #15405A;
       background-color: white; }
       .faq-single-homestay .homestay-button-wrapper .homestay-looking-button:hover {
         background-color: white; } }
@@ -4436,6 +4441,7 @@ body.blog {
     position: relative;
     text-align: center;
     z-index: 1;
+    color: #15405A;
     padding-bottom: 5px; }
     @media all and (min-width: 950px) {
       body.blog .blog-wrapper .latest-videos-title {
@@ -4472,6 +4478,7 @@ body.blog {
     text-align: center;
     z-index: 1;
     bottom: 1205px;
+    color: #15405A;
     padding-bottom: 5px; }
     @media all and (min-width: 950px) {
       body.blog .blog-wrapper .latest-posts-title {
@@ -4496,7 +4503,8 @@ body.blog {
     z-index: 1;
     text-align: center;
     padding-bottom: 5px;
-    top: 140px; }
+    top: 140px;
+    color: #15405A; }
     @media all and (min-width: 950px) {
       body.blog .blog-wrapper .title-wrapper h1 {
         top: 100px;
@@ -4545,6 +4553,10 @@ body.blog {
         border-bottom: none; }
     body.blog .blog-wrapper .blog-page li {
       list-style-type: none; }
+      body.blog .blog-wrapper .blog-page li p {
+        color: #15405A; }
+      body.blog .blog-wrapper .blog-page li .blog-title {
+        color: #15405A; }
     body.blog .blog-wrapper .blog-page li:nth-of-type(-n+3) button.read-more {
       display: none; }
     body.blog .blog-wrapper .blog-page li:nth-of-type(-n+3) iframe {

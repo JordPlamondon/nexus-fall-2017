@@ -950,10 +950,15 @@ a {
           margin-top: 200px;
           margin-bottom: 24px;
           line-height: 55px; }
-        .home .site-main .full-page-wrapper .front-choose-wrapper .front-choose-program__info-wrapper button {
-          width: 135px;
-          height: 40px;
-          padding: 0;
+        .home .site-main .full-page-wrapper .front-choose-wrapper .front-choose-program__info-wrapper p {
+          font-size: 20px;
+          margin-bottom: 44px; }
+        .home .site-main .full-page-wrapper .front-choose-wrapper .front-choose-program__info-wrapper a {
+          text-align: center;
+          width: 155px;
+          height: 50px;
+          opacity: 1;
+          padding: 8px;
           border-radius: 25px 0px 25px 0px;
           -webkit-box-shadow: none;
                   box-shadow: none;
@@ -962,7 +967,8 @@ a {
           color: #FFFFFF;
           font-family: "Roboto", Arial, Helvetica, sans-serif;
           font-weight: 900;
-          font-size: 18px; }
+          font-size: 22px;
+          letter-spacing: 2px; }
     .home .site-main .full-page-wrapper .browse-programs {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1107,7 +1113,7 @@ a {
       height: 800px;
       width: 1240px;
       margin: 0 auto;
-      margin-top: -94px;
+      margin-top: -44px;
       margin-bottom: -94px;
       background: url("../../assets/images/map_nexus01@3x.png");
       background-size: contain;
@@ -1253,11 +1259,11 @@ a {
           -ms-flex-align: center;
               align-items: center;
       background: #FFC54C; }
-      .home .choose-wrapper-bc .choose-program button {
+      .home .choose-wrapper-bc .choose-program a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -1317,11 +1323,11 @@ a {
           -ms-flex-align: center;
               align-items: center;
       background: #FFC54C; }
-      .home .choose-wrapper-ab .choose-program button {
+      .home .choose-wrapper-ab .choose-program a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -1382,11 +1388,11 @@ a {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .home .choose-wrapper-man .choose-program button {
+      .home .choose-wrapper-man .choose-program a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -1446,11 +1452,11 @@ a {
           -ms-flex-align: center;
               align-items: center;
       background: #FFC54C; }
-      .home .choose-wrapper-sk .choose-program button {
+      .home .choose-wrapper-sk .choose-program a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -1511,11 +1517,11 @@ a {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .home .choose-wrapper-on .choose-program button {
+      .home .choose-wrapper-on .choose-program a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 0px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -1576,11 +1582,11 @@ a {
           -ms-flex-align: center;
               align-items: center;
       background: #FFC54C; }
-      .home .choose-wrapper-qc .choose-program button {
+      .home .choose-wrapper-qc .choose-program a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -1768,31 +1774,27 @@ a {
     .home .why-canada .owl-dots {
       bottom: 335px; } }
 
-.home .why-canada .curious {
-  display: none; }
-  @media all and (min-width: 880px) {
-    .home .why-canada .curious {
-      display: inline-block;
-      margin-left: 85px;
-      position: absolute;
-      bottom: 6rem;
-      z-index: 2; } }
-  @media all and (min-width: 1200px) {
-    .home .why-canada .curious {
-      bottom: 12rem; } }
-  .home .why-canada .curious__subheader {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: bold; }
-  .home .why-canada .curious__button {
-    width: 135px;
-    height: 40px;
-    padding: 0;
-    border-radius: 25px 0px 25px 0px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    text-shadow: none;
-    background: #E91C35;
-    color: #FFFFFF; }
+@media all and (min-width: 880px) {
+  .home .curious {
+    display: inline-block;
+    position: relative;
+    top: 54%;
+    left: 28%; } }
+
+.home .curious__subheader {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: bold; }
+
+.home .curious__button {
+  width: 135px;
+  height: 40px;
+  padding: 14px;
+  border-radius: 25px 0px 25px 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  background: #E91C35;
+  color: #FFFFFF; }
 
 /*--------------------------------------------------------------
 # Media
@@ -3725,7 +3727,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }

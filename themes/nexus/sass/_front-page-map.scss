@@ -7,7 +7,7 @@
       height: 800px;  
       width: 1240px;
       margin: 0 auto;
-      margin-top: -94px;
+      margin-top: -44px;
       margin-bottom: -94px;
       background: url('../../assets/images/map_nexus01@3x.png');
       background-size: contain;
@@ -159,11 +159,11 @@
         justify-content: center;
         align-items: center;
         background: $color__info-main;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -215,11 +215,11 @@
         justify-content: center;
         align-items: center;
         background: $color__info-main;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -271,11 +271,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -326,11 +326,11 @@
         justify-content: center;
         align-items: center;
         background: $color__info-main;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -382,11 +382,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 0px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -438,11 +438,11 @@
         justify-content: center;
         align-items: center;
         background: $color__info-main;
-      button {
+      a  {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;

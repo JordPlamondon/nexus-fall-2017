@@ -195,32 +195,32 @@
     }
 
 
-    .curious {
-      display: none;
-      @media all and (min-width: 880px) {
-        display: inline-block;
-        margin-left: 85px;
-        position: absolute;
-        bottom: 6rem;
-        z-index: 2;
-      }
-      @media all and (min-width: 1200px) {
-        bottom: 12rem;
-      }
-      &__subheader {
-        font-family: $font__main;
-        font-weight: bold;
-      }
-      &__button{
-        width: 135px;
-        height: 40px;
-        padding: 0;
-        border-radius: 25px 0px 25px 0px;
-        box-shadow: none;
-        text-shadow: none;
-        background: $color__icon-element;
-        color: $color__text-white;
-      }
+   
+  }
+  .curious {
+
+    @media all and (min-width: 880px) {
+      display: inline-block;
+      position: relative;
+      top: 54%;
+      left: 28%;
+    }
+    @media all and (min-width: 1200px) {
+     
+    }
+    &__subheader {
+      font-family: $font__main;
+      font-weight: bold;
+    }
+    &__button{
+      width: 135px;
+      height: 40px;
+      padding: 14px;
+      border-radius: 25px 0px 25px 0px;
+      box-shadow: none;
+      text-shadow: none;
+      background: $color__icon-element;
+      color: $color__text-white;
     }
   }
 }

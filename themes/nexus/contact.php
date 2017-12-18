@@ -13,8 +13,8 @@ get_header(); ?>
 
       <div class="hero-wrapper"> 
         <div class="hero-image">
-          <h1 class="about-title">Contact Us <h1>
-          <div class="underline"></div>
+          <h1 class="contact-hero-title">Contact Us <h1>
+          <!-- <div class="underline"></div> -->
         </div>
       </div>
 <div class="desktop-wrapper">
@@ -44,18 +44,15 @@ Canada </h2>
 </div>
 </div>
 
-
-
-      <div class="contact-journey">
-      <h2> Start Your Journey<h2><br>
-      <div class="underline"></div>
+<!-- contact journey -->
+  <div class="contact-journey">
+    <h2 class="contact-journey-h2">Start Your Journey<h2><br>
+    <!-- <div class="underline"></div> -->
+    <div class="journey-text">
       <p>Let us help you find your path to success</p>
-      <a href="<?php echo home_url() ?>/consult/"><button class="consult">Book Consult</button></a>
-
-      </div>
-
-
-
+    </div>
+    <a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
+  </div>	
 
 
 <?php get_footer();?>

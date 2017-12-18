@@ -118,11 +118,12 @@
 		            	) ); 
 		            } ?>
                     <div class="city-image">
-                    <?php echo $img; ?>
-                    </article>
-                    <?php endforeach;?>
-                </div>
-            </section>   
+		            <?php echo $img; ?>
+                    </div>
+                </article>
+                <?php endforeach; ?>
+            </div>
+        </section>   
         <?php endif;?>
                 
                 

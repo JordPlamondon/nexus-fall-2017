@@ -3,6 +3,9 @@
   h1.entry-title {
     display: none;
   }
+  .wpcf7-textarea {
+    resize: none;
+  }
   .desktop-contact-display {
      display: none;
       @media #{$tablet-test} {

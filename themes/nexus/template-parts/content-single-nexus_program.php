@@ -8,6 +8,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    
 
     <section class="single-program-container">
         
@@ -35,100 +36,145 @@
             </div>
         </div>
     </section>
+    <div class="main-content-wrapper">
+        <section class="program-flex-container about">
 
-    <section class="program-flex-container about">
-        
-        <?php $about_image =  get_post_meta($post->ID, '_nexus_program_about_image', true); ?>
-        <div class="left-side">
-            <div class="header-wrapper">
-                <h2 class="single-program-header">About Program</h2>
-                <div class="title-underline"></div>
-            </div>
-            <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
-        </div>
-        <?php if( $about_image ):; ?>
-            <div class="single-program-about-image"><img src="<?php echo $about_image; ?>"/></div>
-        <?php endif; ?>
-        
-    </section>
-
-    <section class="program-flex-container school">
-
-         <?php $school_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_school', true);?>
-         <?php if($school_id):; ?>
-         <?php
-             $post_id = $school_id[0];
-             $queried_post = get_post($post_id);
-             $school_title = $queried_post->post_title;
-             $school_media = get_post_meta($queried_post->ID, '_nexus_school_media', true);
-         ?>
-         
-             <div class="school_media">
-                 <?php echo $school_media; ?>
-             </div>
-             <div class="strong-side">
-                 <div class="header-wrapper">
-                     <h2 class="single-program-header"><?php echo $school_title; ?></h2>
-                     <div class="title-underline"></d iv>
-                 </div>
-                 <p class="single-program-content"><?php echo $queried_post->post_content; ?></p>
-             </div>
-         <?php endif; ?>
-
-     </section>
-
-
-        <!-- Get City if post has a city linked to it -->
-
-    <?php $city_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_city', true);?>
-
-    <?php
-    if($city_id):;
-        $entries = get_post_meta( $city_id[0], 'cities_repeat_group', true );
-        $post_id = $city_id[0];
-        $queried_post = get_post($post_id);
-        $city_title = $queried_post->post_title;
-        ?>
-        <section>
-            <h2 class="single-program-header"><?php echo $city_title; ?></h2>
-            
-            <div class="city-carousel owl-carousel owl-theme">
-                <?php
-                foreach ( (array) $entries as $key => $entry ) :
-                
-	            $img = $title = $desc = ''; ?>
-
-    	         <article class="city-container">
-
-		            <!-- description -->
-		            <?php
-		            	if ( isset( $entry['description'] ) ) {
-		            		$desc = wpautop( $entry['description'] );
-		            	} ?>
-		            	<div class="city-text">
-		            		<?php echo $desc; ?>
-		            	</div>
-
-		            <!-- image -->
-		            <?php
-		            	if ( isset( $entry['image_id'] ) ) {
-		            	$img = wp_get_attachment_image( $entry['image_id'], 'share-pick', null, array(
-		            	'class' => 'thumb',
-		            	) ); 
-		            } ?>
-                    <div class="city-image">
-		            <?php echo $img; ?>
-                    </div>
-		        </article>
-                
-                <?php
-                endforeach;
-                ?>
+            <?php $about_image =  get_post_meta($post->ID, '_nexus_program_about_image', true); ?>
+            <div class="left-side">
+                <div class="header-wrapper">
+                    <h2 class="single-program-header">About Program</h2>
+                    <div class="title-underline"></div>
                 </div>
-            </section>   
-    <?php endif;?>
-     <h2 class="single-program-header">Read More</h2>     
-    <section class="read-more">
+                <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
+            </div>
+            <?php if( $about_image ):; ?>
+                <div class="single-program-about-image"><img src="<?php echo $about_image; ?>"/></div>
+            <?php endif; ?>
+
+        </section>
+
+        <section class="program-flex-container school">
+
+             <?php $school_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_school', true);?>
+             <?php if($school_id):; ?>
+             <?php
+                 $post_id = $school_id[0];
+                 $queried_post = get_post($post_id);
+                 $school_title = $queried_post->post_title;
+                 $school_media = get_post_meta($queried_post->ID, '_nexus_school_media', true);
+             ?>
+
+                 <div class="school_media">
+                     <?php echo $school_media; ?>
+                 </div>
+                 <div class="strong-side">
+                     <div class="header-wrapper">
+                         <h2 class="single-program-header"><?php echo $school_title; ?></h2>
+                         <div class="title-underline"></d iv>
+                     </div>
+                     <p class="single-program-content"><?php echo $queried_post->post_content; ?></p>
+                 </div>
+             <?php endif; ?>
+
+         </section>
+
+
+            <!-- Get City if post has a city linked to it -->
+
+        <?php $city_id = get_post_meta($post->ID, '_nexus_post_multicheckbox_city', true);?>
+
+        <?php
+        if($city_id):;
+            $entries = get_post_meta( $city_id[0], 'cities_repeat_group', true );
+            $post_id = $city_id[0];
+            $queried_post = get_post($post_id);
+            $city_title = $queried_post->post_title;
+            ?>
+            <section>
+                <h2 class="single-program-header"><?php echo $city_title; ?></h2>
+
+                <div class="city-carousel owl-carousel owl-theme">
+                    <?php
+                    foreach ( (array) $entries as $key => $entry ) :
+                    
+	                $img = $title = $desc = ''; ?>
+
+        	         <article class="city-container">
+
+	    	            <!-- description -->
+	    	            <?php
+	    	            	if ( isset( $entry['description'] ) ) {
+	    	            		$desc = wpautop( $entry['description'] );
+	    	            	} ?>
+	    	            	<div class="city-text">
+	    	            		<?php echo $desc; ?>
+	    	            	</div>
+
+	    	            <!-- image -->
+	    	            <?php
+	    	            	if ( isset( $entry['image_id'] ) ) {
+	    	            	$img = wp_get_attachment_image( $entry['image_id'], 'share-pick', null, array(
+	    	            	'class' => 'thumb',
+	    	            	) ); 
+	    	            } ?>
+                        <div class="city-image">
+	    	            <?php echo $img; ?>
+                        </div>
+	    	        </article>
+                    
+                    <?php
+                    endforeach;
+                    ?>
+                    </div>
+                </section>   
+        <?php endif;?>
+                
+                
+                
+        <section class="student-review"> <!-- Student Review Section -->
+
+            <?php $review_id = get_post_meta($post->ID, '_nexus_post_multicheckbox', true);?>
+                
+            <?php if($review_id):; ?>
+                <?php
+                $post_id = $review_id[0];
+                $queried_post = get_post($post_id);
+                $title = $queried_post->post_title;
+                $review_image = wp_get_attachment_url ( get_post_thumbnail_id($post_id), 'thumbnail' );
+                ?>
+
+            		<div class="header-wrapper">
+            			<h2 class="single-program-header centered"> Student Review </h2>
+            			<div class="underline"></div>
+                    </div>
+                
+                	<div class="student-review__box">
+                        <div class="student-review__box__image">
+                            <img src="<?php echo $review_image ?>" alt="Picture of a Student">
+                        </div>
+                        <div class="student-review__info-wrapper">
+                            <div class="grey"></div>
+                            <blockquote class="student-review__info">
+                                <span class="oquote"><i class="fa fa-quote-left fa-3x" aria-hidden="true"></i></span><p><?php echo $queried_post->post_content; ?></p><span class="cquote"><i class="fa fa-quote-right fa-3x" aria-hidden="true"></i></span>
+                            </blockquote>
+
+                        </div>
+                    </div>
+            <?php endif; ?>
+            <?php wp_reset_query();?>
+
+        </section>  <!-- End Student Review Section  -->
+        </div>
+        <div class="front-journey">
+          	<h2 class="front-journey-h2">Start Your Journey<h2><br>
+	    	<div class="journey-text">
+	    	    <p>Let us help you find your path to success</p>
+	    	</div>
+	    	<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
+    </div> <!-- main content wrapper -->
+
+    <h2 class="single-program-header centered">You Might Also Like</h2>   
+     <section class="read-more">
         
         <?php $terms = wp_get_post_terms( $post->ID, 'program_type' ); ?>
         <?php
@@ -173,48 +219,5 @@
                     
         wp_reset_query();?>
     </section> <!-- / Readmore -->
-    
-            
-    <section class="student-review"> <!-- Student Review Section -->
-
-        <?php $review_id = get_post_meta($post->ID, '_nexus_post_multicheckbox', true);?>
-        
-        <?php if($review_id):; ?>
-            <?php
-            $post_id = $review_id[0];
-            $queried_post = get_post($post_id);
-            $title = $queried_post->post_title;
-            $review_image = wp_get_attachment_url ( get_post_thumbnail_id($post_id), 'thumbnail' );
-            ?>
-            
-        		<div class="headergroup">
-        			<h2 class="student-review-header"> Student Review </h2>
-        			<div class="underline"></div>
-                </div>
-        
-            	<div class="student-review__box">
-                    <div class="student-review__box__image">
-                        <img src="<?php echo $review_image ?>" alt="Picture of a Student">
-                    </div>
-                    <div class="student-review__info-wrapper">
-                        <div class="grey"></div>
-                        <blockquote class="student-review__info">
-                            <span class="oquote"><i class="fa fa-quote-left fa-3x" aria-hidden="true"></i></span><?php echo $queried_post->post_content; ?><span class="cquote"><i class="fa fa-quote-right fa-3x" aria-hidden="true"></i></span>
-                        </blockquote>
-                        
-                    </div>
-                </div>
-        <?php endif; ?>
-        <?php wp_reset_query();?>
-
-    </section>  <!-- End Student Review Section  -->
-
-    <div class="front-journey">
-      	<h2 class="front-journey-h2">Start Your Journey<h2><br>
-		<div class="journey-text">
-		    <p>Let us help you find your path to success</p>
-		</div>
-		<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
-	</div>
 
 </article><!-- #post-## -->

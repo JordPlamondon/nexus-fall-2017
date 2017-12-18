@@ -3540,7 +3540,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -4839,30 +4839,36 @@ div.return-home {
   margin-top: 0;
   width: 100%;
   font-weight: bold;
-  font-size: 4vw;
   position: relative; }
   @media all and (min-width: 950px) {
     .student-review .student-review__info-wrapper {
       margin: 0;
-      font-size: 3vw;
       -ms-flex-preferred-size: 80%;
           flex-basis: 80%; } }
   @media all and (min-width: 950px) {
     .student-review .student-review__info-wrapper .student-review__info {
-      padding: 15px 20px 15px 45px; } }
+      padding: 0 20px; } }
   .student-review .student-review__info-wrapper .student-review__info p {
     width: 50%;
-    margin: 0 auto; }
+    padding-left: 3rem;
+    margin: 0 auto;
+    font-size: 2.3vw; }
   .student-review .student-review__info-wrapper .student-review__info .oquote {
-    color: #FFBC4A; }
+    color: #FFBC4A;
+    font-size: 2vw; }
   .student-review .student-review__info-wrapper .student-review__info .cquote {
+    width: 30px;
+    margin: 0 0 0 auto;
+    position: relative;
+    bottom: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    color: #FFBC4A; }
+    color: #FFBC4A;
+    font-size: 2vw; }
 
 .student-review .grey {
   background: #F3F5F8;
@@ -4878,8 +4884,8 @@ div.return-home {
       background: #F3F5F8;
       -webkit-transform: rotate(134deg);
               transform: rotate(134deg);
-      bottom: -60px;
-      left: -104px;
+      bottom: -90px;
+      left: -14px;
       height: 30px;
       position: relative;
       width: 30px; } }

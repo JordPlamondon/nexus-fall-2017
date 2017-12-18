@@ -8,6 +8,12 @@
     margin-bottom: 0;
   }
 
+  .main-content-wrapper {
+    @media #{$tablet}{
+      margin-left: 10%;
+    }
+  }
+
 
   .owl-dots {
     display: none;
@@ -274,4 +280,30 @@
         border-right: 3px solid #ff8a2a;
       }
     }
+
+    .read-more {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .read-more-program {
+      &:last-child{
+        display: none;
+        @media #{$tablet} {
+          display: block;
+        }
+      }
+      width: 45%;
+      @media #{$tablet} {
+        width: 30%;
+      }
+    }
+
+    .centered {
+      margin: 0 auto;
+      text-align: center;
+    }
+  
   }

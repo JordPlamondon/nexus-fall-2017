@@ -7,7 +7,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('read-more-program'); ?>>
 	<a href="<?php echo esc_url( get_permalink()); ?>">
     <header class="entry-header">
 		<?php if ( has_post_thumbnail() ) : ?>

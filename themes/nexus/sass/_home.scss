@@ -1,5 +1,6 @@
 //Banner/Hero & Title
 body.blog {
+  min-width: 375px;
   .blog-wrapper {
     .latest-videos-title {
       position: relative;
@@ -63,43 +64,17 @@ body.blog {
       width: 144px;
     }
   }
-  // .underline-posts {
-  //   margin: 0 auto;
-  //   width: 49px;
-  //   text-align: center;
-  //   border-bottom: 3px solid #ff8a2a;
-  //   position: relative;
-  //   bottom: 1220px;
-  //   left: 0;
-  //   @media #{$desktop} {
-  //     width: 144px;
-  //     border-bottom: 6px solid $color__accent-underline;
-  //     bottom: 745px;
-  //   }  
-  // }
-  // .underline-videos {
-  //   margin: 0 auto;
-  //   width: 49px;
-  //   text-align: center;
-  //   border-bottom: 3px solid $color__accent-underline;
-  //   position: relative;
-  //   bottom: 15px;
-  //   @media #{$desktop} {
-  //     width: 144px;
-  //     border-bottom: 6px solid $color__accent-underline;
-  //     bottom: 45px;
-  //   }
-  // }
   .title-wrapper {
     h1 {
       position: relative;
       z-index: 1;
       text-align: center;
       padding-bottom: 5px;
-      top: 120px;
+      top: 140px;
       @media #{$desktop} {
         top: 100px;
         font-size: 70px;
+        padding-bottom: 10px;
       }
     }
     h1:after {

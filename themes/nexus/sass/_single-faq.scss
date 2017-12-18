@@ -11,8 +11,9 @@ div.banner-faq-single {
     text-transform: uppercase;
     font-weight: 900;
     padding-bottom: 5px;
+    top: 20px;
     @media #{$desktop} {
-      top: 30px;
+      top: 80px;
       font-size: 70px;
       padding-bottom: 10px;
     }

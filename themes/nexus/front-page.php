@@ -282,7 +282,8 @@ get_header(); ?>
     				      <?php endif; 
 
     				    wp_reset_query();?>
-      		</div> <!-- carousel -->
+					</div> <!-- carousel -->
+					
 			<!-- </section>
 			<section class="start-journey">
 				<div class="headergroup">
@@ -293,9 +294,9 @@ get_header(); ?>
 
 				<button class="start-journey__button">Book Consult</button>
 			</section> -->
+			
 			<div class="front-journey">
       		<h2 class="front-journey-h2">Start Your Journey<h2><br>
-					<!-- <div class="underline"></div> -->
 					<div class="journey-text">
 						<p>Let us help you find your path to success</p>
 					</div>

@@ -1107,7 +1107,8 @@ a {
       height: 800px;
       width: 1240px;
       margin: 0 auto;
-      margin-top: 44px;
+      margin-top: -94px;
+      margin-bottom: -94px;
       background: url("../../assets/images/map_nexus01@3x.png");
       background-size: contain;
       background-repeat: no-repeat; }
@@ -1213,8 +1214,8 @@ a {
               justify-content: flex-end;
       height: 444px;
       margin-top: -200px;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/bc.jpg");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/bc.jpg"); } }
   .home .choose-wrapper-bc i {
     position: relative;
     top: 120px;
@@ -1278,8 +1279,8 @@ a {
               justify-content: flex-end;
       height: 444px;
       margin-top: -200px;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/calgary.jpg");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/calgary.jpg"); } }
   .home .choose-wrapper-ab i {
     position: relative;
     top: 120px;
@@ -1342,8 +1343,9 @@ a {
               justify-content: flex-end;
       height: 444px;
       margin-top: -200px;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/manitoba.jpg");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/manitoba.jpg");
+      background-size: 60% 100%; } }
   .home .choose-wrapper-man i {
     position: relative;
     top: 120px;
@@ -1406,8 +1408,8 @@ a {
               justify-content: flex-end;
       height: 444px;
       margin-top: -200px;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/saskatchewan.jpg");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/saskatchewan.jpg"); } }
   .home .choose-wrapper-sk i {
     position: relative;
     top: 120px;
@@ -1470,8 +1472,9 @@ a {
               justify-content: flex-end;
       height: 444px;
       margin-top: -200px;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/toronto.jpg");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/toronto.jpg");
+      background-size: cover; } }
   .home .choose-wrapper-on i {
     position: relative;
     top: 120px;
@@ -1534,8 +1537,9 @@ a {
               justify-content: flex-end;
       height: 444px;
       margin-top: -200px;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/whycanada@3x.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/whycanada@3x.png"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/quebec.jpg");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/quebec.jpg");
+      background-position-y: 30%; } }
   .home .choose-wrapper-qc i {
     position: relative;
     top: 120px;
@@ -2239,7 +2243,7 @@ body.page-template-archive-nexus_program main {
         background: #bf1328; }
 
 .about-right img.path-img-right {
-  opacity: .5;
+  opacity: .3;
   height: 140px;
   width: 40%;
   min-width: 140px;
@@ -2251,7 +2255,7 @@ body.page-template-archive-nexus_program main {
       display: none; } }
 
 .about-left img.path-img-left {
-  opacity: .5;
+  opacity: .3;
   height: 40vw;
   width: 40%;
   min-width: 140px;
@@ -3503,7 +3507,10 @@ nav.main-navigation:hover {
                 box-shadow: none;
         text-shadow: none;
         background: #E91C35;
-        color: #FFFFFF; } }
+        color: #FFFFFF; }
+      .full-screen-links .book-consult-header:hover {
+        color: white;
+        background-color: #8b1121; } }
 
 .page-template-archive-nexus_program, .tax-provinces {
   padding-top: 55px; }

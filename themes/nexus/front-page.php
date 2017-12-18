@@ -156,7 +156,7 @@ get_header(); ?>
 						Nexus has partnered up with over 100 different programs.
 						Nexus has partnered up with over 100 different programs.
 						</p>
-						<a href="/nexus/program/">
+						<a href="/nexus/provinces/british-columbia/">
 						<button class="choose-program__button">See Programs</button></a>
 					</div>	
 				</div>
@@ -175,7 +175,7 @@ get_header(); ?>
 							Nexus has partnered up with over 100 different programs.
 							Nexus has partnered up with over 100 different programs.
 							</p>	
-							<a href="/nexus/program/">
+							<a href="/nexus/provinces/alberta/">
 							<button class="choose-program__button">See Programs</button></a>
 					</div>	
 				</div>
@@ -194,7 +194,7 @@ get_header(); ?>
 							Nexus has partnered up with over 100 different programs.
 							Nexus has partnered up with over 100 different programs.
 							</p>
-						<a href="/nexus/program/">
+						<a href="/nexus/provinces/saskatchewan/">
 						<button class="choose-program__button">See Programs</button></a>
 					</div>	
 				</div>
@@ -213,7 +213,7 @@ get_header(); ?>
 						Nexus has partnered up with over 100 different programs.
 						Nexus has partnered up with over 100 different programs.
 						</p>
-						<a href="/nexus/program/">
+						<a href="/nexus/provinces/manitoba/">
 						<button class="choose-program__button">See Programs</button></a>
 					</div>	
 				</div>
@@ -232,7 +232,7 @@ get_header(); ?>
 						Nexus has partnered up with over 100 different programs.
 						Nexus has partnered up with over 100 different programs.
 						</p>
-						<a href="/nexus/program/">
+						<a href="/nexus/provinces/ontario/">
 						<button class="choose-program__button">See Programs</button></a>
 					</div>	
 				</div>
@@ -251,7 +251,7 @@ get_header(); ?>
 						Nexus has partnered up with over 100 different programs.
 						Nexus has partnered up with over 100 different programs.
 						</p>
-						<a href="	/nexus/program/">
+						<a href="	/nexus/provinces/quebec/">
 						<button class="choose-program__button">See Programs</button></a>
 					</div>	
 				</div>

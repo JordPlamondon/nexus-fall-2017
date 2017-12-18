@@ -2291,6 +2291,10 @@ div.widget_info_contain a {
   p.footer__office--hours {
     margin-left: 24px;
     max-width: 197px; }
+  div.widget_info_contain p a {
+    margin-left: 0px; }
+  p.footer__office--hours a {
+    margin-left: 0px; }
   div.widget_info_contain {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2326,6 +2330,9 @@ div.widget_info_contain a {
     .footer__office p {
       text-align: left;
       color: #FFFFFF; }
+    .footer__contact a,
+    .footer__office a {
+      margin-left: 0px; }
   .underline.footer {
     margin: auto;
     width: 49px;
@@ -2409,7 +2416,7 @@ div.widget_info_contain a {
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 900px) {
   div.footer__site-info.hidden {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2437,7 +2444,7 @@ div.widget_info_contain a {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 auto;
             flex: 1 0 auto;
-    padding-right: 3rem; }
+    padding-right: 1rem; }
     div.footer__desktop--nav ul.footer_desktop--nav--ul {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2445,8 +2452,16 @@ div.widget_info_contain a {
       list-style: none;
       margin: 0;
       padding: 0; }
+  .footer__desktop--nav .menu-header-mobile-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .footer__desktop--nav .menu-header-mobile-container ul li a {
+      margin: 0 15px; }
   .footer--nav--li {
     padding-left: 1rem; }
+  aside#text-3.widget.widget_text {
+    margin-bottom: 0px; }
   div.footer_hidden_anchor {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2496,7 +2511,7 @@ div.widget_info_contain a {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 auto;
             flex: 1 0 auto;
-    padding-right: 3rem; }
+    padding-right: 1rem; }
     div.footer__desktop--nav ul.footer_desktop--nav--ul {
       display: -webkit-box;
       display: -ms-flexbox;

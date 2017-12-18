@@ -54,17 +54,14 @@ get_header(); ?>
 				</ul>		
 					
 				<div class="faq-journey">
-      		<h2> Start Your Journey<h2><br>
-					<div class="underline"></div>
+      		<h2 class="faq-journey-h2">Start Your Journey<h2><br>
+					<!-- <div class="underline"></div> -->
 					<div class="journey-text">
-					<p>Let us help you find your path to success</p>
+						<p>Let us help you find your path to success</p>
 					</div>
-					<a href="<?php echo home_url();?>/consult/"><button class="consult">Book Consult</button></a>
-					
+					<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
 				</div>	
-				
 			</div>
-			
 			</section>		
 		</main><!-- #main -->
 	</div><!-- #primary -->

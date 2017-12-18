@@ -1,13 +1,71 @@
 .single-nexus_program {
-  .city-container{
+  .owl-dots {
+    display: none;
+    @media all and (min-width: 950px) {
+      display: block;
+      position: relative;
+      bottom: 2.5rem;
+      right: 20rem;
+    }
+  }
 
+  .owl-nav {
     display: flex;
+    justify-content: center; 
+    position: relative;
+    bottom: 2.5rem;
+    @media all and (min-width: 880px) {
+      position: absolute;
+      z-index: 998;
+
+      right: 20%;
+    }
+  }
+
+  .owl-carousel .owl-nav {
+    .owl-prev, .owl-next {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $color__icon-element;
+      border-radius: 0;
+      height: 3rem;
+      width: 3rem;
+      font-size: 4rem;
+      padding-bottom: 20px;
+    }
+  }
+
+  .city-container{
+    display: flex;
+    flex-direction: column;
+    @media all and (min-width: 950px) {
+      background: linear-gradient(180deg,rgba(255,255,255,.5),rgba(255,255,255,.5));
+      background-size: 65% 100%;
+      background-position: center left;
+      background-repeat: no-repeat;
+    }
   }
   .city-image {
     flex-basis: 50%;
+    @media all and (min-width: 950px) {
+      width: 50%;
+      margin: 0 0 0 auto;
+      position: relative;
+      z-index: -1;
+      transform: scale(1.5);
+    }
   }
   .city-text {
     flex-basis: 50%;
+    width: 80%;
+    margin: 10px auto 0;
+    @media all and (min-width: 950px) {
+      width: 40%;
+      position: relative;
+      top: 3rem;
+      left: 10rem;
+    }
   }
   .student-review {  
     margin-bottom: 3rem;

@@ -177,36 +177,44 @@
             
     <section class="student-review"> <!-- Student Review Section -->
 
-<?php $review_id = get_post_meta($post->ID, '_nexus_post_multicheckbox', true);?>
-
-<?php if($review_id):; ?>
-    <?php
-    $post_id = $review_id[0];
-    $queried_post = get_post($post_id);
-    $title = $queried_post->post_title;
-    $review_image = wp_get_attachment_url ( get_post_thumbnail_id($post_id), 'thumbnail' );
-    ?>
-    
-		<div class="headergroup">
-			<h2 class="student-review-header"> Student Review </h2>
-			<div class="underline"></div>
-        </div>
-
-    	<div class="student-review__box">
-            <div class="student-review__box__image">
-                <img src="<?php echo $review_image ?>" alt="Picture of a Student">
-            </div>
-            <div class="student-review__info-wrapper">
-                <div class="grey"></div>
-                <blockquote class="student-review__info">
-                    <span class="oquote"><i class="fa fa-quote-left fa-3x" aria-hidden="true"></i></span><?php echo $queried_post->post_content; ?><span class="cquote"><i class="fa fa-quote-right fa-3x" aria-hidden="true"></i></span>
-                </blockquote>
-                
-            </div>
-        </div>
-<?php endif; ?>
-<?php wp_reset_query();?>
+        <?php $review_id = get_post_meta($post->ID, '_nexus_post_multicheckbox', true);?>
+        
+        <?php if($review_id):; ?>
+            <?php
+            $post_id = $review_id[0];
+            $queried_post = get_post($post_id);
+            $title = $queried_post->post_title;
+            $review_image = wp_get_attachment_url ( get_post_thumbnail_id($post_id), 'thumbnail' );
+            ?>
+            
+        		<div class="headergroup">
+        			<h2 class="student-review-header"> Student Review </h2>
+        			<div class="underline"></div>
+                </div>
+        
+            	<div class="student-review__box">
+                    <div class="student-review__box__image">
+                        <img src="<?php echo $review_image ?>" alt="Picture of a Student">
+                    </div>
+                    <div class="student-review__info-wrapper">
+                        <div class="grey"></div>
+                        <blockquote class="student-review__info">
+                            <span class="oquote"><i class="fa fa-quote-left fa-3x" aria-hidden="true"></i></span><?php echo $queried_post->post_content; ?><span class="cquote"><i class="fa fa-quote-right fa-3x" aria-hidden="true"></i></span>
+                        </blockquote>
+                        
+                    </div>
+                </div>
+        <?php endif; ?>
+        <?php wp_reset_query();?>
 
     </section>  <!-- End Student Review Section  -->
+
+    <div class="front-journey">
+      	<h2 class="front-journey-h2">Start Your Journey<h2><br>
+		<div class="journey-text">
+		    <p>Let us help you find your path to success</p>
+		</div>
+		<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
+	</div>
 
 </article><!-- #post-## -->

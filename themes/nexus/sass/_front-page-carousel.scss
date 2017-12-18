@@ -92,9 +92,10 @@
       &__info-wrapper {
         width: 80%;
         margin: 0 auto;
+        font-family: $font__accent;
         @media all and (min-width: 880px) {
           position: relative;
-          top: 20px;
+          top: 18px;
           width: 50%;
           margin: 0;
         }

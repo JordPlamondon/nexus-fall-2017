@@ -24,9 +24,7 @@
 
 		<?php else : ?>
 
-			<p><?php echo esc_html( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.' ); ?></p>
-			<?php get_search_form(); ?>
-
+			<p><?php echo esc_html( 'It seems there was nothing found that matches your search, please try another.' ); ?></p>
 		<?php endif; ?>
 	</div><!-- .page-content -->
 </section><!-- .no-results -->

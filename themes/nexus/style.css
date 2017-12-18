@@ -4335,19 +4335,6 @@ nav.main-navigation:hover {
         visibility: visible;
         height: 60px;
         border-right: 3px solid #ff8a2a; } }
-  .single-nexus_program .student-review .headergroup {
-    line-height: 3rem; }
-  .single-nexus_program .student-review h2 {
-    font-size: 4.5vw; }
-  .single-nexus_program .student-review .underline {
-    margin: 0 auto 3rem auto; }
-    @media all and (min-width: 950px) {
-      .single-nexus_program .student-review .underline {
-        width: 120px; } }
-  .single-nexus_program .student-review .owl-nav {
-    display: none; }
-  .single-nexus_program .student-review .owl-dots {
-    margin: 3rem auto; }
   .single-nexus_program .start-journey {
     display: -webkit-box;
     display: -ms-flexbox;

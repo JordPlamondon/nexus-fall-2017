@@ -92,9 +92,6 @@
         <section>
             <h2 class="single-program-header"><?php echo $city_title; ?></h2>
             
-            <?php 
-            var_dump($entries);
-            ?>
             <div class="city-carousel owl-carousel owl-theme">
                 <?php
                 foreach ( (array) $entries as $key => $entry ) :
@@ -130,8 +127,9 @@
                 </div>
             </section>   
     <?php endif;?>
-          
+     <h2 class="single-program-header">Read More</h2>     
     <section class="read-more">
+        
         <?php $terms = wp_get_post_terms( $post->ID, 'program_type' ); ?>
         <?php
 
@@ -189,11 +187,13 @@
     $review_image = wp_get_attachment_url ( get_post_thumbnail_id($post_id), 'thumbnail' );
     ?>
     
-				<div class="headergroup">
-					<h2 class="student-review-header"> Student Review </h2>
-					<div class="underline"></div>
-                </div>
-    	<div class="student-review__box">
+		<div class="headergroup">
+			<h2 class="student-review-header"> Student Review </h2>
+			<div class="underline"></div>
+        </div>
+
+        <?php get_template_part( 'template-parts/content-review' ); ?>
+    	<!-- <div class="student-review__box">
             <div class="student-review__box__image">
                 <img src="<?php echo $review_image ?>" alt="Picture of a Student">
             </div>
@@ -204,7 +204,7 @@
                 </blockquote>
                 
             </div>
-        </div>
+        </div> -->
 <?php endif; ?>
 <?php wp_reset_query();?>
 

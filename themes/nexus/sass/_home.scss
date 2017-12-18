@@ -32,10 +32,12 @@ body.blog {
     width: 100vw;
     background-image: url("../../assets/images/blog@3x.png");
     background-size: 100% 100%;
+    margin-top: -65px;
     @media #{$desktop} {
       position: relative;
       top: 65px;
       height: 50vh;
+      margin-top: 65px;
     }
   } 
   .latest-posts-title {
@@ -93,6 +95,7 @@ body.blog {
     }
   }
 .blog-page {
+  margin-bottom: -108px;
   ul {
     position: relative;
     right: 15px;

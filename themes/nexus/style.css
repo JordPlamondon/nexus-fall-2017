@@ -3725,7 +3725,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -4197,6 +4197,8 @@ nav.main-navigation:hover {
   @media all and (min-width: 450px) {
     .single-nexus_program {
       padding-top: 75px; } }
+  .single-nexus_program article {
+    margin-bottom: 0; }
   .single-nexus_program .owl-dots {
     display: none; }
     @media all and (min-width: 950px) {
@@ -4272,8 +4274,6 @@ nav.main-navigation:hover {
         position: relative;
         top: 3rem;
         left: 10rem; } }
-  .single-nexus_program article {
-    margin-bottom: 0; }
   .single-nexus_program .student-review {
     margin-bottom: 3rem; }
     .single-nexus_program .student-review .headergroup {
@@ -4392,12 +4392,22 @@ nav.main-navigation:hover {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
       -webkit-box-align: start;
           -ms-flex-align: start;
               align-items: flex-start;
       margin: 2rem 0;
       margin-bottom: 48px;
       background: green; } }
+  @media all and (min-width: 950px) {
+    .single-nexus_program .program-flex-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
   .single-nexus_program .single-program-container {
     background: red;
     padding: 1rem;

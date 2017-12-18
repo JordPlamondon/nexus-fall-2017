@@ -3,6 +3,11 @@
   @media #{$tablet-test} {
     padding-top: 75px;
   }
+  
+  article {
+    margin-bottom: 0;
+  }
+
 
   .owl-dots {
     display: none;
@@ -41,9 +46,6 @@
     }
   }
 
-
-
-
   .city-container {
     display: flex;
     flex-direction: column;
@@ -74,10 +76,6 @@
       top: 3rem;
       left: 10rem;
     }
-  }
-  
-  article{
-    margin-bottom: 0;
   }
 
   .student-review {
@@ -207,10 +205,14 @@
   .program-flex-container {
     @media #{$tablet-test} {
       display: flex;
+      flex-direction: column;
       align-items: flex-start;
       margin: 2rem 0;
       margin-bottom: 48px;
       background: green;
+    }
+    @media #{$desktop} {
+      flex-direction: row;
     }
   }
 

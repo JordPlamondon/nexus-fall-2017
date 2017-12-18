@@ -57,7 +57,7 @@ Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Br
 
 * This will be the only version unless required to make changes or upgrades. Wordpress and other tech used will have it's own updates
 
-### Authors
+### Authors - WebDev
 
 * Scott Livingstone
 * Ilya Meerovich
@@ -66,6 +66,14 @@ Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Br
 * Colin Yaremko
 
 See also the list of contributors who participated in this project.
+
+### UI/UX Designers
+
+* Vanessa Elie
+* Emma Macartney
+* Xi (CiCi) Wang
+* Paulette ??
+
 
 ### License
 

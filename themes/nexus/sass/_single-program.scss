@@ -200,31 +200,6 @@
       border-right: 3px solid #ff8a2a;
     }
   }
- 
- .student-review {
-   .headergroup {
-     line-height: 3rem;
-   }
-
-   h2 {
-     font-size: 4.5vw;
-   }
-
-   .underline {
-     margin: 0 auto 3rem auto;
-     @media #{$desktop} {
-       width: 120px;
-     }
-   }
-
-   .owl-nav {
-     display: none;
-   }
-
-   .owl-dots {
-     margin: 3rem auto;
-   }
- }
  .start-journey {
    display: flex;
    flex-direction: column;

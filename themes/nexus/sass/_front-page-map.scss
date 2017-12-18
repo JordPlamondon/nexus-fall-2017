@@ -7,7 +7,8 @@
       height: 800px;  
       width: 1240px;
       margin: 0 auto;
-      margin-top: 44px;
+      margin-top: -44px;
+      margin-bottom: -94px;
       background: url('../../assets/images/map_nexus01@3x.png');
       background-size: contain;
       background-repeat: no-repeat;
@@ -86,6 +87,7 @@
       position: relative;
       left: 560px;
       width: 220px;
+      font-size: 22px;
       top: 38px;
       color: $color__footer-background;
     }
@@ -126,7 +128,7 @@
       justify-content: flex-end;
       height:  444px;
       margin-top: -200px;
-      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
+      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/bc.jpg');
     }
     i {
       position: relative;
@@ -158,11 +160,11 @@
         justify-content: center;
         align-items: center;
         background: $color__info-main;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -183,7 +185,7 @@
       justify-content: flex-end;
       height:  444px;
       margin-top: -200px;
-      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
+      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/calgary.jpg');
     }
     i {
       position: relative;
@@ -214,11 +216,11 @@
         justify-content: center;
         align-items: center;
         background: $color__info-main;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -238,7 +240,8 @@
       justify-content: flex-end;
       height:  444px;
       margin-top: -200px;
-      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
+      background: linear-gradient(180deg,rgba(255,255,255,.3) 0,rgba(255,255,255,.4)),url('../../assets/images/manitoba.jpg');
+      background-size: 60% 100%;
     }
     i {
       position: relative;
@@ -269,11 +272,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -293,7 +296,7 @@
       justify-content: flex-end;
       height:  444px;
       margin-top: -200px;
-      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
+      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/saskatchewan.jpg');
     }
     i {
       position: relative;
@@ -324,11 +327,11 @@
         justify-content: center;
         align-items: center;
         background: $color__info-main;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -348,7 +351,8 @@
       justify-content: flex-end;
       height:  444px;
       margin-top: -200px;
-      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
+      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/toronto.jpg');
+      background-size: cover;
     }
     i {
       position: relative;
@@ -379,11 +383,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      button {
+      a {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 0px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;
@@ -403,7 +407,8 @@
       justify-content: flex-end;
       height:  444px;
       margin-top: -200px;
-      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/whycanada@3x.png');
+      background: linear-gradient(180deg,rgba(255,255,255,.4) 0,rgba(255,255,255,.4)),url('../../assets/images/quebec.jpg');
+      background-position-y: 30%;
     }
     i {   
       position: relative;
@@ -434,11 +439,11 @@
         justify-content: center;
         align-items: center;
         background: $color__info-main;
-      button {
+      a  {
         width: 205px;
         height: 40px;
         margin-top: 24px;
-        padding: 0;
+        padding: 9px;
         font-size: 22px;
         font-weight: bold;
         border-radius: 25px 0px 25px 0px;

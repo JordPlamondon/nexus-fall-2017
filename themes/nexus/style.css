@@ -1886,11 +1886,13 @@ body.page-template-archive-nexus_program main {
       color: #15405A;
       font-size: 30px;
       text-transform: uppercase;
-      font-weight: 900; }
+      font-weight: 900;
+      padding-bottom: 5px; }
       @media all and (min-width: 950px) {
         .page-template-about .hero-wrapper .about-title {
           font-size: 60px;
-          top: 100px; } }
+          top: 100px;
+          padding-bottom: 10px; } }
     .page-template-about .hero-wrapper .about-title:after {
       content: "";
       position: absolute;

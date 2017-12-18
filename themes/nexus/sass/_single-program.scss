@@ -52,13 +52,10 @@
     }
   }
 
-<<<<<<< HEAD
   .owl-item:not(.active) img {
     display: none;
   }
 
-=======
->>>>>>> f86bad84c3bddf20c80a7585a481373d9e8b8044
   .city-container {
     display: flex;
     flex-direction: column;
@@ -231,14 +228,12 @@
     @media #{$tablet-test} {
       font-size: 2rem;
     }
-<<<<<<< HEAD
     @media all and (min-width: 950px) {
         left: 10rem;
         top: 10rem;
-=======
+    }
     @media #{$desktop} {
       font-size: 3rem;
->>>>>>> f86bad84c3bddf20c80a7585a481373d9e8b8044
     }
   }
 

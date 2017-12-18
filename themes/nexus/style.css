@@ -3804,7 +3804,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -3835,6 +3835,9 @@ nav.main-navigation:hover {
 
 .page-template-contact h1.entry-title {
   display: none; }
+
+.page-template-contact .wpcf7-textarea {
+  resize: none; }
 
 .page-template-contact .desktop-contact-display {
   display: none; }
@@ -4490,14 +4493,12 @@ nav.main-navigation:hover {
       .single-nexus_program .single-program-header-city {
         font-size: 2rem; } }
     @media all and (min-width: 950px) {
-<<<<<<< HEAD
       .single-nexus_program .single-program-header-city {
         left: 10rem;
         top: 10rem; } }
-=======
-      .single-nexus_program .single-program-header {
+    @media all and (min-width: 950px) {
+      .single-nexus_program .single-program-header-city {
         font-size: 3rem; } }
->>>>>>> f86bad84c3bddf20c80a7585a481373d9e8b8044
   @media all and (min-width: 450px) {
     .single-nexus_program .program-flex-container {
       display: -webkit-box;

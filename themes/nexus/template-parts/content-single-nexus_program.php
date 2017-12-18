@@ -90,7 +90,7 @@
         $city_title = $queried_post->post_title;
         ?>
         <section>
-            <h2 class="single-program-header"><?php echo $city_title; ?></h2>
+            <h2 class="single-program-header-city"><?php echo $city_title; ?></h2>
             
             <div class="city-carousel owl-carousel owl-theme">
                 <?php

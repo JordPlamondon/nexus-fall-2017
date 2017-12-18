@@ -8,7 +8,7 @@
     z-index: 30;
     top: 0px;
     background-color: $color__background-body;
-      @media #{$tablet} {
+      @media #{$header-mid} {
         padding-bottom: 14px;
         height: 126px;
         justify-content: flex-start;
@@ -26,7 +26,7 @@
       background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
       background-size: 100% 100%;
       z-index: 10;
-        @media #{$tablet} {
+        @media #{$header-mid} {
           height: 62px;
           margin-top: 24px;
           min-width: 186px; 
@@ -43,7 +43,7 @@
       background-image: url("../../assets/images/menu_icon@3x.png");
       background-size: 100% 100%;
       z-index: 10;
-        @media #{$tablet} {
+        @media #{$header-mid} {
           display: none;
         }
     }
@@ -77,7 +77,7 @@
         font-weight: bold;
          text-decoration: none;
        }
-      button.book-consult {
+      button.book-consult{
         width: 130px;
         height: 40px;
         border-radius: 25px 0px 25px 0px;
@@ -101,7 +101,7 @@
 // Full screen nav bar
   .full-screen-links {
     display: none;
-    @media #{$tablet} {
+    @media #{$header-mid} {
       display: flex;
       height: 126px;
       width: 80vw;
@@ -126,7 +126,44 @@
           text-decoration: none;
           font-size: 21px; 
         }
-        .book-consult {
+        .book-consult-header {
+          font-family: $font__main;
+          font-weight: bold;
+          text-decoration: none;
+          color: black;
+          font-size: 21px; 
+        }
+          .book-consult-header:hover {
+          color: #7bb2de; 
+          }
+      
+    }
+    @media #{$desktop-wide} {
+      display: flex;
+      height: 126px;
+      width: 80vw;
+      margin-top: 36px;
+      align-items: center;
+      justify-content: center; 
+        ul {
+          display: flex;
+          width: 59vw;
+          margin: 0;
+          padding: 0;
+          align-items: stretch; /* Default */
+          justify-content: center;
+        }
+        li {
+          align-items: stretch; 
+          margin: 0 auto;  
+        }
+        a {
+          font-family: $font__main;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 21px; 
+        }
+    .book-consult-header { 
           width: 200px;
           height: 40px;
           font-size: 24px;

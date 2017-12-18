@@ -1126,8 +1126,8 @@ a {
         top: 360px; }
       .home .choose-province-wrapper .sk {
         position: relative;
-        left: 250px;
-        top: 370px; }
+        left: 230px;
+        top: 410px; }
       .home .choose-province-wrapper .man {
         position: relative;
         left: 290px;
@@ -1222,10 +1222,11 @@ a {
     color: red;
     font-size: 66px; }
   .home .choose-wrapper-bc h2 {
+    text-align: center;
     position: relative;
     top: 200px;
-    right: 280px;
-    width: 200px;
+    right: 190px;
+    width: 400px;
     font-size: 48px;
     letter-spacing: 2px;
     text-transform: uppercase; }
@@ -1416,7 +1417,7 @@ a {
   .home .choose-wrapper-sk h2 {
     position: relative;
     top: 200px;
-    right: 280px;
+    right: 370px;
     width: 200px;
     font-size: 48px;
     letter-spacing: 2px;
@@ -3307,7 +3308,7 @@ nav.main-navigation {
   z-index: 30;
   top: 0px;
   background-color: #ffffff; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 700px) {
     nav.main-navigation {
       padding-bottom: 14px;
       height: 126px;
@@ -3331,7 +3332,7 @@ nav.main-navigation {
     background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
     background-size: 100% 100%;
     z-index: 10; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 700px) {
       nav.main-navigation .header-logo {
         height: 62px;
         margin-top: 24px;
@@ -3346,7 +3347,7 @@ nav.main-navigation {
     background-image: url("../../assets/images/menu_icon@3x.png");
     background-size: 100% 100%;
     z-index: 10; }
-    @media all and (min-width: 850px) {
+    @media all and (min-width: 700px) {
       nav.main-navigation .menu-toggle {
         display: none; } }
 
@@ -3406,7 +3407,7 @@ nav.main-navigation:hover {
 
 .full-screen-links {
   display: none; }
-  @media all and (min-width: 850px) {
+  @media all and (min-width: 700px) {
     .full-screen-links {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3444,7 +3445,53 @@ nav.main-navigation:hover {
         font-weight: bold;
         text-decoration: none;
         font-size: 21px; }
-      .full-screen-links .book-consult {
+      .full-screen-links .book-consult-header {
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        font-size: 21px; }
+      .full-screen-links .book-consult-header:hover {
+        color: #7bb2de; } }
+  @media all and (min-width: 1250px) {
+    .full-screen-links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 126px;
+      width: 80vw;
+      margin-top: 36px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .full-screen-links ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 59vw;
+        margin: 0;
+        padding: 0;
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+        /* Default */
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+      .full-screen-links li {
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+        margin: 0 auto; }
+      .full-screen-links a {
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 21px; }
+      .full-screen-links .book-consult-header {
         width: 200px;
         height: 40px;
         font-size: 24px;

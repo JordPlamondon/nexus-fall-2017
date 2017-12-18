@@ -73,16 +73,16 @@ get_header(); ?>
       <img alt="Photo of Rafael" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/TeamMember01@2x.png" />
       <h3>Rafael Schafer Marques </h3>
       <p> Director of International Studies </p>
-      <a href="http://www.facebook.com/rafacanada"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+      <a href="http://www.facebook.com/rafacanada" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
       <a href="mailto:rafael@nexusintercambio.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-      <a href="http://br.linkedin.com/in/rafacanada/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href="http://br.linkedin.com/in/rafacanada/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 </div>
 
 <div class="about-consultants">
 <img alt="Image of Carolina" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/TeamMember02@3x.png" />
       <h3> Carolina Robeiro </h3>
       <p> Advisor</p>
-      <a href="http://www.facebook.com/carolribeiro.3551/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+      <a href="http://www.facebook.com/carolribeiro.3551/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
       <a href="mailto:carol@nexusintercambio.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a>
      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
 </div>

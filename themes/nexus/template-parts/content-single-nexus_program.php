@@ -127,8 +127,9 @@
                 </div>
             </section>   
     <?php endif;?>
-          
+     <h2 class="single-program-header">Read More</h2>     
     <section class="read-more">
+        
         <?php $terms = wp_get_post_terms( $post->ID, 'program_type' ); ?>
         <?php
 

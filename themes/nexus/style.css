@@ -4190,6 +4190,8 @@ nav.main-navigation:hover {
   @media all and (min-width: 450px) {
     .single-nexus_program {
       padding-top: 75px; } }
+  .single-nexus_program article {
+    margin-bottom: 0; }
   .single-nexus_program .city-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4227,7 +4229,9 @@ nav.main-navigation:hover {
     @media all and (min-width: 450px) {
       .single-nexus_program .single-program-content {
         margin: 0;
-        text-align: left;
+        text-align: left; } }
+    @media all and (min-width: 950px) {
+      .single-nexus_program .single-program-content {
         font-size: 1.5rem; } }
   .single-nexus_program .header-wrapper {
     margin-top: 1.75rem;
@@ -4380,53 +4384,6 @@ nav.main-navigation:hover {
         visibility: visible;
         height: 60px;
         border-right: 3px solid #ff8a2a; } }
-  .single-nexus_program .start-journey {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: auto;
-    padding: 1rem 0;
-    background: #F3F5F8; }
-    .single-nexus_program .start-journey .headergroup {
-      line-height: 3rem; }
-    .single-nexus_program .start-journey .underline {
-      margin: 0 auto 1rem auto; }
-      @media all and (min-width: 950px) {
-        .single-nexus_program .start-journey .underline {
-          width: 120px; } }
-    .single-nexus_program .start-journey__header {
-      text-transform: uppercase;
-      font-size: 4.2vw; }
-    .single-nexus_program .start-journey__subheader {
-      margin: 0;
-      font-family: "Raleway", Arial, Helvetica, sans-serif;
-      font-weight: 600;
-      font-style: italic;
-      color: #E00029; }
-    .single-nexus_program .start-journey button {
-      margin-top: 2rem;
-      width: 160px;
-      height: 40px;
-      padding: 0;
-      border-radius: 25px 0px 25px 0px;
-      -webkit-box-shadow: none;
-              box-shadow: none;
-      text-shadow: none;
-      background: #E91C35;
-      color: #FFFFFF;
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
-      font-weight: 900;
-      font-size: 18px; }
 
 body.blog {
   min-width: 375px; }

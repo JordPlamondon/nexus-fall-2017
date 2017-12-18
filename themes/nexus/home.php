@@ -43,7 +43,7 @@ get_header(); ?>
                     <?php the_content(); ?>
                   </div>
                   <a href="<?php the_permalink(); ?>" rel="blog title">
-                  <div style="text-align:center;" class="read-button">
+                  <div class="read-button">
                     <button class="read-more">Read More</button>
                   </a>
                   </div>

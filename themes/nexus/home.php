@@ -15,7 +15,7 @@ get_header(); ?>
 				  <!-- <div class="underline1"></div> -->
 			  </div> 
         <h2 class="latest-videos-title">Latest Videos</h2>
-        <div class="underline-videos"></div>
+        <!-- <div class="underline-videos"></div> -->
         <section class="blog-page">
 
         
@@ -57,7 +57,7 @@ get_header(); ?>
         
           </ul>		
             <h2 class="latest-posts-title">Latest Posts</h2>
-          <div class="underline-posts"></div>
+          <!-- <div class="underline-posts"></div> -->
         </section>
         
       </div>  

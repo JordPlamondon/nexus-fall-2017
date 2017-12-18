@@ -356,57 +356,143 @@
       background: $color__icon-element;
       color: white;
     }
-     
-    .start-journey {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: auto;
-      padding: 1rem 0;
-      background: $color__textbox-background;
-
-      .headergroup {
-        line-height: 3rem;
-      }
-
-      .underline {
-        margin: 0 auto 1rem auto;
-        @media #{$desktop} {
-          width: 120px;
-        }
-      }
-
-      &__header {
-        text-transform: uppercase;
-        font-size: 1.5em
-        // font-size: 4.2vw;
-      }
-
-      &__subheader {
-        margin: 0;
-        text-align: center;
-        font-family: $font__accent;
-        font-weight: 600;
-        font-style: italic;
-        color: $color__text-accent;
-      }
-
-      button {
-        margin-top: 2rem;
-        width: 160px;
-        height: 40px;
-        padding: 0;
-        border-radius: 25px 0px 25px 0px;
-        box-shadow: none;
-        text-shadow: none;
-        background: $color__icon-element;
-        color: $color__text-white;
-        font-family: $font__main;
-        font-weight: 900;
-        font-size: 18px;
-      } 
-    }
   }
 }
 }
+
+// Front Journey
+.front-journey {
+  height: 195px;
+  background-color: $color__textbox-background;
+  @media #{$desktop} {
+    height: 360px; 
+  }
+  .front-journey-h2 {
+    font-size: 24px;
+    text-align: center;
+    color: $color__footer-background;
+    font-weight: 900;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    padding-bottom: 5px;
+    @media #{$desktop} {
+      top: 50px;
+      font-size: 60px;
+      font-weight: 600;
+      padding-bottom: 30px;
+    }
+  }
+  .front-journey-h2:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 49px;
+    margin: 0 0 0 -25px;
+    border-bottom: 3px solid $color__accent-underline;
+    @media #{$desktop} {
+      margin: 0 0 0 -73px;
+      border-bottom: 6px solid $color__accent-underline;
+      width: 144px;
+    }
+  }
+  p {
+    font-size: 14px;
+    color: $color__text-accent;
+    font-style: italic;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    bottom: 50px;
+    @media #{$desktop} {
+      bottom: 40px;
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+  .consult {
+    letter-spacing: 1pt;
+    width: 175px;
+    height: 40px;
+    padding: 0;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    text-align: center;
+    background: $color__icon-element;
+    color: $color__text-white;
+    position: relative;
+    bottom: 55px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    @media #{$desktop} {
+      width: 272px;
+      height: 55px;
+      bottom: 10px;
+      font-size: 24px;
+      font-weight: 600;
+      padding: 8px;
+    }
+    &:hover {
+      background: darken($color__icon-element, 10%);
+    }
+  }
+}
+
+//     .start-journey {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       height: auto;
+//       padding: 1rem 0;
+//       background: $color__textbox-background;
+
+//       .headergroup {
+//         line-height: 3rem;
+//       }
+
+//       .underline {
+//         margin: 0 auto 1rem auto;
+//         @media #{$desktop} {
+//           width: 120px;
+//         }
+//       }
+
+//       &__header {
+//         text-transform: uppercase;
+//         font-size: 1.5em
+//         // font-size: 4.2vw;
+//       }
+
+//       &__subheader {
+//         margin: 0;
+//         text-align: center;
+//         font-family: $font__accent;
+//         font-weight: 600;
+//         font-style: italic;
+//         color: $color__text-accent;
+//       }
+
+//       button {
+//         margin-top: 2rem;
+//         width: 160px;
+//         height: 40px;
+//         padding: 0;
+//         border-radius: 25px 0px 25px 0px;
+//         box-shadow: none;
+//         text-shadow: none;
+//         background: $color__icon-element;
+//         color: $color__text-white;
+//         font-family: $font__main;
+//         font-weight: 900;
+//         font-size: 18px;
+//       } 
+//     }
+//   }
+// }
+// }

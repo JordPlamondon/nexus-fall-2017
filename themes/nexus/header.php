@@ -28,7 +28,7 @@
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 <!-- ##### Main logo, change in header.scss line 27 ###### -->
-					<a href="<?php echo home_url();?>" class="header-logo"></a>
+					<a href="<?php echo home_url();?> " class="header-logo"></a>
 
 					<div class="full-screen-links">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>

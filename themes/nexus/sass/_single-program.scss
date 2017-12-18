@@ -130,14 +130,12 @@
   .single-program-header {
     margin: 2px 0;
     @media #{$tablet-test} {
-      font-size: 3.75rem;
+      font-size: 2rem;
     }
   }
 
   .program-flex-container {
     @media #{$tablet-test} {
-      height: 500px;
-      overflow: hidden;
       display: flex;
       align-items: flex-start;
       margin: 2rem 0;

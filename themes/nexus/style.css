@@ -4310,11 +4310,9 @@ nav.main-navigation:hover {
     margin: 2px 0; }
     @media all and (min-width: 450px) {
       .single-nexus_program .single-program-header {
-        font-size: 3.75rem; } }
+        font-size: 2rem; } }
   @media all and (min-width: 450px) {
     .single-nexus_program .program-flex-container {
-      height: 500px;
-      overflow: hidden;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;

@@ -2907,12 +2907,12 @@ aside.widget.widget_text {
           width: 26.8vw;
           -webkit-transform: scale(1.7);
                   transform: scale(1.7); } }
-      @media all and (min-width: 1250px) {
+      @media (min-width: 1250px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
           -webkit-transform: scale(1.2);
                   transform: scale(1.2);
           position: relative;
-          left: 20px; } }
+          left: 30px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
       left: 40px;
@@ -3561,7 +3561,7 @@ nav.main-navigation:hover {
         font-size: 21px; }
       .full-screen-links .book-consult-header:hover {
         color: #7bb2de; } }
-  @media all and (min-width: 1250px) {
+  @media (min-width: 1250px) {
     .full-screen-links {
       display: -webkit-box;
       display: -ms-flexbox;

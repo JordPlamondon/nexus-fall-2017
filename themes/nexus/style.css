@@ -2386,11 +2386,7 @@ body.page-template-archive-nexus_program main {
         bottom: 10vw; } }
 
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
-<<<<<<< HEAD
   height: 45vh;
-=======
-  height: 37vh;
->>>>>>> a1ab7df0e9a8d484c9b73cd4e4a98750ba0e2c34
   width: 100vw;
   background-image: url("../../assets/images/sylwia-bartyzel-257.jpg");
   background-size: cover;
@@ -2400,12 +2396,7 @@ body.page-template-archive-nexus_program main {
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
       position: relative;
-<<<<<<< HEAD
       height: 64vh; } }
-=======
-      top: 65px;
-      height: 70vh; } }
->>>>>>> a1ab7df0e9a8d484c9b73cd4e4a98750ba0e2c34
   .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image h1 {
     text-align: center;
     color: #123048;
@@ -2477,12 +2468,8 @@ body.page-template-archive-nexus_program main {
           -ms-flex-pack: center;
               justify-content: center;
       right: 35px;
-<<<<<<< HEAD
       margin-bottom: 150px;
       margin-top: -50px; } }
-=======
-      margin-bottom: 150px; } }
->>>>>>> a1ab7df0e9a8d484c9b73cd4e4a98750ba0e2c34
   .page-template-taxonomy-nexus_faq .faq-wrapper ul li {
     display: -webkit-box;
     display: -ms-flexbox;

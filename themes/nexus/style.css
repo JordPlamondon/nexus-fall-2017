@@ -2493,7 +2493,17 @@ aside.widget.widget_text {
     .footer__contact a,
     .footer__office a {
       margin-left: 0px; }
-  .underline.footer {
+  div.footer__contact h2 {
+    position: relative; }
+    div.footer__contact h2::after {
+      content: "";
+      position: absolute;
+      top: 50px;
+      left: 100px;
+      padding-top: 10px;
+      width: 49px;
+      border-bottom: 3px solid #FF8A2A; }
+  div.footer__social-media-container .underline.footer {
     margin: auto;
     width: 49px;
     border-bottom: 3px solid #FF8A2A; } }
@@ -2560,17 +2570,25 @@ aside.widget.widget_text {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 3.5rem; }
+    margin-top: 2rem; }
     div.socialmedia-container img {
       height: 45px;
       width: 45px;
       padding: 0 0px 0 0px;
       margin: 0 10px;
       max-width: 100px; }
-  .underline.footer {
-    padding-top: 10px;
-    width: 74px;
-    border-bottom: 3px solid #FF8A2A; } }
+  div.footer__contact h2,
+  div.footer__social-media-container h2 {
+    position: relative; }
+    div.footer__contact h2::after,
+    div.footer__social-media-container h2::after {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      padding-top: 10px;
+      width: 74px;
+      border-bottom: 3px solid #FF8A2A; } }
 
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
@@ -2740,7 +2758,8 @@ aside.widget.widget_text {
   section.footer_contact_info {
     width: 220px; }
   .footer__why-nexus p {
-    margin-top: 16px; }
+    margin-top: 16px;
+    width: 250px; }
   div.socialmedia-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2754,25 +2773,28 @@ aside.widget.widget_text {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 3.5rem; }
+    margin-top: 2rem; }
     div.socialmedia-container img {
       height: 45px;
       width: 45px;
       padding: 0 0px 0 0px;
       margin: 0 10px;
       max-width: 100px; }
-  .underline.footer {
-    padding-top: 10px;
-    width: 99px;
-    border-bottom: 3px solid #FF8A2A; } }
+  div.footer__contact h2,
+  div.footer__social-media-container h2,
+  div.footer__why-nexus h2 {
+    position: relative; }
+    div.footer__contact h2::after,
+    div.footer__social-media-container h2::after,
+    div.footer__why-nexus h2::after {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      padding-top: 10px;
+      width: 99px;
+      border-bottom: 3px solid #FF8A2A; } }
 
-/*
-
-,
-  div.footer__social-media-container h2:after,
-  div.footer__why-nexus h2:after
-
-  */
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
   height: 37vh;
   width: 100vw;
@@ -3835,7 +3857,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -5273,30 +5295,34 @@ div.return-home {
   background-color: #F3F5F8;
   margin-top: 0;
   width: 100%;
-  font-weight: bold;
   position: relative; }
   @media all and (min-width: 950px) {
     .student-review .student-review__info-wrapper {
       margin: 0;
       -ms-flex-preferred-size: 80%;
           flex-basis: 80%; } }
-  .student-review .student-review__info-wrapper .student-review__info p {
-    width: 80%;
-    margin: 0 auto; }
-  .student-review .student-review__info-wrapper .student-review__info .oquote {
-    color: #FFBC4A; }
-  .student-review .student-review__info-wrapper .student-review__info .cquote {
-    width: 30px;
-    margin: 0 0 0 auto;
-    position: relative;
-    bottom: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    color: #FFBC4A; }
+  .student-review .student-review__info-wrapper .student-review__info {
+    font-family: 'Raleway', sans-serif; }
+    .student-review .student-review__info-wrapper .student-review__info .quote-content div, .student-review .student-review__info-wrapper .student-review__info p {
+      width: 80%;
+      margin: 0 auto; }
+    .student-review .student-review__info-wrapper .student-review__info .oquote {
+      color: #FFBC4A; }
+    .student-review .student-review__info-wrapper .student-review__info .cquote {
+      width: 30px;
+      margin: 0 0 0 auto;
+      position: relative;
+      bottom: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      color: #FFBC4A; }
+
+.student-review .oquote i, .student-review .cquote i {
+  font-size: 2rem; }
 
 .student-review .grey {
   background: #F3F5F8;

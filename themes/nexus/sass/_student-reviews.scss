@@ -65,13 +65,9 @@
   
 
 .student-review__info-wrapper {
-    // background: url('../../assets/images/oquote.png'), url('../../assets/images/cquote.png');
-    // background-repeat: no-repeat;
-    // background-position: 15px 15px, 97% 84%;
     background-color: $color__textbox-background;  
     margin-top: 0;
     width: 100%;
-    font-weight: bold;
     position: relative;
     @media #{$desktop} {
       margin: 0;
@@ -79,21 +75,19 @@
     }
 
     .student-review__info {
+
+      font-family: 'Raleway', sans-serif;
       @media #{$desktop} {
-      
       }
 
-      p {
+      .quote-content div, p {
         width: 80%;
         margin: 0 auto;
-      
       }
 
       .oquote {
         color: $color__fp-quotes;
-      
       }
-      
       .cquote {
         width: 30px;
         margin: 0 0 0 auto;
@@ -104,8 +98,11 @@
         color: $color__fp-quotes;        
         
       }
-
     }
+  }
+
+  .oquote i, .cquote i {
+    font-size: 2rem;
   }
 
   .grey {

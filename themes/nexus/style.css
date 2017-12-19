@@ -3670,7 +3670,7 @@ nav.main-navigation:hover {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 50vh;
+      height: 40vh;
       width: 100vw;
       min-width: 350px;
       background-image: url("../../assets/images/blog@3x.png");
@@ -3738,7 +3738,7 @@ nav.main-navigation:hover {
             align-items: center; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .select-form-wrapper, .tax-provinces .select-form-wrapper {
-        margin-top: 55Rpx; } }
+        margin-top: 55px; } }
     @media all and (min-width: 850px) {
       .page-template-archive-nexus_program .select-form-wrapper, .tax-provinces .select-form-wrapper {
         -webkit-box-orient: horizontal;

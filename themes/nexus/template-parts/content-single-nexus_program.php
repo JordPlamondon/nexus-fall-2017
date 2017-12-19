@@ -9,7 +9,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     
-
     <section class="single-program-container">
         
         <h2><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
@@ -148,7 +147,7 @@
                         <div class="student-review__info-wrapper">
                             <div class="grey"></div>
                             <blockquote class="student-review__info">
-                                <span class="oquote"><i class="fa fa-quote-left fa-3x" aria-hidden="true"></i></span><p><?php echo $queried_post->post_content; ?></p><span class="cquote"><i class="fa fa-quote-right fa-3x" aria-hidden="true"></i></span>
+                                <span class="oquote"><i class="fa fa-quote-left" aria-hidden="true"></i></span><p><?php echo $queried_post->post_content; ?></p><span class="cquote"><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </blockquote>
 
                         </div>

@@ -16,20 +16,17 @@ get_header(); ?>
         <h2 class="latest-videos-title">Latest Videos</h2>
         <section class="blog-page">
 
-        
-        <!-- $category_name = 'videos'; 
-        $category_flame = 'blogs';
-        $temp = $wp_query;
-        $wp_query = null;
-        $wp_query = new WP_Query();
-        $wp_query->query('showposts=3' . '&paged=' . $paged . '&category_name=' . $category_name); 
-         -->
+        <?php
+          $category_name = 'videos'; 
+          $wp_query = new WP_Query();
+          $wp_query->query('showposts=3' . '&paged=' . $paged . '&category_name=' . $category_name); 
+        ?>
 
-     
-          <ul class "blog-categories">
-       
+
+          <ul class "video-categories">
+      
           <?php while ( have_posts() ) : the_post(); ?>
-            <li>
+            <li class="video-posts-li">
               <div class="blog-video">
                 <?php the_content(); ?>
               </div>
@@ -53,11 +50,46 @@ get_header(); ?>
              <div class="shadow-border"></div> 
 
               <?php endwhile; // End of the loop. ?>
-        
+      <?php wp_reset_query() ?>
+      </ul>
+
+      <?php
+          $category_name = 'blogs'; 
+          $wp_query = new WP_Query();
+          $wp_query->query('showposts=3' . '&paged=' . $paged . '&category_name=' . $category_name); 
+        ?>
+
+
+          <ul class="blog-categories">
+          <div class="blog-cats">
+          <?php while ( have_posts() ) : the_post(); ?>
+            <li class="blog-posts-li">
+            
+              <div class="blog-img">
+                <?php the_post_thumbnail( 'full' ); ?>
+              </div>
+              <div class="blog-text"> 
+                <h2 class="blog-title"><?php the_title(); ?></h2>
+                <div class="blog-content-button">
+                  <div class="blog-content">
+                    <?php the_content(); ?>
+                  </div>
+                  <a href="<?php the_permalink(); ?>" rel="blog title">
+                  <div class="read-button">
+                    <button class="read-more">Read More</button>
+                  </a>
+                  </div>
+                </div>  
+              </div>
+            </li>
+             <div class="shadow-border"></div> 
+
+              <?php endwhile; // End of the loop. ?>
+      <?php wp_reset_query() ?>
+          </div>
           </ul>		
             <h2 class="latest-posts-title">Latest Posts</h2>
         </section>
-        
       </div>  
 		</main><!-- #main -->
   </div><!-- #primary -->

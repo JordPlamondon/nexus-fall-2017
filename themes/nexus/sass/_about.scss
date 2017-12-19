@@ -3,7 +3,18 @@
   .entry-title {
     display: none;
   }
-
+  h2.consultant-title {
+    position: relative;
+    top: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: $color__text-main;
+    font-weight: 600;
+    color: $color__footer-background;
+    @media #{$desktop} {
+      font-size: 44px;
+    }
+  }
   .hero-wrapper {
      width: 100vw;
       @media #{$desktop} {
@@ -309,18 +320,7 @@
     }
 
 
-h2 {
-  position: relative;
-  top: 40px;
-  font-size: 24px;
-  text-align: center;
-  color: $color__text-main;
-  font-weight: 600;
-  color: $color__footer-background;
-  @media #{$desktop} {
-    font-size: 44px;
-  }
-}
+
 }
   .about-consultants {
     height: 500px;

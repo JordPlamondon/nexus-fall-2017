@@ -63,6 +63,12 @@
     }, 500);
   }); 
 // Province toggle
+$('.hide-prov').on('click', function(e) {
+  $('.hide-prov').hide();  
+  e.preventDefault();     
+ 
+});
+
 
   $(function() {
     console.log("prov");

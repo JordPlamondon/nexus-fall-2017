@@ -1903,6 +1903,17 @@ body.page-template-archive-nexus_program main {
   min-width: 320px; }
   .page-template-about .entry-title {
     display: none; }
+  .page-template-about h2.consultant-title {
+    position: relative;
+    top: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: #123048;
+    font-weight: 600;
+    color: #15405A; }
+    @media all and (min-width: 950px) {
+      .page-template-about h2.consultant-title {
+        font-size: 44px; } }
   .page-template-about .hero-wrapper {
     width: 100vw; }
     @media all and (min-width: 950px) {
@@ -2213,17 +2224,6 @@ body.page-template-archive-nexus_program main {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; } }
-    .page-template-about .consultant-wrapper h2 {
-      position: relative;
-      top: 40px;
-      font-size: 24px;
-      text-align: center;
-      color: #123048;
-      font-weight: 600;
-      color: #15405A; }
-      @media all and (min-width: 950px) {
-        .page-template-about .consultant-wrapper h2 {
-          font-size: 44px; } }
   .page-template-about .about-consultants {
     height: 500px;
     display: block;
@@ -3900,7 +3900,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }

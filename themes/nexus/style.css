@@ -2213,17 +2213,17 @@ body.page-template-archive-nexus_program main {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; } }
-  .page-template-about h2 {
-    position: relative;
-    top: 40px;
-    font-size: 24px;
-    text-align: center;
-    color: #123048;
-    font-weight: 600;
-    color: #15405A; }
-    @media all and (min-width: 950px) {
-      .page-template-about h2 {
-        font-size: 44px; } }
+    .page-template-about .consultant-wrapper h2 {
+      position: relative;
+      top: 40px;
+      font-size: 24px;
+      text-align: center;
+      color: #123048;
+      font-weight: 600;
+      color: #15405A; }
+      @media all and (min-width: 950px) {
+        .page-template-about .consultant-wrapper h2 {
+          font-size: 44px; } }
   .page-template-about .about-consultants {
     height: 500px;
     display: block;
@@ -2349,44 +2349,42 @@ body.page-template-archive-nexus_program main {
           padding: 8px; } }
       .page-template-about .about-journey .consult:hover {
         background: #bf1328; }
-
-.about-right img.path-img-right {
-  opacity: .3;
-  height: 60vw;
-  width: 40vw;
-  min-width: 140px;
-  position: relative;
-  bottom: 45vw;
-  z-index: 1; }
-  @media all and (min-width: 450px) {
-    .about-right img.path-img-right {
-      width: 50vw;
-      height: 10vw;
-      bottom: 10vw; } }
-  @media all and (min-width: 850px) {
-    .about-right img.path-img-right {
-      width: 50vw;
-      height: 20vw;
-      bottom: 10vw; } }
-
-.about-left img.path-img-left {
-  opacity: .3;
-  height: 60vw;
-  width: 40vw;
-  min-width: 140px;
-  position: relative;
-  bottom: 35vw;
-  z-index: 1; }
-  @media all and (min-width: 450px) {
-    .about-left img.path-img-left {
-      width: 50vw;
-      height: 30vw;
-      bottom: 10vw; } }
-  @media all and (min-width: 850px) {
-    .about-left img.path-img-left {
-      width: 50vw;
-      height: 20vw;
-      bottom: 10vw; } }
+  .page-template-about .about-right img.path-img-right {
+    opacity: .3;
+    height: 60vw;
+    width: 40vw;
+    min-width: 140px;
+    position: relative;
+    bottom: 45vw;
+    z-index: 1; }
+    @media all and (min-width: 450px) {
+      .page-template-about .about-right img.path-img-right {
+        width: 50vw;
+        height: 10vw;
+        bottom: 10vw; } }
+    @media all and (min-width: 850px) {
+      .page-template-about .about-right img.path-img-right {
+        width: 50vw;
+        height: 20vw;
+        bottom: 10vw; } }
+  .page-template-about .about-left img.path-img-left {
+    opacity: .3;
+    height: 60vw;
+    width: 40vw;
+    min-width: 140px;
+    position: relative;
+    bottom: 35vw;
+    z-index: 1; }
+    @media all and (min-width: 450px) {
+      .page-template-about .about-left img.path-img-left {
+        width: 50vw;
+        height: 30vw;
+        bottom: 10vw; } }
+    @media all and (min-width: 850px) {
+      .page-template-about .about-left img.path-img-left {
+        width: 50vw;
+        height: 20vw;
+        bottom: 10vw; } }
 
 /*--------------------------------------------------------------
 # Footer
@@ -3774,7 +3772,7 @@ nav.main-navigation:hover {
             align-items: center; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .select-form-wrapper, .tax-provinces .select-form-wrapper {
-        margin-top: 55px; } }
+        margin-top: 30px; } }
     @media all and (min-width: 850px) {
       .page-template-archive-nexus_program .select-form-wrapper, .tax-provinces .select-form-wrapper {
         -webkit-box-orient: horizontal;
@@ -3785,10 +3783,10 @@ nav.main-navigation:hover {
             -ms-flex-pack: start;
                 justify-content: flex-start;
         max-width: 750px;
-        margin-top: 80px;
+        margin-top: 30px;
         margin-left: 80px;
         padding-left: 60px;
-        padding-top: 65px; } }
+        padding-top: 165px; } }
   .page-template-archive-nexus_program .select-form-wrapper-searched, .tax-provinces .select-form-wrapper-searched {
     padding: 0;
     margin-top: 2rem;
@@ -3869,10 +3867,10 @@ nav.main-navigation:hover {
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-title, .tax-provinces .program-title {
         text-align: left;
-        font-size: 3rem;
+        font-size: 4rem;
         margin-top: 0;
         margin-bottom: 0;
-        color: #123048; } }
+        color: #15405A; } }
   .page-template-archive-nexus_program .program-school, .tax-provinces .program-school {
     text-transform: uppercase;
     margin-top: 12px;

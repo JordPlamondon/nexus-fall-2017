@@ -10,8 +10,14 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     
     <section class="single-program-container">
-        
-        <h2><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
+
+        <?php $school_logo = get_post_meta($post->ID, '_nexus_program_school_logo', true); 
+            
+            if ($school_logo !== ''):?>
+                <img class="single-program-school-logo" src="<?php echo $school_logo ?>" />
+            <?php else: ?>
+                <h2><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>
+            <?php endif; ?>
 
         <div class="header-wrapper">
             <h1 class="single-program-title"><?php echo get_post_meta($post->ID, '_nexus_program_title', true); ?></h2>

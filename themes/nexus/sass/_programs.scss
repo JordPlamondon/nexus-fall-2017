@@ -25,7 +25,7 @@
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     height: 50vh;
+     height: 40vh;
      width: 100vw;
      min-width: 350px;
      background-image: url("../../assets/images/blog@3x.png");
@@ -84,7 +84,7 @@
     justify-content: space-around;
     align-items: center;
     @media #{$tablet-test} {
-      margin-top: 55Rpx;
+      margin-top: 55px;
     }
     @media #{$tablet} {
       flex-direction: row;
@@ -100,6 +100,7 @@
   .select-form-wrapper-searched {
     padding: 0;
     margin-top: 2rem;
+    margin-left: 0;
     flex-direction: row;
     justify-content: flex-start;
   }

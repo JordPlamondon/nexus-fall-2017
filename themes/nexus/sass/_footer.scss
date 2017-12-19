@@ -31,7 +31,6 @@ div.footer__contact p a,
 .hidden a {
   font-family: $font__accent;
   color: $color__background-hr;
-  
 }
 
 div.widget_info_contain a {
@@ -42,6 +41,7 @@ div.widget_info_contain a {
 aside.widget.widget_text {
   margin-bottom: 0px;
 }
+
 
 /**************  Mobile MEDIA BREAK  ****************************/
 /**************  Mobile MEDIA BREAK  ****************************/
@@ -144,12 +144,11 @@ aside.widget.widget_text {
       margin-left: 0px;
     }
   }
-
-  div.footer__contact {    
+  div.footer__contact {
     h2 {
       position: relative;
       &::after {
-        content: ""; 
+        content: "";
         position: absolute;
         top: 50px;
         left: 100px;
@@ -158,7 +157,7 @@ aside.widget.widget_text {
         border-bottom: 3px solid $color__accent-underline;
       }
     }
-  }  
+  }
   div.footer__social-media-container {
     .underline.footer {
       margin: auto;
@@ -231,7 +230,7 @@ aside.widget.widget_text {
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: center;
-      margin-top: 2rem;
+      margin-top: 10px;
       img {
         height: 45px;
         width: 45px;
@@ -240,13 +239,12 @@ aside.widget.widget_text {
         max-width: 100px;
       }
     }
-    // div.footer__why-nexus
     div.footer__contact,
-    div.footer__social-media-container {    
+    div.footer__social-media-container {
       h2 {
         position: relative;
         &::after {
-          content: ""; 
+          content: "";
           position: absolute;
           top: 30px;
           left: 0px;
@@ -255,7 +253,10 @@ aside.widget.widget_text {
           border-bottom: 3px solid $color__accent-underline;
         }
       }
-    }  
+    }
+    div.widget_info_contain.one {
+      margin-top: 32px;
+    }
   }
 }
 
@@ -287,22 +288,18 @@ aside.widget.widget_text {
       padding: 0;
     }
   }
-
   .footer__desktop--nav .menu-header-mobile-container ul {
     display: flex;
     li a {
       margin: 0 15px;
     }
   }
-
-
   .footer--nav--li {
     padding-left: 1rem;
   }
   aside#text-3.widget.widget_text {
     margin-bottom: 0px;
   }
-
   div.footer_hidden_anchor {
     display: flex;
     flex: 1 0 auto;
@@ -413,15 +410,15 @@ aside.widget.widget_text {
     width: 220px;
   }
   .footer__why-nexus p {
-    margin-top: 16px;
-    width: 250px;
+    margin-top: 32px;
+    width: 300px;
   }
   div.socialmedia-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 10px;
     img {
       height: 45px;
       width: 45px;
@@ -436,7 +433,7 @@ aside.widget.widget_text {
     h2 {
       position: relative;
       &::after {
-        content: ""; 
+        content: "";
         position: absolute;
         top: 30px;
         left: 0px;
@@ -446,15 +443,10 @@ aside.widget.widget_text {
       }
     }
   }
-  // div.socialmedia-container {
-
-  //   position: relative;
-  //   a {
-  //     position: absolute;
-  //       top: 10px;
-  //   }
-  // }
+  div.widget_info_contain.one {
+    margin-top: 32px;
+  }
+  div.footer__social-media {
+    padding-bottom: 20px;
+  }
 }
-
-
-

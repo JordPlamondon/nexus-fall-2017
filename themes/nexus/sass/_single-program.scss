@@ -21,7 +21,7 @@
       display: block;
       position: relative;
       bottom: 2.5rem;
-      right: 20rem;
+      right: 0;
     }
   }
 
@@ -59,21 +59,30 @@
     display: flex;
     flex-direction: column;
     @media all and (min-width: 950px) {
+      flex-direction: row;
       background: linear-gradient(180deg,rgba(255,255,255,.5),rgba(255,255,255,.5));
       background-size: 65% 100%;
       background-position: center left;
       background-repeat: no-repeat;
-      min-height: 300px;
+      min-height: 300px; 
     }
   }
+
   .city-image {
     flex-basis: 50%;
     @media all and (min-width: 950px) {
+      max-height: 300px;
       width: 50%;
+      overflow: hidden;
       margin: 0 0 0 auto;
       position: relative;
       z-index: -1;
       transform: scale(1.5);
+    }
+    img {
+      @media all and (min-width: 950px) {
+        min-height: 100%;
+      }
     }
   }
   .city-text {
@@ -84,8 +93,11 @@
       margin: 0;
       width: 50%;
       position: relative;
-      top: 12rem;
+      top: 10rem;
       left: 5rem;
+    }
+    @media all and (min-width: 1240px) {
+      top: 12rem;
     }
   }
 
@@ -136,7 +148,9 @@
 
   .strong-side {
     flex-basis: 55%;
-    margin-left: 1rem;
+    @media #{$desktop} {
+      margin: 0 2rem;
+    }
   }
 
   .school-media {
@@ -162,6 +176,7 @@
   }
 
   .single-program-title {
+    text-transform: uppercase;
     text-align: center;
     margin: 2px 0;
     @media #{$desktop} {
@@ -198,6 +213,7 @@
   }
 
   .single-program-header {
+    margin: 0;
     position: relative;
     text-align: center;
     @media #{$tablet-test} {

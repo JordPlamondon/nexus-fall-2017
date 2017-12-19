@@ -1,5 +1,10 @@
 # Nexus Intercambio
-Welcome to the home of Nexus! This site contains several custom post types and taxonomy. Please reference the below guide to locate the correct place to enter updates and edit pictures, posts, and text.
+Welcome to the home of Nexus! 
+
+Nexus is built on Wordpress, which will offer a huge amount of customization, and content. The trade off for this is that there are several categories that need to have data and media entered 
+
+
+This site contains several custom post types and taxonomy. Please reference the below guide to locate the correct place to enter updates and edit pictures, posts, and text.
 
 http://nexus.van.cp.academy.red/
 

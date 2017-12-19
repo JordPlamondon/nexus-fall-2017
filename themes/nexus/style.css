@@ -2907,6 +2907,12 @@ aside.widget.widget_text {
           width: 26.8vw;
           -webkit-transform: scale(1.7);
                   transform: scale(1.7); } }
+      @media all and (min-width: 1250px) {
+        .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
+          -webkit-transform: scale(1.2);
+                  transform: scale(1.2);
+          position: relative;
+          left: 20px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
       left: 40px;
@@ -3823,7 +3829,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }

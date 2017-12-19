@@ -189,7 +189,10 @@
           font-size: 34px;
           position: relative;
           bottom: 34px;
-          line-height: 30px;
+          line-height: 50px;
+          }
+          @media #{$desktop} {
+            font-size: 40px;
           }
         }
       p {      
@@ -248,9 +251,12 @@
           font-size: 34px;
           position: relative;
           bottom: 14px;
-          line-height: 30px;
+          line-height: 50px;
         }
+        @media #{$desktop} {
+          font-size: 40px;
       }
+    }
       p {
         font-family: $font__accent;
         color: $color__footer-background;

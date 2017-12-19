@@ -2095,7 +2095,10 @@ body.page-template-archive-nexus_program main {
             font-size: 34px;
             position: relative;
             bottom: 34px;
-            line-height: 30px; } }
+            line-height: 50px; } }
+        @media all and (min-width: 950px) {
+          .page-template-about .about-wrapper .about-left .about-titles {
+            font-size: 40px; } }
       .page-template-about .about-wrapper .about-left p {
         width: 50%;
         text-align: left;
@@ -2163,7 +2166,10 @@ body.page-template-archive-nexus_program main {
             font-size: 34px;
             position: relative;
             bottom: 14px;
-            line-height: 30px; } }
+            line-height: 50px; } }
+        @media all and (min-width: 950px) {
+          .page-template-about .about-wrapper .about-right .about-titles {
+            font-size: 40px; } }
       .page-template-about .about-wrapper .about-right p {
         font-family: "Raleway", Arial, Helvetica, sans-serif;
         color: #15405A;
@@ -2836,15 +2842,11 @@ aside.widget.widget_text {
       left: 0px;
       padding-top: 10px;
       width: 99px;
-<<<<<<< HEAD
-      border-bottom: 3px solid #FF8A2A; } }
-=======
       border-bottom: 3px solid #FF8A2A; }
   div.widget_info_contain.one {
     margin-top: 32px; }
   div.footer__social-media {
     padding-bottom: 20px; } }
->>>>>>> 367cdb0a94fb478b6ca9ecd0acd30643f6fab3a5
 
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
   height: 37vh;
@@ -3808,8 +3810,8 @@ nav.main-navigation:hover {
             -ms-flex-pack: start;
                 justify-content: flex-start;
         max-width: 750px;
-        margin-top: 40px;
-        margin-left: 40px;
+        margin-top: 80px;
+        margin-left: 80px;
         padding-left: 60px;
         padding-top: 65px; } }
   .page-template-archive-nexus_program .select-form-wrapper-searched, .tax-provinces .select-form-wrapper-searched {
@@ -5526,3 +5528,41 @@ div.return-home {
       height: 30px;
       position: relative;
       width: 30px; } }
+
+/*--------------------------------------------------------------
+# New Page
+--------------------------------------------------------------*/
+fieldset {
+  max-width: 260px;
+  width: 100%; }
+
+div.hero {
+  background-image: url("../../assets/images/jay-toor-105107.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vw;
+  width: 100%;
+  min-height: 800px;
+  max-height: 981px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+body.page-template-default.page h1.entry-title {
+  text-align: center;
+  text-transform: capitalize; }
+
+body.page-template-default.page div.entry-content p {
+  text-align: center;
+  text-transform: capitalize; }

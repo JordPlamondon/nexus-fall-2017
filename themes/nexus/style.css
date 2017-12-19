@@ -3907,7 +3907,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -5165,7 +5165,6 @@ div#id.hfeed.site {
     color: white;
     letter-spacing: 1pt; }
 
-<<<<<<< HEAD
 .single-post .about-journey {
   height: 195px;
   background-color: #F3F5F8; }
@@ -5246,10 +5245,6 @@ div#id.hfeed.site {
 
 /*--------------------------------------------------------------
 # 404 Not Found
-=======
-/*--------------------------------------------------------------
-# 404 Not Found
->>>>>>> a9c0c1b9a1920ffb1a00b27da418a9ffa9e91763
 --------------------------------------------------------------*/
 fieldset {
   max-width: 260px;

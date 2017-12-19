@@ -78,7 +78,7 @@ body.blog {
       text-transform: uppercase;
       color: $color__footer-background;
       @media #{$desktop} {
-        top: 100px;
+        top: 60px;
         font-size: 70px;
       }
     }

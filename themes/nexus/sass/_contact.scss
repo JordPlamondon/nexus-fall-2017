@@ -151,8 +151,9 @@
     .hero-image {
       height: 35vh;
       width: 100vw;
-      background-image: url("../../assets/images/sagar-patil-237757.jpg");
-      background-size: 100% 100%;
+      background-image: url("../../assets/images/moritz-matlik-76601.jpg");
+      background-size: cover;
+      background-position: bottom;
       @media #{$desktop} {
         height: 51.5vh;
       }

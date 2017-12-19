@@ -131,18 +131,31 @@ require get_template_directory() . '/inc/extras.php';
 remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
  
 
-//Blog page content filter
+// Blog page content filter 1
 add_filter("the_content", "plugin_myContentFilter");
 
 function plugin_myContentFilter($content)
 {
 	// Take the existing content and return a subset of it
 	if ( is_home() ) {
-		return substr($content, 0, 179);
+		return substr($content, 0, 200);
 	}
 	
 	return ($content);
+
 }
+
+
+// Blog page content filter 2
+// add_filter("the_content", "break_text");
+// function break_text($content){
+//     $length = 179;
+//     if(strlen($content)<$length+0) return $content;//don't cut if too short
+
+//     $break_pos = strpos($content, ' ', $length);//find next space after desired length
+//     $visible = substr($content, 0, $break_pos);
+//     return balanceTags($visible) . " […]";
+// } 
 
 
 //Faq Single h1 Title first word select function
@@ -166,31 +179,4 @@ function pixelninja_single_cat_title() {
 }
 
 
-
-// filter videos and blogs on blog page
-// add_filter('pre_get_posts', 'per_category_basis');
-// function per_category_basis($query){
-//     if ($query->category__in) {
-      
-//         if (is_category('videos')){
-//             $query->set('posts_per_page', 3);
-//         }
-       
-//         if (is_category('blogs')){
-//             $query->set('posts_per_page', 3);
-//         }
-//     }
-// 		return $query;
-// 		add_action('pre_get_posts', 'per_category_basis');
-// }
-
-
-
-// add_filter('pre_get_posts', 'limit_category_posts');
-// function limit_category_posts($query){
-//     if ($query->is_category) {
-//         $query->set('posts_per_page', 3);
-//     }
-//     return $query;
-// }
 

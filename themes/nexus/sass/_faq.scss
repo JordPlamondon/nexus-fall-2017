@@ -42,7 +42,7 @@
         position: relative;
         padding: 0;
         bottom: 115px;
-        right: 25px;
+        right: 20px;
         @media #{$desktop} {
           width: 74px;
           border-bottom: 6px solid $color__accent-underline;
@@ -57,7 +57,7 @@
         border-bottom: 1px solid rgb(209, 209, 209);
         box-shadow: 0px 13px $color__textbox-background;
         padding-top: 13px;
-        width: 100.3vw;
+        width: 100vw;
         right: 3.5vw;
         position: relative;
         @media #{$desktop} {
@@ -118,28 +118,9 @@
           }
         }
 
-        // .image-wrapper {
-        //   @media #{$desktop} {
-        //   overflow: hidden;
-        //   }
-
-        //   img {
-        //     min-width: 103px; 
-        //     @media #{$desktop} {
-        //       width: 26.8vw;
-        //       transform:  scale(1.7); 
-        //     }
-        //     @media #{$desktop-wide} {
-        //       transform:  scale(1.2); 
-        //       position: relative;
-        //       left: 30px;  
-        //     }
-        //   }
-        // }
-
         .list-text {
           position: relative;
-          left: 40px;
+          left: 20px;
           display: flex;
           flex-wrap: wrap;
           min-width: 200px;
@@ -147,14 +128,14 @@
           @media #{$desktop} {
             position: relative;
             bottom: 80px;
-            left:20px;
+            left: 20px;
           }  
         }
         h2 {
           position: relative;
           top: 15px;
           color: $color__footer-background;
-          right: 25px;
+          right: 20px;
           @media #{$desktop} {
             position: relative;
             right: 200px;
@@ -171,7 +152,7 @@
           font-size: 14px;
           font-weight: 100;
           color: $color__footer-background;
-          right: 25px;
+          right: 20px;
           @media all and (min-width: 650px) {
             font-size: 18px;
           }

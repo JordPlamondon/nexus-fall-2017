@@ -2887,7 +2887,7 @@ aside.widget.widget_text {
   position: relative;
   padding: 0;
   bottom: 115px;
-  right: 25px; }
+  right: 20px; }
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
       width: 74px;
@@ -2903,7 +2903,7 @@ aside.widget.widget_text {
   -webkit-box-shadow: 0px 13px #F3F5F8;
           box-shadow: 0px 13px #F3F5F8;
   padding-top: 13px;
-  width: 100.3vw;
+  width: 100vw;
   right: 3.5vw;
   position: relative; }
   @media all and (min-width: 950px) {
@@ -2977,7 +2977,7 @@ aside.widget.widget_text {
           top: 270px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
-      left: 40px;
+      left: 20px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2994,7 +2994,7 @@ aside.widget.widget_text {
       position: relative;
       top: 15px;
       color: #15405A;
-      right: 25px; }
+      right: 20px; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
           position: relative;
@@ -3010,7 +3010,7 @@ aside.widget.widget_text {
       font-size: 14px;
       font-weight: 100;
       color: #15405A;
-      right: 25px; }
+      right: 20px; }
       @media all and (min-width: 650px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
           font-size: 18px; } }
@@ -3116,13 +3116,14 @@ aside.widget.widget_text {
 div.banner-faq-single {
   height: 37vh;
   width: 100vw;
-  background-image: url("../../assets/images/living_no_canada@3x.png");
+  background-image: url("../../assets/images/wade-gardner-26236.jpg");
   background-size: 100% 100%;
   margin-bottom: 24px;
   margin-top: -65px; }
   @media all and (min-width: 950px) {
     div.banner-faq-single {
-      height: 70vh; } }
+      height: 70vh;
+      margin-top: 0; } }
   div.banner-faq-single .faq-single-title {
     position: relative;
     text-align: center;

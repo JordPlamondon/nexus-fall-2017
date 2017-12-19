@@ -2,22 +2,31 @@
 .student-review {
 
   .headergroup {
+    position: relative;
     line-height: 3rem;
-    
+      
     h2 {
-      margin-bottom: 10px;
+      margin-bottom: 40px;
       font-size: 1.5em;
       @media all and (min-width: 880px) {
+        margin-bottom: 50px;
         font-size: 3rem;
       }
+      
+      &::after {
+        content: "";
+        position: absolute;
+        top: 42px;
+        left: 47%;
+        padding-top: 10px;
+        width: 49px;
+        border-bottom: 3px solid $color__accent-underline;
+        @media all and (min-width: 880px) {
+          width: 144px;
+          left: 43%
+        }
+      }  
     }
-    // .underline {
-    //   margin: 0 auto 3rem auto;
-    //   width: 49px; 
-    //   @media #{$desktop} {
-    //     width: 144px;
-    //   }
-    // }
   }
 
   .owl-nav {

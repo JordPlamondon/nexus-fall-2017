@@ -2890,7 +2890,19 @@ aside.widget.widget_text {
       @media all and (min-width: 1150px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li button.read-more {
           top: 270px; } }
+    @media all and (min-width: 950px) {
+      .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper {
+        overflow: hidden; } }
+    .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
+      min-width: 103px; }
+      @media all and (min-width: 950px) {
+        .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
+          width: 26.8vw;
+          -webkit-transform: scale(1.7);
+                  transform: scale(1.7); } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
+      position: relative;
+      left: 40px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2901,7 +2913,7 @@ aside.widget.widget_text {
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
           position: relative;
-          bottom: 100px;
+          bottom: 50px;
           left: 20px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
       position: relative;

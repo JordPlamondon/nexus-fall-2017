@@ -115,14 +115,31 @@
             top: 270px;
           }
         }
+
+        .image-wrapper {
+          @media #{$desktop} {
+          overflow: hidden;
+          }
+
+          img {
+            min-width: 103px;
+            @media #{$desktop} {
+              width: 26.8vw;
+              transform:  scale(1.7); 
+            }
+          }
+        }
+
         .list-text {
+          position: relative;
+          left: 40px;
           display: flex;
           flex-wrap: wrap;
           min-width: 200px;
           color: $color__footer-background;
           @media #{$desktop} {
             position: relative;
-            bottom: 100px;
+            bottom: 50px;
             left:20px;
           }  
         }

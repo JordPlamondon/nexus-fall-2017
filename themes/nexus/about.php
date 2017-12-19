@@ -34,33 +34,33 @@ get_header(); ?>
 
   <!-- ######## Items with left aligned images. Text and image can be changed here #######-->
   <div class="about-left">
-      <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/01@2x.png" />
+      <img class="about-img" src="<?php echo get_template_directory_uri(); ?>/images/01@2x.png" />
       <p><span class="about-titles">Planning and Organizing</span> <br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and prid graphic design and bring it to  om Canadaic design and bring it to life and pride ourselves on creating memorable experiences.  </p>
-      <img class="path-img-left" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-2@3x.png" />
+      <img class="path-img-left" src="<?php echo get_template_directory_uri(); ?>/assets/images/Path-2@3x.png" />
   </div>
 
       <!-- ######## Items with right aligned images. Text and image can be changed here #######--> 
   <div class="about-right">
 
       <p><span class="about-titles">Applying for School</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pri.We are passionate about graphic design and bring it to life and pride ing it to life and pride ourselves on creating memorable experiences. .</p>
-      <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/02@2x.png" /><img class="path-img-right" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-4@3x.png" />
+      <img class="about-img" src="<?php echo get_template_directory_uri(); ?>/images/02@2x.png" /><img class="path-img-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/Path-4@3x.png" />
 
   </div>
 
 
     <!-- ######## Items with left aligned images. Text and image can be changed here #######-->
   <div class="about-left">
-      <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/03@2x.png" />
-      <p><span class="about-titles">Applying for School</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pride bring it to life and pride ourselves on creating memorable experiences. .</p><img class="path-img-left" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-2@3x.png" />
+      <img class="about-img" src="<?php echo get_template_directory_uri(); ?>/images/03@2x.png" />
+      <p><span class="about-titles">Applying for School</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pride bring it to life and pride ourselves on creating memorable experiences. .</p><img class="path-img-left" src="<?php echo get_template_directory_uri(); ?>/assets/images/Path-2@3x.png" />
   </div>
 
   <!-- ######## Items with right aligned images. Text and image can be changed here #######--> 
   <div class="about-right">
-    <p class="about-how-help-text"><span class="about-titles">Applying for School</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pride ourselves on creatinesind bring it to life and pride ourselves on creating memorable experiences. </p><img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/04@2x.png" /><img class="path-img-right" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/images/Path-4@3x.png" />
+    <p class="about-how-help-text"><span class="about-titles">Applying for School</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pride ourselves on creatinesind bring it to life and pride ourselves on creating memorable experiences. </p><img class="about-img" src="<?php echo get_template_directory_uri(); ?>/images/04@2x.png" /><img class="path-img-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/Path-4@3x.png" />
   </div>
   <!-- ######## Items with left aligned images. Text and image can be changed here #######-->
   <div class="about-left">
-    <img class="about-img" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/05@2x.png" />
+    <img class="about-img" src="<?php echo get_template_directory_uri(); ?>/images/05@2x.png" />
     <p><span class="about-titles">Living in Canada</span><br>EDIT IN ABOUT.PHP --- >LINE 37 - 90 We are passionate about graphic design and bring it to life and pripassionate about graphic design and bring it to life and pride ourselves on creating memorable experiences.  </p>
   </div>
 
@@ -71,7 +71,7 @@ get_header(); ?>
 <div class="about-consultants">
      
       <div class="underline"></div>
-      <img alt="Photo of Rafael" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/TeamMember01@2x.png" />
+      <img alt="Photo of Rafael" src="<?php echo get_template_directory_uri(); ?>/images/TeamMember01@2x.png" />
       <h3>Rafael Schafer Marques </h3>
       <p> Director of International Studies </p>
       <a href="http://www.facebook.com/rafacanada" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -80,7 +80,7 @@ get_header(); ?>
 </div>
 
 <div class="about-consultants">
-<img alt="Image of Carolina" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/TeamMember02@3x.png" />
+<img alt="Image of Carolina" src="<?php echo get_template_directory_uri(); ?>/images/TeamMember02@3x.png" />
       <h3> Carolina Robeiro </h3>
       <p> Advisor</p>
       <a href="http://www.facebook.com/carolribeiro.3551/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>

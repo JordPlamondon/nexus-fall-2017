@@ -21,7 +21,7 @@ get_header(); ?>
 <div class="contact-form">
 <?php while ( have_posts() ) : the_post(); ?>
             <h2 class="title"> Send Us a Message</h2>
-            <div class="underline"></div>
+         
             <div class="contact-content">	<?php get_template_part( 'template-parts/content', 'page' ); ?>
             <?php endwhile;  ?>
 

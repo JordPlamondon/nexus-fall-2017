@@ -29,7 +29,7 @@
         @media #{$header-mid} {
           height: 62px;
           margin-top: 24px;
-          min-width: 186px; 
+          min-width: 146px; 
           margin-left: 40px;
           background-image: url("../../assets/images/nexus_logo_04@2x.png");
           background-size: 100% 100%;
@@ -92,6 +92,9 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    .current_page_item a {
+      color: $color__text-accent;
+      }
   }
   nav.main-navigation:hover {
     transition: box-shadow .3s;
@@ -124,7 +127,10 @@
           font-family: $font__main;
           font-weight: bold;
           text-decoration: none;
-          font-size: 21px; 
+          font-size: 21px;
+        }
+        a:active {
+          color: red;
         }
         .book-consult-header {
           font-family: $font__main;

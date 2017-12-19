@@ -5,7 +5,7 @@ $base__space-unit: 1rem;
 // Breakpoints
 
 $desktop: "all and (min-width: 950px)";
-$desktop-wide: "all and (min-width: 1250px)";
+$desktop-wide: "(min-width: 1250px)";
 $header-mid: "all and (min-width:700px)";
 $tablet: "all and (min-width: 850px)";
 $tablet-test: "all and (min-width: 450px)";

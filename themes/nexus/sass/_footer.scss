@@ -231,7 +231,7 @@ aside.widget.widget_text {
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: center;
-      margin-top: 3.5rem;
+      margin-top: 2rem;
       img {
         height: 45px;
         width: 45px;
@@ -414,13 +414,14 @@ aside.widget.widget_text {
   }
   .footer__why-nexus p {
     margin-top: 16px;
+    width: 250px;
   }
   div.socialmedia-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 3.5rem;
+    margin-top: 2rem;
     img {
       height: 45px;
       width: 45px;
@@ -445,6 +446,14 @@ aside.widget.widget_text {
       }
     }
   }
+  // div.socialmedia-container {
+
+  //   position: relative;
+  //   a {
+  //     position: absolute;
+  //       top: 10px;
+  //   }
+  // }
 }
 
 

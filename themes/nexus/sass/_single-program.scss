@@ -164,6 +164,7 @@
   }
 
   .single-program-title {
+    text-transform: uppercase;
     text-align: center;
     margin: 2px 0;
     @media #{$desktop} {

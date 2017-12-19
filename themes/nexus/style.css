@@ -4496,6 +4496,7 @@ nav.main-navigation:hover {
           height: 500px;
           width: 140%; } }
   .single-nexus_program .single-program-title {
+    text-transform: uppercase;
     text-align: center;
     margin: 2px 0; }
     @media all and (min-width: 950px) {

@@ -31,9 +31,9 @@ get_header(); ?>
 					?>
 
 					<li>
-						<div class="image-wrapper">
+					
 						<?php the_post_thumbnail( 'full' ); ?>
-						</div>
+					
 						<div class="list-text">
 							<a href="<?php the_permalink(); ?>" rel="faq title"> 
 							<button class="read-more">Learn More</button>

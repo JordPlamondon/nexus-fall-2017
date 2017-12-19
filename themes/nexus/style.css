@@ -2095,7 +2095,10 @@ body.page-template-archive-nexus_program main {
             font-size: 34px;
             position: relative;
             bottom: 34px;
-            line-height: 30px; } }
+            line-height: 50px; } }
+        @media all and (min-width: 950px) {
+          .page-template-about .about-wrapper .about-left .about-titles {
+            font-size: 40px; } }
       .page-template-about .about-wrapper .about-left p {
         width: 50%;
         text-align: left;
@@ -2163,7 +2166,10 @@ body.page-template-archive-nexus_program main {
             font-size: 34px;
             position: relative;
             bottom: 14px;
-            line-height: 30px; } }
+            line-height: 50px; } }
+        @media all and (min-width: 950px) {
+          .page-template-about .about-wrapper .about-right .about-titles {
+            font-size: 40px; } }
       .page-template-about .about-wrapper .about-right p {
         font-family: "Raleway", Arial, Helvetica, sans-serif;
         color: #15405A;
@@ -2925,9 +2931,8 @@ aside.widget.widget_text {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      right: 30px;
-      bottom: 50px;
-      padding-top: 120px; } }
+      right: 35px;
+      margin-bottom: 150px; } }
   .page-template-taxonomy-nexus_faq .faq-wrapper ul li {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2944,7 +2949,8 @@ aside.widget.widget_text {
         width: 41.85vw;
         height: 609px;
         margin-left: 20px;
-        margin-right: 20px; } }
+        margin-right: 20px;
+        margin-top: 60px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li button.read-more {
       display: none; }
       @media all and (min-width: 950px) {
@@ -2969,22 +2975,6 @@ aside.widget.widget_text {
       @media all and (min-width: 1150px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li button.read-more {
           top: 270px; } }
-    @media all and (min-width: 950px) {
-      .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper {
-        overflow: hidden; } }
-    .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
-      min-width: 103px; }
-      @media all and (min-width: 950px) {
-        .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
-          width: 26.8vw;
-          -webkit-transform: scale(1.7);
-                  transform: scale(1.7); } }
-      @media (min-width: 1250px) {
-        .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
-          -webkit-transform: scale(1.2);
-                  transform: scale(1.2);
-          position: relative;
-          left: 30px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
       left: 40px;
@@ -2998,7 +2988,7 @@ aside.widget.widget_text {
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
           position: relative;
-          bottom: 50px;
+          bottom: 80px;
           left: 20px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
       position: relative;
@@ -3013,7 +3003,7 @@ aside.widget.widget_text {
           font-size: 26px; } }
       @media all and (min-width: 1204px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
-          font-size: 41px; } }
+          font-size: 39px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
       position: relative;
       bottom: 6px;
@@ -3027,7 +3017,8 @@ aside.widget.widget_text {
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
           font-size: 18px;
-          top: 15px; } }
+          top: 15px;
+          right: 0; } }
       @media all and (min-width: 1150px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
           font-size: 23px;
@@ -3629,8 +3620,6 @@ nav.main-navigation:hover {
         font-weight: bold;
         text-decoration: none;
         font-size: 21px; }
-      .full-screen-links a:active {
-        color: red; }
       .full-screen-links .book-consult-header {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: bold;
@@ -3804,8 +3793,8 @@ nav.main-navigation:hover {
             -ms-flex-pack: start;
                 justify-content: flex-start;
         max-width: 750px;
-        margin-top: 40px;
-        margin-left: 40px;
+        margin-top: 80px;
+        margin-left: 80px;
         padding-left: 60px;
         padding-top: 65px; } }
   .page-template-archive-nexus_program .select-form-wrapper-searched, .tax-provinces .select-form-wrapper-searched {
@@ -5442,14 +5431,11 @@ div.return-home {
 .student-review .headergroup {
   line-height: 3rem; }
   .student-review .headergroup h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px; }
-  .student-review .headergroup .underline {
-    margin: 0 auto 3rem auto;
-    width: 49px; }
-    @media all and (min-width: 950px) {
-      .student-review .headergroup .underline {
-        width: 144px; } }
+    margin-bottom: 10px;
+    font-size: 1.5em; }
+    @media all and (min-width: 880px) {
+      .student-review .headergroup h2 {
+        font-size: 3rem; } }
 
 .student-review .owl-nav {
   display: none; }

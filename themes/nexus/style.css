@@ -5276,14 +5276,11 @@ div.return-home {
 .student-review .headergroup {
   line-height: 3rem; }
   .student-review .headergroup h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px; }
-  .student-review .headergroup .underline {
-    margin: 0 auto 3rem auto;
-    width: 49px; }
-    @media all and (min-width: 950px) {
-      .student-review .headergroup .underline {
-        width: 144px; } }
+    margin-bottom: 10px;
+    font-size: 1.5em; }
+    @media all and (min-width: 880px) {
+      .student-review .headergroup h2 {
+        font-size: 3rem; } }
 
 .student-review .owl-nav {
   display: none; }

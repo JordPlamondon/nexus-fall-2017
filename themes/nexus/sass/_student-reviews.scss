@@ -5,16 +5,19 @@
     line-height: 3rem;
     
     h2 {
-      font-size: 1.5em;
       margin-bottom: 10px;
-    }
-    .underline {
-      margin: 0 auto 3rem auto;
-      width: 49px; 
-      @media #{$desktop} {
-        width: 144px;
+      font-size: 1.5em;
+      @media all and (min-width: 880px) {
+        font-size: 3rem;
       }
     }
+    // .underline {
+    //   margin: 0 auto 3rem auto;
+    //   width: 49px; 
+    //   @media #{$desktop} {
+    //     width: 144px;
+    //   }
+    // }
   }
 
   .owl-nav {

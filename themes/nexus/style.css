@@ -2795,6 +2795,16 @@ aside.widget.widget_text {
       width: 99px;
       border-bottom: 3px solid #FF8A2A; } }
 
+<<<<<<< HEAD
+/*
+
+,
+  div.footer__social-media-container h2:after,
+  div.footer__why-nexus h2:after
+
+  */
+=======
+>>>>>>> fa2adb9ebd6396fc3633fed12594b3fdd21d0058
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
   height: 37vh;
   width: 100vw;
@@ -4726,6 +4736,7 @@ body.blog {
     text-align: center;
     padding-bottom: 5px;
     top: 140px;
+    text-transform: uppercase;
     color: #15405A; }
     @media all and (min-width: 950px) {
       body.blog .blog-wrapper .title-wrapper h1 {
@@ -4746,7 +4757,7 @@ body.blog {
         width: 144px; } }
   @media all and (min-width: 950px) {
     body.blog .blog-wrapper .blog-page {
-      margin-bottom: 50px; } }
+      margin-bottom: 100px; } }
   body.blog .blog-wrapper .blog-page ul {
     position: relative;
     right: 15px;
@@ -4775,7 +4786,8 @@ body.blog {
       color: #15405A; }
       @media all and (min-width: 950px) {
         body.blog .blog-wrapper .blog-page li p {
-          line-height: 40px; } }
+          line-height: 40px;
+          font-size: 20px; } }
     body.blog .blog-wrapper .blog-page li .blog-title {
       color: #15405A; }
   body.blog .blog-wrapper .blog-page .video-posts-li:nth-of-type(-n+3) button.read-more {
@@ -4859,7 +4871,17 @@ body.blog {
       margin: 0; }
       @media all and (min-width: 950px) {
         body.blog .blog-cats li {
-          margin: 20px; } }
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          margin: 15px; } }
       body.blog .blog-cats li .blog-title {
         position: relative;
         bottom: 10px;
@@ -4867,12 +4889,16 @@ body.blog {
         font-size: 18px; }
         @media all and (min-width: 950px) {
           body.blog .blog-cats li .blog-title {
-            font-size: 27px; } }
+            height: 78px;
+            text-align: left;
+            font-size: 26px; } }
       body.blog .blog-cats li .blog-content {
         display: none; }
         @media all and (min-width: 950px) {
           body.blog .blog-cats li .blog-content {
-            display: inline-block; } }
+            display: inline-block;
+            position: relative;
+            bottom: 20px; } }
     body.blog .blog-cats img {
       width: 92vw; }
       @media all and (min-width: 950px) {

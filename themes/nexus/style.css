@@ -1680,7 +1680,10 @@ a {
       .home .why-canada .carouselplaceholder__image-wrapper {
         position: absolute;
         top: 0;
-        right: 0; } }
+        right: 0;
+        height: 75%;
+        width: 60%;
+        overflow: hidden; } }
     .home .why-canada .carouselplaceholder__image-wrapper img {
       min-height: 330px; }
       @media all and (min-width: 880px) {
@@ -1758,8 +1761,11 @@ a {
     .home .why-canada .owl-nav {
       position: absolute;
       z-index: 998;
-      top: 36%;
+      top: 63%;
       left: 50%; } }
+  @media all and (min-width: 1240px) {
+    .home .why-canada .owl-nav {
+      top: 44%; } }
   .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1781,7 +1787,13 @@ a {
   display: none; }
   @media all and (min-width: 880px) {
     .home .why-canada .owl-dots {
-      bottom: 335px; } }
+      display: inline;
+      position: absolute;
+      bottom: 25%;
+      left: 30%; } }
+  @media all and (min-width: 1240px) {
+    .home .why-canada .owl-dots {
+      bottom: 48%; } }
 
 @media all and (min-width: 880px) {
   .home .curious {
@@ -2492,7 +2504,17 @@ aside.widget.widget_text {
     .footer__contact a,
     .footer__office a {
       margin-left: 0px; }
-  .underline.footer {
+  div.footer__contact h2 {
+    position: relative; }
+    div.footer__contact h2::after {
+      content: "";
+      position: absolute;
+      top: 50px;
+      left: 100px;
+      padding-top: 10px;
+      width: 49px;
+      border-bottom: 3px solid #FF8A2A; }
+  div.footer__social-media-container .underline.footer {
     margin: auto;
     width: 49px;
     border-bottom: 3px solid #FF8A2A; } }
@@ -2566,10 +2588,18 @@ aside.widget.widget_text {
       padding: 0 0px 0 0px;
       margin: 0 10px;
       max-width: 100px; }
-  .underline.footer {
-    padding-top: 10px;
-    width: 74px;
-    border-bottom: 3px solid #FF8A2A; } }
+  div.footer__contact h2,
+  div.footer__social-media-container h2 {
+    position: relative; }
+    div.footer__contact h2::after,
+    div.footer__social-media-container h2::after {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      padding-top: 10px;
+      width: 74px;
+      border-bottom: 3px solid #FF8A2A; } }
 
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
@@ -2760,18 +2790,21 @@ aside.widget.widget_text {
       padding: 0 0px 0 0px;
       margin: 0 10px;
       max-width: 100px; }
-  .underline.footer {
-    padding-top: 10px;
-    width: 99px;
-    border-bottom: 3px solid #FF8A2A; } }
+  div.footer__contact h2,
+  div.footer__social-media-container h2,
+  div.footer__why-nexus h2 {
+    position: relative; }
+    div.footer__contact h2::after,
+    div.footer__social-media-container h2::after,
+    div.footer__why-nexus h2::after {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      padding-top: 10px;
+      width: 99px;
+      border-bottom: 3px solid #FF8A2A; } }
 
-/*
-
-,
-  div.footer__social-media-container h2:after,
-  div.footer__why-nexus h2:after
-
-  */
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
   height: 37vh;
   width: 100vw;
@@ -4316,7 +4349,7 @@ nav.main-navigation:hover {
         display: block;
         position: relative;
         bottom: 2.5rem;
-        right: 20rem; } }
+        right: 0; } }
   .single-nexus_program .owl-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4359,6 +4392,10 @@ nav.main-navigation:hover {
             flex-direction: column; }
     @media all and (min-width: 950px) {
       .single-nexus_program .city-container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
         background-size: 65% 100%;
@@ -4370,12 +4407,17 @@ nav.main-navigation:hover {
         flex-basis: 50%; }
     @media all and (min-width: 950px) {
       .single-nexus_program .city-image {
+        max-height: 300px;
         width: 50%;
+        overflow: hidden;
         margin: 0 0 0 auto;
         position: relative;
         z-index: -1;
         -webkit-transform: scale(1.5);
                 transform: scale(1.5); } }
+    @media all and (min-width: 950px) {
+      .single-nexus_program .city-image img {
+        min-height: 100%; } }
   .single-nexus_program .city-text {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -4386,8 +4428,11 @@ nav.main-navigation:hover {
         margin: 0;
         width: 50%;
         position: relative;
-        top: 12rem;
+        top: 10rem;
         left: 5rem; } }
+    @media all and (min-width: 1240px) {
+      .single-nexus_program .city-text {
+        top: 12rem; } }
   .single-nexus_program .student-review {
     margin-bottom: 3rem; }
     .single-nexus_program .student-review .headergroup {

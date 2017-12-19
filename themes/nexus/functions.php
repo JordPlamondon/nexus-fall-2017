@@ -132,17 +132,18 @@ remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
  
 
 //Blog page content filter
-// add_filter("the_content", "plugin_myContentFilter");
+add_filter("the_content", "plugin_myContentFilter");
 
-// function plugin_myContentFilter($content)
-// {
-// 	// Take the existing content and return a subset of it
-// 	if ( is_home() ) {
-// 		return substr($content, 0, 200);
-// 	}
+function plugin_myContentFilter($content)
+{
+	// Take the existing content and return a subset of it
+	if ( is_home() ) {
+		return substr($content, 0, 200);
+	}
 	
-// 	return ($content);
-// }
+	return ($content);
+}
+
 
 //Faq Single h1 Title first word select function
 function pixelninja_spanify_title($title) {

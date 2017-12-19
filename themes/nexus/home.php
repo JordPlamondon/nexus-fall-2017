@@ -81,8 +81,8 @@ get_header(); ?>
                   </div>
                 </div>  
               </div>
+              <div class="shadow-border" style="border-bottom: 1px solid rgb(209, 209, 209);"></div> 
             </li>
-             <div class="shadow-border"></div> 
 
               <?php endwhile; // End of the loop. ?>
       <?php wp_reset_query() ?>

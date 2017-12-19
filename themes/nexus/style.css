@@ -2765,6 +2765,13 @@ aside.widget.widget_text {
     width: 99px;
     border-bottom: 3px solid #FF8A2A; } }
 
+/*
+
+,
+  div.footer__social-media-container h2:after,
+  div.footer__why-nexus h2:after
+
+  */
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
   height: 37vh;
   width: 100vw;
@@ -4731,7 +4738,7 @@ body.blog {
             display: none; } }
       body.blog .blog-wrapper .blog-page ul .shadow-border:nth-of-type(-n+2) {
         display: none; }
-      body.blog .blog-wrapper .blog-page ul .shadow-border:nth-of-type(3) {
+      body.blog .blog-wrapper .blog-page ul .shadow-border:nth-of-type(-n+3) {
         border-bottom: none; }
     body.blog .blog-wrapper .blog-page li {
       list-style-type: none; }
@@ -4797,16 +4804,49 @@ body.blog {
     body.blog .blog-wrapper .blog-page a {
       text-align: center;
       text-decoration: none; }
-
-.blog-cats {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .blog-cats li {
-    margin: 20px; }
-  .blog-cats img {
-    height: 224.89px;
-    width: 31vw; }
+  body.blog .blog-cats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-top: 50px; }
+    @media all and (min-width: 950px) {
+      body.blog .blog-cats {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
+    body.blog .blog-cats li {
+      margin: 0;
+      margin-top: 50px; }
+      @media all and (min-width: 950px) {
+        body.blog .blog-cats li {
+          margin: 20px; } }
+      body.blog .blog-cats li .blog-title {
+        text-align: center; }
+      body.blog .blog-cats li .blog-content {
+        display: none; }
+        @media all and (min-width: 950px) {
+          body.blog .blog-cats li .blog-content {
+            display: inline-block; } }
+    body.blog .blog-cats img {
+      width: 92vw; }
+      @media all and (min-width: 950px) {
+        body.blog .blog-cats img {
+          height: 224.89px;
+          width: 31vw; } }
+    body.blog .blog-cats .read-button {
+      text-align: center; }
+      @media all and (min-width: 950px) {
+        body.blog .blog-cats .read-button {
+          text-align: left; } }
 
 .blog-text button.read-more {
   letter-spacing: 1pt;

@@ -10,7 +10,7 @@
 
   .main-content-wrapper {
     @media #{$desktop}{
-      margin-left: 10%;
+      margin: 0 auto 0 10%;
     }
   }
 
@@ -33,7 +33,6 @@
     @media all and (min-width: 950px) {
       position: absolute; 
       z-index: 998;
-
       right: 20%;
     }
   }
@@ -115,7 +114,7 @@
     line-height: 1.75;
     text-align: center;
     color: $color__text-blue-large;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     @media #{$desktop} {
       font-size: 1.5rem;
          margin: 0;
@@ -149,7 +148,9 @@
 
   .strong-side {
     flex-basis: 55%;
-    margin-left: 1rem;
+    @media #{$desktop} {
+      margin: 0 2rem;
+    }
   }
 
   .school-media {
@@ -211,10 +212,15 @@
   }
 
   .single-program-header {
+    margin: 0;
     position: relative;
     text-align: center;
     @media #{$tablet-test} {
       font-size: 2rem;
+    }
+    @media all and (min-width: 950px) {
+      text-align: left;
+      font-size: 3rem;
     }
     &:after {
       content: "";
@@ -296,41 +302,44 @@
     }
   }
 
-    .program-meta-seperator {
-      visibility: hidden;
-      @media #{$desktop} {
-        visibility: visible;
-        height: 60px;
-        border-right: 3px solid #ff8a2a;
-      }
+  .program-meta-seperator {
+    visibility: hidden;
+    @media #{$desktop} {
+      visibility: visible;
+      height: 60px;
+      border-right: 3px solid #ff8a2a;
     }
-
-    .read-more {
-      display: flex;
-      justify-content: space-between;
-      width: 80%;
-      margin: 0 auto;
-    }
-
-    .read-more-program {
-      &:last-child{
-        display: none;
-        @media #{$tablet} {
-          display: block;
-        }
-      }
-      width: 45%;
-      @media #{$tablet} {
-        width: 30%;
-      }
-    }
-
-    .centered {
-      margin: 0 auto;
-      text-align: center;
-    }
-  
   }
+  .read-more__title {
+    font-size: 1rem;
+    @media #{$tablet} {
+      font-size: 1.25rem;
+    }
+  }
+  .read-more {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .read-more-program {
+    &:last-child{
+      display: none;
+      @media #{$tablet} {
+        display: block;
+      }
+    }
+    width: 45%;
+    @media #{$tablet} {
+      width: 30%;
+    }
+  }
+  .centered {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+}
 
 
   

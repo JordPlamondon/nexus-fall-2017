@@ -26,6 +26,7 @@
       // autoplay:true,
       autoplayTimeout:5000,
       autoplayHoverPause:true,
+      lazyLoad: true,
       navText: ['<', '>'],
       responsiveClass: true,
       responsive:{

@@ -144,18 +144,19 @@ remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
 // 	return ($content);
 // }
 
-if (!function_exists('chop_string')) {
-	function chop_string($str, $len) {
-			if (strlen($str) < $len)
-					return $str;
+
+// if (!function_exists('chop_string')) {
+// 	function chop_string($str, $len) {
+// 			if (strlen($str) < $len)
+// 					return $str;
 	
-			$str = substr($str,0,$len);
-			if ($spc_pos = strrpos($str," "))
-							$str = substr($str,0,$spc_pos);
+// 			$str = substr($str,0,$len);
+// 			if ($spc_pos = strrpos($str," "))
+// 							$str = substr($str,0,$spc_pos);
 	
-			return $str . "Read more...";
-	}   
-	}
+// 			return $str . "Read more...";
+// 	}   
+// }
 
 
 //Faq Single h1 Title first word select function

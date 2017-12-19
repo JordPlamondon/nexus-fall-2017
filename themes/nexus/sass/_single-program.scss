@@ -136,7 +136,9 @@
 
   .strong-side {
     flex-basis: 55%;
-    margin-left: 1rem;
+    @media #{$desktop} {
+      margin: 0 2rem;
+    }
   }
 
   .school-media {
@@ -198,6 +200,7 @@
   }
 
   .single-program-header {
+    margin: 0;
     position: relative;
     text-align: center;
     @media #{$tablet-test} {

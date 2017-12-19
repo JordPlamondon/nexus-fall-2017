@@ -376,7 +376,7 @@
   height: 195px;
   background-color: $color__textbox-background;
   @media #{$desktop} {
-    height: 360px; 
+    height: 300px; 
   }
   .front-journey-h2 {
     font-size: 24px;
@@ -390,7 +390,7 @@
     padding-bottom: 5px;
     @media #{$desktop} {
       top: 50px;
-      font-size: 60px;
+      font-size: 46px;
       font-weight: 600;
       padding-bottom: 30px;
     }

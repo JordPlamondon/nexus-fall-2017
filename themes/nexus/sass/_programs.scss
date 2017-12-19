@@ -84,16 +84,16 @@
     justify-content: space-around;
     align-items: center;
     @media #{$tablet-test} {
-      margin-top: 55px;
+      margin-top: 30px;
     }
     @media #{$tablet} {
       flex-direction: row;
       justify-content: flex-start;
       max-width: 750px;
-      margin-top: 80px;
+      margin-top: 30px;
       margin-left: 80px;
       padding-left: 60px;
-      padding-top: 65px;
+      padding-top: 165px;
     }
   }
 
@@ -179,10 +179,10 @@
     margin-bottom: 34px;
     @media #{$tablet-test} {
       text-align: left;
-      font-size: 3rem;
+      font-size: 4rem;
       margin-top: 0;
       margin-bottom: 0;
-      color: $color__text-main;
+      color: $color__footer-background;
     }
   }
 

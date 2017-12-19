@@ -1,23 +1,22 @@
 # Nexus Intercambio
 Welcome to the home of Nexus! 
 
-Nexus is built on Wordpress, which will offer a huge amount of customization, and content. The trade off for this is that there are several categories that need to have data and media entered 
-
-
-This site contains several custom post types and taxonomy. Please reference the below guide to locate the correct place to enter updates and edit pictures, posts, and text.
+Nexus is built on Wordpress, which will offer a huge amount of customization, and content. The trade off for this is that there are several categories that need to have data and media entered. This document will list all of these catagories and where to edit them.
 
 http://nexus.van.cp.academy.red/
-
 
 ### 1. Front Page
 
 ![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/home-readme.png)
 
 The front page provides several different streams of information. 
-There are ## post types editable in the backend. Below are the locations they show up on the page, as well as where to edit them in the Wordpress Dashboard.
+There are 2 post types editable in the backend. Below are the locations they show up on the page, as well as where to edit them in the Wordpress Dashboard.
 
-####
-####
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/country-readme.png)
+
+Front Page Carousel : This is the 'Why Canada?' image scroll. It can be edited in the backend under 'Front Page Carousel'.
+
+Student Quotes: The quote bar at the bottom. Edit in Student Reviews.
 
 
 ### 2. Blog Page 
@@ -26,19 +25,19 @@ There are ## post types editable in the backend. Below are the locations they sh
 
 The blog is the main hub for articles to post and update. All of the content is produced on the WP backend. The comments are contained in the SQL database. The locations to edit are :
 
-
-####
-####
-
+Blog Quotes and movies: Edit in Posts.
 
 ### 3. Program Page
 ![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/program-readme.png)
 
 The program page is organized by course and location. All editable in the backend. Location are as follows:
 
+Programs: Programs post type   - The programs need to have city names and school names included in the post form. The name must be exactly the same as the City and School post type for them to interact.
 
-####
-####
+Schools: Schools post type
+
+Cities: Cities post type
+
 
 ### 4. About Page
 ![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/about-readme.png)
@@ -56,15 +55,22 @@ Instructors: Line 74 about.php
 
 The contact page can be redirected in the backend. Look to the 'Mail' tab in Form 1 under the Contacts tab in Wordpress.
 
-### 6. Country wheel
+### 6. FAQ
 
-![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/country-readme.png)
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/faq-readme.png)
 
-This wheel can be updated in the following locations:
+The FAQ included 6 main categories, which each have 5 sub-categories. 
 
-###
+The Main category is edited in FAQs.
+Within each category listing are the 5 sub categories. Each of these has an input for Title, Descripton, Image and Image Caption.
 
+### 6. Book Consult
 
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/consult-readme.png)
+
+The book consult page sends all data gathered to rafael@nexusintercambio.com.br.
+
+To change this, use Contact -> Book Consult -> Mail tab
 
 
 

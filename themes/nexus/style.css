@@ -3907,7 +3907,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -5164,7 +5164,6 @@ div#id.hfeed.site {
     color: white;
     letter-spacing: 1pt; }
 
-<<<<<<< HEAD
 .single-post .about-journey {
   height: 195px;
   background-color: #F3F5F8; }
@@ -5245,10 +5244,6 @@ div#id.hfeed.site {
 
 /*--------------------------------------------------------------
 # 404 Not Found
-=======
-/*--------------------------------------------------------------
-# 404 Not Found
->>>>>>> a9c0c1b9a1920ffb1a00b27da418a9ffa9e91763
 --------------------------------------------------------------*/
 fieldset {
   max-width: 260px;
@@ -5358,7 +5353,6 @@ div.return-home {
   border-bottom: 3px solid #FF8A2A; }
 
 .page-template-consult .consult-wrapper {
-  width: 80vw;
   height: 1000px;
   margin: 0 auto;
   margin-bottom: 24px;
@@ -5372,26 +5366,25 @@ div.return-home {
 .page-template-consult .consult-form {
   display: inline-block;
   width: 80%;
+  height: 100%;
   margin: 0 auto;
   text-align: left;
   font-size: 16px; }
-  @media all and (min-width: 450px) {
+  @media all and (min-width: 850px) {
     .page-template-consult .consult-form {
-      width: 50%; } }
+      width: 80%; } }
   .page-template-consult .consult-form input {
     display: inline-block;
     height: 44px;
-    width: 100%; }
+    width: 90%; }
   .page-template-consult .consult-form input:hover {
-    background-color: #eeeeee; }
-  .page-template-consult .consult-form label:hover {
-    font-size: 18px; }
-  .page-template-consult .consult-form textarea {
-    width: 100%; }
+    background-color: #cecece; }
   .page-template-consult .consult-form .wpcf7-submit {
     width: 175px;
     height: 40px;
     padding: 0;
+    position: relative;
+    top: 50px;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
             box-shadow: none;

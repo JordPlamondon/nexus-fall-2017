@@ -142,9 +142,8 @@
                 $review_image = wp_get_attachment_url ( get_post_thumbnail_id($post_id), 'thumbnail' );
                 ?>
 
-            		<div class="header-wrapper">
-            			<h2 class="single-program-header centered"> Student Review </h2>
-                    </div>
+            		
+            	    <h2 class="single-program-header-centered center-fix"> Student Review </h2>
                 
                 	<div class="student-review__box">
                         <div class="student-review__box__image">
@@ -171,7 +170,7 @@
 	    	<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
     </div> <!-- main content wrapper -->
 
-    <h2 class="single-program-header centered">You Might Also Like</h2>   
+    <h2 class="single-program-header-centered">You Might Also Like</h2>   
      <section class="read-more">
         
         <?php $terms = wp_get_post_terms( $post->ID, 'program_type' ); ?>

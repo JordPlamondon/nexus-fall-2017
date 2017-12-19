@@ -3804,7 +3804,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -4792,6 +4792,9 @@ body.blog {
   display: flex; }
   .blog-cats li {
     margin: 20px; }
+  .blog-cats img {
+    height: 224.89px;
+    width: 31vw; }
 
 .blog-text button.read-more {
   letter-spacing: 1pt;

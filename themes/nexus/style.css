@@ -2648,7 +2648,7 @@ body.page-template-archive-nexus_program main {
       background: #bf1328; }
 
 div.banner-faq-single {
-  height: 37vh;
+  height: 44.5vh;
   width: 100vw;
   background-image: url("../../assets/images/wade-gardner-26236.jpg");
   background-size: 100% 100%;
@@ -2656,7 +2656,7 @@ div.banner-faq-single {
   margin-top: -65px; }
   @media all and (min-width: 950px) {
     div.banner-faq-single {
-      height: 40vh;
+      height: 50.5vh;
       margin-top: 30px; } }
   div.banner-faq-single .faq-single-title {
     position: relative;
@@ -2670,7 +2670,7 @@ div.banner-faq-single {
     top: 130px; }
     @media all and (min-width: 950px) {
       div.banner-faq-single .faq-single-title {
-        top: 200px;
+        top: 110px;
         font-size: 70px;
         padding-bottom: 10px; } }
     div.banner-faq-single .faq-single-title .title-span {

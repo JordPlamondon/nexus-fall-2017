@@ -122,10 +122,15 @@
           }
 
           img {
-            min-width: 103px;
+            min-width: 103px; 
             @media #{$desktop} {
               width: 26.8vw;
               transform:  scale(1.7); 
+            }
+            @media all and (min-width: 1250px) {
+              transform: scale(1.2);
+              position: relative;
+              left: 20px;  
             }
           }
         }

@@ -2765,6 +2765,13 @@ aside.widget.widget_text {
     width: 99px;
     border-bottom: 3px solid #FF8A2A; } }
 
+/*
+
+,
+  div.footer__social-media-container h2:after,
+  div.footer__why-nexus h2:after
+
+  */
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
   height: 37vh;
   width: 100vw;
@@ -2900,6 +2907,12 @@ aside.widget.widget_text {
           width: 26.8vw;
           -webkit-transform: scale(1.7);
                   transform: scale(1.7); } }
+      @media all and (min-width: 1250px) {
+        .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
+          -webkit-transform: scale(1.2);
+                  transform: scale(1.2);
+          position: relative;
+          left: 20px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
       left: 40px;

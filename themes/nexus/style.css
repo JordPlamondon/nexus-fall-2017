@@ -5095,9 +5095,10 @@ div.return-home {
     font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 950px) {
       .student-review .student-review__info-wrapper .student-review__info {
-        font-size: 1.2rem; } }
+        line-height: 1.25;
+        font-size: 1.15rem; } }
     .student-review .student-review__info-wrapper .student-review__info .quote-content div, .student-review .student-review__info-wrapper .student-review__info p {
-      width: 80%;
+      width: 90%;
       margin: 0 auto; }
     .student-review .student-review__info-wrapper .student-review__info .oquote {
       color: #FFBC4A; }

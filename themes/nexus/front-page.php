@@ -246,7 +246,7 @@ get_header(); ?>
 <!-- Student Review -->
 			<section class="student-review">
 				<div class="headergroup">
-					<h2 class="student-review-header"> Student Review </h2>
+					<h2 class="student-review-header"> Student's Review </h2>
 					<div class="underline"></div>
 				</div>
 				<?php $args = array( 'post_type' => 'nexus_reviews', 'orderby' => 'rand', 'posts_per_page' => 3, ); $query = new WP_Query( $args );?>
@@ -270,17 +270,6 @@ get_header(); ?>
     				    wp_reset_query();?>
 					</div> <!-- carousel -->
 					
-			<!-- </section>
-			<section class="start-journey">
-				<div class="headergroup">
-					<h2 class="start-journey__header">Start your journey</h2>
-					<div class="underline"></div>
-				</div>
-				<h3 class="start-journey__subheader">Let us help you find your path to success</h3>
-
-				<button class="start-journey__button">Book Consult</button>
-			</section> -->
-			
 			<div class="front-journey">
       		<h2 class="front-journey-h2">Start Your Journey<h2><br>
 					<div class="journey-text">

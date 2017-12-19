@@ -1116,12 +1116,11 @@ a {
       display: -ms-flexbox;
       display: flex;
       height: 800px;
-      width: 1240px;
       margin: 0 auto;
       margin-top: -44px;
-      margin-bottom: -94px;
+      margin-bottom: 50px;
       background: url("../../assets/images/map_nexus01@3x.png");
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat; }
       .home .choose-province-wrapper .fa {
         color: #8C8C8C; }
@@ -1129,29 +1128,29 @@ a {
         color: #E91C35; }
       .home .choose-province-wrapper .bc {
         position: relative;
-        left: 130px;
-        top: 390px;
+        left: 212px;
+        top: 560px;
         color: #8C8C8C; }
       .home .choose-province-wrapper .ab {
         position: relative;
-        left: 190px;
-        top: 360px; }
+        left: 275px;
+        top: 475px; }
       .home .choose-province-wrapper .sk {
         position: relative;
-        left: 230px;
-        top: 410px; }
+        left: 350px;
+        top: 510px; }
       .home .choose-province-wrapper .man {
         position: relative;
-        left: 290px;
-        top: 430px; }
+        left: 440px;
+        top: 570px; }
       .home .choose-province-wrapper .on {
         position: relative;
-        left: 410px;
-        top: 420px; }
+        left: 660px;
+        top: 710px; }
       .home .choose-province-wrapper .qc {
         position: relative;
-        left: 500px;
-        top: 400px; }
+        left: 670px;
+        top: 620px; }
       .home .choose-province-wrapper .bc:hover > .bc-text {
         display: block; }
       .home .choose-province-wrapper .ab:hover > .ab-text {
@@ -2425,7 +2424,7 @@ body.page-template-archive-nexus_program main {
   position: relative;
   padding: 0;
   bottom: 115px;
-  right: 25px; }
+  right: 20px; }
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
       width: 74px;
@@ -2441,7 +2440,7 @@ body.page-template-archive-nexus_program main {
   -webkit-box-shadow: 0px 13px #F3F5F8;
           box-shadow: 0px 13px #F3F5F8;
   padding-top: 13px;
-  width: 100.3vw;
+  width: 100vw;
   right: 3.5vw;
   position: relative; }
   @media all and (min-width: 950px) {
@@ -2515,7 +2514,7 @@ body.page-template-archive-nexus_program main {
           top: 270px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
-      left: 40px;
+      left: 20px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2532,7 +2531,7 @@ body.page-template-archive-nexus_program main {
       position: relative;
       top: 15px;
       color: #15405A;
-      right: 25px; }
+      right: 20px; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
           position: relative;
@@ -2548,7 +2547,7 @@ body.page-template-archive-nexus_program main {
       font-size: 14px;
       font-weight: 100;
       color: #15405A;
-      right: 25px; }
+      right: 20px; }
       @media all and (min-width: 650px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
           font-size: 18px; } }
@@ -2654,13 +2653,14 @@ body.page-template-archive-nexus_program main {
 div.banner-faq-single {
   height: 37vh;
   width: 100vw;
-  background-image: url("../../assets/images/living_no_canada@3x.png");
+  background-image: url("../../assets/images/wade-gardner-26236.jpg");
   background-size: 100% 100%;
   margin-bottom: 24px;
   margin-top: -65px; }
   @media all and (min-width: 950px) {
     div.banner-faq-single {
-      height: 70vh; } }
+      height: 70vh;
+      margin-top: 0; } }
   div.banner-faq-single .faq-single-title {
     position: relative;
     text-align: center;

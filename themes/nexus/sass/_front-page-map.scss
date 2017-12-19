@@ -1,16 +1,16 @@
 .home {
+
 // Map Icons
   .choose-province-wrapper {
     display: none;
     @media #{$desktop} {
       display: flex; 
       height: 800px;  
-      width: 1240px;
       margin: 0 auto;
       margin-top: -44px;
-      margin-bottom: -94px;
+      margin-bottom: 50px;
       background: url('../../assets/images/map_nexus01@3x.png');
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       .fa {
         color:$color__quoteform-x; 
@@ -20,34 +20,34 @@
       }
       .bc {
         position: relative;
-        left: 130px;
-        top: 390px;
+        left: 212px;
+        top: 560px;
         color:$color__quoteform-x;
       }
       .ab {
         position: relative;
-        left: 190px;
-        top: 360px; 
+        left: 275px;
+        top: 475px; 
       }
       .sk {
         position: relative;
-        left: 230px;
-        top: 410px;
+        left: 350px;
+        top: 510px;
       }
       .man {
         position: relative;
-        left: 290px;
-        top: 430px;
+        left: 440px;
+        top: 570px;
       }
       .on {
         position: relative;
-        left: 410px;
-        top: 420px;
+        left: 660px;
+        top: 710px;
       }
       .qc {
         position: relative;
-        left: 500px;
-        top: 400px;
+        left: 670px;
+        top: 620px;
       }
       .bc:hover > .bc-text {
           display: block;

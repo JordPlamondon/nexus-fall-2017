@@ -1699,6 +1699,7 @@ a {
         width: 50%;
         margin: 0; } }
   .home .why-canada .carouselplaceholder__content-wrapper {
+    overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3709,6 +3710,9 @@ nav.main-navigation:hover {
             align-items: center; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .select-form-wrapper, .tax-provinces .select-form-wrapper {
+        margin-top: 55Rpx; } }
+    @media all and (min-width: 850px) {
+      .page-template-archive-nexus_program .select-form-wrapper, .tax-provinces .select-form-wrapper {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
@@ -3717,6 +3721,8 @@ nav.main-navigation:hover {
             -ms-flex-pack: start;
                 justify-content: flex-start;
         max-width: 750px;
+        margin-top: 40px;
+        margin-left: 40px;
         padding-left: 60px;
         padding-top: 65px; } }
   .page-template-archive-nexus_program .select-form-wrapper-searched, .tax-provinces .select-form-wrapper-searched {
@@ -3782,7 +3788,7 @@ nav.main-navigation:hover {
     margin-bottom: 0.75rem; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-image, .tax-provinces .program-image {
-        max-height: 240px; } }
+        max-height: 220px; } }
     .page-template-archive-nexus_program .program-image img, .tax-provinces .program-image img {
       max-width: none;
       width: auto; }
@@ -4098,12 +4104,12 @@ nav.main-navigation:hover {
   font-size: 12px;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  line-height: 2rem;
+  line-height: 2.2rem;
   color: #123048;
   height: 38px; }
   @media all and (min-width: 450px) {
     .selectric .label {
-      font-size: 25px; } }
+      font-size: 1.2rem; } }
 
 .selectric .button {
   background: #E91C35;
@@ -4302,7 +4308,7 @@ nav.main-navigation:hover {
     margin-bottom: 0; }
   @media all and (min-width: 950px) {
     .single-nexus_program .main-content-wrapper {
-      margin-left: 10%; } }
+      margin: 0 auto 0 10%; } }
   .single-nexus_program .owl-dots {
     display: none; }
     @media all and (min-width: 950px) {
@@ -4391,7 +4397,7 @@ nav.main-navigation:hover {
     line-height: 1.75;
     text-align: center;
     color: #14304A;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 950px) {
       .single-nexus_program .single-program-content {
         font-size: 1.5rem;
@@ -4489,6 +4495,10 @@ nav.main-navigation:hover {
     @media all and (min-width: 450px) {
       .single-nexus_program .single-program-header {
         font-size: 2rem; } }
+    @media all and (min-width: 950px) {
+      .single-nexus_program .single-program-header {
+        text-align: left;
+        font-size: 3rem; } }
     .single-nexus_program .single-program-header:after {
       content: "";
       position: absolute;
@@ -4591,6 +4601,11 @@ nav.main-navigation:hover {
         visibility: visible;
         height: 60px;
         border-right: 3px solid #ff8a2a; } }
+  .single-nexus_program .read-more__title {
+    font-size: 1rem; }
+    @media all and (min-width: 850px) {
+      .single-nexus_program .read-more__title {
+        font-size: 1.25rem; } }
   .single-nexus_program .read-more {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5259,17 +5274,11 @@ div.return-home {
       margin: 0;
       -ms-flex-preferred-size: 80%;
           flex-basis: 80%; } }
-  @media all and (min-width: 950px) {
-    .student-review .student-review__info-wrapper .student-review__info {
-      padding: 0 20px; } }
   .student-review .student-review__info-wrapper .student-review__info p {
-    width: 50%;
-    padding-left: 3rem;
-    margin: 0 auto;
-    font-size: 2.3vw; }
+    width: 80%;
+    margin: 0 auto; }
   .student-review .student-review__info-wrapper .student-review__info .oquote {
-    color: #FFBC4A;
-    font-size: 2vw; }
+    color: #FFBC4A; }
   .student-review .student-review__info-wrapper .student-review__info .cquote {
     width: 30px;
     margin: 0 0 0 auto;
@@ -5281,8 +5290,7 @@ div.return-home {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    color: #FFBC4A;
-    font-size: 2vw; }
+    color: #FFBC4A; }
 
 .student-review .grey {
   background: #F3F5F8;

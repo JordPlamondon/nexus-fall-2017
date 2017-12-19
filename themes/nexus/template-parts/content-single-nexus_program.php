@@ -9,7 +9,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     
-
     <section class="single-program-container">
         
         <h2><?php echo get_post_meta($post->ID, '_nexus_program_school', true); ?></h2>

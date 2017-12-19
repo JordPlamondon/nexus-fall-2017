@@ -40,11 +40,11 @@
   font-size: 12px;
   font-family: $font__accent;
   font-weight: bold;
-  line-height: 2rem;
+  line-height: 2.2rem;
   color: $color__text-main;
   height: 38px;
   @media #{$tablet-test} {
-    font-size: 25px;
+    font-size: 1.2rem;
   }
 }
 

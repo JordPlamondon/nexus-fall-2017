@@ -1699,6 +1699,7 @@ a {
         width: 50%;
         margin: 0; } }
   .home .why-canada .carouselplaceholder__content-wrapper {
+    overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2521,7 +2522,17 @@ aside.widget.widget_text {
     .footer__contact a,
     .footer__office a {
       margin-left: 0px; }
-  .underline.footer {
+  div.footer__contact h2 {
+    position: relative; }
+    div.footer__contact h2::after {
+      content: "";
+      position: absolute;
+      top: 50px;
+      left: 100px;
+      padding-top: 10px;
+      width: 49px;
+      border-bottom: 3px solid #FF8A2A; }
+  div.footer__social-media-container .underline.footer {
     margin: auto;
     width: 49px;
     border-bottom: 3px solid #FF8A2A; } }
@@ -2588,17 +2599,27 @@ aside.widget.widget_text {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 3.5rem; }
+    margin-top: 10px; }
     div.socialmedia-container img {
       height: 45px;
       width: 45px;
       padding: 0 0px 0 0px;
       margin: 0 10px;
       max-width: 100px; }
-  .underline.footer {
-    padding-top: 10px;
-    width: 74px;
-    border-bottom: 3px solid #FF8A2A; } }
+  div.footer__contact h2,
+  div.footer__social-media-container h2 {
+    position: relative; }
+    div.footer__contact h2::after,
+    div.footer__social-media-container h2::after {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      padding-top: 10px;
+      width: 74px;
+      border-bottom: 3px solid #FF8A2A; }
+  div.widget_info_contain.one {
+    margin-top: 32px; } }
 
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
 /**************  NAV FOOTER MEDIA BREAK  ****************************/
@@ -2768,7 +2789,8 @@ aside.widget.widget_text {
   section.footer_contact_info {
     width: 220px; }
   .footer__why-nexus p {
-    margin-top: 16px; }
+    margin-top: 32px;
+    width: 300px; }
   div.socialmedia-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2782,25 +2804,32 @@ aside.widget.widget_text {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 3.5rem; }
+    margin-top: 10px; }
     div.socialmedia-container img {
       height: 45px;
       width: 45px;
       padding: 0 0px 0 0px;
       margin: 0 10px;
       max-width: 100px; }
-  .underline.footer {
-    padding-top: 10px;
-    width: 99px;
-    border-bottom: 3px solid #FF8A2A; } }
+  div.footer__contact h2,
+  div.footer__social-media-container h2,
+  div.footer__why-nexus h2 {
+    position: relative; }
+    div.footer__contact h2::after,
+    div.footer__social-media-container h2::after,
+    div.footer__why-nexus h2::after {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      padding-top: 10px;
+      width: 99px;
+      border-bottom: 3px solid #FF8A2A; }
+  div.widget_info_contain.one {
+    margin-top: 32px; }
+  div.footer__social-media {
+    padding-bottom: 20px; } }
 
-/*
-
-,
-  div.footer__social-media-container h2:after,
-  div.footer__why-nexus h2:after
-
-  */
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
   height: 37vh;
   width: 100vw;
@@ -2936,6 +2965,12 @@ aside.widget.widget_text {
           width: 26.8vw;
           -webkit-transform: scale(1.7);
                   transform: scale(1.7); } }
+      @media (min-width: 1250px) {
+        .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
+          -webkit-transform: scale(1.2);
+                  transform: scale(1.2);
+          position: relative;
+          left: 30px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
       left: 40px;
@@ -3586,7 +3621,7 @@ nav.main-navigation:hover {
         font-size: 21px; }
       .full-screen-links .book-consult-header:hover {
         color: #7bb2de; } }
-  @media all and (min-width: 1250px) {
+  @media (min-width: 1250px) {
     .full-screen-links {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3672,7 +3707,7 @@ nav.main-navigation:hover {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 50vh;
+      height: 40vh;
       width: 100vw;
       min-width: 350px;
       background-image: url("../../assets/images/blog@3x.png");
@@ -3740,6 +3775,9 @@ nav.main-navigation:hover {
             align-items: center; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .select-form-wrapper, .tax-provinces .select-form-wrapper {
+        margin-top: 55px; } }
+    @media all and (min-width: 850px) {
+      .page-template-archive-nexus_program .select-form-wrapper, .tax-provinces .select-form-wrapper {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
@@ -3748,11 +3786,14 @@ nav.main-navigation:hover {
             -ms-flex-pack: start;
                 justify-content: flex-start;
         max-width: 750px;
+        margin-top: 40px;
+        margin-left: 40px;
         padding-left: 60px;
         padding-top: 65px; } }
   .page-template-archive-nexus_program .select-form-wrapper-searched, .tax-provinces .select-form-wrapper-searched {
     padding: 0;
     margin-top: 2rem;
+    margin-left: 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -3813,7 +3854,7 @@ nav.main-navigation:hover {
     margin-bottom: 0.75rem; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-image, .tax-provinces .program-image {
-        max-height: 240px; } }
+        max-height: 220px; } }
     .page-template-archive-nexus_program .program-image img, .tax-provinces .program-image img {
       max-width: none;
       width: auto; }
@@ -4134,12 +4175,12 @@ nav.main-navigation:hover {
   font-size: 12px;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  line-height: 2rem;
+  line-height: 2.2rem;
   color: #123048;
   height: 38px; }
   @media all and (min-width: 450px) {
     .selectric .label {
-      font-size: 25px; } }
+      font-size: 1.2rem; } }
 
 .selectric .button {
   background: #E91C35;
@@ -4338,7 +4379,7 @@ nav.main-navigation:hover {
     margin-bottom: 0; }
   @media all and (min-width: 950px) {
     .single-nexus_program .main-content-wrapper {
-      margin-left: 10%; } }
+      margin: 0 auto 0 10%; } }
   .single-nexus_program .owl-dots {
     display: none; }
     @media all and (min-width: 950px) {
@@ -4427,7 +4468,7 @@ nav.main-navigation:hover {
     line-height: 1.75;
     text-align: center;
     color: #14304A;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 950px) {
       .single-nexus_program .single-program-content {
         font-size: 1.5rem;
@@ -4467,8 +4508,10 @@ nav.main-navigation:hover {
         margin-left: 1rem; } }
   .single-nexus_program .strong-side {
     -ms-flex-preferred-size: 55%;
-        flex-basis: 55%;
-    margin-left: 1rem; }
+        flex-basis: 55%; }
+    @media all and (min-width: 950px) {
+      .single-nexus_program .strong-side {
+        margin: 0 2rem; } }
   .single-nexus_program .school-media {
     max-width: -webkit-max-content;
     max-width: -moz-max-content;
@@ -4520,11 +4563,16 @@ nav.main-navigation:hover {
           border-bottom: 6px solid #FF8A2A;
           width: 144px; } }
   .single-nexus_program .single-program-header {
+    margin: 0;
     position: relative;
     text-align: center; }
     @media all and (min-width: 450px) {
       .single-nexus_program .single-program-header {
         font-size: 2rem; } }
+    @media all and (min-width: 950px) {
+      .single-nexus_program .single-program-header {
+        text-align: left;
+        font-size: 3rem; } }
     .single-nexus_program .single-program-header:after {
       content: "";
       position: absolute;
@@ -4627,6 +4675,11 @@ nav.main-navigation:hover {
         visibility: visible;
         height: 60px;
         border-right: 3px solid #ff8a2a; } }
+  .single-nexus_program .read-more__title {
+    font-size: 1rem; }
+    @media all and (min-width: 850px) {
+      .single-nexus_program .read-more__title {
+        font-size: 1.25rem; } }
   .single-nexus_program .read-more {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4719,6 +4772,7 @@ body.blog {
     text-align: center;
     padding-bottom: 5px;
     top: 140px;
+    text-transform: uppercase;
     color: #15405A; }
     @media all and (min-width: 950px) {
       body.blog .blog-wrapper .title-wrapper h1 {
@@ -4739,7 +4793,7 @@ body.blog {
         width: 144px; } }
   @media all and (min-width: 950px) {
     body.blog .blog-wrapper .blog-page {
-      margin-bottom: 50px; } }
+      margin-bottom: 100px; } }
   body.blog .blog-wrapper .blog-page ul {
     position: relative;
     right: 15px;
@@ -4768,7 +4822,8 @@ body.blog {
       color: #15405A; }
       @media all and (min-width: 950px) {
         body.blog .blog-wrapper .blog-page li p {
-          line-height: 40px; } }
+          line-height: 40px;
+          font-size: 20px; } }
     body.blog .blog-wrapper .blog-page li .blog-title {
       color: #15405A; }
   body.blog .blog-wrapper .blog-page .video-posts-li:nth-of-type(-n+3) button.read-more {
@@ -4852,7 +4907,17 @@ body.blog {
       margin: 0; }
       @media all and (min-width: 950px) {
         body.blog .blog-cats li {
-          margin: 20px; } }
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          margin: 15px; } }
       body.blog .blog-cats li .blog-title {
         position: relative;
         bottom: 10px;
@@ -4860,12 +4925,16 @@ body.blog {
         font-size: 18px; }
         @media all and (min-width: 950px) {
           body.blog .blog-cats li .blog-title {
-            font-size: 27px; } }
+            height: 78px;
+            text-align: left;
+            font-size: 26px; } }
       body.blog .blog-cats li .blog-content {
         display: none; }
         @media all and (min-width: 950px) {
           body.blog .blog-cats li .blog-content {
-            display: inline-block; } }
+            display: inline-block;
+            position: relative;
+            bottom: 20px; } }
     body.blog .blog-cats img {
       width: 92vw; }
       @media all and (min-width: 950px) {
@@ -5376,37 +5445,34 @@ div.return-home {
   background-color: #F3F5F8;
   margin-top: 0;
   width: 100%;
-  font-weight: bold;
   position: relative; }
   @media all and (min-width: 950px) {
     .student-review .student-review__info-wrapper {
       margin: 0;
       -ms-flex-preferred-size: 80%;
           flex-basis: 80%; } }
-  @media all and (min-width: 950px) {
-    .student-review .student-review__info-wrapper .student-review__info {
-      padding: 0 20px; } }
-  .student-review .student-review__info-wrapper .student-review__info p {
-    width: 50%;
-    padding-left: 3rem;
-    margin: 0 auto;
-    font-size: 2.3vw; }
-  .student-review .student-review__info-wrapper .student-review__info .oquote {
-    color: #FFBC4A;
-    font-size: 2vw; }
-  .student-review .student-review__info-wrapper .student-review__info .cquote {
-    width: 30px;
-    margin: 0 0 0 auto;
-    position: relative;
-    bottom: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    color: #FFBC4A;
-    font-size: 2vw; }
+  .student-review .student-review__info-wrapper .student-review__info {
+    font-family: 'Raleway', sans-serif; }
+    .student-review .student-review__info-wrapper .student-review__info .quote-content div, .student-review .student-review__info-wrapper .student-review__info p {
+      width: 80%;
+      margin: 0 auto; }
+    .student-review .student-review__info-wrapper .student-review__info .oquote {
+      color: #FFBC4A; }
+    .student-review .student-review__info-wrapper .student-review__info .cquote {
+      width: 30px;
+      margin: 0 0 0 auto;
+      position: relative;
+      bottom: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      color: #FFBC4A; }
+
+.student-review .oquote i, .student-review .cquote i {
+  font-size: 2rem; }
 
 .student-review .grey {
   background: #F3F5F8;

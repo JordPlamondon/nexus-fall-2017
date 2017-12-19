@@ -2836,15 +2836,11 @@ aside.widget.widget_text {
       left: 0px;
       padding-top: 10px;
       width: 99px;
-<<<<<<< HEAD
-      border-bottom: 3px solid #FF8A2A; } }
-=======
       border-bottom: 3px solid #FF8A2A; }
   div.widget_info_contain.one {
     margin-top: 32px; }
   div.footer__social-media {
     padding-bottom: 20px; } }
->>>>>>> 367cdb0a94fb478b6ca9ecd0acd30643f6fab3a5
 
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
   height: 37vh;
@@ -2930,8 +2926,7 @@ aside.widget.widget_text {
           -ms-flex-pack: center;
               justify-content: center;
       right: 30px;
-      bottom: 50px;
-      padding-top: 120px; } }
+      margin-bottom: 150px; } }
   .page-template-taxonomy-nexus_faq .faq-wrapper ul li {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2948,7 +2943,8 @@ aside.widget.widget_text {
         width: 41.85vw;
         height: 609px;
         margin-left: 20px;
-        margin-right: 20px; } }
+        margin-right: 20px;
+        margin-top: 60px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li button.read-more {
       display: none; }
       @media all and (min-width: 950px) {
@@ -2973,22 +2969,6 @@ aside.widget.widget_text {
       @media all and (min-width: 1150px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li button.read-more {
           top: 270px; } }
-    @media all and (min-width: 950px) {
-      .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper {
-        overflow: hidden; } }
-    .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
-      min-width: 103px; }
-      @media all and (min-width: 950px) {
-        .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
-          width: 26.8vw;
-          -webkit-transform: scale(1.7);
-                  transform: scale(1.7); } }
-      @media (min-width: 1250px) {
-        .page-template-taxonomy-nexus_faq .faq-wrapper ul li .image-wrapper img {
-          -webkit-transform: scale(1.2);
-                  transform: scale(1.2);
-          position: relative;
-          left: 30px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
       left: 40px;
@@ -3002,7 +2982,7 @@ aside.widget.widget_text {
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
           position: relative;
-          bottom: 50px;
+          bottom: 80px;
           left: 20px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
       position: relative;
@@ -3017,7 +2997,7 @@ aside.widget.widget_text {
           font-size: 26px; } }
       @media all and (min-width: 1204px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
-          font-size: 41px; } }
+          font-size: 39px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
       position: relative;
       bottom: 6px;
@@ -3031,7 +3011,8 @@ aside.widget.widget_text {
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
           font-size: 18px;
-          top: 15px; } }
+          top: 15px;
+          right: 0; } }
       @media all and (min-width: 1150px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
           font-size: 23px;
@@ -3633,8 +3614,6 @@ nav.main-navigation:hover {
         font-weight: bold;
         text-decoration: none;
         font-size: 21px; }
-      .full-screen-links a:active {
-        color: red; }
       .full-screen-links .book-consult-header {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: bold;
@@ -3917,7 +3896,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -5175,7 +5154,6 @@ div#id.hfeed.site {
     color: white;
     letter-spacing: 1pt; }
 
-<<<<<<< HEAD
 .single-post .about-journey {
   height: 195px;
   background-color: #F3F5F8; }
@@ -5256,10 +5234,6 @@ div#id.hfeed.site {
 
 /*--------------------------------------------------------------
 # 404 Not Found
-=======
-/*--------------------------------------------------------------
-# 404 Not Found
->>>>>>> a9c0c1b9a1920ffb1a00b27da418a9ffa9e91763
 --------------------------------------------------------------*/
 fieldset {
   max-width: 260px;

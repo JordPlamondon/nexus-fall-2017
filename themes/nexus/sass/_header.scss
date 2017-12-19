@@ -92,9 +92,10 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+
     .current_page_item a {
       color: $color__text-accent;
-      }
+    }
   }
   nav.main-navigation:hover {
     transition: box-shadow .3s;
@@ -129,14 +130,7 @@
           text-decoration: none;
           font-size: 21px;
         }
-<<<<<<< HEAD
-       
-        
-=======
-        a:active {
-          color: red;
-        }
->>>>>>> 367cdb0a94fb478b6ca9ecd0acd30643f6fab3a5
+
         .book-consult-header {
           font-family: $font__main;
           font-weight: bold;

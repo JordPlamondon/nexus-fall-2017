@@ -66,9 +66,10 @@ get_header(); ?>
 
 </div>
 
-<!-- ###### Images, text, and links for Consultants.  ###### -->
+<!-- ###### Images, text, and links for Consultants.  ###### --> <h2>  Our Education Consultants</h2><br>
+<div class="consultant-wrapper">
 <div class="about-consultants">
-      <h2>  Our Education Consultants</h2><br>
+     
       <div class="underline"></div>
       <img alt="Photo of Rafael" src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/TeamMember01@2x.png" />
       <h3>Rafael Schafer Marques </h3>
@@ -86,7 +87,7 @@ get_header(); ?>
       <a href="mailto:carol@nexusintercambio.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a>
      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
 </div>
-
+</div>
 <!-- ######## Journy Hero  ###### -->
 <!-- <div class="about-journey">
       <h2> Start Your Journey<h2><br>

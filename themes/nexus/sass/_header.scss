@@ -29,7 +29,7 @@
         @media #{$header-mid} {
           height: 62px;
           margin-top: 24px;
-          min-width: 186px; 
+          min-width: 146px; 
           margin-left: 40px;
           background-image: url("../../assets/images/nexus_logo_04@2x.png");
           background-size: 100% 100%;
@@ -125,6 +125,9 @@
           font-weight: bold;
           text-decoration: none;
           font-size: 21px; 
+        }
+        a:active {
+          color: red;
         }
         .book-consult-header {
           font-family: $font__main;

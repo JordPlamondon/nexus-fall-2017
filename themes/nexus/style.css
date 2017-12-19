@@ -4278,6 +4278,31 @@ nav.main-navigation:hover {
     @media all and (min-width: 850px) {
       .single-nexus_program .read-more__title {
         font-size: 1.25rem; } }
+  .single-nexus_program .read-more__title__school {
+    text-transform: uppercase;
+    margin-top: 12px;
+    font-size: 0.75rem;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif; }
+    @media all and (min-width: 450px) {
+      .single-nexus_program .read-more__title__school {
+        font-size: 1.25rem;
+        margin-top: 22px; } }
+  .single-nexus_program .read-more__title__type {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif; }
+    @media all and (min-width: 450px) {
+      .single-nexus_program .read-more__title__type {
+        font-size: 1.25rem; } }
+  .single-nexus_program .read-more__title__program {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif; }
+    @media all and (min-width: 450px) {
+      .single-nexus_program .read-more__title__program {
+        margin: 10px 0;
+        font-size: 1.68rem; } }
   .single-nexus_program .read-more {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4286,7 +4311,7 @@ nav.main-navigation:hover {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 80%;
-    margin: 0 auto; }
+    margin: 0 auto 2rem auto; }
   .single-nexus_program .read-more-program {
     width: 45%; }
     .single-nexus_program .read-more-program:last-child {
@@ -5057,6 +5082,9 @@ div.return-home {
           flex-basis: 80%; } }
   .student-review .student-review__info-wrapper .student-review__info {
     font-family: 'Raleway', sans-serif; }
+    @media all and (min-width: 950px) {
+      .student-review .student-review__info-wrapper .student-review__info {
+        font-size: 1.2rem; } }
     .student-review .student-review__info-wrapper .student-review__info .quote-content div, .student-review .student-review__info-wrapper .student-review__info p {
       width: 80%;
       margin: 0 auto; }

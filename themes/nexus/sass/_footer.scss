@@ -144,10 +144,27 @@ aside.widget.widget_text {
       margin-left: 0px;
     }
   }
-  .underline.footer {
-    margin: auto;
-    width: 49px;
-    border-bottom: 3px solid $color__accent-underline;
+
+  div.footer__contact {    
+    h2 {
+      position: relative;
+      &::after {
+        content: ""; 
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        padding-top: 10px;
+        width: 49px;
+        border-bottom: 3px solid $color__accent-underline;
+      }
+    }
+  }  
+  div.footer__social-media-container {
+    .underline.footer {
+      margin: auto;
+      width: 49px;
+      border-bottom: 3px solid $color__accent-underline;
+    }
   }
 }
 
@@ -223,11 +240,22 @@ aside.widget.widget_text {
         max-width: 100px;
       }
     }
-    .underline.footer {
-      padding-top: 10px;
-      width: 74px;
-      border-bottom: 3px solid $color__accent-underline;
-    }
+    // div.footer__why-nexus
+    div.footer__contact,
+    div.footer__social-media-container {    
+      h2 {
+        position: relative;
+        &::after {
+          content: ""; 
+          position: absolute;
+          top: 30px;
+          left: 0px;
+          padding-top: 10px;
+          width: 74px;
+          border-bottom: 3px solid $color__accent-underline;
+        }
+      }
+    }  
   }
 }
 
@@ -401,25 +429,23 @@ aside.widget.widget_text {
       max-width: 100px;
     }
   }
-  .underline.footer {
-    padding-top: 10px;
-    width: 99px;
-    border-bottom: 3px solid $color__accent-underline;
+  div.footer__contact,
+  div.footer__social-media-container,
+  div.footer__why-nexus {
+    h2 {
+      position: relative;
+      &::after {
+        content: ""; 
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        padding-top: 10px;
+        width: 99px;
+        border-bottom: 3px solid $color__accent-underline;
+      }
+    }
   }
-
-//   div.footer__contact h2::after {
-//     content: ""; 
-//         padding-top: 10px;
-//         width: 99px;
-//         border-bottom: 3px solid $color__accent-underline;
-//         z-index: 1;
-//   }
 }
 
-/*
 
-,
-  div.footer__social-media-container h2:after,
-  div.footer__why-nexus h2:after
 
-  */

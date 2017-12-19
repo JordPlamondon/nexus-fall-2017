@@ -93,7 +93,7 @@
         $city_title = $queried_post->post_title;
         ?>
         <section>
-            <h2 class="single-program-header-city"><?php echo $city_title; ?></h2>
+            
             
             <div class="city-carousel owl-carousel owl-theme">
                 <?php
@@ -102,7 +102,7 @@
 	            $img = $title = $desc = ''; ?>
 
     	         <article class="city-container">
-
+                    <h2 class="single-program-header-city"><?php echo $city_title; ?></h2>
 		            <!-- description -->
 		            <?php
 		            	if ( isset( $entry['description'] ) ) {

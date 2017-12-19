@@ -1116,12 +1116,11 @@ a {
       display: -ms-flexbox;
       display: flex;
       height: 800px;
-      width: 1240px;
       margin: 0 auto;
       margin-top: -44px;
-      margin-bottom: -94px;
+      margin-bottom: 50px;
       background: url("../../assets/images/map_nexus01@3x.png");
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat; }
       .home .choose-province-wrapper .fa {
         color: #8C8C8C; }
@@ -1129,29 +1128,29 @@ a {
         color: #E91C35; }
       .home .choose-province-wrapper .bc {
         position: relative;
-        left: 130px;
-        top: 390px;
+        left: 212px;
+        top: 560px;
         color: #8C8C8C; }
       .home .choose-province-wrapper .ab {
         position: relative;
-        left: 190px;
-        top: 360px; }
+        left: 275px;
+        top: 475px; }
       .home .choose-province-wrapper .sk {
         position: relative;
-        left: 230px;
-        top: 410px; }
+        left: 350px;
+        top: 510px; }
       .home .choose-province-wrapper .man {
         position: relative;
-        left: 290px;
-        top: 430px; }
+        left: 440px;
+        top: 570px; }
       .home .choose-province-wrapper .on {
         position: relative;
-        left: 410px;
-        top: 420px; }
+        left: 660px;
+        top: 710px; }
       .home .choose-province-wrapper .qc {
         position: relative;
-        left: 500px;
-        top: 400px; }
+        left: 670px;
+        top: 620px; }
       .home .choose-province-wrapper .bc:hover > .bc-text {
         display: block; }
       .home .choose-province-wrapper .ab:hover > .ab-text {
@@ -2387,7 +2386,11 @@ body.page-template-archive-nexus_program main {
         bottom: 10vw; } }
 
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
+<<<<<<< HEAD
   height: 45vh;
+=======
+  height: 37vh;
+>>>>>>> a1ab7df0e9a8d484c9b73cd4e4a98750ba0e2c34
   width: 100vw;
   background-image: url("../../assets/images/sylwia-bartyzel-257.jpg");
   background-size: cover;
@@ -2397,7 +2400,12 @@ body.page-template-archive-nexus_program main {
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
       position: relative;
+<<<<<<< HEAD
       height: 64vh; } }
+=======
+      top: 65px;
+      height: 70vh; } }
+>>>>>>> a1ab7df0e9a8d484c9b73cd4e4a98750ba0e2c34
   .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image h1 {
     text-align: center;
     color: #123048;
@@ -2469,8 +2477,12 @@ body.page-template-archive-nexus_program main {
           -ms-flex-pack: center;
               justify-content: center;
       right: 35px;
+<<<<<<< HEAD
       margin-bottom: 150px;
       margin-top: -50px; } }
+=======
+      margin-bottom: 150px; } }
+>>>>>>> a1ab7df0e9a8d484c9b73cd4e4a98750ba0e2c34
   .page-template-taxonomy-nexus_faq .faq-wrapper ul li {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3927,7 +3939,7 @@ nav.main-navigation:hover {
       .single-nexus_program .owl-dots {
         display: block;
         position: relative;
-        bottom: 2.5rem;
+        bottom: -1.5rem;
         right: 0; } }
   .single-nexus_program .owl-nav {
     display: -webkit-box;
@@ -3962,6 +3974,7 @@ nav.main-navigation:hover {
   .single-nexus_program .owl-item:not(.active) img {
     display: none; }
   .single-nexus_program .city-container {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3975,8 +3988,8 @@ nav.main-navigation:hover {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
-        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6)));
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
         background-size: 65% 100%;
         background-position: center left;
         background-repeat: no-repeat;
@@ -4001,14 +4014,15 @@ nav.main-navigation:hover {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     width: 80%;
-    margin: 10px auto 0; }
+    margin: 10px auto 0;
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 950px) {
       .single-nexus_program .city-text {
         margin: 0;
         width: 50%;
         position: relative;
         top: 10rem;
-        left: 5rem; } }
+        font-size: 1.3rem; } }
     @media all and (min-width: 1240px) {
       .single-nexus_program .city-text {
         top: 12rem; } }
@@ -4020,11 +4034,12 @@ nav.main-navigation:hover {
     margin-top: 0;
     line-height: 1.75;
     text-align: center;
+    font-weight: 500;
     color: #14304A;
     font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 950px) {
       .single-nexus_program .single-program-content {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin: 0;
         text-align: left; } }
   .single-nexus_program .header-wrapper {
@@ -4051,8 +4066,8 @@ nav.main-navigation:hover {
         margin-top: 0; } }
   .single-nexus_program .left-side {
     height: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.4)));
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)); }
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); }
     @media all and (min-width: 950px) {
       .single-nexus_program .left-side {
         width: 55%;
@@ -4064,6 +4079,7 @@ nav.main-navigation:hover {
         flex-basis: 55%; }
     @media all and (min-width: 950px) {
       .single-nexus_program .strong-side {
+        max-width: 550px;
         margin: 0 2rem; } }
   .single-nexus_program .school-media {
     max-width: -webkit-max-content;
@@ -4100,8 +4116,9 @@ nav.main-navigation:hover {
         font-size: 2rem; } }
     @media all and (min-width: 950px) {
       .single-nexus_program .single-program-header-city {
-        left: 5rem;
-        top: 10rem;
+        margin: 0;
+        position: absolute;
+        top: 0;
         text-align: left;
         font-size: 3rem; } }
     .single-nexus_program .single-program-header-city:after {

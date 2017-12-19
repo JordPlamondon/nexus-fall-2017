@@ -72,7 +72,7 @@ get_header(); ?>
                 <h2 class="blog-title"><?php the_title(); ?></h2>
                 <div class="blog-content-button">
                   <div class="blog-content">
-                    <?php the_content(); ?>
+                    <?php echo chop_string(the_content(), 20); ?>
                   </div>
                   <a href="<?php the_permalink(); ?>" rel="blog title">
                   <div class="read-button">

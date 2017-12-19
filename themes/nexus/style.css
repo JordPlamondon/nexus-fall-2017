@@ -4092,6 +4092,19 @@ nav.main-navigation:hover {
     @media all and (min-width: 950px) {
       .single-nexus_program .single-program-title {
         font-size: 4rem; } }
+    .single-nexus_program .single-program-title:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 35%;
+      width: 49px;
+      margin-left: -24px;
+      border-bottom: 3px solid #FF8A2A; }
+      @media all and (min-width: 950px) {
+        .single-nexus_program .single-program-title:after {
+          border-bottom: 6px solid #FF8A2A;
+          width: 144px;
+          margin-left: -72px; } }
   .single-nexus_program .single-program-header-city {
     z-index: 10;
     position: relative;

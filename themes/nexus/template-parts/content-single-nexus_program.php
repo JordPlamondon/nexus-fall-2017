@@ -9,7 +9,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     
-    <section class="single-program-container">
+    <section class="single-program-hero">
 
         <?php $school_logo = get_post_meta($post->ID, '_nexus_program_school_logo', true); 
             

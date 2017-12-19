@@ -3972,8 +3972,8 @@ nav.main-navigation:hover {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
-        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6)));
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
         background-size: 65% 100%;
         background-position: center left;
         background-repeat: no-repeat;

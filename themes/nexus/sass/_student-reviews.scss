@@ -90,6 +90,7 @@
 
       font-family: 'Raleway', sans-serif;
       @media #{$desktop} {
+        font-size: 1.2rem;
       }
 
       .quote-content div, p {
@@ -108,7 +109,6 @@
         display: flex;
         justify-content: flex-end;
         color: $color__fp-quotes;        
-        
       }
     }
   }

@@ -1035,7 +1035,7 @@ a {
   background-color: #F3F5F8; }
   @media all and (min-width: 950px) {
     .front-journey {
-      height: 360px; } }
+      height: 300px; } }
   .front-journey .front-journey-h2 {
     font-size: 24px;
     text-align: center;
@@ -1049,7 +1049,7 @@ a {
     @media all and (min-width: 950px) {
       .front-journey .front-journey-h2 {
         top: 50px;
-        font-size: 60px;
+        font-size: 46px;
         font-weight: 600;
         padding-bottom: 30px; } }
   .front-journey .front-journey-h2:after {
@@ -1118,7 +1118,7 @@ a {
       height: 800px;
       margin: 0 auto;
       margin-top: -44px;
-      margin-bottom: 50px;
+      margin-bottom: 220px;
       background: url("../../assets/images/map_nexus01@3x.png");
       background-size: cover;
       background-repeat: no-repeat; }
@@ -1127,27 +1127,33 @@ a {
       .home .choose-province-wrapper .fa:hover {
         color: #E91C35; }
       .home .choose-province-wrapper .bc {
+        height: 70px;
         position: relative;
         left: 212px;
         top: 560px;
         color: #8C8C8C; }
       .home .choose-province-wrapper .ab {
+        height: 70px;
         position: relative;
         left: 275px;
         top: 475px; }
       .home .choose-province-wrapper .sk {
+        height: 70px;
         position: relative;
         left: 350px;
         top: 510px; }
       .home .choose-province-wrapper .man {
+        height: 70px;
         position: relative;
         left: 440px;
         top: 570px; }
       .home .choose-province-wrapper .on {
+        height: 70px;
         position: relative;
         left: 660px;
         top: 710px; }
       .home .choose-province-wrapper .qc {
+        height: 70px;
         position: relative;
         left: 670px;
         top: 620px; }
@@ -1185,7 +1191,7 @@ a {
   .home .choose-province__info {
     position: relative;
     left: 560px;
-    width: 220px;
+    width: 320px;
     font-size: 22px;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     top: 38px;
@@ -1799,8 +1805,9 @@ a {
   .home .curious {
     display: inline-block;
     position: relative;
-    top: 54%;
-    left: 28%; } }
+    top: 78%;
+    left: 28%;
+    height: 200px; } }
 
 .home .curious__subheader {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -2314,7 +2321,6 @@ body.page-template-archive-nexus_program main {
       bottom: 30px; }
       @media all and (min-width: 950px) {
         .page-template-about .about-journey p {
-          bottom: 50px;
           font-size: 24px;
           font-weight: 600; } }
     .page-template-about .about-journey .consult {
@@ -2574,7 +2580,7 @@ body.page-template-archive-nexus_program main {
   background-color: #F3F5F8; }
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .faq-journey {
-      height: 360px; } }
+      height: 300px; } }
   .page-template-taxonomy-nexus_faq .faq-journey .faq-journey-h2 {
     font-size: 24px;
     text-align: center;
@@ -2588,7 +2594,7 @@ body.page-template-archive-nexus_program main {
     @media all and (min-width: 950px) {
       .page-template-taxonomy-nexus_faq .faq-journey .faq-journey-h2 {
         top: 50px;
-        font-size: 60px;
+        font-size: 46px;
         font-weight: 600;
         padding-bottom: 10px; } }
   .page-template-taxonomy-nexus_faq .faq-journey .faq-journey-h2:after {
@@ -2615,7 +2621,6 @@ body.page-template-archive-nexus_program main {
     bottom: 30px; }
     @media all and (min-width: 950px) {
       .page-template-taxonomy-nexus_faq .faq-journey p {
-        bottom: 50px;
         font-size: 30px;
         font-weight: 600; } }
   .page-template-taxonomy-nexus_faq .faq-journey .consult {
@@ -2929,7 +2934,7 @@ div.banner-faq-single {
   margin-bottom: -20px; }
   @media all and (min-width: 950px) {
     .faq-single-homestay .faq-single-journey {
-      height: 360px; } }
+      height: 300px; } }
   .faq-single-homestay .faq-single-journey .single-journey-h2 {
     font-size: 24px;
     text-align: center;
@@ -2943,7 +2948,7 @@ div.banner-faq-single {
     @media all and (min-width: 950px) {
       .faq-single-homestay .faq-single-journey .single-journey-h2 {
         top: 50px;
-        font-size: 60px;
+        font-size: 46px;
         padding-bottom: 10px; } }
   .faq-single-homestay .faq-single-journey .single-journey-h2:after {
     content: "";
@@ -2969,7 +2974,6 @@ div.banner-faq-single {
     bottom: 60px; }
     @media all and (min-width: 950px) {
       .faq-single-homestay .faq-single-journey p {
-        bottom: 65px;
         font-size: 30px;
         font-weight: 600; } }
   .faq-single-homestay .faq-single-journey .consult {
@@ -3644,7 +3648,6 @@ nav.main-navigation:hover {
     bottom: 30px; }
     @media all and (min-width: 950px) {
       .page-template-contact .contact-journey p {
-        bottom: 50px;
         font-size: 24px;
         font-weight: 600; } }
   .page-template-contact .contact-journey .consult {
@@ -4092,6 +4095,19 @@ nav.main-navigation:hover {
     @media all and (min-width: 950px) {
       .single-nexus_program .single-program-title {
         font-size: 4rem; } }
+    .single-nexus_program .single-program-title:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 35%;
+      width: 49px;
+      margin-left: -24px;
+      border-bottom: 3px solid #FF8A2A; }
+      @media all and (min-width: 950px) {
+        .single-nexus_program .single-program-title:after {
+          border-bottom: 6px solid #FF8A2A;
+          width: 144px;
+          margin-left: -72px; } }
   .single-nexus_program .single-program-header-city {
     z-index: 10;
     position: relative;
@@ -4276,6 +4292,31 @@ nav.main-navigation:hover {
     @media all and (min-width: 850px) {
       .single-nexus_program .read-more__title {
         font-size: 1.25rem; } }
+  .single-nexus_program .read-more__title__school {
+    text-transform: uppercase;
+    margin-top: 12px;
+    font-size: 0.75rem;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif; }
+    @media all and (min-width: 450px) {
+      .single-nexus_program .read-more__title__school {
+        font-size: 1.25rem;
+        margin-top: 22px; } }
+  .single-nexus_program .read-more__title__type {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif; }
+    @media all and (min-width: 450px) {
+      .single-nexus_program .read-more__title__type {
+        font-size: 1.25rem; } }
+  .single-nexus_program .read-more__title__program {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif; }
+    @media all and (min-width: 450px) {
+      .single-nexus_program .read-more__title__program {
+        margin: 10px 0;
+        font-size: 1.68rem; } }
   .single-nexus_program .read-more {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4284,7 +4325,7 @@ nav.main-navigation:hover {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 80%;
-    margin: 0 auto; }
+    margin: 0 auto 2rem auto; }
   .single-nexus_program .read-more-program {
     width: 45%; }
     .single-nexus_program .read-more-program:last-child {
@@ -4738,7 +4779,7 @@ div#id.hfeed.site {
   background-color: #F3F5F8; }
   @media all and (min-width: 950px) {
     .single-post .about-journey {
-      height: 360px; } }
+      height: 300px; } }
   .single-post .about-journey .about-journey-h2 {
     font-size: 24px;
     text-align: center;
@@ -5055,6 +5096,9 @@ div.return-home {
           flex-basis: 80%; } }
   .student-review .student-review__info-wrapper .student-review__info {
     font-family: 'Raleway', sans-serif; }
+    @media all and (min-width: 950px) {
+      .student-review .student-review__info-wrapper .student-review__info {
+        font-size: 1.2rem; } }
     .student-review .student-review__info-wrapper .student-review__info .quote-content div, .student-review .student-review__info-wrapper .student-review__info p {
       width: 80%;
       margin: 0 auto; }

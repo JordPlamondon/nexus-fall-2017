@@ -286,7 +286,7 @@ div.banner-faq-single {
   background-color: $color__textbox-background;
   margin-bottom: -20px;
   @media #{$desktop} {
-    height: 360px;
+    height: 300px;
   }
   .single-journey-h2 {
     font-size: 24px;
@@ -300,7 +300,7 @@ div.banner-faq-single {
     padding-bottom: 5px;
     @media #{$desktop} {
       top: 50px;
-      font-size: 60px;
+      font-size: 46px;
       padding-bottom: 10px;
     }
   }
@@ -328,7 +328,7 @@ div.banner-faq-single {
     text-transform: none;
     bottom: 60px;
     @media #{$desktop} {
-      bottom: 65px;
+     
       font-size: 30px;
       font-weight: 600;
     }

@@ -1680,7 +1680,10 @@ a {
       .home .why-canada .carouselplaceholder__image-wrapper {
         position: absolute;
         top: 0;
-        right: 0; } }
+        right: 0;
+        height: 75%;
+        width: 60%;
+        overflow: hidden; } }
     .home .why-canada .carouselplaceholder__image-wrapper img {
       min-height: 330px; }
       @media all and (min-width: 880px) {
@@ -1759,8 +1762,11 @@ a {
     .home .why-canada .owl-nav {
       position: absolute;
       z-index: 998;
-      top: 36%;
+      top: 63%;
       left: 50%; } }
+  @media all and (min-width: 1240px) {
+    .home .why-canada .owl-nav {
+      top: 44%; } }
   .home .why-canada .owl-nav .owl-prev, .home .why-canada .owl-nav .owl-next {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1782,7 +1788,13 @@ a {
   display: none; }
   @media all and (min-width: 880px) {
     .home .why-canada .owl-dots {
-      bottom: 335px; } }
+      display: inline;
+      position: absolute;
+      bottom: 25%;
+      left: 30%; } }
+  @media all and (min-width: 1240px) {
+    .home .why-canada .owl-dots {
+      bottom: 48%; } }
 
 @media all and (min-width: 880px) {
   .home .curious {
@@ -3895,7 +3907,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -4387,7 +4399,7 @@ nav.main-navigation:hover {
         display: block;
         position: relative;
         bottom: 2.5rem;
-        right: 20rem; } }
+        right: 0; } }
   .single-nexus_program .owl-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4430,6 +4442,10 @@ nav.main-navigation:hover {
             flex-direction: column; }
     @media all and (min-width: 950px) {
       .single-nexus_program .city-container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
         background-size: 65% 100%;
@@ -4441,12 +4457,17 @@ nav.main-navigation:hover {
         flex-basis: 50%; }
     @media all and (min-width: 950px) {
       .single-nexus_program .city-image {
+        max-height: 300px;
         width: 50%;
+        overflow: hidden;
         margin: 0 0 0 auto;
         position: relative;
         z-index: -1;
         -webkit-transform: scale(1.5);
                 transform: scale(1.5); } }
+    @media all and (min-width: 950px) {
+      .single-nexus_program .city-image img {
+        min-height: 100%; } }
   .single-nexus_program .city-text {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -4457,8 +4478,11 @@ nav.main-navigation:hover {
         margin: 0;
         width: 50%;
         position: relative;
-        top: 12rem;
+        top: 10rem;
         left: 5rem; } }
+    @media all and (min-width: 1240px) {
+      .single-nexus_program .city-text {
+        top: 12rem; } }
   .single-nexus_program .student-review {
     margin-bottom: 3rem; }
     .single-nexus_program .student-review .headergroup {
@@ -5140,6 +5164,7 @@ div#id.hfeed.site {
     color: white;
     letter-spacing: 1pt; }
 
+<<<<<<< HEAD
 .single-post .about-journey {
   height: 195px;
   background-color: #F3F5F8; }
@@ -5220,6 +5245,10 @@ div#id.hfeed.site {
 
 /*--------------------------------------------------------------
 # 404 Not Found
+=======
+/*--------------------------------------------------------------
+# 404 Not Found
+>>>>>>> a9c0c1b9a1920ffb1a00b27da418a9ffa9e91763
 --------------------------------------------------------------*/
 fieldset {
   max-width: 260px;

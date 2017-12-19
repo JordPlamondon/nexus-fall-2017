@@ -3,15 +3,15 @@
     .faq-hero-image{
       height: 37vh;
       width: 100vw;
-      background-image: url("../../assets/images/faq@3x.png");
-      background-size: 100% 100%;
+      background-image: url("../../assets/images/sylwia-bartyzel-257.jpg");
+      background-size: cover;
+      background-position: bottom;
       min-width: 350px;
       margin-top: -65px;
       @media #{$desktop} { 
         position: relative;
         top: 65px;
-        height: 50vh;
-        margin-top: 65px;
+        height: 70vh;
       } 
       h1 {
         text-align: center;
@@ -28,7 +28,7 @@
         @media #{$desktop} {
           font-size: 70px;
           position: relative;
-          top: 120px;
+          top: 220px;
           border-bottom: 6px solid $color__accent-underline;
           width: 144px;
         }

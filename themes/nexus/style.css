@@ -3499,20 +3499,12 @@ nav.main-navigation {
         -webkit-box-shadow: 1px 1px 8px 1px lightgrey;
                 box-shadow: 1px 1px 8px 1px lightgrey; } }
   nav.main-navigation .header-logo {
-    height: 32px;
-    width: 97px;
-    margin: 22px 0 16px 15px;
-    background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
-    background-size: 100% 100%;
+    width: 146px;
     z-index: 10; }
     @media all and (min-width: 700px) {
       nav.main-navigation .header-logo {
-        height: 62px;
-        margin-top: 24px;
-        min-width: 146px;
-        margin-left: 40px;
-        background-image: url("../../assets/images/nexus_logo_04@2x.png");
-        background-size: 100% 100%; } }
+        margin-top: 30px;
+        margin-left: 40px; } }
   nav.main-navigation .menu-toggle {
     height: 17px;
     width: 24px;
@@ -3624,7 +3616,7 @@ nav.main-navigation:hover {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: bold;
         text-decoration: none;
-        color: black;
+        color: #E91C35;
         font-size: 21px; }
       .full-screen-links .book-consult-header:hover {
         color: #7bb2de; } }
@@ -3902,7 +3894,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }

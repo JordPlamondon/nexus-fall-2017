@@ -5190,7 +5190,7 @@ aside.widget.widget_text {
         -ms-flex-pack: center;
             justify-content: center; }
     div.footer__social-media-container h2 {
-      padding: 20px 0 10px 0;
+      padding: 20px 0 0px 0;
       text-align: center;
       color: #FFFFFF;
       margin-bottom: 0;
@@ -5295,7 +5295,7 @@ aside.widget.widget_text {
       padding-top: 10px;
       width: 49px;
       border-bottom: 3px solid #FF8A2A; }
-  div.footer__social-media-container .underline.footer {
+  div.footer__social-media-container .underline-footer {
     margin: auto;
     width: 49px;
     border-bottom: 3px solid #FF8A2A; } }

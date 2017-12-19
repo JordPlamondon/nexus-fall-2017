@@ -247,7 +247,6 @@ get_header(); ?>
 			<section class="student-review">
 				<div class="headergroup">
 					<h2 class="student-review-header"> Student's Review </h2>
-					<div class="underline"></div>
 				</div>
 				<?php $args = array( 'post_type' => 'nexus_reviews', 'orderby' => 'rand', 'posts_per_page' => 3, ); $query = new WP_Query( $args );?>
 					<div class="owl-carousel owl-theme">

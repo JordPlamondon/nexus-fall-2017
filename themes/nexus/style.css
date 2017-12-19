@@ -3919,7 +3919,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -5423,13 +5423,27 @@ div.return-home {
     letter-spacing: 1pt; }
 
 .student-review .headergroup {
+  position: relative;
   line-height: 3rem; }
   .student-review .headergroup h2 {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     font-size: 1.5em; }
     @media all and (min-width: 880px) {
       .student-review .headergroup h2 {
+        margin-bottom: 50px;
         font-size: 3rem; } }
+    .student-review .headergroup h2::after {
+      content: "";
+      position: absolute;
+      top: 42px;
+      left: 47%;
+      padding-top: 10px;
+      width: 49px;
+      border-bottom: 3px solid #FF8A2A; }
+      @media all and (min-width: 880px) {
+        .student-review .headergroup h2::after {
+          width: 144px;
+          left: 43%; } }
 
 .student-review .owl-nav {
   display: none; }

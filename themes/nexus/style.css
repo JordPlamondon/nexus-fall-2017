@@ -2313,7 +2313,7 @@ body.page-template-archive-nexus_program main {
   @media all and (min-width: 450px) {
     .about-right img.path-img-right {
       width: 50vw;
-      height: 30vw;
+      height: 10vw;
       bottom: 10vw; } }
   @media all and (min-width: 850px) {
     .about-right img.path-img-right {
@@ -2327,12 +2327,12 @@ body.page-template-archive-nexus_program main {
   width: 40vw;
   min-width: 140px;
   position: relative;
-  bottom: 45vw;
+  bottom: 35vw;
   z-index: 1; }
   @media all and (min-width: 450px) {
     .about-left img.path-img-left {
       width: 50vw;
-      height: 40vw;
+      height: 30vw;
       bottom: 10vw; } }
   @media all and (min-width: 850px) {
     .about-left img.path-img-left {
@@ -2765,6 +2765,13 @@ aside.widget.widget_text {
     width: 99px;
     border-bottom: 3px solid #FF8A2A; } }
 
+/*
+
+,
+  div.footer__social-media-container h2:after,
+  div.footer__why-nexus h2:after
+
+  */
 .page-template-taxonomy-nexus_faq .title-wrapper .faq-hero-image {
   height: 37vh;
   width: 100vw;
@@ -3816,7 +3823,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }

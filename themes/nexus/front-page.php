@@ -188,10 +188,12 @@ get_header(); ?>
 							<p class="choose-program__info">
 							Saskatchewan is a Canadian province that borders the United States to the south. Grassland covers its southern plains, and to the north are the rugged rock of the Canadian Shield plateau, coniferous forests, rivers and lakes. Regina, the provincial capital, is home to the Royal Saskatchewan Museum, with exhibits on natural history and the people of Canada’s First Nations.
 							</p>
-						<a href="/nexus/provinces/saskatchewan/" class="choose-program__button">See Programs</a>
+							<a href="/nexus/provinces/saskatchewan/" class="choose-program__button">See Programs</a>
 					</div>	
+					
 				</div>
 	</section>
+
 
 <!-- ###### Manitoba ######  -->		
 	<section class="choose-wrapper-man hide-prov">

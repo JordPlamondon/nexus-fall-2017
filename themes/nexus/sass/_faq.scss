@@ -76,9 +76,8 @@
           flex-flow: row wrap;
           flex-wrap: wrap;
           justify-content: center;
-          right: 30px;
-          bottom: 50px;
-          padding-top: 120px;
+          right: 35px;
+          margin-bottom: 150px;
         }
       li {
         display: flex;
@@ -91,6 +90,7 @@
           height: 609px;
           margin-left: 20px;
           margin-right: 20px;
+          margin-top: 60px;
         }
         button.read-more {
           display: none;  
@@ -118,24 +118,24 @@
           }
         }
 
-        .image-wrapper {
-          @media #{$desktop} {
-          overflow: hidden;
-          }
+        // .image-wrapper {
+        //   @media #{$desktop} {
+        //   overflow: hidden;
+        //   }
 
-          img {
-            min-width: 103px; 
-            @media #{$desktop} {
-              width: 26.8vw;
-              transform:  scale(1.7); 
-            }
-            @media #{$desktop-wide} {
-              transform:  scale(1.2); 
-              position: relative;
-              left: 30px;  
-            }
-          }
-        }
+        //   img {
+        //     min-width: 103px; 
+        //     @media #{$desktop} {
+        //       width: 26.8vw;
+        //       transform:  scale(1.7); 
+        //     }
+        //     @media #{$desktop-wide} {
+        //       transform:  scale(1.2); 
+        //       position: relative;
+        //       left: 30px;  
+        //     }
+        //   }
+        // }
 
         .list-text {
           position: relative;
@@ -146,7 +146,7 @@
           color: $color__footer-background;
           @media #{$desktop} {
             position: relative;
-            bottom: 50px;
+            bottom: 80px;
             left:20px;
           }  
         }
@@ -162,7 +162,7 @@
             font-size: 26px;
           }  
           @media all and (min-width: 1204px) {
-            font-size: 41px;
+            font-size: 39px;
           }
         }
         p {
@@ -178,6 +178,7 @@
           @media #{$desktop} {
             font-size: 18px;
             top: 15px;
+            right: 0;
           }
           @media all and (min-width: 1150px) {
             font-size: 23px;

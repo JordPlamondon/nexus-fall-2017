@@ -5,7 +5,11 @@
 http://nexus.van.cp.academy.red/
 
 ## Installation
-
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/blog-readme.png)
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/contact-readme.png)
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/country-readme.png)
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/home-readme.png)
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/program-readme.png)
 ### 1. Download me (don't clone me!)
 
 Then add me to your `wp-content` directory.

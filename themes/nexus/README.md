@@ -6,7 +6,7 @@ http://nexus.van.cp.academy.red/
 
 ## Installation
 
-![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/contact-readme.png)
+
 ![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/country-readme.png)
 
 
@@ -45,10 +45,31 @@ The program page is organized by course and location. All editable in the backen
 
 ### 3. About Page
 
-The about is coded in the HTML. See about.php and about.scss to modify information. This page is relatively static, as its purpose is mainly to provide contact information for the instructors.
+The about is coded in the HTML. See about.php and about.scss to modify information. This page is relatively static, as its purpose is mainly to provide contact information for the instructors. See below for a map.
 
+Mission: Line 24 about.php
+
+Pictures and text for main body: Starts at line 37 about.php
+
+Instructors: Line 74 about.php
 
 ![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/about-readme.png)
+
+
+### 3. Contact Page
+
+The contact page can be redirected in the backend. Look to the 'Mail' tab in Form 1 under the Contacts tab in Wordpress.
+
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/contact-readme.png)
+
+
+
+
+
+
+
+
+
 
 Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
 

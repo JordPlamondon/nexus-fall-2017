@@ -431,7 +431,7 @@
       z-index: 1;
       @media #{$tablet-test} {
         width: 50vw;
-        height: 30vw;
+        height: 10vw;
         bottom: 10vw;
       }
       @media #{$tablet} {
@@ -448,11 +448,11 @@
       width: 40vw;
       min-width: 140px;
       position: relative;
-      bottom: 45vw;
+      bottom: 35vw;
       z-index: 1;
       @media #{$tablet-test} {
         width: 50vw;
-        height: 40vw;
+        height: 30vw;
         bottom: 10vw;
       }
         @media #{$tablet} {

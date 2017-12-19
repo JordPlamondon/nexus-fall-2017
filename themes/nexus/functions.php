@@ -131,7 +131,7 @@ require get_template_directory() . '/inc/extras.php';
 remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
  
 
-// Blog page content filter 1
+//Blog page content filter
 add_filter("the_content", "plugin_myContentFilter");
 
 function plugin_myContentFilter($content)
@@ -142,20 +142,7 @@ function plugin_myContentFilter($content)
 	}
 	
 	return ($content);
-
 }
-
-
-// Blog page content filter 2
-// add_filter("the_content", "break_text");
-// function break_text($content){
-//     $length = 179;
-//     if(strlen($content)<$length+0) return $content;//don't cut if too short
-
-//     $break_pos = strpos($content, ' ', $length);//find next space after desired length
-//     $visible = substr($content, 0, $break_pos);
-//     return balanceTags($visible) . " […]";
-// } 
 
 
 //Faq Single h1 Title first word select function
@@ -177,6 +164,3 @@ function pixelninja_spanify_title($title) {
 function pixelninja_single_cat_title() {
 	echo pixelninja_spanify_title(single_cat_title('', true));
 }
-
-
-

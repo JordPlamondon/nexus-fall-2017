@@ -52,7 +52,7 @@ get_header(); ?>
               <?php endwhile; // End of the loop. ?>
       <?php wp_reset_query() ?>
       </ul>
-
+      <h2 class="latest-posts-title">Latest Posts</h2>
       <?php
           $category_name = 'blogs'; 
           $wp_query = new WP_Query();
@@ -81,14 +81,13 @@ get_header(); ?>
                   </div>
                 </div>  
               </div>
+              <div class="shadow-border" style="border-bottom: 1px solid rgb(209, 209, 209);"></div> 
             </li>
-             <div class="shadow-border"></div> 
 
               <?php endwhile; // End of the loop. ?>
       <?php wp_reset_query() ?>
           </div>
           </ul>		
-            <h2 class="latest-posts-title">Latest Posts</h2>
         </section>
       </div>  
 		</main><!-- #main -->

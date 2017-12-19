@@ -156,7 +156,7 @@ get_header(); ?>
 		
 						"In winter, the heart of downtown [Vancouver] is 30 minutes from the ski slopes. In summer, sun seekers crowd its beaches and seaside promenades. And despite a rain-prone climate, it displays a perpetually sunny disposition. Consider it the supermodel of North American cities." – USA Today
 						</p>
-						<a href="/nexus/provinces/british-columbia/" class="choose-program__button">See Programs</a>
+						<a href="<?php echo get_home_url() ?>/provinces/british-columbia/" class="choose-program__button">See Programs</a>
 					</div>	
 				</div>
 			</section>
@@ -172,7 +172,7 @@ get_header(); ?>
 							<p class="choose-program__info">	
 							Alberta is a province in Western Canada. Its landscape encompasses mountains, prairies, desert badlands and vast coniferous forests. It has more than 600 lakes, and rich mineral deposits. In the west, the Canadian Rocky Mountain Parks have glaciers in the Columbia Icefields. The Waterton Glacier International Peace Park is a biosphere reserve that straddles the southern border with the USA.
 							</p>	
-							<a href="/nexus/provinces/alberta/" class="choose-program__button">See Programs</a>
+							<a href="<?php echo get_home_url() ?>/provinces/alberta/" class="choose-program__button">See Programs</a>
 					</div>	
 				</div>
 	</section>
@@ -188,10 +188,12 @@ get_header(); ?>
 							<p class="choose-program__info">
 							Saskatchewan is a Canadian province that borders the United States to the south. Grassland covers its southern plains, and to the north are the rugged rock of the Canadian Shield plateau, coniferous forests, rivers and lakes. Regina, the provincial capital, is home to the Royal Saskatchewan Museum, with exhibits on natural history and the people of Canada’s First Nations.
 							</p>
-						<a href="/nexus/provinces/saskatchewan/" class="choose-program__button">See Programs</a>
+							<a href="<?php echo get_home_url() ?>/provinces/saskatchewan/" class="choose-program__button">See Programs</a>
 					</div>	
+					
 				</div>
 	</section>
+
 
 <!-- ###### Manitoba ######  -->		
 	<section class="choose-wrapper-man hide-prov">
@@ -204,7 +206,7 @@ get_header(); ?>
 						<p class="choose-program__info">
 						Manitoba is a Canadian province bordered by Ontario to the east and Saskatchewan to the west. Its landscape of lakes and rivers, mountains, forests and prairies stretches from northern Arctic tundra to Hudson Bay in the east and southern farmland. Much wilderness is protected in more than 80 provincial parks, where hiking, biking, canoeing, camping and fishing are all popular.
 						</p>
-						<a href="/nexus/provinces/manitoba/" class="choose-program__button">See Programs</a>
+						<a href="<?php echo get_home_url() ?>/provinces/manitoba/" class="choose-program__button">See Programs</a>
 					</div>	
 				</div>
 	</section>
@@ -220,7 +222,7 @@ get_header(); ?>
 						<p class="choose-program__info">
 						Ontario is a province in east-central Canada that borders the U.S. and the Great Lakes. It's home to Ottawa, Canada's capital, known for Parliament Hill’s Victorian architecture and the National Gallery, featuring Canadian and indigenous art. Torontois home to the 553m-high CN Tower, with expansive views from its revolving restaurant, as well as High Park, site of a rare oak savannah habitat.
 						</p>
-						<a href="/nexus/provinces/ontario/" class="choose-program__button">See Programs</a>
+						<a href="<?php echo get_home_url() ?>/provinces/ontario/" class="choose-program__button">See Programs</a>
 					</div>	
 				</div>
 	</section>
@@ -236,7 +238,7 @@ get_header(); ?>
 						<p class="choose-program__info">
 						Québec is a predominantly French-speaking province in eastern Canada with 2 vibrant cities in its south, connected by the Chemin du Roy highway along the Saint Lawrence River. The metropolis Montréal is named after Mt. Royal, the triple-peaked hill at its heart. Dating to 1608, Québec City retains its old colonial core, Place Royale, and historic harbor, Vieux Port, now known for nightlife.
 						</p>
-						<a href="	/nexus/provinces/quebec/" class="choose-program__button">See Programs</a>
+						<a href="<?php echo get_home_url() ?>/provinces/quebec/" class="choose-program__button">See Programs</a>
 					</div>	
 				</div>
 	</section>	

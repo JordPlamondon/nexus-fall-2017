@@ -1,15 +1,7 @@
 # Nexus Intercambio
-
-![nexus](https://user-images.githubusercontent.com/32310250/34117024-3c725884-e3cf-11e7-9b47-67d12d724357.PNG)
+Welcome to the home of Nexus! This site contains several custom post types and taxonomy. Please reference the below guide to locate the correct place to enter updates and edit pictures, posts, and text.
 
 http://nexus.van.cp.academy.red/
-
-## Installation
-
-
-![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/country-readme.png)
-
-
 
 
 ### 1. Front Page
@@ -25,6 +17,8 @@ There are ## post types editable in the backend. Below are the locations they sh
 
 ### 2. Blog Page 
 
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/blog-readme.png)
+
 The blog is the main hub for articles to post and update. All of the content is produced on the WP backend. The comments are contained in the SQL database. The locations to edit are :
 
 
@@ -32,18 +26,17 @@ The blog is the main hub for articles to post and update. All of the content is 
 ####
 
 
-![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/blog-readme.png)
-
 ### 3. Program Page
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/program-readme.png)
 
 The program page is organized by course and location. All editable in the backend. Location are as follows:
 
-![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/program-readme.png)
 
 ####
 ####
 
-### 3. About Page
+### 4. About Page
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/about-readme.png)
 
 The about is coded in the HTML. See about.php and about.scss to modify information. This page is relatively static, as its purpose is mainly to provide contact information for the instructors. See below for a map.
 
@@ -53,16 +46,18 @@ Pictures and text for main body: Starts at line 37 about.php
 
 Instructors: Line 74 about.php
 
-![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/about-readme.png)
-
-
-### 3. Contact Page
+### 5. Contact Page
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/contact-readme.png)
 
 The contact page can be redirected in the backend. Look to the 'Mail' tab in Form 1 under the Contacts tab in Wordpress.
 
-![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/contact-readme.png)
+### 6. Country wheel
 
+![ScreenShot](https://github.com/redacademy/nexus-fall-2017/blob/develop/themes/nexus/assets/readme-images/country-readme.png)
 
+This wheel can be updated in the following locations:
+
+###
 
 
 

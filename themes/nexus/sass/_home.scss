@@ -29,7 +29,7 @@ body.blog {
       }
     }
   .title-wrapper {
-    height: 37vh;
+    height: 44vh;
     width: 100vw;
     background-image: url("../../assets/images/blog@3x.png");
     background-size: 100% 100%;
@@ -37,8 +37,8 @@ body.blog {
     @media #{$desktop} {
       position: relative;
       top: 65px;
-      height: 50vh;
-      margin-top: 65px;
+      height: 40vh;
+      margin-top: 55px;
     }
   } 
   .latest-posts-title {
@@ -243,8 +243,6 @@ body.blog {
         text-align: left;
         font-size: 26px;
       }
-    }
-    .blog-content-button {
     }
     .blog-content {
       display: none;

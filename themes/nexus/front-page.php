@@ -31,7 +31,7 @@ get_header(); ?>
 				<div class="underline"></div>
 			</div>
 			<p class="why-nexus__info">
-				All success stories have a common structure that helps dreams become reality. We believe that orientation, experience, and teamwork is the most powerful tools available to achieve success. Our passion is to help every person learn to prepare a powerful action-plan and execute their life-changing journey of living in Canada effectively.
+				All success stories have a common structure that helps dreams become reality. We believe that orientation, experience, and teamwork is the most powerful tools available to achieve success. Our passion is to help every person learn to prepare a powerful action-plan and execute their life-changing journey of living in Canada effectively. 	All success stories have a common structure that helps dreams become reality. We believe that orientation, experience,
 			</p>
 			<button class="why-nexus__button">About Us</button>
 		</div>

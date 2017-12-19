@@ -17,9 +17,6 @@
   }
   .hero-wrapper {
      width: 100vw;
-      @media #{$desktop} {
-        padding-top: 65px;
-      }
     .about-title {   
       position: relative;
       top: 120px;
@@ -31,7 +28,7 @@
       padding-bottom: 5px;
       @media #{$desktop} {
         font-size: 60px;
-        top: 80px;
+        top: 120px;
         padding-bottom: 10px;
         }  
       }
@@ -50,7 +47,7 @@
         }
       }
       .hero-image {
-        height: 40vh;
+        height: 51.5vh;
         width: 100vw;
         min-width: 350px;
         background-image: url("../../assets/images/blog@3x.png");

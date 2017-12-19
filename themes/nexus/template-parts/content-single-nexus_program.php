@@ -16,7 +16,6 @@
 
         <div class="header-wrapper">
             <h1 class="single-program-title"><?php echo get_post_meta($post->ID, '_nexus_program_title', true); ?></h2>
-            <div class="underline-centered"></div>
         </div>
 
         <div class="program-meta">
@@ -43,7 +42,6 @@
             <div class="left-side">
                 <div class="header-wrapper">
                     <h2 class="single-program-header">About Program</h2>
-                    <div class="title-underline"></div>
                 </div>
                 <p class="single-program-content"><?php echo get_post_meta($post->ID, '_nexus_program_about', true); ?></p>
             </div>
@@ -70,7 +68,6 @@
                  <div class="strong-side">
                      <div class="header-wrapper">
                          <h2 class="single-program-header"><?php echo $school_title; ?></h2>
-                         <div class="title-underline"></d iv>
                      </div>
                      <p class="single-program-content"><?php echo $queried_post->post_content; ?></p>
                  </div>
@@ -142,7 +139,6 @@
 
             		<div class="header-wrapper">
             			<h2 class="single-program-header centered"> Student Review </h2>
-            			<div class="underline"></div>
                     </div>
                 
                 	<div class="student-review__box">

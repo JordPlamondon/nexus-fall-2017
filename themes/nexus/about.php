@@ -66,7 +66,7 @@ get_header(); ?>
 
 </div>
 
-<!-- ###### Images, text, and links for Consultants.  ###### --> <h2>  Our Education Consultants</h2><br>
+<!-- ###### Images, text, and links for Consultants.  ###### --> <h2 class="consultant-title">  Our Education Consultants</h2><br>
 <div class="consultant-wrapper">
 <div class="about-consultants">
      

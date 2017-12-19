@@ -20,19 +20,11 @@
      }
 // Nav logo
     .header-logo {
-      height: 32px;
-      width: 97px; 
-      margin: 22px 0 16px 15px;
-      background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
-      background-size: 100% 100%;
+      width: 146px; 
       z-index: 10;
-        @media #{$header-mid} {
-          height: 62px;
-          margin-top: 24px;
-          min-width: 146px; 
-          margin-left: 40px;
-          background-image: url("../../assets/images/nexus_logo_04@2x.png");
-          background-size: 100% 100%;
+      @media #{$header-mid} {
+        margin-top: 30px;
+        margin-left: 40px;
       } 
     }
 // Hamburgler menu
@@ -134,7 +126,8 @@
           font-family: $font__main;
           font-weight: bold;
           text-decoration: none;
-          color: black;
+          color: $color__icon-element;
+          ;
           font-size: 21px; 
         }
           .book-consult-header:hover {

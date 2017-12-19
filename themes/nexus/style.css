@@ -2885,7 +2885,7 @@ aside.widget.widget_text {
   position: relative;
   padding: 0;
   bottom: 115px;
-  right: 25px; }
+  right: 20px; }
   @media all and (min-width: 950px) {
     .page-template-taxonomy-nexus_faq .faq-wrapper .underline {
       width: 74px;
@@ -2901,7 +2901,7 @@ aside.widget.widget_text {
   -webkit-box-shadow: 0px 13px #F3F5F8;
           box-shadow: 0px 13px #F3F5F8;
   padding-top: 13px;
-  width: 100.3vw;
+  width: 100vw;
   right: 3.5vw;
   position: relative; }
   @media all and (min-width: 950px) {
@@ -2975,7 +2975,7 @@ aside.widget.widget_text {
           top: 270px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
-      left: 40px;
+      left: 20px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2992,7 +2992,7 @@ aside.widget.widget_text {
       position: relative;
       top: 15px;
       color: #15405A;
-      right: 25px; }
+      right: 20px; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
           position: relative;
@@ -3008,7 +3008,7 @@ aside.widget.widget_text {
       font-size: 14px;
       font-weight: 100;
       color: #15405A;
-      right: 25px; }
+      right: 20px; }
       @media all and (min-width: 650px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
           font-size: 18px; } }
@@ -3114,13 +3114,14 @@ aside.widget.widget_text {
 div.banner-faq-single {
   height: 37vh;
   width: 100vw;
-  background-image: url("../../assets/images/living_no_canada@3x.png");
+  background-image: url("../../assets/images/wade-gardner-26236.jpg");
   background-size: 100% 100%;
   margin-bottom: 24px;
   margin-top: -65px; }
   @media all and (min-width: 950px) {
     div.banner-faq-single {
-      height: 70vh; } }
+      height: 70vh;
+      margin-top: 0; } }
   div.banner-faq-single .faq-single-title {
     position: relative;
     text-align: center;
@@ -3497,20 +3498,12 @@ nav.main-navigation {
         -webkit-box-shadow: 1px 1px 8px 1px lightgrey;
                 box-shadow: 1px 1px 8px 1px lightgrey; } }
   nav.main-navigation .header-logo {
-    height: 32px;
-    width: 97px;
-    margin: 22px 0 16px 15px;
-    background-image: url("../../assets/images/nexus_logo_mobile@3x.png");
-    background-size: 100% 100%;
+    width: 146px;
     z-index: 10; }
     @media all and (min-width: 700px) {
       nav.main-navigation .header-logo {
-        height: 62px;
-        margin-top: 24px;
-        min-width: 146px;
-        margin-left: 40px;
-        background-image: url("../../assets/images/nexus_logo_04@2x.png");
-        background-size: 100% 100%; } }
+        margin-top: 30px;
+        margin-left: 40px; } }
   nav.main-navigation .menu-toggle {
     height: 17px;
     width: 24px;
@@ -3622,7 +3615,7 @@ nav.main-navigation:hover {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: bold;
         text-decoration: none;
-        color: black;
+        color: #E91C35;
         font-size: 21px; }
       .full-screen-links .book-consult-header:hover {
         color: #7bb2de; } }
@@ -3900,7 +3893,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }

@@ -373,6 +373,10 @@
 
 // Front Journey
 .front-journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   height: 195px;
   background-color: $color__textbox-background;
   @media #{$desktop} {
@@ -381,15 +385,17 @@
   .front-journey-h2 {
     font-size: 24px;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
     color: $color__footer-background;
     font-weight: 900;
     position: relative;
-    top: 20px;
+    
     text-transform: uppercase;
     letter-spacing: 1pt;
     padding-bottom: 5px;
     @media #{$desktop} {
-      top: 50px;
+      
       font-size: 46px;
       font-weight: 600;
       padding-bottom: 30px;
@@ -409,8 +415,9 @@
       width: 144px;
     }
   }
-  p {
+  .journey-text {
     font-size: 18px;
+  
     color: $color__text-accent;
     font-style: italic;
     font-family: $font__accent;
@@ -418,12 +425,19 @@
     position: relative;
     text-align: center;
     text-transform: none;
-    bottom: 50px;
+
+    p{
+      margin: 0;
+    }
+    
     @media #{$desktop} {
-      bottom: 40px;
       font-size: 30px;
       font-weight: 600;
     }
+  }
+
+  a {
+    margin-bottom: 2rem;
   }
   .consult {
     letter-spacing: 1pt;
@@ -438,13 +452,11 @@
     background: $color__icon-element;
     color: $color__text-white;
     position: relative;
-    bottom: 55px;
     text-transform: capitalize;
     margin: 0 auto;
     @media #{$desktop} {
       width: 272px;
       height: 55px;
-      bottom: 10px;
       font-size: 24px;
       font-weight: 600;
       padding: 8px;

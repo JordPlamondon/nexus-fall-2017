@@ -1031,6 +1031,19 @@ a {
       color: white; }
 
 .front-journey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 195px;
   background-color: #F3F5F8; }
   @media all and (min-width: 950px) {
@@ -1039,16 +1052,16 @@ a {
   .front-journey .front-journey-h2 {
     font-size: 24px;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
     color: #15405A;
     font-weight: 900;
     position: relative;
-    top: 20px;
     text-transform: uppercase;
     letter-spacing: 1pt;
     padding-bottom: 5px; }
     @media all and (min-width: 950px) {
       .front-journey .front-journey-h2 {
-        top: 50px;
         font-size: 46px;
         font-weight: 600;
         padding-bottom: 30px; } }
@@ -1065,7 +1078,7 @@ a {
         margin: 0 0 0 -73px;
         border-bottom: 6px solid #FF8A2A;
         width: 144px; } }
-  .front-journey p {
+  .front-journey .journey-text {
     font-size: 18px;
     color: #E00029;
     font-style: italic;
@@ -1073,13 +1086,15 @@ a {
     font-weight: 200;
     position: relative;
     text-align: center;
-    text-transform: none;
-    bottom: 50px; }
+    text-transform: none; }
+    .front-journey .journey-text p {
+      margin: 0; }
     @media all and (min-width: 950px) {
-      .front-journey p {
-        bottom: 40px;
+      .front-journey .journey-text {
         font-size: 30px;
         font-weight: 600; } }
+  .front-journey a {
+    margin-bottom: 2rem; }
   .front-journey .consult {
     letter-spacing: 1pt;
     width: 175px;
@@ -1094,14 +1109,12 @@ a {
     background: #E91C35;
     color: #FFFFFF;
     position: relative;
-    bottom: 55px;
     text-transform: capitalize;
     margin: 0 auto; }
     @media all and (min-width: 950px) {
       .front-journey .consult {
         width: 272px;
         height: 55px;
-        bottom: 10px;
         font-size: 24px;
         font-weight: 600;
         padding: 8px; } }

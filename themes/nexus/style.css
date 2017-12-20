@@ -5758,59 +5758,83 @@ aside.widget.widget_text {
   div.footer__social-media {
     padding-bottom: 20px; } }
 
-body.archive .archive-page .archive-main-title {
-  position: relative;
-  top: 80px;
-  font-size: 50px;
-  padding-bottom: 10px; }
-
-body.archive .archive-page .archive-main-title:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  width: 49px;
-  margin: 0 0 0 -25px;
-  border-bottom: 3px solid #FF8A2A; }
+body.archive .archive-page {
+  margin-bottom: 20px; }
   @media all and (min-width: 950px) {
-    body.archive .archive-page .archive-main-title:after {
-      margin: 0 0 0 -73px;
-      border-bottom: 6px solid #FF8A2A;
-      width: 144px; } }
-
-body.archive .archive-page .page-title {
-  position: relative;
-  top: 70px;
-  text-align: center;
-  font-size: 20px; }
-
-body.archive .archive-page h2 {
-  text-align: center;
-  color: #15405A; }
-
-body.archive .archive-page .wp-post-image {
-  display: none; }
-
-body.archive .archive-page article {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border: 1px solid #d3d3d3;
-  margin: 90px; }
-  body.archive .archive-page article .entry-meta {
-    text-align: center; }
-  body.archive .archive-page article .entry-content {
-    text-align: center; }
-  body.archive .archive-page article p {
-    display: inline-block;
-    width: 70%;
-    text-align: left;
-    color: #15405A; }
-  body.archive .archive-page article a {
-    color: #15405A; }
-    body.archive .archive-page article a:hover {
-      color: #7bb2de; }
+    body.archive .archive-page {
+      margin-bottom: 130px; } }
+  body.archive .archive-page .archive-main-title {
+    position: relative;
+    font-size: 30px;
+    top: 20px; }
+    @media all and (min-width: 950px) {
+      body.archive .archive-page .archive-main-title {
+        top: 80px;
+        font-size: 50px;
+        padding-bottom: 10px; } }
+  body.archive .archive-page .archive-main-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 49px;
+    margin: 0 0 0 -25px;
+    border-bottom: 3px solid #FF8A2A; }
+    @media all and (min-width: 950px) {
+      body.archive .archive-page .archive-main-title:after {
+        margin: 0 0 0 -73px;
+        border-bottom: 6px solid #FF8A2A;
+        width: 144px; } }
+  body.archive .archive-page .archive-posts {
+    position: relative;
+    top: 20px; }
+  body.archive .archive-page .page-title {
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200; }
+    @media all and (min-width: 950px) {
+      body.archive .archive-page .page-title {
+        top: 70px;
+        font-size: 18px; } }
+  body.archive .archive-page h2 {
+    text-align: center;
+    color: #15405A;
+    font-size: 21px; }
+  body.archive .archive-page .wp-post-image {
+    display: none; }
+  body.archive .archive-page article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: none;
+    border-bottom: 1px solid #d3d3d3; }
+    @media all and (min-width: 950px) {
+      body.archive .archive-page article {
+        border: 1px solid #d3d3d3;
+        margin: 80px; } }
+    body.archive .archive-page article .entry-meta {
+      text-align: center; }
+    body.archive .archive-page article .entry-content {
+      text-align: center; }
+    body.archive .archive-page article .entry-meta {
+      font-size: 14px; }
+    body.archive .archive-page article p {
+      display: inline-block;
+      width: 85%;
+      text-align: left;
+      line-height: 30px;
+      color: #15405A; }
+      @media all and (min-width: 950px) {
+        body.archive .archive-page article p {
+          width: 70%;
+          line-height: 40px; } }
+    body.archive .archive-page article a {
+      color: #15405A; }
+      body.archive .archive-page article a:hover {
+        color: #7bb2de; }

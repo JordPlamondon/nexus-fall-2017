@@ -190,11 +190,6 @@
         bottom: 48%;
       }
     }
-
-
-   
-
-
   }
   .curious {
 
@@ -208,6 +203,7 @@
      
     }
     &__subheader {
+      text-align: left;
       font-family: $font__main;
       font-weight: bold;
     }

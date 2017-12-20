@@ -1807,6 +1807,7 @@ a {
     position: absolute; } }
 
 .home .curious__subheader {
+  text-align: left;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold; }
 

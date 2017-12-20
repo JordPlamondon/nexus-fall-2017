@@ -46,8 +46,8 @@
 
   // Construct Get request based on form input
   function requestFilter () {
-    var program = $('select[name*="programfilter"').val();
-    var province = $('select[name*="provincefilter"').val();
+    var program = $('select[name*="programfilter"]').val();
+    var province = $('select[name*="provincefilter"]').val();
     var request = 'wp/v2/nexus_program/?_embed&filter';
     if (program === 'Program' && province === 'Province') {
       return;

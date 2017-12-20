@@ -45,10 +45,13 @@
         @media #{$desktop} {
           width: 74px;
           border-bottom: 6px solid $color__accent-underline;
-          bottom: 70px; 
+          bottom: 66px; 
           right: 0;
         }
         @media all and (min-width: 1150px) {
+          bottom: 85px;
+        }  
+        @media all and (min-width: 1240px) {
           bottom: 95px;
         }  
       }
@@ -76,8 +79,12 @@
           flex-wrap: wrap;
           justify-content: center;
           right: 35px;
-          margin-bottom: 150px;
+          margin-bottom: 80px;
+          
+        }
+        @media all and (min-width: 1150px) { 
           margin-top: -50px;
+          margin-bottom: 150px;
         }
       li {
         display: flex;
@@ -87,9 +94,12 @@
         @media #{$desktop} {
           flex-direction: column;
           width: 41.85vw;
-          height: 609px;
+          height: 550px;
           margin-left: 20px;
           margin-right: 20px;
+        }  
+        @media all and (min-width: 1150px) {  
+          height: 609px;
           margin-top: 60px;
         }
         button.read-more {
@@ -141,9 +151,12 @@
             position: relative;
             right: 200px;
             top: 40px;
-            font-size: 26px;
-          }  
-          @media all and (min-width: 1204px) {
+            font-size: 22px;
+          } 
+          @media all and (min-width: 960px) {
+            font-size: 24px;
+          } 
+          @media all and (min-width: 1240px) {
             font-size: 39px;
           }
         }
@@ -159,7 +172,7 @@
           }
           @media #{$desktop} {
             font-size: 18px;
-            top: 15px;
+            top: 23px;
             right: 0;
           }
           @media all and (min-width: 1150px) {

@@ -87,15 +87,18 @@ get_header(); ?>
 					<!-- 'Curious' section that is overlayed on top of the carousel  -->
 
 	
+
 	</section>
 				<!-- End Carousel Section -->
 
 				<!-- Browse Program Section. This section is not displayed in the desktop version of the site -->
+	
 	<section class="browse-programs">
 		<div class="headergroup">
 			<h2 class="browse-programs__header">Browse Programs in: </h2>
 			<div class="underline"></div>
 		</div>
+		
 			<?php
 					$terms = get_terms( array(
 						'taxonomy' => 'provinces',
@@ -107,12 +110,15 @@ get_header(); ?>
 							<div class="browse-programs__subheading">	
 								<p><?php echo $term->name; ?></p>
 								<a class="bracket" href="<?php echo get_term_link( $term ); ?>"> > </a>
+								
 							</div>
 						<?php endforeach; ?>
 				<?php endif ?>
-	
-	</section>
+					
 
+		
+	</section>
+	
 <!-- ###### Main map and Province Icons - ##########-->
 			<section class="choose-province-wrapper">
 				<i class="bc fa fa-map-marker fa-4x">	<h3 class="show bc-text">British Columbia</h3></i>
@@ -136,10 +142,7 @@ get_header(); ?>
 						Fusce tempor felis lacus, a hendrerit urna facilisis at. 								
 					</p>						
 				</div>		
-				<div class="curious">
-			<h2 class="curious__subheader">Curious About Canada?</h2>
-			<a href="/nexus/FAQ/" class="curious__button">Visit FAQ Section</a>
-		</div>		
+			
 			</section>
 	
 <!-- ##### Individual Province- Synced to relevant icon, To change image, got to front-page-maps and adjust the background image in section under Province Label. To edit text enter changes under the "choose-program__info class" ###### -->

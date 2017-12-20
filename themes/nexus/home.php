@@ -89,7 +89,12 @@ get_header(); ?>
           </div>
           </ul>		
         </section>
-      </div>  
+      </div>
+      <h2 class="archives">Blog Archives</h2>
+      <div class="blog-archives">  
+          <?php wp_get_archives('type=monthly'); ?>
+      </div>
+      <div class="shadow-border-archive"></div> 
 		</main><!-- #main -->
   </div><!-- #primary -->
 

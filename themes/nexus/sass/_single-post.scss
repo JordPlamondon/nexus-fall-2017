@@ -15,6 +15,18 @@ div#id.hfeed.site {
     margin-top: 50px;
     
   }
+  input.blog-comments {
+    width: 175px;
+    height: 40px;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+    background: $color__icon-element;
+    color: white;
+    letter-spacing: 1pt;
+  }
+  
 .blog-picture {
   display: flex;
   flex-direction: column;
@@ -149,18 +161,7 @@ div#id.hfeed.site {
   @media #{$tablet} {
     width: 95%;
   }
-  input {
-    width: 175px;
-    height: 40px;
-    border-radius: 25px 0px 25px 0px;
-    box-shadow: none;
-    text-shadow: none;
-    font-size: 18px;
-    background: $color__icon-element;
-    color: white;
-    letter-spacing: 1pt;
-  }
- 
+  
   
 }
 .about-journey {

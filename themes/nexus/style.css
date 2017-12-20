@@ -1232,8 +1232,8 @@ a {
               justify-content: flex-end;
       height: 444px;
       margin-top: -200px;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/bc.jpg");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/bc.jpg"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/bc-map.jpg");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/bc-map.jpg"); } }
   .home .choose-wrapper-bc i {
     position: relative;
     top: 120px;
@@ -1966,7 +1966,7 @@ body.page-template-archive-nexus_program main {
     font-weight: 800; }
     @media all and (min-width: 950px) {
       .page-template-about .mission-wrapper h2 {
-        font-size: 30px; } }
+        font-size: 46px; } }
   .page-template-about .mission-wrapper .underline {
     position: relative;
     top: 14px;
@@ -3100,13 +3100,16 @@ div.menu-content {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none; }
-  div.menu-content button.book-consult {
-    width: 130px;
-    height: 40px;
+  div.menu-content .book-consult-header {
+    width: 160px;
+    height: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0;
+    margin-left: 24px;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
             box-shadow: none;
-    margin-left: 24px;
     text-shadow: none;
     background: #E91C35;
     color: #FFFFFF; }
@@ -3484,6 +3487,17 @@ nav.main-navigation:hover {
 .page-template-contact .wpcf7-textarea {
   resize: none; }
 
+.page-template-contact .wpcf7-response-output {
+  background-color: lightgreen;
+  font-size: 18px;
+  border: none;
+  color: white; }
+
+.page-template-contact .wpcf7-validation-errors {
+  background-color: red;
+  border: none;
+  color: white; }
+
 .page-template-contact .desktop-contact-display {
   display: none; }
   @media all and (min-width: 850px) {
@@ -3519,7 +3533,8 @@ nav.main-navigation:hover {
   background-color: #F3F5F8;
   width: 90vw;
   margin: 0 auto;
-  padding-left: 14%; }
+  padding-left: 10%;
+  padding-right: 10%; }
   @media all and (min-width: 850px) {
     .page-template-contact .contact-form {
       width: 80vw;
@@ -3538,7 +3553,7 @@ nav.main-navigation:hover {
     width: 90%; }
   .page-template-contact .contact-form .wpcf7-textarea {
     height: 300px; }
-  .page-template-contact .contact-form .wpcf7-submit {
+  .page-template-contact .contact-form .submit {
     letter-spacing: 1pt;
     width: 145px;
     height: 40px;
@@ -3556,9 +3571,9 @@ nav.main-navigation:hover {
     margin-top: 0;
     text-align: center;
     color: #15405A;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold; }
-    @media all and (min-width: 450px) {
+    @media all and (min-width: 850px) {
       .page-template-contact .contact-form h2.title {
         width: 300px;
         margin: 24px;
@@ -3566,7 +3581,11 @@ nav.main-navigation:hover {
         text-align: left; } }
   .page-template-contact .contact-form .contact-content {
     max-width: 345px;
-    color: #CFCFCF; }
+    margin: 0 auto; }
+    @media all and (min-width: 850px) {
+      .page-template-contact .contact-form .contact-content {
+        margin: 0;
+        color: #CFCFCF; } }
   .page-template-contact .contact-form .underline {
     margin: 0 auto;
     width: 49px;
@@ -4643,6 +4662,18 @@ div#id.hfeed.site {
           flex-direction: column;
   margin-top: 50px; }
 
+.single-post input.blog-comments {
+  width: 175px;
+  height: 40px;
+  border-radius: 25px 0px 25px 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  font-size: 18px;
+  background: #E91C35;
+  color: white;
+  letter-spacing: 1pt; }
+
 .single-post .blog-picture {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4778,17 +4809,6 @@ div#id.hfeed.site {
   @media all and (min-width: 850px) {
     .single-post .comments-area {
       width: 95%; } }
-  .single-post .comments-area input {
-    width: 175px;
-    height: 40px;
-    border-radius: 25px 0px 25px 0px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    text-shadow: none;
-    font-size: 18px;
-    background: #E91C35;
-    color: white;
-    letter-spacing: 1pt; }
 
 .single-post .about-journey {
   height: 195px;
@@ -5019,6 +5039,17 @@ div.return-home {
     color: #FFFFFF;
     border: none;
     letter-spacing: 1pt; }
+  .page-template-consult .consult-form .wpcf7-response-output {
+    background-color: lightgreen;
+    font-size: 18px;
+    position: relative;
+    top: 24px; }
+  .page-template-consult .consult-form .wpcf7-validation-errors {
+    background-color: red; }
+  .page-template-consult .consult-form .wpcf7-form {
+    height: 600px; }
+  .page-template-consult .consult-form .content-column {
+    height: 300px; }
 
 .student-review .headergroup {
   position: relative;

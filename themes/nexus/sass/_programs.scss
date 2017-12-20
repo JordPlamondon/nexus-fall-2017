@@ -65,6 +65,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
+    @media #{$desktop} {
+      justify-content: space-between;
+    }
   }
 
   .select-container, .program-title {

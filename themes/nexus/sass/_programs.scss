@@ -63,14 +63,8 @@
     font-size: 18px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex-start;
-    @media #{$tablet-test}{
-      justify-content: center;
-    }
-    @media #{$desktop} {
-      justify-content: space-between;
-    }
+    justify-content: center;
+    align-content: space-around;
   }
 
   .select-container, .program-title {

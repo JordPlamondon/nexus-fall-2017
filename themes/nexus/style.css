@@ -3324,21 +3324,11 @@ nav.main-navigation:hover {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-line-pack: start;
-        align-content: flex-start; }
-    @media all and (min-width: 450px) {
-      .page-template-archive-nexus_program .search-results, .tax-provinces .search-results {
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center; } }
-    @media all and (min-width: 950px) {
-      .page-template-archive-nexus_program .search-results, .tax-provinces .search-results {
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between; } }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around; }
   .page-template-archive-nexus_program .select-container, .page-template-archive-nexus_program .program-title, .tax-provinces .select-container, .tax-provinces .program-title {
     margin-right: 1.5rem; }
   .page-template-archive-nexus_program .select-form-wrapper, .tax-provinces .select-form-wrapper {

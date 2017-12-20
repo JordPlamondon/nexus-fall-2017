@@ -5766,8 +5766,19 @@ body.archive .archive-page {
   body.archive .archive-page .archive-main-title {
     position: relative;
     font-size: 30px;
-    top: 20px; }
+    top: 20px;
+    padding-bottom: 5px; }
+    @media all and (min-width: 700px) {
+      body.archive .archive-page .archive-main-title {
+        top: 40px;
+        font-size: 40px; } }
+    @media all and (min-width: 780px) {
+      body.archive .archive-page .archive-main-title {
+        top: 50px; } }
     @media all and (min-width: 950px) {
+      body.archive .archive-page .archive-main-title {
+        top: 70px; } }
+    @media all and (min-width: 1150px) {
       body.archive .archive-page .archive-main-title {
         top: 80px;
         font-size: 50px;
@@ -5802,6 +5813,9 @@ body.archive .archive-page {
     text-align: center;
     color: #15405A;
     font-size: 21px; }
+    @media all and (min-width: 950px) {
+      body.archive .archive-page h2 {
+        font-size: 24px; } }
   body.archive .archive-page .wp-post-image {
     display: none; }
   body.archive .archive-page article {
@@ -5833,6 +5847,7 @@ body.archive .archive-page {
       @media all and (min-width: 950px) {
         body.archive .archive-page article p {
           width: 70%;
+          font-size: 18px;
           line-height: 40px; } }
     body.archive .archive-page article a {
       color: #15405A; }

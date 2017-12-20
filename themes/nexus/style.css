@@ -2610,7 +2610,7 @@ body.page-template-archive-nexus_program main {
       height: 126px;
       width: 27.5vw;
       margin: 40px 20px;
-      min-width: 100px; }
+      min-width: 115px; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li img {
           width: 41.8vw;
@@ -5780,7 +5780,7 @@ body.archive .archive-page {
         top: 70px; } }
     @media all and (min-width: 1150px) {
       body.archive .archive-page .archive-main-title {
-        top: 80px;
+        top: 70px;
         font-size: 50px;
         padding-bottom: 10px; } }
   body.archive .archive-page .archive-main-title:after {

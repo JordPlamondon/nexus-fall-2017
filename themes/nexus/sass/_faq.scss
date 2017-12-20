@@ -136,6 +136,7 @@
           top: 15px;
           color: $color__footer-background;
           right: 15px;
+          font-size: 23px;
           @media #{$desktop} {
             position: relative;
             right: 200px;
@@ -168,8 +169,9 @@
         }
         img {
           height: 126px;
-          width: 103px;
+          width: 27.5vw;
           margin: 40px 20px;
+          min-width: 100px;
           @media #{$desktop} {
             width: 41.8vw;
             height: 26.45vw;

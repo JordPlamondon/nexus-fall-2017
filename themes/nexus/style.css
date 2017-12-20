@@ -2537,7 +2537,8 @@ body.page-template-archive-nexus_program main {
       position: relative;
       top: 15px;
       color: #15405A;
-      right: 15px; }
+      right: 15px;
+      font-size: 23px; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li h2 {
           position: relative;
@@ -2568,8 +2569,9 @@ body.page-template-archive-nexus_program main {
           top: 15px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li img {
       height: 126px;
-      width: 103px;
-      margin: 40px 20px; }
+      width: 27.5vw;
+      margin: 40px 20px;
+      min-width: 100px; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li img {
           width: 41.8vw;

@@ -146,6 +146,7 @@ div#id.hfeed.site {
     line-height: 28px;
     font-family: $font__accent;
     @media #{$tablet} {
+      padding: 23px;
       width: 70%;
       font-size: 18px;
     }

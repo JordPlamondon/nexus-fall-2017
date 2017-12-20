@@ -4896,6 +4896,7 @@ div#id.hfeed.site {
     font-family: "Raleway", Arial, Helvetica, sans-serif; }
     @media all and (min-width: 850px) {
       .single-post .blog-post p {
+        padding: 23px;
         width: 70%;
         font-size: 18px; } }
 
@@ -5851,10 +5852,15 @@ body.archive .archive-page {
     top: 25px;
     text-align: center;
     font-size: 15px;
-    font-weight: 200; }
+    font-weight: 200;
+    font-style: italic;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 20px;
+    color: #15405A; }
     @media all and (min-width: 950px) {
       body.archive .archive-page .page-title {
-        top: 70px;
+        border-bottom: none;
+        top: 80px;
         font-size: 18px; } }
   body.archive .archive-page h2 {
     text-align: center;
@@ -5862,9 +5868,12 @@ body.archive .archive-page {
     font-size: 21px;
     margin-left: 15px;
     margin-right: 15px; }
-    @media all and (min-width: 950px) {
+    @media all and (min-width: 700px) {
       body.archive .archive-page h2 {
         font-size: 24px; } }
+    @media all and (min-width: 950px) {
+      body.archive .archive-page h2 {
+        font-size: 28px; } }
   body.archive .archive-page .wp-post-image {
     display: none; }
   body.archive .archive-page article {
@@ -5876,7 +5885,8 @@ body.archive .archive-page {
         -ms-flex-direction: column;
             flex-direction: column;
     border: none;
-    border-bottom: 1px solid #d3d3d3; }
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 15px; }
     @media all and (min-width: 950px) {
       body.archive .archive-page article {
         border: 1px solid #d3d3d3;
@@ -5888,15 +5898,21 @@ body.archive .archive-page {
     body.archive .archive-page article .entry-meta {
       margin-left: 15px;
       margin-right: 15px;
-      font-size: 14px; }
+      font-size: 12px; }
+      @media all and (min-width: 700px) {
+        body.archive .archive-page article .entry-meta {
+          font-size: 14px; } }
     body.archive .archive-page article p {
       display: inline-block;
       width: 85%;
       text-align: center;
       line-height: 30px;
-      font-size: 16px;
+      font-size: 14px;
       color: #15405A; }
-      @media all and (min-width: 950px) {
+      @media all and (min-width: 700px) {
+        body.archive .archive-page article p {
+          font-size: 16px; } }
+      @media all and (min-width: 1080px) {
         body.archive .archive-page article p {
           width: 70%;
           text-align: left;

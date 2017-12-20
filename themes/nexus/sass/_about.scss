@@ -3,15 +3,23 @@
   .entry-title {
     display: none;
   }
-
+  h2.consultant-title {
+    position: relative;
+    top: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: $color__text-main;
+    font-weight: 600;
+    color: $color__footer-background;
+    @media #{$desktop} {
+      font-size: 44px;
+    }
+  }
   .hero-wrapper {
      width: 100vw;
-      @media #{$desktop} {
-        padding-top: 65px;
-      }
     .about-title {   
       position: relative;
-      top: 190px;
+      top: 120px;
       text-align: center;
       color: $color__footer-background;
       font-size: 30px;
@@ -20,7 +28,7 @@
       padding-bottom: 5px;
       @media #{$desktop} {
         font-size: 60px;
-        top: 100px;
+        top: 120px;
         padding-bottom: 10px;
         }  
       }
@@ -39,12 +47,15 @@
         }
       }
       .hero-image {
-        height: 40vh;
+        height: 35vh;
         width: 100vw;
         min-width: 350px;
         background-image: url("../../assets/images/blog@3x.png");
         background-size: cover;
         background-position: bottom;
+        @media #{$desktop} {
+          height: 51.5vh;
+        }
       }
   }
 
@@ -309,18 +320,7 @@
     }
 
 
-h2 {
-  position: relative;
-  top: 40px;
-  font-size: 24px;
-  text-align: center;
-  color: $color__text-main;
-  font-weight: 600;
-  color: $color__footer-background;
-  @media #{$desktop} {
-    font-size: 44px;
-  }
-}
+
 }
   .about-consultants {
     height: 500px;
@@ -423,7 +423,7 @@ h2 {
     text-transform: none;
     bottom: 30px;
     @media #{$desktop} {
-      bottom: 50px;
+     
       font-size: 24px;
       font-weight: 600;
     }

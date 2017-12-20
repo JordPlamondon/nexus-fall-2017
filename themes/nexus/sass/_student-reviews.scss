@@ -90,10 +90,12 @@
 
       font-family: 'Raleway', sans-serif;
       @media #{$desktop} {
+        line-height: 1.25;
+        font-size: 1.15rem;
       }
 
       .quote-content div, p {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
       }
 
@@ -108,7 +110,6 @@
         display: flex;
         justify-content: flex-end;
         color: $color__fp-quotes;        
-        
       }
     }
   }

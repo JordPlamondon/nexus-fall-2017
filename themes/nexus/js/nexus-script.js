@@ -65,6 +65,8 @@
 // Province toggle
 
 
+
+
       $('.choose-wrapper-bc').hide();  
     $('.bc').on('click', function(e) {
       $('.choose-province-wrapper').css('margin-bottom', '200px');

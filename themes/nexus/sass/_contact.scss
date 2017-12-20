@@ -120,7 +120,6 @@
 // Hero 
 
   .hero-wrapper {
-    padding-top: 35px;
     .contact-hero-title {
       position: relative;
       top: 100px;
@@ -132,7 +131,7 @@
       @media #{$desktop} {
         font-size: 60px;
         padding-bottom: 10px;
-        top: 60px;
+        top: 140px;
       }
     }
     .contact-hero-title:after {
@@ -150,10 +149,14 @@
       }
     }
     .hero-image {
-      height: 239px;
+      height: 35vh;
       width: 100vw;
-      background-image: url("../../assets/images/blog_3@3x.png");
-      background-size: 100% 100%;
+      background-image: url("../../assets/images/moritz-matlik-76601.jpg");
+      background-size: cover;
+      background-position: bottom;
+      @media #{$desktop} {
+        height: 51.5vh;
+      }
     }
   }
 
@@ -206,7 +209,7 @@
       text-transform: none;
       bottom: 30px;
       @media #{$desktop} {
-        bottom: 50px;
+      
         font-size: 24px;
         font-weight: 600;
       }

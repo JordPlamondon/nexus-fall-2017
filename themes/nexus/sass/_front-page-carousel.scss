@@ -112,7 +112,6 @@
         @media all and (min-width: 880px) {
           width: 100%;
           margin-left: 5rem;
-          height: 23rem;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -191,23 +190,21 @@
         bottom: 48%;
       }
     }
-
-
-   
   }
   .curious {
     display: none;
 
     @media all and (min-width: 880px) {
-      display: inline-block;
-      position: relative;
-      top: 54%;
-      left: 28%;
+      width: 300px;
+      height: 200px;
+      position: absolute;
+    
     }
     @media all and (min-width: 1200px) {
      
     }
     &__subheader {
+      text-align: left;
       font-family: $font__main;
       font-weight: bold;
     }

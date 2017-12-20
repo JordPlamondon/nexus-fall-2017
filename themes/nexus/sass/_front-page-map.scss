@@ -8,7 +8,7 @@
       height: 800px;  
       margin: 0 auto;
       margin-top: -44px;
-      margin-bottom: 50px;
+      margin-bottom: 220px;
       background: url('../../assets/images/map_nexus01@3x.png');
       background-size: cover;
       background-repeat: no-repeat;
@@ -19,32 +19,38 @@
         color: $color__icon-element;
       }
       .bc {
+        height: 70px;
         position: relative;
         left: 212px;
         top: 560px;
         color:$color__quoteform-x;
       }
       .ab {
+        height: 70px;
         position: relative;
         left: 275px;
         top: 475px; 
       }
       .sk {
+        height: 70px;
         position: relative;
         left: 350px;
         top: 510px;
       }
       .man {
+        height: 70px;
         position: relative;
         left: 440px;
         top: 570px;
       }
       .on {
+        height: 70px;
         position: relative;
         left: 660px;
         top: 710px;
       }
       .qc {
+        height: 70px;
         position: relative;
         left: 670px;
         top: 620px;
@@ -86,7 +92,7 @@
     &__info {
       position: relative;
       left: 560px;
-      width: 220px;
+      width: 320px;
       font-size: 22px;
       font-family: $font__accent;
       top: 38px;

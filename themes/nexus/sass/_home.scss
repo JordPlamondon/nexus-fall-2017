@@ -98,8 +98,9 @@ body.blog {
     }
   }
 .blog-page {
+  margin-bottom: 50px;
   @media #{$desktop} {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
   ul {
     position: relative;
@@ -278,7 +279,6 @@ body.blog {
     }
   }
 }
-}
   //Read More Button
   .blog-text {
     button.read-more {
@@ -302,4 +302,72 @@ body.blog {
         background: darken($color__icon-element, 10%);
       }
     }
+  }
+  .archives {
+    position: relative;
+    bottom: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    @media #{$desktop} {
+      bottom: 90px;
+      font-size: 40px;
+      padding-bottom: 10px;
+    }
+  }
+  .archives:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 49px;
+    margin: 0 0 0 -25px;
+    border-bottom: 3px solid $color__accent-underline;
+    @media #{$desktop} {
+      margin: 0 0 0 -70px;
+      border-bottom: 6px solid $color__accent-underline;
+      width: 144px;
+    }
   } 
+  .blog-archives {
+    display: flex;
+    flex-direction: row-wrap;
+    position: relative;
+    list-style-type: none;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    @media #{$desktop} {
+      justify-content: center;
+      bottom: 70px;
+      font-size: 14px;
+    }
+    a {
+      letter-spacing: 0pt;
+      width: 124.65px;
+      padding: 9px;
+      border-radius: 25px 0px 25px 0px;
+      color: $color__text-white;
+      background-color: $color__icon-element;
+      font-weight: 600;
+      margin: 2px;
+      @media #{$desktop} {
+        margin: 20px;
+        letter-spacing: 1pt;
+      }  
+      &:hover {
+        background: darken($color__icon-element, 10%);
+      }
+    }  
+  }
+  .shadow-border-archive {
+    border-bottom: 1px solid rgb(209, 209, 209);
+    box-shadow: 0px 13px $color__textbox-background;
+    padding-top: 40px;
+    width: 100%;
+    position: relative;
+    @media #{$desktop} {
+      display: none;
+    }
+  }
+}

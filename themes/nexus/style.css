@@ -699,12 +699,13 @@ a {
     max-width: 100vw; }
     .home .site-main .full-page-wrapper .banner {
       padding-top: 20vw;
-      height: 50vw;
+      height: 70vw;
       background: url(../../assets/images/photo-hero-mobile.png);
       background-size: cover;
       background-position: bottom; }
       @media all and (min-width: 620px) {
         .home .site-main .full-page-wrapper .banner {
+          height: 50vw;
           padding-top: 6rem; } }
       @media all and (min-width: 950px) {
         .home .site-main .full-page-wrapper .banner {
@@ -725,13 +726,21 @@ a {
               -ms-flex-align: center;
                   align-items: center; } }
       .home .site-main .full-page-wrapper .banner__info {
+        position: relative;
+        top: 20px;
         width: 40%;
         margin-left: 2rem;
         line-height: 2rem; }
+        @media all and (min-width: 430px) {
+          .home .site-main .full-page-wrapper .banner__info {
+            top: 40px; } }
+        @media all and (min-width: 800px) {
+          .home .site-main .full-page-wrapper .banner__info {
+            top: 0;
+            line-height: 2.4rem; } }
         @media all and (min-width: 950px) {
           .home .site-main .full-page-wrapper .banner__info {
             margin: 0;
-            position: relative;
             bottom: 5rem; } }
       .home .site-main .full-page-wrapper .banner__info__h1 {
         margin: 1vw 0 0 0;
@@ -756,6 +765,7 @@ a {
             padding: 2vw; } }
         @media all and (min-width: 950px) {
           .home .site-main .full-page-wrapper .banner__info__h1 {
+            top: 0;
             font-size: 86px;
             letter-spacing: 10px;
             font-weight: bold;
@@ -778,8 +788,11 @@ a {
             top: 7vw; } }
         @media all and (min-width: 950px) {
           .home .site-main .full-page-wrapper .banner__info__p {
+            top: 0;
             font-size: 46px; } }
       .home .site-main .full-page-wrapper .banner__p {
+        position: relative;
+        top: 20px;
         width: 56%;
         margin-left: 2rem;
         margin-top: 0;
@@ -791,14 +804,17 @@ a {
         text-align: center; }
         @media all and (min-width: 430px) {
           .home .site-main .full-page-wrapper .banner__p {
-            margin-top: 1rem; } }
+            margin-top: 1rem;
+            top: 40px; } }
         @media all and (min-width: 800px) {
           .home .site-main .full-page-wrapper .banner__p {
             position: relative;
             top: 10vw; } }
         @media all and (min-width: 950px) {
           .home .site-main .full-page-wrapper .banner__p {
-            top: 2rem;
+            position: relative;
+            top: 0;
+            margin-top: 0;
             margin-top: 2vw;
             font-size: 22px;
             width: 33%;
@@ -1795,27 +1811,27 @@ a {
     .home .why-canada .owl-dots {
       bottom: 48%; } }
 
-@media all and (min-width: 880px) {
-  .home .curious {
-    display: inline-block;
-    position: relative;
-    top: 54%;
-    left: 28%; } }
-
-.home .curious__subheader {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: bold; }
-
-.home .curious__button {
-  width: 135px;
-  height: 40px;
-  padding: 14px;
-  border-radius: 25px 0px 25px 0px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  text-shadow: none;
-  background: #E91C35;
-  color: #FFFFFF; }
+.home .curious {
+  display: none; }
+  @media all and (min-width: 880px) {
+    .home .curious {
+      display: inline-block;
+      position: relative;
+      top: 54%;
+      left: 28%; } }
+  .home .curious__subheader {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold; }
+  .home .curious__button {
+    width: 135px;
+    height: 40px;
+    padding: 14px;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    background: #E91C35;
+    color: #FFFFFF; }
 
 /*--------------------------------------------------------------
 # Media
@@ -3432,7 +3448,7 @@ nav.main-navigation:hover {
   .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif; }
     @media all and (min-width: 450px) {
       .page-template-archive-nexus_program .program-type, .tax-provinces .program-type {
         font-size: 1.25rem; } }
@@ -5190,7 +5206,7 @@ aside.widget.widget_text {
         -ms-flex-pack: center;
             justify-content: center; }
     div.footer__social-media-container h2 {
-      padding: 20px 0 10px 0;
+      padding: 20px 0 0px 0;
       text-align: center;
       color: #FFFFFF;
       margin-bottom: 0;
@@ -5295,7 +5311,7 @@ aside.widget.widget_text {
       padding-top: 10px;
       width: 49px;
       border-bottom: 3px solid #FF8A2A; }
-  div.footer__social-media-container .underline.footer {
+  div.footer__social-media-container .underline-footer {
     margin: auto;
     width: 49px;
     border-bottom: 3px solid #FF8A2A; } }

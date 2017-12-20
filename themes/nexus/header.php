@@ -41,7 +41,7 @@
 
 				<div class="menu-content">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?><br>
-						<button class="book-consult">Book Consult</button>
+						<a href="<?php echo home_url(); ?>/consult/"><button class="book-consult-header">Book Consult</button></a>
 				</div>
 
 			</header><!-- #masthead -->

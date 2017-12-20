@@ -163,11 +163,12 @@
         </section>  <!-- End Student Review Section  -->
         </div>
         <div class="front-journey">
-          	<h2 class="front-journey-h2">Start Your Journey<h2><br>
+          	<h2 class="front-journey-h2">Start Your Journey</h2>
 	    	<div class="journey-text">
 	    	    <p>Let us help you find your path to success</p>
 	    	</div>
 	    	<a href="<?php echo home_url();?>/consult/"><div class="consult">Book Consult</div></a>
+        </div>
     </div> <!-- main content wrapper -->
 
     <h2 class="single-program-header-centered">You Might Also Like</h2>   

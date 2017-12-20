@@ -273,7 +273,7 @@ get_header(); ?>
 					</div> <!-- carousel -->
 					
 			<div class="front-journey">
-      		<h2 class="front-journey-h2">Start Your Journey<h2><br>
+      		<h2 class="front-journey-h2">Start Your Journey</h2>
 					<div class="journey-text">
 						<p>Let us help you find your path to success</p>
 					</div>

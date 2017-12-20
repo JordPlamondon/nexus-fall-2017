@@ -824,8 +824,8 @@ a {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.726)), to(rgba(255, 255, 255, 0.658))), url("../../assets/images/whynexus.png");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.726) 0, rgba(255, 255, 255, 0.658)), url("../../assets/images/whynexus.png");
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.726)), to(rgba(255, 255, 255, 0.658))), url("../../assets/images/whynexus@3x.png");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.726) 0, rgba(255, 255, 255, 0.658)), url("../../assets/images/whynexus@3x.png");
       background-position-y: top, bottom;
       background-position-x: left, left;
       background-repeat: no-repeat;

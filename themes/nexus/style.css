@@ -1080,7 +1080,7 @@ a {
       .front-journey .front-journey-h2 {
         font-size: 46px;
         font-weight: 600;
-        padding-bottom: 30px; } }
+        padding-bottom: 10px; } }
   .front-journey .front-journey-h2:after {
     content: "";
     position: absolute;
@@ -4373,6 +4373,9 @@ nav.main-navigation:hover {
     margin: 0 auto 2rem auto; }
   .single-nexus_program .read-more-program {
     width: 45%; }
+    .single-nexus_program .read-more-program .entry-header {
+      height: 220px;
+      overflow: hidden; }
     .single-nexus_program .read-more-program:last-child {
       display: none; }
       @media all and (min-width: 850px) {

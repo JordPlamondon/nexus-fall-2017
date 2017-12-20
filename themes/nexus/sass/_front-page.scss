@@ -404,10 +404,9 @@
     letter-spacing: 1pt;
     padding-bottom: 5px;
     @media #{$desktop} {
-      
       font-size: 46px;
       font-weight: 600;
-      padding-bottom: 30px;
+      padding-bottom: 10px;
     }
   }
   .front-journey-h2:after {

@@ -423,6 +423,10 @@
     margin: 0 auto 2rem auto;
   }
   .read-more-program {
+    .entry-header {
+      height: 220px;
+      overflow: hidden;
+    }
     &:last-child{
       display: none;
       @media #{$tablet} {

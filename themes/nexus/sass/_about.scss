@@ -47,12 +47,15 @@
         }
       }
       .hero-image {
-        height: 51.5vh;
+        height: 35vh;
         width: 100vw;
         min-width: 350px;
         background-image: url("../../assets/images/blog@3x.png");
         background-size: cover;
         background-position: bottom;
+        @media #{$desktop} {
+          height: 51.5vh;
+        }
       }
   }
 

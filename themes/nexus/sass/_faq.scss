@@ -41,7 +41,7 @@
         position: relative;
         padding: 0;
         bottom: 115px;
-        right: 20px;
+        right: 15px;
         @media #{$desktop} {
           width: 74px;
           border-bottom: 6px solid $color__accent-underline;
@@ -135,7 +135,7 @@
           position: relative;
           top: 15px;
           color: $color__footer-background;
-          right: 20px;
+          right: 15px;
           @media #{$desktop} {
             position: relative;
             right: 200px;
@@ -152,7 +152,7 @@
           font-size: 14px;
           font-weight: 100;
           color: $color__footer-background;
-          right: 20px;
+          right: 15px;
           @media all and (min-width: 650px) {
             font-size: 18px;
           }

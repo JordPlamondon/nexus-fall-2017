@@ -25,7 +25,7 @@ echo '<div class="blog-picture" style="background: url('. $url.');background-siz
 <!-- dummy text -->
 <div class="single-blog-title">
 <h1> <?php the_title(); ?> </h1>
-	<div class="underline"></div>
+	<!-- <div class="underline"></div> -->
 	</div>
 	<article class="blog-post"><p> 
 	<?php while ( have_posts() ) : the_post(); ?>
@@ -46,7 +46,6 @@ echo '<div class="blog-picture" style="background: url('. $url.');background-siz
 
 <div class="about-journey">
       		<h2 class="about-journey-h2">Start Your Journey<h2><br>
-					<!-- <div class="underline"></div> -->
 					<div class="journey-text">
 						<p>Let us help you find your path to success</p>
 					</div>

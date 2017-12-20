@@ -14,6 +14,12 @@
 					<div class="carouselplaceholder__info">
 						<?php the_content(); ?>
 					</div>
+
+					<div class="curious">
+			<h2 class="curious__subheader">Curious About Canada?</h2>
+			<a href="/nexus/FAQ/" class="curious__button">Visit FAQ Section</a>
+		</div>	
+		
 				</div><!-- .entry-content -->
 				<div class="carouselplaceholder__image-wrapper">
 					<?php if ( has_post_thumbnail() ) : ?>

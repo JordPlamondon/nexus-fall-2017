@@ -1722,7 +1722,6 @@ a {
       .home .why-canada .carouselplaceholder__content-wrapper {
         width: 100%;
         margin-left: 5rem;
-        height: 23rem;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1803,13 +1802,12 @@ a {
 
 @media all and (min-width: 880px) {
   .home .curious {
-    display: inline-block;
-    position: relative;
-    top: 78%;
-    left: 28%;
-    height: 200px; } }
+    width: 300px;
+    height: 200px;
+    position: absolute; } }
 
 .home .curious__subheader {
+  text-align: left;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold; }
 
@@ -2661,7 +2659,8 @@ div.banner-faq-single {
   height: 44.5vh;
   width: 100vw;
   background-image: url("../../assets/images/wade-gardner-26236.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   margin-bottom: 24px;
   margin-top: -65px; }
   @media all and (min-width: 950px) {

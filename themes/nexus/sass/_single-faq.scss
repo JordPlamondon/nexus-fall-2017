@@ -3,7 +3,8 @@ div.banner-faq-single {
   height: 44.5vh;
   width: 100vw;
   background-image: url("../../assets/images/wade-gardner-26236.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   margin-bottom: 24px;
   margin-top: -65px;
   @media #{$desktop} {

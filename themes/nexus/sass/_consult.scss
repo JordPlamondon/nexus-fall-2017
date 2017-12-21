@@ -70,5 +70,20 @@
       border: none;
       letter-spacing: 1pt; 
     }
+    .wpcf7-response-output {
+      background-color: lightgreen;
+      font-size: 18px;
+      position: relative;
+      top: 24px;
+    }
+    .wpcf7-validation-errors {
+      background-color: red;
+    }
+    .wpcf7-form {
+      height: 600px;
+    }
+    .content-column {
+      height: 300px;
+    }
   }
 }

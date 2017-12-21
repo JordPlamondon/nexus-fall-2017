@@ -36,13 +36,13 @@ get_header(); ?>
 					
 						<div class="list-text">
 							<a href="<?php the_permalink(); ?>" rel="faq title"> 
-							<button class="read-more">Learn More</button>
+								<button class="read-more">Learn More</button>
 							</a>
 							<a href="<?php the_permalink(); ?>" rel="faq title"> 
 								<h2><?php the_title(); ?></h2>
-						</a>
+							</a>
 							
-							<?php the_excerpt(); ?>
+							<p><?php echo wp_trim_words(get_the_excerpt(), 25, '...'); ?></p>
 					
 							<div class="underline"></div>
 						</div>

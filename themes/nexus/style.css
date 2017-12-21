@@ -1261,8 +1261,8 @@ a {
               justify-content: flex-end;
       height: 444px;
       margin-top: -200px;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/bc.jpg");
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/bc.jpg"); } }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("../../assets/images/bc-map.jpg");
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0, rgba(255, 255, 255, 0.4)), url("../../assets/images/bc-map.jpg"); } }
   .home .choose-wrapper-bc i {
     position: relative;
     top: 120px;
@@ -1995,7 +1995,7 @@ body.page-template-archive-nexus_program main {
     font-weight: 800; }
     @media all and (min-width: 950px) {
       .page-template-about .mission-wrapper h2 {
-        font-size: 30px; } }
+        font-size: 46px; } }
   .page-template-about .mission-wrapper .underline {
     position: relative;
     top: 14px;
@@ -2610,7 +2610,7 @@ body.page-template-archive-nexus_program main {
       height: 126px;
       width: 27.5vw;
       margin: 40px 20px;
-      min-width: 100px; }
+      min-width: 112px; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li img {
           width: 41.8vw;
@@ -3129,13 +3129,16 @@ div.menu-content {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none; }
-  div.menu-content button.book-consult {
-    width: 130px;
-    height: 40px;
+  div.menu-content .book-consult-header {
+    width: 160px;
+    height: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0;
+    margin-left: 24px;
     border-radius: 25px 0px 25px 0px;
     -webkit-box-shadow: none;
             box-shadow: none;
-    margin-left: 24px;
     text-shadow: none;
     background: #E91C35;
     color: #FFFFFF; }
@@ -3505,6 +3508,17 @@ nav.main-navigation:hover {
 .page-template-contact .wpcf7-textarea {
   resize: none; }
 
+.page-template-contact .wpcf7-response-output {
+  background-color: lightgreen;
+  font-size: 18px;
+  border: none;
+  color: white; }
+
+.page-template-contact .wpcf7-validation-errors {
+  background-color: red;
+  border: none;
+  color: white; }
+
 .page-template-contact .desktop-contact-display {
   display: none; }
   @media all and (min-width: 850px) {
@@ -3540,7 +3554,8 @@ nav.main-navigation:hover {
   background-color: #F3F5F8;
   width: 90vw;
   margin: 0 auto;
-  padding-left: 14%; }
+  padding-left: 10%;
+  padding-right: 10%; }
   @media all and (min-width: 850px) {
     .page-template-contact .contact-form {
       width: 80vw;
@@ -3559,7 +3574,7 @@ nav.main-navigation:hover {
     width: 90%; }
   .page-template-contact .contact-form .wpcf7-textarea {
     height: 300px; }
-  .page-template-contact .contact-form .wpcf7-submit {
+  .page-template-contact .contact-form .submit {
     letter-spacing: 1pt;
     width: 145px;
     height: 40px;
@@ -3577,9 +3592,9 @@ nav.main-navigation:hover {
     margin-top: 0;
     text-align: center;
     color: #15405A;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold; }
-    @media all and (min-width: 450px) {
+    @media all and (min-width: 850px) {
       .page-template-contact .contact-form h2.title {
         width: 300px;
         margin: 24px;
@@ -3587,7 +3602,11 @@ nav.main-navigation:hover {
         text-align: left; } }
   .page-template-contact .contact-form .contact-content {
     max-width: 345px;
-    color: #CFCFCF; }
+    margin: 0 auto; }
+    @media all and (min-width: 850px) {
+      .page-template-contact .contact-form .contact-content {
+        margin: 0;
+        color: #CFCFCF; } }
   .page-template-contact .contact-form .underline {
     margin: 0 auto;
     width: 49px;
@@ -4739,6 +4758,18 @@ div#id.hfeed.site {
           flex-direction: column;
   margin-top: 50px; }
 
+.single-post input.blog-comments {
+  width: 175px;
+  height: 40px;
+  border-radius: 25px 0px 25px 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  font-size: 18px;
+  background: #E91C35;
+  color: white;
+  letter-spacing: 1pt; }
+
 .single-post .blog-picture {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4786,42 +4817,63 @@ div#id.hfeed.site {
       .single-post .blog-picture p {
         width: 40%; } }
 
-.single-post .single-blog-title h1 {
-  background-color: rgba(255, 255, 255, 0.6);
-  color: #15405A;
-  font-size: 18px;
-  -ms-flex-item-align: center;
-      align-self: center;
-  text-align: center;
-  justify-self: baseline;
+.single-post .single-blog-title {
   position: relative;
-  padding: 24px;
-  top: 30%; }
-  @media all and (min-width: 450px) {
-    .single-post .single-blog-title h1 {
-      font-size: 24px; } }
-  @media all and (min-width: 850px) {
-    .single-post .single-blog-title h1 {
-      font-size: 34px; } }
+  bottom: 50px; }
   @media all and (min-width: 950px) {
-    .single-post .single-blog-title h1 {
-      font-size: 44px; } }
-
-.single-post .single-blog-title .underline {
-  position: relative;
-  bottom: 1vw;
-  left: 44%;
-  width: 49px;
-  border-bottom: 3px solid #FF8A2A; }
-  @media all and (min-width: 450px) {
-    .single-post .single-blog-title .underline {
-      position: relative;
-      bottom: 3vw;
-      width: 69px; } }
-  @media all and (min-width: 850px) {
-    .single-post .single-blog-title .underline {
-      width: 129px;
-      bottom: 3vw; } }
+    .single-post .single-blog-title {
+      bottom: 70px; } }
+  .single-post .single-blog-title h1 {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #15405A;
+    font-size: 18px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center;
+    justify-self: baseline;
+    position: relative;
+    padding: 24px;
+    top: 30%;
+    padding-bottom: 15px; }
+    @media all and (min-width: 450px) {
+      .single-post .single-blog-title h1 {
+        font-size: 24px; } }
+    @media all and (min-width: 850px) {
+      .single-post .single-blog-title h1 {
+        font-size: 34px;
+        padding-bottom: 18px; } }
+    @media all and (min-width: 950px) {
+      .single-post .single-blog-title h1 {
+        font-size: 44px;
+        padding-bottom: 20px; } }
+  .single-post .single-blog-title h1:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 49px;
+    margin: 0 0 0 -25px;
+    border-bottom: 3px solid #FF8A2A; }
+    @media all and (min-width: 950px) {
+      .single-post .single-blog-title h1:after {
+        margin: 0 0 0 -73px;
+        border-bottom: 6px solid #FF8A2A;
+        width: 144px; } }
+  .single-post .single-blog-title .underline {
+    position: relative;
+    bottom: 1vw;
+    left: 44%;
+    width: 49px;
+    border-bottom: 3px solid #FF8A2A; }
+    @media all and (min-width: 450px) {
+      .single-post .single-blog-title .underline {
+        position: relative;
+        bottom: 3vw;
+        width: 69px; } }
+    @media all and (min-width: 850px) {
+      .single-post .single-blog-title .underline {
+        width: 129px;
+        bottom: 3vw; } }
 
 .single-post .blog-post {
   margin-top: 48px;
@@ -4833,7 +4885,7 @@ div#id.hfeed.site {
     .single-post .blog-post {
       width: 90%; } }
   .single-post .blog-post p {
-    padding: 24px;
+    padding: 15px;
     width: 100%;
     margin: 0 auto;
     font-size: 16px;
@@ -4841,6 +4893,7 @@ div#id.hfeed.site {
     font-family: "Raleway", Arial, Helvetica, sans-serif; }
     @media all and (min-width: 850px) {
       .single-post .blog-post p {
+        padding: 23px;
         width: 70%;
         font-size: 18px; } }
 
@@ -4874,17 +4927,6 @@ div#id.hfeed.site {
   @media all and (min-width: 850px) {
     .single-post .comments-area {
       width: 95%; } }
-  .single-post .comments-area input {
-    width: 175px;
-    height: 40px;
-    border-radius: 25px 0px 25px 0px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    text-shadow: none;
-    font-size: 18px;
-    background: #E91C35;
-    color: white;
-    letter-spacing: 1pt; }
 
 .single-post .about-journey {
   height: 195px;
@@ -4932,7 +4974,7 @@ div#id.hfeed.site {
     bottom: 30px; }
     @media all and (min-width: 950px) {
       .single-post .about-journey p {
-        bottom: 50px;
+        bottom: 38px;
         font-size: 24px;
         font-weight: 600; } }
   .single-post .about-journey .consult {
@@ -5115,6 +5157,17 @@ div.return-home {
     color: #FFFFFF;
     border: none;
     letter-spacing: 1pt; }
+  .page-template-consult .consult-form .wpcf7-response-output {
+    background-color: lightgreen;
+    font-size: 18px;
+    position: relative;
+    top: 24px; }
+  .page-template-consult .consult-form .wpcf7-validation-errors {
+    background-color: red; }
+  .page-template-consult .consult-form .wpcf7-form {
+    height: 600px; }
+  .page-template-consult .consult-form .content-column {
+    height: 300px; }
 
 .student-review .headergroup {
   position: relative;
@@ -5772,9 +5825,9 @@ body.archive .archive-page {
         top: 70px; } }
     @media all and (min-width: 1150px) {
       body.archive .archive-page .archive-main-title {
-        top: 80px;
+        top: 70px;
         font-size: 50px;
-        padding-bottom: 10px; } }
+        padding-bottom: 12px; } }
   body.archive .archive-page .archive-main-title:after {
     content: "";
     position: absolute;
@@ -5796,18 +5849,29 @@ body.archive .archive-page {
     top: 25px;
     text-align: center;
     font-size: 15px;
-    font-weight: 200; }
+    font-weight: 200;
+    font-style: italic;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 20px;
+    color: #15405A; }
     @media all and (min-width: 950px) {
       body.archive .archive-page .page-title {
-        top: 70px;
+        border-bottom: none;
+        top: 80px;
         font-size: 18px; } }
   body.archive .archive-page h2 {
     text-align: center;
     color: #15405A;
-    font-size: 21px; }
+    font-size: 21px;
+    margin-left: 15px;
+    margin-right: 15px; }
+    @media all and (min-width: 700px) {
+      body.archive .archive-page h2 {
+        font-size: 24px;
+        padding-top: 5px; } }
     @media all and (min-width: 950px) {
       body.archive .archive-page h2 {
-        font-size: 24px; } }
+        font-size: 28px; } }
   body.archive .archive-page .wp-post-image {
     display: none; }
   body.archive .archive-page article {
@@ -5819,7 +5883,8 @@ body.archive .archive-page {
         -ms-flex-direction: column;
             flex-direction: column;
     border: none;
-    border-bottom: 1px solid #d3d3d3; }
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 15px; }
     @media all and (min-width: 950px) {
       body.archive .archive-page article {
         border: 1px solid #d3d3d3;
@@ -5829,16 +5894,26 @@ body.archive .archive-page {
     body.archive .archive-page article .entry-content {
       text-align: center; }
     body.archive .archive-page article .entry-meta {
-      font-size: 14px; }
+      margin-left: 15px;
+      margin-right: 15px;
+      font-size: 12px; }
+      @media all and (min-width: 700px) {
+        body.archive .archive-page article .entry-meta {
+          font-size: 14px; } }
     body.archive .archive-page article p {
       display: inline-block;
       width: 85%;
-      text-align: left;
+      text-align: center;
       line-height: 30px;
+      font-size: 14px;
       color: #15405A; }
-      @media all and (min-width: 950px) {
+      @media all and (min-width: 700px) {
+        body.archive .archive-page article p {
+          font-size: 16px; } }
+      @media all and (min-width: 1080px) {
         body.archive .archive-page article p {
           width: 70%;
+          text-align: left;
           font-size: 18px;
           line-height: 40px; } }
     body.archive .archive-page article a {

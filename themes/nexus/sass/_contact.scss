@@ -6,6 +6,17 @@
   .wpcf7-textarea {
     resize: none;
   }
+  .wpcf7-response-output {
+    background-color: lightgreen;
+    font-size: 18px;
+    border: none;
+    color: white;
+  }
+  .wpcf7-validation-errors {
+    background-color: red;
+    border: none;
+    color: white;
+  }
   .desktop-contact-display {
      display: none;
       @media #{$tablet} {
@@ -46,7 +57,8 @@
     background-color: $color__textbox-background;
     width: 90vw;
     margin: 0 auto;
-    padding-left: 14%;
+    padding-left:10%;
+    padding-right:10%;
       @media #{$tablet} {
         width: 80vw;
         height: 1000px;
@@ -58,6 +70,7 @@
         color: black;
       }
       .wpcf7-form {
+  
         @media #{$tablet-test} {
           position: relative;
           bottom:12px;
@@ -70,7 +83,7 @@
     .wpcf7-textarea {
       height: 300px;
     }
-    .wpcf7-submit {
+    .submit {
       letter-spacing: 1pt;
       width: 145px;
       height: 40px;
@@ -88,9 +101,9 @@
       margin-top: 0;
       text-align: center;
       color: $color__footer-background;
-      font-size: 24px;
+      font-size: 34px;
       font-weight: bold;
-      @media #{$tablet-test} {
+      @media #{$tablet} {
         width: 300px;
         margin: 24px;
         font-size: 50px;
@@ -99,8 +112,12 @@
       }
     }
     .contact-content {
-      max-width: 345px;  
+      max-width: 345px;
+      margin: 0 auto;  
+      @media #{$tablet} {
+        margin: 0;
       color: $color__contact-input; 
+      }
     }
     .underline {
       margin: 0 auto;

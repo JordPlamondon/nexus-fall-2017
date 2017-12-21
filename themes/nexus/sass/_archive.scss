@@ -70,6 +70,7 @@ body.archive {
       margin-right: 15px;
       @media all and (min-width: 700px) {
         font-size: 24px;
+        padding-top: 5px;
       }
       @media #{$desktop}{
         font-size: 28px;

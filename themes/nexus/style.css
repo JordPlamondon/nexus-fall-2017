@@ -2610,7 +2610,7 @@ body.page-template-archive-nexus_program main {
       height: 126px;
       width: 27.5vw;
       margin: 40px 20px;
-      min-width: 115px; }
+      min-width: 112px; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li img {
           width: 41.8vw;
@@ -4977,7 +4977,7 @@ div#id.hfeed.site {
     bottom: 30px; }
     @media all and (min-width: 950px) {
       .single-post .about-journey p {
-        bottom: 50px;
+        bottom: 38px;
         font-size: 24px;
         font-weight: 600; } }
   .single-post .about-journey .consult {
@@ -5870,7 +5870,8 @@ body.archive .archive-page {
     margin-right: 15px; }
     @media all and (min-width: 700px) {
       body.archive .archive-page h2 {
-        font-size: 24px; } }
+        font-size: 24px;
+        padding-top: 5px; } }
     @media all and (min-width: 950px) {
       body.archive .archive-page h2 {
         font-size: 28px; } }

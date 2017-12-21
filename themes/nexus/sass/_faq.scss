@@ -130,7 +130,7 @@
 
         .list-text {
           position: relative;
-          left: 20px;
+          left: 12px;
           display: flex;
           flex-wrap: wrap;
           min-width: 200px;
@@ -184,7 +184,7 @@
           height: 126px;
           width: 27.5vw;
           margin: 40px 20px;
-          min-width: 112px;
+          min-width: 110px;
           @media #{$desktop} {
             width: 41.8vw;
             height: 26.45vw;

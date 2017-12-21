@@ -2556,7 +2556,7 @@ body.page-template-archive-nexus_program main {
           top: 270px; } }
     .page-template-taxonomy-nexus_faq .faq-wrapper ul li .list-text {
       position: relative;
-      left: 20px;
+      left: 12px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2610,7 +2610,7 @@ body.page-template-archive-nexus_program main {
       height: 126px;
       width: 27.5vw;
       margin: 40px 20px;
-      min-width: 112px; }
+      min-width: 110px; }
       @media all and (min-width: 950px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li img {
           width: 41.8vw;

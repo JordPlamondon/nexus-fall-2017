@@ -2602,7 +2602,7 @@ body.page-template-archive-nexus_program main {
           font-size: 18px;
           top: 23px;
           right: 0; } }
-      @media all and (min-width: 1150px) {
+      @media all and (min-width: 1160px) {
         .page-template-taxonomy-nexus_faq .faq-wrapper ul li p {
           font-size: 23px;
           top: 15px; } }
@@ -5510,10 +5510,10 @@ aside.widget.widget_text {
     width: 49px;
     border-bottom: 3px solid #FF8A2A; } }
 
-/**************  Mobile MEDIA BREAK  ****************************/
-/**************  Mobile MEDIA BREAK  ****************************/
-/**************  Mobile MEDIA BREAK  ****************************/
-/**************  Mobile MEDIA BREAK  ****************************/
+/**************  Tablet MEDIA BREAK  ****************************/
+/**************  Tablet MEDIA BREAK  ****************************/
+/**************  Tablet MEDIA BREAK  ****************************/
+/**************  Tablet MEDIA BREAK  ****************************/
 @media screen and (max-width: 1019px) and (min-width: 551px) {
   div.footer__site-info.hidden {
     display: none; }

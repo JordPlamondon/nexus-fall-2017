@@ -4728,7 +4728,7 @@ body.blog {
       margin: 2px; }
       @media all and (min-width: 950px) {
         body.blog .blog-archives a {
-          margin: 20px;
+          margin: 30px;
           letter-spacing: 1pt; } }
       body.blog .blog-archives a:hover {
         background: #bf1328; }
